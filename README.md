@@ -1686,6 +1686,9 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-06-15**|**Evaluation and Optimization of Gradient Compression for Distributed Deep Learning**|Lin Zhang et.al.|[2306.08881](http://arxiv.org/abs/2306.08881)|**[link](https://github.com/lzhangbv/acpsgd)**|
+|**2023-06-14**|**DistSim: A performance model of large-scale hybrid distributed DNN training**|Guandong Lu et.al.|[2306.08423](http://arxiv.org/abs/2306.08423)|null|
+|**2023-06-14**|**$\textbf{A}^2\textbf{CiD}^2$ : Accelerating Asynchronous Communication in Decentralized Deep Learning**|Adel Nabli et.al.|[2306.08289](http://arxiv.org/abs/2306.08289)|null|
 |**2023-05-31**|**Surrogate Model Extension (SME): A Fast and Accurate Weight Update Attack on Federated Learning**|Junyi Zhu et.al.|[2306.00127](http://arxiv.org/abs/2306.00127)|**[link](https://github.com/junyizhu-ai/surrogate_model_extension)**|
 |**2023-05-29**|**Global-QSGD: Practical Floatless Quantization for Distributed Learning with Theoretical Guarantees**|Jihao Xin et.al.|[2305.18627](http://arxiv.org/abs/2305.18627)|null|
 |**2023-05-26**|**Channel and Gradient-Importance Aware Device Scheduling for Over-the-Air Federated Learning**|Yuchang Sun et.al.|[2305.16854](http://arxiv.org/abs/2305.16854)|null|
@@ -1703,6 +1706,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-06-15**|**The Split Matters: Flat Minima Methods for Improving the Performance of GNNs**|Nicolas Lell et.al.|[2306.09121](http://arxiv.org/abs/2306.09121)|**[link](https://github.com/foisunt/fmms-in-gnns)**|
+|**2023-06-15**|**On Strengthening and Defending Graph Reconstruction Attack with Markov Chain Approximation**|Zhanke Zhou et.al.|[2306.09104](http://arxiv.org/abs/2306.09104)|**[link](https://github.com/tmlr-group/mc-gra)**|
+|**2023-06-15**|**Scalable Resource Management for Dynamic MEC: An Unsupervised Link-Output Graph Neural Network Approach**|Xiucheng Wang et.al.|[2306.08938](http://arxiv.org/abs/2306.08938)|**[link](https://github.com/UNIC-Lab/LOGNN)**|
+|**2023-06-15**|**Multi-Temporal Relationship Inference in Urban Areas**|Shuangli Li et.al.|[2306.08921](http://arxiv.org/abs/2306.08921)|**[link](https://github.com/agave233/seenet)**|
+|**2023-06-14**|**A Unified Framework of Graph Information Bottleneck for Robustness and Membership Privacy**|Enyan Dai et.al.|[2306.08604](http://arxiv.org/abs/2306.08604)|null|
+|**2023-06-14**|**Self-supervised Learning and Graph Classification under Heterophily**|Yilin Ding et.al.|[2306.08469](http://arxiv.org/abs/2306.08469)|null|
+|**2023-06-14**|**NodeFormer: A Scalable Graph Structure Learning Transformer for Node Classification**|Qitian Wu et.al.|[2306.08385](http://arxiv.org/abs/2306.08385)|**[link](https://github.com/qitianwu/nodeformer)**|
+|**2023-06-14**|**Carbon emissions and sustainability of launching 5G mobile networks in China**|Tong Li et.al.|[2306.08337](http://arxiv.org/abs/2306.08337)|null|
+|**2023-06-14**|**FRIGATE: Frugal Spatio-temporal Forecasting on Road Networks**|Mridul Gupta et.al.|[2306.08277](http://arxiv.org/abs/2306.08277)|**[link](https://github.com/idea-iitd/frigate)**|
+|**2023-06-14**|**Uncertainty-Aware Robust Learning on Noisy Graphs**|Shuyi Chen et.al.|[2306.08210](http://arxiv.org/abs/2306.08210)|null|
 |**2023-06-13**|**Vector-Quantized Graph Auto-Encoder**|Yoann Boget et.al.|[2306.07735](http://arxiv.org/abs/2306.07735)|null|
 |**2023-06-15**|**Hyperbolic Graph Diffusion Model for Molecule Generation**|Lingfeng Wen et.al.|[2306.07618](http://arxiv.org/abs/2306.07618)|null|
 |**2023-06-13**|**Von Mises Mixture Distributions for Molecular Conformation Generation**|Kirk Swanson et.al.|[2306.07472](http://arxiv.org/abs/2306.07472)|**[link](https://github.com/thejonaslab/vonmises-icml-2023)**|
