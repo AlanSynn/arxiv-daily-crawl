@@ -1679,6 +1679,12 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-06-16**|**Uncertainty Quantification via Spatial-Temporal Tweedie Model for Zero-inflated and Long-tail Travel Demand Prediction**|Xinke Jiang et.al.|[2306.09882](http://arxiv.org/abs/2306.09882)|**[link](https://github.com/sttdanonymous/sttd)**|
+|**2023-06-16**|**Learning CO $_2$ plume migration in faulted reservoirs with Graph Neural Networks**|Xin Ju et.al.|[2306.09648](http://arxiv.org/abs/2306.09648)|null|
+|**2023-06-16**|**From Hypergraph Energy Functions to Hypergraph Neural Networks**|Yuxin Wang et.al.|[2306.09623](http://arxiv.org/abs/2306.09623)|**[link](https://github.com/yxzwang/phenomnn)**|
+|**2023-06-16**|**GraphSHA: Synthesizing Harder Samples for Class-Imbalanced Node Classification**|Wen-Zhi Li et.al.|[2306.09612](http://arxiv.org/abs/2306.09612)|**[link](https://github.com/wenzhilics/graphsha)**|
+|**2023-06-15**|**Kriging Convolutional Networks**|Gabriel Appleby et.al.|[2306.09463](http://arxiv.org/abs/2306.09463)|**[link](https://github.com/tufts-ml/kcn-torch)**|
+|**2023-06-15**|**Spatiotemporal-Augmented Graph Neural Networks for Human Mobility Simulation**|Yu Wang et.al.|[2306.09381](http://arxiv.org/abs/2306.09381)|null|
 |**2023-06-15**|**The Split Matters: Flat Minima Methods for Improving the Performance of GNNs**|Nicolas Lell et.al.|[2306.09121](http://arxiv.org/abs/2306.09121)|**[link](https://github.com/foisunt/fmms-in-gnns)**|
 |**2023-06-15**|**On Strengthening and Defending Graph Reconstruction Attack with Markov Chain Approximation**|Zhanke Zhou et.al.|[2306.09104](http://arxiv.org/abs/2306.09104)|**[link](https://github.com/tmlr-group/mc-gra)**|
 |**2023-06-15**|**Scalable Resource Management for Dynamic MEC: An Unsupervised Link-Output Graph Neural Network Approach**|Xiucheng Wang et.al.|[2306.08938](http://arxiv.org/abs/2306.08938)|**[link](https://github.com/UNIC-Lab/LOGNN)**|
