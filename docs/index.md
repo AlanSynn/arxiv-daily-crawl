@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2023.06.18
+## Updated on 2023.06.19
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1686,7 +1686,7 @@ layout: default
 |**2023-06-14**|**A Unified Framework of Graph Information Bottleneck for Robustness and Membership Privacy**|Enyan Dai et.al.|[2306.08604](http://arxiv.org/abs/2306.08604)|null|
 |**2023-06-14**|**Self-supervised Learning and Graph Classification under Heterophily**|Yilin Ding et.al.|[2306.08469](http://arxiv.org/abs/2306.08469)|null|
 |**2023-06-14**|**NodeFormer: A Scalable Graph Structure Learning Transformer for Node Classification**|Qitian Wu et.al.|[2306.08385](http://arxiv.org/abs/2306.08385)|**[link](https://github.com/qitianwu/nodeformer)**|
-|**2023-06-14**|**Carbon emissions and sustainability of launching 5G mobile networks in China**|Tong Li et.al.|[2306.08337](http://arxiv.org/abs/2306.08337)|null|
+|**2023-06-14**|**Carbon emissions and sustainability of launching 5G mobile networks in China**|Tong Li et.al.|[2306.08337](http://arxiv.org/abs/2306.08337)|**[link](https://github.com/tong89/sustainability_5g)**|
 |**2023-06-14**|**FRIGATE: Frugal Spatio-temporal Forecasting on Road Networks**|Mridul Gupta et.al.|[2306.08277](http://arxiv.org/abs/2306.08277)|**[link](https://github.com/idea-iitd/frigate)**|
 |**2023-06-14**|**Uncertainty-Aware Robust Learning on Noisy Graphs**|Shuyi Chen et.al.|[2306.08210](http://arxiv.org/abs/2306.08210)|null|
 |**2023-06-13**|**Vector-Quantized Graph Auto-Encoder**|Yoann Boget et.al.|[2306.07735](http://arxiv.org/abs/2306.07735)|null|
