@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2023.06.20
+## Updated on 2023.06.21
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -421,7 +421,7 @@
 |**2021-10-03**|**Quadrotor Control on $SU(2)\times R^3$ with SLAM Integration**|Marcus Greiff et.al.|[2110.01099](http://arxiv.org/abs/2110.01099)|null|
 |**2021-10-02**|**Online Incremental Non-Gaussian Inference for SLAM Using Normalizing Flows**|Qiangqiang Huang et.al.|[2110.00876](http://arxiv.org/abs/2110.00876)|**[link](https://github.com/marineroboticsgroup/nf-isam)**|
 
-<p align=right>(<a href=#Updated-on-20230620>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20230621>back to top</a>)</p>
 
 ## SFM
 
@@ -529,7 +529,7 @@
 |**2021-08-29**|**Solving Viewing Graph Optimization for Simultaneous Position and Rotation Registration**|Seyed-Mahdi Nasiri et.al.|[2108.12876](http://arxiv.org/abs/2108.12876)|null|
 |**2021-08-23**|**Burst Imaging for Light-Constrained Structure-From-Motion**|Ahalya Ravendran et.al.|[2108.09895](http://arxiv.org/abs/2108.09895)|null|
 
-<p align=right>(<a href=#Updated-on-20230620>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20230621>back to top</a>)</p>
 
 ## Visual Localization
 
@@ -972,7 +972,7 @@
 |**2021-09-09**|**CrowdDriven: A New Challenging Dataset for Outdoor Visual Localization**|Ara Jafarzadeh et.al.|[2109.04527](http://arxiv.org/abs/2109.04527)|null|
 |**2021-09-09**|**Keeping an Eye on Things: Deep Learned Features for Long-Term Visual Localization**|Mona Gridseth et.al.|[2109.04041](http://arxiv.org/abs/2109.04041)|**[link](https://github.com/utiasasrl/deep_learned_visual_features)**|
 
-<p align=right>(<a href=#Updated-on-20230620>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20230621>back to top</a>)</p>
 
 ## Keypoint Detection
 
@@ -1121,7 +1121,7 @@
 |**2021-08-31**|**A Novel Dataset for Keypoint Detection of quadruped Animals from Images**|Prianka Banik et.al.|[2108.13958](http://arxiv.org/abs/2108.13958)|**[link](https://github.com/prinik/awa-pose)**|
 |**2021-08-27**|**A Matching Algorithm based on Image Attribute Transfer and Local Features for Underwater Acoustic and Optical Images**|Xiaoteng Zhou et.al.|[2108.12151](http://arxiv.org/abs/2108.12151)|null|
 
-<p align=right>(<a href=#Updated-on-20230620>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20230621>back to top</a>)</p>
 
 ## Image Matching
 
@@ -1268,7 +1268,7 @@
 |**2021-08-27**|**Matching Underwater Sonar Images by the Learned Descriptor Based on Style Transfer Method**|Xiaoteng Zhou et.al.|[2108.12072](http://arxiv.org/abs/2108.12072)|null|
 |**2021-08-26**|**Efficient Joint Object Matching via Linear Programming**|Antonio De Rosa et.al.|[2108.11911](http://arxiv.org/abs/2108.11911)|null|
 
-<p align=right>(<a href=#Updated-on-20230620>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20230621>back to top</a>)</p>
 
 ## NeRF
 
@@ -1663,7 +1663,7 @@
 |**2022-07-29**|**Neural Density-Distance Fields**|Itsuki Ueda et.al.|[2207.14455](http://arxiv.org/abs/2207.14455)|**[link](https://github.com/ueda0319/neddf)**|
 |**2022-07-27**|**Is Attention All NeRF Needs?**|Mukund Varma T et.al.|[2207.13298](http://arxiv.org/abs/2207.13298)|null|
 
-<p align=right>(<a href=#Updated-on-20230620>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20230621>back to top</a>)</p>
 
 ## Inference
 
@@ -1680,7 +1680,7 @@
 |**2022-02-18**|**A Survey of Large-Scale Deep Learning Serving System Optimization: Challenges and Opportunities**|Fuxun Yu et.al.|[2111.14247](http://arxiv.org/abs/2111.14247)|null|
 |**2021-10-28**|**Characterizing and Taming Resolution in Convolutional Neural Networks**|Eddie Yan et.al.|[2110.14819](http://arxiv.org/abs/2110.14819)|null|
 
-<p align=right>(<a href=#Updated-on-20230620>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20230621>back to top</a>)</p>
 
 ## Distributed Deep Learning
 
@@ -1700,7 +1700,7 @@
 |**2023-05-12**|**Dynamically Conservative Self-Driving Planner for Long-Tail Cases**|Weitao Zhou et.al.|[2305.07497](http://arxiv.org/abs/2305.07497)|null|
 |**2023-05-10**|**P4SGD: Programmable Switch Enhanced Model-Parallel Training on Generalized Linear Models on Distributed FPGAs**|Hongjing Huang et.al.|[2305.05885](http://arxiv.org/abs/2305.05885)|null|
 
-<p align=right>(<a href=#Updated-on-20230620>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20230621>back to top</a>)</p>
 
 ## GNN System
 
@@ -1708,13 +1708,13 @@
 |---|---|---|---|---|
 |**2023-06-16**|**Uncertainty Quantification via Spatial-Temporal Tweedie Model for Zero-inflated and Long-tail Travel Demand Prediction**|Xinke Jiang et.al.|[2306.09882](http://arxiv.org/abs/2306.09882)|**[link](https://github.com/sttdanonymous/sttd)**|
 |**2023-06-16**|**Learning CO $_2$ plume migration in faulted reservoirs with Graph Neural Networks**|Xin Ju et.al.|[2306.09648](http://arxiv.org/abs/2306.09648)|null|
-|**2023-06-16**|**From Hypergraph Energy Functions to Hypergraph Neural Networks**|Yuxin Wang et.al.|[2306.09623](http://arxiv.org/abs/2306.09623)|**[link](https://github.com/yxzwang/phenomnn)**|
+|**2023-06-19**|**From Hypergraph Energy Functions to Hypergraph Neural Networks**|Yuxin Wang et.al.|[2306.09623](http://arxiv.org/abs/2306.09623)|**[link](https://github.com/yxzwang/phenomnn)**|
 |**2023-06-16**|**GraphSHA: Synthesizing Harder Samples for Class-Imbalanced Node Classification**|Wen-Zhi Li et.al.|[2306.09612](http://arxiv.org/abs/2306.09612)|**[link](https://github.com/wenzhilics/graphsha)**|
 |**2023-06-15**|**Kriging Convolutional Networks**|Gabriel Appleby et.al.|[2306.09463](http://arxiv.org/abs/2306.09463)|**[link](https://github.com/tufts-ml/kcn-torch)**|
-|**2023-06-15**|**Spatiotemporal-Augmented Graph Neural Networks for Human Mobility Simulation**|Yu Wang et.al.|[2306.09381](http://arxiv.org/abs/2306.09381)|null|
+|**2023-06-19**|**Spatiotemporal-Augmented Graph Neural Networks for Human Mobility Simulation**|Yu Wang et.al.|[2306.09381](http://arxiv.org/abs/2306.09381)|null|
 |**2023-06-15**|**The Split Matters: Flat Minima Methods for Improving the Performance of GNNs**|Nicolas Lell et.al.|[2306.09121](http://arxiv.org/abs/2306.09121)|**[link](https://github.com/foisunt/fmms-in-gnns)**|
 |**2023-06-15**|**On Strengthening and Defending Graph Reconstruction Attack with Markov Chain Approximation**|Zhanke Zhou et.al.|[2306.09104](http://arxiv.org/abs/2306.09104)|**[link](https://github.com/tmlr-group/mc-gra)**|
-|**2023-06-15**|**Scalable Resource Management for Dynamic MEC: An Unsupervised Link-Output Graph Neural Network Approach**|Xiucheng Wang et.al.|[2306.08938](http://arxiv.org/abs/2306.08938)|**[link](https://github.com/UNIC-Lab/LOGNN)**|
+|**2023-06-20**|**Scalable Resource Management for Dynamic MEC: An Unsupervised Link-Output Graph Neural Network Approach**|Xiucheng Wang et.al.|[2306.08938](http://arxiv.org/abs/2306.08938)|**[link](https://github.com/UNIC-Lab/LOGNN)**|
 |**2023-06-15**|**Multi-Temporal Relationship Inference in Urban Areas**|Shuangli Li et.al.|[2306.08921](http://arxiv.org/abs/2306.08921)|**[link](https://github.com/agave233/seenet)**|
 |**2023-06-14**|**A Unified Framework of Graph Information Bottleneck for Robustness and Membership Privacy**|Enyan Dai et.al.|[2306.08604](http://arxiv.org/abs/2306.08604)|null|
 |**2023-06-14**|**Self-supervised Learning and Graph Classification under Heterophily**|Yilin Ding et.al.|[2306.08469](http://arxiv.org/abs/2306.08469)|null|
@@ -1733,7 +1733,7 @@
 |**2023-06-11**|**Between-Sample Relationship in Learning Tabular Data Using Graph and Attention Networks**|Shourav B. Rabbani et.al.|[2306.06772](http://arxiv.org/abs/2306.06772)|null|
 |**2023-06-11**|**Local-to-global Perspectives on Graph Neural Networks**|Chen Cai et.al.|[2306.06547](http://arxiv.org/abs/2306.06547)|**[link](https://github.com/chen-cai-osu/mpnn-gt-connection)**|
 
-<p align=right>(<a href=#Updated-on-20230620>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20230621>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
