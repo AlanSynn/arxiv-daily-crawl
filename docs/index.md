@@ -1661,6 +1661,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-06-22**|**Reinforcement Federated Learning Method Based on Adaptive OPTICS Clustering**|Tianyu Zhao et.al.|[2306.12859](http://arxiv.org/abs/2306.12859)|null|
 |**2023-06-19**|**Data-Heterogeneous Hierarchical Federated Learning with Mobility**|Tan Chen et.al.|[2306.10692](http://arxiv.org/abs/2306.10692)|null|
 |**2023-06-18**|**DropCompute: simple and more robust distributed synchronous training via compute variance reduction**|Niv Giladi et.al.|[2306.10598](http://arxiv.org/abs/2306.10598)|**[link](https://github.com/paper-submissions/dropcompute)**|
 |**2023-06-15**|**Evaluation and Optimization of Gradient Compression for Distributed Deep Learning**|Lin Zhang et.al.|[2306.08881](http://arxiv.org/abs/2306.08881)|**[link](https://github.com/lzhangbv/acpsgd)**|
@@ -1681,7 +1682,11 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2023-06-21**|**Learning the galaxy-environment connection with graph neural networks**|John F. Wu et.al.|[2306.12327](http://arxiv.org/abs/2306.12327)|null|
+|**2023-06-22**|**Evolving Computation Graphs**|Andreea Deac et.al.|[2306.12943](http://arxiv.org/abs/2306.12943)|null|
+|**2023-06-22**|**StrainNet: Predicting crystal structure elastic properties using SE(3)-equivariant graph neural networks**|Teerachote Pakornchote et.al.|[2306.12818](http://arxiv.org/abs/2306.12818)|null|
+|**2023-06-22**|**On Addressing the Limitations of Graph Neural Networks**|Sitao Luan et.al.|[2306.12640](http://arxiv.org/abs/2306.12640)|null|
+|**2023-06-21**|**DGC-GNN: Descriptor-free Geometric-Color Graph Neural Network for 2D-3D Matching**|Shuzhe Wang et.al.|[2306.12547](http://arxiv.org/abs/2306.12547)|null|
+|**2023-06-21**|**Learning the galaxy-environment connection with graph neural networks**|John F. Wu et.al.|[2306.12327](http://arxiv.org/abs/2306.12327)|**[link](https://github.com/jwuphysics/halo-gnns)**|
 |**2023-06-21**|**GADBench: Revisiting and Benchmarking Supervised Graph Anomaly Detection**|Jianheng Tang et.al.|[2306.12251](http://arxiv.org/abs/2306.12251)|**[link](https://github.com/squareroot3/gadbench)**|
 |**2023-06-21**|**Predicting protein variants with equivariant graph neural networks**|Antonia Boca et.al.|[2306.12231](http://arxiv.org/abs/2306.12231)|null|
 |**2023-06-21**|**Spatial Heterophily Aware Graph Neural Networks**|Congxi Xiao et.al.|[2306.12139](http://arxiv.org/abs/2306.12139)|**[link](https://github.com/paddlepaddle/paddlespatial)**|
