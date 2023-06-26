@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2023.06.25
+## Updated on 2023.06.26
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1661,7 +1661,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2023-06-22**|**Reinforcement Federated Learning Method Based on Adaptive OPTICS Clustering**|Tianyu Zhao et.al.|[2306.12859](http://arxiv.org/abs/2306.12859)|null|
+|**2023-06-23**|**Reinforcement Federated Learning Method Based on Adaptive OPTICS Clustering**|Tianyu Zhao et.al.|[2306.12859](http://arxiv.org/abs/2306.12859)|null|
 |**2023-06-19**|**Data-Heterogeneous Hierarchical Federated Learning with Mobility**|Tan Chen et.al.|[2306.10692](http://arxiv.org/abs/2306.10692)|null|
 |**2023-06-18**|**DropCompute: simple and more robust distributed synchronous training via compute variance reduction**|Niv Giladi et.al.|[2306.10598](http://arxiv.org/abs/2306.10598)|**[link](https://github.com/paper-submissions/dropcompute)**|
 |**2023-06-15**|**Evaluation and Optimization of Gradient Compression for Distributed Deep Learning**|Lin Zhang et.al.|[2306.08881](http://arxiv.org/abs/2306.08881)|**[link](https://github.com/lzhangbv/acpsgd)**|
