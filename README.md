@@ -1686,6 +1686,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-06-24**|**Computron: Serving Distributed Deep Learning Models with Model Parallel Swapping**|Daniel Zou et.al.|[2306.13835](http://arxiv.org/abs/2306.13835)|**[link](https://github.com/dlzou/computron)**|
 |**2023-06-23**|**Reinforcement Federated Learning Method Based on Adaptive OPTICS Clustering**|Tianyu Zhao et.al.|[2306.12859](http://arxiv.org/abs/2306.12859)|null|
 |**2023-06-19**|**Data-Heterogeneous Hierarchical Federated Learning with Mobility**|Tan Chen et.al.|[2306.10692](http://arxiv.org/abs/2306.10692)|null|
 |**2023-06-18**|**DropCompute: simple and more robust distributed synchronous training via compute variance reduction**|Niv Giladi et.al.|[2306.10598](http://arxiv.org/abs/2306.10598)|**[link](https://github.com/paper-submissions/dropcompute)**|
@@ -1709,6 +1710,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-06-26**|**Metapopulation Graph Neural Networks: Deep Metapopulation Epidemic Modeling with Human Mobility**|Qi Cao et.al.|[2306.14857](http://arxiv.org/abs/2306.14857)|null|
+|**2023-06-26**|**Accelerating Molecular Graph Neural Networks via Knowledge Distillation**|Filip Ekström Kelvinius et.al.|[2306.14818](http://arxiv.org/abs/2306.14818)|null|
+|**2023-06-26**|**RoboCook: Long-Horizon Elasto-Plastic Object Manipulation with Diverse Tools**|Haochen Shi et.al.|[2306.14447](http://arxiv.org/abs/2306.14447)|null|
+|**2023-06-26**|**Interpretable Sparsification of Brain Graphs: Better Practices and Effective Designs for Graph Neural Networks**|Gaotang Li et.al.|[2306.14375](http://arxiv.org/abs/2306.14375)|**[link](https://github.com/motivationss/igs)**|
+|**2023-06-25**|**GPatcher: A Simple and Adaptive MLP Model for Alleviating Graph Heterophily**|Shuaicheng Zhang et.al.|[2306.14340](http://arxiv.org/abs/2306.14340)|null|
+|**2023-06-25**|**Real-time Seismic Intensity Prediction using Self-supervised Contrastive GNN for Earthquake Early Warning**|Rafid Umayer Murshed et.al.|[2306.14336](http://arxiv.org/abs/2306.14336)|null|
+|**2023-06-25**|**GPT-assisted learning of structure-property relationships by graph neural networks: Application to rare-earth doped phosphors**|Xiang Zhang et.al.|[2306.14238](http://arxiv.org/abs/2306.14238)|null|
+|**2023-06-25**|**Weisfeiler-Lehman Graph Kernel Method: A New Approach to Weak Chemical Tagging**|Yuan-Sen Ting et.al.|[2306.14206](http://arxiv.org/abs/2306.14206)|null|
+|**2023-06-24**|**Leveraging Brain Modularity Prior for Interpretable Representation Learning of fMRI**|Qianqian Wang et.al.|[2306.14080](http://arxiv.org/abs/2306.14080)|null|
+|**2023-06-24**|**Modeling Graphs Beyond Hyperbolic: Graph Neural Networks in Symmetric Positive Definite Matrices**|Wei Zhao et.al.|[2306.14064](http://arxiv.org/abs/2306.14064)|**[link](https://github.com/andyweizhao/spd4gnns)**|
 |**2023-06-23**|**Torsion Graph Neural Networks**|Cong Shen et.al.|[2306.13541](http://arxiv.org/abs/2306.13541)|**[link](https://github.com/cs-bio/torgnn)**|
 |**2023-06-23**|**PathMLP: Smooth Path Towards High-order Homophily**|Chenxuan Xie et.al.|[2306.13532](http://arxiv.org/abs/2306.13532)|null|
 |**2023-06-23**|**A Graph Neural Network Approach for Temporal Mesh Blending and Correspondence**|Aalok Gangopadhyay et.al.|[2306.13452](http://arxiv.org/abs/2306.13452)|null|
