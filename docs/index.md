@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2023.06.27
+## Updated on 2023.06.28
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1683,7 +1683,11 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2023-06-26**|**Metapopulation Graph Neural Networks: Deep Metapopulation Epidemic Modeling with Human Mobility**|Qi Cao et.al.|[2306.14857](http://arxiv.org/abs/2306.14857)|null|
+|**2023-06-27**|**Asynchronous Algorithmic Alignment with Cocycles**|Andrew Dudzik et.al.|[2306.15632](http://arxiv.org/abs/2306.15632)|null|
+|**2023-06-27**|**Higher-order Graph Attention Network for Stock Selection with Joint Analysis**|Yang Qiao et.al.|[2306.15526](http://arxiv.org/abs/2306.15526)|null|
+|**2023-06-27**|**Adversarial Training for Graph Neural Networks**|Lukas Gosch et.al.|[2306.15427](http://arxiv.org/abs/2306.15427)|null|
+|**2023-06-27**|**Input-sensitive dense-sparse primitive compositions for GNN acceleration**|Damitha Lenadora et.al.|[2306.15155](http://arxiv.org/abs/2306.15155)|null|
+|**2023-06-27**|**Metapopulation Graph Neural Networks: Deep Metapopulation Epidemic Modeling with Human Mobility**|Qi Cao et.al.|[2306.14857](http://arxiv.org/abs/2306.14857)|null|
 |**2023-06-26**|**Accelerating Molecular Graph Neural Networks via Knowledge Distillation**|Filip Ekström Kelvinius et.al.|[2306.14818](http://arxiv.org/abs/2306.14818)|null|
 |**2023-06-26**|**RoboCook: Long-Horizon Elasto-Plastic Object Manipulation with Diverse Tools**|Haochen Shi et.al.|[2306.14447](http://arxiv.org/abs/2306.14447)|null|
 |**2023-06-26**|**Interpretable Sparsification of Brain Graphs: Better Practices and Effective Designs for Graph Neural Networks**|Gaotang Li et.al.|[2306.14375](http://arxiv.org/abs/2306.14375)|**[link](https://github.com/motivationss/igs)**|
