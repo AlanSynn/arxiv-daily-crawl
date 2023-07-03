@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2023.07.02
+## Updated on 2023.07.03
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1687,7 +1687,7 @@ layout: default
 |:---------|:-----------------------|:---------|:------|:------|
 |**2023-06-29**|**Sparsity exploitation via discovering graphical models in multi-variate time-series forecasting**|Ngoc-Dung Do et.al.|[2306.17090](http://arxiv.org/abs/2306.17090)|null|
 |**2023-06-29**|**Diffusion-Jump GNNs: Homophiliation via Learnable Metric Filters**|Ahmed Begga et.al.|[2306.16976](http://arxiv.org/abs/2306.16976)|null|
-|**2023-06-29**|**Dynamic-Resolution Model Learning for Object Pile Manipulation**|Yixuan Wang et.al.|[2306.16700](http://arxiv.org/abs/2306.16700)|null|
+|**2023-06-30**|**Dynamic-Resolution Model Learning for Object Pile Manipulation**|Yixuan Wang et.al.|[2306.16700](http://arxiv.org/abs/2306.16700)|null|
 |**2023-06-28**|**Accelerating Sampling and Aggregation Operations in GNN Frameworks with GPU Initiated Direct Storage Accesses**|Jeongmin Brian Park et.al.|[2306.16384](http://arxiv.org/abs/2306.16384)|**[link](https://github.com/jeongminpark417/gids)**|
 |**2023-06-28**|**Enhancing Dialogue Generation via Dynamic Graph Knowledge Aggregation**|Chen Tang et.al.|[2306.16195](http://arxiv.org/abs/2306.16195)|null|
 |**2023-06-28**|**Mass Spectra Prediction with Structural Motif-based Graph Neural Networks**|Jiwon Park et.al.|[2306.16085](http://arxiv.org/abs/2306.16085)|null|
