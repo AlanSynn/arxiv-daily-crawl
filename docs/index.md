@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2023.07.05
+## Updated on 2023.07.06
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1690,13 +1690,13 @@ layout: default
 |:---------|:-----------------------|:---------|:------|:------|
 |**2023-07-03**|**PlanE: Representation Learning over Planar Graphs**|Radoslav Dimitrov et.al.|[2307.01180](http://arxiv.org/abs/2307.01180)|null|
 |**2023-07-03**|**A Survey on Graph Classification and Link Prediction based on GNN**|Xingyu Liu et.al.|[2307.00865](http://arxiv.org/abs/2307.00865)|null|
-|**2023-07-03**|**CardiGraphormer: Unveiling the Power of Self-Supervised Learning in Revolutionizing Drug Discovery**|Abhijit Gupta et.al.|[2307.00859](http://arxiv.org/abs/2307.00859)|null|
-|**2023-07-03**|**Beyond the Snapshot: Brain Tokenized Graph Transformer for Longitudinal Brain Functional Connectome Embedding**|Zijian Dong et.al.|[2307.00858](http://arxiv.org/abs/2307.00858)|null|
+|**2023-07-04**|**CardiGraphormer: Unveiling the Power of Self-Supervised Learning in Revolutionizing Drug Discovery**|Abhijit Gupta et.al.|[2307.00859](http://arxiv.org/abs/2307.00859)|null|
+|**2023-07-03**|**Beyond the Snapshot: Brain Tokenized Graph Transformer for Longitudinal Brain Functional Connectome Embedding**|Zijian Dong et.al.|[2307.00858](http://arxiv.org/abs/2307.00858)|**[link](https://github.com/zijiand/brain-tokengt)**|
 |**2023-07-03**|**GA-DRL: Graph Neural Network-Augmented Deep Reinforcement Learning for DAG Task Scheduling over Dynamic Vehicular Clouds**|Zhang Liu et.al.|[2307.00777](http://arxiv.org/abs/2307.00777)|null|
 |**2023-07-02**|**Shared Growth of Graph Neural Networks via Free-direction Knowledge Distillation**|Kaituo Feng et.al.|[2307.00534](http://arxiv.org/abs/2307.00534)|null|
 |**2023-07-02**|**Graph Neural Network based Log Anomaly Detection and Explanation**|Zhong Li et.al.|[2307.00527](http://arxiv.org/abs/2307.00527)|null|
 |**2023-07-02**|**STG4Traffic: A Survey and Benchmark of Spatial-Temporal Graph Neural Networks for Traffic Prediction**|Xunlian Luo et.al.|[2307.00495](http://arxiv.org/abs/2307.00495)|null|
-|**2023-07-01**|**MobileViG: Graph-Based Sparse Attention for Mobile Vision Applications**|Mustafa Munir et.al.|[2307.00395](http://arxiv.org/abs/2307.00395)|null|
+|**2023-07-01**|**MobileViG: Graph-Based Sparse Attention for Mobile Vision Applications**|Mustafa Munir et.al.|[2307.00395](http://arxiv.org/abs/2307.00395)|**[link](https://github.com/sldgroup/mobilevig)**|
 |**2023-07-01**|**Recursive Algorithmic Reasoning**|Dulhan Jayalath et.al.|[2307.00337](http://arxiv.org/abs/2307.00337)|**[link](https://github.com/DJayalath/gnn-call-stack)**|
 |**2023-06-30**|**Topologically Attributed Graphs for Shape Discrimination**|Justin Curry et.al.|[2306.17805](http://arxiv.org/abs/2306.17805)|null|
 |**2023-06-30**|**Graphtester: Exploring Theoretical Boundaries of GNNs on Graph Datasets**|Eren Akbiyik et.al.|[2306.17482](http://arxiv.org/abs/2306.17482)|null|
