@@ -1669,6 +1669,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-07-03**|**Pareto-Secure Machine Learning (PSML): Fingerprinting and Securing Inference Serving Systems**|Debopam Sanyal et.al.|[2307.01292](http://arxiv.org/abs/2307.01292)|null|
 |**2023-06-21**|**Subgraph Stationary Hardware-Software Inference Co-Design**|Payman Behnam et.al.|[2306.17266](http://arxiv.org/abs/2306.17266)|null|
 |**2023-05-10**|**Fast Distributed Inference Serving for Large Language Models**|Bingyang Wu et.al.|[2305.05920](http://arxiv.org/abs/2305.05920)|null|
 |**2023-04-24**|**Reconciling High Accuracy, Cost-Efficiency, and Low Latency of Inference Serving Systems**|Mehran Salmani et.al.|[2304.10892](http://arxiv.org/abs/2304.10892)|**[link](https://github.com/reconfigurable-ml-pipeline/infadapter)**|
@@ -1687,6 +1688,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-07-05**|**Improving Automatic Parallel Training via Balanced Memory Workload Optimization**|Yujie Wang et.al.|[2307.02031](http://arxiv.org/abs/2307.02031)|null|
 |**2023-06-30**|**Hashing-Based Distributed Clustering for Massive High-Dimensional Data**|Yifeng Xiao et.al.|[2306.17417](http://arxiv.org/abs/2306.17417)|null|
 |**2023-06-29**|**A Survey on Blockchain-Based Federated Learning and Data Privacy**|Bipin Chhetri et.al.|[2306.17338](http://arxiv.org/abs/2306.17338)|null|
 |**2023-06-29**|**OSP: Boosting Distributed Model Training with 2-stage Synchronization**|Zixuan Chen et.al.|[2306.16926](http://arxiv.org/abs/2306.16926)|null|
@@ -1715,6 +1717,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-07-05**|**Equivariant graph neural network interatomic potential for Green-Kubo thermal conductivity in phase change materials**|Sung-Ho Lee et.al.|[2307.02327](http://arxiv.org/abs/2307.02327)|null|
+|**2023-07-05**|**ChiENN: Embracing Molecular Chirality with Graph Neural Networks**|Piotr Gaiński et.al.|[2307.02198](http://arxiv.org/abs/2307.02198)|null|
+|**2023-07-05**|**Robust Graph Structure Learning with the Alignment of Features and Adjacency Matrix**|Shaogao Lv et.al.|[2307.02126](http://arxiv.org/abs/2307.02126)|null|
+|**2023-07-05**|**Graph Contrastive Topic Model**|Zheheng Luo et.al.|[2307.02078](http://arxiv.org/abs/2307.02078)|**[link](https://github.com/zhehengluok/gctm)**|
+|**2023-07-05**|**Graph Neural Network-based Power Flow Model**|Mingjian Tuo et.al.|[2307.02049](http://arxiv.org/abs/2307.02049)|null|
+|**2023-07-05**|**Muti-scale Graph Neural Network with Signed-attention for Social Bot Detection: A Frequency Perspective**|Shuhao Shi et.al.|[2307.01968](http://arxiv.org/abs/2307.01968)|null|
+|**2023-07-04**|**A Neural Collapse Perspective on Feature Evolution in Graph Neural Networks**|Vignesh Kothapalli et.al.|[2307.01951](http://arxiv.org/abs/2307.01951)|**[link](https://github.com/kvignesh1420/gnn_collapse)**|
+|**2023-07-04**|**Euclidean Equivariant Models for Generative Graphical Inverse Kinematics**|Oliver Limoyo et.al.|[2307.01902](http://arxiv.org/abs/2307.01902)|null|
+|**2023-07-04**|**GHOST: A Graph Neural Network Accelerator using Silicon Photonics**|Salma Afifi et.al.|[2307.01782](http://arxiv.org/abs/2307.01782)|null|
+|**2023-07-04**|**Serving Graph Neural Networks With Distributed Fog Servers For Smart IoT Services**|Liekang Zeng et.al.|[2307.01684](http://arxiv.org/abs/2307.01684)|null|
 |**2023-07-03**|**PlanE: Representation Learning over Planar Graphs**|Radoslav Dimitrov et.al.|[2307.01180](http://arxiv.org/abs/2307.01180)|null|
 |**2023-07-03**|**A Survey on Graph Classification and Link Prediction based on GNN**|Xingyu Liu et.al.|[2307.00865](http://arxiv.org/abs/2307.00865)|null|
 |**2023-07-04**|**CardiGraphormer: Unveiling the Power of Self-Supervised Learning in Revolutionizing Drug Discovery**|Abhijit Gupta et.al.|[2307.00859](http://arxiv.org/abs/2307.00859)|null|
