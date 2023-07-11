@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2023.07.10
+## Updated on 2023.07.11
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -421,7 +421,7 @@
 |**2021-10-03**|**Quadrotor Control on $SU(2)\times R^3$ with SLAM Integration**|Marcus Greiff et.al.|[2110.01099](http://arxiv.org/abs/2110.01099)|null|
 |**2021-10-02**|**Online Incremental Non-Gaussian Inference for SLAM Using Normalizing Flows**|Qiangqiang Huang et.al.|[2110.00876](http://arxiv.org/abs/2110.00876)|**[link](https://github.com/marineroboticsgroup/nf-isam)**|
 
-<p align=right>(<a href=#Updated-on-20230710>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20230711>back to top</a>)</p>
 
 ## SFM
 
@@ -529,7 +529,7 @@
 |**2021-08-29**|**Solving Viewing Graph Optimization for Simultaneous Position and Rotation Registration**|Seyed-Mahdi Nasiri et.al.|[2108.12876](http://arxiv.org/abs/2108.12876)|null|
 |**2021-08-23**|**Burst Imaging for Light-Constrained Structure-From-Motion**|Ahalya Ravendran et.al.|[2108.09895](http://arxiv.org/abs/2108.09895)|null|
 
-<p align=right>(<a href=#Updated-on-20230710>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20230711>back to top</a>)</p>
 
 ## Visual Localization
 
@@ -972,7 +972,7 @@
 |**2021-09-09**|**CrowdDriven: A New Challenging Dataset for Outdoor Visual Localization**|Ara Jafarzadeh et.al.|[2109.04527](http://arxiv.org/abs/2109.04527)|null|
 |**2021-09-09**|**Keeping an Eye on Things: Deep Learned Features for Long-Term Visual Localization**|Mona Gridseth et.al.|[2109.04041](http://arxiv.org/abs/2109.04041)|**[link](https://github.com/utiasasrl/deep_learned_visual_features)**|
 
-<p align=right>(<a href=#Updated-on-20230710>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20230711>back to top</a>)</p>
 
 ## Keypoint Detection
 
@@ -1121,7 +1121,7 @@
 |**2021-08-31**|**A Novel Dataset for Keypoint Detection of quadruped Animals from Images**|Prianka Banik et.al.|[2108.13958](http://arxiv.org/abs/2108.13958)|**[link](https://github.com/prinik/awa-pose)**|
 |**2021-08-27**|**A Matching Algorithm based on Image Attribute Transfer and Local Features for Underwater Acoustic and Optical Images**|Xiaoteng Zhou et.al.|[2108.12151](http://arxiv.org/abs/2108.12151)|null|
 
-<p align=right>(<a href=#Updated-on-20230710>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20230711>back to top</a>)</p>
 
 ## Image Matching
 
@@ -1268,7 +1268,7 @@
 |**2021-08-27**|**Matching Underwater Sonar Images by the Learned Descriptor Based on Style Transfer Method**|Xiaoteng Zhou et.al.|[2108.12072](http://arxiv.org/abs/2108.12072)|null|
 |**2021-08-26**|**Efficient Joint Object Matching via Linear Programming**|Antonio De Rosa et.al.|[2108.11911](http://arxiv.org/abs/2108.11911)|null|
 
-<p align=right>(<a href=#Updated-on-20230710>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20230711>back to top</a>)</p>
 
 ## NeRF
 
@@ -1663,7 +1663,7 @@
 |**2022-07-29**|**Neural Density-Distance Fields**|Itsuki Ueda et.al.|[2207.14455](http://arxiv.org/abs/2207.14455)|**[link](https://github.com/ueda0319/neddf)**|
 |**2022-07-27**|**Is Attention All NeRF Needs?**|Mukund Varma T et.al.|[2207.13298](http://arxiv.org/abs/2207.13298)|null|
 
-<p align=right>(<a href=#Updated-on-20230710>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20230711>back to top</a>)</p>
 
 ## Inference
 
@@ -1682,7 +1682,7 @@
 |**2022-02-18**|**A Survey of Large-Scale Deep Learning Serving System Optimization: Challenges and Opportunities**|Fuxun Yu et.al.|[2111.14247](http://arxiv.org/abs/2111.14247)|null|
 |**2021-10-28**|**Characterizing and Taming Resolution in Convolutional Neural Networks**|Eddie Yan et.al.|[2110.14819](http://arxiv.org/abs/2110.14819)|null|
 
-<p align=right>(<a href=#Updated-on-20230710>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20230711>back to top</a>)</p>
 
 ## Distributed Deep Learning
 
@@ -1692,7 +1692,7 @@
 |**2023-07-05**|**Improving Automatic Parallel Training via Balanced Memory Workload Optimization**|Yujie Wang et.al.|[2307.02031](http://arxiv.org/abs/2307.02031)|null|
 |**2023-06-30**|**Hashing-Based Distributed Clustering for Massive High-Dimensional Data**|Yifeng Xiao et.al.|[2306.17417](http://arxiv.org/abs/2306.17417)|null|
 |**2023-06-29**|**A Survey on Blockchain-Based Federated Learning and Data Privacy**|Bipin Chhetri et.al.|[2306.17338](http://arxiv.org/abs/2306.17338)|null|
-|**2023-06-29**|**OSP: Boosting Distributed Model Training with 2-stage Synchronization**|Zixuan Chen et.al.|[2306.16926](http://arxiv.org/abs/2306.16926)|null|
+|**2023-07-09**|**OSP: Boosting Distributed Model Training with 2-stage Synchronization**|Zixuan Chen et.al.|[2306.16926](http://arxiv.org/abs/2306.16926)|null|
 |**2023-06-28**|**Federated Generative Learning with Foundation Models**|Jie Zhang et.al.|[2306.16064](http://arxiv.org/abs/2306.16064)|**[link](https://github.com/zj-jayzhang/federated_generative_learning)**|
 |**2023-06-24**|**Computron: Serving Distributed Deep Learning Models with Model Parallel Swapping**|Daniel Zou et.al.|[2306.13835](http://arxiv.org/abs/2306.13835)|**[link](https://github.com/dlzou/computron)**|
 |**2023-06-23**|**Reinforcement Federated Learning Method Based on Adaptive OPTICS Clustering**|Tianyu Zhao et.al.|[2306.12859](http://arxiv.org/abs/2306.12859)|null|
@@ -1712,7 +1712,7 @@
 |**2023-05-12**|**Dynamically Conservative Self-Driving Planner for Long-Tail Cases**|Weitao Zhou et.al.|[2305.07497](http://arxiv.org/abs/2305.07497)|null|
 |**2023-05-10**|**P4SGD: Programmable Switch Enhanced Model-Parallel Training on Generalized Linear Models on Distributed FPGAs**|Hongjing Huang et.al.|[2305.05885](http://arxiv.org/abs/2305.05885)|null|
 
-<p align=right>(<a href=#Updated-on-20230710>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20230711>back to top</a>)</p>
 
 ## GNN System
 
@@ -1722,11 +1722,11 @@
 |**2023-07-07**|**GEANN: Scalable Graph Augmentations for Multi-Horizon Time Series Forecasting**|Sitan Yang et.al.|[2307.03595](http://arxiv.org/abs/2307.03595)|null|
 |**2023-07-07**|**Roman Numeral Analysis with Graph Neural Networks: Onset-wise Predictions from Note-wise Features**|Emmanouil Karystinaios et.al.|[2307.03544](http://arxiv.org/abs/2307.03544)|null|
 |**2023-07-07**|**Learning from Heterogeneity: A Dynamic Learning Framework for Hypergraphs**|Tiehua Zhang et.al.|[2307.03411](http://arxiv.org/abs/2307.03411)|null|
-|**2023-07-07**|**Exploring the Potential of Large Language Models (LLMs) in Learning on Graphs**|Zhikai Chen et.al.|[2307.03393](http://arxiv.org/abs/2307.03393)|null|
+|**2023-07-10**|**Exploring the Potential of Large Language Models (LLMs) in Learning on Graphs**|Zhikai Chen et.al.|[2307.03393](http://arxiv.org/abs/2307.03393)|null|
 |**2023-07-06**|**CPDG: A Contrastive Pre-Training Method for Dynamic Graph Neural Networks**|Yuanchen Bei et.al.|[2307.02813](http://arxiv.org/abs/2307.02813)|null|
 |**2023-07-05**|**Exploring Multimodal Approaches for Alzheimer's Disease Detection Using Patient Speech Transcript and Audio Data**|Hongmin Cai et.al.|[2307.02514](http://arxiv.org/abs/2307.02514)|**[link](https://github.com/shui-dun/multimodal_ad)**|
 |**2023-07-05**|**Equivariant graph neural network interatomic potential for Green-Kubo thermal conductivity in phase change materials**|Sung-Ho Lee et.al.|[2307.02327](http://arxiv.org/abs/2307.02327)|null|
-|**2023-07-05**|**ChiENN: Embracing Molecular Chirality with Graph Neural Networks**|Piotr Gaiński et.al.|[2307.02198](http://arxiv.org/abs/2307.02198)|null|
+|**2023-07-10**|**ChiENN: Embracing Molecular Chirality with Graph Neural Networks**|Piotr Gaiński et.al.|[2307.02198](http://arxiv.org/abs/2307.02198)|null|
 |**2023-07-05**|**Robust Graph Structure Learning with the Alignment of Features and Adjacency Matrix**|Shaogao Lv et.al.|[2307.02126](http://arxiv.org/abs/2307.02126)|null|
 |**2023-07-05**|**Graph Contrastive Topic Model**|Zheheng Luo et.al.|[2307.02078](http://arxiv.org/abs/2307.02078)|**[link](https://github.com/zhehengluok/gctm)**|
 |**2023-07-05**|**Graph Neural Network-based Power Flow Model**|Mingjian Tuo et.al.|[2307.02049](http://arxiv.org/abs/2307.02049)|null|
@@ -1824,7 +1824,7 @@
 |**2023-06-11**|**Between-Sample Relationship in Learning Tabular Data Using Graph and Attention Networks**|Shourav B. Rabbani et.al.|[2306.06772](http://arxiv.org/abs/2306.06772)|null|
 |**2023-06-11**|**Local-to-global Perspectives on Graph Neural Networks**|Chen Cai et.al.|[2306.06547](http://arxiv.org/abs/2306.06547)|**[link](https://github.com/chen-cai-osu/mpnn-gt-connection)**|
 
-<p align=right>(<a href=#Updated-on-20230710>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20230711>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
