@@ -1663,6 +1663,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-07-11**|**A Survey From Distributed Machine Learning to Distributed Deep Learning**|Mohammad Dehghani et.al.|[2307.05232](http://arxiv.org/abs/2307.05232)|null|
 |**2023-07-11**|**DEFT: Exploiting Gradient Norm Difference between Model Layers for Scalable Gradient Sparsification**|Daegun Yoon et.al.|[2307.03500](http://arxiv.org/abs/2307.03500)|**[link](https://github.com/kljp/deft)**|
 |**2023-07-05**|**Improving Automatic Parallel Training via Balanced Memory Workload Optimization**|Yujie Wang et.al.|[2307.02031](http://arxiv.org/abs/2307.02031)|null|
 |**2023-06-30**|**Hashing-Based Distributed Clustering for Massive High-Dimensional Data**|Yifeng Xiao et.al.|[2306.17417](http://arxiv.org/abs/2306.17417)|null|
@@ -1691,6 +1692,15 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-07-11**|**Discovering Symbolic Laws Directly from Trajectories with Hamiltonian Graph Neural Networks**|Suresh Bishnoi et.al.|[2307.05299](http://arxiv.org/abs/2307.05299)|null|
+|**2023-07-11**|**Supervised Attention Using Homophily in Graph Neural Networks**|Michail Chatzianastasis et.al.|[2307.05217](http://arxiv.org/abs/2307.05217)|null|
+|**2023-07-11**|**ResMatch: Residual Attention Learning for Local Feature Matching**|Yuxin Deng et.al.|[2307.05180](http://arxiv.org/abs/2307.05180)|null|
+|**2023-07-11**|**A Modal Logic for Explaining some Graph Neural Networks**|Pierre Nunn et.al.|[2307.05150](http://arxiv.org/abs/2307.05150)|null|
+|**2023-07-11**|**Transaction Fraud Detection via Spatial-Temporal-Aware Graph Transformer**|Yue Tian et.al.|[2307.05121](http://arxiv.org/abs/2307.05121)|null|
+|**2023-07-11**|**Neural-Symbolic Recommendation with Graph-Enhanced Information**|Bang Chen et.al.|[2307.05036](http://arxiv.org/abs/2307.05036)|**[link](https://github.com/hanzo2020/gnnlr)**|
+|**2023-07-11**|**Intrinsically motivated graph exploration using network theories of human curiosity**|Shubhankar P. Patankar et.al.|[2307.04962](http://arxiv.org/abs/2307.04962)|null|
+|**2023-07-10**|**Improving Fairness of Graph Neural Networks: A Graph Counterfactual Perspective**|Zhimeng Guo et.al.|[2307.04937](http://arxiv.org/abs/2307.04937)|null|
+|**2023-07-10**|**Learning to Solve Constraint Satisfaction Problems with Recurrent Transformer**|Zhun Yang et.al.|[2307.04895](http://arxiv.org/abs/2307.04895)|**[link](https://github.com/azreasoners/recurrent_transformer)**|
 |**2023-07-10**|**On the power of graph neural networks and the role of the activation function**|Sammy Khalife et.al.|[2307.04661](http://arxiv.org/abs/2307.04661)|null|
 |**2023-07-10**|**Multi-modal Graph Learning over UMLS Knowledge Graphs**|Manuel Burger et.al.|[2307.04461](http://arxiv.org/abs/2307.04461)|null|
 |**2023-07-10**|**Privacy-Preserving Graph Machine Learning from Data to Computation: A Survey**|Dongqi Fu et.al.|[2307.04338](http://arxiv.org/abs/2307.04338)|null|
