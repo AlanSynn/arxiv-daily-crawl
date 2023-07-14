@@ -1694,6 +1694,11 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-07-13**|**Privacy-Utility Trade-offs in Neural Networks for Medical Population Graphs: Insights from Differential Privacy and Graph Structure**|Tamara T. Mueller et.al.|[2307.06760](http://arxiv.org/abs/2307.06760)|null|
+|**2023-07-13**|**Frameless Graph Knowledge Distillation**|Dai Shi et.al.|[2307.06631](http://arxiv.org/abs/2307.06631)|**[link](https://github.com/dshi3553usyd/frameless_graph_distillation)**|
+|**2023-07-13**|**Going Beyond Local: Global Graph-Enhanced Personalized News Recommendations**|Boming Yang et.al.|[2307.06576](http://arxiv.org/abs/2307.06576)|**[link](https://github.com/tinyrolls/glory)**|
+|**2023-07-12**|**Improved selective background Monte Carlo simulation at Belle II with graph attention networks and weighted events**|Boyang Yu et.al.|[2307.06434](http://arxiv.org/abs/2307.06434)|null|
+|**2023-07-12**|**Differentially Private Decoupled Graph Convolutions for Multigranular Topology Protection**|Eli Chien et.al.|[2307.06422](http://arxiv.org/abs/2307.06422)|null|
 |**2023-07-12**|**Learning Stochastic Dynamical Systems as an Implicit Regularization with Graph Neural Networks**|Jin Guo et.al.|[2307.06097](http://arxiv.org/abs/2307.06097)|null|
 |**2023-07-12**|**An OOD Multi-Task Perspective for Link Prediction with New Relation Types and Nodes**|Jincheng Zhou et.al.|[2307.06046](http://arxiv.org/abs/2307.06046)|null|
 |**2023-07-12**|**An Effective and Efficient Time-aware Entity Alignment Framework via Two-aspect Three-view Label Propagation**|Li Cai et.al.|[2307.06013](http://arxiv.org/abs/2307.06013)|null|
