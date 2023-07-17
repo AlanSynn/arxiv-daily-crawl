@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2023.07.16
+## Updated on 2023.07.17
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1666,7 +1666,7 @@ layout: default
 |**2023-07-12**|**Tackling Computational Heterogeneity in FL: A Few Theoretical Insights**|Adnan Ben Mansour et.al.|[2307.06283](http://arxiv.org/abs/2307.06283)|null|
 |**2023-07-13**|**Efficient Task Offloading Algorithm for Digital Twin in Edge/Cloud Computing Environment**|Ziru Zhang et.al.|[2307.05888](http://arxiv.org/abs/2307.05888)|null|
 |**2023-07-11**|**A Survey From Distributed Machine Learning to Distributed Deep Learning**|Mohammad Dehghani et.al.|[2307.05232](http://arxiv.org/abs/2307.05232)|null|
-|**2023-07-11**|**DEFT: Exploiting Gradient Norm Difference between Model Layers for Scalable Gradient Sparsification**|Daegun Yoon et.al.|[2307.03500](http://arxiv.org/abs/2307.03500)|**[link](https://github.com/kljp/deft)**|
+|**2023-07-13**|**DEFT: Exploiting Gradient Norm Difference between Model Layers for Scalable Gradient Sparsification**|Daegun Yoon et.al.|[2307.03500](http://arxiv.org/abs/2307.03500)|**[link](https://github.com/kljp/deft)**|
 |**2023-07-05**|**Improving Automatic Parallel Training via Balanced Memory Workload Optimization**|Yujie Wang et.al.|[2307.02031](http://arxiv.org/abs/2307.02031)|null|
 |**2023-06-30**|**Hashing-Based Distributed Clustering for Massive High-Dimensional Data**|Yifeng Xiao et.al.|[2306.17417](http://arxiv.org/abs/2306.17417)|null|
 |**2023-06-29**|**A Survey on Blockchain-Based Federated Learning and Data Privacy**|Bipin Chhetri et.al.|[2306.17338](http://arxiv.org/abs/2306.17338)|null|
