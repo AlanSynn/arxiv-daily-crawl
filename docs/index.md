@@ -1663,6 +1663,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-07-16**|**Accelerating Distributed ML Training via Selective Synchronization**|Sahil Tyagi et.al.|[2307.07950](http://arxiv.org/abs/2307.07950)|null|
 |**2023-07-12**|**Tackling Computational Heterogeneity in FL: A Few Theoretical Insights**|Adnan Ben Mansour et.al.|[2307.06283](http://arxiv.org/abs/2307.06283)|null|
 |**2023-07-13**|**Efficient Task Offloading Algorithm for Digital Twin in Edge/Cloud Computing Environment**|Ziru Zhang et.al.|[2307.05888](http://arxiv.org/abs/2307.05888)|null|
 |**2023-07-11**|**A Survey From Distributed Machine Learning to Distributed Deep Learning**|Mohammad Dehghani et.al.|[2307.05232](http://arxiv.org/abs/2307.05232)|null|
@@ -1694,6 +1695,16 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-07-17**|**PolyGNN: Polyhedron-based Graph Neural Network for 3D Building Reconstruction from Point Clouds**|Zhaiyu Chen et.al.|[2307.08636](http://arxiv.org/abs/2307.08636)|null|
+|**2023-07-17**|**G-Scan: Graph Neural Networks for Line-Level Vulnerability Identification in Smart Contracts**|Christoph Sendner et.al.|[2307.08549](http://arxiv.org/abs/2307.08549)|null|
+|**2023-07-17**|**Towards eXplainable AI for Mobility Data Science**|Anahid Jalali et.al.|[2307.08461](http://arxiv.org/abs/2307.08461)|null|
+|**2023-07-17**|**Long-range Dependency based Multi-Layer Perceptron for Heterogeneous Information Networks**|Chao Li et.al.|[2307.08430](http://arxiv.org/abs/2307.08430)|**[link](https://github.com/jhl-hust/ldmlp)**|
+|**2023-07-17**|**Correlation-aware Spatial-Temporal Graph Learning for Multivariate Time-series Anomaly Detection**|Yu Zheng et.al.|[2307.08390](http://arxiv.org/abs/2307.08390)|null|
+|**2023-07-16**|**Heterogeneous graphs model spatial relationships between biological entities for breast cancer diagnosis**|Akhila Krishna K et.al.|[2307.08132](http://arxiv.org/abs/2307.08132)|null|
+|**2023-07-16**|**INFLECT-DGNN: Influencer Prediction with Dynamic Graph Neural Networks**|Elena Tiukhova et.al.|[2307.08131](http://arxiv.org/abs/2307.08131)|**[link](https://github.com/banking-analytics-lab/inflect)**|
+|**2023-07-16**|**MaGNAS: A Mapping-Aware Graph Neural Architecture Search Framework for Heterogeneous MPSoC Deployment**|Mohanad Odema et.al.|[2307.08065](http://arxiv.org/abs/2307.08065)|null|
+|**2023-07-16**|**Automated Polynomial Filter Learning for Graph Neural Networks**|Wendi Yu et.al.|[2307.07956](http://arxiv.org/abs/2307.07956)|null|
+|**2023-07-15**|**RegExplainer: Generating Explanations for Graph Neural Networks in Regression Task**|Jiaxing Zhang et.al.|[2307.07840](http://arxiv.org/abs/2307.07840)|null|
 |**2023-07-14**|**Real-time Graph Building on FPGAs for Machine Learning Trigger Applications in Particle Physics**|Marc Neu et.al.|[2307.07289](http://arxiv.org/abs/2307.07289)|null|
 |**2023-07-13**|**MaxCorrMGNN: A Multi-Graph Neural Network Framework for Generalized Multimodal Fusion of Medical Data for Outcome Prediction**|Niharika S. D'Souza et.al.|[2307.07093](http://arxiv.org/abs/2307.07093)|null|
 |**2023-07-13**|**Espaloma-0.3.0: Machine-learned molecular mechanics force field for the simulation of protein-ligand systems and beyond**|Kenichiro Takaba et.al.|[2307.07085](http://arxiv.org/abs/2307.07085)|null|
