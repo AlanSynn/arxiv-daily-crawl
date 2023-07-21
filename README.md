@@ -1722,6 +1722,10 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-07-20**|**A Novel Unsupervised Graph Wavelet Autoencoder for Mechanical System Fault Detection**|Tianfu Li et.al.|[2307.10676](http://arxiv.org/abs/2307.10676)|null|
+|**2023-07-20**|**Air Traffic Controller Workload Level Prediction using Conformalized Dynamical Graph Learning**|Yutian Pang et.al.|[2307.10559](http://arxiv.org/abs/2307.10559)|**[link](https://github.com/ymlasu/para-atm-collection)**|
+|**2023-07-20**|**Power Allocation for Device-to-Device Interference Channel Using Truncated Graph Transformers**|Dohoon Kim et.al.|[2307.10538](http://arxiv.org/abs/2307.10538)|null|
+|**2023-07-19**|**Uncertainty Quantification for Molecular Property Predictions with Graph Neural Architecture Search**|Shengli Jiang et.al.|[2307.10438](http://arxiv.org/abs/2307.10438)|null|
 |**2023-07-19**|**AutoAMG( $θ$ ): An Auto-tuned AMG Method Based on Deep Learning for Strong Threshold**|Haifeng Zou et.al.|[2307.09879](http://arxiv.org/abs/2307.09879)|null|
 |**2023-07-19**|**Detecting Vulnerable Nodes in Urban Infrastructure Interdependent Network**|Jinzhu Mao et.al.|[2307.09866](http://arxiv.org/abs/2307.09866)|**[link](https://github.com/tsinghua-fib-lab/kdd2023-id546-urbaninfra)**|
 |**2023-07-19**|**How Curvature Enhance the Adaptation Power of Framelet GCNs**|Dai Shi et.al.|[2307.09768](http://arxiv.org/abs/2307.09768)|**[link](https://github.com/dshi3553usyd/curvature_enhanced_graph_convolution)**|
