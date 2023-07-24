@@ -1651,7 +1651,7 @@ layout: default
 |**2023-05-10**|**Fast Distributed Inference Serving for Large Language Models**|Bingyang Wu et.al.|[2305.05920](http://arxiv.org/abs/2305.05920)|null|
 |**2023-04-24**|**Reconciling High Accuracy, Cost-Efficiency, and Low Latency of Inference Serving Systems**|Mehran Salmani et.al.|[2304.10892](http://arxiv.org/abs/2304.10892)|**[link](https://github.com/reconfigurable-ml-pipeline/infadapter)**|
 |**2023-04-19**|**Green Carbon Footprint for Model Inference Serving via Exploiting Mixed-Quality Models and GPU Partitioning**|Baolin Li et.al.|[2304.09781](http://arxiv.org/abs/2304.09781)|null|
-|**2022-10-17**|**A GPU-specialized Inference Parameter Server for Large-Scale Deep Recommendation Models**|Yingcan Wei et.al.|[2210.08804](http://arxiv.org/abs/2210.08804)|null|
+|**2022-10-17**|**A GPU-specialized Inference Parameter Server for Large-Scale Deep Recommendation Models**|Yingcan Wei et.al.|[2210.08804](http://arxiv.org/abs/2210.08804)|**[link](https://github.com/nvidia-merlin/hugectr)**|
 |**2022-07-28**|**RIBBON: Cost-Effective and QoS-Aware Deep Learning Model Inference using a Diverse Pool of Cloud Computing Instances**|Baolin Li et.al.|[2207.11434](http://arxiv.org/abs/2207.11434)|null|
 |**2022-04-18**|**Dynamic Network Adaptation at Inference**|Daniel Mendoza et.al.|[2204.08400](http://arxiv.org/abs/2204.08400)|null|
 |**2022-03-14**|**Hercules: Heterogeneity-Aware Inference Serving for At-Scale Personalized Recommendation**|Liu Ke et.al.|[2203.07424](http://arxiv.org/abs/2203.07424)|null|
@@ -1663,6 +1663,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-07-21**|**Robust Fully-Asynchronous Methods for Distributed Training over General Architecture**|Zehan Zhu et.al.|[2307.11617](http://arxiv.org/abs/2307.11617)|null|
 |**2023-07-16**|**Accelerating Distributed ML Training via Selective Synchronization**|Sahil Tyagi et.al.|[2307.07950](http://arxiv.org/abs/2307.07950)|null|
 |**2023-07-12**|**Tackling Computational Heterogeneity in FL: A Few Theoretical Insights**|Adnan Ben Mansour et.al.|[2307.06283](http://arxiv.org/abs/2307.06283)|null|
 |**2023-07-13**|**Efficient Task Offloading Algorithm for Digital Twin in Edge/Cloud Computing Environment**|Ziru Zhang et.al.|[2307.05888](http://arxiv.org/abs/2307.05888)|null|
@@ -1695,6 +1696,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-07-21**|**Prompt-Based Zero- and Few-Shot Node Classification: A Multimodal Approach**|Yuexin Li et.al.|[2307.11572](http://arxiv.org/abs/2307.11572)|null|
 |**2023-07-20**|**A Novel Unsupervised Graph Wavelet Autoencoder for Mechanical System Fault Detection**|Tianfu Li et.al.|[2307.10676](http://arxiv.org/abs/2307.10676)|null|
 |**2023-07-20**|**Air Traffic Controller Workload Level Prediction using Conformalized Dynamical Graph Learning**|Yutian Pang et.al.|[2307.10559](http://arxiv.org/abs/2307.10559)|**[link](https://github.com/ymlasu/para-atm-collection)**|
 |**2023-07-20**|**Power Allocation for Device-to-Device Interference Channel Using Truncated Graph Transformers**|Dohoon Kim et.al.|[2307.10538](http://arxiv.org/abs/2307.10538)|null|
