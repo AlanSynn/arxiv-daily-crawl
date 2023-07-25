@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2023.07.24
+## Updated on 2023.07.25
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1698,8 +1698,8 @@ layout: default
 |:---------|:-----------------------|:---------|:------|:------|
 |**2023-07-21**|**Prompt-Based Zero- and Few-Shot Node Classification: A Multimodal Approach**|Yuexin Li et.al.|[2307.11572](http://arxiv.org/abs/2307.11572)|null|
 |**2023-07-20**|**A Novel Unsupervised Graph Wavelet Autoencoder for Mechanical System Fault Detection**|Tianfu Li et.al.|[2307.10676](http://arxiv.org/abs/2307.10676)|null|
-|**2023-07-20**|**Air Traffic Controller Workload Level Prediction using Conformalized Dynamical Graph Learning**|Yutian Pang et.al.|[2307.10559](http://arxiv.org/abs/2307.10559)|**[link](https://github.com/ymlasu/para-atm-collection)**|
-|**2023-07-20**|**Power Allocation for Device-to-Device Interference Channel Using Truncated Graph Transformers**|Dohoon Kim et.al.|[2307.10538](http://arxiv.org/abs/2307.10538)|null|
+|**2023-07-22**|**Air Traffic Controller Workload Level Prediction using Conformalized Dynamical Graph Learning**|Yutian Pang et.al.|[2307.10559](http://arxiv.org/abs/2307.10559)|**[link](https://github.com/ymlasu/para-atm-collection)**|
+|**2023-07-23**|**Power Allocation for Device-to-Device Interference Channel Using Truncated Graph Transformers**|Dohoon Kim et.al.|[2307.10538](http://arxiv.org/abs/2307.10538)|null|
 |**2023-07-19**|**Uncertainty Quantification for Molecular Property Predictions with Graph Neural Architecture Search**|Shengli Jiang et.al.|[2307.10438](http://arxiv.org/abs/2307.10438)|null|
 |**2023-07-19**|**AutoAMG( $θ$ ): An Auto-tuned AMG Method Based on Deep Learning for Strong Threshold**|Haifeng Zou et.al.|[2307.09879](http://arxiv.org/abs/2307.09879)|null|
 |**2023-07-19**|**Detecting Vulnerable Nodes in Urban Infrastructure Interdependent Network**|Jinzhu Mao et.al.|[2307.09866](http://arxiv.org/abs/2307.09866)|**[link](https://github.com/tsinghua-fib-lab/kdd2023-id546-urbaninfra)**|
