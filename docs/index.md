@@ -1697,6 +1697,10 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-07-26**|**Distributed Computing of Functions of Structured Sources with Helper Side Information**|Derya Malak et.al.|[2307.13987](http://arxiv.org/abs/2307.13987)|null|
+|**2023-07-26**|**Towards a cosmic ray composition measurement with the IceAct telescopes at the IceCube Neutrino Observatory**|Larissa Paul et.al.|[2307.13965](http://arxiv.org/abs/2307.13965)|null|
+|**2023-07-26**|**Graph Neural Networks-based Hybrid Framework For Predicting Particle Crushing Strength**|Tongya Zheng et.al.|[2307.13909](http://arxiv.org/abs/2307.13909)|**[link](https://github.com/doujiang-zheng/gnn-for-particle-crushing)**|
+|**2023-07-25**|**Uncertainty Quantification in the Road-level Traffic Risk Prediction by Spatial-Temporal Zero-Inflated Negative Binomial Graph Neural Network(STZINB-GNN)**|Xiaowei Gao et.al.|[2307.13816](http://arxiv.org/abs/2307.13816)|null|
 |**2023-07-25**|**Multi-GPU Approach for Training of Graph ML Models on large CFD Meshes**|Sebastian Strönisch et.al.|[2307.13592](http://arxiv.org/abs/2307.13592)|null|
 |**2023-07-25**|**Node Injection Link Stealing Attack**|Oualid Zari et.al.|[2307.13548](http://arxiv.org/abs/2307.13548)|null|
 |**2023-07-25**|**Differentiable Turbulence II**|Varun Shankar et.al.|[2307.13533](http://arxiv.org/abs/2307.13533)|null|
