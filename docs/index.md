@@ -1697,6 +1697,9 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-07-27**|**TimeGNN: Temporal Dynamic Graph Learning for Time Series Forecasting**|Nancy Xu et.al.|[2307.14680](http://arxiv.org/abs/2307.14680)|null|
+|**2023-07-27**|**HUTFormer: Hierarchical U-Net Transformer for Long-Term Traffic Forecasting**|Zezhi Shao et.al.|[2307.14596](http://arxiv.org/abs/2307.14596)|null|
+|**2023-07-26**|**Improving Reliable Navigation under Uncertainty via Predictions Informed by Non-Local Information**|Raihan Islam Arnob et.al.|[2307.14501](http://arxiv.org/abs/2307.14501)|null|
 |**2023-07-26**|**Distributed Computing of Functions of Structured Sources with Helper Side Information**|Derya Malak et.al.|[2307.13987](http://arxiv.org/abs/2307.13987)|null|
 |**2023-07-26**|**Towards a cosmic ray composition measurement with the IceAct telescopes at the IceCube Neutrino Observatory**|Larissa Paul et.al.|[2307.13965](http://arxiv.org/abs/2307.13965)|null|
 |**2023-07-26**|**Graph Neural Networks-based Hybrid Framework For Predicting Particle Crushing Strength**|Tongya Zheng et.al.|[2307.13909](http://arxiv.org/abs/2307.13909)|**[link](https://github.com/doujiang-zheng/gnn-for-particle-crushing)**|
