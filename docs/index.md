@@ -1697,6 +1697,8 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-07-28**|**Co-attention Graph Pooling for Efficient Pairwise Graph Interaction Learning**|Junhyun Lee et.al.|[2307.15377](http://arxiv.org/abs/2307.15377)|**[link](https://github.com/leejunhyun/coattentiongraphpooling)**|
+|**2023-07-28**|**A universal equivariant graph neural network for the elasticity tensors of any crystal system**|Mingjian Wen et.al.|[2307.15242](http://arxiv.org/abs/2307.15242)|null|
 |**2023-07-27**|**TimeGNN: Temporal Dynamic Graph Learning for Time Series Forecasting**|Nancy Xu et.al.|[2307.14680](http://arxiv.org/abs/2307.14680)|null|
 |**2023-07-27**|**HUTFormer: Hierarchical U-Net Transformer for Long-Term Traffic Forecasting**|Zezhi Shao et.al.|[2307.14596](http://arxiv.org/abs/2307.14596)|null|
 |**2023-07-26**|**Improving Reliable Navigation under Uncertainty via Predictions Informed by Non-Local Information**|Raihan Islam Arnob et.al.|[2307.14501](http://arxiv.org/abs/2307.14501)|null|
