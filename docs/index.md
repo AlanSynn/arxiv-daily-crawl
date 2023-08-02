@@ -1697,6 +1697,9 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-08-01**|**Reinforcement Learning-based Non-Autoregressive Solver for Traveling Salesman Problems**|Yubin Xiao et.al.|[2308.00560](http://arxiv.org/abs/2308.00560)|null|
+|**2023-08-01**|**Graph Contrastive Learning with Generative Adversarial Network**|Cheng Wu et.al.|[2308.00535](http://arxiv.org/abs/2308.00535)|null|
+|**2023-08-01**|**Challenging the Myth of Graph Collaborative Filtering: a Reasoned and Reproducibility-driven Analysis**|Vito Walter Anelli et.al.|[2308.00404](http://arxiv.org/abs/2308.00404)|**[link](https://github.com/sisinflab/graph-rss-reproducibility)**|
 |**2023-07-31**|**TFE-GNN: A Temporal Fusion Encoder Using Graph Neural Networks for Fine-grained Encrypted Traffic Classification**|Haozhen Zhang et.al.|[2307.16713](http://arxiv.org/abs/2307.16713)|null|
 |**2023-07-31**|**Graph Structure from Point Clouds: Geometric Attention is All You Need**|Daniel Murnane et.al.|[2307.16662](http://arxiv.org/abs/2307.16662)|**[link](https://github.com/murnanedaniel/geometricattention)**|
 |**2023-07-31**|**MRA-GNN: Minutiae Relation-Aware Model over Graph Neural Network for Fingerprint Embedding**|Yapeng Su et.al.|[2307.16416](http://arxiv.org/abs/2307.16416)|null|
