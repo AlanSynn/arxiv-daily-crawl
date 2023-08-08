@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2023.08.07
+## Updated on 2023.08.08
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1646,7 +1646,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2023-07-03**|**Pareto-Secure Machine Learning (PSML): Fingerprinting and Securing Inference Serving Systems**|Debopam Sanyal et.al.|[2307.01292](http://arxiv.org/abs/2307.01292)|null|
+|**2023-08-06**|**Pareto-Secure Machine Learning (PSML): Fingerprinting and Securing Inference Serving Systems**|Debopam Sanyal et.al.|[2307.01292](http://arxiv.org/abs/2307.01292)|null|
 |**2023-06-21**|**Subgraph Stationary Hardware-Software Inference Co-Design**|Payman Behnam et.al.|[2306.17266](http://arxiv.org/abs/2306.17266)|null|
 |**2023-05-10**|**Fast Distributed Inference Serving for Large Language Models**|Bingyang Wu et.al.|[2305.05920](http://arxiv.org/abs/2305.05920)|null|
 |**2023-04-24**|**Reconciling High Accuracy, Cost-Efficiency, and Low Latency of Inference Serving Systems**|Mehran Salmani et.al.|[2304.10892](http://arxiv.org/abs/2304.10892)|**[link](https://github.com/reconfigurable-ml-pipeline/infadapter)**|
