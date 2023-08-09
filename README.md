@@ -1724,6 +1724,8 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-08-08**|**Semantic Interpretation and Validation of Graph Attention-based Explanations for GNN Models**|Efimia Panagiotaki et.al.|[2308.04220](http://arxiv.org/abs/2308.04220)|null|
+|**2023-08-08**|**Predicting Drug-Drug Interactions Using Knowledge Graphs**|Lizzy Farrugia et.al.|[2308.04172](http://arxiv.org/abs/2308.04172)|null|
 |**2023-08-07**|**Uncertainty-aware Consistency Learning for Cold-Start Item Recommendation**|Taichi Liu et.al.|[2308.03470](http://arxiv.org/abs/2308.03470)|null|
 |**2023-08-07**|**Friedrichs' systems discretized with the Discontinuous Galerkin method: domain decomposable model order reduction and Graph Neural Networks approximating vanishing viscosity solutions**|Francesco Romor et.al.|[2308.03378](http://arxiv.org/abs/2308.03378)|null|
 |**2023-08-07**|**Implicit Graph Neural Diffusion Based on Constrained Dirichlet Energy Minimization**|Guoji Fu et.al.|[2308.03306](http://arxiv.org/abs/2308.03306)|null|
