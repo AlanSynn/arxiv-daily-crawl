@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2023.08.09
+## Updated on 2023.08.10
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1706,7 +1706,7 @@ layout: default
 |**2023-08-07**|**Learning a Graph Neural Network with Cross Modality Interaction for Image Fusion**|Jiawei Li et.al.|[2308.03256](http://arxiv.org/abs/2308.03256)|**[link](https://github.com/lok-18/ignet)**|
 |**2023-08-06**|**Communication-Free Distributed GNN Training with Vertex Cut**|Kaidi Cao et.al.|[2308.03209](http://arxiv.org/abs/2308.03209)|null|
 |**2023-08-05**|**Adversarial Erasing with Pruned Elements: Towards Better Graph Lottery Ticket**|Yuwen Wang et.al.|[2308.02916](http://arxiv.org/abs/2308.02916)|null|
-|**2023-08-05**|**Anomaly Detection in Global Financial Markets with Graph Neural Networks and Nonextensive Entropy**|Kleyton da Costa et.al.|[2308.02914](http://arxiv.org/abs/2308.02914)|null|
+|**2023-08-09**|**Anomaly Detection in Global Financial Markets with Graph Neural Networks and Nonextensive Entropy**|Kleyton da Costa et.al.|[2308.02914](http://arxiv.org/abs/2308.02914)|null|
 |**2023-08-04**|**Exploiting On-chip Heterogeneity of Versal Architecture for GNN Inference Acceleration**|Paul Chen et.al.|[2308.02749](http://arxiv.org/abs/2308.02749)|null|
 |**2023-08-04**|**BlindSage: Label Inference Attacks against Node-level Vertical Federated Graph Neural Networks**|Marco Arazzi et.al.|[2308.02465](http://arxiv.org/abs/2308.02465)|null|
 |**2023-08-04**|**Stability and Generalization of Hypergraph Collaborative Networks**|Michael Ng et.al.|[2308.02347](http://arxiv.org/abs/2308.02347)|null|
