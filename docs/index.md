@@ -1663,6 +1663,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-08-10**|**Isolated Scheduling for Distributed Training Tasks in GPU Clusters**|Xinchi Han et.al.|[2308.05692](http://arxiv.org/abs/2308.05692)|null|
 |**2023-07-25**|**Federated K-Means Clustering via Dual Decomposition-based Distributed Optimization**|Vassilios Yfantis et.al.|[2307.13267](http://arxiv.org/abs/2307.13267)|null|
 |**2023-07-21**|**Robust Fully-Asynchronous Methods for Distributed Training over General Architecture**|Zehan Zhu et.al.|[2307.11617](http://arxiv.org/abs/2307.11617)|null|
 |**2023-07-16**|**Accelerating Distributed ML Training via Selective Synchronization**|Sahil Tyagi et.al.|[2307.07950](http://arxiv.org/abs/2307.07950)|null|
@@ -1697,6 +1698,11 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-08-10**|**$\mathcal{G}^2Pxy$ : Generative Open-Set Node Classification on Graphs with Proxy Unknowns**|Qin Zhang et.al.|[2308.05463](http://arxiv.org/abs/2308.05463)|null|
+|**2023-08-10**|**DegUIL: Degree-aware Graph Neural Networks for Long-tailed User Identity Linkage**|Meixiu Long et.al.|[2308.05322](http://arxiv.org/abs/2308.05322)|null|
+|**2023-08-10**|**RLSAC: Reinforcement Learning enhanced Sample Consensus for End-to-End Robust Estimation**|Chang Nie et.al.|[2308.05318](http://arxiv.org/abs/2308.05318)|**[link](https://github.com/irmvlab/rlsac)**|
+|**2023-08-10**|**Homophily-enhanced Structure Learning for Graph Clustering**|Ming Gu et.al.|[2308.05309](http://arxiv.org/abs/2308.05309)|null|
+|**2023-08-10**|**Cross-heterogeneity Graph Few-shot Learning**|Pengfei Ding et.al.|[2308.05275](http://arxiv.org/abs/2308.05275)|null|
 |**2023-08-10**|**Geometric Learning-Based Transformer Network for Estimation of Segmentation Errors**|Sneha Sree C et.al.|[2308.05068](http://arxiv.org/abs/2308.05068)|null|
 |**2023-08-09**|**Kairos: : Practical Intrusion Detection and Investigation using Whole-system Provenance**|Zijun Cheng et.al.|[2308.05034](http://arxiv.org/abs/2308.05034)|**[link](https://github.com/provenanceanalytics/kairos)**|
 |**2023-08-09**|**Differentially Private Graph Neural Network with Importance-Grained Noise Adaption**|Yuxin Qi et.al.|[2308.04943](http://arxiv.org/abs/2308.04943)|null|
