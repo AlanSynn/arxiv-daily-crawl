@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2023.08.13
+## Updated on 2023.08.14
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1699,9 +1699,9 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
 |**2023-08-10**|**$\mathcal{G}^2Pxy$ : Generative Open-Set Node Classification on Graphs with Proxy Unknowns**|Qin Zhang et.al.|[2308.05463](http://arxiv.org/abs/2308.05463)|null|
-|**2023-08-10**|**DegUIL: Degree-aware Graph Neural Networks for Long-tailed User Identity Linkage**|Meixiu Long et.al.|[2308.05322](http://arxiv.org/abs/2308.05322)|null|
+|**2023-08-10**|**DegUIL: Degree-aware Graph Neural Networks for Long-tailed User Identity Linkage**|Meixiu Long et.al.|[2308.05322](http://arxiv.org/abs/2308.05322)|**[link](https://github.com/longmeix/deguil)**|
 |**2023-08-10**|**RLSAC: Reinforcement Learning enhanced Sample Consensus for End-to-End Robust Estimation**|Chang Nie et.al.|[2308.05318](http://arxiv.org/abs/2308.05318)|**[link](https://github.com/irmvlab/rlsac)**|
-|**2023-08-10**|**Homophily-enhanced Structure Learning for Graph Clustering**|Ming Gu et.al.|[2308.05309](http://arxiv.org/abs/2308.05309)|null|
+|**2023-08-11**|**Homophily-enhanced Structure Learning for Graph Clustering**|Ming Gu et.al.|[2308.05309](http://arxiv.org/abs/2308.05309)|**[link](https://github.com/galogm/hole)**|
 |**2023-08-10**|**Cross-heterogeneity Graph Few-shot Learning**|Pengfei Ding et.al.|[2308.05275](http://arxiv.org/abs/2308.05275)|null|
 |**2023-08-10**|**Geometric Learning-Based Transformer Network for Estimation of Segmentation Errors**|Sneha Sree C et.al.|[2308.05068](http://arxiv.org/abs/2308.05068)|null|
 |**2023-08-09**|**Kairos: : Practical Intrusion Detection and Investigation using Whole-system Provenance**|Zijun Cheng et.al.|[2308.05034](http://arxiv.org/abs/2308.05034)|**[link](https://github.com/provenanceanalytics/kairos)**|
