@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2023.08.15
+## Updated on 2023.08.16
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1700,7 +1700,7 @@ layout: default
 |:---------|:-----------------------|:---------|:------|:------|
 |**2023-08-14**|**Search to Fine-tune Pre-trained Graph Neural Networks for Graph-level Tasks**|Zhili Wang et.al.|[2308.06960](http://arxiv.org/abs/2308.06960)|null|
 |**2023-08-13**|**Generalizing Topological Graph Neural Networks with Paths**|Quang Truong et.al.|[2308.06838](http://arxiv.org/abs/2308.06838)|null|
-|**2023-08-13**|**SAILOR: Structural Augmentation Based Tail Node Representation Learning**|Jie Liao et.al.|[2308.06801](http://arxiv.org/abs/2308.06801)|**[link](https://github.com/jie-re/sailor)**|
+|**2023-08-15**|**SAILOR: Structural Augmentation Based Tail Node Representation Learning**|Jie Liao et.al.|[2308.06801](http://arxiv.org/abs/2308.06801)|**[link](https://github.com/jie-re/sailor)**|
 |**2023-08-13**|**Learning on Graphs with Out-of-Distribution Nodes**|Yu Song et.al.|[2308.06714](http://arxiv.org/abs/2308.06714)|**[link](https://github.com/songyyyy/kdd22-oodgat)**|
 |**2023-08-10**|**$\mathcal{G}^2Pxy$ : Generative Open-Set Node Classification on Graphs with Proxy Unknowns**|Qin Zhang et.al.|[2308.05463](http://arxiv.org/abs/2308.05463)|null|
 |**2023-08-10**|**DegUIL: Degree-aware Graph Neural Networks for Long-tailed User Identity Linkage**|Meixiu Long et.al.|[2308.05322](http://arxiv.org/abs/2308.05322)|**[link](https://github.com/longmeix/deguil)**|
