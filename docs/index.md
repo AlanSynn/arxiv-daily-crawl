@@ -1700,6 +1700,16 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-08-21**|**Enhancing Recommender Systems with Large Language Model Reasoning Graphs**|Yan Wang et.al.|[2308.10835](http://arxiv.org/abs/2308.10835)|null|
+|**2023-08-21**|**Graph Neural Bandits**|Yunzhe Qi et.al.|[2308.10808](http://arxiv.org/abs/2308.10808)|null|
+|**2023-08-21**|**Spear and Shield: Adversarial Attacks and Defense Methods for Model-Based Link Prediction on Continuous-Time Dynamic Graphs**|Dongjin Lee et.al.|[2308.10779](http://arxiv.org/abs/2308.10779)|null|
+|**2023-08-21**|**A Topology-aware Analysis of Graph Collaborative Filtering**|Daniele Malitesta et.al.|[2308.10778](http://arxiv.org/abs/2308.10778)|**[link](https://github.com/sisinflab/graph-characteristics)**|
+|**2023-08-21**|**UGSL: A Unified Framework for Benchmarking Graph Structure Learning**|Bahare Fatemi et.al.|[2308.10737](http://arxiv.org/abs/2308.10737)|**[link](https://github.com/google-research/google-research)**|
+|**2023-08-21**|**ST-RAP: A Spatio-Temporal Framework for Real Estate Appraisal**|Hojoon Lee et.al.|[2308.10609](http://arxiv.org/abs/2308.10609)|**[link](https://github.com/dojeon-ai/strap)**|
+|**2023-08-21**|**Approximately Equivariant Graph Networks**|Ningyuan Huang et.al.|[2308.10436](http://arxiv.org/abs/2308.10436)|**[link](https://github.com/nhuang37/approx_equivariant_graph_nets)**|
+|**2023-08-20**|**Preserving Specificity in Federated Graph Learning for fMRI-based Neurological Disorder Identification**|Junhao Zhang et.al.|[2308.10302](http://arxiv.org/abs/2308.10302)|null|
+|**2023-08-20**|**Minimalist Traffic Prediction: Linear Layer Is All You Need**|Wenying Duan et.al.|[2308.10276](http://arxiv.org/abs/2308.10276)|null|
+|**2023-08-19**|**Geometric instability of graph neural networks on large graphs**|Emily Morris et.al.|[2308.10099](http://arxiv.org/abs/2308.10099)|**[link](https://github.com/brs96/geometric-instability-gnn-large-graphs)**|
 |**2023-08-18**|**A Potts model approach to unsupervised graph clustering with Graph Neural Networks**|Co Tran et.al.|[2308.09644](http://arxiv.org/abs/2308.09644)|null|
 |**2023-08-18**|**Disparity, Inequality, and Accuracy Tradeoffs in Graph Neural Networks for Node Classification**|Arpit Merchant et.al.|[2308.09596](http://arxiv.org/abs/2308.09596)|**[link](https://github.com/arpitdm/gnn_accuracy_fairness_tradeoff)**|
 |**2023-08-18**|**Transitivity-Preserving Graph Representation Learning for Bridging Local Connectivity and Role-based Similarity**|Van Thuy Hoang et.al.|[2308.09517](http://arxiv.org/abs/2308.09517)|**[link](https://github.com/nslab-cuk/unified-graph-transformer)**|
