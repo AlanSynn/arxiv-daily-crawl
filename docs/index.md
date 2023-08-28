@@ -1663,6 +1663,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-08-25**|**Staleness-Alleviated Distributed GNN Training via Online Dynamic-Embedding Prediction**|Guangji Bai et.al.|[2308.13466](http://arxiv.org/abs/2308.13466)|null|
 |**2023-08-23**|**Aligning Language Models with Offline Reinforcement Learning from Human Feedback**|Jian Hu et.al.|[2308.12050](http://arxiv.org/abs/2308.12050)|null|
 |**2023-08-17**|**Distributed Extra-gradient with Optimal Complexity and Communication Guarantees**|Ali Ramezani-Kebrya et.al.|[2308.09187](http://arxiv.org/abs/2308.09187)|**[link](https://github.com/lions-epfl/qgenx)**|
 |**2023-08-17**|**Towards Lightweight Data Integration using Multi-workflow Provenance and Data Observability**|Renan Souza et.al.|[2308.09004](http://arxiv.org/abs/2308.09004)|null|
@@ -1701,6 +1702,10 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-08-25**|**Unveiling the Role of Message Passing in Dual-Privacy Preservation on GNNs**|Tianyi Zhao et.al.|[2308.13513](http://arxiv.org/abs/2308.13513)|null|
+|**2023-08-25**|**Staleness-Alleviated Distributed GNN Training via Online Dynamic-Embedding Prediction**|Guangji Bai et.al.|[2308.13466](http://arxiv.org/abs/2308.13466)|null|
+|**2023-08-25**|**Physics-Inspired Neural Graph ODE for Long-term Dynamical Simulation**|Yang Liu et.al.|[2308.13212](http://arxiv.org/abs/2308.13212)|null|
+|**2023-08-24**|**SurGNN: Explainable visual scene understanding and assessment of surgical skill using graph neural networks**|Shuja Khalid et.al.|[2308.13073](http://arxiv.org/abs/2308.13073)|null|
 |**2023-08-24**|**Hydrogen jet diffusion modeling by using physics-informed graph neural network and sparsely-distributed sensor data**|Xinqi Zhang et.al.|[2308.12621](http://arxiv.org/abs/2308.12621)|null|
 |**2023-08-23**|**MolGrapher: Graph-based Visual Recognition of Chemical Structures**|Lucas Morin et.al.|[2308.12234](http://arxiv.org/abs/2308.12234)|**[link](https://github.com/ds4sd/molgrapher)**|
 |**2023-08-23**|**Cached Operator Reordering: A Unified View for Fast GNN Training**|Julia Bazinska et.al.|[2308.12093](http://arxiv.org/abs/2308.12093)|null|
