@@ -1688,6 +1688,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-08-27**|**Generalizable Learning Reconstruction for Accelerating MR Imaging via Federated Neural Architecture Search**|Ruoyou Wu et.al.|[2308.13995](http://arxiv.org/abs/2308.13995)|null|
 |**2023-08-25**|**Staleness-Alleviated Distributed GNN Training via Online Dynamic-Embedding Prediction**|Guangji Bai et.al.|[2308.13466](http://arxiv.org/abs/2308.13466)|null|
 |**2023-08-23**|**Aligning Language Models with Offline Reinforcement Learning from Human Feedback**|Jian Hu et.al.|[2308.12050](http://arxiv.org/abs/2308.12050)|null|
 |**2023-08-17**|**Distributed Extra-gradient with Optimal Complexity and Communication Guarantees**|Ali Ramezani-Kebrya et.al.|[2308.09187](http://arxiv.org/abs/2308.09187)|**[link](https://github.com/lions-epfl/qgenx)**|
@@ -1729,6 +1730,13 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-08-28**|**Fairness Through Domain Awareness: Mitigating Popularity Bias For Music Discovery**|Rebecca Salganik et.al.|[2308.14601](http://arxiv.org/abs/2308.14601)|null|
+|**2023-08-28**|**Multimodal Detection of Social Spambots in Twitter using Transformers**|Loukas Ilias et.al.|[2308.14484](http://arxiv.org/abs/2308.14484)|null|
+|**2023-08-28**|**Can Transformer and GNN Help Each Other?**|Peiyan Zhang et.al.|[2308.14355](http://arxiv.org/abs/2308.14355)|null|
+|**2023-08-28**|**HRGCN: Heterogeneous Graph-level Anomaly Detection with Hierarchical Relation-augmented Graph Neural Networks**|Jiaxi Li et.al.|[2308.14340](http://arxiv.org/abs/2308.14340)|**[link](https://github.com/jiaxililearn/hrgcn)**|
+|**2023-08-27**|**Universal Graph Continual Learning**|Thanh Duc Hoang et.al.|[2308.13982](http://arxiv.org/abs/2308.13982)|null|
+|**2023-08-27**|**Understanding the Usage of QUBO-based Hamiltonian Function in Combinatorial Optimization over Graphs: A Discussion Using Max Cut (MC) Problem**|Redwan Ahmed Rizvee et.al.|[2308.13978](http://arxiv.org/abs/2308.13978)|null|
+|**2023-08-26**|**Graph Edit Distance Learning via Different Attention**|Jiaxi Lv et.al.|[2308.13871](http://arxiv.org/abs/2308.13871)|null|
 |**2023-08-25**|**Unveiling the Role of Message Passing in Dual-Privacy Preservation on GNNs**|Tianyi Zhao et.al.|[2308.13513](http://arxiv.org/abs/2308.13513)|null|
 |**2023-08-25**|**Staleness-Alleviated Distributed GNN Training via Online Dynamic-Embedding Prediction**|Guangji Bai et.al.|[2308.13466](http://arxiv.org/abs/2308.13466)|null|
 |**2023-08-25**|**Physics-Inspired Neural Graph ODE for Long-term Dynamical Simulation**|Yang Liu et.al.|[2308.13212](http://arxiv.org/abs/2308.13212)|null|
