@@ -1452,7 +1452,7 @@
 |**2023-03-15**|**Harnessing Low-Frequency Neural Fields for Few-Shot View Synthesis**|Liangchen Song et.al.|[2303.08370](http://arxiv.org/abs/2303.08370)|**[link](https://github.com/lsongx/halo)**|
 |**2023-03-14**|**MELON: NeRF with Unposed Images Using Equivalence Class Estimation**|Axel Levy et.al.|[2303.08096](http://arxiv.org/abs/2303.08096)|null|
 |**2023-03-16**|**Let 2D Diffusion Model Know 3D-Consistency for Robust Text-to-3D Generation**|Junyoung Seo et.al.|[2303.07937](http://arxiv.org/abs/2303.07937)|**[link](https://github.com/KU-CVLAB/3DFuse)**|
-|**2023-03-16**|**NEF: Neural Edge Fields for 3D Parametric Curve Reconstruction from Multi-view Images**|Yunfan Ye et.al.|[2303.07653](http://arxiv.org/abs/2303.07653)|null|
+|**2023-03-16**|**NEF: Neural Edge Fields for 3D Parametric Curve Reconstruction from Multi-view Images**|Yunfan Ye et.al.|[2303.07653](http://arxiv.org/abs/2303.07653)|**[link](https://github.com/yunfan1202/NEF_code)**|
 |**2023-03-14**|**Frequency-Modulated Point Cloud Rendering with Easy Editing**|Yi Zhang et.al.|[2303.07596](http://arxiv.org/abs/2303.07596)|**[link](https://github.com/yizhangphd/freqpcr)**|
 |**2023-03-13**|**FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization**|Jiawei Yang et.al.|[2303.07418](http://arxiv.org/abs/2303.07418)|**[link](https://github.com/jiawei-yang/freenerf)**|
 |**2023-03-13**|**NeRFLiX: High-Quality Neural View Synthesis by Learning a Degradation-Driven Inter-viewpoint MiXer**|Kun Zhou et.al.|[2303.06919](http://arxiv.org/abs/2303.06919)|**[link](https://github.com/redrock303/NeRFLiX_CPVR2023)**|
@@ -1484,7 +1484,7 @@
 |**2023-02-19**|**LC-NeRF: Local Controllable Face Generation in Neural Randiance Field**|Wenyang Zhou et.al.|[2302.09486](http://arxiv.org/abs/2302.09486)|null|
 |**2023-02-17**|**MixNeRF: Modeling a Ray with Mixture Density for Novel View Synthesis from Sparse Inputs**|Seunghyeon Seo et.al.|[2302.08788](http://arxiv.org/abs/2302.08788)|**[link](https://github.com/shawn615/MixNeRF)**|
 |**2023-02-14**|**VQ3D: Learning a 3D-Aware Generative Model on ImageNet**|Kyle Sargent et.al.|[2302.06833](http://arxiv.org/abs/2302.06833)|null|
-|**2023-02-13**|**3D-aware Blending with Generative NeRFs**|Hyunsu Kim et.al.|[2302.06608](http://arxiv.org/abs/2302.06608)|null|
+|**2023-02-13**|**3D-aware Blending with Generative NeRFs**|Hyunsu Kim et.al.|[2302.06608](http://arxiv.org/abs/2302.06608)|**[link](https://github.com/naver-ai/BlendNeRF)**|
 |**2023-02-11**|**3D Colored Shape Reconstruction from a Single RGB Image through Diffusion**|Bo Li et.al.|[2302.05573](http://arxiv.org/abs/2302.05573)|null|
 |**2023-02-08**|**Nerfstudio: A Modular Framework for Neural Radiance Field Development**|Matthew Tancik et.al.|[2302.04264](http://arxiv.org/abs/2302.04264)|null|
 |**2023-02-07**|**AV-NeRF: Learning Neural Fields for Real-World Audio-Visual Scene Synthesis**|Susan Liang et.al.|[2302.02088](http://arxiv.org/abs/2302.02088)|null|
@@ -1761,7 +1761,7 @@
 |**2023-08-25**|**Pose Modulated Avatars from Video**|Chunjin Song et.al.|[2308.11951](http://arxiv.org/abs/2308.11951)|null|
 |**2023-08-23**|**Learning Bottleneck Transformer for Event Image-Voxel Feature Fusion based Classification**|Chengguo Yuan et.al.|[2308.11937](http://arxiv.org/abs/2308.11937)|**[link](https://github.com/event-ahu/efv_event_classification)**|
 |**2023-08-22**|**Multi-Instance Adversarial Attack on GNN-Based Malicious Domain Detection**|Mahmoud Nazzal et.al.|[2308.11754](http://arxiv.org/abs/2308.11754)|**[link](https://github.com/mahmoudkanazzal/minta)**|
-|**2023-08-22**|**Graph Neural Network-Enhanced Expectation Propagation Algorithm for MIMO Turbo Receivers**|Xingyu Zhou et.al.|[2308.11335](http://arxiv.org/abs/2308.11335)|null|
+|**2023-08-22**|**Graph Neural Network-Enhanced Expectation Propagation Algorithm for MIMO Turbo Receivers**|Xingyu Zhou et.al.|[2308.11335](http://arxiv.org/abs/2308.11335)|**[link](https://github.com/STARainZ/GNN-enhanced-EP-for-Turbo-MIMO)**|
 |**2023-08-24**|**Predicting Transition Temperature of Superconductors with Graph Neural Networks**|Liang Gu et.al.|[2308.11160](http://arxiv.org/abs/2308.11160)|**[link](https://github.com/glinustb/bsgnn)**|
 |**2023-08-22**|**Graph Encoding and Neural Network Approaches for Volleyball Analytics: From Game Outcome to Individual Play Predictions**|Rhys Tracy et.al.|[2308.11142](http://arxiv.org/abs/2308.11142)|null|
 |**2023-08-22**|**How Expressive are Graph Neural Networks in Recommendation?**|Xuheng Cai et.al.|[2308.11127](http://arxiv.org/abs/2308.11127)|**[link](https://github.com/hkuds/gte)**|
@@ -1901,7 +1901,7 @@
 |**2023-07-15**|**RegExplainer: Generating Explanations for Graph Neural Networks in Regression Task**|Jiaxing Zhang et.al.|[2307.07840](http://arxiv.org/abs/2307.07840)|null|
 |**2023-07-14**|**Real-time Graph Building on FPGAs for Machine Learning Trigger Applications in Particle Physics**|Marc Neu et.al.|[2307.07289](http://arxiv.org/abs/2307.07289)|null|
 |**2023-07-13**|**MaxCorrMGNN: A Multi-Graph Neural Network Framework for Generalized Multimodal Fusion of Medical Data for Outcome Prediction**|Niharika S. D'Souza et.al.|[2307.07093](http://arxiv.org/abs/2307.07093)|null|
-|**2023-07-13**|**Espaloma-0.3.0: Machine-learned molecular mechanics force field for the simulation of protein-ligand systems and beyond**|Kenichiro Takaba et.al.|[2307.07085](http://arxiv.org/abs/2307.07085)|null|
+|**2023-07-13**|**Espaloma-0.3.0: Machine-learned molecular mechanics force field for the simulation of protein-ligand systems and beyond**|Kenichiro Takaba et.al.|[2307.07085](http://arxiv.org/abs/2307.07085)|**[link](https://github.com/choderalab/refit-espaloma)**|
 |**2023-07-13**|**Privacy-Utility Trade-offs in Neural Networks for Medical Population Graphs: Insights from Differential Privacy and Graph Structure**|Tamara T. Mueller et.al.|[2307.06760](http://arxiv.org/abs/2307.06760)|null|
 |**2023-07-13**|**Frameless Graph Knowledge Distillation**|Dai Shi et.al.|[2307.06631](http://arxiv.org/abs/2307.06631)|**[link](https://github.com/dshi3553usyd/frameless_graph_distillation)**|
 |**2023-07-15**|**Going Beyond Local: Global Graph-Enhanced Personalized News Recommendations**|Boming Yang et.al.|[2307.06576](http://arxiv.org/abs/2307.06576)|**[link](https://github.com/tinyrolls/glory)**|
