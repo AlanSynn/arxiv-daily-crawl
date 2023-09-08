@@ -1404,7 +1404,7 @@
 |**2023-03-28**|**VMesh: Hybrid Volume-Mesh Representation for Efficient View Synthesis**|Yuan-Chen Guo et.al.|[2303.16184](http://arxiv.org/abs/2303.16184)|null|
 |**2023-03-30**|**Adaptive Voronoi NeRFs**|Tim Elsner et.al.|[2303.16001](http://arxiv.org/abs/2303.16001)|null|
 |**2023-03-28**|**F $^{2}$ -NeRF: Fast Neural Radiance Field Training with Free Camera Trajectories**|Peng Wang et.al.|[2303.15951](http://arxiv.org/abs/2303.15951)|**[link](https://github.com/Totoro97/f2-nerf)**|
-|**2023-03-27**|**JAWS: Just A Wild Shot for Cinematic Transfer in Neural Radiance Fields**|Xi Wang et.al.|[2303.15427](http://arxiv.org/abs/2303.15427)|null|
+|**2023-03-27**|**JAWS: Just A Wild Shot for Cinematic Transfer in Neural Radiance Fields**|Xi Wang et.al.|[2303.15427](http://arxiv.org/abs/2303.15427)|**[link](https://github.com/robincourant/jaws)**|
 |**2023-03-27**|**Generalizable Neural Voxels for Fast Human Radiance Fields**|Taoran Yi et.al.|[2303.15387](http://arxiv.org/abs/2303.15387)|null|
 |**2023-03-27**|**NeUDF: Learning Unsigned Distance Fields from Multi-view Images for Reconstructing Non-watertight Models**|Fei Hou et.al.|[2303.15368](http://arxiv.org/abs/2303.15368)|null|
 |**2023-03-24**|**Perceptual Quality Assessment of NeRF and Neural View Synthesis Methods for Front-Facing Views**|Hanxue Liang et.al.|[2303.15206](http://arxiv.org/abs/2303.15206)|null|
@@ -1718,7 +1718,7 @@
 |**2023-05-31**|**Surrogate Model Extension (SME): A Fast and Accurate Weight Update Attack on Federated Learning**|Junyi Zhu et.al.|[2306.00127](http://arxiv.org/abs/2306.00127)|**[link](https://github.com/junyizhu-ai/surrogate_model_extension)**|
 |**2023-05-29**|**Global-QSGD: Practical Floatless Quantization for Distributed Learning with Theoretical Guarantees**|Jihao Xin et.al.|[2305.18627](http://arxiv.org/abs/2305.18627)|null|
 |**2023-05-26**|**Channel and Gradient-Importance Aware Device Scheduling for Over-the-Air Federated Learning**|Yuchang Sun et.al.|[2305.16854](http://arxiv.org/abs/2305.16854)|null|
-|**2023-05-22**|**Distributed Learning over Networks with Graph-Attention-Based Personalization**|Zhuojun Tian et.al.|[2305.13041](http://arxiv.org/abs/2305.13041)|null|
+|**2023-05-22**|**Distributed Learning over Networks with Graph-Attention-Based Personalization**|Zhuojun Tian et.al.|[2305.13041](http://arxiv.org/abs/2305.13041)|**[link](https://github.com/ZhuoJTian/GATTA)**|
 |**2023-05-21**|**2Direction: Theoretically Faster Distributed Training with Bidirectional Communication Compression**|Alexander Tyurin et.al.|[2305.12379](http://arxiv.org/abs/2305.12379)|null|
 |**2023-05-17**|**Curriculum Learning in Job Shop Scheduling using Reinforcement Learning**|Constantin Waubert de Puiseau et.al.|[2305.10192](http://arxiv.org/abs/2305.10192)|null|
 |**2023-05-18**|**OSDP: Optimal Sharded Data Parallel for Distributed Deep Learning**|Youhe Jiang et.al.|[2305.09940](http://arxiv.org/abs/2305.09940)|**[link](https://github.com/youhe-jiang/ijcai2023-optimalshardeddataparallel)**|
@@ -1740,7 +1740,7 @@
 |**2023-09-06**|**Unifying over-smoothing and over-squashing in graph neural networks: A physics informed approach and beyond**|Zhiqi Shao et.al.|[2309.02769](http://arxiv.org/abs/2309.02769)|null|
 |**2023-09-06**|**Towards Unsupervised Graph Completion Learning on Graphs with Features and Structure Missing**|Sichao Fu et.al.|[2309.02762](http://arxiv.org/abs/2309.02762)|null|
 |**2023-09-06**|**Reinforcement Learning of Action and Query Policies with LTL Instructions under Uncertain Event Detector**|Wataru Hatanaka et.al.|[2309.02722](http://arxiv.org/abs/2309.02722)|null|
-|**2023-09-05**|**Black-Box Attacks against Signed Graph Analysis via Balance Poisoning**|Jialong Zhou et.al.|[2309.02396](http://arxiv.org/abs/2309.02396)|null|
+|**2023-09-05**|**Black-Box Attacks against Signed Graph Analysis via Balance Poisoning**|Jialong Zhou et.al.|[2309.02396](http://arxiv.org/abs/2309.02396)|**[link](https://github.com/jialongzhou666/balance-attack)**|
 |**2023-09-05**|**STGIN: Spatial-Temporal Graph Interaction Network for Large-scale POI Recommendation**|Shaohua Liu et.al.|[2309.02251](http://arxiv.org/abs/2309.02251)|null|
 |**2023-09-05**|**Diffusion Generative Inverse Design**|Marin Vlastelica et.al.|[2309.02040](http://arxiv.org/abs/2309.02040)|null|
 |**2023-09-05**|**VFFINDER: A Graph-based Approach for Automated Silent Vulnerability-Fix Identification**|Son Nguyen et.al.|[2309.01971](http://arxiv.org/abs/2309.01971)|null|
