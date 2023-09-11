@@ -1663,6 +1663,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-09-08**|**Federated Learning for Early Dropout Prediction on Healthy Ageing Applications**|Christos Chrysanthos Nikolaidis et.al.|[2309.04311](http://arxiv.org/abs/2309.04311)|null|
 |**2023-09-04**|**Communication-Efficient Design of Learning System for Energy Demand Forecasting of Electrical Vehicles**|Jiacong Xu et.al.|[2309.01297](http://arxiv.org/abs/2309.01297)|null|
 |**2023-08-29**|**CEFHRI: A Communication Efficient Federated Learning Framework for Recognizing Industrial Human-Robot Interaction**|Umar Khalid et.al.|[2308.14965](http://arxiv.org/abs/2308.14965)|**[link](https://github.com/umarkhalidai/cefhri-efficient-federated-learning)**|
 |**2023-08-27**|**Generalizable Learning Reconstruction for Accelerating MR Imaging via Federated Neural Architecture Search**|Ruoyou Wu et.al.|[2308.13995](http://arxiv.org/abs/2308.13995)|null|
@@ -1705,6 +1706,9 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-09-08**|**Graph Neural Networks Use Graphs When They Shouldn't**|Maya Bechler-Speicher et.al.|[2309.04332](http://arxiv.org/abs/2309.04332)|null|
+|**2023-09-08**|**A Long-Tail Friendly Representation Framework for Artist and Music Similarity**|Haoran Xiang et.al.|[2309.04182](http://arxiv.org/abs/2309.04182)|null|
+|**2023-09-08**|**Curve Your Attention: Mixed-Curvature Transformers for Graph Representation Learning**|Sungjun Cho et.al.|[2309.04082](http://arxiv.org/abs/2309.04082)|null|
 |**2023-09-07**|**Extending Transductive Knowledge Graph Embedding Models for Inductive Logical Relational Inference**|Thomas Gebhart et.al.|[2309.03773](http://arxiv.org/abs/2309.03773)|null|
 |**2023-09-07**|**Characterizing Lipschitz Stability of GNN for Fairness**|Yaning Jia et.al.|[2309.03648](http://arxiv.org/abs/2309.03648)|null|
 |**2023-09-07**|**Filtration Surfaces for Dynamic Graph Classification**|Franz Srambical et.al.|[2309.03616](http://arxiv.org/abs/2309.03616)|null|
