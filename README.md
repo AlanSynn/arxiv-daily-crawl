@@ -1733,6 +1733,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-09-11**|**Learning the Geodesic Embedding with Graph Neural Networks**|Bo Pang et.al.|[2309.05613](http://arxiv.org/abs/2309.05613)|null|
+|**2023-09-11**|**Advancing Federated Learning in 6G: A Trusted Architecture with Graph-based Analysis**|Wenxuan Ye et.al.|[2309.05525](http://arxiv.org/abs/2309.05525)|null|
+|**2023-09-11**|**A parameterised model for link prediction using node centrality and similarity measure based on graph embedding**|Haohui Lu et.al.|[2309.05434](http://arxiv.org/abs/2309.05434)|null|
+|**2023-09-11**|**Fully-Connected Spatial-Temporal Graph for Multivariate Time Series Data**|Yucheng Wang et.al.|[2309.05305](http://arxiv.org/abs/2309.05305)|null|
+|**2023-09-10**|**Spatiotemporal Graph Neural Networks with Uncertainty Quantification for Traffic Incident Risk Prediction**|Xiaowei Gao et.al.|[2309.05072](http://arxiv.org/abs/2309.05072)|**[link](https://github.com/sttdanonymous/sttd)**|
+|**2023-09-10**|**Distance-Restricted Folklore Weisfeiler-Leman GNNs with Provable Cycle Counting Power**|Junru Zhou et.al.|[2309.04941](http://arxiv.org/abs/2309.04941)|null|
+|**2023-09-09**|**Symplectic Structure-Aware Hamiltonian (Graph) Embeddings**|Jiaxu Liu et.al.|[2309.04885](http://arxiv.org/abs/2309.04885)|null|
+|**2023-09-09**|**Chemical Properties from Graph Neural Network-Predicted Electron Densities**|Ethan M. Sunshine et.al.|[2309.04811](http://arxiv.org/abs/2309.04811)|null|
+|**2023-09-09**|**Redundancy-Free Self-Supervised Relational Learning for Graph Clustering**|Si-Yu Yi et.al.|[2309.04694](http://arxiv.org/abs/2309.04694)|**[link](https://github.com/yisiyu95/r2fgc)**|
+|**2023-09-08**|**Motif-aware Attribute Masking for Molecular Graph Pre-training**|Eric Inae et.al.|[2309.04589](http://arxiv.org/abs/2309.04589)|**[link](https://github.com/einae-nd/moama-dev)**|
 |**2023-09-08**|**Graph Neural Networks Use Graphs When They Shouldn't**|Maya Bechler-Speicher et.al.|[2309.04332](http://arxiv.org/abs/2309.04332)|null|
 |**2023-09-08**|**A Long-Tail Friendly Representation Framework for Artist and Music Similarity**|Haoran Xiang et.al.|[2309.04182](http://arxiv.org/abs/2309.04182)|null|
 |**2023-09-08**|**Curve Your Attention: Mixed-Curvature Transformers for Graph Representation Learning**|Sungjun Cho et.al.|[2309.04082](http://arxiv.org/abs/2309.04082)|null|
