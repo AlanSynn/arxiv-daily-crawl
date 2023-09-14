@@ -1663,6 +1663,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-09-13**|**FedDIP: Federated Learning with Extreme Dynamic Pruning and Incremental Regularization**|Qianyu Long et.al.|[2309.06805](http://arxiv.org/abs/2309.06805)|**[link](https://github.com/ericloong/feddip)**|
 |**2023-09-08**|**Federated Learning for Early Dropout Prediction on Healthy Ageing Applications**|Christos Chrysanthos Nikolaidis et.al.|[2309.04311](http://arxiv.org/abs/2309.04311)|null|
 |**2023-09-04**|**Communication-Efficient Design of Learning System for Energy Demand Forecasting of Electrical Vehicles**|Jiacong Xu et.al.|[2309.01297](http://arxiv.org/abs/2309.01297)|null|
 |**2023-08-29**|**CEFHRI: A Communication Efficient Federated Learning Framework for Recognizing Industrial Human-Robot Interaction**|Umar Khalid et.al.|[2308.14965](http://arxiv.org/abs/2308.14965)|**[link](https://github.com/umarkhalidai/cefhri-efficient-federated-learning)**|
@@ -1706,6 +1707,13 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-09-13**|**Predicting Expressibility of Parameterized Quantum Circuits using Graph Neural Network**|Shamminuj Aktar et.al.|[2309.06975](http://arxiv.org/abs/2309.06975)|null|
+|**2023-09-13**|**Multi-behavior Recommendation with SVD Graph Neural Networks**|Shengxi Fu et.al.|[2309.06912](http://arxiv.org/abs/2309.06912)|null|
+|**2023-09-13**|**Uncertainty-aware Traffic Prediction under Missing Data**|Hao Mei et.al.|[2309.06800](http://arxiv.org/abs/2309.06800)|null|
+|**2023-09-13**|**Scalable neural network models and terascale datasets for particle-flow reconstruction**|Joosep Pata et.al.|[2309.06782](http://arxiv.org/abs/2309.06782)|null|
+|**2023-09-12**|**Bregman Graph Neural Network**|Jiayu Zhai et.al.|[2309.06645](http://arxiv.org/abs/2309.06645)|null|
+|**2023-09-12**|**Explainable Graph Neural Network for Alzheimer's Disease And Related Dementias Risk Prediction**|Xinyue Hu et.al.|[2309.06584](http://arxiv.org/abs/2309.06584)|null|
+|**2023-09-12**|**Bayesian topology inference on partially known networks from input-output pairs**|Martín Sevilla et.al.|[2309.06532](http://arxiv.org/abs/2309.06532)|null|
 |**2023-09-12**|**Accelerating Defect Predictions in Semiconductors Using Graph Neural Networks**|Md Habibur Rahman et.al.|[2309.06423](http://arxiv.org/abs/2309.06423)|null|
 |**2023-09-12**|**Fg-T2M: Fine-Grained Text-Driven Human Motion Generation via Diffusion Model**|Yin Wang et.al.|[2309.06284](http://arxiv.org/abs/2309.06284)|null|
 |**2023-09-12**|**Information Flow in Graph Neural Networks: A Clinical Triage Use Case**|Víctor Valls et.al.|[2309.06081](http://arxiv.org/abs/2309.06081)|null|
