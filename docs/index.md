@@ -1373,7 +1373,7 @@ layout: default
 |**2023-04-01**|**JacobiNeRF: NeRF Shaping with Mutual Information Gradients**|Xiaomeng Xu et.al.|[2304.00341](http://arxiv.org/abs/2304.00341)|**[link](https://github.com/xxm19/jacobinerf)**|
 |**2023-03-31**|**VDN-NeRF: Resolving Shape-Radiance Ambiguity via View-Dependence Normalization**|Bingfan Zhu et.al.|[2303.17968](http://arxiv.org/abs/2303.17968)|**[link](https://github.com/boifz/vdn-nerf)**|
 |**2023-03-30**|**NeRF-Supervised Deep Stereo**|Fabio Tosi et.al.|[2303.17603](http://arxiv.org/abs/2303.17603)|**[link](https://github.com/fabiotosi92/nerf-supervised-deep-stereo)**|
-|**2023-03-30**|**SynBody: Synthetic Dataset with Layered Human Models for 3D Human Perception and Modeling**|Zhitao Yang et.al.|[2303.17368](http://arxiv.org/abs/2303.17368)|null|
+|**2023-03-30**|**SynBody: Synthetic Dataset with Layered Human Models for 3D Human Perception and Modeling**|Zhitao Yang et.al.|[2303.17368](http://arxiv.org/abs/2303.17368)|**[link](https://github.com/openxrlab/xrfeitoria)**|
 |**2023-03-30**|**NeILF++: Inter-Reflectable Light Fields for Geometry and Material Estimation**|Jingyang Zhang et.al.|[2303.17147](http://arxiv.org/abs/2303.17147)|null|
 |**2023-03-30**|**Enhanced Stable View Synthesis**|Nishant Jain et.al.|[2303.17094](http://arxiv.org/abs/2303.17094)|null|
 |**2023-03-29**|**TriVol: Point Cloud Rendering via Triple Volumes**|Tao Hu et.al.|[2303.16485](http://arxiv.org/abs/2303.16485)|**[link](https://github.com/dvlab-research/trivol)**|
@@ -1450,7 +1450,7 @@ layout: default
 |**2023-03-07**|**Multiscale Tensor Decomposition and Rendering Equation Encoding for View Synthesis**|Kang Han et.al.|[2303.03808](http://arxiv.org/abs/2303.03808)|**[link](https://github.com/imkanghan/nrff)**|
 |**2023-03-10**|**Nerflets: Local Radiance Fields for Efficient Structure-Aware 3D Scene Representation from 2D Supervision**|Xiaoshuai Zhang et.al.|[2303.03361](http://arxiv.org/abs/2303.03361)|null|
 |**2023-03-07**|**Efficient Large-scale Scene Representation with a Hybrid of High-resolution Grid and Plane Features**|Yuqi Zhang et.al.|[2303.03003](http://arxiv.org/abs/2303.03003)|**[link](https://github.com/zyqz97/gp-nerf)**|
-|**2023-03-03**|**Delicate Textured Mesh Recovery from NeRF via Adaptive Surface Refinement**|Jiaxiang Tang et.al.|[2303.02091](http://arxiv.org/abs/2303.02091)|null|
+|**2023-03-03**|**Delicate Textured Mesh Recovery from NeRF via Adaptive Surface Refinement**|Jiaxiang Tang et.al.|[2303.02091](http://arxiv.org/abs/2303.02091)|**[link](https://github.com/ashawkey/nerf2mesh)**|
 |**2023-03-03**|**Multi-Plane Neural Radiance Fields for Novel View Synthesis**|Youssef Abdelkareem et.al.|[2303.01736](http://arxiv.org/abs/2303.01736)|null|
 |**2023-03-01**|**S-NeRF: Neural Radiance Fields for Street Views**|Ziyang Xie et.al.|[2303.00749](http://arxiv.org/abs/2303.00749)|null|
 |**2023-02-28**|**IntrinsicNGP: Intrinsic Coordinate based Hash Encoding for Human NeRF**|Bo Peng et.al.|[2302.14683](http://arxiv.org/abs/2302.14683)|null|
@@ -1478,7 +1478,7 @@ layout: default
 |**2023-01-27**|**A Comparison of Tiny-nerf versus Spatial Representations for 3d Reconstruction**|Saulo Abraham Gante et.al.|[2301.11522](http://arxiv.org/abs/2301.11522)|null|
 |**2023-01-27**|**SNeRL: Semantic-aware Neural Radiance Fields for Reinforcement Learning**|Dongseok Shim et.al.|[2301.11520](http://arxiv.org/abs/2301.11520)|null|
 |**2023-01-26**|**Text-To-4D Dynamic Scene Generation**|Uriel Singer et.al.|[2301.11280](http://arxiv.org/abs/2301.11280)|null|
-|**2023-01-26**|**GeCoNeRF: Few-shot Neural Radiance Fields via Geometric Consistency**|Minseop Kwak et.al.|[2301.10941](http://arxiv.org/abs/2301.10941)|null|
+|**2023-01-26**|**GeCoNeRF: Few-shot Neural Radiance Fields via Geometric Consistency**|Minseop Kwak et.al.|[2301.10941](http://arxiv.org/abs/2301.10941)|**[link](https://github.com/KU-CVLAB/GeCoNeRF)**|
 |**2023-01-23**|**HexPlane: A Fast Representation for Dynamic Scenes**|Ang Cao et.al.|[2301.09632](http://arxiv.org/abs/2301.09632)|**[link](https://github.com/Caoang327/HexPlane)**|
 |**2023-01-22**|**3D Reconstruction of Non-cooperative Resident Space Objects using Instant NGP-accelerated NeRF and D-NeRF**|Trupti Mahendrakar et.al.|[2301.09060](http://arxiv.org/abs/2301.09060)|null|
 |**2023-01-18**|**NeRF in the Palm of Your Hand: Corrective Augmentation for Robotics via Novel-View Synthesis**|Allan Zhou et.al.|[2301.08556](http://arxiv.org/abs/2301.08556)|null|
@@ -1730,12 +1730,12 @@ layout: default
 |**2023-09-09**|**Chemical Properties from Graph Neural Network-Predicted Electron Densities**|Ethan M. Sunshine et.al.|[2309.04811](http://arxiv.org/abs/2309.04811)|null|
 |**2023-09-09**|**Redundancy-Free Self-Supervised Relational Learning for Graph Clustering**|Si-Yu Yi et.al.|[2309.04694](http://arxiv.org/abs/2309.04694)|**[link](https://github.com/yisiyu95/r2fgc)**|
 |**2023-09-08**|**Motif-aware Attribute Masking for Molecular Graph Pre-training**|Eric Inae et.al.|[2309.04589](http://arxiv.org/abs/2309.04589)|**[link](https://github.com/einae-nd/moama-dev)**|
-|**2023-09-08**|**Graph Neural Networks Use Graphs When They Shouldn't**|Maya Bechler-Speicher et.al.|[2309.04332](http://arxiv.org/abs/2309.04332)|null|
+|**2023-09-08**|**Graph Neural Networks Use Graphs When They Shouldn't**|Maya Bechler-Speicher et.al.|[2309.04332](http://arxiv.org/abs/2309.04332)|**[link](https://github.com/mayabechlerspeicher/Graph_Neural_Networks_Overfit_Graphs)**|
 |**2023-09-08**|**A Long-Tail Friendly Representation Framework for Artist and Music Similarity**|Haoran Xiang et.al.|[2309.04182](http://arxiv.org/abs/2309.04182)|null|
 |**2023-09-08**|**Curve Your Attention: Mixed-Curvature Transformers for Graph Representation Learning**|Sungjun Cho et.al.|[2309.04082](http://arxiv.org/abs/2309.04082)|null|
 |**2023-09-07**|**Extending Transductive Knowledge Graph Embedding Models for Inductive Logical Relational Inference**|Thomas Gebhart et.al.|[2309.03773](http://arxiv.org/abs/2309.03773)|null|
 |**2023-09-07**|**Characterizing Lipschitz Stability of GNN for Fairness**|Yaning Jia et.al.|[2309.03648](http://arxiv.org/abs/2309.03648)|null|
-|**2023-09-07**|**Filtration Surfaces for Dynamic Graph Classification**|Franz Srambical et.al.|[2309.03616](http://arxiv.org/abs/2309.03616)|null|
+|**2023-09-07**|**Filtration Surfaces for Dynamic Graph Classification**|Franz Srambical et.al.|[2309.03616](http://arxiv.org/abs/2309.03616)|**[link](https://github.com/aidos-lab/filtration_surfaces)**|
 |**2023-09-07**|**Enhancing 5G Radio Planning with Graph Representations and Deep Learning**|Paul Almasan et.al.|[2309.03603](http://arxiv.org/abs/2309.03603)|null|
 |**2023-09-07**|**DGC: Training Dynamic Graphs with Spatio-Temporal Non-Uniformity using Graph Partitioning by Chunks**|Fahao Chen et.al.|[2309.03523](http://arxiv.org/abs/2309.03523)|null|
 |**2023-09-07**|**Blink: Link Local Differential Privacy in Graph Neural Networks via Bayesian Estimation**|Xiaochen Zhu et.al.|[2309.03190](http://arxiv.org/abs/2309.03190)|**[link](https://github.com/zhxchd/blink_gnn)**|
@@ -1750,10 +1750,10 @@ layout: default
 |**2023-09-05**|**STGIN: Spatial-Temporal Graph Interaction Network for Large-scale POI Recommendation**|Shaohua Liu et.al.|[2309.02251](http://arxiv.org/abs/2309.02251)|null|
 |**2023-09-05**|**Diffusion Generative Inverse Design**|Marin Vlastelica et.al.|[2309.02040](http://arxiv.org/abs/2309.02040)|null|
 |**2023-09-05**|**VFFINDER: A Graph-based Approach for Automated Silent Vulnerability-Fix Identification**|Son Nguyen et.al.|[2309.01971](http://arxiv.org/abs/2309.01971)|null|
-|**2023-09-04**|**Hierarchical Grammar-Induced Geometry for Data-Efficient Molecular Property Prediction**|Minghao Guo et.al.|[2309.01788](http://arxiv.org/abs/2309.01788)|null|
+|**2023-09-04**|**Hierarchical Grammar-Induced Geometry for Data-Efficient Molecular Property Prediction**|Minghao Guo et.al.|[2309.01788](http://arxiv.org/abs/2309.01788)|**[link](https://github.com/gmh14/geo-deg)**|
 |**2023-09-04**|**On the Robustness of Post-hoc GNN Explainers to Label Noise**|Zhiqiang Zhong et.al.|[2309.01706](http://arxiv.org/abs/2309.01706)|null|
 |**2023-09-04**|**Layer-wise training for self-supervised learning on graphs**|Oscar Pina et.al.|[2309.01503](http://arxiv.org/abs/2309.01503)|null|
-|**2023-09-04**|**ReOnto: A Neuro-Symbolic Approach for Biomedical Relation Extraction**|Monika Jain et.al.|[2309.01370](http://arxiv.org/abs/2309.01370)|null|
+|**2023-09-04**|**ReOnto: A Neuro-Symbolic Approach for Biomedical Relation Extraction**|Monika Jain et.al.|[2309.01370](http://arxiv.org/abs/2309.01370)|**[link](https://github.com/kracr/reonto-relation-extraction)**|
 |**2023-09-03**|**Financial Fraud Detection using Quantum Graph Neural Networks**|Nouhaila Innan et.al.|[2309.01127](http://arxiv.org/abs/2309.01127)|null|
 |**2023-09-02**|**SEPAL: Spatial Gene Expression Prediction from Local Graphs**|Gabriel Mejia et.al.|[2309.01036](http://arxiv.org/abs/2309.01036)|null|
 |**2023-09-01**|**Catalyst Property Prediction with CatBERTa: Unveiling Feature Exploration Strategies through Large Language Models**|Janghoon Ock et.al.|[2309.00563](http://arxiv.org/abs/2309.00563)|**[link](https://github.com/hoon-ock/catberta)**|
