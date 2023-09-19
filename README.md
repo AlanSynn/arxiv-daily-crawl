@@ -1735,6 +1735,13 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-09-18**|**Hierarchical Attention and Graph Neural Networks: Toward Drift-Free Pose Estimation**|Kathia Melbouci et.al.|[2309.09934](http://arxiv.org/abs/2309.09934)|null|
+|**2023-09-18**|**A Heterogeneous Graph-Based Multi-Task Learning for Fault Event Diagnosis in Smart Grid**|Dibaloke Chanda et.al.|[2309.09921](http://arxiv.org/abs/2309.09921)|null|
+|**2023-09-18**|**CC-SGG: Corner Case Scenario Generation using Learned Scene Graphs**|George Drayson et.al.|[2309.09844](http://arxiv.org/abs/2309.09844)|null|
+|**2023-09-18**|**FedGKD: Unleashing the Power of Collaboration in Federated Graph Neural Networks**|Qiying Pan et.al.|[2309.09517](http://arxiv.org/abs/2309.09517)|null|
+|**2023-09-17**|**Mitigating Over-Smoothing and Over-Squashing using Augmentations of Forman-Ricci Curvature**|Lukas Fesser et.al.|[2309.09384](http://arxiv.org/abs/2309.09384)|null|
+|**2023-09-17**|**Performance of Graph Neural Networks for Point Cloud Applications**|Dhruv Parikh et.al.|[2309.09142](http://arxiv.org/abs/2309.09142)|null|
+|**2023-09-16**|**CNS: Correspondence Encoded Neural Image Servo Policy**|Anzhe Chen et.al.|[2309.09047](http://arxiv.org/abs/2309.09047)|null|
 |**2023-09-15**|**Local Differential Privacy in Graph Neural Networks: a Reconstruction Approach**|Karuna Bhaila et.al.|[2309.08569](http://arxiv.org/abs/2309.08569)|**[link](https://github.com/karuna-bhaila/rgnn)**|
 |**2023-09-15**|**XFedHunter: An Explainable Federated Learning Framework for Advanced Persistent Threat Detection in SDN**|Huynh Thai Thi et.al.|[2309.08485](http://arxiv.org/abs/2309.08485)|null|
 |**2023-09-15**|**VulnSense: Efficient Vulnerability Detection in Ethereum Smart Contracts by Multimodal Learning with Graph Neural Network and Language Model**|Phan The Duy et.al.|[2309.08474](http://arxiv.org/abs/2309.08474)|null|
