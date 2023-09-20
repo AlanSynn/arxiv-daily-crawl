@@ -1663,6 +1663,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-09-19**|**SPFL: A Self-purified Federated Learning Method Against Poisoning Attacks**|Zizhen Liu et.al.|[2309.10607](http://arxiv.org/abs/2309.10607)|null|
 |**2023-09-15**|**Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates**|Insu Jang et.al.|[2309.08125](http://arxiv.org/abs/2309.08125)|**[link](https://github.com/symbioticlab/oobleck)**|
 |**2023-09-13**|**FedDIP: Federated Learning with Extreme Dynamic Pruning and Incremental Regularization**|Qianyu Long et.al.|[2309.06805](http://arxiv.org/abs/2309.06805)|**[link](https://github.com/ericloong/feddip)**|
 |**2023-09-08**|**Federated Learning for Early Dropout Prediction on Healthy Ageing Applications**|Christos Chrysanthos Nikolaidis et.al.|[2309.04311](http://arxiv.org/abs/2309.04311)|null|
@@ -1708,6 +1709,15 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-09-19**|**AI Foundation Models for Weather and Climate: Applications, Design, and Implementation**|S. Karthik Mukkavilli et.al.|[2309.10808](http://arxiv.org/abs/2309.10808)|null|
+|**2023-09-19**|**Graph Neural Networks for Dynamic Modeling of Roller Bearing**|Vinay Sharma et.al.|[2309.10418](http://arxiv.org/abs/2309.10418)|null|
+|**2023-09-19**|**Graph Contrastive Learning Meets Graph Meta Learning: A Unified Method for Few-shot Node Tasks**|Hao Liu et.al.|[2309.10376](http://arxiv.org/abs/2309.10376)|**[link](https://github.com/haoliu-cola/cola)**|
+|**2023-09-18**|**Asynchronous Perception-Action-Communication with Graph Neural Networks**|Saurav Agarwal et.al.|[2309.10164](http://arxiv.org/abs/2309.10164)|null|
+|**2023-09-18**|**Efficient Low-Rank GNN Defense Against Structural Attacks**|Abdullah Alchihabi et.al.|[2309.10136](http://arxiv.org/abs/2309.10136)|null|
+|**2023-09-18**|**GDM: Dual Mixup for Graph Classification with Limited Supervision**|Abdullah Alchihabi et.al.|[2309.10134](http://arxiv.org/abs/2309.10134)|null|
+|**2023-09-18**|**Deep Prompt Tuning for Graph Transformers**|Reza Shirkavand et.al.|[2309.10131](http://arxiv.org/abs/2309.10131)|null|
+|**2023-09-18**|**Markov Chain-Guided Graph Construction and Sampling Depth Optimization for EEG-Based Mental Disorder Detection**|Yihan Wu et.al.|[2309.10128](http://arxiv.org/abs/2309.10128)|null|
+|**2023-09-18**|**Finite Volume Graph Network(FVGN): Predicting unsteady incompressible fluid dynamics with finite volume informed neural network**|Tianyu Li et.al.|[2309.10050](http://arxiv.org/abs/2309.10050)|null|
 |**2023-09-18**|**Hierarchical Attention and Graph Neural Networks: Toward Drift-Free Pose Estimation**|Kathia Melbouci et.al.|[2309.09934](http://arxiv.org/abs/2309.09934)|null|
 |**2023-09-18**|**A Heterogeneous Graph-Based Multi-Task Learning for Fault Event Diagnosis in Smart Grid**|Dibaloke Chanda et.al.|[2309.09921](http://arxiv.org/abs/2309.09921)|null|
 |**2023-09-18**|**CC-SGG: Corner Case Scenario Generation using Learned Scene Graphs**|George Drayson et.al.|[2309.09844](http://arxiv.org/abs/2309.09844)|null|
