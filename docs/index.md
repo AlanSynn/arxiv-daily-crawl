@@ -129,7 +129,7 @@ layout: default
 |**2022-10-16**|**D2SLAM: Semantic visual SLAM based on the influence of Depth for Dynamic environments**|Ayman Beghdadi et.al.|[2210.08647](http://arxiv.org/abs/2210.08647)|null|
 |**2022-10-16**|**Indoor Smartphone SLAM with Learned Echoic Location Features**|Wenjie Luo et.al.|[2210.08493](http://arxiv.org/abs/2210.08493)|null|
 |**2022-10-15**|**Self-Improving SLAM in Dynamic Environments: Learning When to Mask**|Adrian Bojko et.al.|[2210.08350](http://arxiv.org/abs/2210.08350)|**[link](https://github.com/adrianbojko/consinv-dataset)**|
-|**2022-10-13**|**Design and Evaluation of a Generic Visual SLAM Framework for Multi-Camera Systems**|Pushyami Kaveti et.al.|[2210.07315](http://arxiv.org/abs/2210.07315)|null|
+|**2022-10-13**|**Design and Evaluation of a Generic Visual SLAM Framework for Multi-Camera Systems**|Pushyami Kaveti et.al.|[2210.07315](http://arxiv.org/abs/2210.07315)|**[link](https://github.com/neufieldrobotics/multicamslam)**|
 |**2022-10-12**|**RING++: Roto-translation Invariant Gram for Global Localization on a Sparse Scan Map**|Xuecheng Xu et.al.|[2210.05984](http://arxiv.org/abs/2210.05984)|**[link](https://github.com/MaverickPeter/MR_SLAM)**|
 |**2022-10-11**|**Observability Analysis of Graph SLAM-Based Joint Calibration of Multiple Microphone Arrays and Sound Source Localization**|Yuanzheng He et.al.|[2210.05600](http://arxiv.org/abs/2210.05600)|null|
 |**2022-10-11**|**Autonomous Asteroid Characterization Through Nanosatellite Swarming**|Kaitlin Dennison et.al.|[2210.05518](http://arxiv.org/abs/2210.05518)|null|
@@ -1746,7 +1746,7 @@ layout: default
 |**2023-09-13**|**Scalable neural network models and terascale datasets for particle-flow reconstruction**|Joosep Pata et.al.|[2309.06782](http://arxiv.org/abs/2309.06782)|null|
 |**2023-09-12**|**Bregman Graph Neural Network**|Jiayu Zhai et.al.|[2309.06645](http://arxiv.org/abs/2309.06645)|**[link](https://github.com/jiayuzhai1207/bregmangnn)**|
 |**2023-09-12**|**Explainable Graph Neural Network for Alzheimer's Disease And Related Dementias Risk Prediction**|Xinyue Hu et.al.|[2309.06584](http://arxiv.org/abs/2309.06584)|null|
-|**2023-09-12**|**Bayesian topology inference on partially known networks from input-output pairs**|Martín Sevilla et.al.|[2309.06532](http://arxiv.org/abs/2309.06532)|null|
+|**2023-09-12**|**Bayesian topology inference on partially known networks from input-output pairs**|Martín Sevilla et.al.|[2309.06532](http://arxiv.org/abs/2309.06532)|**[link](https://github.com/tenceto/inference_langevin)**|
 |**2023-09-13**|**Accelerating Defect Predictions in Semiconductors Using Graph Neural Networks**|Md Habibur Rahman et.al.|[2309.06423](http://arxiv.org/abs/2309.06423)|**[link](https://github.com/msehabibur/defect_gnn_gen_1)**|
 |**2023-09-12**|**Fg-T2M: Fine-Grained Text-Driven Human Motion Generation via Diffusion Model**|Yin Wang et.al.|[2309.06284](http://arxiv.org/abs/2309.06284)|null|
 |**2023-09-12**|**Information Flow in Graph Neural Networks: A Clinical Triage Use Case**|Víctor Valls et.al.|[2309.06081](http://arxiv.org/abs/2309.06081)|null|
@@ -1766,7 +1766,7 @@ layout: default
 |**2023-09-08**|**Graph Neural Networks Use Graphs When They Shouldn't**|Maya Bechler-Speicher et.al.|[2309.04332](http://arxiv.org/abs/2309.04332)|**[link](https://github.com/mayabechlerspeicher/Graph_Neural_Networks_Overfit_Graphs)**|
 |**2023-09-08**|**A Long-Tail Friendly Representation Framework for Artist and Music Similarity**|Haoran Xiang et.al.|[2309.04182](http://arxiv.org/abs/2309.04182)|null|
 |**2023-09-08**|**Curve Your Attention: Mixed-Curvature Transformers for Graph Representation Learning**|Sungjun Cho et.al.|[2309.04082](http://arxiv.org/abs/2309.04082)|null|
-|**2023-09-07**|**Extending Transductive Knowledge Graph Embedding Models for Inductive Logical Relational Inference**|Thomas Gebhart et.al.|[2309.03773](http://arxiv.org/abs/2309.03773)|null|
+|**2023-09-07**|**Extending Transductive Knowledge Graph Embedding Models for Inductive Logical Relational Inference**|Thomas Gebhart et.al.|[2309.03773](http://arxiv.org/abs/2309.03773)|**[link](https://github.com/tgebhart/sheaf_kg_transind)**|
 |**2023-09-07**|**Characterizing Lipschitz Stability of GNN for Fairness**|Yaning Jia et.al.|[2309.03648](http://arxiv.org/abs/2309.03648)|null|
 |**2023-09-07**|**Filtration Surfaces for Dynamic Graph Classification**|Franz Srambical et.al.|[2309.03616](http://arxiv.org/abs/2309.03616)|**[link](https://github.com/aidos-lab/filtration_surfaces)**|
 |**2023-09-07**|**Enhancing 5G Radio Planning with Graph Representations and Deep Learning**|Paul Almasan et.al.|[2309.03603](http://arxiv.org/abs/2309.03603)|null|
@@ -1788,7 +1788,7 @@ layout: default
 |**2023-09-04**|**Layer-wise training for self-supervised learning on graphs**|Oscar Pina et.al.|[2309.01503](http://arxiv.org/abs/2309.01503)|null|
 |**2023-09-04**|**ReOnto: A Neuro-Symbolic Approach for Biomedical Relation Extraction**|Monika Jain et.al.|[2309.01370](http://arxiv.org/abs/2309.01370)|**[link](https://github.com/kracr/reonto-relation-extraction)**|
 |**2023-09-03**|**Financial Fraud Detection using Quantum Graph Neural Networks**|Nouhaila Innan et.al.|[2309.01127](http://arxiv.org/abs/2309.01127)|null|
-|**2023-09-02**|**SEPAL: Spatial Gene Expression Prediction from Local Graphs**|Gabriel Mejia et.al.|[2309.01036](http://arxiv.org/abs/2309.01036)|null|
+|**2023-09-02**|**SEPAL: Spatial Gene Expression Prediction from Local Graphs**|Gabriel Mejia et.al.|[2309.01036](http://arxiv.org/abs/2309.01036)|**[link](https://github.com/bcv-uniandes/sepal)**|
 |**2023-09-01**|**Catalyst Property Prediction with CatBERTa: Unveiling Feature Exploration Strategies through Large Language Models**|Janghoon Ock et.al.|[2309.00563](http://arxiv.org/abs/2309.00563)|**[link](https://github.com/hoon-ock/catberta)**|
 |**2023-09-01**|**Application of Deep Learning Methods in Monitoring and Optimization of Electric Power Systems**|Ognjen Kundacina et.al.|[2309.00498](http://arxiv.org/abs/2309.00498)|null|
 |**2023-09-04**|**A Locality-based Neural Solver for Optical Motion Capture**|Xiaoyu Pan et.al.|[2309.00428](http://arxiv.org/abs/2309.00428)|**[link](https://github.com/non-void/localmocap)**|
@@ -1978,7 +1978,7 @@ layout: default
 |**2023-07-12**|**Differentially Private Decoupled Graph Convolutions for Multigranular Topology Protection**|Eli Chien et.al.|[2307.06422](http://arxiv.org/abs/2307.06422)|null|
 |**2023-07-12**|**Learning Stochastic Dynamical Systems as an Implicit Regularization with Graph Neural Networks**|Jin Guo et.al.|[2307.06097](http://arxiv.org/abs/2307.06097)|null|
 |**2023-07-12**|**An OOD Multi-Task Perspective for Link Prediction with New Relation Types and Nodes**|Jincheng Zhou et.al.|[2307.06046](http://arxiv.org/abs/2307.06046)|null|
-|**2023-07-12**|**An Effective and Efficient Time-aware Entity Alignment Framework via Two-aspect Three-view Label Propagation**|Li Cai et.al.|[2307.06013](http://arxiv.org/abs/2307.06013)|null|
+|**2023-07-12**|**An Effective and Efficient Time-aware Entity Alignment Framework via Two-aspect Three-view Label Propagation**|Li Cai et.al.|[2307.06013](http://arxiv.org/abs/2307.06013)|**[link](https://github.com/lcai2/lighttea)**|
 |**2023-07-12**|**FIS-ONE: Floor Identification System with One Label for Crowdsourced RF Signals**|Weipeng Zhuo et.al.|[2307.05914](http://arxiv.org/abs/2307.05914)|**[link](https://github.com/stevezhuo/fis-one)**|
 |**2023-07-12**|**Knowledge-Driven Resource Allocation for D2D Networks: A WMMSE Unrolled Graph Neural Network Approach**|Hao Yang et.al.|[2307.05882](http://arxiv.org/abs/2307.05882)|null|
 |**2023-07-11**|**Influential Simplices Mining via Simplicial Convolutional Network**|Yujie Zeng et.al.|[2307.05841](http://arxiv.org/abs/2307.05841)|null|
