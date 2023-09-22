@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2023.09.21
+## Updated on 2023.09.22
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1710,9 +1710,9 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
 |**2023-09-20**|**Using deep learning to construct stochastic local search SAT solvers with performance bounds**|Maximilian Kramer et.al.|[2309.11452](http://arxiv.org/abs/2309.11452)|null|
-|**2023-09-20**|**Improving Article Classification with Edge-Heterogeneous Graph Neural Networks**|Khang Ly et.al.|[2309.11341](http://arxiv.org/abs/2309.11341)|null|
+|**2023-09-20**|**Improving Article Classification with Edge-Heterogeneous Graph Neural Networks**|Khang Ly et.al.|[2309.11341](http://arxiv.org/abs/2309.11341)|**[link](https://github.com/lyvykhang/edgehetero-nodeproppred)**|
 |**2023-09-20**|**InkStream: Real-time GNN Inference on Streaming Graphs via Incremental Update**|Dan Wu et.al.|[2309.11071](http://arxiv.org/abs/2309.11071)|null|
-|**2023-09-20**|**Localize, Retrieve and Fuse: A Generalized Framework for Free-Form Question Answering over Tables**|Wenting Zhao et.al.|[2309.11049](http://arxiv.org/abs/2309.11049)|null|
+|**2023-09-21**|**Localize, Retrieve and Fuse: A Generalized Framework for Free-Form Question Answering over Tables**|Wenting Zhao et.al.|[2309.11049](http://arxiv.org/abs/2309.11049)|null|
 |**2023-09-20**|**Accurate and Scalable Estimation of Epistemic Uncertainty for Graph Neural Networks**|Puja Trivedi et.al.|[2309.10976](http://arxiv.org/abs/2309.10976)|null|
 |**2023-09-19**|**Crypto'Graph: Leveraging Privacy-Preserving Distributed Link Prediction for Robust Graph Learning**|Sofiane Azogagh et.al.|[2309.10890](http://arxiv.org/abs/2309.10890)|null|
 |**2023-09-20**|**AI Foundation Models for Weather and Climate: Applications, Design, and Implementation**|S. Karthik Mukkavilli et.al.|[2309.10808](http://arxiv.org/abs/2309.10808)|null|
