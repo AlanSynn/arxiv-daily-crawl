@@ -1711,10 +1711,16 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2023-09-25**|**HyperTrack: Neural Combinatorics for High Energy Physics**|Mikael Mieskolainen et.al.|[2309.14113](http://arxiv.org/abs/2309.14113)|null|
+|**2023-09-26**|**Label Deconvolution for Node Representation Learning on Large-scale Attributed Graphs against Learning Bias**|Zhihao Shi et.al.|[2309.14907](http://arxiv.org/abs/2309.14907)|null|
+|**2023-09-26**|**Graph Neural Network Based Method for Path Planning Problem**|Xingrong Diao et.al.|[2309.14845](http://arxiv.org/abs/2309.14845)|null|
+|**2023-09-26**|**A Comparative Study of Population-Graph Construction Methods and Graph Neural Networks for Brain Age Regression**|Kyriaki-Margarita Bintsi et.al.|[2309.14816](http://arxiv.org/abs/2309.14816)|**[link](https://github.com/bintsi/brain-age-population-graphs)**|
+|**2023-09-26**|**XGV-BERT: Leveraging Contextualized Language Model and Graph Neural Network for Efficient Software Vulnerability Detection**|Vu Le Anh Quan et.al.|[2309.14677](http://arxiv.org/abs/2309.14677)|null|
+|**2023-09-26**|**ALEX: Towards Effective Graph Transfer Learning with Noisy Labels**|Jingyang Yuan et.al.|[2309.14673](http://arxiv.org/abs/2309.14673)|null|
+|**2023-09-25**|**Learning dislocation dynamics mobility laws from large-scale MD simulations**|Nicolas Bertin et.al.|[2309.14450](http://arxiv.org/abs/2309.14450)|null|
+|**2023-09-25**|**HyperTrack: Neural Combinatorics for High Energy Physics**|Mikael Mieskolainen et.al.|[2309.14113](http://arxiv.org/abs/2309.14113)|**[link](https://github.com/mieskolainen/hypertrack)**|
 |**2023-09-25**|**HiGNN-TTS: Hierarchical Prosody Modeling with Graph Neural Networks for Expressive Long-form TTS**|Dake Guo et.al.|[2309.13907](http://arxiv.org/abs/2309.13907)|null|
 |**2023-09-25**|**TouchUp-G: Improving Feature Representation through Graph-Centric Finetuning**|Jing Zhu et.al.|[2309.13885](http://arxiv.org/abs/2309.13885)|null|
-|**2023-09-25**|**Estimating Treatment Effects Under Heterogeneous Interference**|Xiaofeng Lin et.al.|[2309.13884](http://arxiv.org/abs/2309.13884)|null|
+|**2023-09-25**|**Estimating Treatment Effects Under Heterogeneous Interference**|Xiaofeng Lin et.al.|[2309.13884](http://arxiv.org/abs/2309.13884)|**[link](https://github.com/linxf208/hinite)**|
 |**2023-09-23**|**Enhancing Student Performance Prediction on Learnersourced Questions with SGNN-LLM Synergy**|Lin Ni et.al.|[2309.13500](http://arxiv.org/abs/2309.13500)|null|
 |**2023-09-23**|**A Model-Agnostic Graph Neural Network for Integrating Local and Global Information**|Wenzhuo Zhou et.al.|[2309.13459](http://arxiv.org/abs/2309.13459)|null|
 |**2023-09-23**|**Deciphering Spatio-Temporal Graph Forecasting: A Causal Lens and Treatment**|Yutong Xia et.al.|[2309.13378](http://arxiv.org/abs/2309.13378)|null|
