@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2023.09.26
+## Updated on 2023.09.27
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1663,7 +1663,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2023-09-25**|**Exploring the Impact of Serverless Computing on Peer To Peer Training Machine Learning**|Amine Barral et.al.|[2309.14139](http://arxiv.org/abs/2309.14139)|**[link](https://github.com/aminebarrak/peertopeerserverless)**|
+|**2023-09-25**|**Exploring the Impact of Serverless Computing on Peer To Peer Training Machine Learning**|Amine Barrak et.al.|[2309.14139](http://arxiv.org/abs/2309.14139)|**[link](https://github.com/aminebarrak/peertopeerserverless)**|
 |**2023-09-23**|**Zen: Near-Optimal Sparse Tensor Synchronization for Distributed DNN Training**|Zhuang Wang et.al.|[2309.13254](http://arxiv.org/abs/2309.13254)|null|
 |**2023-09-19**|**SPFL: A Self-purified Federated Learning Method Against Poisoning Attacks**|Zizhen Liu et.al.|[2309.10607](http://arxiv.org/abs/2309.10607)|null|
 |**2023-09-15**|**Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates**|Insu Jang et.al.|[2309.08125](http://arxiv.org/abs/2309.08125)|**[link](https://github.com/symbioticlab/oobleck)**|
