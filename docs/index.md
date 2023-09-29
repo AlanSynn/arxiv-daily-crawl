@@ -1711,6 +1711,12 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-09-28**|**Reusability report: Prostate cancer stratification with diverse biologically-informed neural architectures**|Christian Pedersen et.al.|[2309.16645](http://arxiv.org/abs/2309.16645)|null|
+|**2023-09-28**|**MHG-GNN: Combination of Molecular Hypergraph Grammar with Graph Neural Network**|Akihiro Kishimoto et.al.|[2309.16374](http://arxiv.org/abs/2309.16374)|null|
+|**2023-09-28**|**LagrangeBench: A Lagrangian Fluid Mechanics Benchmarking Suite**|Artur P. Toshev et.al.|[2309.16342](http://arxiv.org/abs/2309.16342)|**[link](https://github.com/tumaer/lagrangebench)**|
+|**2023-09-28**|**GInX-Eval: Towards In-Distribution Evaluation of Graph Neural Network Explanations**|Kenza Amara et.al.|[2309.16223](http://arxiv.org/abs/2309.16223)|null|
+|**2023-09-28**|**Distill to Delete: Unlearning in Graph Networks with Knowledge Distillation**|Yash Sinha et.al.|[2309.16173](http://arxiv.org/abs/2309.16173)|null|
+|**2023-09-27**|**GNNHLS: Evaluating Graph Neural Network Inference via High-Level Synthesis**|Chenfeng Zhao et.al.|[2309.16022](http://arxiv.org/abs/2309.16022)|**[link](https://github.com/chenfengzhao/gnnhls)**|
 |**2023-09-27**|**Line Graph Neural Networks for Link Weight Prediction**|Jinbi Liang et.al.|[2309.15728](http://arxiv.org/abs/2309.15728)|null|
 |**2023-09-27**|**GPIP: Geometry-enhanced Pre-training on Interatomic Potentials**|Taoyong Cui et.al.|[2309.15718](http://arxiv.org/abs/2309.15718)|null|
 |**2023-09-27**|**Residual Scheduling: A New Reinforcement Learning Approach to Solving Job Shop Scheduling Problem**|Kuo-Hao Ho et.al.|[2309.15517](http://arxiv.org/abs/2309.15517)|null|
