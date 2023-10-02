@@ -1711,6 +1711,16 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-09-29**|**Learning Decentralized Flocking Controllers with Spatio-Temporal Graph Neural Network**|Siji Chen et.al.|[2309.17437](http://arxiv.org/abs/2309.17437)|null|
+|**2023-09-29**|**DREAM: Decentralized Reinforcement Learning for Exploration and Efficient Energy Management in Multi-Robot Systems**|Dipam Patel et.al.|[2309.17433](http://arxiv.org/abs/2309.17433)|null|
+|**2023-09-29**|**Networked Inequality: Preferential Attachment Bias in Graph Neural Network Link Prediction**|Arjun Subramonian et.al.|[2309.17417](http://arxiv.org/abs/2309.17417)|**[link](https://github.com/arjunsubramonian/link_bias_amplification)**|
+|**2023-09-29**|**Machine Learning for Practical Quantum Error Mitigation**|Haoran Liao et.al.|[2309.17368](http://arxiv.org/abs/2309.17368)|null|
+|**2023-09-29**|**Asynchronous Graph Generators**|Christopher P. Ley et.al.|[2309.17335](http://arxiv.org/abs/2309.17335)|null|
+|**2023-09-29**|**Meta-Path Learning for Multi-relational Graph Neural Networks**|Francesco Ferrini et.al.|[2309.17113](http://arxiv.org/abs/2309.17113)|null|
+|**2023-09-29**|**On the Power of the Weisfeiler-Leman Test for Graph Motif Parameters**|Pablo Barceló et.al.|[2309.17053](http://arxiv.org/abs/2309.17053)|null|
+|**2023-09-29**|**Controlling Continuous Relaxation for Combinatorial Optimization**|Yuma Ichikawa et.al.|[2309.16965](http://arxiv.org/abs/2309.16965)|null|
+|**2023-09-29**|**G4SATBench: Benchmarking and Advancing SAT Solving with Graph Neural Networks**|Zhaoyu Li et.al.|[2309.16941](http://arxiv.org/abs/2309.16941)|**[link](https://github.com/zhaoyu-li/g4satbench)**|
+|**2023-09-29**|**ACGAN-GNNExplainer: Auxiliary Conditional Generative Explainer for Graph Neural Networks**|Yiqiao Li et.al.|[2309.16918](http://arxiv.org/abs/2309.16918)|null|
 |**2023-09-28**|**Reusability report: Prostate cancer stratification with diverse biologically-informed neural architectures**|Christian Pedersen et.al.|[2309.16645](http://arxiv.org/abs/2309.16645)|null|
 |**2023-09-28**|**MHG-GNN: Combination of Molecular Hypergraph Grammar with Graph Neural Network**|Akihiro Kishimoto et.al.|[2309.16374](http://arxiv.org/abs/2309.16374)|null|
 |**2023-09-28**|**LagrangeBench: A Lagrangian Fluid Mechanics Benchmarking Suite**|Artur P. Toshev et.al.|[2309.16342](http://arxiv.org/abs/2309.16342)|**[link](https://github.com/tumaer/lagrangebench)**|
