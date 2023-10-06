@@ -1688,6 +1688,8 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-10-05**|**Solving a Class of Non-Convex Minimax Optimization in Federated Learning**|Xidong Wu et.al.|[2310.03613](http://arxiv.org/abs/2310.03613)|null|
+|**2023-10-05**|**LightSeq: Sequence Level Parallelism for Distributed Training of Long Context Transformers**|Dacheng Li et.al.|[2310.03294](http://arxiv.org/abs/2310.03294)|null|
 |**2023-10-03**|**HPCClusterScape: Increasing Transparency and Efficiency of Shared High-Performance Computing Clusters for Large-scale AI Models**|Heungseok Park et.al.|[2310.02120](http://arxiv.org/abs/2310.02120)|null|
 |**2023-09-29**|**AI ensemble for signal detection of higher order gravitational wave modes of quasi-circular, spinning, non-precessing binary black hole mergers**|Minyang Tian et.al.|[2310.00052](http://arxiv.org/abs/2310.00052)|null|
 |**2023-09-25**|**Exploring the Impact of Serverless Computing on Peer To Peer Training Machine Learning**|Amine Barrak et.al.|[2309.14139](http://arxiv.org/abs/2309.14139)|**[link](https://github.com/aminebarrak/peertopeerserverless)**|
@@ -1740,6 +1742,9 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-10-05**|**GRAPES: Learning to Sample Graphs for Scalable Graph Neural Networks**|Taraneh Younesian et.al.|[2310.03399](http://arxiv.org/abs/2310.03399)|**[link](https://github.com/dfdazac/grapes)**|
+|**2023-10-05**|**Fragment-based Pretraining and Finetuning on Molecular Graphs**|Kha-Dinh Luong et.al.|[2310.03274](http://arxiv.org/abs/2310.03274)|null|
+|**2023-10-04**|**Deep reinforcement learning for machine scheduling: Methodology, the state-of-the-art, and future directions**|Maziyar Khadivi et.al.|[2310.03195](http://arxiv.org/abs/2310.03195)|null|
 |**2023-10-04**|**Graph data modelling for outcome prediction in oropharyngeal cancer patients**|Nithya Bhasker et.al.|[2310.02931](http://arxiv.org/abs/2310.02931)|null|
 |**2023-10-05**|**Rayleigh Quotient Graph Neural Networks for Graph-level Anomaly Detection**|Xiangyu Dong et.al.|[2310.02861](http://arxiv.org/abs/2310.02861)|null|
 |**2023-10-04**|**Graph Neural Networks and Time Series as Directed Graphs for Quality Recognition**|Angelica Simonetti et.al.|[2310.02774](http://arxiv.org/abs/2310.02774)|null|
