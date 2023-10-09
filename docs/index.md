@@ -1715,6 +1715,10 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-10-06**|**Non-Redundant Graph Neural Networks with Improved Expressiveness**|Franka Bause et.al.|[2310.04190](http://arxiv.org/abs/2310.04190)|null|
+|**2023-10-06**|**Dynamic Relation-Attentive Graph Neural Networks for Fraud Detection**|Heehyeon Kim et.al.|[2310.04171](http://arxiv.org/abs/2310.04171)|null|
+|**2023-10-06**|**AUTOPARLLM: GNN-Guided Automatic Code Parallelization using Large Language Models**|Quazi Ishtiaque Mahmud et.al.|[2310.04047](http://arxiv.org/abs/2310.04047)|null|
+|**2023-10-05**|**Fishnets: Information-Optimal, Scalable Aggregation for Sets and Graphs**|T. Lucas Makinen et.al.|[2310.03812](http://arxiv.org/abs/2310.03812)|null|
 |**2023-10-05**|**GRAPES: Learning to Sample Graphs for Scalable Graph Neural Networks**|Taraneh Younesian et.al.|[2310.03399](http://arxiv.org/abs/2310.03399)|**[link](https://github.com/dfdazac/grapes)**|
 |**2023-10-05**|**Fragment-based Pretraining and Finetuning on Molecular Graphs**|Kha-Dinh Luong et.al.|[2310.03274](http://arxiv.org/abs/2310.03274)|null|
 |**2023-10-04**|**Deep reinforcement learning for machine scheduling: Methodology, the state-of-the-art, and future directions**|Maziyar Khadivi et.al.|[2310.03195](http://arxiv.org/abs/2310.03195)|null|
