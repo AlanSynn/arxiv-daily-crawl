@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2023.10.10
+## Updated on 2023.10.11
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1663,7 +1663,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2023-10-09**|**Making Scalable Meta Learning Practical**|Sang Keun Choe et.al.|[2310.05674](http://arxiv.org/abs/2310.05674)|null|
+|**2023-10-09**|**Making Scalable Meta Learning Practical**|Sang Keun Choe et.al.|[2310.05674](http://arxiv.org/abs/2310.05674)|**[link](https://github.com/leopard-ai/betty)**|
 |**2023-10-05**|**Solving a Class of Non-Convex Minimax Optimization in Federated Learning**|Xidong Wu et.al.|[2310.03613](http://arxiv.org/abs/2310.03613)|null|
 |**2023-10-05**|**LightSeq: Sequence Level Parallelism for Distributed Training of Long Context Transformers**|Dacheng Li et.al.|[2310.03294](http://arxiv.org/abs/2310.03294)|**[link](https://github.com/rulinshao/lightseq)**|
 |**2023-10-03**|**HPCClusterScape: Increasing Transparency and Efficiency of Shared High-Performance Computing Clusters for Large-scale AI Models**|Heungseok Park et.al.|[2310.02120](http://arxiv.org/abs/2310.02120)|null|
