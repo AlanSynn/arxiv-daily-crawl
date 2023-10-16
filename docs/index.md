@@ -1718,6 +1718,8 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-10-13**|**Graph Condensation via Eigenbasis Matching**|Yang Liu et.al.|[2310.09202](http://arxiv.org/abs/2310.09202)|null|
+|**2023-10-12**|**Heterophily-Based Graph Neural Network for Imbalanced Classification**|Zirui Liang et.al.|[2310.08725](http://arxiv.org/abs/2310.08725)|null|
 |**2023-10-12**|**Infinite Width Graph Neural Networks for Node Regression/ Classification**|Yunus Cobanoglu et.al.|[2310.08176](http://arxiv.org/abs/2310.08176)|**[link](https://github.com/yCobanoglu/infinite-width-gnns)**|
 |**2023-10-12**|**Multi-Scale Spatial-Temporal Recurrent Networks for Traffic Flow Prediction**|Haiyang Liu et.al.|[2310.08138](http://arxiv.org/abs/2310.08138)|null|
 |**2023-10-12**|**Graph-SCP: Accelerating Set Cover Problems with Graph Neural Networks**|Zohair Shafi et.al.|[2310.07979](http://arxiv.org/abs/2310.07979)|null|
