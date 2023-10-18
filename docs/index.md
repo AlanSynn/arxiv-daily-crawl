@@ -1663,6 +1663,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-10-15**|**The Capacity Region of Information Theoretic Secure Aggregation with Uncoded Groupwise Keys**|Kai Wan et.al.|[2310.09889](http://arxiv.org/abs/2310.09889)|null|
 |**2023-10-10**|**Ultima: Robust and Tail-Optimal AllReduce for Distributed Deep Learning in the Cloud**|Ertza Warraich et.al.|[2310.06993](http://arxiv.org/abs/2310.06993)|null|
 |**2023-10-10**|**Distributed Transfer Learning with 4th Gen Intel Xeon Processors**|Lakshmi Arunachalam et.al.|[2310.06916](http://arxiv.org/abs/2310.06916)|null|
 |**2023-10-09**|**Making Scalable Meta Learning Practical**|Sang Keun Choe et.al.|[2310.05674](http://arxiv.org/abs/2310.05674)|**[link](https://github.com/leopard-ai/betty)**|
@@ -1718,6 +1719,16 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-10-17**|**VcT: Visual change Transformer for Remote Sensing Image Change Detection**|Bo Jiang et.al.|[2310.11417](http://arxiv.org/abs/2310.11417)|**[link](https://github.com/event-ahu/vct_remote_sensing_change_detection)**|
+|**2023-10-17**|**Hybrid quantum-classical graph neural networks for tumor classification in digital pathology**|Anupama Ray et.al.|[2310.11353](http://arxiv.org/abs/2310.11353)|null|
+|**2023-10-17**|**Self-supervision meets kernel graph neural models: From architecture to augmentations**|Jiawang Dan et.al.|[2310.11281](http://arxiv.org/abs/2310.11281)|null|
+|**2023-10-17**|**Graph Neural Networks for Recommendation: Reproducibility, Graph Topology, and Node Representation**|Daniele Malitesta et.al.|[2310.11270](http://arxiv.org/abs/2310.11270)|null|
+|**2023-10-17**|**Accurate prediction of international trade flows: Leveraging knowledge graphs and their embeddings**|Diego Rincon-Yanez et.al.|[2310.11161](http://arxiv.org/abs/2310.11161)|null|
+|**2023-10-17**|**CSG: Curriculum Representation Learning for Signed Graph**|Zeyu Zhang et.al.|[2310.11083](http://arxiv.org/abs/2310.11083)|null|
+|**2023-10-17**|**Multi-omics Sampling-based Graph Transformer for Synthetic Lethality Prediction**|Xusheng Zhao et.al.|[2310.11082](http://arxiv.org/abs/2310.11082)|null|
+|**2023-10-17**|**Fast Graph Condensation with Structure-based Neural Tangent Kernel**|Lin Wang et.al.|[2310.11046](http://arxiv.org/abs/2310.11046)|null|
+|**2023-10-17**|**SignGT: Signed Attention-based Graph Transformer for Graph Representation Learning**|Jinsong Chen et.al.|[2310.11025](http://arxiv.org/abs/2310.11025)|null|
+|**2023-10-17**|**Accelerating Scalable Graph Neural Network Inference with Node-Adaptive Propagation**|Xinyi Gao et.al.|[2310.10998](http://arxiv.org/abs/2310.10998)|null|
 |**2023-10-13**|**Graph Condensation via Eigenbasis Matching**|Yang Liu et.al.|[2310.09202](http://arxiv.org/abs/2310.09202)|null|
 |**2023-10-12**|**Heterophily-Based Graph Neural Network for Imbalanced Classification**|Zirui Liang et.al.|[2310.08725](http://arxiv.org/abs/2310.08725)|null|
 |**2023-10-12**|**Infinite Width Graph Neural Networks for Node Regression/ Classification**|Yunus Cobanoglu et.al.|[2310.08176](http://arxiv.org/abs/2310.08176)|**[link](https://github.com/yCobanoglu/infinite-width-gnns)**|
