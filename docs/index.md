@@ -1725,7 +1725,7 @@ layout: default
 |**2023-10-19**|**Exploring Graph Neural Networks for Indian Legal Judgment Prediction**|Mann Khatri et.al.|[2310.12800](http://arxiv.org/abs/2310.12800)|null|
 |**2023-10-19**|**Pretraining Language Models with Text-Attributed Heterogeneous Graphs**|Tao Zou et.al.|[2310.12580](http://arxiv.org/abs/2310.12580)|**[link](https://github.com/hope-rita/thlm)**|
 |**2023-10-19**|**Open-World Lifelong Graph Learning**|Marcel Hoffmann et.al.|[2310.12565](http://arxiv.org/abs/2310.12565)|**[link](https://github.com/bobowner/open-world-lgl)**|
-|**2023-10-19**|**DepWiGNN: A Depth-wise Graph Neural Network for Multi-hop Spatial Reasoning in Text**|Shuaiyi Li et.al.|[2310.12557](http://arxiv.org/abs/2310.12557)|null|
+|**2023-10-19**|**DepWiGNN: A Depth-wise Graph Neural Network for Multi-hop Spatial Reasoning in Text**|Shuaiyi Li et.al.|[2310.12557](http://arxiv.org/abs/2310.12557)|**[link](https://github.com/syon-li/depwignn)**|
 |**2023-10-19**|**WeaveNet for Approximating Two-sided Matching Problems**|Shusaku Sone et.al.|[2310.12515](http://arxiv.org/abs/2310.12515)|null|
 |**2023-10-19**|**MuseGNN: Interpretable and Convergent Graph Neural Network Layers at Scale**|Haitian Jiang et.al.|[2310.12457](http://arxiv.org/abs/2310.12457)|null|
 |**2023-10-19**|**Cooperative Minibatching in Graph Neural Networks**|Muhammed Fatih Balin et.al.|[2310.12403](http://arxiv.org/abs/2310.12403)|null|
