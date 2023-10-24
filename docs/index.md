@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2023.10.23
+## Updated on 2023.10.24
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1732,7 +1732,7 @@ layout: default
 |**2023-10-19**|**Graph Neural Networks with polynomial activations have limited expressivity**|Sammy Khalife et.al.|[2310.13139](http://arxiv.org/abs/2310.13139)|null|
 |**2023-10-19**|**Agri-GNN: A Novel Genotypic-Topological Graph Neural Network Framework Built on GraphSAGE for Optimized Yield Prediction**|Aditya Gupta et.al.|[2310.13037](http://arxiv.org/abs/2310.13037)|null|
 |**2023-10-19**|**Exploring Graph Neural Networks for Indian Legal Judgment Prediction**|Mann Khatri et.al.|[2310.12800](http://arxiv.org/abs/2310.12800)|null|
-|**2023-10-19**|**Pretraining Language Models with Text-Attributed Heterogeneous Graphs**|Tao Zou et.al.|[2310.12580](http://arxiv.org/abs/2310.12580)|**[link](https://github.com/hope-rita/thlm)**|
+|**2023-10-23**|**Pretraining Language Models with Text-Attributed Heterogeneous Graphs**|Tao Zou et.al.|[2310.12580](http://arxiv.org/abs/2310.12580)|**[link](https://github.com/hope-rita/thlm)**|
 |**2023-10-19**|**Open-World Lifelong Graph Learning**|Marcel Hoffmann et.al.|[2310.12565](http://arxiv.org/abs/2310.12565)|**[link](https://github.com/bobowner/open-world-lgl)**|
 |**2023-10-19**|**DepWiGNN: A Depth-wise Graph Neural Network for Multi-hop Spatial Reasoning in Text**|Shuaiyi Li et.al.|[2310.12557](http://arxiv.org/abs/2310.12557)|**[link](https://github.com/syon-li/depwignn)**|
 |**2023-10-19**|**WeaveNet for Approximating Two-sided Matching Problems**|Shusaku Sone et.al.|[2310.12515](http://arxiv.org/abs/2310.12515)|null|
