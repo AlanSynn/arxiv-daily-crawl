@@ -1688,7 +1688,8 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2023-10-23**|**Elemantra: An End-to-End Automated Framework Empowered with AI and IoT for Tackling Human-Elephant Conflict in Elephant-Range Countries**|Nuwan Sriyantha Bandara et.al.|[2310.15012](http://arxiv.org/abs/2310.15012)|null|
+|**2023-10-25**|**Redco: A Lightweight Tool to Automate Distributed Training of LLMs on Any GPU/TPUs**|Bowen Tan et.al.|[2310.16355](http://arxiv.org/abs/2310.16355)|**[link](https://github.com/tanyuqian/redco)**|
+|**2023-10-23**|**Elemantra: An End-to-End Automated Framework Empowered with AI and IoT for Tackling Human-Elephant Conflict in Elephant-Range Countries**|Nuwan Sriyantha Bandara et.al.|[2310.15012](http://arxiv.org/abs/2310.15012)|**[link](https://github.com/nuwansribandara/elemantra)**|
 |**2023-10-22**|**A Quadratic Synchronization Rule for Distributed Deep Learning**|Xinran Gu et.al.|[2310.14423](http://arxiv.org/abs/2310.14423)|**[link](https://github.com/hmgxr128/qsr)**|
 |**2023-10-19**|**GARI: Graph Attention for Relative Isomorphism of Arabic Word Embeddings**|Muhammad Asif Ali et.al.|[2310.13068](http://arxiv.org/abs/2310.13068)|**[link](https://github.com/asif6827/gari)**|
 |**2023-10-18**|**GRI: Graph-based Relative Isomorphism of Word Embedding Spaces**|Muhammad Asif Ali et.al.|[2310.12360](http://arxiv.org/abs/2310.12360)|**[link](https://github.com/asif6827/gri)**|
@@ -1752,6 +1753,12 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-10-25**|**RDBench: ML Benchmark for Relational Databases**|Zizhao Zhang et.al.|[2310.16837](http://arxiv.org/abs/2310.16837)|**[link](https://github.com/jiaxuanyou/dbgym)**|
+|**2023-10-25**|**AI Agent as Urban Planner: Steering Stakeholder Dynamics in Urban Planning via Consensus-based Multi-Agent Reinforcement Learning**|Kejiang Qian et.al.|[2310.16772](http://arxiv.org/abs/2310.16772)|null|
+|**2023-10-25**|**$\mathbb{VD}$-$\mathbb{GR}$: Boosting $\mathbb{V}$isual $\mathbb{D}$ialog with Cascaded Spatial-Temporal Multi-Modal $\mathbb{GR}$ aphs**|Adnen Abdessaied et.al.|[2310.16590](http://arxiv.org/abs/2310.16590)|null|
+|**2023-10-25**|**Graph Agent: Explicit Reasoning Agent for Graphs**|Qinyong Wang et.al.|[2310.16421](http://arxiv.org/abs/2310.16421)|null|
+|**2023-10-25**|**Graph Neural Networks with a Distribution of Parametrized Graphs**|See Hian Lee et.al.|[2310.16401](http://arxiv.org/abs/2310.16401)|null|
+|**2023-10-25**|**DyExplainer: Explainable Dynamic Graph Neural Networks**|Tianchun Wang et.al.|[2310.16375](http://arxiv.org/abs/2310.16375)|null|
 |**2023-10-24**|**Graph Deep Learning for Time Series Forecasting**|Andrea Cini et.al.|[2310.15978](http://arxiv.org/abs/2310.15978)|null|
 |**2023-10-24**|**Representation Learning with Large Language Models for Recommendation**|Xubin Ren et.al.|[2310.15950](http://arxiv.org/abs/2310.15950)|**[link](https://github.com/hkuds/rlmrec)**|
 |**2023-10-24**|**ABKD: Graph Neural Network Compression with Attention-Based Knowledge Distillation**|Anshul Ahluwalia et.al.|[2310.15938](http://arxiv.org/abs/2310.15938)|null|
