@@ -1781,7 +1781,7 @@
 |**2023-10-23**|**Multimodal Graph Learning for Modeling Emerging Pandemics with Big Data**|Khanh-Tung Tran et.al.|[2310.14549](http://arxiv.org/abs/2310.14549)|**[link](https://github.com/khanhtungtran/mgl4mep)**|
 |**2023-10-20**|**ReLM: Leveraging Language Models for Enhanced Chemical Reaction Prediction**|Yaorui Shi et.al.|[2310.13590](http://arxiv.org/abs/2310.13590)|**[link](https://github.com/syr-cn/relm)**|
 |**2023-10-20**|**SPARE: A Single-Pass Neural Model for Relational Databases**|Benjamin Hilprecht et.al.|[2310.13581](http://arxiv.org/abs/2310.13581)|null|
-|**2023-10-20**|**Towards Enhancing Relational Rules for Knowledge Graph Link Prediction**|Shuhan Wu et.al.|[2310.13411](http://arxiv.org/abs/2310.13411)|null|
+|**2023-10-20**|**Towards Enhancing Relational Rules for Knowledge Graph Link Prediction**|Shuhan Wu et.al.|[2310.13411](http://arxiv.org/abs/2310.13411)|**[link](https://github.com/ninggirsu/run-gnn)**|
 |**2023-10-20**|**TempGNN: Temporal Graph Neural Networks for Dynamic Session-Based Recommendations**|Eunkyu Oh et.al.|[2310.13249](http://arxiv.org/abs/2310.13249)|null|
 |**2023-10-20**|**FLEE-GNN: A Federated Learning System for Edge-Enhanced Graph Neural Network in Analyzing Geospatial Resilience of Multicommodity Food Flows**|Yuxiao Qu et.al.|[2310.13248](http://arxiv.org/abs/2310.13248)|**[link](https://github.com/geods/flee-gnn)**|
 |**2023-10-19**|**Heterogeneous Graph Neural Networks for Data-driven Traffic Assignment**|Tong Liu et.al.|[2310.13193](http://arxiv.org/abs/2310.13193)|null|
@@ -1793,7 +1793,7 @@
 |**2023-10-19**|**DepWiGNN: A Depth-wise Graph Neural Network for Multi-hop Spatial Reasoning in Text**|Shuaiyi Li et.al.|[2310.12557](http://arxiv.org/abs/2310.12557)|**[link](https://github.com/syon-li/depwignn)**|
 |**2023-10-19**|**WeaveNet for Approximating Two-sided Matching Problems**|Shusaku Sone et.al.|[2310.12515](http://arxiv.org/abs/2310.12515)|null|
 |**2023-10-19**|**MuseGNN: Interpretable and Convergent Graph Neural Network Layers at Scale**|Haitian Jiang et.al.|[2310.12457](http://arxiv.org/abs/2310.12457)|null|
-|**2023-10-19**|**Cooperative Minibatching in Graph Neural Networks**|Muhammed Fatih Balin et.al.|[2310.12403](http://arxiv.org/abs/2310.12403)|null|
+|**2023-10-19**|**Cooperative Minibatching in Graph Neural Networks**|Muhammed Fatih Balin et.al.|[2310.12403](http://arxiv.org/abs/2310.12403)|**[link](https://github.com/gt-tdalab/dgl-coop)**|
 |**2023-10-18**|**Equipping Federated Graph Neural Networks with Structure-aware Group Fairness**|Nan Cui et.al.|[2310.12350](http://arxiv.org/abs/2310.12350)|**[link](https://github.com/yuening-lab/f2gnn)**|
 |**2023-10-18**|**Building a Graph-based Deep Learning network model from captured traffic traces**|Carlos Güemes-Palau et.al.|[2310.11889](http://arxiv.org/abs/2310.11889)|null|
 |**2023-10-18**|**Towards Graph Foundation Models: A Survey and Beyond**|Jiawei Liu et.al.|[2310.11829](http://arxiv.org/abs/2310.11829)|null|
