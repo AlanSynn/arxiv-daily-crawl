@@ -1669,6 +1669,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-10-27**|**MOSEL: Inference Serving Using Dynamic Modality Selection**|Bodun Hu et.al.|[2310.18481](http://arxiv.org/abs/2310.18481)|null|
 |**2023-08-06**|**Pareto-Secure Machine Learning (PSML): Fingerprinting and Securing Inference Serving Systems**|Debopam Sanyal et.al.|[2307.01292](http://arxiv.org/abs/2307.01292)|null|
 |**2023-06-21**|**Subgraph Stationary Hardware-Software Inference Co-Design**|Payman Behnam et.al.|[2306.17266](http://arxiv.org/abs/2306.17266)|null|
 |**2023-05-10**|**Fast Distributed Inference Serving for Large Language Models**|Bingyang Wu et.al.|[2305.05920](http://arxiv.org/abs/2305.05920)|null|
@@ -1753,9 +1754,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-10-29**|**MAG-GNN: Reinforcement Learning Boosted Graph Neural Network**|Lecheng Kong et.al.|[2310.19142](http://arxiv.org/abs/2310.19142)|null|
+|**2023-10-29**|**The Weisfeiler-Leman Dimension of Existential Conjunctive Queries**|Andreas Göbel et.al.|[2310.19006](http://arxiv.org/abs/2310.19006)|null|
+|**2023-10-29**|**Hyperbolic Graph Neural Networks at Scale: A Meta Learning Approach**|Nurendra Choudhary et.al.|[2310.18918](http://arxiv.org/abs/2310.18918)|null|
+|**2023-10-29**|**Topological, or Non-topological? A Deep Learning Based Prediction**|Ashiqur Rasul et.al.|[2310.18907](http://arxiv.org/abs/2310.18907)|null|
+|**2023-10-28**|**Rethinking Semi-Supervised Imbalanced Node Classification from Bias-Variance Decomposition**|Divin Yan et.al.|[2310.18765](http://arxiv.org/abs/2310.18765)|**[link](https://github.com/yanliang3612/revar)**|
+|**2023-10-28**|**Curriculum Learning for Graph Neural Networks: Which Edges Should We Learn First**|Zheng Zhang et.al.|[2310.18735](http://arxiv.org/abs/2310.18735)|**[link](https://github.com/rollingstonezz/curriculum_learning_for_gnns)**|
+|**2023-10-28**|**Maximum Independent Set: Self-Training through Dynamic Programming**|Lorenzo Brusca et.al.|[2310.18672](http://arxiv.org/abs/2310.18672)|null|
 |**2023-10-27**|**One Model Fits All: Cross-Region Taxi-Demand Forecasting**|Ren Ozeki et.al.|[2310.18215](http://arxiv.org/abs/2310.18215)|null|
 |**2023-10-27**|**Disentangled Representation Learning with Large Language Models for Text-Attributed Graphs**|Yijian Qin et.al.|[2310.18152](http://arxiv.org/abs/2310.18152)|null|
-|**2023-10-26**|**Graph Neural Networkrs for Enhanced Decoding of Quantum LDPC Codes**|Anqi Gong et.al.|[2310.17758](http://arxiv.org/abs/2310.17758)|null|
+|**2023-10-26**|**Graph Neural Networkrs for Enhanced Decoding of Quantum LDPC Codes**|Anqi Gong et.al.|[2310.17758](http://arxiv.org/abs/2310.17758)|**[link](https://github.com/gongaa/feedback-gnn)**|
 |**2023-10-26**|**GNN-GMVO: Graph Neural Networks for Optimizing Gross Merchandise Value in Similar Item Recommendation**|Ramin Giahi et.al.|[2310.17732](http://arxiv.org/abs/2310.17732)|null|
 |**2023-10-26**|**Improving Traffic Density Forecasting in Intelligent Transportation Systems Using Gated Graph Neural Networks**|Razib Hayat Khan et.al.|[2310.17729](http://arxiv.org/abs/2310.17729)|null|
 |**2023-10-26**|**Do Graph Neural Networks Dream of Landau Damping? Insights from Kinetic Simulations of a Plasma Sheet Model**|Diogo D Carvalho et.al.|[2310.17646](http://arxiv.org/abs/2310.17646)|null|
