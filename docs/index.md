@@ -1728,6 +1728,12 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-11-02**|**Long-Range Neural Atom Learning for Molecular Graphs**|Xuan Li et.al.|[2311.01276](http://arxiv.org/abs/2311.01276)|null|
+|**2023-11-02**|**Attacking Graph Neural Networks with Bit Flips: Weisfeiler and Lehman Go Indifferent**|Lorenz Kummer et.al.|[2311.01205](http://arxiv.org/abs/2311.01205)|null|
+|**2023-11-02**|**Combating Bilateral Edge Noise for Robust Link Prediction**|Zhanke Zhou et.al.|[2311.01196](http://arxiv.org/abs/2311.01196)|**[link](https://github.com/tmlr-group/rgib)**|
+|**2023-11-02**|**Better with Less: A Data-Active Perspective on Pre-Training Graph Neural Networks**|Jiarong Xu et.al.|[2311.01038](http://arxiv.org/abs/2311.01038)|**[link](https://github.com/galina0217/apt)**|
+|**2023-11-02**|**Accelerated Data-Driven Discovery and Screening of Two-Dimensional Magnets Using Graph Neural Networks**|Ahmed Elrashidy et.al.|[2311.00939](http://arxiv.org/abs/2311.00939)|null|
+|**2023-11-01**|**Rational design of oxide catalysts for OER with OC22**|Richard Tran et.al.|[2311.00784](http://arxiv.org/abs/2311.00784)|null|
 |**2023-11-01**|**Kronecker-Factored Approximate Curvature for Modern Neural Network Architectures**|Runa Eschenhagen et.al.|[2311.00636](http://arxiv.org/abs/2311.00636)|null|
 |**2023-11-01**|**Robust Graph Clustering via Meta Weighting for Noisy Graphs**|Hyeonsoo Jo et.al.|[2311.00322](http://arxiv.org/abs/2311.00322)|**[link](https://github.com/hyeonsoojo/metagc)**|
 |**2023-11-01**|**Entity Alignment Method of Science and Technology Patent based on Graph Convolution Network and Information Fusion**|Runze Fang et.al.|[2311.00300](http://arxiv.org/abs/2311.00300)|null|
