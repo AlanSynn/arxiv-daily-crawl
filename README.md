@@ -1689,6 +1689,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-11-02**|**RTP: Rethinking Tensor Parallelism with Memory Deduplication**|Cheng Luo et.al.|[2311.01635](http://arxiv.org/abs/2311.01635)|**[link](https://github.com/wdlctc/rtp)**|
 |**2023-10-31**|**Network Contention-Aware Cluster Scheduling with Reinforcement Learning**|Junyeol Ryu et.al.|[2310.20209](http://arxiv.org/abs/2310.20209)|**[link](https://github.com/gajagajago/deepshare)**|
 |**2023-10-25**|**Redco: A Lightweight Tool to Automate Distributed Training of LLMs on Any GPU/TPUs**|Bowen Tan et.al.|[2310.16355](http://arxiv.org/abs/2310.16355)|**[link](https://github.com/tanyuqian/redco)**|
 |**2023-10-23**|**Elemantra: An End-to-End Automated Framework Empowered with AI and IoT for Tackling Human-Elephant Conflict in Elephant-Range Countries**|Nuwan Sriyantha Bandara et.al.|[2310.15012](http://arxiv.org/abs/2310.15012)|**[link](https://github.com/nuwansribandara/elemantra)**|
@@ -1755,6 +1756,12 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-11-03**|**Generalization of Graph-Based Active Learning Relaxation Strategies Across Materials**|Xiaoxiao Wang et.al.|[2311.01987](http://arxiv.org/abs/2311.01987)|null|
+|**2023-11-03**|**Constructing Temporal Dynamic Knowledge Graphs from Interactive Text-based Games**|Keunwoo Peter Yu et.al.|[2311.01928](http://arxiv.org/abs/2311.01928)|**[link](https://github.com/yukw777/temporal-discrete-graph-updater)**|
+|**2023-11-03**|**Calibrate and Boost Logical Expressiveness of GNN Over Multi-Relational and Temporal Graphs**|Yeyuan Chen et.al.|[2311.01647](http://arxiv.org/abs/2311.01647)|**[link](https://github.com/hdmmblz/multi-graph)**|
+|**2023-11-02**|**Better Fair than Sorry: Adversarial Missing Data Imputation for Fair GNNs**|Debolina Halder Lina et.al.|[2311.01591](http://arxiv.org/abs/2311.01591)|null|
+|**2023-11-02**|**Domain Adaptive Graph Neural Networks for Constraining Cosmological Parameters Across Multiple Data Sets**|Andrea Roncoli et.al.|[2311.01588](http://arxiv.org/abs/2311.01588)|null|
+|**2023-11-02**|**ATGNN: Audio Tagging Graph Neural Network**|Shubhr Singh et.al.|[2311.01526](http://arxiv.org/abs/2311.01526)|null|
 |**2023-11-02**|**Long-Range Neural Atom Learning for Molecular Graphs**|Xuan Li et.al.|[2311.01276](http://arxiv.org/abs/2311.01276)|null|
 |**2023-11-02**|**Attacking Graph Neural Networks with Bit Flips: Weisfeiler and Lehman Go Indifferent**|Lorenz Kummer et.al.|[2311.01205](http://arxiv.org/abs/2311.01205)|null|
 |**2023-11-02**|**Combating Bilateral Edge Noise for Robust Link Prediction**|Zhanke Zhou et.al.|[2311.01196](http://arxiv.org/abs/2311.01196)|**[link](https://github.com/tmlr-group/rgib)**|
