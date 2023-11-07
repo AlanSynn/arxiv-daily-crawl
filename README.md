@@ -1689,6 +1689,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-11-04**|**Ultra-Long Sequence Distributed Transformer**|Xiao Wang et.al.|[2311.02382](http://arxiv.org/abs/2311.02382)|null|
 |**2023-11-02**|**RTP: Rethinking Tensor Parallelism with Memory Deduplication**|Cheng Luo et.al.|[2311.01635](http://arxiv.org/abs/2311.01635)|**[link](https://github.com/wdlctc/rtp)**|
 |**2023-10-31**|**Network Contention-Aware Cluster Scheduling with Reinforcement Learning**|Junyeol Ryu et.al.|[2310.20209](http://arxiv.org/abs/2310.20209)|**[link](https://github.com/gajagajago/deepshare)**|
 |**2023-10-25**|**Redco: A Lightweight Tool to Automate Distributed Training of LLMs on Any GPU/TPUs**|Bowen Tan et.al.|[2310.16355](http://arxiv.org/abs/2310.16355)|**[link](https://github.com/tanyuqian/redco)**|
@@ -1756,6 +1757,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-11-06**|**Exploiting Latent Attribute Interaction with Transformer on Heterogeneous Information Networks**|Zeyuan Zhao et.al.|[2311.03275](http://arxiv.org/abs/2311.03275)|null|
+|**2023-11-06**|**From Coupled Oscillators to Graph Neural Networks: Reducing Over-smoothing via a Kuramoto Model-based Approach**|Tuan Nguyen et.al.|[2311.03260](http://arxiv.org/abs/2311.03260)|null|
+|**2023-11-06**|**Algebraic Dynamical Systems in Machine Learning**|Iolo Jones et.al.|[2311.03118](http://arxiv.org/abs/2311.03118)|null|
+|**2023-11-06**|**Equivariance Is Not All You Need: Characterizing the Utility of Equivariant Graph Neural Networks for Particle Physics Tasks**|Savannah Thais et.al.|[2311.03094](http://arxiv.org/abs/2311.03094)|null|
+|**2023-11-06**|**Contrastive Multi-Level Graph Neural Networks for Session-based Recommendation**|Fuyun Wang et.al.|[2311.02938](http://arxiv.org/abs/2311.02938)|null|
+|**2023-11-06**|**Edge2Node: Reducing Edge Prediction to Node Classification**|Zahed Rahmati et.al.|[2311.02921](http://arxiv.org/abs/2311.02921)|**[link](https://github.com/arahmatiiii/E2N)**|
+|**2023-11-06**|**Distributed Matrix-Based Sampling for Graph Neural Network Training**|Alok Tripathy et.al.|[2311.02909](http://arxiv.org/abs/2311.02909)|null|
+|**2023-11-06**|**Lightweight equivariant interaction graph neural network for accurate and efficient interatomic potential and force predictions**|Ziduo Yang et.al.|[2311.02869](http://arxiv.org/abs/2311.02869)|null|
+|**2023-11-06**|**Prioritized Propagation in Graph Neural Networks**|Yao Cheng et.al.|[2311.02832](http://arxiv.org/abs/2311.02832)|null|
+|**2023-11-05**|**ELEGANT: Certified Defense on the Fairness of Graph Neural Networks**|Yushun Dong et.al.|[2311.02757](http://arxiv.org/abs/2311.02757)|**[link](https://github.com/yushundong/elegant)**|
 |**2023-11-03**|**Generalization of Graph-Based Active Learning Relaxation Strategies Across Materials**|Xiaoxiao Wang et.al.|[2311.01987](http://arxiv.org/abs/2311.01987)|null|
 |**2023-11-03**|**Constructing Temporal Dynamic Knowledge Graphs from Interactive Text-based Games**|Keunwoo Peter Yu et.al.|[2311.01928](http://arxiv.org/abs/2311.01928)|**[link](https://github.com/yukw777/temporal-discrete-graph-updater)**|
 |**2023-11-03**|**Calibrate and Boost Logical Expressiveness of GNN Over Multi-Relational and Temporal Graphs**|Yeyuan Chen et.al.|[2311.01647](http://arxiv.org/abs/2311.01647)|**[link](https://github.com/hdmmblz/multi-graph)**|
