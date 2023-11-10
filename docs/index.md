@@ -610,7 +610,7 @@ layout: default
 |**2023-03-30**|**Adaptive Cross Batch Normalization for Metric Learning**|Thalaiyasingam Ajanthan et.al.|[2303.17127](http://arxiv.org/abs/2303.17127)|null|
 |**2023-03-30**|**MaMMUT: A Simple Architecture for Joint Learning for MultiModal Tasks**|Weicheng Kuo et.al.|[2303.16839](http://arxiv.org/abs/2303.16839)|null|
 |**2023-03-29**|**Sketch-an-Anchor: Sub-epoch Fast Model Adaptation for Zero-shot Sketch-based Image Retrieval**|Leo Sampaio Ferraz Ribeiro et.al.|[2303.16769](http://arxiv.org/abs/2303.16769)|null|
-|**2023-03-29**|**Bi-directional Training for Composed Image Retrieval via Text Prompt Learning**|Zheyuan Liu et.al.|[2303.16604](http://arxiv.org/abs/2303.16604)|null|
+|**2023-03-29**|**Bi-directional Training for Composed Image Retrieval via Text Prompt Learning**|Zheyuan Liu et.al.|[2303.16604](http://arxiv.org/abs/2303.16604)|**[link](https://github.com/Cuberick-Orion/Bi-Blip4CIR)**|
 |**2023-03-27**|**Model Cascades for Efficient Image Search**|Robert Hönig et.al.|[2303.15595](http://arxiv.org/abs/2303.15595)|null|
 |**2023-03-27**|**Zero-Shot Composed Image Retrieval with Textual Inversion**|Alberto Baldrati et.al.|[2303.15247](http://arxiv.org/abs/2303.15247)|**[link](https://github.com/miccunifi/circo)**|
 |**2023-03-27**|**What Can Human Sketches Do for Object Detection?**|Pinaki Nath Chowdhury et.al.|[2303.15149](http://arxiv.org/abs/2303.15149)|null|
@@ -1741,7 +1741,7 @@ layout: default
 |**2023-11-07**|**Spatio-Temporal Anomaly Detection with Graph Networks for Data Quality Monitoring of the Hadron Calorimeter**|Mulugeta Weldezgina Asres et.al.|[2311.04190](http://arxiv.org/abs/2311.04190)|null|
 |**2023-11-07**|**Graph Neural Networks for Power Grid Operational Risk Assessment**|Yadong Zhang et.al.|[2311.03661](http://arxiv.org/abs/2311.03661)|null|
 |**2023-11-07**|**GNN-Based Beamforming for Sum-Rate Maximization in MU-MISO Networks**|Yuhang Li et.al.|[2311.03659](http://arxiv.org/abs/2311.03659)|null|
-|**2023-11-06**|**Brain Networks and Intelligence: A Graph Neural Network Based Approach to Resting State fMRI Data**|Bishal Thapaliya et.al.|[2311.03520](http://arxiv.org/abs/2311.03520)|null|
+|**2023-11-06**|**Brain Networks and Intelligence: A Graph Neural Network Based Approach to Resting State fMRI Data**|Bishal Thapaliya et.al.|[2311.03520](http://arxiv.org/abs/2311.03520)|**[link](https://github.com/bishalth01/Brain-ROI-Aware-Graph-Isomorphism-Networks-BrainRGIN-)**|
 |**2023-11-06**|**PowerFlowNet: Leveraging Message Passing GNNs for Improved Power Flow Approximation**|Nan Lin et.al.|[2311.03415](http://arxiv.org/abs/2311.03415)|null|
 |**2023-11-06**|**Exploiting Latent Attribute Interaction with Transformer on Heterogeneous Information Networks**|Zeyuan Zhao et.al.|[2311.03275](http://arxiv.org/abs/2311.03275)|null|
 |**2023-11-06**|**From Coupled Oscillators to Graph Neural Networks: Reducing Over-smoothing via a Kuramoto Model-based Approach**|Tuan Nguyen et.al.|[2311.03260](http://arxiv.org/abs/2311.03260)|null|
@@ -1750,7 +1750,7 @@ layout: default
 |**2023-11-06**|**Contrastive Multi-Level Graph Neural Networks for Session-based Recommendation**|Fuyun Wang et.al.|[2311.02938](http://arxiv.org/abs/2311.02938)|null|
 |**2023-11-06**|**Edge2Node: Reducing Edge Prediction to Node Classification**|Zahed Rahmati et.al.|[2311.02921](http://arxiv.org/abs/2311.02921)|**[link](https://github.com/arahmatiiii/E2N)**|
 |**2023-11-06**|**Distributed Matrix-Based Sampling for Graph Neural Network Training**|Alok Tripathy et.al.|[2311.02909](http://arxiv.org/abs/2311.02909)|null|
-|**2023-11-06**|**Lightweight equivariant interaction graph neural network for accurate and efficient interatomic potential and force predictions**|Ziduo Yang et.al.|[2311.02869](http://arxiv.org/abs/2311.02869)|null|
+|**2023-11-06**|**Lightweight equivariant interaction graph neural network for accurate and efficient interatomic potential and force predictions**|Ziduo Yang et.al.|[2311.02869](http://arxiv.org/abs/2311.02869)|**[link](https://github.com/guaguabujianle/leignn)**|
 |**2023-11-06**|**Prioritized Propagation in Graph Neural Networks**|Yao Cheng et.al.|[2311.02832](http://arxiv.org/abs/2311.02832)|null|
 |**2023-11-05**|**ELEGANT: Certified Defense on the Fairness of Graph Neural Networks**|Yushun Dong et.al.|[2311.02757](http://arxiv.org/abs/2311.02757)|**[link](https://github.com/yushundong/elegant)**|
 |**2023-11-03**|**Generalization of Graph-Based Active Learning Relaxation Strategies Across Materials**|Xiaoxiao Wang et.al.|[2311.01987](http://arxiv.org/abs/2311.01987)|null|
