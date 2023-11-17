@@ -1755,7 +1755,7 @@ layout: default
 |**2023-11-12**|**Contractive Systems Improve Graph Neural Networks Against Adversarial Attacks**|Moshe Eliasof et.al.|[2311.06942](http://arxiv.org/abs/2311.06942)|null|
 |**2023-11-12**|**Preserving Node-level Privacy in Graph Neural Networks**|Zihang Xiang et.al.|[2311.06888](http://arxiv.org/abs/2311.06888)|null|
 |**2023-11-12**|**GraNNDis: Efficient Unified Distributed Training Framework for Deep GNNs on Large Clusters**|Jaeyong Song et.al.|[2311.06837](http://arxiv.org/abs/2311.06837)|null|
-|**2023-11-10**|**FourierGNN: Rethinking Multivariate Time Series Forecasting from a Pure Graph Perspective**|Kun Yi et.al.|[2311.06190](http://arxiv.org/abs/2311.06190)|null|
+|**2023-11-10**|**FourierGNN: Rethinking Multivariate Time Series Forecasting from a Pure Graph Perspective**|Kun Yi et.al.|[2311.06190](http://arxiv.org/abs/2311.06190)|**[link](https://github.com/aikunyi/fouriergnn)**|
 |**2023-11-10**|**Interpretable Graph Anomaly Detection using Gradient Attention Maps**|Yifei Yang et.al.|[2311.06153](http://arxiv.org/abs/2311.06153)|null|
 |**2023-11-10**|**Going beyond persistent homology using persistent homology**|Johanna Immonen et.al.|[2311.06152](http://arxiv.org/abs/2311.06152)|null|
 |**2023-11-10**|**Privacy-Preserving Individual-Level COVID-19 Infection Prediction via Federated Graph Learning**|Wenjie Fu et.al.|[2311.06049](http://arxiv.org/abs/2311.06049)|**[link](https://github.com/wjfu99/fl-epidemic)**|
