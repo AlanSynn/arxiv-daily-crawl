@@ -1689,6 +1689,8 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-11-21**|**Attacks of fairness in Federated Learning**|Joseph Rance et.al.|[2311.12715](http://arxiv.org/abs/2311.12715)|**[link](https://github.com/slkdfjslkjfd/fl_fairness_attacks)**|
+|**2023-11-21**|**Federated Learning via Consensus Mechanism on Heterogeneous Data: A New Perspective on Convergence**|Shu Zheng et.al.|[2311.12358](http://arxiv.org/abs/2311.12358)|**[link](https://github.com/fedcome/fedcome)**|
 |**2023-11-15**|**HypOp: Distributed Constrained Combinatorial Optimization leveraging Hypergraph Neural Networks**|Nasimeh Heydaribeni et.al.|[2311.09375](http://arxiv.org/abs/2311.09375)|null|
 |**2023-11-14**|**Leveraging Foundation Models to Improve Lightweight Clients in Federated Learning**|Xidong Wu et.al.|[2311.08479](http://arxiv.org/abs/2311.08479)|null|
 |**2023-11-12**|**GraNNDis: Efficient Unified Distributed Training Framework for Deep GNNs on Large Clusters**|Jaeyong Song et.al.|[2311.06837](http://arxiv.org/abs/2311.06837)|null|
@@ -1763,6 +1765,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-11-21**|**Content Augmented Graph Neural Networks**|Fatemeh Gholamzadeh Nasrabadi et.al.|[2311.12741](http://arxiv.org/abs/2311.12741)|**[link](https://github.com/fatemehgholamzadeh/augss-gnn)**|
+|**2023-11-21**|**Carbohydrate NMR chemical shift predictions using E(3) equivariant graph neural networks**|Maria Bånkestad et.al.|[2311.12657](http://arxiv.org/abs/2311.12657)|**[link](https://github.com/mariabankestad/geqshift)**|
+|**2023-11-21**|**Careful Selection and Thoughtful Discarding: Graph Explicit Pooling Utilizing Discarded Nodes**|Chuang Liu et.al.|[2311.12644](http://arxiv.org/abs/2311.12644)|null|
+|**2023-11-21**|**Hierarchical Joint Graph Learning and Multivariate Time Series Forecasting**|Juhyeon Kim et.al.|[2311.12630](http://arxiv.org/abs/2311.12630)|null|
+|**2023-11-21**|**DeepTreeGAN: Fast Generation of High Dimensional Point Clouds**|Moritz Alfons Wilhelm Scham et.al.|[2311.12616](http://arxiv.org/abs/2311.12616)|null|
+|**2023-11-21**|**Distilling particle knowledge for fast reconstruction at high-energy physics experiments**|Aritra Bal et.al.|[2311.12551](http://arxiv.org/abs/2311.12551)|null|
+|**2023-11-21**|**A Survey of Graph Meets Large Language Model: Progress and Future Directions**|Yuhan Li et.al.|[2311.12399](http://arxiv.org/abs/2311.12399)|null|
+|**2023-11-21**|**Demystifying Graph Sparsification Algorithms in Graph Properties Preservation**|Yuhan Chen et.al.|[2311.12314](http://arxiv.org/abs/2311.12314)|null|
+|**2023-11-21**|**Power grid operational risk assessment using graph neural network surrogates**|Yadong Zhang et.al.|[2311.12309](http://arxiv.org/abs/2311.12309)|null|
+|**2023-11-21**|**ATLANTIC: Structure-Aware Retrieval-Augmented Language Model for Interdisciplinary Science**|Sai Munikoti et.al.|[2311.12289](http://arxiv.org/abs/2311.12289)|null|
 |**2023-11-20**|**AMES: A Differentiable Embedding Space Selection Framework for Latent Graph Inference**|Yuan Lu et.al.|[2311.11891](http://arxiv.org/abs/2311.11891)|null|
 |**2023-11-20**|**Robust Tumor Segmentation with Hyperspectral Imaging and Graph Neural Networks**|Mayar Lotfy et.al.|[2311.11782](http://arxiv.org/abs/2311.11782)|null|
 |**2023-11-20**|**Unveiling the Unseen Potential of Graph Learning through MLPs: Effective Graph Learners Using Propagation-Embracing MLPs**|Yong-Min Shin et.al.|[2311.11759](http://arxiv.org/abs/2311.11759)|null|
