@@ -1753,7 +1753,7 @@ layout: default
 |**2023-11-21**|**Hierarchical Joint Graph Learning and Multivariate Time Series Forecasting**|Juhyeon Kim et.al.|[2311.12630](http://arxiv.org/abs/2311.12630)|null|
 |**2023-11-21**|**DeepTreeGAN: Fast Generation of High Dimensional Point Clouds**|Moritz Alfons Wilhelm Scham et.al.|[2311.12616](http://arxiv.org/abs/2311.12616)|null|
 |**2023-11-21**|**Distilling particle knowledge for fast reconstruction at high-energy physics experiments**|Aritra Bal et.al.|[2311.12551](http://arxiv.org/abs/2311.12551)|null|
-|**2023-11-21**|**A Survey of Graph Meets Large Language Model: Progress and Future Directions**|Yuhan Li et.al.|[2311.12399](http://arxiv.org/abs/2311.12399)|null|
+|**2023-11-21**|**A Survey of Graph Meets Large Language Model: Progress and Future Directions**|Yuhan Li et.al.|[2311.12399](http://arxiv.org/abs/2311.12399)|**[link](https://github.com/yhLeeee/Awesome-LLMs-in-Graph-tasks)**|
 |**2023-11-21**|**Demystifying Graph Sparsification Algorithms in Graph Properties Preservation**|Yuhan Chen et.al.|[2311.12314](http://arxiv.org/abs/2311.12314)|null|
 |**2023-11-21**|**Power grid operational risk assessment using graph neural network surrogates**|Yadong Zhang et.al.|[2311.12309](http://arxiv.org/abs/2311.12309)|null|
 |**2023-11-21**|**ATLANTIC: Structure-Aware Retrieval-Augmented Language Model for Interdisciplinary Science**|Sai Munikoti et.al.|[2311.12289](http://arxiv.org/abs/2311.12289)|null|
@@ -2316,7 +2316,7 @@ layout: default
 |**2023-07-11**|**A Modal Logic for Explaining some Graph Neural Networks**|Pierre Nunn et.al.|[2307.05150](http://arxiv.org/abs/2307.05150)|null|
 |**2023-07-11**|**Transaction Fraud Detection via Spatial-Temporal-Aware Graph Transformer**|Yue Tian et.al.|[2307.05121](http://arxiv.org/abs/2307.05121)|null|
 |**2023-07-11**|**Neural-Symbolic Recommendation with Graph-Enhanced Information**|Bang Chen et.al.|[2307.05036](http://arxiv.org/abs/2307.05036)|**[link](https://github.com/hanzo2020/gnnlr)**|
-|**2023-07-11**|**Intrinsically motivated graph exploration using network theories of human curiosity**|Shubhankar P. Patankar et.al.|[2307.04962](http://arxiv.org/abs/2307.04962)|null|
+|**2023-07-11**|**Intrinsically motivated graph exploration using network theories of human curiosity**|Shubhankar P. Patankar et.al.|[2307.04962](http://arxiv.org/abs/2307.04962)|**[link](https://github.com/spatank/curiosity-graphs)**|
 |**2023-07-10**|**Improving Fairness of Graph Neural Networks: A Graph Counterfactual Perspective**|Zhimeng Guo et.al.|[2307.04937](http://arxiv.org/abs/2307.04937)|**[link](https://github.com/timelovercc/caf-gnn)**|
 |**2023-07-10**|**Learning to Solve Constraint Satisfaction Problems with Recurrent Transformer**|Zhun Yang et.al.|[2307.04895](http://arxiv.org/abs/2307.04895)|**[link](https://github.com/azreasoners/recurrent_transformer)**|
 |**2023-07-10**|**On the power of graph neural networks and the role of the activation function**|Sammy Khalife et.al.|[2307.04661](http://arxiv.org/abs/2307.04661)|null|
