@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2023.11.24
+## Updated on 2023.11.25
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1741,10 +1741,10 @@ layout: default
 |:---------|:-----------------------|:---------|:------|:------|
 |**2023-11-22**|**Benchmarking Toxic Molecule Classification using Graph Neural Networks and Few Shot Learning**|Bhavya Mehta et.al.|[2311.13490](http://arxiv.org/abs/2311.13490)|null|
 |**2023-11-22**|**Complexity-Guided Curriculum Learning for Text Graphs**|Nidhi Vakil et.al.|[2311.13472](http://arxiv.org/abs/2311.13472)|null|
-|**2023-11-22**|**Accelerating Inference in Molecular Diffusion Models with Latent Representations of Protein Structure**|Ian Dunn et.al.|[2311.13466](http://arxiv.org/abs/2311.13466)|null|
-|**2023-11-22**|**From Images to Connections: Can DQN with GNNs learn the Strategic Game of Hex?**|Yannik Keller et.al.|[2311.13414](http://arxiv.org/abs/2311.13414)|null|
+|**2023-11-22**|**Accelerating Inference in Molecular Diffusion Models with Latent Representations of Protein Structure**|Ian Dunn et.al.|[2311.13466](http://arxiv.org/abs/2311.13466)|**[link](https://github.com/dunni3/keypoint-diffusion)**|
+|**2023-11-22**|**From Images to Connections: Can DQN with GNNs learn the Strategic Game of Hex?**|Yannik Keller et.al.|[2311.13414](http://arxiv.org/abs/2311.13414)|**[link](https://github.com/yannikkellerde/gnn_hex)**|
 |**2023-11-22**|**Comprehensive Evaluation of GNN Training Systems: A Data Management Perspective**|Hao Yuan et.al.|[2311.13279](http://arxiv.org/abs/2311.13279)|null|
-|**2023-11-22**|**Hard Label Black Box Node Injection Attack on Graph Neural Networks**|Yu Zhou et.al.|[2311.13244](http://arxiv.org/abs/2311.13244)|null|
+|**2023-11-22**|**Hard Label Black Box Node Injection Attack on Graph Neural Networks**|Yu Zhou et.al.|[2311.13244](http://arxiv.org/abs/2311.13244)|**[link](https://github.com/bryanzhou008/hard_label_black_box_attack_gnn)**|
 |**2023-11-22**|**NeutronOrch: Rethinking Sample-based GNN Training under CPU-GPU Heterogeneous Environments**|Xin Ai et.al.|[2311.13225](http://arxiv.org/abs/2311.13225)|null|
 |**2023-11-21**|**Neural Graph Control Barrier Functions Guided Distributed Collision-avoidance Multi-agent Control**|Songyuan Zhang et.al.|[2311.13014](http://arxiv.org/abs/2311.13014)|null|
 |**2023-11-21**|**Content Augmented Graph Neural Networks**|Fatemeh Gholamzadeh Nasrabadi et.al.|[2311.12741](http://arxiv.org/abs/2311.12741)|**[link](https://github.com/fatemehgholamzadeh/augss-gnn)**|
