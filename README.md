@@ -1766,6 +1766,14 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-11-24**|**Fault Detection in Telecom Networks using Bi-level Federated Graph Neural Networks**|R. Bourgerie et.al.|[2311.14469](http://arxiv.org/abs/2311.14469)|null|
+|**2023-11-24**|**Finite Volume Features, Global Geometry Representations, and Residual Training for Deep Learning-based CFD Simulation**|Loh Sher En Jessica et.al.|[2311.14464](http://arxiv.org/abs/2311.14464)|null|
+|**2023-11-24**|**BHGNN-RT: Network embedding for directed heterogeneous graphs**|Xiyang Sun et.al.|[2311.14404](http://arxiv.org/abs/2311.14404)|**[link](https://github.com/albertlordsun/bhgnn-rt)**|
+|**2023-11-24**|**Cycle Invariant Positional Encoding for Graph Representation Learning**|Zuoyu Yan et.al.|[2311.14333](http://arxiv.org/abs/2311.14333)|null|
+|**2023-11-24**|**Large Language Models as Topological Structure Enhancers for Text-Attributed Graphs**|Shengyin Sun et.al.|[2311.14324](http://arxiv.org/abs/2311.14324)|null|
+|**2023-11-24**|**AdaMedGraph: Adaboosting Graph Neural Networks for Personalized Medicine**|Jie Lian et.al.|[2311.14304](http://arxiv.org/abs/2311.14304)|null|
+|**2023-11-24**|**Out-of-Distribution Generalized Dynamic Graph Neural Network with Disentangled Intervention and Invariance Promotion**|Zeyang Zhang et.al.|[2311.14255](http://arxiv.org/abs/2311.14255)|null|
+|**2023-11-23**|**Exact Combinatorial Optimization with Temporo-Attentional Graph Neural Networks**|Mehdi Seyfi et.al.|[2311.13843](http://arxiv.org/abs/2311.13843)|null|
 |**2023-11-22**|**Benchmarking Toxic Molecule Classification using Graph Neural Networks and Few Shot Learning**|Bhavya Mehta et.al.|[2311.13490](http://arxiv.org/abs/2311.13490)|null|
 |**2023-11-22**|**Complexity-Guided Curriculum Learning for Text Graphs**|Nidhi Vakil et.al.|[2311.13472](http://arxiv.org/abs/2311.13472)|null|
 |**2023-11-22**|**Accelerating Inference in Molecular Diffusion Models with Latent Representations of Protein Structure**|Ian Dunn et.al.|[2311.13466](http://arxiv.org/abs/2311.13466)|**[link](https://github.com/dunni3/keypoint-diffusion)**|
