@@ -1646,6 +1646,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-11-03**|**ERASER: Machine Unlearning in MLaaS via an Inference Serving-Aware Approach**|Yuke Hu et.al.|[2311.16136](http://arxiv.org/abs/2311.16136)|null|
 |**2023-10-27**|**MOSEL: Inference Serving Using Dynamic Modality Selection**|Bodun Hu et.al.|[2310.18481](http://arxiv.org/abs/2310.18481)|null|
 |**2023-08-06**|**Pareto-Secure Machine Learning (PSML): Fingerprinting and Securing Inference Serving Systems**|Debopam Sanyal et.al.|[2307.01292](http://arxiv.org/abs/2307.01292)|null|
 |**2023-06-21**|**Subgraph Stationary Hardware-Software Inference Co-Design**|Payman Behnam et.al.|[2306.17266](http://arxiv.org/abs/2306.17266)|null|
@@ -1664,6 +1665,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-11-28**|**The Falcon Series of Open Language Models**|Ebtesam Almazrouei et.al.|[2311.16867](http://arxiv.org/abs/2311.16867)|null|
 |**2023-11-27**|**YUAN 2.0: A Large Language Model with Localized Filtering-based Attention**|Shaohua Wu et.al.|[2311.15786](http://arxiv.org/abs/2311.15786)|**[link](https://github.com/ieit-yuan/yuan-2.0)**|
 |**2023-11-22**|**Confidant: Customizing Transformer-based LLMs via Collaborative Edge Training**|Yuhao Chen et.al.|[2311.13381](http://arxiv.org/abs/2311.13381)|null|
 |**2023-11-21**|**Attacks of fairness in Federated Learning**|Joseph Rance et.al.|[2311.12715](http://arxiv.org/abs/2311.12715)|**[link](https://github.com/slkdfjslkjfd/fl_fairness_attacks)**|
@@ -1740,6 +1742,13 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-11-28**|**Attentional Graph Neural Networks for Robust Massive Network Localization**|Wenzhong Yan et.al.|[2311.16856](http://arxiv.org/abs/2311.16856)|null|
+|**2023-11-28**|**Hyper-Relational Knowledge Graph Neural Network for Next POI**|Jixiao Zhang et.al.|[2311.16683](http://arxiv.org/abs/2311.16683)|null|
+|**2023-11-28**|**PyTorch Geometric High Order: A Unified Library for High Order Graph Neural Network**|Xiyuan Wang et.al.|[2311.16670](http://arxiv.org/abs/2311.16670)|**[link](https://github.com/graphpku/pygho)**|
+|**2023-11-28**|**MultiModal-Learning for Predicting Molecular Properties: A Framework Based on Image and Graph Structures**|Zhuoyuan Wang et.al.|[2311.16666](http://arxiv.org/abs/2311.16666)|null|
+|**2023-11-28**|**LasTGL: An Industrial Framework for Large-Scale Temporal Graph Learning**|Jintang Li et.al.|[2311.16605](http://arxiv.org/abs/2311.16605)|null|
+|**2023-11-28**|**Evaluation of dynamic characteristics of power grid based on GNN and application on knowledge graph**|Hao Pei et.al.|[2311.16522](http://arxiv.org/abs/2311.16522)|null|
+|**2023-11-27**|**A Graph Neural Network-Based QUBO-Formulated Hamiltonian-Inspired Loss Function for Combinatorial Optimization using Reinforcement Learning**|Redwan Ahmed Rizvee et.al.|[2311.16277](http://arxiv.org/abs/2311.16277)|null|
 |**2023-11-27**|**Interactive Autonomous Navigation with Internal State Inference and Interactivity Estimation**|Jiachen Li et.al.|[2311.16091](http://arxiv.org/abs/2311.16091)|null|
 |**2023-11-27**|**Soil Organic Carbon Estimation from Climate-related Features with Graph Neural Network**|Weiying Zhao et.al.|[2311.15979](http://arxiv.org/abs/2311.15979)|null|
 |**2023-11-27**|**Over-Squashing in Riemannian Graph Neural Networks**|Julia Balla et.al.|[2311.15945](http://arxiv.org/abs/2311.15945)|null|
