@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2023.11.29
+## Updated on 2023.11.30
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1675,7 +1675,7 @@ layout: default
 |**2023-11-12**|**GraNNDis: Efficient Unified Distributed Training Framework for Deep GNNs on Large Clusters**|Jaeyong Song et.al.|[2311.06837](http://arxiv.org/abs/2311.06837)|null|
 |**2023-11-11**|**Topology-Matching Normalizing Flows for Out-of-Distribution Detection in Robot Learning**|Jianxiang Feng et.al.|[2311.06481](http://arxiv.org/abs/2311.06481)|null|
 |**2023-11-06**|**EControl: Fast Distributed Optimization with Compression and Error Control**|Yuan Gao et.al.|[2311.05645](http://arxiv.org/abs/2311.05645)|null|
-|**2023-11-08**|**Byzantine-Tolerant Methods for Distributed Variational Inequalities**|Nazarii Tupitsa et.al.|[2311.04611](http://arxiv.org/abs/2311.04611)|**[link](https://github.com/nazya/sgda-ra)**|
+|**2023-11-08**|**Byzantine-Tolerant Methods for Distributed Variational Inequalities**|Nazarii Tupitsa et.al.|[2311.04611](http://arxiv.org/abs/2311.04611)|null|
 |**2023-11-08**|**Ultra-Long Sequence Distributed Transformer**|Xiao Wang et.al.|[2311.02382](http://arxiv.org/abs/2311.02382)|null|
 |**2023-11-02**|**RTP: Rethinking Tensor Parallelism with Memory Deduplication**|Cheng Luo et.al.|[2311.01635](http://arxiv.org/abs/2311.01635)|**[link](https://github.com/wdlctc/rtp)**|
 |**2023-10-31**|**Network Contention-Aware Cluster Scheduling with Reinforcement Learning**|Junyeol Ryu et.al.|[2310.20209](http://arxiv.org/abs/2310.20209)|**[link](https://github.com/gajagajago/deepshare)**|
