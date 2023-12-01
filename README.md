@@ -1690,8 +1690,8 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2023-11-29**|**GNNFlow: A Distributed Framework for Continuous Temporal GNN Learning on Dynamic Graphs**|Yuchen Zhong et.al.|[2311.17410](http://arxiv.org/abs/2311.17410)|**[link](https://github.com/jasperzhong/GNNFlow)**|
-|**2023-11-28**|**The Falcon Series of Open Language Models**|Ebtesam Almazrouei et.al.|[2311.16867](http://arxiv.org/abs/2311.16867)|null|
+|**2023-11-30**|**GNNFlow: A Distributed Framework for Continuous Temporal GNN Learning on Dynamic Graphs**|Yuchen Zhong et.al.|[2311.17410](http://arxiv.org/abs/2311.17410)|**[link](https://github.com/jasperzhong/GNNFlow)**|
+|**2023-11-29**|**The Falcon Series of Open Language Models**|Ebtesam Almazrouei et.al.|[2311.16867](http://arxiv.org/abs/2311.16867)|null|
 |**2023-11-27**|**YUAN 2.0: A Large Language Model with Localized Filtering-based Attention**|Shaohua Wu et.al.|[2311.15786](http://arxiv.org/abs/2311.15786)|**[link](https://github.com/ieit-yuan/yuan-2.0)**|
 |**2023-11-22**|**Confidant: Customizing Transformer-based LLMs via Collaborative Edge Training**|Yuhao Chen et.al.|[2311.13381](http://arxiv.org/abs/2311.13381)|null|
 |**2023-11-21**|**Attacks of fairness in Federated Learning**|Joseph Rance et.al.|[2311.12715](http://arxiv.org/abs/2311.12715)|**[link](https://github.com/slkdfjslkjfd/fl_fairness_attacks)**|
@@ -1770,6 +1770,12 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-11-30**|**A Comparison Between Invariant and Equivariant Classical and Quantum Graph Neural Networks**|Roy T. Forestano et.al.|[2311.18672](http://arxiv.org/abs/2311.18672)|null|
+|**2023-11-30**|**Optimizing ZX-Diagrams with Deep Reinforcement Learning**|Maximilian Nägele et.al.|[2311.18588](http://arxiv.org/abs/2311.18588)|**[link](https://github.com/maxnaeg/zxreinforce)**|
+|**2023-11-30**|**Multi-scale Iterative Refinement towards Robust and Versatile Molecular Docking**|Jiaxian Yan et.al.|[2311.18574](http://arxiv.org/abs/2311.18574)|null|
+|**2023-11-30**|**Utilizing Radiomic Feature Analysis For Automated MRI Keypoint Detection: Enhancing Graph Applications**|Sahar Almahfouz Nasser et.al.|[2311.18281](http://arxiv.org/abs/2311.18281)|null|
+|**2023-11-30**|**An Effective Universal Polynomial Basis for Spectral Graph Neural Networks**|Keke Huang et.al.|[2311.18177](http://arxiv.org/abs/2311.18177)|null|
+|**2023-11-29**|**Enhancing Data-Assimilation in CFD using Graph Neural Networks**|Michele Quattromini et.al.|[2311.18027](http://arxiv.org/abs/2311.18027)|null|
 |**2023-11-29**|**Reconstruction of electromagnetic showers in calorimeters using Deep Learning**|Polina Simkina et.al.|[2311.17914](http://arxiv.org/abs/2311.17914)|null|
 |**2023-11-29**|**FastSample: Accelerating Distributed Graph Neural Network Training for Billion-Scale Graphs**|Hesham Mostafa et.al.|[2311.17847](http://arxiv.org/abs/2311.17847)|null|
 |**2023-11-29**|**Propagate & Distill: Towards Effective Graph Learners Using Propagation-Embracing MLPs**|Yong-Min Shin et.al.|[2311.17781](http://arxiv.org/abs/2311.17781)|null|
