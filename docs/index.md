@@ -1665,6 +1665,9 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-12-06**|**Holmes: Towards Distributed Training Across Clusters with Heterogeneous NIC Environment**|Fei Yang et.al.|[2312.03549](http://arxiv.org/abs/2312.03549)|null|
+|**2023-12-06**|**Snake Robot with Tactile Perception Navigates on Large-scale Challenging Terrain**|Shuo Jiang et.al.|[2312.03225](http://arxiv.org/abs/2312.03225)|null|
+|**2023-12-05**|**FlexModel: A Framework for Interpretability of Distributed Large Language Models**|Matthew Choi et.al.|[2312.03140](http://arxiv.org/abs/2312.03140)|**[link](https://github.com/vectorinstitute/flex_model)**|
 |**2023-12-05**|**DanZero+: Dominating the GuanDan Game through Reinforcement Learning**|Youpeng Zhao et.al.|[2312.02561](http://arxiv.org/abs/2312.02561)|**[link](https://github.com/submit-paper/Danzero_plus)**|
 |**2023-12-05**|**Flexible Communication for Optimal Distributed Learning over Unpredictable Networks**|Sahil Tyagi et.al.|[2312.02493](http://arxiv.org/abs/2312.02493)|null|
 |**2023-12-02**|**Can We Learn Communication-Efficient Optimizers?**|Charles-Étienne Joseph et.al.|[2312.02204](http://arxiv.org/abs/2312.02204)|null|
@@ -1746,6 +1749,11 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-12-06**|**What Planning Problems Can A Relational Neural Network Solve?**|Jiayuan Mao et.al.|[2312.03682](http://arxiv.org/abs/2312.03682)|**[link](https://github.com/concepts-ai/goal-regression-width)**|
+|**2023-12-06**|**Augmenting optimization-based molecular design with graph neural networks**|Shiqiang Zhang et.al.|[2312.03613](http://arxiv.org/abs/2312.03613)|null|
+|**2023-12-06**|**GraNet: A Multi-Level Graph Network for 6-DoF Grasp Pose Generation in Cluttered Scenes**|Haowen Wang et.al.|[2312.03345](http://arxiv.org/abs/2312.03345)|null|
+|**2023-12-06**|**Enhancing Molecular Property Prediction via Mixture of Collaborative Experts**|Xu Yao et.al.|[2312.03292](http://arxiv.org/abs/2312.03292)|**[link](https://github.com/Hyacinth-YX/mixture-of-collaborative-experts)**|
+|**2023-12-06**|**Multicoated and Folded Graph Neural Networks with Strong Lottery Tickets**|Jiale Yan et.al.|[2312.03236](http://arxiv.org/abs/2312.03236)|**[link](https://github.com/louivalley/slt-gnn)**|
 |**2023-12-05**|**Neural Sign Actors: A diffusion model for 3D sign language production from text**|Vasileios Baltatzis et.al.|[2312.02702](http://arxiv.org/abs/2312.02702)|null|
 |**2023-12-05**|**On the Initialization of Graph Neural Networks**|Jiahang Li et.al.|[2312.02622](http://arxiv.org/abs/2312.02622)|**[link](https://github.com/lspongebobjh/virgo_icml2023)**|
 |**2023-12-05**|**A Neural Receiver for 5G NR Multi-user MIMO**|Sebastian Cammerer et.al.|[2312.02601](http://arxiv.org/abs/2312.02601)|null|
