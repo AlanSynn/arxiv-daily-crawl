@@ -1595,7 +1595,7 @@
 |**2022-10-21**|**HDHumans: A Hybrid Approach for High-fidelity Digital Humans**|Marc Habermann et.al.|[2210.12003](http://arxiv.org/abs/2210.12003)|null|
 |**2022-10-21**|**RGB-Only Reconstruction of Tabletop Scenes for Collision-Free Manipulator Control**|Zhenggang Tang et.al.|[2210.11668](http://arxiv.org/abs/2210.11668)|null|
 |**2022-10-21**|**Coordinates Are NOT Lonely -- Codebook Prior Helps Implicit Neural 3D Representations**|Fukun Yin et.al.|[2210.11170](http://arxiv.org/abs/2210.11170)|**[link](https://github.com/fukunyin/coco-nerf)**|
-|**2022-10-18**|**Parallel Inversion of Neural Radiance Fields for Robust Pose Estimation**|Yunzhi Lin et.al.|[2210.10108](http://arxiv.org/abs/2210.10108)|null|
+|**2022-10-18**|**Parallel Inversion of Neural Radiance Fields for Robust Pose Estimation**|Yunzhi Lin et.al.|[2210.10108](http://arxiv.org/abs/2210.10108)|**[link](https://github.com/NVlabs/ParallelInversion)**|
 |**2022-10-18**|**ARAH: Animatable Volume Rendering of Articulated Human SDFs**|Shaofei Wang et.al.|[2210.10036](http://arxiv.org/abs/2210.10036)|null|
 |**2022-10-20**|**Differentiable Physics Simulation of Dynamics-Augmented Neural Objects**|Simon Le Cleac'h et.al.|[2210.09420](http://arxiv.org/abs/2210.09420)|null|
 |**2022-10-15**|**SPIDR: SDF-based Neural Point Fields for Illumination and Deformation**|Ruofan Liang et.al.|[2210.08398](http://arxiv.org/abs/2210.08398)|null|
@@ -1722,10 +1722,10 @@
 |**2023-10-10**|**Ultima: Robust and Tail-Optimal AllReduce for Distributed Deep Learning in the Cloud**|Ertza Warraich et.al.|[2310.06993](http://arxiv.org/abs/2310.06993)|null|
 |**2023-10-10**|**Distributed Transfer Learning with 4th Gen Intel Xeon Processors**|Lakshmi Arunachalam et.al.|[2310.06916](http://arxiv.org/abs/2310.06916)|null|
 |**2023-10-23**|**Making Scalable Meta Learning Practical**|Sang Keun Choe et.al.|[2310.05674](http://arxiv.org/abs/2310.05674)|**[link](https://github.com/leopard-ai/betty)**|
-|**2023-10-05**|**Solving a Class of Non-Convex Minimax Optimization in Federated Learning**|Xidong Wu et.al.|[2310.03613](http://arxiv.org/abs/2310.03613)|null|
+|**2023-10-05**|**Solving a Class of Non-Convex Minimax Optimization in Federated Learning**|Xidong Wu et.al.|[2310.03613](http://arxiv.org/abs/2310.03613)|**[link](https://github.com/xidongwu/federated-minimax-and-conditional-stochastic-optimization)**|
 |**2023-10-05**|**LightSeq: Sequence Level Parallelism for Distributed Training of Long Context Transformers**|Dacheng Li et.al.|[2310.03294](http://arxiv.org/abs/2310.03294)|**[link](https://github.com/rulinshao/lightseq)**|
 |**2023-10-03**|**HPCClusterScape: Increasing Transparency and Efficiency of Shared High-Performance Computing Clusters for Large-scale AI Models**|Heungseok Park et.al.|[2310.02120](http://arxiv.org/abs/2310.02120)|null|
-|**2023-09-29**|**AI ensemble for signal detection of higher order gravitational wave modes of quasi-circular, spinning, non-precessing binary black hole mergers**|Minyang Tian et.al.|[2310.00052](http://arxiv.org/abs/2310.00052)|null|
+|**2023-09-29**|**AI ensemble for signal detection of higher order gravitational wave modes of quasi-circular, spinning, non-precessing binary black hole mergers**|Minyang Tian et.al.|[2310.00052](http://arxiv.org/abs/2310.00052)|**[link](https://github.com/mtian8/higher_order_gw_spatiotemporal_gnn)**|
 |**2023-09-25**|**Exploring the Impact of Serverless Computing on Peer To Peer Training Machine Learning**|Amine Barrak et.al.|[2309.14139](http://arxiv.org/abs/2309.14139)|**[link](https://github.com/aminebarrak/peertopeerserverless)**|
 |**2023-09-23**|**Zen: Near-Optimal Sparse Tensor Synchronization for Distributed DNN Training**|Zhuang Wang et.al.|[2309.13254](http://arxiv.org/abs/2309.13254)|null|
 |**2023-09-19**|**SPFL: A Self-purified Federated Learning Method Against Poisoning Attacks**|Zizhen Liu et.al.|[2309.10607](http://arxiv.org/abs/2309.10607)|null|
@@ -1758,7 +1758,7 @@
 |**2023-06-18**|**DropCompute: simple and more robust distributed synchronous training via compute variance reduction**|Niv Giladi et.al.|[2306.10598](http://arxiv.org/abs/2306.10598)|**[link](https://github.com/paper-submissions/dropcompute)**|
 |**2023-06-15**|**Evaluation and Optimization of Gradient Compression for Distributed Deep Learning**|Lin Zhang et.al.|[2306.08881](http://arxiv.org/abs/2306.08881)|**[link](https://github.com/lzhangbv/acpsgd)**|
 |**2023-06-14**|**DistSim: A performance model of large-scale hybrid distributed DNN training**|Guandong Lu et.al.|[2306.08423](http://arxiv.org/abs/2306.08423)|null|
-|**2023-06-14**|**$\textbf{A}^2\textbf{CiD}^2$ : Accelerating Asynchronous Communication in Decentralized Deep Learning**|Adel Nabli et.al.|[2306.08289](http://arxiv.org/abs/2306.08289)|null|
+|**2023-06-14**|**$\textbf{A}^2\textbf{CiD}^2$ : Accelerating Asynchronous Communication in Decentralized Deep Learning**|Adel Nabli et.al.|[2306.08289](http://arxiv.org/abs/2306.08289)|**[link](https://github.com/adelnabli/acid)**|
 |**2023-05-31**|**Surrogate Model Extension (SME): A Fast and Accurate Weight Update Attack on Federated Learning**|Junyi Zhu et.al.|[2306.00127](http://arxiv.org/abs/2306.00127)|**[link](https://github.com/junyizhu-ai/surrogate_model_extension)**|
 |**2023-05-29**|**Global-QSGD: Practical Floatless Quantization for Distributed Learning with Theoretical Guarantees**|Jihao Xin et.al.|[2305.18627](http://arxiv.org/abs/2305.18627)|null|
 |**2023-05-26**|**Channel and Gradient-Importance Aware Device Scheduling for Over-the-Air Federated Learning**|Yuchang Sun et.al.|[2305.16854](http://arxiv.org/abs/2305.16854)|null|
@@ -1811,7 +1811,7 @@
 |**2023-11-29**|**CrimeGNN: Harnessing the Power of Graph Neural Networks for Community Detection in Criminal Networks**|Chen Yang et.al.|[2311.17479](http://arxiv.org/abs/2311.17479)|null|
 |**2023-11-29**|**GNNFlow: A Distributed Framework for Continuous Temporal GNN Learning on Dynamic Graphs**|Yuchen Zhong et.al.|[2311.17410](http://arxiv.org/abs/2311.17410)|**[link](https://github.com/jasperzhong/GNNFlow)**|
 |**2023-11-29**|**The Devil is in the Data: Learning Fair Graph Neural Networks via Partial Knowledge Distillation**|Yuchang Zhu et.al.|[2311.17373](http://arxiv.org/abs/2311.17373)|**[link](https://github.com/zzoomd/fairgkd)**|
-|**2023-11-29**|**How does spatial structure affect psychological restoration? A method based on Graph Neural Networks and Street View Imagery**|Haoran Ma et.al.|[2311.17361](http://arxiv.org/abs/2311.17361)|null|
+|**2023-11-29**|**How does spatial structure affect psychological restoration? A method based on Graph Neural Networks and Street View Imagery**|Haoran Ma et.al.|[2311.17361](http://arxiv.org/abs/2311.17361)|**[link](https://github.com/MMHHRR/Restoration_Topology)**|
 |**2023-11-28**|**\texttt{GlycoNMR}: Dataset and benchmarks for NMR chemical shift prediction of carbohydrates with graph neural networks**|Zizhang Chen et.al.|[2311.17134](http://arxiv.org/abs/2311.17134)|null|
 |**2023-11-28**|**Attentional Graph Neural Networks for Robust Massive Network Localization**|Wenzhong Yan et.al.|[2311.16856](http://arxiv.org/abs/2311.16856)|null|
 |**2023-11-28**|**Hyper-Relational Knowledge Graph Neural Network for Next POI**|Jixiao Zhang et.al.|[2311.16683](http://arxiv.org/abs/2311.16683)|null|
@@ -2179,7 +2179,7 @@
 |**2023-09-12**|**GLAD: Content-aware Dynamic Graphs For Log Anomaly Detection**|Yufei Li et.al.|[2309.05953](http://arxiv.org/abs/2309.05953)|**[link](https://github.com/yul091/graphlogad)**|
 |**2023-09-12**|**MatSciML: A Broad, Multi-Task Benchmark for Solid-State Materials Modeling**|Kin Long Kelvin Lee et.al.|[2309.05934](http://arxiv.org/abs/2309.05934)|**[link](https://github.com/intellabs/matsciml)**|
 |**2023-09-11**|**Predicting Interloper Fraction with Graph Neural Networks**|Elena Massara et.al.|[2309.05850](http://arxiv.org/abs/2309.05850)|null|
-|**2023-09-11**|**Learning the Geodesic Embedding with Graph Neural Networks**|Bo Pang et.al.|[2309.05613](http://arxiv.org/abs/2309.05613)|null|
+|**2023-09-11**|**Learning the Geodesic Embedding with Graph Neural Networks**|Bo Pang et.al.|[2309.05613](http://arxiv.org/abs/2309.05613)|**[link](https://github.com/intelligentgeometry/gegnn)**|
 |**2023-09-11**|**Advancing Federated Learning in 6G: A Trusted Architecture with Graph-based Analysis**|Wenxuan Ye et.al.|[2309.05525](http://arxiv.org/abs/2309.05525)|null|
 |**2023-09-11**|**A parameterised model for link prediction using node centrality and similarity measure based on graph embedding**|Haohui Lu et.al.|[2309.05434](http://arxiv.org/abs/2309.05434)|null|
 |**2023-09-11**|**Fully-Connected Spatial-Temporal Graph for Multivariate Time Series Data**|Yucheng Wang et.al.|[2309.05305](http://arxiv.org/abs/2309.05305)|null|
