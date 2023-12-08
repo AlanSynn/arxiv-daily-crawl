@@ -1665,7 +1665,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2023-12-06**|**Holmes: Towards Distributed Training Across Clusters with Heterogeneous NIC Environment**|Fei Yang et.al.|[2312.03549](http://arxiv.org/abs/2312.03549)|null|
+|**2023-12-07**|**Holmes: Towards Distributed Training Across Clusters with Heterogeneous NIC Environment**|Fei Yang et.al.|[2312.03549](http://arxiv.org/abs/2312.03549)|null|
 |**2023-12-06**|**Snake Robot with Tactile Perception Navigates on Large-scale Challenging Terrain**|Shuo Jiang et.al.|[2312.03225](http://arxiv.org/abs/2312.03225)|null|
 |**2023-12-05**|**FlexModel: A Framework for Interpretability of Distributed Large Language Models**|Matthew Choi et.al.|[2312.03140](http://arxiv.org/abs/2312.03140)|**[link](https://github.com/vectorinstitute/flex_model)**|
 |**2023-12-05**|**DanZero+: Dominating the GuanDan Game through Reinforcement Learning**|Youpeng Zhao et.al.|[2312.02561](http://arxiv.org/abs/2312.02561)|**[link](https://github.com/submit-paper/Danzero_plus)**|
@@ -1749,6 +1749,16 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-12-07**|**Graph Metanetworks for Processing Diverse Neural Architectures**|Derek Lim et.al.|[2312.04501](http://arxiv.org/abs/2312.04501)|null|
+|**2023-12-07**|**GSGFormer: Generative Social Graph Transformer for Multimodal Pedestrian Trajectory Prediction**|Zhongchang Luo et.al.|[2312.04479](http://arxiv.org/abs/2312.04479)|null|
+|**2023-12-07**|**Scalable Knowledge Graph Construction and Inference on Human Genome Variants**|Shivika Prasanna et.al.|[2312.04423](http://arxiv.org/abs/2312.04423)|null|
+|**2023-12-07**|**Equivariant Scalar Fields for Molecular Docking with Fast Fourier Transforms**|Bowen Jing et.al.|[2312.04323](http://arxiv.org/abs/2312.04323)|**[link](https://github.com/bjing2016/scalar-fields)**|
+|**2023-12-07**|**A Structural-Clustering Based Active Learning for Graph Neural Networks**|Ricky Maulana Fajri et.al.|[2312.04307](http://arxiv.org/abs/2312.04307)|**[link](https://github.com/rickymaulanafajri/spa)**|
+|**2023-12-07**|**Simulating the Air Quality Impact of Prescribed Fires Using a Graph Neural Network-Based PM $_{2.5}$ Emissions Forecasting System**|Kyleen Liao et.al.|[2312.04291](http://arxiv.org/abs/2312.04291)|null|
+|**2023-12-07**|**An Improved Scheduling with Advantage Actor-Critic for Storm Workloads**|Gaoqiang Dong et.al.|[2312.04126](http://arxiv.org/abs/2312.04126)|null|
+|**2023-12-07**|**Breaking the Entanglement of Homophily and Heterophily in Semi-supervised Node Classification**|Henan Sun et.al.|[2312.04111](http://arxiv.org/abs/2312.04111)|null|
+|**2023-12-07**|**Synergistic Signals: Exploiting Co-Engagement and Semantic Links via Graph Neural Networks**|Zijie Huang et.al.|[2312.04071](http://arxiv.org/abs/2312.04071)|null|
+|**2023-12-07**|**Node-aware Bi-smoothing: Certified Robustness against Graph Injection Attacks**|Yuni Lai et.al.|[2312.03979](http://arxiv.org/abs/2312.03979)|null|
 |**2023-12-06**|**What Planning Problems Can A Relational Neural Network Solve?**|Jiayuan Mao et.al.|[2312.03682](http://arxiv.org/abs/2312.03682)|**[link](https://github.com/concepts-ai/goal-regression-width)**|
 |**2023-12-06**|**Augmenting optimization-based molecular design with graph neural networks**|Shiqiang Zhang et.al.|[2312.03613](http://arxiv.org/abs/2312.03613)|null|
 |**2023-12-06**|**GraNet: A Multi-Level Graph Network for 6-DoF Grasp Pose Generation in Cluttered Scenes**|Haowen Wang et.al.|[2312.03345](http://arxiv.org/abs/2312.03345)|null|
