@@ -1896,7 +1896,7 @@ layout: default
 |**2023-11-15**|**X-GRL: An Empirical Assessment of Explainable GNN-DRL in B5G/6G Networks**|Farhad Rezazadeh et.al.|[2311.08798](http://arxiv.org/abs/2311.08798)|null|
 |**2023-11-15**|**Language Semantic Graph Guided Data-Efficient Learning**|Wenxuan Ma et.al.|[2311.08782](http://arxiv.org/abs/2311.08782)|**[link](https://github.com/bit-da/lsg)**|
 |**2023-11-14**|**SceneScore: Learning a Cost Function for Object Arrangement**|Ivan Kapelyukh et.al.|[2311.08530](http://arxiv.org/abs/2311.08530)|null|
-|**2023-11-14**|**Uplift Modeling based on Graph Neural Network Combined with Causal Knowledge**|Haowen Wang et.al.|[2311.08434](http://arxiv.org/abs/2311.08434)|null|
+|**2023-11-14**|**Uplift Modeling based on Graph Neural Network Combined with Causal Knowledge**|Haowen Wang et.al.|[2311.08434](http://arxiv.org/abs/2311.08434)|**[link](https://github.com/xy2119/Causal_Knowledge_GNN)**|
 |**2023-11-14**|**Mobility-Induced Graph Learning for WiFi Positioning**|Kyuwon Han et.al.|[2311.08271](http://arxiv.org/abs/2311.08271)|null|
 |**2023-11-14**|**Evaluating Neighbor Explainability for Graph Neural Networks**|Oscar Llorente et.al.|[2311.08118](http://arxiv.org/abs/2311.08118)|**[link](https://github.com/ericssonresearch/gnn-neighbors-xai)**|
 |**2023-11-14**|**Higher-Order Expander Graph Propagation**|Thomas Christie et.al.|[2311.07966](http://arxiv.org/abs/2311.07966)|null|
@@ -2106,7 +2106,7 @@ layout: default
 |**2023-10-03**|**SelfGraphVQA: A Self-Supervised Graph Neural Network for Scene-based Question Answering**|Bruno Souza et.al.|[2310.01842](http://arxiv.org/abs/2310.01842)|null|
 |**2023-10-03**|**Towards Robust Fidelity for Evaluating Explainability of Graph Neural Networks**|Xu Zheng et.al.|[2310.01820](http://arxiv.org/abs/2310.01820)|null|
 |**2023-10-02**|**Transformers are efficient hierarchical chemical graph learners**|Zihan Pengmei et.al.|[2310.01704](http://arxiv.org/abs/2310.01704)|null|
-|**2023-10-02**|**Score dynamics: scaling molecular dynamics with picosecond timesteps via conditional diffusion model**|Tim Hsu et.al.|[2310.01678](http://arxiv.org/abs/2310.01678)|null|
+|**2023-10-02**|**Score dynamics: scaling molecular dynamics with picosecond timesteps via conditional diffusion model**|Tim Hsu et.al.|[2310.01678](http://arxiv.org/abs/2310.01678)|**[link](https://github.com/llnl/graphite)**|
 |**2023-10-02**|**Locality-Aware Graph-Rewiring in GNNs**|Federico Barbero et.al.|[2310.01668](http://arxiv.org/abs/2310.01668)|null|
 |**2023-10-02**|**Operator Learning Meets Numerical Analysis: Improving Neural Networks through Iterative Methods**|Emanuele Zappala et.al.|[2310.01618](http://arxiv.org/abs/2310.01618)|null|
 |**2023-10-02**|**Cooperative Graph Neural Networks**|Ben Finkelshtein et.al.|[2310.01267](http://arxiv.org/abs/2310.01267)|null|
