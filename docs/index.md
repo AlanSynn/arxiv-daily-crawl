@@ -1665,6 +1665,8 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-12-14**|**EAT: Towards Long-Tailed Out-of-Distribution Detection**|Tong Wei et.al.|[2312.08939](http://arxiv.org/abs/2312.08939)|**[link](https://github.com/stomach-ache/long-tailed-ood-detection)**|
+|**2023-12-13**|**Contractive error feedback for gradient compression**|Bingcong Li et.al.|[2312.08538](http://arxiv.org/abs/2312.08538)|null|
 |**2023-12-13**|**Kimad: Adaptive Gradient Compression with Bandwidth Awareness**|Jihao Xin et.al.|[2312.08053](http://arxiv.org/abs/2312.08053)|null|
 |**2023-12-11**|**A Geometry-based Stochastic Wireless Channel Model using Channel Images**|Seongjoon Kang et.al.|[2312.06637](http://arxiv.org/abs/2312.06637)|**[link](https://github.com/sk8053/geostochasticchanmodel)**|
 |**2023-12-11**|**Holmes: Towards Distributed Training Across Clusters with Heterogeneous NIC Environment**|Fei Yang et.al.|[2312.03549](http://arxiv.org/abs/2312.03549)|null|
@@ -1751,6 +1753,14 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2023-12-14**|**COMBHelper: A Neural Approach to Reduce Search Space for Graph Combinatorial Problems**|Hao Tian et.al.|[2312.09086](http://arxiv.org/abs/2312.09086)|null|
+|**2023-12-14**|**Graph Neural Networks with Diverse Spectral Filtering**|Jingwei Guo et.al.|[2312.09041](http://arxiv.org/abs/2312.09041)|**[link](https://github.com/jingweio/dsf)**|
+|**2023-12-14**|**Uncertainty in GNN Learning Evaluations: A Comparison Between Measures for Quantifying Randomness in GNN Community Detection**|William Leeney et.al.|[2312.09015](http://arxiv.org/abs/2312.09015)|null|
+|**2023-12-14**|**Multi-Scene Generalized Trajectory Global Graph Solver with Composite Nodes for Multiple Object Tracking**|Yan Gao et.al.|[2312.08951](http://arxiv.org/abs/2312.08951)|null|
+|**2023-12-14**|**Heterogeneous Graph Neural Architecture Search with GPT-4**|Haoyuan Dong et.al.|[2312.08680](http://arxiv.org/abs/2312.08680)|null|
+|**2023-12-14**|**Uplifting the Expressive Power of Graph Neural Networks through Graph Partitioning**|Asela Hevapathige et.al.|[2312.08671](http://arxiv.org/abs/2312.08671)|null|
+|**2023-12-14**|**MaxK-GNN: Towards Theoretical Speed Limits for Accelerating Graph Neural Networks Training**|Hongwu Peng et.al.|[2312.08656](http://arxiv.org/abs/2312.08656)|**[link](https://github.com/harveyp123/maxk-gnn)**|
+|**2023-12-14**|**Towards Inductive Robustness: Distilling and Fostering Wave-induced Resonance in Transductive GCNs Against Graph Adversarial Attacks**|Ao Liu et.al.|[2312.08651](http://arxiv.org/abs/2312.08651)|null|
 |**2023-12-13**|**SAM-guided Graph Cut for 3D Instance Segmentation**|Haoyu Guo et.al.|[2312.08372](http://arxiv.org/abs/2312.08372)|null|
 |**2023-12-13**|**CUTTANA: Scalable Graph Partitioning for Faster Distributed Graph Databases and Analytics**|Milad Rezaei Hajidehi et.al.|[2312.08356](http://arxiv.org/abs/2312.08356)|null|
 |**2023-12-13**|**On the verification of Embeddings using Hybrid Markov Logic**|Anup Shakya et.al.|[2312.08287](http://arxiv.org/abs/2312.08287)|null|
