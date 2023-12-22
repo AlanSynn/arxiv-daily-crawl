@@ -1691,6 +1691,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-12-20**|**Optimizing Distributed Training on Frontier for Large Language Models**|Sajal Dash et.al.|[2312.12705](http://arxiv.org/abs/2312.12705)|null|
 |**2023-12-19**|**Beyond Prototypes: Semantic Anchor Regularization for Better Representation Learning**|Yanqi Ge et.al.|[2312.11872](http://arxiv.org/abs/2312.11872)|**[link](https://github.com/geyanqi/sar)**|
 |**2023-12-18**|**ACCL+: an FPGA-Based Collective Engine for Distributed Applications**|Zhenhao He et.al.|[2312.11742](http://arxiv.org/abs/2312.11742)|null|
 |**2023-12-11**|**The Limits of Fair Medical Imaging AI In The Wild**|Yuzhe Yang et.al.|[2312.10083](http://arxiv.org/abs/2312.10083)|**[link](https://github.com/yyzharry/shortcut-ood-fairness)**|
@@ -1784,6 +1785,15 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2023-12-21**|**Fine-tuning Graph Neural Networks by Preserving Graph Generative Patterns**|Yifei Sun et.al.|[2312.13583](http://arxiv.org/abs/2312.13583)|**[link](https://github.com/zjunet/G-Tuning)**|
+|**2023-12-21**|**Domain Adaptive Graph Classification**|Siyang Luo et.al.|[2312.13536](http://arxiv.org/abs/2312.13536)|null|
+|**2023-12-21**|**Molecular Hypergraph Neural Networks**|Junwu Chen et.al.|[2312.13136](http://arxiv.org/abs/2312.13136)|**[link](https://github.com/schwallergroup/mhnn)**|
+|**2023-12-20**|**Optimizing Ego Vehicle Trajectory Prediction: The Graph Enhancement Approach**|Sushil Sharma et.al.|[2312.13104](http://arxiv.org/abs/2312.13104)|null|
+|**2023-12-21**|**NodeMixup: Tackling Under-Reaching for Graph Neural Networks**|Weigang Lu et.al.|[2312.13032](http://arxiv.org/abs/2312.13032)|**[link](https://github.com/weiganglu/nodemixup)**|
+|**2023-12-20**|**Fast Cell Library Characterization for Design Technology Co-Optimization Based on Graph Neural Networks**|Tianliang Ma et.al.|[2312.12784](http://arxiv.org/abs/2312.12784)|null|
+|**2023-12-20**|**Cross-Modal Reasoning with Event Correlation for Video Question Answering**|Chengxiang Yin et.al.|[2312.12721](http://arxiv.org/abs/2312.12721)|null|
+|**2023-12-20**|**DGCLUSTER: A Neural Framework for Attributed Graph Clustering via Modularity Maximization**|Aritra Bhowmick et.al.|[2312.12697](http://arxiv.org/abs/2312.12697)|**[link](https://github.com/pyrobits/dgcluster)**|
+|**2023-12-21**|**Data-driven Design of High Pressure Hydride Superconductors using DFT and Deep Learning**|Daniel Wines et.al.|[2312.12694](http://arxiv.org/abs/2312.12694)|null|
 |**2023-12-19**|**Chasing Fairness in Graphs: A GNN Architecture Perspective**|Zhimeng Jiang et.al.|[2312.12369](http://arxiv.org/abs/2312.12369)|**[link](https://github.com/zhimengj0326/fmp)**|
 |**2023-12-19**|**Poincaré Differential Privacy for Hierarchy-aware Graph Embedding**|Yuecen Wei et.al.|[2312.12183](http://arxiv.org/abs/2312.12183)|null|
 |**2023-12-19**|**Hierarchical and Incremental Structural Entropy Minimization for Unsupervised Social Event Detection**|Yuwei Cao et.al.|[2312.11891](http://arxiv.org/abs/2312.11891)|**[link](https://github.com/selgroup/hisevent)**|
