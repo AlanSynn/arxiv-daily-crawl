@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2023.12.28
+## Updated on 2023.12.29
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1761,7 +1761,7 @@ layout: default
 |**2023-12-26**|**BalMCTS: Balancing Objective Function and Search Nodes in MCTS for Constraint Optimization Problems**|Yingkai Xiao et.al.|[2312.15864](http://arxiv.org/abs/2312.15864)|null|
 |**2023-12-25**|**Comparative Analysis of Radiomic Features and Gene Expression Profiles in Histopathology Data Using Graph Neural Networks**|Luis Carlos Rivera Monroy et.al.|[2312.15825](http://arxiv.org/abs/2312.15825)|null|
 |**2023-12-24**|**Graph Coarsening via Convolution Matching for Scalable Graph Neural Network Training**|Charles Dickens et.al.|[2312.15520](http://arxiv.org/abs/2312.15520)|**[link](https://github.com/amazon-science/convolution-matching)**|
-|**2023-12-24**|**Combinatorial music generation model with song structure graph analysis**|Seonghyeon Go et.al.|[2312.15400](http://arxiv.org/abs/2312.15400)|null|
+|**2023-12-24**|**Combinatorial music generation model with song structure graph analysis**|Seonghyeon Go et.al.|[2312.15400](http://arxiv.org/abs/2312.15400)|**[link](https://github.com/slslslrhfem/song_structure_graph)**|
 |**2023-12-23**|**Towards Fine-Grained Explainability for Heterogeneous Graph Neural Network**|Tong Li et.al.|[2312.15237](http://arxiv.org/abs/2312.15237)|**[link](https://github.com/litong99/xpath)**|
 |**2023-12-25**|**Large Scale Training of Graph Neural Networks for Optimal Markov-Chain Partitioning Using the Kemeny Constant**|Sam Alexander Martino et.al.|[2312.14847](http://arxiv.org/abs/2312.14847)|null|
 |**2023-12-22**|**Learning Lagrangian Multipliers for the Travelling Salesman Problem**|Augustin Parjadis et.al.|[2312.14836](http://arxiv.org/abs/2312.14836)|null|
