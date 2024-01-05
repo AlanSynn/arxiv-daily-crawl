@@ -1763,6 +1763,12 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-01-04**|**Detection and Discovery of Misinformation Sources using Attributed Webgraphs**|Peter Carragher et.al.|[2401.02379](http://arxiv.org/abs/2401.02379)|null|
+|**2024-01-04**|**Path-based Explanation for Knowledge Graph Completion**|Heng Chang et.al.|[2401.02290](http://arxiv.org/abs/2401.02290)|null|
+|**2024-01-04**|**Graph Neural Networks for Tabular Data Learning: A Survey with Taxonomy and Directions**|Cheng-Te Li et.al.|[2401.02143](http://arxiv.org/abs/2401.02143)|null|
+|**2024-01-04**|**Spectral-based Graph Neutral Networks for Complementary Item Recommendation**|Haitong Luo et.al.|[2401.02130](http://arxiv.org/abs/2401.02130)|null|
+|**2024-01-04**|**View-based Explanations for Graph Neural Networks**|Tingyang Chen et.al.|[2401.02086](http://arxiv.org/abs/2401.02086)|**[link](https://github.com/zju-daily/gvex)**|
+|**2024-01-04**|**Accelerated Band Offset Prediction in Semiconductor Interfaces with DFT and Deep Learning**|Kamal Choudhary et.al.|[2401.02021](http://arxiv.org/abs/2401.02021)|null|
 |**2024-01-03**|**Graph Neural Networks for Surfactant Multi-Property Prediction**|Christoforos Brozos et.al.|[2401.01874](http://arxiv.org/abs/2401.01874)|**[link](https://github.com/brozosc/graph-neural-networks-for-surfactant-multi-property-prediction)**|
 |**2024-01-03**|**On the hardness of learning under symmetries**|Bobak T. Kiani et.al.|[2401.01869](http://arxiv.org/abs/2401.01869)|null|
 |**2024-01-03**|**DGDNN: Decoupled Graph Diffusion Neural Network for Stock Movement Prediction**|Zinuo You et.al.|[2401.01846](http://arxiv.org/abs/2401.01846)|**[link](https://github.com/pixelhero98/dgdnn)**|
