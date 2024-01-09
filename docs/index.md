@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.01.08
+## Updated on 2024.01.09
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1767,7 +1767,7 @@ layout: default
 |**2024-01-05**|**H2G2-Net: A Hierarchical Heterogeneous Graph Generative Network Framework for Discovery of Multi-Modal Physiological Responses**|Haidong Gu et.al.|[2401.02905](http://arxiv.org/abs/2401.02905)|null|
 |**2024-01-05**|**DocGraphLM: Documental Graph Language Model for Information Extraction**|Dongsheng Wang et.al.|[2401.02823](http://arxiv.org/abs/2401.02823)|null|
 |**2024-01-05**|**Powerformer: A Section-adaptive Transformer for Power Flow Adjustment**|Kaixuan Chen et.al.|[2401.02771](http://arxiv.org/abs/2401.02771)|null|
-|**2024-01-05**|**Verifying Relational Explanations: A Probabilistic Approach**|Abisha Thapa Magar et.al.|[2401.02703](http://arxiv.org/abs/2401.02703)|null|
+|**2024-01-05**|**Verifying Relational Explanations: A Probabilistic Approach**|Abisha Thapa Magar et.al.|[2401.02703](http://arxiv.org/abs/2401.02703)|**[link](https://github.com/abisha-thapa/explain)**|
 |**2024-01-05**|**PAHD: Perception-Action based Human Decision Making using Explainable Graph Neural Networks on SAR Images**|Sasindu Wijeratne et.al.|[2401.02687](http://arxiv.org/abs/2401.02687)|null|
 |**2024-01-05**|**Homophily-Related: Adaptive Hybrid Graph Filter for Multi-View Graph Clustering**|Zichen Wen et.al.|[2401.02682](http://arxiv.org/abs/2401.02682)|null|
 |**2024-01-05**|**A backdoor attack against link prediction tasks with graph neural networks**|Jiazhu Dai et.al.|[2401.02663](http://arxiv.org/abs/2401.02663)|null|
