@@ -1667,6 +1667,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-01-09**|**G-Meta: Distributed Meta Learning in GPU Clusters for Large-Scale Recommender Systems**|Youshao Xiao et.al.|[2401.04338](http://arxiv.org/abs/2401.04338)|null|
 |**2024-01-03**|**An Edge-Cloud Collaboration Framework for Generative AI Service Provision with Synergetic Big Cloud Model and Small Edge Models**|Yuqing Tian et.al.|[2401.01666](http://arxiv.org/abs/2401.01666)|null|
 |**2023-12-30**|**On the Burstiness of Distributed Machine Learning Traffic**|Natchanon Luangsomboon et.al.|[2401.00329](http://arxiv.org/abs/2401.00329)|null|
 |**2023-12-29**|**RS-DGC: Exploring Neighborhood Statistics for Dynamic Gradient Compression on Remote Sensing Image Interpretation**|Weiying Xie et.al.|[2312.17530](http://arxiv.org/abs/2312.17530)|null|
@@ -1763,13 +1764,16 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2024-01-08**|**A Primer on Temporal Graph Learning**|Aniq Ur Rahman et.al.|[2401.03988](http://arxiv.org/abs/2401.03988)|null|
+|**2024-01-09**|**Coupling Graph Neural Networks with Fractional Order Continuous Dynamics: A Robustness Study**|Qiyu Kang et.al.|[2401.04331](http://arxiv.org/abs/2401.04331)|null|
+|**2024-01-08**|**Explaining the Power of Topological Data Analysis in Graph Machine Learning**|Funmilola Mary Taiwo et.al.|[2401.04250](http://arxiv.org/abs/2401.04250)|**[link](https://github.com/phunmey/xtda-paper)**|
+|**2024-01-07**|**Global-Aware Enhanced Spatial-Temporal Graph Recurrent Networks: A New Framework For Traffic Flow Prediction**|Haiyang Liu et.al.|[2401.04135](http://arxiv.org/abs/2401.04135)|null|
+|**2024-01-09**|**A Primer on Temporal Graph Learning**|Aniq Ur Rahman et.al.|[2401.03988](http://arxiv.org/abs/2401.03988)|null|
 |**2024-01-08**|**Inferring Properties of Graph Neural Networks**|Dat Nguyen et.al.|[2401.03790](http://arxiv.org/abs/2401.03790)|null|
 |**2024-01-08**|**Joint Power Allocation and User Scheduling in Integrated Satellite-Terrestrial Cell-Free Massive MIMO IoT Systems**|Trinh Van Chien et.al.|[2401.03754](http://arxiv.org/abs/2401.03754)|null|
 |**2024-01-08**|**Boosting Column Generation with Graph Neural Networks for Joint Rider Trip Planning and Crew Shift Scheduling**|Jiawei Lu et.al.|[2401.03692](http://arxiv.org/abs/2401.03692)|null|
 |**2024-01-08**|**GrainGNN: A dynamic graph neural network for predicting 3D grain microstructure**|Yigong Qin et.al.|[2401.03661](http://arxiv.org/abs/2401.03661)|null|
 |**2024-01-07**|**Few-Shot Causal Representation Learning for Out-of-Distribution Generalization on Heterogeneous Graphs**|Pengfei Ding et.al.|[2401.03597](http://arxiv.org/abs/2401.03597)|null|
-|**2024-01-07**|**Global Prediction of COVID-19 Variant Emergence Using Dynamics-Informed Graph Neural Networks**|Majd Al Aawar et.al.|[2401.03390](http://arxiv.org/abs/2401.03390)|null|
+|**2024-01-07**|**Global Prediction of COVID-19 Variant Emergence Using Dynamics-Informed Graph Neural Networks**|Majd Al Aawar et.al.|[2401.03390](http://arxiv.org/abs/2401.03390)|**[link](https://github.com/itssmutnuri/gnnvariants)**|
 |**2024-01-07**|**Accurate and Scalable Estimation of Epistemic Uncertainty for Graph Neural Networks**|Puja Trivedi et.al.|[2401.03350](http://arxiv.org/abs/2401.03350)|null|
 |**2024-01-06**|**TelTrans: Applying Multi-Type Telecom Data to Transportation Evaluation and Prediction via Multifaceted Graph Modeling**|ChungYi Lin et.al.|[2401.03138](http://arxiv.org/abs/2401.03138)|null|
 |**2024-01-06**|**GLISP: A Scalable GNN Learning System by Exploiting Inherent Structural Properties of Graphs**|Zhongshu Zhu et.al.|[2401.03114](http://arxiv.org/abs/2401.03114)|null|
