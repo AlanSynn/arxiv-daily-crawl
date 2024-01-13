@@ -1692,6 +1692,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-01-11**|**HAP: SPMD DNN Training on Heterogeneous GPU Clusters with Automated Program Synthesis**|Shiwei Zhang et.al.|[2401.05965](http://arxiv.org/abs/2401.05965)|null|
 |**2024-01-09**|**G-Meta: Distributed Meta Learning in GPU Clusters for Large-Scale Recommender Systems**|Youshao Xiao et.al.|[2401.04338](http://arxiv.org/abs/2401.04338)|null|
 |**2024-01-03**|**An Edge-Cloud Collaboration Framework for Generative AI Service Provision with Synergetic Big Cloud Model and Small Edge Models**|Yuqing Tian et.al.|[2401.01666](http://arxiv.org/abs/2401.01666)|null|
 |**2023-12-30**|**On the Burstiness of Distributed Machine Learning Traffic**|Natchanon Luangsomboon et.al.|[2401.00329](http://arxiv.org/abs/2401.00329)|null|
@@ -1791,6 +1792,12 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-01-11**|**On the Power of Graph Neural Networks and Feature Augmentation Strategies to Classify Social Networks**|Walid Guettala et.al.|[2401.06048](http://arxiv.org/abs/2401.06048)|null|
+|**2024-01-11**|**Wavelet-Inspired Multiscale Graph Convolutional Recurrent Network for Traffic Forecasting**|Qipeng Qian et.al.|[2401.06040](http://arxiv.org/abs/2401.06040)|**[link](https://github.com/qqian99/wavgcrn)**|
+|**2024-01-11**|**Use of Graph Neural Networks in Aiding Defensive Cyber Operations**|Shaswata Mitra et.al.|[2401.05680](http://arxiv.org/abs/2401.05680)|null|
+|**2024-01-11**|**Graph Q-Learning for Combinatorial Optimization**|Victoria M. Dax et.al.|[2401.05610](http://arxiv.org/abs/2401.05610)|null|
+|**2024-01-10**|**Population Graph Cross-Network Node Classification for Autism Detection Across Sample Groups**|Anna Stephens et.al.|[2401.05478](http://arxiv.org/abs/2401.05478)|**[link](https://github.com/ajoystephens/otgcn)**|
+|**2024-01-10**|**Introducing New Node Prediction in Graph Mining: Predicting All Links from Isolated Nodes with Graph Neural Networks**|Damiano Zanardini et.al.|[2401.05468](http://arxiv.org/abs/2401.05468)|null|
 |**2024-01-10**|**Arrival Time Prediction for Autonomous Shuttle Services in the Real World: Evidence from Five Cities**|Carolin Schmidt et.al.|[2401.05322](http://arxiv.org/abs/2401.05322)|null|
 |**2024-01-10**|**Physics guided dual Self-supervised learning for structure-based materials property prediction**|Nihang Fu et.al.|[2401.05223](http://arxiv.org/abs/2401.05223)|null|
 |**2024-01-10**|**MGNet: Learning Correspondences via Multiple Graphs**|Luanyuan Dai et.al.|[2401.04984](http://arxiv.org/abs/2401.04984)|null|
