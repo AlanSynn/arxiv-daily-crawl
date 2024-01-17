@@ -1692,6 +1692,8 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-01-16**|**GMLake: Efficient and Transparent GPU Memory Defragmentation for Large-scale DNN Training with Virtual Memory Stitching**|Cong Guo et.al.|[2401.08156](http://arxiv.org/abs/2401.08156)|null|
+|**2024-01-15**|**Activations and Gradients Compression for Model-Parallel Training**|Mikhail Rudakov et.al.|[2401.07788](http://arxiv.org/abs/2401.07788)|**[link](https://github.com/glemhel/activationsgradientscompressionformp)**|
 |**2024-01-11**|**HAP: SPMD DNN Training on Heterogeneous GPU Clusters with Automated Program Synthesis**|Shiwei Zhang et.al.|[2401.05965](http://arxiv.org/abs/2401.05965)|**[link](https://github.com/alibaba/hap)**|
 |**2024-01-09**|**G-Meta: Distributed Meta Learning in GPU Clusters for Large-Scale Recommender Systems**|Youshao Xiao et.al.|[2401.04338](http://arxiv.org/abs/2401.04338)|null|
 |**2024-01-03**|**An Edge-Cloud Collaboration Framework for Generative AI Service Provision with Synergetic Big Cloud Model and Small Edge Models**|Yuqing Tian et.al.|[2401.01666](http://arxiv.org/abs/2401.01666)|null|
@@ -1792,6 +1794,13 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-01-16**|**Spoofing Detection in the Physical Layer with Graph Neural Networks**|Tien Ngoc Ha et.al.|[2401.08220](http://arxiv.org/abs/2401.08220)|null|
+|**2024-01-16**|**Structure-based out-of-distribution (OOD) materials property prediction: a benchmark study**|Sadman Sadeed Omee et.al.|[2401.08032](http://arxiv.org/abs/2401.08032)|null|
+|**2024-01-15**|**Integrate Any Omics: Towards genome-wide data integration for patient stratification**|Shihao Ma et.al.|[2401.07937](http://arxiv.org/abs/2401.07937)|**[link](https://github.com/bowang-lab/integrao)**|
+|**2024-01-15**|**Multimodal Language and Graph Learning of Adsorption Configuration in Catalysis**|Janghoon Ock et.al.|[2401.07408](http://arxiv.org/abs/2401.07408)|null|
+|**2024-01-13**|**Graph Language Models**|Moritz Plenz et.al.|[2401.07105](http://arxiv.org/abs/2401.07105)|**[link](https://github.com/heidelberg-nlp/graphlanguagemodels)**|
+|**2024-01-13**|**Reinforcement Learning for Scalable Train Timetable Rescheduling with Graph Representation**|Peng Yue et.al.|[2401.06952](http://arxiv.org/abs/2401.06952)|null|
+|**2024-01-12**|**Accelerating Neural Networks for Large Language Models and Graph Processing with Silicon Photonics**|Salma Afifi et.al.|[2401.06885](http://arxiv.org/abs/2401.06885)|null|
 |**2024-01-12**|**A General Benchmark Framework is Dynamic Graph Neural Network Need**|Yusen Zhang et.al.|[2401.06559](http://arxiv.org/abs/2401.06559)|null|
 |**2024-01-12**|**Treatment-Aware Hyperbolic Representation Learning for Causal Effect Estimation with Social Networks**|Ziqiang Cui et.al.|[2401.06557](http://arxiv.org/abs/2401.06557)|null|
 |**2024-01-11**|**Learning Crowd Behaviors in Navigation with Attention-based Spatial-Temporal Graphs**|Yanying Zhou et.al.|[2401.06226](http://arxiv.org/abs/2401.06226)|null|
