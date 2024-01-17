@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.01.16
+## Updated on 2024.01.17
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1667,7 +1667,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2024-01-11**|**HAP: SPMD DNN Training on Heterogeneous GPU Clusters with Automated Program Synthesis**|Shiwei Zhang et.al.|[2401.05965](http://arxiv.org/abs/2401.05965)|null|
+|**2024-01-11**|**HAP: SPMD DNN Training on Heterogeneous GPU Clusters with Automated Program Synthesis**|Shiwei Zhang et.al.|[2401.05965](http://arxiv.org/abs/2401.05965)|**[link](https://github.com/alibaba/hap)**|
 |**2024-01-09**|**G-Meta: Distributed Meta Learning in GPU Clusters for Large-Scale Recommender Systems**|Youshao Xiao et.al.|[2401.04338](http://arxiv.org/abs/2401.04338)|null|
 |**2024-01-03**|**An Edge-Cloud Collaboration Framework for Generative AI Service Provision with Synergetic Big Cloud Model and Small Edge Models**|Yuqing Tian et.al.|[2401.01666](http://arxiv.org/abs/2401.01666)|null|
 |**2023-12-30**|**On the Burstiness of Distributed Machine Learning Traffic**|Natchanon Luangsomboon et.al.|[2401.00329](http://arxiv.org/abs/2401.00329)|null|
