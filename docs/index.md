@@ -1668,7 +1668,7 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
 |**2024-01-18**|**FLex&Chill: Improving Local Federated Learning Training with Logit Chilling**|Kichang Lee et.al.|[2401.09986](http://arxiv.org/abs/2401.09986)|null|
-|**2024-01-18**|**A Fast, Performant, Secure Distributed Training Framework For Large Language Model**|Wei Huang et.al.|[2401.09796](http://arxiv.org/abs/2401.09796)|null|
+|**2024-01-19**|**A Fast, Performant, Secure Distributed Training Framework For Large Language Model**|Wei Huang et.al.|[2401.09796](http://arxiv.org/abs/2401.09796)|null|
 |**2024-01-18**|**Mobility Accelerates Learning: Convergence Analysis on Hierarchical Federated Learning in Vehicular Networks**|Tan Chen et.al.|[2401.09656](http://arxiv.org/abs/2401.09656)|null|
 |**2024-01-16**|**GMLake: Efficient and Transparent GPU Memory Defragmentation for Large-scale DNN Training with Virtual Memory Stitching**|Cong Guo et.al.|[2401.08156](http://arxiv.org/abs/2401.08156)|**[link](https://github.com/intelligent-machine-learning/glake)**|
 |**2024-01-15**|**Activations and Gradients Compression for Model-Parallel Training**|Mikhail Rudakov et.al.|[2401.07788](http://arxiv.org/abs/2401.07788)|**[link](https://github.com/glemhel/activationsgradientscompressionformp)**|
@@ -1770,6 +1770,15 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-01-19**|**Co-Pilot for Health: Personalized Algorithmic AI Nudging to Improve Health Outcomes**|Jodi Chiam et.al.|[2401.10816](http://arxiv.org/abs/2401.10816)|null|
+|**2024-01-19**|**Novel Representation Learning Technique using Graphs for Performance Analytics**|Tarek Ramadan et.al.|[2401.10799](http://arxiv.org/abs/2401.10799)|null|
+|**2024-01-19**|**BoolGebra: Attributed Graph-learning for Boolean Algebraic Manipulation**|Yingjie Li et.al.|[2401.10753](http://arxiv.org/abs/2401.10753)|null|
+|**2024-01-19**|**Adversarially Robust Signed Graph Contrastive Learning from Balance Augmentation**|Jialong Zhou et.al.|[2401.10590](http://arxiv.org/abs/2401.10590)|null|
+|**2024-01-19**|**Symbol as Points: Panoptic Symbol Spotting via Point-based Representation**|Wenlong Liu et.al.|[2401.10556](http://arxiv.org/abs/2401.10556)|null|
+|**2024-01-19**|**FARe: Fault-Aware GNN Training on ReRAM-based PIM Accelerators**|Pratyush Dhingra et.al.|[2401.10522](http://arxiv.org/abs/2401.10522)|null|
+|**2024-01-18**|**Distribution Consistency based Self-Training for Graph Neural Networks with Sparse Labels**|Fali Wang et.al.|[2401.10394](http://arxiv.org/abs/2401.10394)|null|
+|**2024-01-18**|**Exploring General Intelligence via Gated Graph Transformer in Functional Connectivity Studies**|Gang Qu et.al.|[2401.10348](http://arxiv.org/abs/2401.10348)|null|
+|**2024-01-18**|**A rotation-equivariant graph neural network for learning hadronic SMEFT effects**|Suman Chatterjee et.al.|[2401.10323](http://arxiv.org/abs/2401.10323)|null|
 |**2024-01-18**|**Through the Dual-Prism: A Spectral Perspective on Graph Data Augmentation for Graph Classification**|Yutong Xia et.al.|[2401.09953](http://arxiv.org/abs/2401.09953)|null|
 |**2024-01-18**|**HGAttack: Transferable Heterogeneous Graph Adversarial Attack**|He Zhao et.al.|[2401.09945](http://arxiv.org/abs/2401.09945)|null|
 |**2024-01-18**|**Infinite-Horizon Graph Filters: Leveraging Power Series to Enhance Sparse Information Aggregation**|Ruizhe Zhang et.al.|[2401.09943](http://arxiv.org/abs/2401.09943)|null|
