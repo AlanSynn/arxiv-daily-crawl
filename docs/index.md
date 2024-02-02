@@ -1649,10 +1649,11 @@ layout: default
 |**2024-01-20**|**Inference without Interference: Disaggregate LLM Inference for Mixed Downstream Workloads**|Cunchen Hu et.al.|[2401.11181](http://arxiv.org/abs/2401.11181)|null|
 |**2023-12-27**|**SuperServe: Fine-Grained Inference Serving for Unpredictable Workloads**|Alind Khare et.al.|[2312.16733](http://arxiv.org/abs/2312.16733)|null|
 |**2023-12-17**|**Graft: Efficient Inference Serving for Hybrid Deep Learning with SLO Guarantees via DNN Re-alignment**|Jing Wu et.al.|[2312.10636](http://arxiv.org/abs/2312.10636)|null|
-|**2023-11-03**|**ERASER: Machine Unlearning in MLaaS via an Inference Serving-Aware Approach**|Yuke Hu et.al.|[2311.16136](http://arxiv.org/abs/2311.16136)|null|
+|**2024-02-01**|**ERASER: Machine Unlearning in MLaaS via an Inference Serving-Aware Approach**|Yuke Hu et.al.|[2311.16136](http://arxiv.org/abs/2311.16136)|null|
 |**2023-10-27**|**MOSEL: Inference Serving Using Dynamic Modality Selection**|Bodun Hu et.al.|[2310.18481](http://arxiv.org/abs/2310.18481)|null|
 |**2023-08-06**|**Pareto-Secure Machine Learning (PSML): Fingerprinting and Securing Inference Serving Systems**|Debopam Sanyal et.al.|[2307.01292](http://arxiv.org/abs/2307.01292)|null|
 |**2023-06-21**|**Subgraph Stationary Hardware-Software Inference Co-Design**|Payman Behnam et.al.|[2306.17266](http://arxiv.org/abs/2306.17266)|null|
+|**2024-02-01**|**Small Language Models Improve Giants by Rewriting Their Outputs**|Giorgos Vernikos et.al.|[2305.13514](http://arxiv.org/abs/2305.13514)|**[link](https://github.com/georgevern/lmcor)**|
 |**2023-05-10**|**Fast Distributed Inference Serving for Large Language Models**|Bingyang Wu et.al.|[2305.05920](http://arxiv.org/abs/2305.05920)|null|
 |**2023-04-24**|**Reconciling High Accuracy, Cost-Efficiency, and Low Latency of Inference Serving Systems**|Mehran Salmani et.al.|[2304.10892](http://arxiv.org/abs/2304.10892)|**[link](https://github.com/reconfigurable-ml-pipeline/infadapter)**|
 |**2023-08-31**|**Clover: Toward Sustainable AI with Carbon-Aware Machine Learning Inference Service**|Baolin Li et.al.|[2304.09781](http://arxiv.org/abs/2304.09781)|null|
@@ -1772,6 +1773,10 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-02-01**|**X-CBA: Explainability Aided CatBoosted Anomal-E for Intrusion Detection System**|Kiymet Kaya et.al.|[2402.00839](http://arxiv.org/abs/2402.00839)|null|
+|**2024-02-01**|**CPT: Competence-progressive Training Strategy for Few-shot Node Classification**|Qilong Yan et.al.|[2402.00450](http://arxiv.org/abs/2402.00450)|null|
+|**2024-02-01**|**A Survey of Data-Efficient Graph Learning**|Wei Ju et.al.|[2402.00447](http://arxiv.org/abs/2402.00447)|null|
+|**2024-02-01**|**Attention-based Dynamic Multilayer Graph Neural Networks for Loan Default Prediction**|Sahab Zandi et.al.|[2402.00299](http://arxiv.org/abs/2402.00299)|null|
 |**2024-01-31**|**Benchmarking Sensitivity of Continual Graph Learning for Skeleton-Based Action Recognition**|Wei Wei et.al.|[2401.18054](http://arxiv.org/abs/2401.18054)|null|
 |**2024-01-31**|**Attention Graph for Multi-Robot Social Navigation with Deep Reinforcement Learning**|Erwan Escudie et.al.|[2401.17914](http://arxiv.org/abs/2401.17914)|null|
 |**2024-01-31**|**Graph Transformers without Positional Encodings**|Ayush Garg et.al.|[2401.17791](http://arxiv.org/abs/2401.17791)|null|
