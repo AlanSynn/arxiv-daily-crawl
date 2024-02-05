@@ -1694,6 +1694,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-02-02**|**Privacy-Preserving Distributed Learning for Residential Short-Term Load Forecasting**|Yi Dong et.al.|[2402.01546](http://arxiv.org/abs/2402.01546)|**[link](https://github.com/yingjiewangtony/fl-dl)**|
 |**2024-01-29**|**CO2: Efficient Distributed Training with Full Communication-Computation Overlap**|Weigao Sun et.al.|[2401.16265](http://arxiv.org/abs/2401.16265)|null|
 |**2024-01-18**|**FLex&Chill: Improving Local Federated Learning Training with Logit Chilling**|Kichang Lee et.al.|[2401.09986](http://arxiv.org/abs/2401.09986)|null|
 |**2024-01-19**|**A Fast, Performant, Secure Distributed Training Framework For Large Language Model**|Wei Huang et.al.|[2401.09796](http://arxiv.org/abs/2401.09796)|null|
@@ -1800,6 +1801,13 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-02-02**|**TEDDY: Trimming Edges with Degree-based Discrimination strategY**|Hyunjin Seo et.al.|[2402.01261](http://arxiv.org/abs/2402.01261)|null|
+|**2024-02-02**|**Two Heads Are Better Than One: Boosting Graph Sparse Training via Semantic and Topological Awareness**|Guibin Zhang et.al.|[2402.01242](http://arxiv.org/abs/2402.01242)|null|
+|**2024-02-02**|**Unveiling Delay Effects in Traffic Forecasting: A Perspective from Spatial-Temporal Delay Differential Equations**|Qingqing Long et.al.|[2402.01231](http://arxiv.org/abs/2402.01231)|null|
+|**2024-02-02**|**Graph Neural Networks in EEG-based Emotion Recognition: A Survey**|Chenyu Liu et.al.|[2402.01138](http://arxiv.org/abs/2402.01138)|null|
+|**2024-02-02**|**Learning Which Side to Scan: Multi-View Informed Active Perception with Side Scan Sonar for Autonomous Underwater Vehicles**|Advaith V. Sethuraman et.al.|[2402.01106](http://arxiv.org/abs/2402.01106)|null|
+|**2024-02-02**|**DoseGNN: Improving the Performance of Deep Learning Models in Adaptive Dose-Volume Histogram Prediction through Graph Neural Networks**|Zehao Dong et.al.|[2402.01076](http://arxiv.org/abs/2402.01076)|null|
+|**2024-02-01**|**A Comparative Analysis of Gene Expression Profiling by Statistical and Machine Learning Approaches**|Myriam Bontonou et.al.|[2402.00926](http://arxiv.org/abs/2402.00926)|**[link](https://github.com/mbonto/xai_in_genomics)**|
 |**2024-02-01**|**X-CBA: Explainability Aided CatBoosted Anomal-E for Intrusion Detection System**|Kiymet Kaya et.al.|[2402.00839](http://arxiv.org/abs/2402.00839)|null|
 |**2024-02-01**|**CPT: Competence-progressive Training Strategy for Few-shot Node Classification**|Qilong Yan et.al.|[2402.00450](http://arxiv.org/abs/2402.00450)|null|
 |**2024-02-01**|**A Survey of Data-Efficient Graph Learning**|Wei Ju et.al.|[2402.00447](http://arxiv.org/abs/2402.00447)|null|
