@@ -1694,6 +1694,8 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-02-04**|**Breaking MLPerf Training: A Case Study on Optimizing BERT**|Yongdeok Kim et.al.|[2402.02447](http://arxiv.org/abs/2402.02447)|null|
+|**2024-02-02**|**Improved Quantization Strategies for Managing Heavy-tailed Gradients in Distributed Learning**|Guangfeng Yan et.al.|[2402.01798](http://arxiv.org/abs/2402.01798)|null|
 |**2024-02-02**|**Privacy-Preserving Distributed Learning for Residential Short-Term Load Forecasting**|Yi Dong et.al.|[2402.01546](http://arxiv.org/abs/2402.01546)|**[link](https://github.com/yingjiewangtony/fl-dl)**|
 |**2024-01-29**|**CO2: Efficient Distributed Training with Full Communication-Computation Overlap**|Weigao Sun et.al.|[2401.16265](http://arxiv.org/abs/2401.16265)|null|
 |**2024-01-18**|**FLex&Chill: Improving Local Federated Learning Training with Logit Chilling**|Kichang Lee et.al.|[2401.09986](http://arxiv.org/abs/2401.09986)|null|
@@ -1801,6 +1803,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-02-05**|**Graph Neural Machine: A New Model for Learning with Tabular Data**|Giannis Nikolentzos et.al.|[2402.02862](http://arxiv.org/abs/2402.02862)|null|
+|**2024-02-05**|**PowerGraph: A power grid benchmark dataset for graph neural networks**|Anna Varbella et.al.|[2402.02827](http://arxiv.org/abs/2402.02827)|null|
+|**2024-02-05**|**Statistical Guarantees for Link Prediction using Graph Neural Networks**|Alan Chung et.al.|[2402.02692](http://arxiv.org/abs/2402.02692)|null|
+|**2024-02-05**|**GraphRT: A graph-based deep learning model for predicting the retention time of peptides**|Mark Drvodelic et.al.|[2402.02661](http://arxiv.org/abs/2402.02661)|null|
+|**2024-02-04**|**Weisfeiler Leman for Euclidean Equivariant Machine Learning**|Snir Hordan et.al.|[2402.02484](http://arxiv.org/abs/2402.02484)|null|
+|**2024-02-04**|**Active Learning for Graphs with Noisy Structures**|Hongliang Chi et.al.|[2402.02321](http://arxiv.org/abs/2402.02321)|null|
+|**2024-02-03**|**SemPool: Simple, robust, and interpretable KG pooling for enhancing language models**|Costas Mavromatis et.al.|[2402.02289](http://arxiv.org/abs/2402.02289)|null|
+|**2024-02-03**|**Future Directions in Foundations of Graph Machine Learning**|Christopher Morris et.al.|[2402.02287](http://arxiv.org/abs/2402.02287)|null|
+|**2024-02-03**|**Neural Scaling Laws on Graphs**|Jingzhe Liu et.al.|[2402.02054](http://arxiv.org/abs/2402.02054)|null|
+|**2024-02-03**|**Interpreting Graph Neural Networks with In-Distributed Proxies**|Zhuomin Chen et.al.|[2402.02036](http://arxiv.org/abs/2402.02036)|null|
 |**2024-02-02**|**TEDDY: Trimming Edges with Degree-based Discrimination strategY**|Hyunjin Seo et.al.|[2402.01261](http://arxiv.org/abs/2402.01261)|null|
 |**2024-02-02**|**Two Heads Are Better Than One: Boosting Graph Sparse Training via Semantic and Topological Awareness**|Guibin Zhang et.al.|[2402.01242](http://arxiv.org/abs/2402.01242)|null|
 |**2024-02-02**|**Unveiling Delay Effects in Traffic Forecasting: A Perspective from Spatial-Temporal Delay Differential Equations**|Qingqing Long et.al.|[2402.01231](http://arxiv.org/abs/2402.01231)|null|
