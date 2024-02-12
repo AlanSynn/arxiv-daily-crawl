@@ -1806,8 +1806,15 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-02-09**|**Deceptive Path Planning via Reinforcement Learning with Graph Neural Networks**|Michael Y. Fatemi et.al.|[2402.06552](http://arxiv.org/abs/2402.06552)|**[link](https://github.com/myfatemi04/rl-deceptive-graph-planning)**|
+|**2024-02-09**|**The Deep Equilibrium Algorithmic Reasoner**|Dobrik Georgiev et.al.|[2402.06445](http://arxiv.org/abs/2402.06445)|null|
+|**2024-02-09**|**Neural SPH: Improved Neural Modeling of Lagrangian Fluid Dynamics**|Artur P. Toshev et.al.|[2402.06275](http://arxiv.org/abs/2402.06275)|**[link](https://github.com/tumaer/neuralsph)**|
+|**2024-02-09**|**N-1 Reduced Optimal Power Flow Using Augmented Hierarchical Graph Neural Network**|Thuan Pham et.al.|[2402.06226](http://arxiv.org/abs/2402.06226)|null|
+|**2024-02-09**|**Rethinking Node-wise Propagation for Large-scale Graph Learning**|Xunkai Li et.al.|[2402.06128](http://arxiv.org/abs/2402.06128)|**[link](https://github.com/xkli-allen/atp)**|
+|**2024-02-08**|**Deep Learning for Data-Driven Districting-and-Routing**|Arthur Ferraz et.al.|[2402.06040](http://arxiv.org/abs/2402.06040)|null|
+|**2024-02-08**|**Game-theoretic Counterfactual Explanation for Graph Neural Networks**|Chirag Chhablani et.al.|[2402.06030](http://arxiv.org/abs/2402.06030)|null|
 |**2024-02-08**|**Classifying Nodes in Graphs without GNNs**|Daniel Winter et.al.|[2402.05934](http://arxiv.org/abs/2402.05934)|**[link](https://github.com/dani3lwinter/cohop)**|
-|**2024-02-08**|**Large Language Model Meets Graph Neural Network in Knowledge Distillation**|Shengxiang Hu et.al.|[2402.05894](http://arxiv.org/abs/2402.05894)|null|
+|**2024-02-09**|**Large Language Model Meets Graph Neural Network in Knowledge Distillation**|Shengxiang Hu et.al.|[2402.05894](http://arxiv.org/abs/2402.05894)|null|
 |**2024-02-08**|**Rethinking Propagation for Unsupervised Graph Domain Adaptation**|Meihan Liu et.al.|[2402.05660](http://arxiv.org/abs/2402.05660)|**[link](https://github.com/meihan-liu/24aaai-a2gnn)**|
 |**2024-02-08**|**Hypergraph Node Classification With Graph Neural Networks**|Bohan Tang et.al.|[2402.05569](http://arxiv.org/abs/2402.05569)|null|
 |**2024-02-08**|**TASER: Temporal Adaptive Sampling for Fast and Accurate Dynamic Graph Representation Learning**|Gangda Deng et.al.|[2402.05396](http://arxiv.org/abs/2402.05396)|null|
