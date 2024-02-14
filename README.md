@@ -1807,6 +1807,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-02-13**|**Graph Mamba: Towards Learning on Graphs with State Space Models**|Ali Behrouz et.al.|[2402.08678](http://arxiv.org/abs/2402.08678)|**[link](https://github.com/graphmamba/gmn)**|
+|**2024-02-13**|**SAGMAN: Stability Analysis of Graph Neural Networks on the Manifolds**|Wuxinlin Cheng et.al.|[2402.08653](http://arxiv.org/abs/2402.08653)|null|
+|**2024-02-13**|**Homomorphism Counts for Graph Neural Networks: All About That Basis**|Emily Jin et.al.|[2402.08595](http://arxiv.org/abs/2402.08595)|null|
+|**2024-02-13**|**Graph Feature Preprocessor: Real-time Extraction of Subgraph-based Features from Transaction Graphs**|Jovan Blanuša et.al.|[2402.08593](http://arxiv.org/abs/2402.08593)|null|
+|**2024-02-13**|**Mixture of Link Predictors**|Li Ma et.al.|[2402.08583](http://arxiv.org/abs/2402.08583)|null|
+|**2024-02-13**|**Revealing Decurve Flows for Generalized Graph Propagation**|Chen Lin et.al.|[2402.08480](http://arxiv.org/abs/2402.08480)|null|
+|**2024-02-13**|**Parallel-friendly Spatio-Temporal Graph Learning for Photovoltaic Degradation Analysis at Scale**|Yangxin Fan et.al.|[2402.08470](http://arxiv.org/abs/2402.08470)|**[link](https://github.com/yangxin666/st-gtrend)**|
+|**2024-02-13**|**Subgraphormer: Unifying Subgraph GNNs and Graph Transformers via Graph Products**|Guy Bar-Shalom et.al.|[2402.08450](http://arxiv.org/abs/2402.08450)|null|
+|**2024-02-13**|**LOSS-GAT: Label Propagation and One-Class Semi-Supervised Graph Attention Network for Fake News Detection**|Batool Lakzaei et.al.|[2402.08401](http://arxiv.org/abs/2402.08401)|null|
+|**2024-02-13**|**NeuRes: Learning Proofs of Propositional Satisfiability**|Mohamed Ghanem et.al.|[2402.08365](http://arxiv.org/abs/2402.08365)|null|
 |**2024-02-12**|**An Investigation into Using Unsupervised Metrics to Optimise GNNs for Node Clustering**|William Leeney et.al.|[2402.07845](http://arxiv.org/abs/2402.07845)|null|
 |**2024-02-12**|**Extensible Multi-Granularity Fusion Network for Aspect-based Sentiment Analysis**|Xiaowei Zhao et.al.|[2402.07787](http://arxiv.org/abs/2402.07787)|**[link](https://github.com/TYZY89/EMGF)**|
 |**2024-02-12**|**G-Retriever: Retrieval-Augmented Generation for Textual Graph Understanding and Question Answering**|Xiaoxin He et.al.|[2402.07630](http://arxiv.org/abs/2402.07630)|**[link](https://github.com/xiaoxinhe/g-retriever)**|
