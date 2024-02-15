@@ -1780,6 +1780,14 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-02-14**|**Safe Distributed Control of Multi-Robot Systems with Communication Delays**|Luca Ballotta et.al.|[2402.09382](http://arxiv.org/abs/2402.09382)|null|
+|**2024-02-14**|**GraSSRep: Graph-Based Self-Supervised Learning for Repeat Detection in Metagenomic Assembly**|Ali Azizpour et.al.|[2402.09381](http://arxiv.org/abs/2402.09381)|**[link](https://github.com/aliaaz99/grassrep)**|
+|**2024-02-14**|**Uncertainty-Aware Transient Stability-Constrained Preventive Redispatch: A Distributional Reinforcement Learning Approach**|Zhengcheng Wang et.al.|[2402.09263](http://arxiv.org/abs/2402.09263)|null|
+|**2024-02-14**|**Robust Training of Temporal GNNs using Nearest Neighbours based Hard Negatives**|Shubham Gupta et.al.|[2402.09239](http://arxiv.org/abs/2402.09239)|null|
+|**2024-02-14**|**DisGNet: A Distance Graph Neural Network for Forward Kinematics Learning of Gough-Stewart Platform**|Huizhi Zhu et.al.|[2402.09077](http://arxiv.org/abs/2402.09077)|null|
+|**2024-02-14**|**Graph Inference Acceleration by Learning MLPs on Graphs without Supervision**|Zehong Wang et.al.|[2402.08918](http://arxiv.org/abs/2402.08918)|**[link](https://github.com/zehong-wang/simmlp)**|
+|**2024-02-14**|**Multiscale graph neural networks with adaptive mesh refinement for accelerating mesh-based simulations**|Roberto Perera et.al.|[2402.08863](http://arxiv.org/abs/2402.08863)|null|
+|**2024-02-13**|**Disambiguated Node Classification with Graph Neural Networks**|Tianxiang Zhao et.al.|[2402.08824](http://arxiv.org/abs/2402.08824)|**[link](https://github.com/tianxiangzhao/disambiguatedgnn)**|
 |**2024-02-13**|**Graph Mamba: Towards Learning on Graphs with State Space Models**|Ali Behrouz et.al.|[2402.08678](http://arxiv.org/abs/2402.08678)|**[link](https://github.com/graphmamba/gmn)**|
 |**2024-02-13**|**SAGMAN: Stability Analysis of Graph Neural Networks on the Manifolds**|Wuxinlin Cheng et.al.|[2402.08653](http://arxiv.org/abs/2402.08653)|null|
 |**2024-02-13**|**Homomorphism Counts for Graph Neural Networks: All About That Basis**|Emily Jin et.al.|[2402.08595](http://arxiv.org/abs/2402.08595)|null|
