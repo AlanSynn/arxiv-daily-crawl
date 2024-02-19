@@ -1694,6 +1694,8 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-02-16**|**TernaryVote: Differentially Private, Communication Efficient, and Byzantine Resilient Distributed Optimization on Heterogeneous Data**|Richeng Jin et.al.|[2402.10816](http://arxiv.org/abs/2402.10816)|null|
+|**2024-02-16**|**Error Feedback Reloaded: From Quadratic to Arithmetic Mean of Smoothness Constants**|Peter Richtárik et.al.|[2402.10774](http://arxiv.org/abs/2402.10774)|null|
 |**2024-02-15**|**A chaotic maps-based privacy-preserving distributed deep learning for incomplete and Non-IID datasets**|Irina Arévalo et.al.|[2402.10145](http://arxiv.org/abs/2402.10145)|null|
 |**2024-02-12**|**Accelerating Distributed Deep Learning using Lossless Homomorphic Compression**|Haoyu Li et.al.|[2402.07529](http://arxiv.org/abs/2402.07529)|**[link](https://github.com/lihy0529/lossless_homomorphic_compression)**|
 |**2024-02-07**|**Training DNN Models over Heterogeneous Clusters with Optimal Performance**|Chengyi Nie et.al.|[2402.05302](http://arxiv.org/abs/2402.05302)|null|
@@ -1808,6 +1810,12 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-02-16**|**Masked Attention is All You Need for Graphs**|David Buterez et.al.|[2402.10793](http://arxiv.org/abs/2402.10793)|null|
+|**2024-02-16**|**Unlink to Unlearn: Simplifying Edge Unlearning in GNNs**|Jiajun Tan et.al.|[2402.10695](http://arxiv.org/abs/2402.10695)|null|
+|**2024-02-16**|**Graph-based Forecasting with Missing Data through Spatiotemporal Downsampling**|Ivan Marisca et.al.|[2402.10634](http://arxiv.org/abs/2402.10634)|null|
+|**2024-02-16**|**Subgraph-level Universal Prompt Tuning**|Junhyun Lee et.al.|[2402.10380](http://arxiv.org/abs/2402.10380)|null|
+|**2024-02-15**|**Deep Spectral Meshes: Multi-Frequency Facial Mesh Processing with Graph Neural Networks**|Robert Kosk et.al.|[2402.10365](http://arxiv.org/abs/2402.10365)|null|
+|**2024-02-15**|**Can we soft prompt LLMs for graph learning tasks?**|Zheyuan Liu et.al.|[2402.10359](http://arxiv.org/abs/2402.10359)|null|
 |**2024-02-15**|**Ising on the Graph: Task-specific Graph Subsampling via the Ising Model**|Maria Bånkestad et.al.|[2402.10206](http://arxiv.org/abs/2402.10206)|null|
 |**2024-02-15**|**Reconstruction of Short-Lived Particles using Graph-Hypergraph Representation Learning**|Callum Birch-Sykes et.al.|[2402.10149](http://arxiv.org/abs/2402.10149)|null|
 |**2024-02-15**|**GraphCBAL: Class-Balanced Active Learning for Graph Neural Networks via Reinforcement Learning**|Chengcheng Yu et.al.|[2402.10074](http://arxiv.org/abs/2402.10074)|null|
