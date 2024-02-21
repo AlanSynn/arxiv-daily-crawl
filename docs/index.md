@@ -1669,6 +1669,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-02-20**|**Fog enabled distributed training architecture for federated learning**|Aditya Kumar et.al.|[2402.12906](http://arxiv.org/abs/2402.12906)|null|
 |**2024-02-17**|**Achieving Linear Speedup in Asynchronous Federated Learning with Heterogeneous Clients**|Xiaolu Wang et.al.|[2402.11198](http://arxiv.org/abs/2402.11198)|null|
 |**2024-02-16**|**TernaryVote: Differentially Private, Communication Efficient, and Byzantine Resilient Distributed Optimization on Heterogeneous Data**|Richeng Jin et.al.|[2402.10816](http://arxiv.org/abs/2402.10816)|null|
 |**2024-02-16**|**Error Feedback Reloaded: From Quadratic to Arithmetic Mean of Smoothness Constants**|Peter Richtárik et.al.|[2402.10774](http://arxiv.org/abs/2402.10774)|null|
@@ -1784,6 +1785,16 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-02-20**|**BuffGraph: Enhancing Class-Imbalanced Node Classification via Buffer Nodes**|Qian Wang et.al.|[2402.13114](http://arxiv.org/abs/2402.13114)|null|
+|**2024-02-20**|**A Microstructure-based Graph Neural Network for Accelerating Multiscale Simulations**|J. Storm et.al.|[2402.13101](http://arxiv.org/abs/2402.13101)|**[link](https://github.com/joepstorm/microscale-gnn-surrogate)**|
+|**2024-02-20**|**Enhancing Real-World Complex Network Representations with Hyperedge Augmentation**|Xiangyu Zhao et.al.|[2402.13033](http://arxiv.org/abs/2402.13033)|null|
+|**2024-02-20**|**Heterogeneous Graph Reasoning for Fact Checking over Texts and Tables**|Haisong Gong et.al.|[2402.13028](http://arxiv.org/abs/2402.13028)|**[link](https://github.com/deno-v/heterfc)**|
+|**2024-02-20**|**A unifying primary framework for quantum graph neural networks from quantum graph states**|Ammar Daskin et.al.|[2402.13001](http://arxiv.org/abs/2402.13001)|null|
+|**2024-02-20**|**Distributionally Robust Graph-based Recommendation System**|Bohao Wang et.al.|[2402.12994](http://arxiv.org/abs/2402.12994)|**[link](https://github.com/WANGBohaO-jpg/DR-GNN)**|
+|**2024-02-20**|**Can GNN be Good Adapter for LLMs?**|Xuanwen Huang et.al.|[2402.12984](http://arxiv.org/abs/2402.12984)|null|
+|**2024-02-20**|**Cell Graph Transformer for Nuclei Classification**|Wei Lou et.al.|[2402.12946](http://arxiv.org/abs/2402.12946)|**[link](https://github.com/lhaof/cgt)**|
+|**2024-02-20**|**GRAPHGINI: Fostering Individual and Group Fairness in Graph Neural Networks**|Anuj Kumar Sirohi et.al.|[2402.12937](http://arxiv.org/abs/2402.12937)|null|
+|**2024-02-20**|**Studies on $R_K$ with Large Dilepton Invariant-Mass, Scalable Pythonic Fitting, and Online Event Interpretation with GNNs at LHCb**|Jonas Eschle et.al.|[2402.12622](http://arxiv.org/abs/2402.12622)|null|
 |**2024-02-19**|**LLM as Prompter: Low-resource Inductive Reasoning on Arbitrary Knowledge Graphs**|Kai Wang et.al.|[2402.11804](http://arxiv.org/abs/2402.11804)|null|
 |**2024-02-18**|**GNNavi: Navigating the Information Flow in Large Language Models by Graph Neural Network**|Shuzhou Yuan et.al.|[2402.11709](http://arxiv.org/abs/2402.11709)|null|
 |**2024-02-18**|**Large Language Model-driven Meta-structure Discovery in Heterogeneous Information Network**|Lin Chen et.al.|[2402.11518](http://arxiv.org/abs/2402.11518)|null|
