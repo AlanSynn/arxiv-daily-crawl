@@ -1694,6 +1694,8 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-02-21**|**Preserving Near-Optimal Gradient Sparsification Cost for Scalable Distributed Deep Learning**|Daegun Yoon et.al.|[2402.13781](http://arxiv.org/abs/2402.13781)|**[link](https://github.com/kljp/exdyna)**|
+|**2024-02-21**|**FinGPT-HPC: Efficient Pretraining and Finetuning Large Language Models for Financial Applications with High-Performance Computing**|Xiao-Yang Liu et.al.|[2402.13533](http://arxiv.org/abs/2402.13533)|null|
 |**2024-02-20**|**Fog enabled distributed training architecture for federated learning**|Aditya Kumar et.al.|[2402.12906](http://arxiv.org/abs/2402.12906)|null|
 |**2024-02-17**|**Achieving Linear Speedup in Asynchronous Federated Learning with Heterogeneous Clients**|Xiaolu Wang et.al.|[2402.11198](http://arxiv.org/abs/2402.11198)|null|
 |**2024-02-16**|**TernaryVote: Differentially Private, Communication Efficient, and Byzantine Resilient Distributed Optimization on Heterogeneous Data**|Richeng Jin et.al.|[2402.10816](http://arxiv.org/abs/2402.10816)|null|
@@ -1812,6 +1814,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-02-21**|**A Simple and Yet Fairly Effective Defense for Graph Neural Networks**|Sofiane Ennadir et.al.|[2402.13987](http://arxiv.org/abs/2402.13987)|**[link](https://github.com/sennadir/noisygnn)**|
+|**2024-02-21**|**Linear-Time Graph Neural Networks for Scalable Recommendations**|Jiahao Zhang et.al.|[2402.13973](http://arxiv.org/abs/2402.13973)|**[link](https://github.com/qwq2000/thewebconf24-ltgnn-pytorch)**|
+|**2024-02-21**|**AttackGNN: Red-Teaming GNNs in Hardware Security Using Reinforcement Learning**|Vasudev Gohil et.al.|[2402.13946](http://arxiv.org/abs/2402.13946)|null|
+|**2024-02-21**|**Verifying message-passing neural networks via topology-based bounds tightening**|Christopher Hojny et.al.|[2402.13937](http://arxiv.org/abs/2402.13937)|null|
+|**2024-02-21**|**General Debiasing for Graph-based Collaborative Filtering via Adversarial Graph Dropout**|An Zhang et.al.|[2402.13769](http://arxiv.org/abs/2402.13769)|**[link](https://github.com/arthurma71/advdrop)**|
+|**2024-02-21**|**Reasoning Algorithmically in Graph Neural Networks**|Danilo Numeroso et.al.|[2402.13744](http://arxiv.org/abs/2402.13744)|null|
+|**2024-02-21**|**UniGraph: Learning a Cross-Domain Graph Foundation Model From Natural Language**|Yufei He et.al.|[2402.13630](http://arxiv.org/abs/2402.13630)|null|
+|**2024-02-21**|**Near-Field Multiuser Beam-Training for Extremely Large-Scale MIMO Systems**|Wang Liu et.al.|[2402.13597](http://arxiv.org/abs/2402.13597)|null|
+|**2024-02-21**|**Inductive Graph Alignment Prompt: Bridging the Gap between Graph Pre-training and Inductive Fine-tuning From Spectral Perspective**|Yuchen Yan et.al.|[2402.13556](http://arxiv.org/abs/2402.13556)|null|
+|**2024-02-21**|**Balancing Spectral, Temporal and Spatial Information for EEG-based Alzheimer's Disease Classification**|Stephan Goerttler et.al.|[2402.13523](http://arxiv.org/abs/2402.13523)|null|
 |**2024-02-20**|**BuffGraph: Enhancing Class-Imbalanced Node Classification via Buffer Nodes**|Qian Wang et.al.|[2402.13114](http://arxiv.org/abs/2402.13114)|null|
 |**2024-02-20**|**A Microstructure-based Graph Neural Network for Accelerating Multiscale Simulations**|J. Storm et.al.|[2402.13101](http://arxiv.org/abs/2402.13101)|**[link](https://github.com/joepstorm/microscale-gnn-surrogate)**|
 |**2024-02-20**|**Enhancing Real-World Complex Network Representations with Hyperedge Augmentation**|Xiangyu Zhao et.al.|[2402.13033](http://arxiv.org/abs/2402.13033)|null|
