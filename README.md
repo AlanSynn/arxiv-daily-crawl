@@ -913,7 +913,7 @@
 |**2022-04-21**|**Remote Sensing Cross-Modal Text-Image Retrieval Based on Global and Local Information**|Zhiqiang Yuan et.al.|[2204.09860](http://arxiv.org/abs/2204.09860)|**[link](https://github.com/xiaoyuan1996/galr)**|
 |**2022-04-20**|**Uncertainty-based Cross-Modal Retrieval with Probabilistic Representations**|Leila Pishdad et.al.|[2204.09268](http://arxiv.org/abs/2204.09268)|null|
 |**2022-04-19**|**Unsupervised Contrastive Hashing for Cross-Modal Retrieval in Remote Sensing**|Georgii Mikriukov et.al.|[2204.08707](http://arxiv.org/abs/2204.08707)|null|
-|**2022-04-18**|**Multiple-environment Self-adaptive Network for Aerial-view Geo-localization**|Tingyu Wang et.al.|[2204.08381](http://arxiv.org/abs/2204.08381)|null|
+|**2022-04-18**|**Multiple-environment Self-adaptive Network for Aerial-view Geo-localization**|Tingyu Wang et.al.|[2204.08381](http://arxiv.org/abs/2204.08381)|**[link](https://github.com/layumi/University1652-Baseline)**|
 |**2022-04-15**|**Condition-Invariant and Compact Visual Place Description by Convolutional Autoencoder**|Hanjing Ye et.al.|[2204.07350](http://arxiv.org/abs/2204.07350)|**[link](https://github.com/medlartea/cae-vpr)**|
 |**2022-04-14**|**Composite Code Sparse Autoencoders for first stage retrieval**|Carlos Lassance et.al.|[2204.07023](http://arxiv.org/abs/2204.07023)|null|
 |**2022-04-13**|**Reuse your features: unifying retrieval and feature-metric alignment**|Javier Morlana et.al.|[2204.06292](http://arxiv.org/abs/2204.06292)|**[link](https://github.com/jmorlana/dran)**|
@@ -2180,7 +2180,7 @@
 |**2023-12-13**|**SAM-guided Graph Cut for 3D Instance Segmentation**|Haoyu Guo et.al.|[2312.08372](http://arxiv.org/abs/2312.08372)|null|
 |**2023-12-13**|**CUTTANA: Scalable Graph Partitioning for Faster Distributed Graph Databases and Analytics**|Milad Rezaei Hajidehi et.al.|[2312.08356](http://arxiv.org/abs/2312.08356)|null|
 |**2023-12-13**|**On the verification of Embeddings using Hybrid Markov Logic**|Anup Shakya et.al.|[2312.08287](http://arxiv.org/abs/2312.08287)|null|
-|**2023-12-13**|**Patch-wise Graph Contrastive Learning for Image Translation**|Chanyong Jung et.al.|[2312.08223](http://arxiv.org/abs/2312.08223)|null|
+|**2023-12-13**|**Patch-wise Graph Contrastive Learning for Image Translation**|Chanyong Jung et.al.|[2312.08223](http://arxiv.org/abs/2312.08223)|**[link](https://github.com/jcy132/PatchGCL)**|
 |**2023-12-14**|**Curriculum-Enhanced Residual Soft An-Isotropic Normalization for Over-smoothness in Deep GNNs**|Jin Li et.al.|[2312.08221](http://arxiv.org/abs/2312.08221)|**[link](https://github.com/jslijin/research-paper-codes)**|
 |**2023-12-13**|**Adversarial Attacks on Graph Neural Networks based Spatial Resource Management in P2P Wireless Communications**|Ahmad Ghasemi et.al.|[2312.08181](http://arxiv.org/abs/2312.08181)|null|
 |**2023-12-13**|**Artificial Intelligence Studies in Cartography: A Review and Synthesis of Methods, Applications, and Ethics**|Yuhao Kang et.al.|[2312.07901](http://arxiv.org/abs/2312.07901)|null|
@@ -2519,7 +2519,7 @@
 |**2023-10-05**|**Fragment-based Pretraining and Finetuning on Molecular Graphs**|Kha-Dinh Luong et.al.|[2310.03274](http://arxiv.org/abs/2310.03274)|**[link](https://github.com/lvkd84/graphfp)**|
 |**2023-10-04**|**Deep reinforcement learning for machine scheduling: Methodology, the state-of-the-art, and future directions**|Maziyar Khadivi et.al.|[2310.03195](http://arxiv.org/abs/2310.03195)|null|
 |**2023-10-04**|**Graph data modelling for outcome prediction in oropharyngeal cancer patients**|Nithya Bhasker et.al.|[2310.02931](http://arxiv.org/abs/2310.02931)|null|
-|**2023-10-05**|**Rayleigh Quotient Graph Neural Networks for Graph-level Anomaly Detection**|Xiangyu Dong et.al.|[2310.02861](http://arxiv.org/abs/2310.02861)|null|
+|**2023-10-05**|**Rayleigh Quotient Graph Neural Networks for Graph-level Anomaly Detection**|Xiangyu Dong et.al.|[2310.02861](http://arxiv.org/abs/2310.02861)|**[link](https://github.com/xydong127/rqgnn)**|
 |**2023-10-04**|**Graph Neural Networks and Time Series as Directed Graphs for Quality Recognition**|Angelica Simonetti et.al.|[2310.02774](http://arxiv.org/abs/2310.02774)|null|
 |**2023-10-04**|**Learning adjacency matrix for dynamic graph neural network**|Osama Ahmad et.al.|[2310.02606](http://arxiv.org/abs/2310.02606)|null|
 |**2023-10-04**|**Neural Bayes Estimators for Irregular Spatial Data using Graph Neural Networks**|Matthew Sainsbury-Dale et.al.|[2310.02600](http://arxiv.org/abs/2310.02600)|**[link](https://github.com/msainsburydale/neuralestimatorsgnn)**|
@@ -2530,7 +2530,7 @@
 |**2023-10-03**|**Graph Neural Network-based EEG Classification: A Survey**|Dominik Klepl et.al.|[2310.02152](http://arxiv.org/abs/2310.02152)|null|
 |**2023-10-03**|**Controlling Topic-Focus Articulation in Meaning-to-Text Generation using Graph Neural Networks**|Chunliu Wang et.al.|[2310.02053](http://arxiv.org/abs/2310.02053)|null|
 |**2023-10-03**|**SelfGraphVQA: A Self-Supervised Graph Neural Network for Scene-based Question Answering**|Bruno Souza et.al.|[2310.01842](http://arxiv.org/abs/2310.01842)|null|
-|**2023-10-03**|**Towards Robust Fidelity for Evaluating Explainability of Graph Neural Networks**|Xu Zheng et.al.|[2310.01820](http://arxiv.org/abs/2310.01820)|null|
+|**2023-10-03**|**Towards Robust Fidelity for Evaluating Explainability of Graph Neural Networks**|Xu Zheng et.al.|[2310.01820](http://arxiv.org/abs/2310.01820)|**[link](https://github.com/AslanDing/Fidelity)**|
 |**2023-10-02**|**Transformers are efficient hierarchical chemical graph learners**|Zihan Pengmei et.al.|[2310.01704](http://arxiv.org/abs/2310.01704)|null|
 |**2023-10-02**|**Score dynamics: scaling molecular dynamics with picosecond timesteps via conditional diffusion model**|Tim Hsu et.al.|[2310.01678](http://arxiv.org/abs/2310.01678)|**[link](https://github.com/llnl/graphite)**|
 |**2023-10-02**|**Locality-Aware Graph-Rewiring in GNNs**|Federico Barbero et.al.|[2310.01668](http://arxiv.org/abs/2310.01668)|null|
