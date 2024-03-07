@@ -1793,6 +1793,16 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-03-06**|**Graph neural network outputs are almost surely asymptotically constant**|Sam Adam-Day et.al.|[2403.03880](http://arxiv.org/abs/2403.03880)|**[link](https://github.com/benfinkelshtein/gnn-asymptotically-constant)**|
+|**2024-03-06**|**Predicting the Temperature Dependence of Surfactant CMCs Using Graph Neural Networks**|Christoforos Brozos et.al.|[2403.03767](http://arxiv.org/abs/2403.03767)|null|
+|**2024-03-06**|**Intent-aware Recommendation via Disentangled Graph Contrastive Learning**|Yuling Wang et.al.|[2403.03714](http://arxiv.org/abs/2403.03714)|null|
+|**2024-03-06**|**Simplified PCNet with Robustness**|Bingheng Li et.al.|[2403.03676](http://arxiv.org/abs/2403.03676)|null|
+|**2024-03-06**|**Provable Filter for Real-world Graph Clustering**|Xuanting Xie et.al.|[2403.03666](http://arxiv.org/abs/2403.03666)|null|
+|**2024-03-06**|**K-Link: Knowledge-Link Graph from LLMs for Enhanced Representation Learning in Multivariate Time-Series Data**|Yucheng Wang et.al.|[2403.03645](http://arxiv.org/abs/2403.03645)|null|
+|**2024-03-06**|**Learning Invariant Representations of Graph Neural Networks via Cluster Generalization**|Donglin Xia et.al.|[2403.03599](http://arxiv.org/abs/2403.03599)|**[link](https://github.com/bupt-gamma/citgnn)**|
+|**2024-03-06**|**LDSF: Lightweight Dual-Stream Framework for SAR Target Recognition by Coupling Local Electromagnetic Scattering Features and Global Visual Features**|Xuying Xiong et.al.|[2403.03527](http://arxiv.org/abs/2403.03527)|null|
+|**2024-03-06**|**IB-Net: Initial Branch Network for Variable Decision in Boolean Satisfiability**|Tsz Ho Chan et.al.|[2403.03517](http://arxiv.org/abs/2403.03517)|null|
+|**2024-03-06**|**A Teacher-Free Graph Knowledge Distillation Framework with Dual Self-Distillation**|Lirong Wu et.al.|[2403.03483](http://arxiv.org/abs/2403.03483)|null|
 |**2024-03-05**|**Semi-Supervised Graph Representation Learning with Human-centric Explanation for Predicting Fatty Liver Disease**|So Yeon Kim et.al.|[2403.02786](http://arxiv.org/abs/2403.02786)|null|
 |**2024-03-05**|**Minimum Topology Attacks for Graph Neural Networks**|Mengmei Zhang et.al.|[2403.02723](http://arxiv.org/abs/2403.02723)|null|
 |**2024-03-04**|**MPI Errors Detection using GNN Embedding and Vector Embedding over LLVM IR**|Jad El Karchi et.al.|[2403.02518](http://arxiv.org/abs/2403.02518)|null|
