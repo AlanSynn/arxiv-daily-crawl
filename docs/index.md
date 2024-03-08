@@ -2081,7 +2081,7 @@ layout: default
 |**2024-01-10**|**Arrival Time Prediction for Autonomous Shuttle Services in the Real World: Evidence from Five Cities**|Carolin Schmidt et.al.|[2401.05322](http://arxiv.org/abs/2401.05322)|null|
 |**2024-01-10**|**Physics guided dual Self-supervised learning for structure-based materials property prediction**|Nihang Fu et.al.|[2401.05223](http://arxiv.org/abs/2401.05223)|**[link](https://github.com/usccolumbia/dssl)**|
 |**2024-01-10**|**MGNet: Learning Correspondences via Multiple Graphs**|Luanyuan Dai et.al.|[2401.04984](http://arxiv.org/abs/2401.04984)|null|
-|**2024-01-10**|**LPAC: Learnable Perception-Action-Communication Loops with Applications to Coverage Control**|Saurav Agarwal et.al.|[2401.04855](http://arxiv.org/abs/2401.04855)|null|
+|**2024-01-10**|**LPAC: Learnable Perception-Action-Communication Loops with Applications to Coverage Control**|Saurav Agarwal et.al.|[2401.04855](http://arxiv.org/abs/2401.04855)|**[link](https://github.com/kumarrobotics/coveragecontrol)**|
 |**2024-01-09**|**GNNShap: Fast and Accurate GNN Explanations using Shapley Values**|Selahattin Akkas et.al.|[2401.04829](http://arxiv.org/abs/2401.04829)|**[link](https://github.com/HipGraph/GNNShap)**|
 |**2024-01-09**|**Coupling Graph Neural Networks with Fractional Order Continuous Dynamics: A Robustness Study**|Qiyu Kang et.al.|[2401.04331](http://arxiv.org/abs/2401.04331)|null|
 |**2024-01-08**|**Explaining the Power of Topological Data Analysis in Graph Machine Learning**|Funmilola Mary Taiwo et.al.|[2401.04250](http://arxiv.org/abs/2401.04250)|**[link](https://github.com/phunmey/xtda-paper)**|
@@ -2489,7 +2489,7 @@ layout: default
 |**2023-10-17**|**Accurate prediction of international trade flows: Leveraging knowledge graphs and their embeddings**|Diego Rincon-Yanez et.al.|[2310.11161](http://arxiv.org/abs/2310.11161)|null|
 |**2023-10-17**|**CSG: Curriculum Representation Learning for Signed Graph**|Zeyu Zhang et.al.|[2310.11083](http://arxiv.org/abs/2310.11083)|null|
 |**2023-10-17**|**Multi-omics Sampling-based Graph Transformer for Synthetic Lethality Prediction**|Xusheng Zhao et.al.|[2310.11082](http://arxiv.org/abs/2310.11082)|null|
-|**2023-10-17**|**Fast Graph Condensation with Structure-based Neural Tangent Kernel**|Lin Wang et.al.|[2310.11046](http://arxiv.org/abs/2310.11046)|null|
+|**2023-10-17**|**Fast Graph Condensation with Structure-based Neural Tangent Kernel**|Lin Wang et.al.|[2310.11046](http://arxiv.org/abs/2310.11046)|**[link](https://github.com/wanglin0126/gcsntk)**|
 |**2023-10-17**|**SignGT: Signed Attention-based Graph Transformer for Graph Representation Learning**|Jinsong Chen et.al.|[2310.11025](http://arxiv.org/abs/2310.11025)|null|
 |**2023-10-17**|**Accelerating Scalable Graph Neural Network Inference with Node-Adaptive Propagation**|Xinyi Gao et.al.|[2310.10998](http://arxiv.org/abs/2310.10998)|null|
 |**2023-10-13**|**Graph Condensation via Eigenbasis Matching**|Yang Liu et.al.|[2310.09202](http://arxiv.org/abs/2310.09202)|null|
@@ -2752,7 +2752,7 @@ layout: default
 |**2023-08-14**|**ST-MLP: A Cascaded Spatio-Temporal Linear Framework with Channel-Independence Strategy for Traffic Forecasting**|Zepu Wang et.al.|[2308.07496](http://arxiv.org/abs/2308.07496)|null|
 |**2023-08-16**|**Interaction-Aware Personalized Vehicle Trajectory Prediction Using Temporal Graph Neural Networks**|Amr Abdelraouf et.al.|[2308.07439](http://arxiv.org/abs/2308.07439)|null|
 |**2023-08-14**|**Conformal Predictions Enhanced Expert-guided Meshing with Graph Neural Networks**|Amin Heyrani Nobari et.al.|[2308.07358](http://arxiv.org/abs/2308.07358)|**[link](https://github.com/ahnobari/autosurf)**|
-|**2023-08-14**|**Search to Fine-tune Pre-trained Graph Neural Networks for Graph-level Tasks**|Zhili Wang et.al.|[2308.06960](http://arxiv.org/abs/2308.06960)|null|
+|**2023-08-14**|**Search to Fine-tune Pre-trained Graph Neural Networks for Graph-level Tasks**|Zhili Wang et.al.|[2308.06960](http://arxiv.org/abs/2308.06960)|**[link](https://github.com/zwangeo/icde2024)**|
 |**2023-08-13**|**Generalizing Topological Graph Neural Networks with Paths**|Quang Truong et.al.|[2308.06838](http://arxiv.org/abs/2308.06838)|null|
 |**2023-08-15**|**SAILOR: Structural Augmentation Based Tail Node Representation Learning**|Jie Liao et.al.|[2308.06801](http://arxiv.org/abs/2308.06801)|**[link](https://github.com/jie-re/sailor)**|
 |**2023-08-13**|**Learning on Graphs with Out-of-Distribution Nodes**|Yu Song et.al.|[2308.06714](http://arxiv.org/abs/2308.06714)|**[link](https://github.com/songyyyy/kdd22-oodgat)**|
@@ -2803,7 +2803,7 @@ layout: default
 |**2023-07-28**|**A universal equivariant graph neural network for the elasticity tensors of any crystal system**|Mingjian Wen et.al.|[2307.15242](http://arxiv.org/abs/2307.15242)|**[link](https://github.com/wengroup/matten)**|
 |**2023-07-27**|**TimeGNN: Temporal Dynamic Graph Learning for Time Series Forecasting**|Nancy Xu et.al.|[2307.14680](http://arxiv.org/abs/2307.14680)|**[link](https://github.com/xun468/Time-GNN)**|
 |**2023-07-27**|**HUTFormer: Hierarchical U-Net Transformer for Long-Term Traffic Forecasting**|Zezhi Shao et.al.|[2307.14596](http://arxiv.org/abs/2307.14596)|null|
-|**2023-07-26**|**Improving Reliable Navigation under Uncertainty via Predictions Informed by Non-Local Information**|Raihan Islam Arnob et.al.|[2307.14501](http://arxiv.org/abs/2307.14501)|null|
+|**2023-07-26**|**Improving Reliable Navigation under Uncertainty via Predictions Informed by Non-Local Information**|Raihan Islam Arnob et.al.|[2307.14501](http://arxiv.org/abs/2307.14501)|**[link](https://github.com/RAIL-group/RAIL-group-software/tree/main/modules/lsp_gnn)**|
 |**2023-07-26**|**Distributed Computing of Functions of Structured Sources with Helper Side Information**|Derya Malak et.al.|[2307.13987](http://arxiv.org/abs/2307.13987)|null|
 |**2023-07-26**|**Towards a cosmic ray composition measurement with the IceAct telescopes at the IceCube Neutrino Observatory**|Larissa Paul et.al.|[2307.13965](http://arxiv.org/abs/2307.13965)|null|
 |**2023-07-26**|**Graph Neural Networks-based Hybrid Framework For Predicting Particle Crushing Strength**|Tongya Zheng et.al.|[2307.13909](http://arxiv.org/abs/2307.13909)|**[link](https://github.com/doujiang-zheng/gnn-for-particle-crushing)**|
@@ -2913,7 +2913,7 @@ layout: default
 |**2023-07-03**|**LMBot: Distilling Graph Knowledge into Language Model for Graph-less Deployment in Twitter Bot Detection**|Zijian Cai et.al.|[2306.17408](http://arxiv.org/abs/2306.17408)|**[link](https://github.com/czjdsg/lmbot)**|
 |**2023-06-29**|**A Neural Separation Algorithm for the Rounded Capacity Inequalities**|Hyeonah Kim et.al.|[2306.17283](http://arxiv.org/abs/2306.17283)|**[link](https://github.com/hyeonahkimm/neuralsep)**|
 |**2023-06-29**|**Sparsity exploitation via discovering graphical models in multi-variate time-series forecasting**|Ngoc-Dung Do et.al.|[2306.17090](http://arxiv.org/abs/2306.17090)|**[link](https://github.com/hysonlab/graphlasso)**|
-|**2023-06-29**|**Diffusion-Jump GNNs: Homophiliation via Learnable Metric Filters**|Ahmed Begga et.al.|[2306.16976](http://arxiv.org/abs/2306.16976)|null|
+|**2023-06-29**|**Diffusion-Jump GNNs: Homophiliation via Learnable Metric Filters**|Ahmed Begga et.al.|[2306.16976](http://arxiv.org/abs/2306.16976)|**[link](https://github.com/AhmedBegggaUA/TFM)**|
 |**2023-06-30**|**Dynamic-Resolution Model Learning for Object Pile Manipulation**|Yixuan Wang et.al.|[2306.16700](http://arxiv.org/abs/2306.16700)|null|
 |**2023-06-28**|**Accelerating Sampling and Aggregation Operations in GNN Frameworks with GPU Initiated Direct Storage Accesses**|Jeongmin Brian Park et.al.|[2306.16384](http://arxiv.org/abs/2306.16384)|**[link](https://github.com/jeongminpark417/gids)**|
 |**2023-06-28**|**Enhancing Dialogue Generation via Dynamic Graph Knowledge Aggregation**|Chen Tang et.al.|[2306.16195](http://arxiv.org/abs/2306.16195)|**[link](https://github.com/tangg555/sabart)**|
