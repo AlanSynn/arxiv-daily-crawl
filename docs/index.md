@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.03.14
+## Updated on 2024.03.15
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1671,7 +1671,7 @@ layout: default
 |:---------|:-----------------------|:---------|:------|:------|
 |**2024-03-13**|**Distributed Deep Learning for Modulation Classification in 6G Cell-Free Wireless Networks**|Dieter Verbruggen et.al.|[2403.08563](http://arxiv.org/abs/2403.08563)|null|
 |**2024-03-12**|**Communication Optimization for Distributed Training: Architecture, Advances, and Opportunities**|Yunze Wei et.al.|[2403.07585](http://arxiv.org/abs/2403.07585)|null|
-|**2024-03-09**|**DeepVM: Integrating Spot and On-Demand VMs for Cost-Efficient Deep Learning Clusters in the Cloud**|Yoochan Kim et.al.|[2403.05861](http://arxiv.org/abs/2403.05861)|null|
+|**2024-03-14**|**DeepVM: Integrating Spot and On-Demand VMs for Cost-Efficient Deep Learning Clusters in the Cloud**|Yoochan Kim et.al.|[2403.05861](http://arxiv.org/abs/2403.05861)|null|
 |**2024-03-07**|**GRAWA: Gradient-based Weighted Averaging for Distributed Training of Deep Learning Models**|Tolga Dimlioglu et.al.|[2403.04206](http://arxiv.org/abs/2403.04206)|**[link](https://github.com/tolgadimli/grawa)**|
 |**2024-03-03**|**It Takes a Village: A Distributed Training Model for AI-based Chatbots**|Colleen Estes et.al.|[2403.01545](http://arxiv.org/abs/2403.01545)|null|
 |**2024-03-07**|**Disaggregated Multi-Tower: Topology-aware Modeling Technique for Efficient Large-Scale Recommendation**|Liang Luo et.al.|[2403.00877](http://arxiv.org/abs/2403.00877)|null|
