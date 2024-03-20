@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.03.19
+## Updated on 2024.03.20
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1669,6 +1669,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-03-17**|**JORA: JAX Tensor-Parallel LoRA Library for Retrieval Augmented Fine-Tuning**|Anique Tahir et.al.|[2403.11366](http://arxiv.org/abs/2403.11366)|**[link](https://github.com/aniquetahir/JORA)**|
 |**2024-03-15**|**ATOM: Asynchronous Training of Massive Models for Deep Learning in a Decentralized Environment**|Xiaofeng Wu et.al.|[2403.10504](http://arxiv.org/abs/2403.10504)|null|
 |**2024-03-14**|**FedComLoc: Communication-Efficient Distributed Training of Sparse and Quantized Models**|Kai Yi et.al.|[2403.09904](http://arxiv.org/abs/2403.09904)|null|
 |**2024-03-13**|**Distributed Deep Learning for Modulation Classification in 6G Cell-Free Wireless Networks**|Dieter Verbruggen et.al.|[2403.08563](http://arxiv.org/abs/2403.08563)|null|
@@ -1799,6 +1800,16 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-03-18**|**Dual-Channel Multiplex Graph Neural Networks for Recommendation**|Xiang Li et.al.|[2403.11624](http://arxiv.org/abs/2403.11624)|null|
+|**2024-03-18**|**Graph Partial Label Learning with Potential Cause Discovering**|Hang Gao et.al.|[2403.11449](http://arxiv.org/abs/2403.11449)|null|
+|**2024-03-18**|**Layer-diverse Negative Sampling for Graph Neural Networks**|Wei Duan et.al.|[2403.11408](http://arxiv.org/abs/2403.11408)|null|
+|**2024-03-19**|**DynamicGlue: Epipolar and Time-Informed Data Association in Dynamic Environments using Graph Neural Networks**|Theresa Huber et.al.|[2403.11370](http://arxiv.org/abs/2403.11370)|null|
+|**2024-03-17**|**Phonon predictions with E(3)-equivariant graph neural networks**|Shiang Fang et.al.|[2403.11347](http://arxiv.org/abs/2403.11347)|null|
+|**2024-03-17**|**Graph Neural Network based Double Machine Learning Estimator of Network Causal Effects**|Seyedeh Baharan Khatami et.al.|[2403.11332](http://arxiv.org/abs/2403.11332)|null|
+|**2024-03-17**|**Multi-Relational Graph Neural Network for Out-of-Domain Link Prediction**|Asma Sattar et.al.|[2403.11292](http://arxiv.org/abs/2403.11292)|null|
+|**2024-03-17**|**Jointly Optimizing Terahertz based Sensing and Communications in Vehicular Networks: A Dynamic Graph Neural Network Approach**|Xuefei Li et.al.|[2403.11102](http://arxiv.org/abs/2403.11102)|null|
+|**2024-03-16**|**Forward Learning of Graph Neural Networks**|Namyong Park et.al.|[2403.11004](http://arxiv.org/abs/2403.11004)|null|
+|**2024-03-16**|**Edge Private Graph Neural Networks with Singular Value Perturbation**|Tingting Tang et.al.|[2403.10995](http://arxiv.org/abs/2403.10995)|null|
 |**2024-03-15**|**Generation is better than Modification: Combating High Class Homophily Variance in Graph Anomaly Detection**|Rui Zhang et.al.|[2403.10339](http://arxiv.org/abs/2403.10339)|null|
 |**2024-03-15**|**From Chaos to Clarity: Time Series Anomaly Detection in Astronomical Observations**|Xinli Hao et.al.|[2403.10220](http://arxiv.org/abs/2403.10220)|**[link](https://github.com/xinlihao/aero)**|
 |**2024-03-15**|**HeR-DRL:Heterogeneous Relational Deep Reinforcement Learning for Decentralized Multi-Robot Crowd Navigation**|Xinyu Zhou et.al.|[2403.10083](http://arxiv.org/abs/2403.10083)|null|
