@@ -1694,6 +1694,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-03-27**|**Differentially Private Distributed Nonconvex Stochastic Optimization with Quantized Communications**|Jialong Chen et.al.|[2403.18254](http://arxiv.org/abs/2403.18254)|null|
 |**2024-03-25**|**FLIGAN: Enhancing Federated Learning with Incomplete Data using GAN**|Paul Joe Maliakel et.al.|[2403.16930](http://arxiv.org/abs/2403.16930)|null|
 |**2024-03-19**|**JORA: JAX Tensor-Parallel LoRA Library for Retrieval Augmented Fine-Tuning**|Anique Tahir et.al.|[2403.11366](http://arxiv.org/abs/2403.11366)|**[link](https://github.com/aniquetahir/JORA)**|
 |**2024-03-15**|**ATOM: Asynchronous Training of Massive Models for Deep Learning in a Decentralized Environment**|Xiaofeng Wu et.al.|[2403.10504](http://arxiv.org/abs/2403.10504)|null|
@@ -1828,6 +1829,13 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-03-27**|**FluxGAT: Integrating Flux Sampling with Graph Neural Networks for Unbiased Gene Essentiality Classification**|Kieren Sharma et.al.|[2403.18666](http://arxiv.org/abs/2403.18666)|null|
+|**2024-03-27**|**Physics-Informed Graph Neural Networks for Water Distribution Systems**|Inaam Ashraf et.al.|[2403.18570](http://arxiv.org/abs/2403.18570)|null|
+|**2024-03-27**|**Lightweight Embeddings for Graph Collaborative Filtering**|Xurong Liang et.al.|[2403.18479](http://arxiv.org/abs/2403.18479)|**[link](https://github.com/xurong-liang/LEGCF)**|
+|**2024-03-27**|**Deciphering Chemical Ordering in High Entropy Materials: A Machine Learning-Accelerated High-throughput Cluster Expansion Approach**|Guillermo Vazquez et.al.|[2403.18298](http://arxiv.org/abs/2403.18298)|null|
+|**2024-03-27**|**GeNet: A Graph Neural Network-based Anti-noise Task-Oriented Semantic Communication Paradigm**|Chunhang Zheng et.al.|[2403.18296](http://arxiv.org/abs/2403.18296)|null|
+|**2024-03-26**|**HERTA: A High-Efficiency and Rigorous Training Algorithm for Unfolded Graph Neural Networks**|Yongyi Yang et.al.|[2403.18142](http://arxiv.org/abs/2403.18142)|null|
+|**2024-03-26**|**Securing GNNs: Explanation-Based Identification of Backdoored Training Graphs**|Jane Downer et.al.|[2403.18136](http://arxiv.org/abs/2403.18136)|null|
 |**2024-03-26**|**CANOS: A Fast and Scalable Neural AC-OPF Solver Robust To N-1 Perturbations**|Luis Piloto et.al.|[2403.17660](http://arxiv.org/abs/2403.17660)|null|
 |**2024-03-27**|**Intrinsic Subgraph Generation for Interpretable Graph based Visual Question Answering**|Pascal Tilli et.al.|[2403.17647](http://arxiv.org/abs/2403.17647)|**[link](https://github.com/digitalphonetics/intrinsic-subgraph-generation-for-vqa)**|
 |**2024-03-26**|**EL-MLFFs: Ensemble Learning of Machine Leaning Force Fields**|Bangchen Yin et.al.|[2403.17507](http://arxiv.org/abs/2403.17507)|null|
