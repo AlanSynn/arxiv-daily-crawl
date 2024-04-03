@@ -1646,6 +1646,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-03-31**|**Sponge: Inference Serving with Dynamic SLOs Using In-Place Vertical Scaling**|Kamran Razavi et.al.|[2404.00704](http://arxiv.org/abs/2404.00704)|null|
 |**2024-03-29**|**Towards Greener LLMs: Bringing Energy-Efficiency to the Forefront of LLM Inference**|Jovan Stojkovic et.al.|[2403.20306](http://arxiv.org/abs/2403.20306)|null|
 |**2024-01-20**|**Inference without Interference: Disaggregate LLM Inference for Mixed Downstream Workloads**|Cunchen Hu et.al.|[2401.11181](http://arxiv.org/abs/2401.11181)|null|
 |**2023-12-27**|**SuperServe: Fine-Grained Inference Serving for Unpredictable Workloads**|Alind Khare et.al.|[2312.16733](http://arxiv.org/abs/2312.16733)|null|
@@ -1670,8 +1671,10 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-04-01**|**Collaborative Learning of Anomalies with Privacy (CLAP) for Unsupervised Video Anomaly Detection: A New Baseline**|Anas Al-lahham et.al.|[2404.00847](http://arxiv.org/abs/2404.00847)|null|
+|**2024-03-30**|**Communication Efficient Distributed Training with Distributed Lion**|Bo Liu et.al.|[2404.00438](http://arxiv.org/abs/2404.00438)|null|
 |**2024-03-27**|**Differentially Private Distributed Nonconvex Stochastic Optimization with Quantized Communications**|Jialong Chen et.al.|[2403.18254](http://arxiv.org/abs/2403.18254)|null|
-|**2024-03-25**|**FLIGAN: Enhancing Federated Learning with Incomplete Data using GAN**|Paul Joe Maliakel et.al.|[2403.16930](http://arxiv.org/abs/2403.16930)|null|
+|**2024-04-02**|**FLIGAN: Enhancing Federated Learning with Incomplete Data using GAN**|Paul Joe Maliakel et.al.|[2403.16930](http://arxiv.org/abs/2403.16930)|null|
 |**2024-03-19**|**JORA: JAX Tensor-Parallel LoRA Library for Retrieval Augmented Fine-Tuning**|Anique Tahir et.al.|[2403.11366](http://arxiv.org/abs/2403.11366)|**[link](https://github.com/aniquetahir/JORA)**|
 |**2024-03-15**|**ATOM: Asynchronous Training of Massive Models for Deep Learning in a Decentralized Environment**|Xiaofeng Wu et.al.|[2403.10504](http://arxiv.org/abs/2403.10504)|null|
 |**2024-03-14**|**FedComLoc: Communication-Efficient Distributed Training of Sparse and Quantized Models**|Kai Yi et.al.|[2403.09904](http://arxiv.org/abs/2403.09904)|null|
@@ -1803,6 +1806,16 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-04-02**|**Multi-Level Label Correction by Distilling Proximate Patterns for Semi-supervised Semantic Segmentation**|Hui Xiao et.al.|[2404.02065](http://arxiv.org/abs/2404.02065)|null|
+|**2024-04-02**|**DSGNN: A Dual-View Supergrid-Aware Graph Neural Network for Regional Air Quality Estimation**|Xin Zhang et.al.|[2404.01975](http://arxiv.org/abs/2404.01975)|null|
+|**2024-04-02**|**Continuous Spiking Graph Neural Networks**|Nan Yin et.al.|[2404.01897](http://arxiv.org/abs/2404.01897)|null|
+|**2024-04-02**|**HeMeNet: Heterogeneous Multichannel Equivariant Network for Protein Multitask Learning**|Rong Han et.al.|[2404.01693](http://arxiv.org/abs/2404.01693)|null|
+|**2024-04-01**|**Machine Learning in High Energy Physics: A review of heavy-flavor jet tagging at the LHC**|Spandan Mondal et.al.|[2404.01071](http://arxiv.org/abs/2404.01071)|null|
+|**2024-04-01**|**Equivariant Local Reference Frames for Unsupervised Non-rigid Point Cloud Shape Correspondence**|Ling Wang et.al.|[2404.00959](http://arxiv.org/abs/2404.00959)|null|
+|**2024-03-31**|**PyTorch Frame: A Modular Framework for Multi-Modal Tabular Learning**|Weihua Hu et.al.|[2404.00776](http://arxiv.org/abs/2404.00776)|**[link](https://github.com/pyg-team/pytorch-frame)**|
+|**2024-03-30**|**DE-HNN: An effective neural model for Circuit Netlist representation**|Zhishang Luo et.al.|[2404.00477](http://arxiv.org/abs/2404.00477)|null|
+|**2024-03-30**|**Constrained Layout Generation with Factor Graphs**|Mohammed Haroon Dupty et.al.|[2404.00385](http://arxiv.org/abs/2404.00385)|null|
+|**2024-03-30**|**EventGround: Narrative Reasoning by Grounding to Eventuality-centric Knowledge Graphs**|Cheng Jiayang et.al.|[2404.00209](http://arxiv.org/abs/2404.00209)|null|
 |**2024-03-29**|**Graph Neural Aggregation-diffusion with Metastability**|Kaiyuan Cui et.al.|[2403.20221](http://arxiv.org/abs/2403.20221)|null|
 |**2024-03-29**|**On Size and Hardness Generalization in Unsupervised Learning for the Travelling Salesman Problem**|Yimeng Min et.al.|[2403.20212](http://arxiv.org/abs/2403.20212)|null|
 |**2024-03-29**|**Na Vacancy Driven Phase Transformation and Fast Ion Conduction in W-doped Na $_3$SbS$_4$ from Machine Learning Force Fields**|Johan Klarbring et.al.|[2403.20138](http://arxiv.org/abs/2403.20138)|null|
