@@ -1810,6 +1810,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-04-04**|**Free Energy Calculations using Smooth Basin Classification**|Sander Vandenhaute et.al.|[2404.03777](http://arxiv.org/abs/2404.03777)|null|
 |**2024-04-04**|**Generalization Bounds for Message Passing Networks on Mixture of Graphons**|Sohir Maskey et.al.|[2404.03473](http://arxiv.org/abs/2404.03473)|null|
 |**2024-04-04**|**On the Theoretical Expressive Power and the Design Space of Higher-Order Graph Transformers**|Cai Zhou et.al.|[2404.03380](http://arxiv.org/abs/2404.03380)|null|
 |**2024-04-04**|**Graph Neural Networks for Electric and Hydraulic Data Fusion to Enhance Short-term Forecasting of Pumped-storage Hydroelectricity**|Raffael Theiler et.al.|[2404.03368](http://arxiv.org/abs/2404.03368)|null|
