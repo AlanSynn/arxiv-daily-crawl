@@ -1700,7 +1700,7 @@
 |**2024-04-07**|**MODNO: Multi Operator Learning With Distributed Neural Operators**|Zecheng Zhang et.al.|[2404.02892](http://arxiv.org/abs/2404.02892)|null|
 |**2024-04-03**|**Linear Attention Sequence Parallelism**|Weigao Sun et.al.|[2404.02882](http://arxiv.org/abs/2404.02882)|**[link](https://github.com/opennlplab/lasp)**|
 |**2024-04-02**|**CATGNN: Cost-Efficient and Scalable Distributed Training for Graph Neural Networks**|Xin Huang et.al.|[2404.02300](http://arxiv.org/abs/2404.02300)|null|
-|**2024-04-01**|**Collaborative Learning of Anomalies with Privacy (CLAP) for Unsupervised Video Anomaly Detection: A New Baseline**|Anas Al-lahham et.al.|[2404.00847](http://arxiv.org/abs/2404.00847)|null|
+|**2024-04-01**|**Collaborative Learning of Anomalies with Privacy (CLAP) for Unsupervised Video Anomaly Detection: A New Baseline**|Anas Al-lahham et.al.|[2404.00847](http://arxiv.org/abs/2404.00847)|**[link](https://github.com/anasemad11/clap)**|
 |**2024-03-30**|**Communication Efficient Distributed Training with Distributed Lion**|Bo Liu et.al.|[2404.00438](http://arxiv.org/abs/2404.00438)|null|
 |**2024-03-27**|**Differentially Private Distributed Nonconvex Stochastic Optimization with Quantized Communications**|Jialong Chen et.al.|[2403.18254](http://arxiv.org/abs/2403.18254)|null|
 |**2024-04-02**|**FLIGAN: Enhancing Federated Learning with Incomplete Data using GAN**|Paul Joe Maliakel et.al.|[2403.16930](http://arxiv.org/abs/2403.16930)|null|
@@ -1837,6 +1837,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-04-08**|**Graph Neural Networks Automated Design and Deployment on Device-Edge Co-Inference Systems**|Ao Zhou et.al.|[2404.05605](http://arxiv.org/abs/2404.05605)|null|
+|**2024-04-08**|**Technical Report: The Graph Spectral Token -- Enhancing Graph Transformers with Spectral Information**|Zihan Pengmei et.al.|[2404.05604](http://arxiv.org/abs/2404.05604)|**[link](https://github.com/zpengmei/SubFormer-Spec)**|
+|**2024-04-08**|**Back to the Future: GNN-based NO $_2$ Forecasting via Future Covariates**|Antonio Giganti et.al.|[2404.05324](http://arxiv.org/abs/2404.05324)|null|
+|**2024-04-08**|**HOEG: A New Approach for Object-Centric Predictive Process Monitoring**|Tim K. Smit et.al.|[2404.05316](http://arxiv.org/abs/2404.05316)|**[link](https://github.com/tkforgeron/ocppm)**|
+|**2024-04-07**|**Temporal Generalization Estimation in Evolving Graphs**|Bin Lu et.al.|[2404.04969](http://arxiv.org/abs/2404.04969)|null|
+|**2024-04-07**|**Graph Neural Network Meets Multi-Agent Reinforcement Learning: Fundamentals, Applications, and Future Directions**|Ziheng Liu et.al.|[2404.04898](http://arxiv.org/abs/2404.04898)|null|
+|**2024-04-07**|**Graph Neural Networks for Binary Programming**|Moshe Eliasof et.al.|[2404.04874](http://arxiv.org/abs/2404.04874)|null|
+|**2024-04-07**|**GDR-HGNN: A Heterogeneous Graph Neural Networks Accelerator Frontend with Graph Decoupling and Recoupling**|Runzhen Xue et.al.|[2404.04792](http://arxiv.org/abs/2404.04792)|null|
+|**2024-04-06**|**Spectral Graph Pruning Against Over-Squashing and Over-Smoothing**|Adarsh Jamadandi et.al.|[2404.04612](http://arxiv.org/abs/2404.04612)|null|
+|**2024-04-06**|**Spectral GNN via Two-dimensional (2-D) Graph Convolution**|Guoming Li et.al.|[2404.04559](http://arxiv.org/abs/2404.04559)|null|
 |**2024-04-04**|**Free Energy Calculations using Smooth Basin Classification**|Sander Vandenhaute et.al.|[2404.03777](http://arxiv.org/abs/2404.03777)|null|
 |**2024-04-04**|**Generalization Bounds for Message Passing Networks on Mixture of Graphons**|Sohir Maskey et.al.|[2404.03473](http://arxiv.org/abs/2404.03473)|null|
 |**2024-04-04**|**On the Theoretical Expressive Power and the Design Space of Higher-Order Graph Transformers**|Cai Zhou et.al.|[2404.03380](http://arxiv.org/abs/2404.03380)|null|
