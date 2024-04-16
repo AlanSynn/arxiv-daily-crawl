@@ -1669,6 +1669,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-04-15**|**Prepacking: A Simple Method for Fast Prefilling and Increased Throughput in Large Language Models**|Siyan Zhao et.al.|[2404.09529](http://arxiv.org/abs/2404.09529)|**[link](https://github.com/siyan-zhao/prepacking)**|
 |**2024-03-31**|**Sponge: Inference Serving with Dynamic SLOs Using In-Place Vertical Scaling**|Kamran Razavi et.al.|[2404.00704](http://arxiv.org/abs/2404.00704)|null|
 |**2024-03-29**|**Towards Greener LLMs: Bringing Energy-Efficiency to the Forefront of LLM Inference**|Jovan Stojkovic et.al.|[2403.20306](http://arxiv.org/abs/2403.20306)|null|
 |**2024-01-20**|**Inference without Interference: Disaggregate LLM Inference for Mixed Downstream Workloads**|Cunchen Hu et.al.|[2401.11181](http://arxiv.org/abs/2401.11181)|null|
@@ -1696,6 +1697,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-04-15**|**AntDT: A Self-Adaptive Distributed Training Framework for Leader and Straggler Nodes**|Youshao Xiao et.al.|[2404.09679](http://arxiv.org/abs/2404.09679)|null|
 |**2024-03-30**|**Going Forward-Forward in Distributed Deep Learning**|Ege Aktemur et.al.|[2404.08573](http://arxiv.org/abs/2404.08573)|null|
 |**2024-04-09**|**Communication-Efficient Large-Scale Distributed Deep Learning: A Comprehensive Survey**|Feng Liang et.al.|[2404.06114](http://arxiv.org/abs/2404.06114)|null|
 |**2024-04-04**|**SiloFuse: Cross-silo Synthetic Data Generation with Latent Tabular Diffusion Models**|Aditya Shankar et.al.|[2404.03299](http://arxiv.org/abs/2404.03299)|null|
@@ -1839,6 +1841,11 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-04-15**|**Enhancing Code Vulnerability Detection via Vulnerability-Preserving Data Augmentation**|Shangqing Liu et.al.|[2404.09599](http://arxiv.org/abs/2404.09599)|null|
+|**2024-04-15**|**GNNavigator: Towards Adaptive Training of Graph Neural Networks via Automatic Guideline Exploration**|Tong Qiao et.al.|[2404.09544](http://arxiv.org/abs/2404.09544)|null|
+|**2024-04-14**|**Hierarchical Attention Models for Multi-Relational Graphs**|Roshni G. Iyer et.al.|[2404.09365](http://arxiv.org/abs/2404.09365)|null|
+|**2024-04-14**|**DEGNN: Dual Experts Graph Neural Network Handling Both Edge and Node Feature Noise**|Tai Hasegawa et.al.|[2404.09207](http://arxiv.org/abs/2404.09207)|**[link](https://github.com/taihasegawa/degnn)**|
+|**2024-04-12**|**Phase transitions of correlated systems from graph neural networks with quantum embedding techniques**|Rishi Rao et.al.|[2404.08782](http://arxiv.org/abs/2404.08782)|null|
 |**2024-04-12**|**Learning-Based Joint Antenna Selection and Precoding Design for Cell-Free MIMO Networks**|Liangzhi Wang et.al.|[2404.08607](http://arxiv.org/abs/2404.08607)|null|
 |**2024-04-12**|**Seismic First Break Picking in a Higher Dimension Using Deep Graph Learning**|Hongtao Wang et.al.|[2404.08408](http://arxiv.org/abs/2404.08408)|null|
 |**2024-04-12**|**Relational Prompt-based Pre-trained Language Models for Social Event Detection**|Pu Li et.al.|[2404.08263](http://arxiv.org/abs/2404.08263)|null|
