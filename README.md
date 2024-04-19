@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.04.18
+## Updated on 2024.04.19
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -421,7 +421,7 @@
 |**2021-10-03**|**Quadrotor Control on $SU(2)\times R^3$ with SLAM Integration**|Marcus Greiff et.al.|[2110.01099](http://arxiv.org/abs/2110.01099)|null|
 |**2021-10-02**|**Online Incremental Non-Gaussian Inference for SLAM Using Normalizing Flows**|Qiangqiang Huang et.al.|[2110.00876](http://arxiv.org/abs/2110.00876)|**[link](https://github.com/marineroboticsgroup/nf-isam)**|
 
-<p align=right>(<a href=#Updated-on-20240418>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240419>back to top</a>)</p>
 
 ## SFM
 
@@ -529,7 +529,7 @@
 |**2021-08-29**|**Solving Viewing Graph Optimization for Simultaneous Position and Rotation Registration**|Seyed-Mahdi Nasiri et.al.|[2108.12876](http://arxiv.org/abs/2108.12876)|null|
 |**2021-08-23**|**Burst Imaging for Light-Constrained Structure-From-Motion**|Ahalya Ravendran et.al.|[2108.09895](http://arxiv.org/abs/2108.09895)|null|
 
-<p align=right>(<a href=#Updated-on-20240418>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240419>back to top</a>)</p>
 
 ## Visual Localization
 
@@ -972,7 +972,7 @@
 |**2021-09-09**|**CrowdDriven: A New Challenging Dataset for Outdoor Visual Localization**|Ara Jafarzadeh et.al.|[2109.04527](http://arxiv.org/abs/2109.04527)|null|
 |**2021-09-09**|**Keeping an Eye on Things: Deep Learned Features for Long-Term Visual Localization**|Mona Gridseth et.al.|[2109.04041](http://arxiv.org/abs/2109.04041)|**[link](https://github.com/utiasasrl/deep_learned_visual_features)**|
 
-<p align=right>(<a href=#Updated-on-20240418>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240419>back to top</a>)</p>
 
 ## Keypoint Detection
 
@@ -1121,7 +1121,7 @@
 |**2021-08-31**|**A Novel Dataset for Keypoint Detection of quadruped Animals from Images**|Prianka Banik et.al.|[2108.13958](http://arxiv.org/abs/2108.13958)|**[link](https://github.com/prinik/awa-pose)**|
 |**2021-08-27**|**A Matching Algorithm based on Image Attribute Transfer and Local Features for Underwater Acoustic and Optical Images**|Xiaoteng Zhou et.al.|[2108.12151](http://arxiv.org/abs/2108.12151)|null|
 
-<p align=right>(<a href=#Updated-on-20240418>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240419>back to top</a>)</p>
 
 ## Image Matching
 
@@ -1268,7 +1268,7 @@
 |**2021-08-27**|**Matching Underwater Sonar Images by the Learned Descriptor Based on Style Transfer Method**|Xiaoteng Zhou et.al.|[2108.12072](http://arxiv.org/abs/2108.12072)|null|
 |**2021-08-26**|**Efficient Joint Object Matching via Linear Programming**|Antonio De Rosa et.al.|[2108.11911](http://arxiv.org/abs/2108.11911)|null|
 
-<p align=right>(<a href=#Updated-on-20240418>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240419>back to top</a>)</p>
 
 ## NeRF
 
@@ -1663,7 +1663,7 @@
 |**2022-07-29**|**Neural Density-Distance Fields**|Itsuki Ueda et.al.|[2207.14455](http://arxiv.org/abs/2207.14455)|**[link](https://github.com/ueda0319/neddf)**|
 |**2022-07-27**|**Is Attention All NeRF Needs?**|Mukund Varma T et.al.|[2207.13298](http://arxiv.org/abs/2207.13298)|null|
 
-<p align=right>(<a href=#Updated-on-20240418>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240419>back to top</a>)</p>
 
 ## Inference
 
@@ -1691,13 +1691,13 @@
 |**2022-02-18**|**A Survey of Large-Scale Deep Learning Serving System Optimization: Challenges and Opportunities**|Fuxun Yu et.al.|[2111.14247](http://arxiv.org/abs/2111.14247)|null|
 |**2021-10-28**|**Characterizing and Taming Resolution in Convolutional Neural Networks**|Eddie Yan et.al.|[2110.14819](http://arxiv.org/abs/2110.14819)|null|
 
-<p align=right>(<a href=#Updated-on-20240418>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240419>back to top</a>)</p>
 
 ## Distributed Deep Learning
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2024-04-17**|**Accelerating Geo-distributed Machine Learning with Network-Aware Adaptive Tree and Auxiliary Route**|Zonghang Li et.al.|[2404.11352](http://arxiv.org/abs/2404.11352)|null|
+|**2024-04-17**|**Accelerating Geo-distributed Machine Learning with Network-Aware Adaptive Tree and Auxiliary Route**|Zonghang Li et.al.|[2404.11352](http://arxiv.org/abs/2404.11352)|**[link](https://github.com/fengwenjiao/netstorm)**|
 |**2024-04-17**|**Farthest Point Sampling in Property Designated Chemical Feature Space as a General Strategy for Enhancing the Machine Learning Model Performance for Small Scale Chemical Dataset**|Yuze Liu et.al.|[2404.11348](http://arxiv.org/abs/2404.11348)|null|
 |**2024-04-16**|**HLAT: High-quality Large Language Model Pre-trained on AWS Trainium**|Haozheng Fan et.al.|[2404.10630](http://arxiv.org/abs/2404.10630)|null|
 |**2024-04-15**|**Distributed Federated Learning-Based Deep Learning Model for Privacy MRI Brain Tumor Detection**|Lisang Zhou et.al.|[2404.10026](http://arxiv.org/abs/2404.10026)|null|
@@ -1839,7 +1839,7 @@
 |**2023-05-12**|**Dynamically Conservative Self-Driving Planner for Long-Tail Cases**|Weitao Zhou et.al.|[2305.07497](http://arxiv.org/abs/2305.07497)|null|
 |**2023-05-10**|**P4SGD: Programmable Switch Enhanced Model-Parallel Training on Generalized Linear Models on Distributed FPGAs**|Hongjing Huang et.al.|[2305.05885](http://arxiv.org/abs/2305.05885)|null|
 
-<p align=right>(<a href=#Updated-on-20240418>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240419>back to top</a>)</p>
 
 ## GNN System
 
@@ -1847,11 +1847,11 @@
 |---|---|---|---|---|
 |**2024-04-17**|**On the Scalability of GNNs for Molecular Graphs**|Maciej Sypetkowski et.al.|[2404.11568](http://arxiv.org/abs/2404.11568)|null|
 |**2024-04-17**|**Tensor Factorisation for Polypharmacy Side Effect Prediction**|Oliver Lloyd et.al.|[2404.11374](http://arxiv.org/abs/2404.11374)|null|
-|**2024-04-17**|**RiboDiffusion: Tertiary Structure-based RNA Inverse Folding with Generative Diffusion Models**|Han Huang et.al.|[2404.11199](http://arxiv.org/abs/2404.11199)|null|
+|**2024-04-17**|**RiboDiffusion: Tertiary Structure-based RNA Inverse Folding with Generative Diffusion Models**|Han Huang et.al.|[2404.11199](http://arxiv.org/abs/2404.11199)|**[link](https://github.com/ml4bio/ribodiffusion)**|
 |**2024-04-17**|**EEG_GLT-Net: Optimising EEG Graphs for Real-time Motor Imagery Signals Classification**|Htoo Wai Aung et.al.|[2404.11075](http://arxiv.org/abs/2404.11075)|null|
 |**2024-04-17**|**You do not have to train Graph Neural Networks at all on text-attributed graphs**|Kaiwen Dong et.al.|[2404.11019](http://arxiv.org/abs/2404.11019)|null|
 |**2024-04-17**|**Graph Continual Learning with Debiased Lossless Memory Replay**|Chaoxi Niu et.al.|[2404.10984](http://arxiv.org/abs/2404.10984)|null|
-|**2024-04-16**|**Interpolation and differentiation of alchemical degrees of freedom in machine learning interatomic potentials**|Juno Nam et.al.|[2404.10746](http://arxiv.org/abs/2404.10746)|**[link](https://github.com/learningmatter-mit/alchemical-mlip)**|
+|**2024-04-16**|**Interpolation and differentiation of alchemical degrees of freedom in machine learning interatomic potentials**|Juno Nam et.al.|[2404.10746](http://arxiv.org/abs/2404.10746)|null|
 |**2024-04-16**|**Graph Neural Networks for Protein-Protein Interactions - A Short Survey**|Mingda Xu et.al.|[2404.10450](http://arxiv.org/abs/2404.10450)|null|
 |**2024-04-16**|**AGHINT: Attribute-Guided Representation Learning on Heterogeneous Information Networks with Transformer**|Jinhui Yuan et.al.|[2404.10443](http://arxiv.org/abs/2404.10443)|null|
 |**2024-04-16**|**Physical formula enhanced multi-task learning for pharmacokinetics prediction**|Ruifeng Li et.al.|[2404.10354](http://arxiv.org/abs/2404.10354)|null|
@@ -3239,7 +3239,7 @@
 |**2023-06-11**|**Between-Sample Relationship in Learning Tabular Data Using Graph and Attention Networks**|Shourav B. Rabbani et.al.|[2306.06772](http://arxiv.org/abs/2306.06772)|null|
 |**2023-06-11**|**Local-to-global Perspectives on Graph Neural Networks**|Chen Cai et.al.|[2306.06547](http://arxiv.org/abs/2306.06547)|**[link](https://github.com/chen-cai-osu/mpnn-gt-connection)**|
 
-<p align=right>(<a href=#Updated-on-20240418>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240419>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
