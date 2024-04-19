@@ -1697,6 +1697,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-04-18**|**Context-Aware Orchestration of Energy-Efficient Gossip Learning Schemes**|Mina Aghaei Dinani et.al.|[2404.12023](http://arxiv.org/abs/2404.12023)|null|
 |**2024-04-17**|**Accelerating Geo-distributed Machine Learning with Network-Aware Adaptive Tree and Auxiliary Route**|Zonghang Li et.al.|[2404.11352](http://arxiv.org/abs/2404.11352)|**[link](https://github.com/fengwenjiao/netstorm)**|
 |**2024-04-17**|**Farthest Point Sampling in Property Designated Chemical Feature Space as a General Strategy for Enhancing the Machine Learning Model Performance for Small Scale Chemical Dataset**|Yuze Liu et.al.|[2404.11348](http://arxiv.org/abs/2404.11348)|null|
 |**2024-04-16**|**HLAT: High-quality Large Language Model Pre-trained on AWS Trainium**|Haozheng Fan et.al.|[2404.10630](http://arxiv.org/abs/2404.10630)|null|
@@ -1845,6 +1846,9 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-04-18**|**Improving the interpretability of GNN predictions through conformal-based graph sparsification**|Pablo Sanchez-Martin et.al.|[2404.12356](http://arxiv.org/abs/2404.12356)|null|
+|**2024-04-18**|**Graph Neural Networks for Wireless Networks: Graph Representation, Architecture and Evaluation**|Yang Lu et.al.|[2404.11858](http://arxiv.org/abs/2404.11858)|null|
+|**2024-04-17**|**End-to-End Mesh Optimization of a Hybrid Deep Learning Black-Box PDE Solver**|Shaocong Ma et.al.|[2404.11766](http://arxiv.org/abs/2404.11766)|null|
 |**2024-04-17**|**On the Scalability of GNNs for Molecular Graphs**|Maciej Sypetkowski et.al.|[2404.11568](http://arxiv.org/abs/2404.11568)|null|
 |**2024-04-17**|**Tensor Factorisation for Polypharmacy Side Effect Prediction**|Oliver Lloyd et.al.|[2404.11374](http://arxiv.org/abs/2404.11374)|null|
 |**2024-04-17**|**RiboDiffusion: Tertiary Structure-based RNA Inverse Folding with Generative Diffusion Models**|Han Huang et.al.|[2404.11199](http://arxiv.org/abs/2404.11199)|**[link](https://github.com/ml4bio/ribodiffusion)**|
