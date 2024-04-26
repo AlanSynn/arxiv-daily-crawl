@@ -1837,7 +1837,7 @@ layout: default
 |**2024-04-22**|**FedTAD: Topology-aware Data-free Knowledge Distillation for Subgraph Federated Learning**|Yinlin Zhu et.al.|[2404.14061](http://arxiv.org/abs/2404.14061)|null|
 |**2024-04-22**|**Liquid-Graph Time-Constant Network for Multi-Agent Systems Control**|Antonio Marino et.al.|[2404.13982](http://arxiv.org/abs/2404.13982)|null|
 |**2024-04-21**|**SPGNN: Recognizing Salient Subgraph Patterns via Enhanced Graph Convolution and Pooling**|Zehao Dong et.al.|[2404.13655](http://arxiv.org/abs/2404.13655)|null|
-|**2024-04-21**|**Unsupervised Social Bot Detection via Structural Information Theory**|Hao Peng et.al.|[2404.13595](http://arxiv.org/abs/2404.13595)|null|
+|**2024-04-21**|**Unsupervised Social Bot Detection via Structural Information Theory**|Hao Peng et.al.|[2404.13595](http://arxiv.org/abs/2404.13595)|**[link](https://github.com/selgroup/undbot)**|
 |**2024-04-21**|**Test-Time Training on Graphs with Large Language Models (LLMs)**|Jiaxin Zhang et.al.|[2404.13571](http://arxiv.org/abs/2404.13571)|null|
 |**2024-04-21**|**Graph4GUI: Graph Neural Networks for Representing Graphical User Interfaces**|Yue Jiang et.al.|[2404.13521](http://arxiv.org/abs/2404.13521)|null|
 |**2024-04-21**|**Authentic Emotion Mapping: Benchmarking Facial Expressions in Real News**|Qixuan Zhang et.al.|[2404.13493](http://arxiv.org/abs/2404.13493)|null|
@@ -1974,7 +1974,7 @@ layout: default
 |**2024-03-20**|**Data-Driven Modeling of Dislocation Mobility from Atomistics using Physics-Informed Machine Learning**|Yifeng Tian et.al.|[2403.14015](http://arxiv.org/abs/2403.14015)|null|
 |**2024-03-20**|**Considerations in the use of ML interaction potentials for free energy calculations**|Orlando A. Mendible et.al.|[2403.13952](http://arxiv.org/abs/2403.13952)|**[link](https://github.com/omendibleba/considerations_for_mlps_fes)**|
 |**2024-03-20**|**Graph Neural Network for Crawling Target Nodes in Social Networks**|Kirill Lukyanov et.al.|[2403.13865](http://arxiv.org/abs/2403.13865)|null|
-|**2024-03-20**|**Sparse Implementation of Versatile Graph-Informed Layers**|Francesco Della Santa et.al.|[2403.13781](http://arxiv.org/abs/2403.13781)|null|
+|**2024-03-20**|**Sparse Implementation of Versatile Graph-Informed Layers**|Francesco Della Santa et.al.|[2403.13781](http://arxiv.org/abs/2403.13781)|**[link](https://github.com/fra0013to/ginn)**|
 |**2024-03-20**|**Unifews: Unified Entry-Wise Sparsification for Efficient Graph Neural Network**|Ningyi Liao et.al.|[2403.13268](http://arxiv.org/abs/2403.13268)|null|
 |**2024-03-20**|**A Comparative Study of Machine Learning Models Predicting Energetics of Interacting Defects**|Hao Yu et.al.|[2403.13243](http://arxiv.org/abs/2403.13243)|null|
 |**2024-03-19**|**Improving tracking algorithms with machine learning: a case for line-segment tracking at the High Luminosity LHC**|Jonathan Guiang et.al.|[2403.13166](http://arxiv.org/abs/2403.13166)|null|
@@ -2987,7 +2987,7 @@ layout: default
 |**2023-08-18**|**Bridged-GNN: Knowledge Bridge Learning for Effective Knowledge Transfer**|Wendong Bi et.al.|[2308.09499](http://arxiv.org/abs/2308.09499)|null|
 |**2023-08-18**|**Boosting Few-shot Action Recognition with Graph-guided Hybrid Matching**|Jiazheng Xing et.al.|[2308.09346](http://arxiv.org/abs/2308.09346)|**[link](https://github.com/jiazheng-xing/gghm)**|
 |**2023-08-18**|**Distribution shift mitigation at test time with performance guarantees**|Rui Ding et.al.|[2308.09259](http://arxiv.org/abs/2308.09259)|null|
-|**2023-08-17**|**Interpretable Graph Neural Networks for Tabular Data**|Amr Alkhatib et.al.|[2308.08945](http://arxiv.org/abs/2308.08945)|null|
+|**2023-08-17**|**Interpretable Graph Neural Networks for Tabular Data**|Amr Alkhatib et.al.|[2308.08945](http://arxiv.org/abs/2308.08945)|**[link](https://github.com/amrmalkhatib/ignnet)**|
 |**2023-08-17**|**Mitigating Semantic Confusion from Hostile Neighborhood for Graph Active Learning**|Tianmeng Yang et.al.|[2308.08823](http://arxiv.org/abs/2308.08823)|null|
 |**2023-08-17**|**Graph Neural Network Backend for Speaker Recognition**|Liang He et.al.|[2308.08767](http://arxiv.org/abs/2308.08767)|null|
 |**2023-08-16**|**Group Identification via Transitional Hypergraph Convolution with Cross-view Self-supervised Learning**|Mingdai Yang et.al.|[2308.08620](http://arxiv.org/abs/2308.08620)|null|
