@@ -1849,7 +1849,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2024-04-25**|**Global Concept Explanations for Graphs by Contrastive Learning**|Jonas Teufel et.al.|[2404.16532](http://arxiv.org/abs/2404.16532)|null|
+|**2024-04-25**|**Global Concept Explanations for Graphs by Contrastive Learning**|Jonas Teufel et.al.|[2404.16532](http://arxiv.org/abs/2404.16532)|**[link](https://github.com/aimat-lab/megan_global_explanations)**|
 |**2024-04-25**|**Guarding Graph Neural Networks for Unsupervised Graph Anomaly Detection**|Yuanchen Bei et.al.|[2404.16366](http://arxiv.org/abs/2404.16366)|null|
 |**2024-04-24**|**Power Failure Cascade Prediction using Graph Neural Networks**|Sathwik Chadaga et.al.|[2404.16134](http://arxiv.org/abs/2404.16134)|**[link](https://github.com/sathwikchadaga/failure-cascade)**|
 |**2024-04-24**|**A General Black-box Adversarial Attack on Graph-based Fake News Detectors**|Peican Zhu et.al.|[2404.15744](http://arxiv.org/abs/2404.15744)|null|
