@@ -1672,6 +1672,8 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-04-27**|**Privacy-Preserving, Dropout-Resilient Aggregation in Decentralized Learning**|Ali Reza Ghavamipour et.al.|[2404.17984](http://arxiv.org/abs/2404.17984)|null|
+|**2024-04-27**|**Personalized Federated Learning via Sequential Layer Expansion in Representation Learning**|Jaewon Jang et.al.|[2404.17799](http://arxiv.org/abs/2404.17799)|null|
 |**2024-04-24**|**NeRF-XL: Scaling NeRFs with Multiple GPUs**|Ruilong Li et.al.|[2404.16221](http://arxiv.org/abs/2404.16221)|null|
 |**2024-04-23**|**Workload-Aware Hardware Accelerator Mining for Distributed Deep Learning Training**|Muhammad Adnan et.al.|[2404.14632](http://arxiv.org/abs/2404.14632)|null|
 |**2024-04-22**|**Machine Learning Techniques for MRI Data Processing at Expanding Scale**|Taro Langner et.al.|[2404.14326](http://arxiv.org/abs/2404.14326)|null|
@@ -1822,6 +1824,14 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-04-28**|**Multi-stage Attack Detection and Prediction Using Graph Neural Networks: An IoT Feasibility Study**|Hamdi Friji et.al.|[2404.18328](http://arxiv.org/abs/2404.18328)|null|
+|**2024-04-28**|**Parameter-Efficient Tuning Large Language Models for Graph Representation Learning**|Qi Zhu et.al.|[2404.18271](http://arxiv.org/abs/2404.18271)|null|
+|**2024-04-28**|**A survey of dynamic graph neural networks**|Yanping Zheng et.al.|[2404.18211](http://arxiv.org/abs/2404.18211)|null|
+|**2024-04-28**|**Decidability of Graph Neural Networks via Logical Characterizations**|Michael Benedikt et.al.|[2404.18151](http://arxiv.org/abs/2404.18151)|null|
+|**2024-04-28**|**Fashion Recommendation: Outfit Compatibility using GNN**|Samaksh Gulati et.al.|[2404.18040](http://arxiv.org/abs/2404.18040)|null|
+|**2024-04-27**|**Bounding the Expected Robustness of Graph Neural Networks Subject to Node Feature Attacks**|Yassine Abbahaddou et.al.|[2404.17947](http://arxiv.org/abs/2404.17947)|**[link](https://github.com/sennadir/gcorn)**|
+|**2024-04-27**|**Noisy Node Classification by Bi-level Optimization based Multi-teacher Distillation**|Yujing Liu et.al.|[2404.17875](http://arxiv.org/abs/2404.17875)|null|
+|**2024-04-27**|**Revisiting Multimodal Emotion Recognition in Conversation from the Perspective of Graph Spectrum**|Tao Meng et.al.|[2404.17862](http://arxiv.org/abs/2404.17862)|null|
 |**2024-04-26**|**Bridging the Fairness Divide: Achieving Group and Individual Fairness in Graph Neural Networks**|Duna Zhan et.al.|[2404.17511](http://arxiv.org/abs/2404.17511)|null|
 |**2024-04-26**|**Similarity Equivariant Graph Neural Networks for Homogenization of Metamaterials**|Fleur Hendriks et.al.|[2404.17365](http://arxiv.org/abs/2404.17365)|null|
 |**2024-04-26**|**FairGT: A Fairness-aware Graph Transformer**|Renqiang Luo et.al.|[2404.17169](http://arxiv.org/abs/2404.17169)|**[link](https://github.com/yushuowiki/fairgt)**|
