@@ -1824,6 +1824,12 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-05-01**|**Discovering robust biomarkers of neurological disorders from functional MRI using graph neural networks: A Review**|Yi Hao Chan et.al.|[2405.00577](http://arxiv.org/abs/2405.00577)|null|
+|**2024-05-01**|**WEST GCN-LSTM: Weighted Stacked Spatio-Temporal Graph Neural Networks for Regional Traffic Forecasting**|Theodoros Theodoropoulos et.al.|[2405.00570](http://arxiv.org/abs/2405.00570)|null|
+|**2024-05-01**|**A Comprehensive Survey of Dynamic Graph Neural Networks: Models, Frameworks, Benchmarks, Experiments and Challenges**|ZhengZhao Feng et.al.|[2405.00476](http://arxiv.org/abs/2405.00476)|null|
+|**2024-05-01**|**Message-Passing Interatomic Potentials Learn Non-Local Electrostatic Interactions**|Sungwoo Kang et.al.|[2405.00290](http://arxiv.org/abs/2405.00290)|null|
+|**2024-04-30**|**A Logic for Reasoning About Aggregate-Combine Graph Neural Networks**|Pierre Nunn et.al.|[2405.00205](http://arxiv.org/abs/2405.00205)|null|
+|**2024-04-30**|**Graph Neural Network Approach to Semantic Type Detection in Tables**|Ehsan Hoseinzade et.al.|[2405.00123](http://arxiv.org/abs/2405.00123)|**[link](https://github.com/hoseinzadeehsan/gait)**|
 |**2024-04-30**|**Generating Robust Counterfactual Witnesses for Graph Neural Networks**|Dazhuo Qiu et.al.|[2404.19519](http://arxiv.org/abs/2404.19519)|null|
 |**2024-04-30**|**EvGNN: An Event-driven Graph Neural Network Accelerator for Edge Vision**|Yufeng Yang et.al.|[2404.19489](http://arxiv.org/abs/2404.19489)|null|
 |**2024-04-30**|**Deep Learning Forecasts Caldera Collapse Events at Kīlauea Volcano**|Ian W. McBrearty et.al.|[2404.19351](http://arxiv.org/abs/2404.19351)|null|
