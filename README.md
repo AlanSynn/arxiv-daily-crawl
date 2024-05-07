@@ -1697,6 +1697,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-05-05**|**Tree-based Ensemble Learning for Out-of-distribution Detection**|Zhaiming Shen et.al.|[2405.03060](http://arxiv.org/abs/2405.03060)|null|
 |**2024-04-27**|**Privacy-Preserving, Dropout-Resilient Aggregation in Decentralized Learning**|Ali Reza Ghavamipour et.al.|[2404.17984](http://arxiv.org/abs/2404.17984)|null|
 |**2024-04-27**|**Personalized Federated Learning via Sequential Layer Expansion in Representation Learning**|Jaewon Jang et.al.|[2404.17799](http://arxiv.org/abs/2404.17799)|null|
 |**2024-04-24**|**NeRF-XL: Scaling NeRFs with Multiple GPUs**|Ruilong Li et.al.|[2404.16221](http://arxiv.org/abs/2404.16221)|null|
@@ -1851,6 +1852,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-05-06**|**AtomGPT: Atomistic Generative Pre-trained Transformer for Forward and Inverse Materials Design**|Kamal Choudhary et.al.|[2405.03680](http://arxiv.org/abs/2405.03680)|null|
+|**2024-05-06**|**Reinforcement Nash Equilibrium Solver**|Xinrun Wang et.al.|[2405.03518](http://arxiv.org/abs/2405.03518)|null|
+|**2024-05-06**|**AnchorGT: Efficient and Flexible Attention Architecture for Scalable Graph Transformers**|Wenhao Zhu et.al.|[2405.03481](http://arxiv.org/abs/2405.03481)|null|
+|**2024-05-06**|**A method for quantifying the generalization capabilities of generative models for solving Ising models**|Qunlong Ma et.al.|[2405.03435](http://arxiv.org/abs/2405.03435)|null|
+|**2024-05-06**|**E2GNN: Efficient Graph Neural Network Ensembles for Semi-Supervised Classification**|Xin Zhang et.al.|[2405.03401](http://arxiv.org/abs/2405.03401)|null|
+|**2024-05-06**|**Denoising of Geodetic Time Series Using Spatiotemporal Graph Neural Networks: Application to Slow Slip Event Extraction**|Giuseppe Costantino et.al.|[2405.03320](http://arxiv.org/abs/2405.03320)|null|
+|**2024-05-06**|**Coefficient Decomposition for Spectral Graph Convolution**|Feng Huang et.al.|[2405.03296](http://arxiv.org/abs/2405.03296)|null|
+|**2024-05-06**|**Active Sensing for Multiuser Beam Tracking with Reconfigurable Intelligent Surface**|Han Han et.al.|[2405.03129](http://arxiv.org/abs/2405.03129)|null|
+|**2024-05-05**|**Convolutional Learning on Directed Acyclic Graphs**|Samuel Rey et.al.|[2405.03056](http://arxiv.org/abs/2405.03056)|null|
+|**2024-05-05**|**E-TSL: A Continuous Educational Turkish Sign Language Dataset with Baseline Methods**|Şükrü Öztürk et.al.|[2405.02984](http://arxiv.org/abs/2405.02984)|null|
 |**2024-05-03**|**CatTSunami: Accelerating Transition State Energy Calculations with Pre-trained Graph Neural Networks**|Brook Wander et.al.|[2405.02078](http://arxiv.org/abs/2405.02078)|null|
 |**2024-05-03**|**Graph Neural Network based Active and Passive Beamforming for Distributed STAR-RIS-Assisted Multi-User MISO Systems**|Ha An Le et.al.|[2405.01979](http://arxiv.org/abs/2405.01979)|null|
 |**2024-05-03**|**Conservative semi-lagrangian finite difference scheme for transport simulations using graph neural networks**|Yongsheng Chen et.al.|[2405.01938](http://arxiv.org/abs/2405.01938)|null|
