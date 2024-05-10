@@ -1874,11 +1874,11 @@
 |**2024-05-06**|**Reinforcement Nash Equilibrium Solver**|Xinrun Wang et.al.|[2405.03518](http://arxiv.org/abs/2405.03518)|null|
 |**2024-05-06**|**AnchorGT: Efficient and Flexible Attention Architecture for Scalable Graph Transformers**|Wenhao Zhu et.al.|[2405.03481](http://arxiv.org/abs/2405.03481)|null|
 |**2024-05-06**|**A method for quantifying the generalization capabilities of generative models for solving Ising models**|Qunlong Ma et.al.|[2405.03435](http://arxiv.org/abs/2405.03435)|null|
-|**2024-05-06**|**E2GNN: Efficient Graph Neural Network Ensembles for Semi-Supervised Classification**|Xin Zhang et.al.|[2405.03401](http://arxiv.org/abs/2405.03401)|null|
+|**2024-05-06**|**E2GNN: Efficient Graph Neural Network Ensembles for Semi-Supervised Classification**|Xin Zhang et.al.|[2405.03401](http://arxiv.org/abs/2405.03401)|**[link](https://github.com/qiaoyu-tan/E2GNN)**|
 |**2024-05-06**|**Denoising of Geodetic Time Series Using Spatiotemporal Graph Neural Networks: Application to Slow Slip Event Extraction**|Giuseppe Costantino et.al.|[2405.03320](http://arxiv.org/abs/2405.03320)|null|
-|**2024-05-06**|**Coefficient Decomposition for Spectral Graph Convolution**|Feng Huang et.al.|[2405.03296](http://arxiv.org/abs/2405.03296)|null|
+|**2024-05-06**|**Coefficient Decomposition for Spectral Graph Convolution**|Feng Huang et.al.|[2405.03296](http://arxiv.org/abs/2405.03296)|**[link](https://github.com/fhuang233/CoDeSGC)**|
 |**2024-05-06**|**Active Sensing for Multiuser Beam Tracking with Reconfigurable Intelligent Surface**|Han Han et.al.|[2405.03129](http://arxiv.org/abs/2405.03129)|null|
-|**2024-05-05**|**Convolutional Learning on Directed Acyclic Graphs**|Samuel Rey et.al.|[2405.03056](http://arxiv.org/abs/2405.03056)|null|
+|**2024-05-05**|**Convolutional Learning on Directed Acyclic Graphs**|Samuel Rey et.al.|[2405.03056](http://arxiv.org/abs/2405.03056)|**[link](https://github.com/reysam93/dag_conv_nn)**|
 |**2024-05-05**|**E-TSL: A Continuous Educational Turkish Sign Language Dataset with Baseline Methods**|Şükrü Öztürk et.al.|[2405.02984](http://arxiv.org/abs/2405.02984)|null|
 |**2024-05-03**|**CatTSunami: Accelerating Transition State Energy Calculations with Pre-trained Graph Neural Networks**|Brook Wander et.al.|[2405.02078](http://arxiv.org/abs/2405.02078)|null|
 |**2024-05-03**|**Graph Neural Network based Active and Passive Beamforming for Distributed STAR-RIS-Assisted Multi-User MISO Systems**|Ha An Le et.al.|[2405.01979](http://arxiv.org/abs/2405.01979)|null|
@@ -2007,7 +2007,7 @@
 |**2024-04-06**|**Spectral GNN via Two-dimensional (2-D) Graph Convolution**|Guoming Li et.al.|[2404.04559](http://arxiv.org/abs/2404.04559)|null|
 |**2024-04-04**|**Free Energy Calculations using Smooth Basin Classification**|Sander Vandenhaute et.al.|[2404.03777](http://arxiv.org/abs/2404.03777)|null|
 |**2024-04-04**|**Generalization Bounds for Message Passing Networks on Mixture of Graphons**|Sohir Maskey et.al.|[2404.03473](http://arxiv.org/abs/2404.03473)|null|
-|**2024-04-04**|**On the Theoretical Expressive Power and the Design Space of Higher-Order Graph Transformers**|Cai Zhou et.al.|[2404.03380](http://arxiv.org/abs/2404.03380)|null|
+|**2024-04-04**|**On the Theoretical Expressive Power and the Design Space of Higher-Order Graph Transformers**|Cai Zhou et.al.|[2404.03380](http://arxiv.org/abs/2404.03380)|**[link](https://github.com/zhouc20/k-transformer)**|
 |**2024-04-04**|**Graph Neural Networks for Electric and Hydraulic Data Fusion to Enhance Short-term Forecasting of Pumped-storage Hydroelectricity**|Raffael Theiler et.al.|[2404.03368](http://arxiv.org/abs/2404.03368)|null|
 |**2024-04-04**|**Decentralized Learning Strategies for Estimation Error Minimization with Graph Neural Networks**|Xingran Chen et.al.|[2404.03227](http://arxiv.org/abs/2404.03227)|null|
 |**2024-04-04**|**Theoretical and Empirical Insights into the Origins of Degree Bias in Graph Neural Networks**|Arjun Subramonian et.al.|[2404.03139](http://arxiv.org/abs/2404.03139)|**[link](https://github.com/arjunsubramonian/degree-bias-exploration)**|
@@ -3091,7 +3091,7 @@
 |**2023-08-18**|**Boosting Few-shot Action Recognition with Graph-guided Hybrid Matching**|Jiazheng Xing et.al.|[2308.09346](http://arxiv.org/abs/2308.09346)|**[link](https://github.com/jiazheng-xing/gghm)**|
 |**2023-08-18**|**Distribution shift mitigation at test time with performance guarantees**|Rui Ding et.al.|[2308.09259](http://arxiv.org/abs/2308.09259)|null|
 |**2023-08-17**|**Interpretable Graph Neural Networks for Tabular Data**|Amr Alkhatib et.al.|[2308.08945](http://arxiv.org/abs/2308.08945)|**[link](https://github.com/amrmalkhatib/ignnet)**|
-|**2023-08-17**|**Mitigating Semantic Confusion from Hostile Neighborhood for Graph Active Learning**|Tianmeng Yang et.al.|[2308.08823](http://arxiv.org/abs/2308.08823)|null|
+|**2023-08-17**|**Mitigating Semantic Confusion from Hostile Neighborhood for Graph Active Learning**|Tianmeng Yang et.al.|[2308.08823](http://arxiv.org/abs/2308.08823)|**[link](https://github.com/YoungTimmy/SAG)**|
 |**2023-08-17**|**Graph Neural Network Backend for Speaker Recognition**|Liang He et.al.|[2308.08767](http://arxiv.org/abs/2308.08767)|null|
 |**2023-08-16**|**Group Identification via Transitional Hypergraph Convolution with Cross-view Self-supervised Learning**|Mingdai Yang et.al.|[2308.08620](http://arxiv.org/abs/2308.08620)|null|
 |**2023-08-16**|**Graph Out-of-Distribution Generalization with Controllable Data Augmentation**|Bin Lu et.al.|[2308.08344](http://arxiv.org/abs/2308.08344)|null|
