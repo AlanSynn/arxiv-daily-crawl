@@ -1825,6 +1825,9 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-05-09**|**Deploying Graph Neural Networks in Wireless Networks: A Link Stability Viewpoint**|Jun Li et.al.|[2405.05802](http://arxiv.org/abs/2405.05802)|null|
+|**2024-05-09**|**Link Stealing Attacks Against Inductive Graph Neural Networks**|Yixin Wu et.al.|[2405.05784](http://arxiv.org/abs/2405.05784)|**[link](https://github.com/yxoh/link_steal_pets2024)**|
+|**2024-05-09**|**G-SAP: Graph-based Structure-Aware Prompt Learning over Heterogeneous Knowledge for Commonsense Reasoning**|Ruiting Dai et.al.|[2405.05616](http://arxiv.org/abs/2405.05616)|null|
 |**2024-05-08**|**DiskGNN: Bridging I/O Efficiency and Model Accuracy for Out-of-Core GNN Training**|Renjie Liu et.al.|[2405.05231](http://arxiv.org/abs/2405.05231)|null|
 |**2024-05-08**|**Hybrid Quantum Graph Neural Network for Molecular Property Prediction**|Michael Vitz et.al.|[2405.05205](http://arxiv.org/abs/2405.05205)|null|
 |**2024-05-08**|**Dual-domain Collaborative Denoising for Social Recommendation**|Wenjie Chen et.al.|[2405.04942](http://arxiv.org/abs/2405.04942)|null|
