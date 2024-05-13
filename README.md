@@ -1852,6 +1852,11 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-05-10**|**Scalable Property Valuation Models via Graph-based Deep Learning**|Enrique Riveros et.al.|[2405.06553](http://arxiv.org/abs/2405.06553)|null|
+|**2024-05-10**|**Heterogeneous Graph Neural Networks with Loss-decrease-aware Curriculum Learning**|Yili Wang et.al.|[2405.06522](http://arxiv.org/abs/2405.06522)|**[link](https://github.com/wangyili00/ldhgnn)**|
+|**2024-05-10**|**PAC-Bayesian Generalization Bounds for Knowledge Graph Representation Learning**|Jaejun Lee et.al.|[2405.06418](http://arxiv.org/abs/2405.06418)|null|
+|**2024-05-10**|**Disttack: Graph Adversarial Attacks Toward Distributed GNN Training**|Yuxiang Zhang et.al.|[2405.06247](http://arxiv.org/abs/2405.06247)|**[link](https://github.com/zhangyxrepo/disttack)**|
+|**2024-05-09**|**UnSegGNet: Unsupervised Image Segmentation using Graph Neural Networks**|Kovvuri Sai Gopal Reddy et.al.|[2405.06057](http://arxiv.org/abs/2405.06057)|**[link](https://github.com/ksgr5566/unseggnet)**|
 |**2024-05-09**|**Deploying Graph Neural Networks in Wireless Networks: A Link Stability Viewpoint**|Jun Li et.al.|[2405.05802](http://arxiv.org/abs/2405.05802)|null|
 |**2024-05-09**|**Link Stealing Attacks Against Inductive Graph Neural Networks**|Yixin Wu et.al.|[2405.05784](http://arxiv.org/abs/2405.05784)|**[link](https://github.com/yxoh/link_steal_pets2024)**|
 |**2024-05-09**|**G-SAP: Graph-based Structure-Aware Prompt Learning over Heterogeneous Knowledge for Commonsense Reasoning**|Ruiting Dai et.al.|[2405.05616](http://arxiv.org/abs/2405.05616)|null|
