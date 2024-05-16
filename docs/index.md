@@ -1826,6 +1826,14 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-05-15**|**ContourCraft: Learning to Resolve Intersections in Neural Multi-Garment Simulations**|Artur Grigorev et.al.|[2405.09522](http://arxiv.org/abs/2405.09522)|null|
+|**2024-05-15**|**Desk-AId: Humanitarian Aid Desk Assessment with Geospatial AI for Predicting Landmine Areas**|Flavio Cirillo et.al.|[2405.09444](http://arxiv.org/abs/2405.09444)|null|
+|**2024-05-15**|**Learning Coarse-Grained Dynamics on Graph**|Yin Yu et.al.|[2405.09324](http://arxiv.org/abs/2405.09324)|null|
+|**2024-05-15**|**Graph Neural Network based Handwritten Trajectories Recognition**|Anuj Sharma et.al.|[2405.09247](http://arxiv.org/abs/2405.09247)|null|
+|**2024-05-15**|**SMUG-Explain: A Framework for Symbolic Music Graph Explanations**|Emmanouil Karystinaios et.al.|[2405.09241](http://arxiv.org/abs/2405.09241)|null|
+|**2024-05-15**|**Unraveling impacts of polycrystalline microstructures on ionic conductivity of ceramic electrolytes by computational homogenization and machine learning**|Xiang-Long Peng et.al.|[2405.09227](http://arxiv.org/abs/2405.09227)|null|
+|**2024-05-15**|**Enhancing Function Name Prediction using Votes-Based Name Tokenization and Multi-Task Learning**|Xiaoling Zhang et.al.|[2405.09112](http://arxiv.org/abs/2405.09112)|null|
+|**2024-05-15**|**Deep Learning in Earthquake Engineering: A Comprehensive Review**|Yazhou Xie et.al.|[2405.09021](http://arxiv.org/abs/2405.09021)|null|
 |**2024-05-14**|**Chemical-motif characterization of short-range order with E(3)-equivariant graph neural networks**|Killian Sheriff et.al.|[2405.08628](http://arxiv.org/abs/2405.08628)|null|
 |**2024-05-14**|**Improving the Real-Data Driven Network Evaluation Model for Digital Twin Networks**|Hyeju Shin et.al.|[2405.08473](http://arxiv.org/abs/2405.08473)|null|
 |**2024-05-13**|**Graph Neural Networks for Parameterized Quantum Circuits Expressibility Estimation**|Shamminuj Aktar et.al.|[2405.08100](http://arxiv.org/abs/2405.08100)|null|
