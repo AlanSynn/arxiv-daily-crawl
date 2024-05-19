@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.05.18
+## Updated on 2024.05.19
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -421,7 +421,7 @@
 |**2021-10-03**|**Quadrotor Control on $SU(2)\times R^3$ with SLAM Integration**|Marcus Greiff et.al.|[2110.01099](http://arxiv.org/abs/2110.01099)|null|
 |**2021-10-02**|**Online Incremental Non-Gaussian Inference for SLAM Using Normalizing Flows**|Qiangqiang Huang et.al.|[2110.00876](http://arxiv.org/abs/2110.00876)|**[link](https://github.com/marineroboticsgroup/nf-isam)**|
 
-<p align=right>(<a href=#Updated-on-20240518>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240519>back to top</a>)</p>
 
 ## SFM
 
@@ -529,7 +529,7 @@
 |**2021-08-29**|**Solving Viewing Graph Optimization for Simultaneous Position and Rotation Registration**|Seyed-Mahdi Nasiri et.al.|[2108.12876](http://arxiv.org/abs/2108.12876)|null|
 |**2021-08-23**|**Burst Imaging for Light-Constrained Structure-From-Motion**|Ahalya Ravendran et.al.|[2108.09895](http://arxiv.org/abs/2108.09895)|null|
 
-<p align=right>(<a href=#Updated-on-20240518>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240519>back to top</a>)</p>
 
 ## Visual Localization
 
@@ -972,7 +972,7 @@
 |**2021-09-09**|**CrowdDriven: A New Challenging Dataset for Outdoor Visual Localization**|Ara Jafarzadeh et.al.|[2109.04527](http://arxiv.org/abs/2109.04527)|null|
 |**2021-09-09**|**Keeping an Eye on Things: Deep Learned Features for Long-Term Visual Localization**|Mona Gridseth et.al.|[2109.04041](http://arxiv.org/abs/2109.04041)|**[link](https://github.com/utiasasrl/deep_learned_visual_features)**|
 
-<p align=right>(<a href=#Updated-on-20240518>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240519>back to top</a>)</p>
 
 ## Keypoint Detection
 
@@ -1121,7 +1121,7 @@
 |**2021-08-31**|**A Novel Dataset for Keypoint Detection of quadruped Animals from Images**|Prianka Banik et.al.|[2108.13958](http://arxiv.org/abs/2108.13958)|**[link](https://github.com/prinik/awa-pose)**|
 |**2021-08-27**|**A Matching Algorithm based on Image Attribute Transfer and Local Features for Underwater Acoustic and Optical Images**|Xiaoteng Zhou et.al.|[2108.12151](http://arxiv.org/abs/2108.12151)|null|
 
-<p align=right>(<a href=#Updated-on-20240518>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240519>back to top</a>)</p>
 
 ## Image Matching
 
@@ -1268,7 +1268,7 @@
 |**2021-08-27**|**Matching Underwater Sonar Images by the Learned Descriptor Based on Style Transfer Method**|Xiaoteng Zhou et.al.|[2108.12072](http://arxiv.org/abs/2108.12072)|null|
 |**2021-08-26**|**Efficient Joint Object Matching via Linear Programming**|Antonio De Rosa et.al.|[2108.11911](http://arxiv.org/abs/2108.11911)|null|
 
-<p align=right>(<a href=#Updated-on-20240518>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240519>back to top</a>)</p>
 
 ## NeRF
 
@@ -1663,7 +1663,7 @@
 |**2022-07-29**|**Neural Density-Distance Fields**|Itsuki Ueda et.al.|[2207.14455](http://arxiv.org/abs/2207.14455)|**[link](https://github.com/ueda0319/neddf)**|
 |**2022-07-27**|**Is Attention All NeRF Needs?**|Mukund Varma T et.al.|[2207.13298](http://arxiv.org/abs/2207.13298)|null|
 
-<p align=right>(<a href=#Updated-on-20240518>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240519>back to top</a>)</p>
 
 ## Inference
 
@@ -1692,7 +1692,7 @@
 |**2022-02-18**|**A Survey of Large-Scale Deep Learning Serving System Optimization: Challenges and Opportunities**|Fuxun Yu et.al.|[2111.14247](http://arxiv.org/abs/2111.14247)|null|
 |**2021-10-28**|**Characterizing and Taming Resolution in Convolutional Neural Networks**|Eddie Yan et.al.|[2110.14819](http://arxiv.org/abs/2110.14819)|null|
 
-<p align=right>(<a href=#Updated-on-20240518>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240519>back to top</a>)</p>
 
 ## Distributed Deep Learning
 
@@ -1847,7 +1847,7 @@
 |**2023-05-12**|**Dynamically Conservative Self-Driving Planner for Long-Tail Cases**|Weitao Zhou et.al.|[2305.07497](http://arxiv.org/abs/2305.07497)|null|
 |**2023-05-10**|**P4SGD: Programmable Switch Enhanced Model-Parallel Training on Generalized Linear Models on Distributed FPGAs**|Hongjing Huang et.al.|[2305.05885](http://arxiv.org/abs/2305.05885)|null|
 
-<p align=right>(<a href=#Updated-on-20240518>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240519>back to top</a>)</p>
 
 ## GNN System
 
@@ -1860,7 +1860,7 @@
 |**2024-05-15**|**Desk-AId: Humanitarian Aid Desk Assessment with Geospatial AI for Predicting Landmine Areas**|Flavio Cirillo et.al.|[2405.09444](http://arxiv.org/abs/2405.09444)|null|
 |**2024-05-15**|**Learning Coarse-Grained Dynamics on Graph**|Yin Yu et.al.|[2405.09324](http://arxiv.org/abs/2405.09324)|null|
 |**2024-05-15**|**Graph Neural Network based Handwritten Trajectories Recognition**|Anuj Sharma et.al.|[2405.09247](http://arxiv.org/abs/2405.09247)|null|
-|**2024-05-15**|**SMUG-Explain: A Framework for Symbolic Music Graph Explanations**|Emmanouil Karystinaios et.al.|[2405.09241](http://arxiv.org/abs/2405.09241)|null|
+|**2024-05-15**|**SMUG-Explain: A Framework for Symbolic Music Graph Explanations**|Emmanouil Karystinaios et.al.|[2405.09241](http://arxiv.org/abs/2405.09241)|**[link](https://github.com/manoskary/smug-explain)**|
 |**2024-05-15**|**Unraveling impacts of polycrystalline microstructures on ionic conductivity of ceramic electrolytes by computational homogenization and machine learning**|Xiang-Long Peng et.al.|[2405.09227](http://arxiv.org/abs/2405.09227)|null|
 |**2024-05-15**|**Enhancing Function Name Prediction using Votes-Based Name Tokenization and Multi-Task Learning**|Xiaoling Zhang et.al.|[2405.09112](http://arxiv.org/abs/2405.09112)|null|
 |**2024-05-15**|**Deep Learning in Earthquake Engineering: A Comprehensive Review**|Yazhou Xie et.al.|[2405.09021](http://arxiv.org/abs/2405.09021)|null|
@@ -3377,7 +3377,7 @@
 |**2023-06-11**|**Between-Sample Relationship in Learning Tabular Data Using Graph and Attention Networks**|Shourav B. Rabbani et.al.|[2306.06772](http://arxiv.org/abs/2306.06772)|null|
 |**2023-06-11**|**Local-to-global Perspectives on Graph Neural Networks**|Chen Cai et.al.|[2306.06547](http://arxiv.org/abs/2306.06547)|**[link](https://github.com/chen-cai-osu/mpnn-gt-connection)**|
 
-<p align=right>(<a href=#Updated-on-20240518>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240519>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
