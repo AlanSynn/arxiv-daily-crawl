@@ -1698,6 +1698,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-05-18**|**Adjacent Leader Decentralized Stochastic Gradient Descent**|Haoze He et.al.|[2405.11389](http://arxiv.org/abs/2405.11389)|null|
 |**2024-05-05**|**Tree-based Ensemble Learning for Out-of-distribution Detection**|Zhaiming Shen et.al.|[2405.03060](http://arxiv.org/abs/2405.03060)|null|
 |**2024-04-27**|**Privacy-Preserving, Dropout-Resilient Aggregation in Decentralized Learning**|Ali Reza Ghavamipour et.al.|[2404.17984](http://arxiv.org/abs/2404.17984)|null|
 |**2024-04-27**|**Personalized Federated Learning via Sequential Layer Expansion in Representation Learning**|Jaewon Jang et.al.|[2404.17799](http://arxiv.org/abs/2404.17799)|null|
@@ -1853,6 +1854,15 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-05-20**|**Conditional Shift-Robust Conformal Prediction for Graph Neural Network**|S. Akansha et.al.|[2405.11968](http://arxiv.org/abs/2405.11968)|null|
+|**2024-05-20**|**CaseGNN++: Graph Contrastive Learning for Legal Case Retrieval with Graph Augmentation**|Yanran Tang et.al.|[2405.11791](http://arxiv.org/abs/2405.11791)|**[link](https://github.com/yanran-tang/casegnn)**|
+|**2024-05-19**|**Knowledge Graph Pruning for Recommendation**|Fake Lin et.al.|[2405.11531](http://arxiv.org/abs/2405.11531)|null|
+|**2024-05-19**|**CTGNN: Crystal Transformer Graph Neural Network for Crystal Material Property Prediction**|Zijian Du et.al.|[2405.11502](http://arxiv.org/abs/2405.11502)|null|
+|**2024-05-18**|**Hierarchical Reinforcement Learning Empowered Task Offloading in V2I Networks**|Xinyu You et.al.|[2405.11352](http://arxiv.org/abs/2405.11352)|null|
+|**2024-05-18**|**Detecting Complex Multi-step Attacks with Explainable Graph Neural Network**|Wei Liu et.al.|[2405.11335](http://arxiv.org/abs/2405.11335)|null|
+|**2024-05-18**|**GinAR: An End-To-End Multivariate Time Series Forecasting Model Suitable for Variable Missing**|Chengqing Yu et.al.|[2405.11333](http://arxiv.org/abs/2405.11333)|**[link](https://github.com/chengqingyu/ginar)**|
+|**2024-05-18**|**SeBot: Structural Entropy Guided Multi-View Contrastive Learning for Social Bot Detection**|Yingguang Yang et.al.|[2405.11225](http://arxiv.org/abs/2405.11225)|**[link](https://github.com/846468230/sebot)**|
+|**2024-05-17**|**GraSS: Combining Graph Neural Networks with Expert Knowledge for SAT Solver Selection**|Zhanguang Zhang et.al.|[2405.11024](http://arxiv.org/abs/2405.11024)|null|
 |**2024-05-17**|**Rethinking Graph Backdoor Attacks: A Distribution-Preserving Perspective**|Zhiwei Zhang et.al.|[2405.10757](http://arxiv.org/abs/2405.10757)|null|
 |**2024-05-17**|**Hi-GMAE: Hierarchical Graph Masked Autoencoders**|Chuang Liu et.al.|[2405.10642](http://arxiv.org/abs/2405.10642)|**[link](https://github.com/liuchuang0059/hi-gmae)**|
 |**2024-05-17**|**Harnessing Collective Structure Knowledge in Data Augmentation for Graph Neural Networks**|Rongrong Ma et.al.|[2405.10633](http://arxiv.org/abs/2405.10633)|null|
