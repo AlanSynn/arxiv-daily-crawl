@@ -600,7 +600,7 @@ layout: default
 |**2023-04-05**|**LogoNet: a fine-grained network for instance-level logo sketch retrieval**|Binbin Feng et.al.|[2304.02214](http://arxiv.org/abs/2304.02214)|**[link](https://github.com/abin333/logonet)**|
 |**2023-04-04**|**OrienterNet: Visual Localization in 2D Public Maps with Neural Matching**|Paul-Edouard Sarlin et.al.|[2304.02009](http://arxiv.org/abs/2304.02009)|null|
 |**2023-04-04**|**Cross-Domain Image Captioning with Discriminative Finetuning**|Roberto Dessì et.al.|[2304.01662](http://arxiv.org/abs/2304.01662)|**[link](https://github.com/facebookresearch/EGG)**|
-|**2023-04-02**|**Learning Similarity between Scene Graphs and Images with Transformers**|Yuren Cong et.al.|[2304.00590](http://arxiv.org/abs/2304.00590)|null|
+|**2023-04-02**|**Learning Similarity between Scene Graphs and Images with Transformers**|Yuren Cong et.al.|[2304.00590](http://arxiv.org/abs/2304.00590)|**[link](https://github.com/yrcong/learning_similarity_between_graphs_images)**|
 |**2023-04-01**|**NPR: Nocturnal Place Recognition in Street**|Bingxi Liu et.al.|[2304.00276](http://arxiv.org/abs/2304.00276)|null|
 |**2023-03-31**|**Unsupervised crack detection on complex stone masonry surfaces**|Panagiotis Agrafiotis et.al.|[2303.17989](http://arxiv.org/abs/2303.17989)|null|
 |**2023-03-30**|**If At First You Don't Succeed: Test Time Re-ranking for Zero-shot, Cross-domain Retrieval**|Finlay G. C. Hudson et.al.|[2303.17703](http://arxiv.org/abs/2303.17703)|null|
@@ -1847,8 +1847,8 @@ layout: default
 |**2024-05-17**|**Hi-GMAE: Hierarchical Graph Masked Autoencoders**|Chuang Liu et.al.|[2405.10642](http://arxiv.org/abs/2405.10642)|**[link](https://github.com/liuchuang0059/hi-gmae)**|
 |**2024-05-17**|**Harnessing Collective Structure Knowledge in Data Augmentation for Graph Neural Networks**|Rongrong Ma et.al.|[2405.10633](http://arxiv.org/abs/2405.10633)|null|
 |**2024-05-17**|**CACL: Community-Aware Heterogeneous Graph Contrastive Learning for Social Media Bot Detection**|Sirry Chen et.al.|[2405.10558](http://arxiv.org/abs/2405.10558)|null|
-|**2024-05-17**|**Multi-Evidence based Fact Verification via A Confidential Graph Neural Network**|Yuqing Lan et.al.|[2405.10481](http://arxiv.org/abs/2405.10481)|null|
-|**2024-05-16**|**Physics-Informed Heterogeneous Graph Neural Networks for DC Blocker Placement**|Hongwei Jin et.al.|[2405.10389](http://arxiv.org/abs/2405.10389)|null|
+|**2024-05-17**|**Multi-Evidence based Fact Verification via A Confidential Graph Neural Network**|Yuqing Lan et.al.|[2405.10481](http://arxiv.org/abs/2405.10481)|**[link](https://github.com/neuir/co-gat)**|
+|**2024-05-16**|**Physics-Informed Heterogeneous Graph Neural Networks for DC Blocker Placement**|Hongwei Jin et.al.|[2405.10389](http://arxiv.org/abs/2405.10389)|**[link](https://github.com/cshjin/swmp_ml)**|
 |**2024-05-16**|**ENADPool: The Edge-Node Attention-based Differentiable Pooling for Graph Neural Networks**|Zhehan Zhao et.al.|[2405.10218](http://arxiv.org/abs/2405.10218)|null|
 |**2024-05-16**|**Hierarchical Attention Graph for Scientific Document Summarization in Global and Local Level**|Chenlong Zhao et.al.|[2405.10202](http://arxiv.org/abs/2405.10202)|**[link](https://github.com/molichenxi/haesum)**|
 |**2024-05-16**|**Integrating Uncertainty-Aware Human Motion Prediction into Graph-Based Manipulator Motion Planning**|Wansong Liu et.al.|[2405.09779](http://arxiv.org/abs/2405.09779)|null|
@@ -2146,13 +2146,13 @@ layout: default
 |**2024-03-13**|**Causal Graph Neural Networks for Wildfire Danger Prediction**|Shan Zhao et.al.|[2403.08414](http://arxiv.org/abs/2403.08414)|null|
 |**2024-03-13**|**Fast Inference of Removal-Based Node Influence**|Weikai Li et.al.|[2403.08333](http://arxiv.org/abs/2403.08333)|**[link](https://github.com/weikai-li/nora)**|
 |**2024-03-13**|**BG-HGNN: Toward Scalable and Efficient Heterogeneous Graph Neural Network**|Junwei Su et.al.|[2403.08207](http://arxiv.org/abs/2403.08207)|null|
-|**2024-03-12**|**Optimizing Polynomial Graph Filters: A Novel Adaptive Krylov Subspace Approach**|Keke Huang et.al.|[2403.07954](http://arxiv.org/abs/2403.07954)|null|
+|**2024-03-12**|**Optimizing Polynomial Graph Filters: A Novel Adaptive Krylov Subspace Approach**|Keke Huang et.al.|[2403.07954](http://arxiv.org/abs/2403.07954)|**[link](https://github.com/kkhuang81/AdaptKry)**|
 |**2024-03-12**|**Iterative Graph Neural Network Enhancement via Frequent Subgraph Mining of Explanations**|Harish G. Naik et.al.|[2403.07849](http://arxiv.org/abs/2403.07849)|null|
 |**2024-03-12**|**OmniMatch: Effective Self-Supervised Any-Join Discovery in Tabular Data Repositories**|Christos Koutras et.al.|[2403.07653](http://arxiv.org/abs/2403.07653)|null|
 |**2024-03-12**|**Towards Graph Foundation Models for Personalization**|Andreas Damianou et.al.|[2403.07478](http://arxiv.org/abs/2403.07478)|null|
 |**2024-03-12**|**One for All and All for One: GNN-based Control-Flow Attestation for Embedded Devices**|Marco Chilese et.al.|[2403.07465](http://arxiv.org/abs/2403.07465)|null|
 |**2024-03-13**|**Graph Unlearning with Efficient Partial Retraining**|Jiahao Zhang et.al.|[2403.07353](http://arxiv.org/abs/2403.07353)|null|
-|**2024-03-12**|**Graph Data Condensation via Self-expressive Graph Structure Reconstruction**|Zhanyu Liu et.al.|[2403.07294](http://arxiv.org/abs/2403.07294)|null|
+|**2024-03-12**|**Graph Data Condensation via Self-expressive Graph Structure Reconstruction**|Zhanyu Liu et.al.|[2403.07294](http://arxiv.org/abs/2403.07294)|**[link](https://github.com/zclzcl0223/GCSR)**|
 |**2024-03-11**|**Uncertainty in Graph Neural Networks: A Survey**|Fangxin Wang et.al.|[2403.07185](http://arxiv.org/abs/2403.07185)|null|
 |**2024-03-11**|**All in One: Multi-Task Prompting for Graph Neural Networks (Extended Abstract)**|Xiangguo Sun et.al.|[2403.07040](http://arxiv.org/abs/2403.07040)|null|
 |**2024-03-11**|**Are Targeted Messages More Effective?**|Martin Grohe et.al.|[2403.06817](http://arxiv.org/abs/2403.06817)|null|
@@ -2384,10 +2384,10 @@ layout: default
 |**2024-01-30**|**Online Algorithm for Node Feature Forecasting in Temporal Graphs**|Aniq Ur Rahman et.al.|[2401.16800](http://arxiv.org/abs/2401.16800)|null|
 |**2024-01-30**|**Graph Fairness Learning under Distribution Shifts**|Yibo Li et.al.|[2401.16784](http://arxiv.org/abs/2401.16784)|null|
 |**2024-01-29**|**Accelerating superconductor discovery through tempered deep learning of the electron-phonon spectral function**|Jason B. Gibson et.al.|[2401.16611](http://arxiv.org/abs/2401.16611)|null|
-|**2024-01-29**|**Towards Accurate Prediction of Configurational Disorder Properties in Materials using Graph Neural Networks**|Zhenyao Fang et.al.|[2401.16565](http://arxiv.org/abs/2401.16565)|null|
+|**2024-01-29**|**Towards Accurate Prediction of Configurational Disorder Properties in Materials using Graph Neural Networks**|Zhenyao Fang et.al.|[2401.16565](http://arxiv.org/abs/2401.16565)|**[link](https://github.com/qmatyanlab/configurational-disorder)**|
 |**2024-01-29**|**Enhancing Molecular Property Prediction with Auxiliary Learning and Task-Specific Adaptation**|Vishal Dey et.al.|[2401.16299](http://arxiv.org/abs/2401.16299)|**[link](https://github.com/vishaldeyiiest/graphta)**|
 |**2024-01-29**|**Graph Neural Networks: Theory for Estimation with Application on Network Heterogeneity**|Yike Wang et.al.|[2401.16275](http://arxiv.org/abs/2401.16275)|null|
-|**2024-01-29**|**AnisoGNN: graph neural networks generalizing to anisotropic properties of polycrystals**|Guangyu Hu et.al.|[2401.16271](http://arxiv.org/abs/2401.16271)|null|
+|**2024-01-29**|**AnisoGNN: graph neural networks generalizing to anisotropic properties of polycrystals**|Guangyu Hu et.al.|[2401.16271](http://arxiv.org/abs/2401.16271)|**[link](https://github.com/materials-informatics-az/anisognn)**|
 |**2024-01-29**|**Graph Neural Network-based Joint Equalization and Decoding**|Jannis Clausius et.al.|[2401.16187](http://arxiv.org/abs/2401.16187)|null|
 |**2024-01-29**|**Combined track finding with GNN & CKF**|Lukas Heinrich et.al.|[2401.16016](http://arxiv.org/abs/2401.16016)|null|
 |**2024-01-29**|**Spatio-Temporal Attention Graph Neural Network for Remaining Useful Life Prediction**|Zhixin Huang et.al.|[2401.15964](http://arxiv.org/abs/2401.15964)|null|
@@ -3069,7 +3069,7 @@ layout: default
 |**2023-08-31**|**BenchTemp: A General Benchmark for Evaluating Temporal Graph Neural Networks**|Qiang Huang et.al.|[2308.16385](http://arxiv.org/abs/2308.16385)|**[link](https://github.com/qianghuangwhu/benchtemp)**|
 |**2023-08-31**|**A Survey on Privacy in Graph Neural Networks: Attacks, Preservation, and Applications**|Yi Zhang et.al.|[2308.16375](http://arxiv.org/abs/2308.16375)|**[link](https://github.com/nds-vu/awesome-gnn-privacy)**|
 |**2023-08-30**|**Spatial Graph Coarsening: Weather and Weekday Prediction with London's Bike-Sharing Service using GNN**|Yuta Sato et.al.|[2308.16122](http://arxiv.org/abs/2308.16122)|null|
-|**2023-08-30**|**Learning Structure-from-Motion with Graph Attention Networks**|Lucas Brynte et.al.|[2308.15984](http://arxiv.org/abs/2308.15984)|null|
+|**2023-08-30**|**Learning Structure-from-Motion with Graph Attention Networks**|Lucas Brynte et.al.|[2308.15984](http://arxiv.org/abs/2308.15984)|**[link](https://github.com/lucasbrynte/gasfm)**|
 |**2023-08-30**|**Adaptive Multi-Modalities Fusion in Sequential Recommendation Systems**|Hengchang Hu et.al.|[2308.15980](http://arxiv.org/abs/2308.15980)|**[link](https://github.com/holdenhu/mmsr)**|
 |**2023-08-30**|**MSGNN: Multi-scale Spatio-temporal Graph Neural Network for Epidemic Forecasting**|Mingjie Qiu et.al.|[2308.15840](http://arxiv.org/abs/2308.15840)|null|
 |**2023-08-30**|**Efficient and Explainable Graph Neural Architecture Search via Monte-Carlo Tree Search**|Yuya Sasaki et.al.|[2308.15734](http://arxiv.org/abs/2308.15734)|null|
