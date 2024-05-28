@@ -1669,6 +1669,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-05-25**|**Online Resource Allocation for Edge Intelligence with Colocated Model Retraining and Inference**|Huaiguang Cai et.al.|[2405.16029](http://arxiv.org/abs/2405.16029)|null|
 |**2024-05-11**|**Aladdin: Joint Placement and Scaling for SLO-Aware LLM Serving**|Chengyi Nie et.al.|[2405.06856](http://arxiv.org/abs/2405.06856)|null|
 |**2024-04-15**|**Prepacking: A Simple Method for Fast Prefilling and Increased Throughput in Large Language Models**|Siyan Zhao et.al.|[2404.09529](http://arxiv.org/abs/2404.09529)|**[link](https://github.com/siyan-zhao/prepacking)**|
 |**2024-04-23**|**Sponge: Inference Serving with Dynamic SLOs Using In-Place Vertical Scaling**|Kamran Razavi et.al.|[2404.00704](http://arxiv.org/abs/2404.00704)|**[link](https://github.com/saeid93/sponge)**|
@@ -1698,6 +1699,8 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-05-25**|**HetHub: A Heterogeneous distributed hybrid training system for large-scale models**|Si Xu et.al.|[2405.16256](http://arxiv.org/abs/2405.16256)|null|
+|**2024-05-25**|**Apply Distributed CNN on Genomics to accelerate Transcription-Factor TAL1 Motif Prediction**|Tasnim Assali et.al.|[2405.16097](http://arxiv.org/abs/2405.16097)|null|
 |**2024-05-24**|**Federated Behavioural Planes: Explaining the Evolution of Client Behaviour in Federated Learning**|Dario Fenoglio et.al.|[2405.15632](http://arxiv.org/abs/2405.15632)|null|
 |**2024-05-24**|**A Comparative Analysis of Distributed Training Strategies for GPT-2**|Ishan Patwardhan et.al.|[2405.15628](http://arxiv.org/abs/2405.15628)|null|
 |**2024-05-22**|**Trajectory Volatility for Out-of-Distribution Detection in Mathematical Reasoning**|Yiming Wang et.al.|[2405.14039](http://arxiv.org/abs/2405.14039)|null|
@@ -1858,6 +1861,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-05-27**|**Spectral Greedy Coresets for Graph Neural Networks**|Mucong Ding et.al.|[2405.17404](http://arxiv.org/abs/2405.17404)|null|
+|**2024-05-27**|**Probabilistic Graph Rewiring via Virtual Nodes**|Chendi Qian et.al.|[2405.17311](http://arxiv.org/abs/2405.17311)|null|
+|**2024-05-27**|**Survey of Graph Neural Network for Internet of Things and NextG Networks**|Sabarish Krishna Moorthy et.al.|[2405.17309](http://arxiv.org/abs/2405.17309)|null|
+|**2024-05-27**|**R-ODE: Ricci Curvature Tells When You Will be Informed**|Li Sun et.al.|[2405.17282](http://arxiv.org/abs/2405.17282)|null|
+|**2024-05-27**|**Your decision path does matter in pre-training industrial recommenders with multi-source behaviors**|Chunjing Gan et.al.|[2405.17132](http://arxiv.org/abs/2405.17132)|null|
+|**2024-05-27**|**Graph Neural Networks on Quantum Computers**|Yidong Liao et.al.|[2405.17060](http://arxiv.org/abs/2405.17060)|null|
+|**2024-05-27**|**FUGNN: Harmonizing Fairness and Utility in Graph Neural Networks**|Renqiang Luo et.al.|[2405.17034](http://arxiv.org/abs/2405.17034)|null|
+|**2024-05-27**|**Graph Condensation for Open-World Graph Learning**|Xinyi Gao et.al.|[2405.17003](http://arxiv.org/abs/2405.17003)|null|
+|**2024-05-26**|**Graph neural networks with configuration cross-attention for tensor compilers**|Dmitrii Khizbullin et.al.|[2405.16623](http://arxiv.org/abs/2405.16623)|null|
+|**2024-05-26**|**Link Prediction on Textual Edge Graphs**|Chen Ling et.al.|[2405.16606](http://arxiv.org/abs/2405.16606)|null|
 |**2024-05-24**|**Rethinking Independent Cross-Entropy Loss For Graph-Structured Data**|Rui Miao et.al.|[2405.15564](http://arxiv.org/abs/2405.15564)|null|
 |**2024-05-24**|**Learning from Linear Algebra: A Graph Neural Network Approach to Preconditioner Design for Conjugate Gradient Solvers**|Vladislav Trifonov et.al.|[2405.15557](http://arxiv.org/abs/2405.15557)|null|
 |**2024-05-24**|**SATSense: Multi-Satellite Collaborative Framework for Spectrum Sensing**|Haoxuan Yuan et.al.|[2405.15542](http://arxiv.org/abs/2405.15542)|null|
