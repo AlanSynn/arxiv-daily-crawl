@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.06.08
+## Updated on 2024.06.09
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -421,7 +421,7 @@
 |**2021-10-03**|**Quadrotor Control on $SU(2)\times R^3$ with SLAM Integration**|Marcus Greiff et.al.|[2110.01099](http://arxiv.org/abs/2110.01099)|null|
 |**2021-10-02**|**Online Incremental Non-Gaussian Inference for SLAM Using Normalizing Flows**|Qiangqiang Huang et.al.|[2110.00876](http://arxiv.org/abs/2110.00876)|**[link](https://github.com/marineroboticsgroup/nf-isam)**|
 
-<p align=right>(<a href=#Updated-on-20240608>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240609>back to top</a>)</p>
 
 ## SFM
 
@@ -529,7 +529,7 @@
 |**2021-08-29**|**Solving Viewing Graph Optimization for Simultaneous Position and Rotation Registration**|Seyed-Mahdi Nasiri et.al.|[2108.12876](http://arxiv.org/abs/2108.12876)|null|
 |**2021-08-23**|**Burst Imaging for Light-Constrained Structure-From-Motion**|Ahalya Ravendran et.al.|[2108.09895](http://arxiv.org/abs/2108.09895)|null|
 
-<p align=right>(<a href=#Updated-on-20240608>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240609>back to top</a>)</p>
 
 ## Visual Localization
 
@@ -972,7 +972,7 @@
 |**2021-09-09**|**CrowdDriven: A New Challenging Dataset for Outdoor Visual Localization**|Ara Jafarzadeh et.al.|[2109.04527](http://arxiv.org/abs/2109.04527)|null|
 |**2021-09-09**|**Keeping an Eye on Things: Deep Learned Features for Long-Term Visual Localization**|Mona Gridseth et.al.|[2109.04041](http://arxiv.org/abs/2109.04041)|**[link](https://github.com/utiasasrl/deep_learned_visual_features)**|
 
-<p align=right>(<a href=#Updated-on-20240608>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240609>back to top</a>)</p>
 
 ## Keypoint Detection
 
@@ -1121,7 +1121,7 @@
 |**2021-08-31**|**A Novel Dataset for Keypoint Detection of quadruped Animals from Images**|Prianka Banik et.al.|[2108.13958](http://arxiv.org/abs/2108.13958)|**[link](https://github.com/prinik/awa-pose)**|
 |**2021-08-27**|**A Matching Algorithm based on Image Attribute Transfer and Local Features for Underwater Acoustic and Optical Images**|Xiaoteng Zhou et.al.|[2108.12151](http://arxiv.org/abs/2108.12151)|null|
 
-<p align=right>(<a href=#Updated-on-20240608>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240609>back to top</a>)</p>
 
 ## Image Matching
 
@@ -1268,7 +1268,7 @@
 |**2021-08-27**|**Matching Underwater Sonar Images by the Learned Descriptor Based on Style Transfer Method**|Xiaoteng Zhou et.al.|[2108.12072](http://arxiv.org/abs/2108.12072)|null|
 |**2021-08-26**|**Efficient Joint Object Matching via Linear Programming**|Antonio De Rosa et.al.|[2108.11911](http://arxiv.org/abs/2108.11911)|null|
 
-<p align=right>(<a href=#Updated-on-20240608>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240609>back to top</a>)</p>
 
 ## NeRF
 
@@ -1663,7 +1663,7 @@
 |**2022-07-29**|**Neural Density-Distance Fields**|Itsuki Ueda et.al.|[2207.14455](http://arxiv.org/abs/2207.14455)|**[link](https://github.com/ueda0319/neddf)**|
 |**2022-07-27**|**Is Attention All NeRF Needs?**|Mukund Varma T et.al.|[2207.13298](http://arxiv.org/abs/2207.13298)|null|
 
-<p align=right>(<a href=#Updated-on-20240608>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240609>back to top</a>)</p>
 
 ## Inference
 
@@ -1694,13 +1694,13 @@
 |**2022-02-18**|**A Survey of Large-Scale Deep Learning Serving System Optimization: Challenges and Opportunities**|Fuxun Yu et.al.|[2111.14247](http://arxiv.org/abs/2111.14247)|null|
 |**2021-10-28**|**Characterizing and Taming Resolution in Convolutional Neural Networks**|Eddie Yan et.al.|[2110.14819](http://arxiv.org/abs/2110.14819)|null|
 
-<p align=right>(<a href=#Updated-on-20240608>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240609>back to top</a>)</p>
 
 ## Distributed Deep Learning
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2024-06-06**|**Seq1F1B: Efficient Sequence-Level Pipeline Parallelism for Large Language Model Training**|Ao Sun et.al.|[2406.03488](http://arxiv.org/abs/2406.03488)|null|
+|**2024-06-06**|**Seq1F1B: Efficient Sequence-Level Pipeline Parallelism for Large Language Model Training**|Ao Sun et.al.|[2406.03488](http://arxiv.org/abs/2406.03488)|**[link](https://github.com/maydomine/seq1f1b)**|
 |**2024-06-03**|**ACCO: Accumulate while you Communicate, Hiding Communications in Distributed LLM Training**|Adel Nabli et.al.|[2406.02613](http://arxiv.org/abs/2406.02613)|null|
 |**2024-06-03**|**Optimizing the Optimal Weighted Average: Efficient Distributed Sparse Classification**|Fred Lu et.al.|[2406.01753](http://arxiv.org/abs/2406.01753)|null|
 |**2024-06-01**|**Graph Neural Network Training Systems: A Performance Comparison of Full-Graph and Mini-Batch**|Saurabh Bajaj et.al.|[2406.00552](http://arxiv.org/abs/2406.00552)|null|
@@ -1862,16 +1862,16 @@
 |**2023-05-12**|**Dynamically Conservative Self-Driving Planner for Long-Tail Cases**|Weitao Zhou et.al.|[2305.07497](http://arxiv.org/abs/2305.07497)|null|
 |**2023-05-10**|**P4SGD: Programmable Switch Enhanced Model-Parallel Training on Generalized Linear Models on Distributed FPGAs**|Hongjing Huang et.al.|[2305.05885](http://arxiv.org/abs/2305.05885)|null|
 
-<p align=right>(<a href=#Updated-on-20240608>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240609>back to top</a>)</p>
 
 ## GNN System
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2024-06-06**|**On the Expressive Power of Spectral Invariant Graph Neural Networks**|Bohang Zhang et.al.|[2406.04336](http://arxiv.org/abs/2406.04336)|null|
+|**2024-06-06**|**On the Expressive Power of Spectral Invariant Graph Neural Networks**|Bohang Zhang et.al.|[2406.04336](http://arxiv.org/abs/2406.04336)|**[link](https://github.com/LingxiaoShawn/EPNN-Experiments)**|
 |**2024-06-06**|**NoisyGL: A Comprehensive Benchmark for Graph Neural Networks under Label Noise**|Zhonghao Wang et.al.|[2406.04299](http://arxiv.org/abs/2406.04299)|**[link](https://github.com/eaglelab-zju/noisygl)**|
 |**2024-06-06**|**Transformers need glasses! Information over-squashing in language tasks**|Federico Barbero et.al.|[2406.04267](http://arxiv.org/abs/2406.04267)|null|
-|**2024-06-06**|**Multivector Neurons: Better and Faster O(n)-Equivariant Clifford Graph Neural Networks**|Cong Liu et.al.|[2406.04052](http://arxiv.org/abs/2406.04052)|null|
+|**2024-06-06**|**Multivector Neurons: Better and Faster O(n)-Equivariant Clifford Graph Neural Networks**|Cong Liu et.al.|[2406.04052](http://arxiv.org/abs/2406.04052)|**[link](https://github.com/congliuUvA/Multivector-Neurons)**|
 |**2024-06-06**|**Energy-based Epistemic Uncertainty for Graph Neural Networks**|Dominik Fuchsgruber et.al.|[2406.04043](http://arxiv.org/abs/2406.04043)|null|
 |**2024-06-06**|**Exploiting Global Graph Homophily for Generalized Defense in Graph Neural Networks**|Duanyu Li et.al.|[2406.03833](http://arxiv.org/abs/2406.03833)|null|
 |**2024-06-06**|**BindGPT: A Scalable Framework for 3D Molecular Design via Language Modeling and Reinforcement Learning**|Artem Zholus et.al.|[2406.03686](http://arxiv.org/abs/2406.03686)|null|
@@ -3505,7 +3505,7 @@
 |**2023-06-11**|**Between-Sample Relationship in Learning Tabular Data Using Graph and Attention Networks**|Shourav B. Rabbani et.al.|[2306.06772](http://arxiv.org/abs/2306.06772)|null|
 |**2023-06-11**|**Local-to-global Perspectives on Graph Neural Networks**|Chen Cai et.al.|[2306.06547](http://arxiv.org/abs/2306.06547)|**[link](https://github.com/chen-cai-osu/mpnn-gt-connection)**|
 
-<p align=right>(<a href=#Updated-on-20240608>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20240609>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
