@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.06.10
+## Updated on 2024.06.11
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1678,7 +1678,7 @@ layout: default
 |**2024-06-06**|**Seq1F1B: Efficient Sequence-Level Pipeline Parallelism for Large Language Model Training**|Ao Sun et.al.|[2406.03488](http://arxiv.org/abs/2406.03488)|**[link](https://github.com/maydomine/seq1f1b)**|
 |**2024-06-03**|**ACCO: Accumulate while you Communicate, Hiding Communications in Distributed LLM Training**|Adel Nabli et.al.|[2406.02613](http://arxiv.org/abs/2406.02613)|null|
 |**2024-06-03**|**Optimizing the Optimal Weighted Average: Efficient Distributed Sparse Classification**|Fred Lu et.al.|[2406.01753](http://arxiv.org/abs/2406.01753)|null|
-|**2024-06-01**|**Graph Neural Network Training Systems: A Performance Comparison of Full-Graph and Mini-Batch**|Saurabh Bajaj et.al.|[2406.00552](http://arxiv.org/abs/2406.00552)|null|
+|**2024-06-08**|**Graph Neural Network Training Systems: A Performance Comparison of Full-Graph and Mini-Batch**|Saurabh Bajaj et.al.|[2406.00552](http://arxiv.org/abs/2406.00552)|null|
 |**2024-06-06**|**Communication-Efficient Distributed Deep Learning via Federated Dynamic Averaging**|Michail Theologitis et.al.|[2405.20988](http://arxiv.org/abs/2405.20988)|null|
 |**2024-05-27**|**WASH: Train your Ensemble with Communication-Efficient Weight Shuffling, then Average**|Louis Fournier et.al.|[2405.17517](http://arxiv.org/abs/2405.17517)|null|
 |**2024-05-25**|**HetHub: A Heterogeneous distributed hybrid training system for large-scale models**|Si Xu et.al.|[2405.16256](http://arxiv.org/abs/2405.16256)|null|
