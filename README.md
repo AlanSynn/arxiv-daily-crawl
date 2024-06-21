@@ -1429,7 +1429,7 @@
 |**2023-03-22**|**NeRF-GAN Distillation for Efficient 3D-Aware Generation with Convolutions**|Mohamad Shahbazi et.al.|[2303.12865](http://arxiv.org/abs/2303.12865)|**[link](https://github.com/mshahbazi72/nerf-gan-distillation)**|
 |**2023-03-22**|**SHERF: Generalizable Human NeRF from a Single Image**|Shoukang Hu et.al.|[2303.12791](http://arxiv.org/abs/2303.12791)|**[link](https://github.com/skhu101/sherf)**|
 |**2023-03-22**|**Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions**|Ayaan Haque et.al.|[2303.12789](http://arxiv.org/abs/2303.12789)|null|
-|**2023-03-22**|**FeatureNeRF: Learning Generalizable NeRFs by Distilling Foundation Models**|Jianglong Ye et.al.|[2303.12786](http://arxiv.org/abs/2303.12786)|null|
+|**2023-03-22**|**FeatureNeRF: Learning Generalizable NeRFs by Distilling Foundation Models**|Jianglong Ye et.al.|[2303.12786](http://arxiv.org/abs/2303.12786)|**[link](https://github.com/jianglongye/featurenerf)**|
 |**2023-03-22**|**Balanced Spherical Grid for Egocentric View Synthesis**|Changwoon Choi et.al.|[2303.12408](http://arxiv.org/abs/2303.12408)|**[link](https://github.com/changwoonchoi/EgoNeRF)**|
 |**2023-03-21**|**Pre-NeRF 360: Enriching Unbounded Appearances for Neural Radiance Fields**|Ahmad AlMughrabi et.al.|[2303.12234](http://arxiv.org/abs/2303.12234)|**[link](https://github.com/amughrabi/pre-nerf)**|
 |**2023-03-21**|**3D-CLFusion: Fast Text-to-3D Rendering with Contrastive Latent Diffusion**|Yu-Jhe Li et.al.|[2303.11938](http://arxiv.org/abs/2303.11938)|null|
@@ -1884,7 +1884,7 @@
 |**2024-06-17**|**STNAGNN: Spatiotemporal Node Attention Graph Neural Network for Task-based fMRI Analysis**|Jiyao Wang et.al.|[2406.12065](http://arxiv.org/abs/2406.12065)|null|
 |**2024-06-17**|**Composing Object Relations and Attributes for Image-Text Matching**|Khoi Pham et.al.|[2406.11820](http://arxiv.org/abs/2406.11820)|null|
 |**2024-06-17**|**Graph Neural Re-Ranking via Corpus Graph**|Andrea Giuseppe Di Francesco et.al.|[2406.11720](http://arxiv.org/abs/2406.11720)|null|
-|**2024-06-17**|**Scalable Expressiveness through Preprocessed Graph Perturbations**|Danial Saber et.al.|[2406.11714](http://arxiv.org/abs/2406.11714)|null|
+|**2024-06-17**|**Scalable Expressiveness through Preprocessed Graph Perturbations**|Danial Saber et.al.|[2406.11714](http://arxiv.org/abs/2406.11714)|**[link](https://github.com/Danial-sb/SE2P)**|
 |**2024-06-17**|**On the Feasibility of Fidelity $^-$ for Graph Pruning**|Yong-Min Shin et.al.|[2406.11504](http://arxiv.org/abs/2406.11504)|null|
 |**2024-06-17**|**Attention-Based Deep Reinforcement Learning for Qubit Allocation in Modular Quantum Architectures**|Enrico Russo et.al.|[2406.11452](http://arxiv.org/abs/2406.11452)|null|
 |**2024-06-17**|**Analysing the Behaviour of Tree-Based Neural Networks in Regression Tasks**|Peter Samoaa et.al.|[2406.11437](http://arxiv.org/abs/2406.11437)|**[link](https://github.com/petersamoaa/tree_based_nn_error_analysis)**|
@@ -1893,7 +1893,7 @@
 |**2024-06-16**|**Graph Neural Reaction Diffusion Models**|Moshe Eliasof et.al.|[2406.10871](http://arxiv.org/abs/2406.10871)|null|
 |**2024-06-16**|**Global-Local Graph Neural Networks for Node-Classification**|Moshe Eliasof et.al.|[2406.10863](http://arxiv.org/abs/2406.10863)|null|
 |**2024-06-14**|**Compressed Sensor Caching and Collaborative Sparse Data Recovery with Anchor Alignment**|Yi-Jen Yang et.al.|[2406.10137](http://arxiv.org/abs/2406.10137)|null|
-|**2024-06-14**|**Rule Based Learning with Dynamic (Graph) Neural Networks**|Florian Seiffarth et.al.|[2406.09954](http://arxiv.org/abs/2406.09954)|null|
+|**2024-06-14**|**Rule Based Learning with Dynamic (Graph) Neural Networks**|Florian Seiffarth et.al.|[2406.09954](http://arxiv.org/abs/2406.09954)|**[link](https://github.com/fseiffarth/gnn-comparison)**|
 |**2024-06-14**|**IGL-Bench: Establishing the Comprehensive Benchmark for Imbalanced Graph Learning**|Jiawen Qin et.al.|[2406.09870](http://arxiv.org/abs/2406.09870)|**[link](https://github.com/ringbdstack/igl-bench)**|
 |**2024-06-14**|**Robustness-Inspired Defense Against Backdoor Attacks on Graph Neural Networks**|Zhiwei Zhang et.al.|[2406.09836](http://arxiv.org/abs/2406.09836)|null|
 |**2024-06-14**|**Benchmarking Spectral Graph Neural Networks: A Comprehensive Study on Effectiveness and Efficiency**|Ningyi Liao et.al.|[2406.09675](http://arxiv.org/abs/2406.09675)|**[link](https://github.com/gdmnl/spectral-gnn-benchmark)**|
@@ -1914,7 +1914,7 @@
 |**2024-06-12**|**Conformal Load Prediction with Transductive Graph Autoencoders**|Rui Luo et.al.|[2406.08281](http://arxiv.org/abs/2406.08281)|null|
 |**2024-06-12**|**Expressivity and Generalization: Fragment-Biases for Molecular GNNs**|Tom Wollschläger et.al.|[2406.08210](http://arxiv.org/abs/2406.08210)|null|
 |**2024-06-12**|**Balancing Molecular Information and Empirical Data in the Prediction of Physico-Chemical Properties**|Johannes Zenn et.al.|[2406.08075](http://arxiv.org/abs/2406.08075)|**[link](https://github.com/jzenn/gnn-mcm)**|
-|**2024-06-12**|**Heuristic Learning with Graph Neural Networks: A Unified Framework for Link Prediction**|Juzhen Zhang et.al.|[2406.07979](http://arxiv.org/abs/2406.07979)|null|
+|**2024-06-12**|**Heuristic Learning with Graph Neural Networks: A Unified Framework for Link Prediction**|Juzhen Zhang et.al.|[2406.07979](http://arxiv.org/abs/2406.07979)|**[link](https://github.com/LARS-research/HL-GNN)**|
 |**2024-06-12**|**How Interpretable Are Interpretable Graph Neural Networks?**|Yongqiang Chen et.al.|[2406.07955](http://arxiv.org/abs/2406.07955)|**[link](https://github.com/LFhase/GMT)**|
 |**2024-06-12**|**Graph Transductive Defense: a Two-Stage Defense for Graph Membership Inference Attacks**|Peizhi Niu et.al.|[2406.07917](http://arxiv.org/abs/2406.07917)|null|
 |**2024-06-11**|**Graph Reasoning for Explainable Cold Start Recommendation**|Jibril Frej et.al.|[2406.07420](http://arxiv.org/abs/2406.07420)|null|
@@ -2527,7 +2527,7 @@
 |**2024-02-11**|**Large-Language-Model Empowered Dose Volume Histogram Prediction for Intensity Modulated Radiotherapy**|Zehao Dong et.al.|[2402.07167](http://arxiv.org/abs/2402.07167)|null|
 |**2024-02-11**|**Explainable Global Wildfire Prediction Models using Graph Neural Networks**|Dayou Chen et.al.|[2402.07152](http://arxiv.org/abs/2402.07152)|**[link](https://github.com/dl-wg/gcn-lstm-wildfire)**|
 |**2024-02-11**|**Rethinking the Capacity of Graph Neural Networks for Branching Strategy**|Ziang Chen et.al.|[2402.07099](http://arxiv.org/abs/2402.07099)|null|
-|**2024-02-10**|**Generalization Error of Graph Neural Networks in the Mean-field Regime**|Gholamali Aminian et.al.|[2402.07025](http://arxiv.org/abs/2402.07025)|null|
+|**2024-02-10**|**Generalization Error of Graph Neural Networks in the Mean-field Regime**|Gholamali Aminian et.al.|[2402.07025](http://arxiv.org/abs/2402.07025)|**[link](https://github.com/sherylhyx/gnn_mf_ge)**|
 |**2024-02-09**|**Deceptive Path Planning via Reinforcement Learning with Graph Neural Networks**|Michael Y. Fatemi et.al.|[2402.06552](http://arxiv.org/abs/2402.06552)|**[link](https://github.com/myfatemi04/rl-deceptive-graph-planning)**|
 |**2024-02-09**|**The Deep Equilibrium Algorithmic Reasoner**|Dobrik Georgiev et.al.|[2402.06445](http://arxiv.org/abs/2402.06445)|null|
 |**2024-02-09**|**Neural SPH: Improved Neural Modeling of Lagrangian Fluid Dynamics**|Artur P. Toshev et.al.|[2402.06275](http://arxiv.org/abs/2402.06275)|**[link](https://github.com/tumaer/neuralsph)**|
@@ -2698,7 +2698,7 @@
 |**2024-01-05**|**Homophily-Related: Adaptive Hybrid Graph Filter for Multi-View Graph Clustering**|Zichen Wen et.al.|[2401.02682](http://arxiv.org/abs/2401.02682)|null|
 |**2024-01-05**|**A backdoor attack against link prediction tasks with graph neural networks**|Jiazhu Dai et.al.|[2401.02663](http://arxiv.org/abs/2401.02663)|null|
 |**2024-01-04**|**A Community Detection and Graph Neural Network Based Link Prediction Approach for Scientific Literature**|Chunjiang Liu et.al.|[2401.02542](http://arxiv.org/abs/2401.02542)|null|
-|**2024-01-04**|**Detection and Discovery of Misinformation Sources using Attributed Webgraphs**|Peter Carragher et.al.|[2401.02379](http://arxiv.org/abs/2401.02379)|null|
+|**2024-01-04**|**Detection and Discovery of Misinformation Sources using Attributed Webgraphs**|Peter Carragher et.al.|[2401.02379](http://arxiv.org/abs/2401.02379)|**[link](https://github.com/CASOS-IDeaS-CMU/Detection-and-Discovery-of-Misinformation-Sources)**|
 |**2024-01-04**|**Path-based Explanation for Knowledge Graph Completion**|Heng Chang et.al.|[2401.02290](http://arxiv.org/abs/2401.02290)|null|
 |**2024-01-04**|**Graph Neural Networks for Tabular Data Learning: A Survey with Taxonomy and Directions**|Cheng-Te Li et.al.|[2401.02143](http://arxiv.org/abs/2401.02143)|**[link](https://github.com/roytsai27/awesome-gnn4tdl)**|
 |**2024-01-04**|**Spectral-based Graph Neutral Networks for Complementary Item Recommendation**|Haitong Luo et.al.|[2401.02130](http://arxiv.org/abs/2401.02130)|null|
@@ -3515,7 +3515,7 @@
 |**2023-06-28**|**Graph Interpolation via Fast Fused-Gromovization**|Xinyu Ma et.al.|[2306.15963](http://arxiv.org/abs/2306.15963)|**[link](https://github.com/arthurleom/fgwmixup)**|
 |**2023-06-28**|**Learning Dynamic Graphs from All Contextual Information for Accurate Point-of-Interest Visit Forecasting**|Arash Hajisafi et.al.|[2306.15927](http://arxiv.org/abs/2306.15927)|null|
 |**2023-06-28**|**Hierarchical Graph Neural Networks for Proprioceptive 6D Pose Estimation of In-hand Objects**|Alireza Rezazadeh et.al.|[2306.15858](http://arxiv.org/abs/2306.15858)|null|
-|**2023-06-27**|**Physics-inspired spatiotemporal-graph AI ensemble for gravitational wave detection**|Minyang Tian et.al.|[2306.15728](http://arxiv.org/abs/2306.15728)|null|
+|**2023-06-27**|**Physics-inspired spatiotemporal-graph AI ensemble for gravitational wave detection**|Minyang Tian et.al.|[2306.15728](http://arxiv.org/abs/2306.15728)|**[link](https://github.com/mtian8/gw_spatiotemporal_gnn)**|
 |**2023-06-28**|**Asynchronous Algorithmic Alignment with Cocycles**|Andrew Dudzik et.al.|[2306.15632](http://arxiv.org/abs/2306.15632)|null|
 |**2023-06-27**|**Higher-order Graph Attention Network for Stock Selection with Joint Analysis**|Yang Qiao et.al.|[2306.15526](http://arxiv.org/abs/2306.15526)|null|
 |**2023-06-27**|**Adversarial Training for Graph Neural Networks**|Lukas Gosch et.al.|[2306.15427](http://arxiv.org/abs/2306.15427)|null|
