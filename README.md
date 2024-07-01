@@ -1702,6 +1702,8 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-06-28**|**FRED: Flexible REduction-Distribution Interconnect and Communication Implementation for Wafer-Scale Distributed Training of DNN Models**|Saeed Rashidi et.al.|[2406.19580](http://arxiv.org/abs/2406.19580)|null|
+|**2024-06-26**|**A Quantization-based Technique for Privacy Preserving Distributed Learning**|Maurizio Colombo et.al.|[2406.19418](http://arxiv.org/abs/2406.19418)|null|
 |**2024-06-28**|**Universal Checkpointing: Efficient and Flexible Checkpointing for Large Scale Distributed Training**|Xinyu Lian et.al.|[2406.18820](http://arxiv.org/abs/2406.18820)|null|
 |**2024-06-26**|**Mixture of Experts in a Mixture of RL settings**|Timon Willi et.al.|[2406.18420](http://arxiv.org/abs/2406.18420)|null|
 |**2024-06-25**|**Distributed Training of Large Graph Neural Networks with Variable Communication Rates**|Juan Cervino et.al.|[2406.17611](http://arxiv.org/abs/2406.17611)|null|
@@ -1878,6 +1880,8 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-06-28**|**Modeling the Real World with High-Density Visual Particle Dynamics**|William F. Whitney et.al.|[2406.19800](http://arxiv.org/abs/2406.19800)|null|
+|**2024-06-28**|**SPIRONet: Spatial-Frequency Learning and Topological Channel Interaction Network for Vessel Segmentation**|De-Xing Huang et.al.|[2406.19749](http://arxiv.org/abs/2406.19749)|**[link](https://github.com/dxhuang-casia/spironet)**|
 |**2024-06-27**|**Leveraging Contrastive Learning for Enhanced Node Representations in Tokenized Graph Transformers**|Jinsong Chen et.al.|[2406.19258](http://arxiv.org/abs/2406.19258)|null|
 |**2024-06-27**|**NTFormer: A Composite Node Tokenized Graph Transformer for Node Classification**|Jinsong Chen et.al.|[2406.19249](http://arxiv.org/abs/2406.19249)|null|
 |**2024-06-27**|**Improving the Expressiveness of $K$ -hop Message-Passing GNNs by Injecting Contextualized Substructure Information**|Tianjun Yao et.al.|[2406.19244](http://arxiv.org/abs/2406.19244)|**[link](https://github.com/tianyao-aka/expresive_k_hop_gnns)**|
