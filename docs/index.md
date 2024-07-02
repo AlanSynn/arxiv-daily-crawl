@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.07.01
+## Updated on 2024.07.02
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1861,7 +1861,7 @@ layout: default
 |**2024-06-27**|**Heterogeneous Causal Metapath Graph Neural Network for Gene-Microbe-Disease Association Prediction**|Kexin Zhang et.al.|[2406.19156](http://arxiv.org/abs/2406.19156)|null|
 |**2024-06-27**|**Constructing and Analyzing Different Density Graphs for Path Extrapolation in Wikipedia**|Martha Sotiroudi et.al.|[2406.19039](http://arxiv.org/abs/2406.19039)|null|
 |**2024-06-27**|**Amplify Graph Learning for Recommendation via Sparsity Completion**|Peng Yuan et.al.|[2406.18984](http://arxiv.org/abs/2406.18984)|**[link](https://github.com/yp8976/AGL_SC)**|
-|**2024-06-27**|**Federated Graph Semantic and Structural Learning**|Wenke Huang et.al.|[2406.18937](http://arxiv.org/abs/2406.18937)|**[link](https://github.com/guanchengwan/fgssl)**|
+|**2024-06-29**|**Federated Graph Semantic and Structural Learning**|Wenke Huang et.al.|[2406.18937](http://arxiv.org/abs/2406.18937)|**[link](https://github.com/guanchengwan/fgssl)**|
 |**2024-06-27**|**What Is Missing In Homophily? Disentangling Graph Homophily For Graph Neural Networks**|Yilun Zheng et.al.|[2406.18854](http://arxiv.org/abs/2406.18854)|**[link](https://github.com/zylmozart/disentangle_graphhom)**|
 |**2024-06-27**|**Retain, Blend, and Exchange: A Quality-aware Spatial-Stereo Fusion Approach for Event Stream Recognition**|Lan Chen et.al.|[2406.18845](http://arxiv.org/abs/2406.18845)|**[link](https://github.com/event-ahu/efv_event_classification)**|
 |**2024-06-27**|**MissionGNN: Hierarchical Multimodal GNN-based Weakly Supervised Video Anomaly Recognition with Mission-Specific Knowledge Graph Generation**|Sanggeon Yun et.al.|[2406.18815](http://arxiv.org/abs/2406.18815)|null|
