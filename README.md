@@ -302,7 +302,7 @@
 |**2022-04-11**|**Optimized SC-F-LOAM: Optimized Fast LiDAR Odometry and Mapping Using Scan Context**|Lizhou Liao et.al.|[2204.04932](http://arxiv.org/abs/2204.04932)|**[link](https://github.com/SlamCabbage/Optimized-SC-F-LOAM)**|
 |**2022-04-04**|**Monitoring social distancing with single image depth estimation**|Alessio Mingozzi et.al.|[2204.01693](http://arxiv.org/abs/2204.01693)|null|
 |**2022-04-01**|**Bi-directional Loop Closure for Visual SLAM**|Ihtisham Ali et.al.|[2204.01524](http://arxiv.org/abs/2204.01524)|null|
-|**2022-04-04**|**IMOT: General-Purpose, Fast and Robust Estimation for Spatial Perception Problems with Outliers**|Lei Sun et.al.|[2204.01324](http://arxiv.org/abs/2204.01324)|null|
+|**2022-04-04**|**IMOT: General-Purpose, Fast and Robust Estimation for Spatial Perception Problems with Outliers**|Lei Sun et.al.|[2204.01324](http://arxiv.org/abs/2204.01324)|**[link](https://github.com/leisun-98/tivm-master)**|
 |**2022-04-03**|**Indoor Navigation Assistance for Visually Impaired People via Dynamic SLAM and Panoptic Segmentation with an RGB-D Sensor**|Wenyan Ou et.al.|[2204.01154](http://arxiv.org/abs/2204.01154)|null|
 |**2022-04-02**|**UrbanFly: Uncertainty-Aware Planning for Navigation Amongst High-Rises with Monocular Visual-Inertial SLAM Maps**|Ayyappa Swamy Thatavarthy et.al.|[2204.00865](http://arxiv.org/abs/2204.00865)|**[link](https://github.com/sudarshan-s-harithas/urbanfly)**|
 |**2022-03-31**|**Curiosity Driven Self-supervised Tactile Exploration of Unknown Objects**|Yujie Lu et.al.|[2204.00035](http://arxiv.org/abs/2204.00035)|null|
@@ -1915,7 +1915,7 @@
 |**2024-06-26**|**KAGNNs: Kolmogorov-Arnold Networks meet Graph Learning**|Roman Bresson et.al.|[2406.18380](http://arxiv.org/abs/2406.18380)|**[link](https://github.com/RomanBresson/KAGNN)**|
 |**2024-06-26**|**Kolmogorov-Arnold Graph Neural Networks**|Gianluca De Carlo et.al.|[2406.18354](http://arxiv.org/abs/2406.18354)|null|
 |**2024-06-26**|**ContactNet: Geometric-Based Deep Learning Model for Predicting Protein-Protein Interactions**|Matan Halfon et.al.|[2406.18314](http://arxiv.org/abs/2406.18314)|null|
-|**2024-06-25**|**Efficient and Effective Implicit Dynamic Graph Neural Network**|Yongjian Zhong et.al.|[2406.17894](http://arxiv.org/abs/2406.17894)|null|
+|**2024-06-25**|**Efficient and Effective Implicit Dynamic Graph Neural Network**|Yongjian Zhong et.al.|[2406.17894](http://arxiv.org/abs/2406.17894)|**[link](https://github.com/yongjian16/IDGNN)**|
 |**2024-06-25**|**Compositional Models for Estimating Causal Effects**|Purva Pruthi et.al.|[2406.17714](http://arxiv.org/abs/2406.17714)|null|
 |**2024-06-25**|**Distributed Training of Large Graph Neural Networks with Variable Communication Rates**|Juan Cervino et.al.|[2406.17611](http://arxiv.org/abs/2406.17611)|null|
 |**2024-06-25**|**Joint Admission Control and Resource Allocation of Virtual Network Embedding via Hierarchical Deep Reinforcement Learning**|Tianfu Wang et.al.|[2406.17334](http://arxiv.org/abs/2406.17334)|**[link](https://github.com/geminilight/hrl-acra)**|
@@ -1924,7 +1924,7 @@
 |**2024-06-24**|**Meta-GCN: A Dynamically Weighted Loss Minimization Method for Dealing with the Data Imbalance in Graph Neural Networks**|Mahdi Mohammadizadeh et.al.|[2406.17073](http://arxiv.org/abs/2406.17073)|null|
 |**2024-06-24**|**GC-Bench: A Benchmark Framework for Graph Condensation with New Insights**|Shengbo Gong et.al.|[2406.16715](http://arxiv.org/abs/2406.16715)|**[link](https://github.com/emory-melody/graphslim)**|
 |**2024-06-24**|**Link Prediction with Untrained Message Passing Layers**|Lisi Qarkaxhija et.al.|[2406.16687](http://arxiv.org/abs/2406.16687)|null|
-|**2024-06-24**|**Ensemble-Embedding Graph Neural Network for Direct Prediction of Optical Spectra from Crystal Structure**|Nguyen Tuan Hung et.al.|[2406.16654](http://arxiv.org/abs/2406.16654)|null|
+|**2024-06-24**|**Ensemble-Embedding Graph Neural Network for Direct Prediction of Optical Spectra from Crystal Structure**|Nguyen Tuan Hung et.al.|[2406.16654](http://arxiv.org/abs/2406.16654)|**[link](https://github.com/nguyen-group/GNNOpt)**|
 |**2024-06-24**|**Inference of Sequential Patterns for Neural Message Passing in Temporal Graphs**|Jan von Pichowski et.al.|[2406.16552](http://arxiv.org/abs/2406.16552)|null|
 |**2024-06-24**|**Towards Lightweight Graph Neural Network Search with Curriculum Graph Sparsification**|Beini Xie et.al.|[2406.16357](http://arxiv.org/abs/2406.16357)|null|
 |**2024-06-24**|**Multimodal Graph Benchmark**|Jing Zhu et.al.|[2406.16321](http://arxiv.org/abs/2406.16321)|**[link](https://github.com/mm-graph-benchmark/mm-graph-benchmark)**|
@@ -2692,7 +2692,7 @@
 |**2024-01-25**|**A Survey of Deep Learning and Foundation Models for Time Series Forecasting**|John A. Miller et.al.|[2401.13912](http://arxiv.org/abs/2401.13912)|null|
 |**2024-01-25**|**Edge Conditional Node Update Graph Neural Network for Multi-variate Time Series Anomaly Detection**|Hayoung Jo et.al.|[2401.13872](http://arxiv.org/abs/2401.13872)|null|
 |**2024-01-24**|**Multitask Active Learning for Graph Anomaly Detection**|Wenjing Chang et.al.|[2401.13210](http://arxiv.org/abs/2401.13210)|**[link](https://github.com/ahachang/mitigate)**|
-|**2024-01-24**|**Topology-aware Embedding Memory for Learning on Expanding Graphs**|Xikun Zhang et.al.|[2401.13200](http://arxiv.org/abs/2401.13200)|null|
+|**2024-01-24**|**Topology-aware Embedding Memory for Learning on Expanding Graphs**|Xikun Zhang et.al.|[2401.13200](http://arxiv.org/abs/2401.13200)|**[link](https://github.com/imzhangxikun/pdgnns)**|
 |**2024-01-23**|**Probabilistic Demand Forecasting with Graph Neural Networks**|Nikita Kozodoi et.al.|[2401.13096](http://arxiv.org/abs/2401.13096)|null|
 |**2024-01-23**|**Truck Parking Usage Prediction with Decomposed Graph Neural Networks**|Rei Tamaru et.al.|[2401.12920](http://arxiv.org/abs/2401.12920)|null|
 |**2024-01-23**|**Overlap-aware End-to-End Supervised Hierarchical Graph Clustering for Speaker Diarization**|Prachi Singh et.al.|[2401.12850](http://arxiv.org/abs/2401.12850)|null|
