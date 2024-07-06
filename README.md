@@ -1702,14 +1702,14 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2024-07-02**|**QSync: Quantization-Minimized Synchronous Distributed Training Across Hybrid Devices**|Juntao Zhao et.al.|[2407.02327](http://arxiv.org/abs/2407.02327)|null|
+|**2024-07-02**|**QSync: Quantization-Minimized Synchronous Distributed Training Across Hybrid Devices**|Juntao Zhao et.al.|[2407.02327](http://arxiv.org/abs/2407.02327)|**[link](https://github.com/bytedance/QSync)**|
 |**2024-07-02**|**On the Performance and Memory Footprint of Distributed Training: An Empirical Study on Transformers**|Zhengxian Lu et.al.|[2407.02081](http://arxiv.org/abs/2407.02081)|null|
 |**2024-06-28**|**Enhancing Stability for Large Models Training in Constrained Bandwidth Networks**|Yun Dai et.al.|[2407.01614](http://arxiv.org/abs/2407.01614)|null|
 |**2024-07-01**|**DistML.js: Installation-free Distributed Deep Learning Framework for Web Browsers**|Masatoshi Hidaka et.al.|[2407.01023](http://arxiv.org/abs/2407.01023)|**[link](https://github.com/mil-tokyo/distmljs)**|
 |**2024-06-30**|**Challenging the Need for Packet Spraying in Large-Scale Distributed Training**|Vamsi Addanki et.al.|[2407.00550](http://arxiv.org/abs/2407.00550)|null|
 |**2024-06-28**|**FRED: Flexible REduction-Distribution Interconnect and Communication Implementation for Wafer-Scale Distributed Training of DNN Models**|Saeed Rashidi et.al.|[2406.19580](http://arxiv.org/abs/2406.19580)|null|
 |**2024-06-26**|**A Quantization-based Technique for Privacy Preserving Distributed Learning**|Maurizio Colombo et.al.|[2406.19418](http://arxiv.org/abs/2406.19418)|null|
-|**2024-06-28**|**Universal Checkpointing: Efficient and Flexible Checkpointing for Large Scale Distributed Training**|Xinyu Lian et.al.|[2406.18820](http://arxiv.org/abs/2406.18820)|null|
+|**2024-06-28**|**Universal Checkpointing: Efficient and Flexible Checkpointing for Large Scale Distributed Training**|Xinyu Lian et.al.|[2406.18820](http://arxiv.org/abs/2406.18820)|**[link](https://github.com/microsoft/DeepSpeed)**|
 |**2024-06-26**|**Mixture of Experts in a Mixture of RL settings**|Timon Willi et.al.|[2406.18420](http://arxiv.org/abs/2406.18420)|null|
 |**2024-06-25**|**Distributed Training of Large Graph Neural Networks with Variable Communication Rates**|Juan Cervino et.al.|[2406.17611](http://arxiv.org/abs/2406.17611)|null|
 |**2024-06-21**|**Embracing Federated Learning: Enabling Weak Client Participation via Partial Model Training**|Sunwoo Lee et.al.|[2406.15125](http://arxiv.org/abs/2406.15125)|null|
@@ -1885,13 +1885,13 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2024-07-03**|**MHNet: Multi-view High-order Network for Diagnosing Neurodevelopmental Disorders Using Resting-state fMRI**|Yueyang Li et.al.|[2407.03217](http://arxiv.org/abs/2407.03217)|null|
+|**2024-07-03**|**MHNet: Multi-view High-order Network for Diagnosing Neurodevelopmental Disorders Using Resting-state fMRI**|Yueyang Li et.al.|[2407.03217](http://arxiv.org/abs/2407.03217)|**[link](https://github.com/wayfear/brainnetworktransformer)**|
 |**2024-07-03**|**Foundations and Frontiers of Graph Learning Theory**|Yu Huang et.al.|[2407.03125](http://arxiv.org/abs/2407.03125)|null|
 |**2024-07-03**|**SF-GNN: Self Filter for Message Lossless Propagation in Deep Graph Neural Network**|Yushan Zhu et.al.|[2407.02762](http://arxiv.org/abs/2407.02762)|null|
 |**2024-07-02**|**Holistically-Nested Structure-Aware Graph Neural Network for Road Extraction**|Tinghuai Wang et.al.|[2407.02639](http://arxiv.org/abs/2407.02639)|null|
 |**2024-07-02**|**On the Robustness of Graph Reduction Against GNN Backdoor**|Yuxuan Zhu et.al.|[2407.02431](http://arxiv.org/abs/2407.02431)|null|
 |**2024-07-02**|**Structure-Aware Consensus Network on Graphs with Few Labeled Nodes**|Shuaike Xu et.al.|[2407.02188](http://arxiv.org/abs/2407.02188)|null|
-|**2024-07-02**|**Counterfactual Data Augmentation with Denoising Diffusion for Graph Anomaly Detection**|Chunjing Xiao et.al.|[2407.02143](http://arxiv.org/abs/2407.02143)|null|
+|**2024-07-02**|**Counterfactual Data Augmentation with Denoising Diffusion for Graph Anomaly Detection**|Chunjing Xiao et.al.|[2407.02143](http://arxiv.org/abs/2407.02143)|**[link](https://github.com/ChunjingXiao/CAGAD)**|
 |**2024-07-02**|**CGAP: Urban Region Representation Learning with Coarsened Graph Attention Pooling**|Zhuo Xu et.al.|[2407.02074](http://arxiv.org/abs/2407.02074)|null|
 |**2024-07-02**|**HC-GLAD: Dual Hyperbolic Contrastive Learning for Unsupervised Graph-Level Anomaly Detection**|Yali Fu et.al.|[2407.02057](http://arxiv.org/abs/2407.02057)|**[link](https://github.com/yali-f/hc-glad)**|
 |**2024-07-02**|**DiGRAF: Diffeomorphic Graph-Adaptive Activation Function**|Krishna Sri Ipsit Mantri et.al.|[2407.02013](http://arxiv.org/abs/2407.02013)|null|
