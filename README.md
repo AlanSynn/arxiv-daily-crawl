@@ -1669,7 +1669,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2024-07-04**|**Loki: A System for Serving ML Inference Pipelines with Hardware and Accuracy Scaling**|Sohaib Ahmad et.al.|[2407.03583](http://arxiv.org/abs/2407.03583)|null|
+|**2024-07-04**|**Loki: A System for Serving ML Inference Pipelines with Hardware and Accuracy Scaling**|Sohaib Ahmad et.al.|[2407.03583](http://arxiv.org/abs/2407.03583)|**[link](https://github.com/UMass-LIDS/Loki)**|
 |**2024-06-20**|**CascadeServe: Unlocking Model Cascades for Inference Serving**|Ferdi Kossmann et.al.|[2406.14424](http://arxiv.org/abs/2406.14424)|null|
 |**2024-06-11**|**ElasticRec: A Microservice-based Model Serving Architecture Enabling Elastic Resource Scaling for Recommendation Models**|Yujeong Choi et.al.|[2406.06955](http://arxiv.org/abs/2406.06955)|null|
 |**2024-06-05**|**Llumnix: Dynamic Scheduling for Large Language Model Serving**|Biao Sun et.al.|[2406.03243](http://arxiv.org/abs/2406.03243)|**[link](https://github.com/alibabapai/llumnix)**|
@@ -1703,7 +1703,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2024-07-08**|**High-Dimensional Distributed Sparse Classification with Scalable Communication-Efficient Global Updates**|Fred Lu et.al.|[2407.06346](http://arxiv.org/abs/2407.06346)|null|
+|**2024-07-08**|**High-Dimensional Distributed Sparse Classification with Scalable Communication-Efficient Global Updates**|Fred Lu et.al.|[2407.06346](http://arxiv.org/abs/2407.06346)|**[link](https://github.com/futurecomputing4ai/proxcsl)**|
 |**2024-07-08**|**Hecaton: Training and Finetuning Large Language Models with Scalable Chiplet Systems**|Zongle Huang et.al.|[2407.05784](http://arxiv.org/abs/2407.05784)|null|
 |**2024-07-02**|**QSync: Quantization-Minimized Synchronous Distributed Training Across Hybrid Devices**|Juntao Zhao et.al.|[2407.02327](http://arxiv.org/abs/2407.02327)|**[link](https://github.com/bytedance/QSync)**|
 |**2024-07-02**|**On the Performance and Memory Footprint of Distributed Training: An Empirical Study on Transformers**|Zhengxian Lu et.al.|[2407.02081](http://arxiv.org/abs/2407.02081)|null|
@@ -1888,6 +1888,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-07-15**|**Provable Robustness of (Graph) Neural Networks Against Data Poisoning and Backdoor Attacks**|Lukas Gosch et.al.|[2407.10867](http://arxiv.org/abs/2407.10867)|null|
+|**2024-07-15**|**Rotationally Invariant Latent Distances for Uncertainty Estimation of Relaxed Energy Predictions by Graph Neural Network Potentials**|Joseph Musielewicz et.al.|[2407.10844](http://arxiv.org/abs/2407.10844)|null|
+|**2024-07-15**|**Probability Passing for Graph Neural Networks: Graph Structure and Representations Joint Learning**|Ziyan Wang et.al.|[2407.10688](http://arxiv.org/abs/2407.10688)|null|
+|**2024-07-15**|**Automated Label Unification for Multi-Dataset Semantic Segmentation with GNNs**|Rong Ma et.al.|[2407.10534](http://arxiv.org/abs/2407.10534)|null|
+|**2024-07-15**|**Predicting doping strategies for ternary nickel-cobalt-manganese cathode materials to enhance battery performance using graph neural networks**|Zirui Zhao et.al.|[2407.10458](http://arxiv.org/abs/2407.10458)|null|
+|**2024-07-15**|**Expanding the Scope: Inductive Knowledge Graph Reasoning with Multi-Starting Progressive Propagation**|Zhoutian Shao et.al.|[2407.10430](http://arxiv.org/abs/2407.10430)|**[link](https://github.com/nju-websoft/mstar)**|
+|**2024-07-14**|**Toward Explainable Reasoning in 6G: A Proof of Concept Study on Radio Resource Allocation**|Farhad Rezazadeh et.al.|[2407.10186](http://arxiv.org/abs/2407.10186)|null|
+|**2024-07-14**|**Warming Up Cold-Start CTR Prediction by Learning Item-Specific Feature Interactions**|Yaqing Wang et.al.|[2407.10112](http://arxiv.org/abs/2407.10112)|null|
+|**2024-07-13**|**Biased Backpressure Routing Using Link Features and Graph Neural Networks**|Zhongyuan Zhao et.al.|[2407.09753](http://arxiv.org/abs/2407.09753)|null|
+|**2024-07-12**|**The Heterophilic Graph Learning Handbook: Benchmarks, Models, Theoretical Analysis, Applications and Challenges**|Sitao Luan et.al.|[2407.09618](http://arxiv.org/abs/2407.09618)|null|
 |**2024-07-12**|**The $μ\mathcal{G}$ Language for Programming Graph Neural Networks**|Matteo Belenchia et.al.|[2407.09441](http://arxiv.org/abs/2407.09441)|null|
 |**2024-07-12**|**A Perspective on Foundation Models for the Electric Power Grid**|Hendrik F. Hamann et.al.|[2407.09434](http://arxiv.org/abs/2407.09434)|null|
 |**2024-07-12**|**The Effectiveness of Curvature-Based Rewiring and the Role of Hyperparameters in GNNs Revisited**|Floriano Tori et.al.|[2407.09381](http://arxiv.org/abs/2407.09381)|null|
