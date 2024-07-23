@@ -1669,6 +1669,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-07-20**|**A Tale of Two Scales: Reconciling Horizontal and Vertical Scaling for Inference Serving Systems**|Kamran Razavi et.al.|[2407.14843](http://arxiv.org/abs/2407.14843)|null|
 |**2024-07-17**|**LLM Inference Serving: Survey of Recent Advances and Opportunities**|Baolin Li et.al.|[2407.12391](http://arxiv.org/abs/2407.12391)|null|
 |**2024-07-04**|**Loki: A System for Serving ML Inference Pipelines with Hardware and Accuracy Scaling**|Sohaib Ahmad et.al.|[2407.03583](http://arxiv.org/abs/2407.03583)|**[link](https://github.com/UMass-LIDS/Loki)**|
 |**2024-06-20**|**CascadeServe: Unlocking Model Cascades for Inference Serving**|Ferdi Kossmann et.al.|[2406.14424](http://arxiv.org/abs/2406.14424)|null|
@@ -1704,6 +1705,11 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-07-22**|**Parallel Split Learning with Global Sampling**|Mohammad Kohankhaki et.al.|[2407.15738](http://arxiv.org/abs/2407.15738)|null|
+|**2024-07-22**|**GraphScale: A Framework to Enable Machine Learning over Billion-node Graphs**|Vipul Gupta et.al.|[2407.15452](http://arxiv.org/abs/2407.15452)|null|
+|**2024-07-21**|**STrack: A Reliable Multipath Transport for AI/ML Clusters**|Yanfang Le et.al.|[2407.15266](http://arxiv.org/abs/2407.15266)|null|
+|**2024-07-20**|**Latent Pollution Model: The Hidden Carbon Footprint in 3D Image Synthesis**|Marvin Seyfarth et.al.|[2407.14892](http://arxiv.org/abs/2407.14892)|null|
+|**2024-07-19**|**Performance Modeling and Workload Analysis of Distributed Large Language Model Training and Inference**|Joyjit Kundu et.al.|[2407.14645](http://arxiv.org/abs/2407.14645)|null|
 |**2024-07-01**|**A Look Into Training Large Language Models on Next Generation Datacenters**|Alexandru M. Gherghescu et.al.|[2407.12819](http://arxiv.org/abs/2407.12819)|null|
 |**2024-07-18**|**Characterizing and Understanding HGNN Training on GPUs**|Dengke Han et.al.|[2407.11790](http://arxiv.org/abs/2407.11790)|null|
 |**2024-07-14**|**SpreadFGL: Edge-Client Collaborative Federated Graph Learning with Adaptive Neighbor Generation**|Luying Zhong et.al.|[2407.11085](http://arxiv.org/abs/2407.11085)|null|
@@ -1892,6 +1898,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-07-22**|**Link Polarity Prediction from Sparse and Noisy Labels via Multiscale Social Balance**|Marco Minici et.al.|[2407.15643](http://arxiv.org/abs/2407.15643)|null|
+|**2024-07-22**|**Large-scale Time-Varying Portfolio Optimisation using Graph Attention Networks**|Kamesh Korangi et.al.|[2407.15532](http://arxiv.org/abs/2407.15532)|null|
+|**2024-07-22**|**GraphScale: A Framework to Enable Machine Learning over Billion-node Graphs**|Vipul Gupta et.al.|[2407.15452](http://arxiv.org/abs/2407.15452)|null|
+|**2024-07-22**|**Pre-Training and Prompting for Few-Shot Node Classification on Text-Attributed Graphs**|Huanjing Zhao et.al.|[2407.15431](http://arxiv.org/abs/2407.15431)|null|
+|**2024-07-22**|**LLMExplainer: Large Language Model based Bayesian Inference for Graph Explanation Generation**|Jiaxing Zhang et.al.|[2407.15351](http://arxiv.org/abs/2407.15351)|null|
+|**2024-07-21**|**Revisiting Neighborhood Aggregation in Graph Neural Networks for Node Classification using Statistical Signal Processing**|Mounir Ghogho et.al.|[2407.15284](http://arxiv.org/abs/2407.15284)|null|
+|**2024-07-21**|**LSM-GNN: Large-scale Storage-based Multi-GPU GNN Training by Optimizing Data Transfer Scheme**|Jeongmin Brian Park et.al.|[2407.15264](http://arxiv.org/abs/2407.15264)|null|
+|**2024-07-21**|**A Spatio-Temporal Approach with Self-Corrective Causal Inference for Flight Delay Prediction**|Qihui Zhu et.al.|[2407.15185](http://arxiv.org/abs/2407.15185)|null|
+|**2024-07-20**|**All Against Some: Efficient Integration of Large Language Models for Message Passing in Graph Neural Networks**|Ajay Jaiswal et.al.|[2407.14996](http://arxiv.org/abs/2407.14996)|null|
+|**2024-07-20**|**Enhancing High-Energy Particle Physics Collision Analysis through Graph Data Attribution Techniques**|A. Verdone et.al.|[2407.14859](http://arxiv.org/abs/2407.14859)|null|
 |**2024-07-22**|**Red-QAOA: Efficient Variational Optimization through Circuit Reduction**|Meng Wang et.al.|[2407.14490](http://arxiv.org/abs/2407.14490)|null|
 |**2024-07-19**|**PolyFormer: Scalable Node-wise Filters via Polynomial Graph Transformer**|Jiahong Ma et.al.|[2407.14459](http://arxiv.org/abs/2407.14459)|**[link](https://github.com/air029/polyformer)**|
 |**2024-07-19**|**L^2CL: Embarrassingly Simple Layer-to-Layer Contrastive Learning for Graph Collaborative Filtering**|Xinzhou Jin et.al.|[2407.14266](http://arxiv.org/abs/2407.14266)|**[link](https://github.com/downeykking/l2cl)**|
