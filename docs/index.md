@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.07.24
+## Updated on 2024.07.25
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1682,7 +1682,7 @@ layout: default
 |:---------|:-----------------------|:---------|:------|:------|
 |**2024-07-22**|**Parallel Split Learning with Global Sampling**|Mohammad Kohankhaki et.al.|[2407.15738](http://arxiv.org/abs/2407.15738)|null|
 |**2024-07-22**|**GraphScale: A Framework to Enable Machine Learning over Billion-node Graphs**|Vipul Gupta et.al.|[2407.15452](http://arxiv.org/abs/2407.15452)|null|
-|**2024-07-21**|**STrack: A Reliable Multipath Transport for AI/ML Clusters**|Yanfang Le et.al.|[2407.15266](http://arxiv.org/abs/2407.15266)|null|
+|**2024-07-23**|**STrack: A Reliable Multipath Transport for AI/ML Clusters**|Yanfang Le et.al.|[2407.15266](http://arxiv.org/abs/2407.15266)|null|
 |**2024-07-20**|**Latent Pollution Model: The Hidden Carbon Footprint in 3D Image Synthesis**|Marvin Seyfarth et.al.|[2407.14892](http://arxiv.org/abs/2407.14892)|null|
 |**2024-07-19**|**Performance Modeling and Workload Analysis of Distributed Large Language Model Training and Inference**|Joyjit Kundu et.al.|[2407.14645](http://arxiv.org/abs/2407.14645)|null|
 |**2024-07-01**|**A Look Into Training Large Language Models on Next Generation Datacenters**|Alexandru M. Gherghescu et.al.|[2407.12819](http://arxiv.org/abs/2407.12819)|null|
