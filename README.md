@@ -1400,7 +1400,7 @@
 |**2023-03-29**|**TriVol: Point Cloud Rendering via Triple Volumes**|Tao Hu et.al.|[2303.16485](http://arxiv.org/abs/2303.16485)|**[link](https://github.com/dvlab-research/trivol)**|
 |**2023-03-29**|**Point2Pix: Photo-Realistic Point Cloud Rendering via Neural Radiance Fields**|Tao Hu et.al.|[2303.16482](http://arxiv.org/abs/2303.16482)|null|
 |**2023-03-28**|**Flow supervision for Deformable NeRF**|Chaoyang Wang et.al.|[2303.16333](http://arxiv.org/abs/2303.16333)|null|
-|**2023-03-28**|**SparseNeRF: Distilling Depth Ranking for Few-shot Novel View Synthesis**|Guangcong Wang et.al.|[2303.16196](http://arxiv.org/abs/2303.16196)|null|
+|**2023-03-28**|**SparseNeRF: Distilling Depth Ranking for Few-shot Novel View Synthesis**|Guangcong Wang et.al.|[2303.16196](http://arxiv.org/abs/2303.16196)|**[link](https://github.com/Wanggcong/SparseNeRF)**|
 |**2023-03-28**|**VMesh: Hybrid Volume-Mesh Representation for Efficient View Synthesis**|Yuan-Chen Guo et.al.|[2303.16184](http://arxiv.org/abs/2303.16184)|null|
 |**2023-03-30**|**Adaptive Voronoi NeRFs**|Tim Elsner et.al.|[2303.16001](http://arxiv.org/abs/2303.16001)|null|
 |**2023-03-28**|**F $^{2}$ -NeRF: Fast Neural Radiance Field Training with Free Camera Trajectories**|Peng Wang et.al.|[2303.15951](http://arxiv.org/abs/2303.15951)|**[link](https://github.com/Totoro97/f2-nerf)**|
@@ -1856,7 +1856,7 @@
 |**2023-09-08**|**Federated Learning for Early Dropout Prediction on Healthy Ageing Applications**|Christos Chrysanthos Nikolaidis et.al.|[2309.04311](http://arxiv.org/abs/2309.04311)|null|
 |**2023-09-04**|**Communication-Efficient Design of Learning System for Energy Demand Forecasting of Electrical Vehicles**|Jiacong Xu et.al.|[2309.01297](http://arxiv.org/abs/2309.01297)|null|
 |**2023-08-29**|**CEFHRI: A Communication Efficient Federated Learning Framework for Recognizing Industrial Human-Robot Interaction**|Umar Khalid et.al.|[2308.14965](http://arxiv.org/abs/2308.14965)|**[link](https://github.com/umarkhalidai/cefhri-efficient-federated-learning)**|
-|**2023-08-27**|**Generalizable Learning Reconstruction for Accelerating MR Imaging via Federated Neural Architecture Search**|Ruoyou Wu et.al.|[2308.13995](http://arxiv.org/abs/2308.13995)|null|
+|**2023-08-27**|**Generalizable Learning Reconstruction for Accelerating MR Imaging via Federated Neural Architecture Search**|Ruoyou Wu et.al.|[2308.13995](http://arxiv.org/abs/2308.13995)|**[link](https://github.com/ternencewu123/gautomri)**|
 |**2023-08-25**|**Staleness-Alleviated Distributed GNN Training via Online Dynamic-Embedding Prediction**|Guangji Bai et.al.|[2308.13466](http://arxiv.org/abs/2308.13466)|null|
 |**2023-08-23**|**Aligning Language Models with Offline Reinforcement Learning from Human Feedback**|Jian Hu et.al.|[2308.12050](http://arxiv.org/abs/2308.12050)|**[link](https://github.com/OpenLLMAI/OpenLLaMA2)**|
 |**2023-08-17**|**Distributed Extra-gradient with Optimal Complexity and Communication Guarantees**|Ali Ramezani-Kebrya et.al.|[2308.09187](http://arxiv.org/abs/2308.09187)|**[link](https://github.com/lions-epfl/qgenx)**|
@@ -1956,11 +1956,11 @@
 |**2024-07-15**|**Expanding the Scope: Inductive Knowledge Graph Reasoning with Multi-Starting Progressive Propagation**|Zhoutian Shao et.al.|[2407.10430](http://arxiv.org/abs/2407.10430)|**[link](https://github.com/nju-websoft/mstar)**|
 |**2024-07-14**|**Toward Explainable Reasoning in 6G: A Proof of Concept Study on Radio Resource Allocation**|Farhad Rezazadeh et.al.|[2407.10186](http://arxiv.org/abs/2407.10186)|null|
 |**2024-07-14**|**Warming Up Cold-Start CTR Prediction by Learning Item-Specific Feature Interactions**|Yaqing Wang et.al.|[2407.10112](http://arxiv.org/abs/2407.10112)|null|
-|**2024-07-13**|**Biased Backpressure Routing Using Link Features and Graph Neural Networks**|Zhongyuan Zhao et.al.|[2407.09753](http://arxiv.org/abs/2407.09753)|null|
+|**2024-07-13**|**Biased Backpressure Routing Using Link Features and Graph Neural Networks**|Zhongyuan Zhao et.al.|[2407.09753](http://arxiv.org/abs/2407.09753)|**[link](https://github.com/zhongyuanzhao/dutybp)**|
 |**2024-07-12**|**The Heterophilic Graph Learning Handbook: Benchmarks, Models, Theoretical Analysis, Applications and Challenges**|Sitao Luan et.al.|[2407.09618](http://arxiv.org/abs/2407.09618)|null|
 |**2024-07-12**|**The $μ\mathcal{G}$ Language for Programming Graph Neural Networks**|Matteo Belenchia et.al.|[2407.09441](http://arxiv.org/abs/2407.09441)|null|
 |**2024-07-12**|**A Perspective on Foundation Models for the Electric Power Grid**|Hendrik F. Hamann et.al.|[2407.09434](http://arxiv.org/abs/2407.09434)|null|
-|**2024-07-12**|**The Effectiveness of Curvature-Based Rewiring and the Role of Hyperparameters in GNNs Revisited**|Floriano Tori et.al.|[2407.09381](http://arxiv.org/abs/2407.09381)|null|
+|**2024-07-12**|**The Effectiveness of Curvature-Based Rewiring and the Role of Hyperparameters in GNNs Revisited**|Floriano Tori et.al.|[2407.09381](http://arxiv.org/abs/2407.09381)|**[link](https://github.com/FloTori/Revisiting-Graph-Curvature-Rewiring)**|
 |**2024-07-12**|**Graph Neural Network Causal Explanation via Neural Causal Models**|Arman Behnam et.al.|[2407.09378](http://arxiv.org/abs/2407.09378)|**[link](https://github.com/armanbehnam/cxgnn)**|
 |**2024-07-12**|**GNN with Model-based RL for Multi-agent Systems**|Hanxiao Chen et.al.|[2407.09249](http://arxiv.org/abs/2407.09249)|null|
 |**2024-07-12**|**Conformal Inductive Graph Neural Networks**|Soroush H. Zargarbashi et.al.|[2407.09173](http://arxiv.org/abs/2407.09173)|null|
@@ -1979,8 +1979,8 @@
 |**2024-07-09**|**Graph Reinforcement Learning for Exploring BSM Model Spaces**|George N. Wojcik et.al.|[2407.07203](http://arxiv.org/abs/2407.07203)|null|
 |**2024-07-09**|**Modularity aided consistent attributed graph clustering via coarsening**|Samarth Bhatia et.al.|[2407.07128](http://arxiv.org/abs/2407.07128)|null|
 |**2024-07-09**|**Decoding Climate Disagreement: A Graph Neural Network-Based Approach to Understanding Social Media Dynamics**|Ruiran Su et.al.|[2407.07038](http://arxiv.org/abs/2407.07038)|null|
-|**2024-07-09**|**Changepoint Detection in Highly-Attributed Dynamic Graphs**|Emiliano Penaloza et.al.|[2407.06998](http://arxiv.org/abs/2407.06998)|null|
-|**2024-07-09**|**Limiting Over-Smoothing and Over-Squashing of Graph Message Passing by Deep Scattering Transforms**|Yuanhong Jiang et.al.|[2407.06988](http://arxiv.org/abs/2407.06988)|null|
+|**2024-07-09**|**Changepoint Detection in Highly-Attributed Dynamic Graphs**|Emiliano Penaloza et.al.|[2407.06998](http://arxiv.org/abs/2407.06998)|**[link](https://github.com/Emilianopp/ChangesHighlyAttributedGraphs)**|
+|**2024-07-09**|**Limiting Over-Smoothing and Over-Squashing of Graph Message Passing by Deep Scattering Transforms**|Yuanhong Jiang et.al.|[2407.06988](http://arxiv.org/abs/2407.06988)|**[link](https://github.com/jyh6681/dsmp)**|
 |**2024-07-09**|**Deep-Motion-Net: GNN-based volumetric organ shape reconstruction from single-view 2D projections**|Isuru Wijesinghe et.al.|[2407.06692](http://arxiv.org/abs/2407.06692)|null|
 |**2024-07-09**|**Advanced Financial Fraud Detection Using GNN-CL Model**|Yu Cheng et.al.|[2407.06529](http://arxiv.org/abs/2407.06529)|null|
 |**2024-07-09**|**Graph Neural Networks and Deep Reinforcement Learning Based Resource Allocation for V2X Communications**|Maoxin Ji et.al.|[2407.06518](http://arxiv.org/abs/2407.06518)|**[link](https://github.com/qiongwu86/gnn-and-drl-based-resource-allocation-for-v2x-communications)**|
@@ -1995,7 +1995,7 @@
 |**2024-07-06**|**Leveraging Persistent Homology Features for Accurate Defect Formation Energy Predictions via Graph Neural Networks**|Zhenyao Fang et.al.|[2407.05204](http://arxiv.org/abs/2407.05204)|null|
 |**2024-07-06**|**A Generalized Transformer-based Radio Link Failure Prediction Framework in 5G RANs**|Kazi Hasan et.al.|[2407.05197](http://arxiv.org/abs/2407.05197)|null|
 |**2024-07-06**|**GCON: Differentially Private Graph Convolutional Network via Objective Perturbation**|Jianxin Wei et.al.|[2407.05034](http://arxiv.org/abs/2407.05034)|null|
-|**2024-07-06**|**Rethinking the Effectiveness of Graph Classification Datasets in Benchmarks for Assessing GNNs**|Zhengdao Li et.al.|[2407.04999](http://arxiv.org/abs/2407.04999)|null|
+|**2024-07-06**|**Rethinking the Effectiveness of Graph Classification Datasets in Benchmarks for Assessing GNNs**|Zhengdao Li et.al.|[2407.04999](http://arxiv.org/abs/2407.04999)|**[link](https://github.com/ICLab4DL/GNNBenchEffectiveness)**|
 |**2024-07-05**|**Peering inside the black box: Learning the relevance of many-body functions in Neural Network potentials**|Klara Bonneau et.al.|[2407.04526](http://arxiv.org/abs/2407.04526)|null|
 |**2024-07-05**|**G-Adaptive mesh refinement -- leveraging graph neural networks and differentiable finite element solvers**|James Rowbottom et.al.|[2407.04516](http://arxiv.org/abs/2407.04516)|**[link](https://github.com/JRowbottomGit/g-adaptivity)**|
 |**2024-07-05**|**Wavelet-based Temporal Attention Improves Traffic Forecasting**|Yash Jakhmola et.al.|[2407.04440](http://arxiv.org/abs/2407.04440)|**[link](https://github.com/yash-jakhmola/w-dstagnn)**|
@@ -2053,7 +2053,7 @@
 |**2024-06-22**|**Automatic AI Model Selection for Wireless Systems: Online Learning via Digital Twinning**|Qiushuo Hou et.al.|[2406.15819](http://arxiv.org/abs/2406.15819)|**[link](https://github.com/qiushuo0913/DT-powered-AMS)**|
 |**2024-06-22**|**Synergistic Deep Graph Clustering Network**|Benyu Wu et.al.|[2406.15797](http://arxiv.org/abs/2406.15797)|**[link](https://github.com/Marigoldwu/SynC)**|
 |**2024-06-21**|**Learning Spatio-Temporal Patterns of Polar Ice Layers With Physics-Informed Graph Neural Network**|Zesheng Liu et.al.|[2406.15299](http://arxiv.org/abs/2406.15299)|null|
-|**2024-06-21**|**FT-AED: Benchmark Dataset for Early Freeway Traffic Anomalous Event Detection**|Austin Coursey et.al.|[2406.15283](http://arxiv.org/abs/2406.15283)|null|
+|**2024-06-21**|**FT-AED: Benchmark Dataset for Early Freeway Traffic Anomalous Event Detection**|Austin Coursey et.al.|[2406.15283](http://arxiv.org/abs/2406.15283)|**[link](https://github.com/acoursey3/freeway-anomaly-data)**|
 |**2024-06-21**|**Perks and Pitfalls of Faithfulness in Regular, Self-Explainable and Domain Invariant GNNs**|Steve Azzolin et.al.|[2406.15156](http://arxiv.org/abs/2406.15156)|null|
 |**2024-06-21**|**Towards General Negotiation Strategies with End-to-End Reinforcement Learning**|Bram M. Renting et.al.|[2406.15096](http://arxiv.org/abs/2406.15096)|null|
 |**2024-06-21**|**Efficient Graph Similarity Computation with Alignment Regularization**|Wei Zhuo et.al.|[2406.14929](http://arxiv.org/abs/2406.14929)|**[link](https://github.com/jhuow/eric)**|
@@ -2146,7 +2146,7 @@
 |**2024-06-06**|**Energy-based Epistemic Uncertainty for Graph Neural Networks**|Dominik Fuchsgruber et.al.|[2406.04043](http://arxiv.org/abs/2406.04043)|null|
 |**2024-06-06**|**Exploiting Global Graph Homophily for Generalized Defense in Graph Neural Networks**|Duanyu Li et.al.|[2406.03833](http://arxiv.org/abs/2406.03833)|null|
 |**2024-06-06**|**BindGPT: A Scalable Framework for 3D Molecular Design via Language Modeling and Reinforcement Learning**|Artem Zholus et.al.|[2406.03686](http://arxiv.org/abs/2406.03686)|null|
-|**2024-06-06**|**PANDA: Expanded Width-Aware Message Passing Beyond Rewiring**|Jeongwhan Choi et.al.|[2406.03671](http://arxiv.org/abs/2406.03671)|null|
+|**2024-06-06**|**PANDA: Expanded Width-Aware Message Passing Beyond Rewiring**|Jeongwhan Choi et.al.|[2406.03671](http://arxiv.org/abs/2406.03671)|**[link](https://github.com/jeongwhanchoi/panda)**|
 |**2024-06-05**|**Decision-focused Graph Neural Networks for Combinatorial Optimization**|Yang Liu et.al.|[2406.03647](http://arxiv.org/abs/2406.03647)|null|
 |**2024-06-05**|**Equivariant Graph Neural Networks for Prediction of Tensor Material Properties of Crystals**|Alex Heilman et.al.|[2406.03563](http://arxiv.org/abs/2406.03563)|null|
 |**2024-06-05**|**Node-wise Filtering in Graph Neural Networks: A Mixture of Experts Approach**|Haoyu Han et.al.|[2406.03464](http://arxiv.org/abs/2406.03464)|null|
@@ -2214,7 +2214,7 @@
 |**2024-05-24**|**Rethinking Independent Cross-Entropy Loss For Graph-Structured Data**|Rui Miao et.al.|[2405.15564](http://arxiv.org/abs/2405.15564)|**[link](https://github.com/mr9812/joint-cluster-supervised-learning)**|
 |**2024-05-24**|**Learning from Linear Algebra: A Graph Neural Network Approach to Preconditioner Design for Conjugate Gradient Solvers**|Vladislav Trifonov et.al.|[2405.15557](http://arxiv.org/abs/2405.15557)|null|
 |**2024-05-24**|**SATSense: Multi-Satellite Collaborative Framework for Spectrum Sensing**|Haoxuan Yuan et.al.|[2405.15542](http://arxiv.org/abs/2405.15542)|null|
-|**2024-05-24**|**E(n) Equivariant Topological Neural Networks**|Claudio Battiloro et.al.|[2405.15429](http://arxiv.org/abs/2405.15429)|null|
+|**2024-05-24**|**E(n) Equivariant Topological Neural Networks**|Claudio Battiloro et.al.|[2405.15429](http://arxiv.org/abs/2405.15429)|**[link](https://github.com/NSAPH-Projects/topological-equivariant-networks)**|
 |**2024-05-24**|**DFGNN: Dual-frequency Graph Neural Network for Sign-aware Feedback**|Yiqing Wu et.al.|[2405.15280](http://arxiv.org/abs/2405.15280)|null|
 |**2024-05-24**|**Cardinality Estimation on Hyper-relational Knowledge Graphs**|Fei Teng et.al.|[2405.15231](http://arxiv.org/abs/2405.15231)|null|
 |**2024-05-24**|**AGS-GNN: Attribute-guided Sampling for Graph Neural Networks**|Siddhartha Shankar Das et.al.|[2405.15218](http://arxiv.org/abs/2405.15218)|**[link](https://github.com/siddhartha047/AGS-GNN)**|
@@ -2224,7 +2224,7 @@
 |**2024-05-23**|**Development of a Gaussian Approximation Potential to Study Structure and Thermodynamics of Nickel Nanoclusters**|Suvo Banik et.al.|[2405.14683](http://arxiv.org/abs/2405.14683)|null|
 |**2024-05-23**|**Logical Characterizations of Recurrent Graph Neural Networks with Reals and Floats**|Veeti Ahvonen et.al.|[2405.14606](http://arxiv.org/abs/2405.14606)|null|
 |**2024-05-23**|**Gradient Transformation: Towards Efficient and Model-Agnostic Unlearning for Dynamic Graph Neural Networks**|He Zhang et.al.|[2405.14407](http://arxiv.org/abs/2405.14407)|null|
-|**2024-05-23**|**Explaining Graph Neural Networks via Structure-aware Interaction Index**|Ngoc Bui et.al.|[2405.14352](http://arxiv.org/abs/2405.14352)|null|
+|**2024-05-23**|**Explaining Graph Neural Networks via Structure-aware Interaction Index**|Ngoc Bui et.al.|[2405.14352](http://arxiv.org/abs/2405.14352)|**[link](https://github.com/ngocbh/mage)**|
 |**2024-05-23**|**AdaGMLP: AdaBoosting GNN-to-MLP Knowledge Distillation**|Weigang Lu et.al.|[2405.14307](http://arxiv.org/abs/2405.14307)|**[link](https://github.com/weiganglu/adagmlp-kdd24)**|
 |**2024-05-23**|**Similarity-Navigated Conformal Prediction for Graph Neural Networks**|Jianqing Song et.al.|[2405.14303](http://arxiv.org/abs/2405.14303)|null|
 |**2024-05-23**|**Graphcode: Learning from multiparameter persistent homology using graph neural networks**|Michael Kerber et.al.|[2405.14302](http://arxiv.org/abs/2405.14302)|null|
@@ -2248,7 +2248,7 @@
 |**2024-05-17**|**GraSS: Combining Graph Neural Networks with Expert Knowledge for SAT Solver Selection**|Zhanguang Zhang et.al.|[2405.11024](http://arxiv.org/abs/2405.11024)|null|
 |**2024-05-17**|**Rethinking Graph Backdoor Attacks: A Distribution-Preserving Perspective**|Zhiwei Zhang et.al.|[2405.10757](http://arxiv.org/abs/2405.10757)|**[link](https://github.com/zzwjames/dpgba)**|
 |**2024-05-17**|**Hi-GMAE: Hierarchical Graph Masked Autoencoders**|Chuang Liu et.al.|[2405.10642](http://arxiv.org/abs/2405.10642)|**[link](https://github.com/liuchuang0059/hi-gmae)**|
-|**2024-05-17**|**Harnessing Collective Structure Knowledge in Data Augmentation for Graph Neural Networks**|Rongrong Ma et.al.|[2405.10633](http://arxiv.org/abs/2405.10633)|null|
+|**2024-05-17**|**Harnessing Collective Structure Knowledge in Data Augmentation for Graph Neural Networks**|Rongrong Ma et.al.|[2405.10633](http://arxiv.org/abs/2405.10633)|**[link](https://github.com/rongrongma/cos-gnn)**|
 |**2024-05-17**|**CACL: Community-Aware Heterogeneous Graph Contrastive Learning for Social Media Bot Detection**|Sirry Chen et.al.|[2405.10558](http://arxiv.org/abs/2405.10558)|**[link](https://github.com/SirryChen/CACL)**|
 |**2024-05-17**|**Multi-Evidence based Fact Verification via A Confidential Graph Neural Network**|Yuqing Lan et.al.|[2405.10481](http://arxiv.org/abs/2405.10481)|**[link](https://github.com/neuir/co-gat)**|
 |**2024-05-16**|**Physics-Informed Heterogeneous Graph Neural Networks for DC Blocker Placement**|Hongwei Jin et.al.|[2405.10389](http://arxiv.org/abs/2405.10389)|**[link](https://github.com/cshjin/swmp_ml)**|
@@ -2278,7 +2278,7 @@
 |**2024-05-10**|**GreedyViG: Dynamic Axial Graph Construction for Efficient Vision GNNs**|Mustafa Munir et.al.|[2405.06849](http://arxiv.org/abs/2405.06849)|**[link](https://github.com/SLDGroup/GreedyViG)**|
 |**2024-05-10**|**Scalable Property Valuation Models via Graph-based Deep Learning**|Enrique Riveros et.al.|[2405.06553](http://arxiv.org/abs/2405.06553)|null|
 |**2024-05-10**|**Heterogeneous Graph Neural Networks with Loss-decrease-aware Curriculum Learning**|Yili Wang et.al.|[2405.06522](http://arxiv.org/abs/2405.06522)|**[link](https://github.com/wangyili00/ldhgnn)**|
-|**2024-05-10**|**PAC-Bayesian Generalization Bounds for Knowledge Graph Representation Learning**|Jaejun Lee et.al.|[2405.06418](http://arxiv.org/abs/2405.06418)|null|
+|**2024-05-10**|**PAC-Bayesian Generalization Bounds for Knowledge Graph Representation Learning**|Jaejun Lee et.al.|[2405.06418](http://arxiv.org/abs/2405.06418)|**[link](https://github.com/bdi-lab/reed)**|
 |**2024-05-10**|**Disttack: Graph Adversarial Attacks Toward Distributed GNN Training**|Yuxiang Zhang et.al.|[2405.06247](http://arxiv.org/abs/2405.06247)|**[link](https://github.com/zhangyxrepo/disttack)**|
 |**2024-05-09**|**UnSegGNet: Unsupervised Image Segmentation using Graph Neural Networks**|Kovvuri Sai Gopal Reddy et.al.|[2405.06057](http://arxiv.org/abs/2405.06057)|**[link](https://github.com/ksgr5566/unseggnet)**|
 |**2024-05-09**|**Deploying Graph Neural Networks in Wireless Networks: A Link Stability Viewpoint**|Jun Li et.al.|[2405.05802](http://arxiv.org/abs/2405.05802)|null|
@@ -2288,7 +2288,7 @@
 |**2024-05-08**|**Hybrid Quantum Graph Neural Network for Molecular Property Prediction**|Michael Vitz et.al.|[2405.05205](http://arxiv.org/abs/2405.05205)|null|
 |**2024-05-08**|**Dual-domain Collaborative Denoising for Social Recommendation**|Wenjie Chen et.al.|[2405.04942](http://arxiv.org/abs/2405.04942)|null|
 |**2024-05-08**|**Empowering Wireless Networks with Artificial Intelligence Generated Graph**|Jiacheng Wang et.al.|[2405.04907](http://arxiv.org/abs/2405.04907)|null|
-|**2024-05-08**|**Imbalanced Graph Classification with Multi-scale Oversampling Graph Neural Networks**|Rongrong Ma et.al.|[2405.04903](http://arxiv.org/abs/2405.04903)|null|
+|**2024-05-08**|**Imbalanced Graph Classification with Multi-scale Oversampling Graph Neural Networks**|Rongrong Ma et.al.|[2405.04903](http://arxiv.org/abs/2405.04903)|**[link](https://github.com/rongrongma/mosgnn)**|
 |**2024-05-08**|**A Novel Technique for Query Plan Representation Based on Graph Neural Networks**|Baoming Chang et.al.|[2405.04814](http://arxiv.org/abs/2405.04814)|null|
 |**2024-05-08**|**Hypergraph-enhanced Dual Semi-supervised Graph Classification**|Wei Ju et.al.|[2405.04773](http://arxiv.org/abs/2405.04773)|null|
 |**2024-05-08**|**Conditional Local Feature Encoding for Graph Neural Networks**|Yongze Wang et.al.|[2405.04755](http://arxiv.org/abs/2405.04755)|null|
@@ -2502,7 +2502,7 @@
 |**2024-03-22**|**Benchmarking of machine learning interatomic potentials for reactive hydrogen dynamics at metal surfaces**|Wojciech G. Stark et.al.|[2403.15334](http://arxiv.org/abs/2403.15334)|null|
 |**2024-03-22**|**Graph neural network coarse-grain force field for the molecular crystal RDX**|Brian H. Lee et.al.|[2403.15266](http://arxiv.org/abs/2403.15266)|null|
 |**2024-03-22**|**GTAGCN: Generalized Topology Adaptive Graph Convolutional Networks**|Sukhdeep Singh et.al.|[2403.15077](http://arxiv.org/abs/2403.15077)|null|
-|**2024-03-22**|**Simple Graph Condensation**|Zhenbang Xiao et.al.|[2403.14951](http://arxiv.org/abs/2403.14951)|null|
+|**2024-03-22**|**Simple Graph Condensation**|Zhenbang Xiao et.al.|[2403.14951](http://arxiv.org/abs/2403.14951)|**[link](https://github.com/banghonor/simgc)**|
 |**2024-03-21**|**iSpLib: A Library for Accelerating Graph Neural Networks using Auto-tuned Sparse Operations**|Md Saidul Hoque Anik et.al.|[2403.14853](http://arxiv.org/abs/2403.14853)|**[link](https://github.com/hipgraph/isplib)**|
 |**2024-03-21**|**NaNa and MiGu: Semantic Data Augmentation Techniques to Enhance Protein Classification in Graph Neural Networks**|Yi-Shan Lan et.al.|[2403.14736](http://arxiv.org/abs/2403.14736)|**[link](https://github.com/r08b46009/code_for_migu_nana)**|
 |**2024-03-21**|**Knowledge-Enhanced Recommendation with User-Centric Subgraph Network**|Guangyi Liu et.al.|[2403.14377](http://arxiv.org/abs/2403.14377)|**[link](https://github.com/leolouis14/kucnet)**|
@@ -2536,7 +2536,7 @@
 |**2024-03-16**|**Edge Private Graph Neural Networks with Singular Value Perturbation**|Tingting Tang et.al.|[2403.10995](http://arxiv.org/abs/2403.10995)|null|
 |**2024-03-15**|**Generation is better than Modification: Combating High Class Homophily Variance in Graph Anomaly Detection**|Rui Zhang et.al.|[2403.10339](http://arxiv.org/abs/2403.10339)|null|
 |**2024-03-15**|**From Chaos to Clarity: Time Series Anomaly Detection in Astronomical Observations**|Xinli Hao et.al.|[2403.10220](http://arxiv.org/abs/2403.10220)|**[link](https://github.com/xinlihao/aero)**|
-|**2024-03-15**|**HeR-DRL:Heterogeneous Relational Deep Reinforcement Learning for Decentralized Multi-Robot Crowd Navigation**|Xinyu Zhou et.al.|[2403.10083](http://arxiv.org/abs/2403.10083)|null|
+|**2024-03-15**|**HeR-DRL:Heterogeneous Relational Deep Reinforcement Learning for Decentralized Multi-Robot Crowd Navigation**|Xinyu Zhou et.al.|[2403.10083](http://arxiv.org/abs/2403.10083)|**[link](https://github.com/zhouxy-debugging-den/her-drl)**|
 |**2024-03-15**|**Thermal Earth Model for the Conterminous United States Using an Interpolative Physics-Informed Graph Neural Network (InterPIGNN)**|Mohammad J. Aljubran et.al.|[2403.09961](http://arxiv.org/abs/2403.09961)|null|
 |**2024-03-14**|**Robust Subgraph Learning by Monitoring Early Training Representations**|Sepideh Neshatfar et.al.|[2403.09901](http://arxiv.org/abs/2403.09901)|null|
 |**2024-03-14**|**Code Revert Prediction with Graph Neural Networks: A Case Study at J.P. Morgan Chase**|Yulong Pei et.al.|[2403.09507](http://arxiv.org/abs/2403.09507)|null|
@@ -2797,7 +2797,7 @@
 |**2024-01-29**|**A Gated MLP Architecture for Learning Topological Dependencies in Spatio-Temporal Graphs**|Yun Young Choi et.al.|[2401.15894](http://arxiv.org/abs/2401.15894)|null|
 |**2024-01-28**|**Improving Expressive Power of Spectral Graph Neural Networks with Eigenvalue Correction**|Kangkang Lu et.al.|[2401.15603](http://arxiv.org/abs/2401.15603)|null|
 |**2024-01-28**|**DGNN: Decoupled Graph Neural Networks with Structural Consistency between Attribute and Graph Embedding Representations**|Jinlu Wang et.al.|[2401.15584](http://arxiv.org/abs/2401.15584)|**[link](https://github.com/jinluwang1002/dgnn)**|
-|**2024-01-28**|**Efficient Tuning and Inference for Large Language Models on Textual Graphs**|Yun Zhu et.al.|[2401.15569](http://arxiv.org/abs/2401.15569)|null|
+|**2024-01-28**|**Efficient Tuning and Inference for Large Language Models on Textual Graphs**|Yun Zhu et.al.|[2401.15569](http://arxiv.org/abs/2401.15569)|**[link](https://github.com/ZhuYun97/ENGINE)**|
 |**2024-01-26**|**Macro Graph Neural Networks for Online Billion-Scale Recommender Systems**|Hao Chen et.al.|[2401.14939](http://arxiv.org/abs/2401.14939)|**[link](https://github.com/yuanchenbei/macgnn)**|
 |**2024-01-26**|**Coca: Improving and Explaining Graph Neural Network-Based Vulnerability Detection Systems**|Sicong Cao et.al.|[2401.14886](http://arxiv.org/abs/2401.14886)|null|
 |**2024-01-26**|**PepGB: Facilitating peptide drug discovery via graph neural networks**|Yipin Lei et.al.|[2401.14665](http://arxiv.org/abs/2401.14665)|null|
@@ -2829,7 +2829,7 @@
 |**2024-01-22**|**ADA-GNN: Atom-Distance-Angle Graph Neural Network for Crystal Material Property Prediction**|Jiao Huang et.al.|[2401.11768](http://arxiv.org/abs/2401.11768)|null|
 |**2024-01-22**|**Integrated Sensing, Communication, and Computing: An Information-oriented Resource Transaction Mechanism**|Ning Chen et.al.|[2401.11759](http://arxiv.org/abs/2401.11759)|null|
 |**2024-01-22**|**AdaFGL: A New Paradigm for Federated Node Classification with Topology Heterogeneity**|Xunkai Li et.al.|[2401.11750](http://arxiv.org/abs/2401.11750)|null|
-|**2024-01-22**|**Graph Condensation: A Survey**|Xinyi Gao et.al.|[2401.11720](http://arxiv.org/abs/2401.11720)|null|
+|**2024-01-22**|**Graph Condensation: A Survey**|Xinyi Gao et.al.|[2401.11720](http://arxiv.org/abs/2401.11720)|**[link](https://github.com/xygaog/graph-condensation-papers)**|
 |**2024-01-19**|**Co-Pilot for Health: Personalized Algorithmic AI Nudging to Improve Health Outcomes**|Jodi Chiam et.al.|[2401.10816](http://arxiv.org/abs/2401.10816)|null|
 |**2024-01-19**|**Novel Representation Learning Technique using Graphs for Performance Analytics**|Tarek Ramadan et.al.|[2401.10799](http://arxiv.org/abs/2401.10799)|null|
 |**2024-01-19**|**BoolGebra: Attributed Graph-learning for Boolean Algebraic Manipulation**|Yingjie Li et.al.|[2401.10753](http://arxiv.org/abs/2401.10753)|null|
@@ -3297,7 +3297,7 @@
 |**2023-10-10**|**Neural Relational Inference with Fast Modular Meta-learning**|Ferran Alet et.al.|[2310.07015](http://arxiv.org/abs/2310.07015)|**[link](https://github.com/FerranAlet/modular-metalearning)**|
 |**2023-10-10**|**Accelerated Modelling of Interfaces for Electronic Devices using Graph Neural Networks**|Pratik Brahma et.al.|[2310.06995](http://arxiv.org/abs/2310.06995)|null|
 |**2023-10-12**|**Flood and Echo: Algorithmic Alignment of GNNs with Distributed Computing**|Joël Mathys et.al.|[2310.06970](http://arxiv.org/abs/2310.06970)|null|
-|**2023-10-10**|**Learning Multiplex Embeddings on Text-rich Networks with One Text Encoder**|Bowen Jin et.al.|[2310.06684](http://arxiv.org/abs/2310.06684)|null|
+|**2023-10-10**|**Learning Multiplex Embeddings on Text-rich Networks with One Text Encoder**|Bowen Jin et.al.|[2310.06684](http://arxiv.org/abs/2310.06684)|**[link](https://github.com/petergriffinjin/metag)**|
 |**2023-10-10**|**On the importance of catalyst-adsorbate 3D interactions for relaxed energy predictions**|Alvaro Carbonero et.al.|[2310.06682](http://arxiv.org/abs/2310.06682)|null|
 |**2023-10-10**|**TANGO: Time-Reversal Latent GraphODE for Multi-Agent Dynamical Systems**|Zijie Huang et.al.|[2310.06427](http://arxiv.org/abs/2310.06427)|null|
 |**2023-10-10**|**Advective Diffusion Transformers for Topological Generalization in Graph Learning**|Qitian Wu et.al.|[2310.06417](http://arxiv.org/abs/2310.06417)|null|
