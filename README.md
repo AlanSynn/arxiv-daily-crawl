@@ -1705,6 +1705,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-08-06**|**Masked Random Noise for Communication Efficient Federaetd Learning**|Shiwei Li et.al.|[2408.03220](http://arxiv.org/abs/2408.03220)|null|
 |**2024-07-31**|**Algorithms for Collaborative Machine Learning under Statistical Heterogeneity**|Seok-Ju Hahn et.al.|[2408.00050](http://arxiv.org/abs/2408.00050)|null|
 |**2024-07-31**|**FedBChain: A Blockchain-enabled Federated Learning Framework for Improving DeepConvLSTM with Comparative Strategy Insights**|Gaoxuan Li et.al.|[2407.21282](http://arxiv.org/abs/2407.21282)|null|
 |**2024-07-30**|**OmniBal: Towards Fast Instruct-tuning for Vision-Language Models via Omniverse Computation Balance**|Yongqiang Yao et.al.|[2407.20761](http://arxiv.org/abs/2407.20761)|**[link](https://github.com/modeltc/omnibal)**|
@@ -1903,6 +1904,10 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-08-06**|**RELIEF: Reinforcement Learning Empowered Graph Feature Prompt Tuning**|Jiapeng Zhu et.al.|[2408.03195](http://arxiv.org/abs/2408.03195)|null|
+|**2024-08-06**|**CADRL: Category-aware Dual-agent Reinforcement Learning for Explainable Recommendations over Knowledge Graphs**|Shangfei Zheng et.al.|[2408.03166](http://arxiv.org/abs/2408.03166)|null|
+|**2024-08-06**|**SETN: Stock Embedding Enhanced with Textual and Network Information**|Takehiro Takayanagi et.al.|[2408.02899](http://arxiv.org/abs/2408.02899)|null|
+|**2024-08-05**|**Algorithm-Informed Graph Neural Networks for Leakage Detection and Localization in Water Distribution Networks**|Zepeng Zhang et.al.|[2408.02797](http://arxiv.org/abs/2408.02797)|null|
 |**2024-08-04**|**Understanding Deep Learning via Notions of Rank**|Noam Razin et.al.|[2408.02111](http://arxiv.org/abs/2408.02111)|null|
 |**2024-08-04**|**Optimal and efficient text counterfactuals using Graph Neural Networks**|Dimitris Lymperopoulos et.al.|[2408.01969](http://arxiv.org/abs/2408.01969)|null|
 |**2024-08-04**|**Top K Enhanced Reinforcement Learning Attacks on Heterogeneous Graph Node Classification**|Honglin Gao et.al.|[2408.01964](http://arxiv.org/abs/2408.01964)|null|
