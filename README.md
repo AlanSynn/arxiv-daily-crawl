@@ -1669,6 +1669,8 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-08-10**|**LLMServingSim: A HW/SW Co-Simulation Infrastructure for LLM Inference Serving at Scale**|Jaehong Cho et.al.|[2408.05499](http://arxiv.org/abs/2408.05499)|**[link](https://github.com/casys-kaist/llmservingsim)**|
+|**2024-08-05**|**SLO-aware GPU Frequency Scaling for Energy Efficient LLM Inference Serving**|Andreas Kosmas Kakolyris et.al.|[2408.05235](http://arxiv.org/abs/2408.05235)|null|
 |**2024-07-20**|**A Tale of Two Scales: Reconciling Horizontal and Vertical Scaling for Inference Serving Systems**|Kamran Razavi et.al.|[2407.14843](http://arxiv.org/abs/2407.14843)|null|
 |**2024-07-17**|**LLM Inference Serving: Survey of Recent Advances and Opportunities**|Baolin Li et.al.|[2407.12391](http://arxiv.org/abs/2407.12391)|null|
 |**2024-07-04**|**Loki: A System for Serving ML Inference Pipelines with Hardware and Accuracy Scaling**|Sohaib Ahmad et.al.|[2407.03583](http://arxiv.org/abs/2407.03583)|**[link](https://github.com/UMass-LIDS/Loki)**|
@@ -1906,6 +1908,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-08-12**|**What Ails Generative Structure-based Drug Design: Too Little or Too Much Expressivity?**|Rafał Karczewski et.al.|[2408.06050](http://arxiv.org/abs/2408.06050)|null|
+|**2024-08-12**|**ARPA: A Novel Hybrid Model for Advancing Visual Word Disambiguation Using Large Language Models and Transformers**|Aristi Papastavrou et.al.|[2408.06040](http://arxiv.org/abs/2408.06040)|null|
+|**2024-08-12**|**Spacetime $E(n)$ -Transformer: Equivariant Attention for Spatio-temporal Graphs**|Sergio G. Charles et.al.|[2408.06039](http://arxiv.org/abs/2408.06039)|null|
+|**2024-08-11**|**GraphTransfer: A Generic Feature Fusion Framework for Collaborative Filtering**|Jiafeng Xia et.al.|[2408.05792](http://arxiv.org/abs/2408.05792)|null|
+|**2024-08-11**|**On zero-shot learning in neural state estimation of power distribution systems**|Aleksandr Berezin et.al.|[2408.05787](http://arxiv.org/abs/2408.05787)|**[link](https://gitlab.com/transense/nse-tl-paper)**|
+|**2024-08-11**|**Swarm-Net: Firmware Attestation in IoT Swarms using Graph Neural Networks and Volatile Memory**|Varun Kohli et.al.|[2408.05680](http://arxiv.org/abs/2408.05680)|null|
+|**2024-08-10**|**An Information-Theoretic Analysis of Temporal GNNs**|Amirmohammad Farzaneh et.al.|[2408.05624](http://arxiv.org/abs/2408.05624)|null|
+|**2024-08-10**|**A Laplacian-based Quantum Graph Neural Network for Semi-Supervised Learning**|Hamed Gholipour et.al.|[2408.05498](http://arxiv.org/abs/2408.05498)|null|
+|**2024-08-10**|**Path-LLM: A Shortest-Path-based LLM Learning for Unified Graph Representation**|Wenbo Shang et.al.|[2408.05456](http://arxiv.org/abs/2408.05456)|null|
+|**2024-08-10**|**Modeling Multi-Step Scientific Processes with Graph Transformer Networks**|Amanda A. Volk et.al.|[2408.05425](http://arxiv.org/abs/2408.05425)|null|
 |**2024-08-09**|**Decoding Quantum LDPC Codes Using Graph Neural Networks**|Vukan Ninkovic et.al.|[2408.05170](http://arxiv.org/abs/2408.05170)|null|
 |**2024-08-09**|**Federated Hypergraph Learning with Hyperedge Completion**|Linfeng Luo et.al.|[2408.05160](http://arxiv.org/abs/2408.05160)|null|
 |**2024-08-09**|**Variational Bayesian Phylogenetic Inference with Semi-implicit Branch Length Distributions**|Tianyu Xie et.al.|[2408.05058](http://arxiv.org/abs/2408.05058)|**[link](https://github.com/tyuxie/vbpi-sibranch)**|
