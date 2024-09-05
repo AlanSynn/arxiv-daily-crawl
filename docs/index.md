@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.09.04
+## Updated on 2024.09.05
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1684,7 +1684,7 @@ layout: default
 |:---------|:-----------------------|:---------|:------|:------|
 |**2024-08-29**|**OpenFGL: A Comprehensive Benchmarks for Federated Graph Learning**|Xunkai Li et.al.|[2408.16288](http://arxiv.org/abs/2408.16288)|**[link](https://github.com/xkli-allen/openfgl)**|
 |**2024-08-22**|**Poplar: Efficient Scaling of Distributed DNN Training on Heterogeneous GPU Clusters**|WenZheng Zhang et.al.|[2408.12596](http://arxiv.org/abs/2408.12596)|null|
-|**2024-08-20**|**Security Assessment of Hierarchical Federated Deep Learning**|D Alqattan et.al.|[2408.10752](http://arxiv.org/abs/2408.10752)|null|
+|**2024-08-20**|**Security Assessment of Hierarchical Federated Deep Learning**|D Alqattan et.al.|[2408.10752](http://arxiv.org/abs/2408.10752)|**[link](https://github.com/dalqattan/sechfl)**|
 |**2024-08-20**|**Pluto and Charon: A Time and Memory Efficient Collaborative Edge AI Framework for Personal LLMs Fine-Tuning**|Bei Ouyang et.al.|[2408.10746](http://arxiv.org/abs/2408.10746)|null|
 |**2024-08-19**|**Demystifying the Communication Characteristics for Distributed Transformer Models**|Quentin Anthony et.al.|[2408.10197](http://arxiv.org/abs/2408.10197)|null|
 |**2024-08-20**|**Heta: Distributed Training of Heterogeneous Graph Neural Networks**|Yuchen Zhong et.al.|[2408.09697](http://arxiv.org/abs/2408.09697)|null|
