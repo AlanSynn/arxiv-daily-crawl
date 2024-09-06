@@ -1913,7 +1913,7 @@ layout: default
 |**2024-08-29**|**TempoKGAT: A Novel Graph Attention Network Approach for Temporal Graph Analysis**|Lena Sasal et.al.|[2408.16391](http://arxiv.org/abs/2408.16391)|null|
 |**2024-08-29**|**TG-PhyNN: An Enhanced Physically-Aware Graph Neural Network framework for forecasting Spatio-Temporal Data**|Zakaria Elabid et.al.|[2408.16379](http://arxiv.org/abs/2408.16379)|null|
 |**2024-08-29**|**Do Graph Neural Networks Work for High Entropy Alloys?**|Hengrui Zhang et.al.|[2408.16337](http://arxiv.org/abs/2408.16337)|**[link](https://github.com/Henrium/LESets)**|
-|**2024-08-29**|**OpenFGL: A Comprehensive Benchmarks for Federated Graph Learning**|Xunkai Li et.al.|[2408.16288](http://arxiv.org/abs/2408.16288)|null|
+|**2024-08-29**|**OpenFGL: A Comprehensive Benchmarks for Federated Graph Learning**|Xunkai Li et.al.|[2408.16288](http://arxiv.org/abs/2408.16288)|**[link](https://github.com/xkli-allen/openfgl)**|
 |**2024-08-29**|**A General Framework for Optimizing and Learning Nash Equilibrium**|Di Zhang et.al.|[2408.16260](http://arxiv.org/abs/2408.16260)|null|
 |**2024-08-29**|**Meta-Learning Empowered Graph Neural Networks for Radio Resource Management**|Kai Huang et.al.|[2408.16239](http://arxiv.org/abs/2408.16239)|null|
 |**2024-08-28**|**The Role of Fibration Symmetries in Geometric Deep Learning**|Osvaldo Velarde et.al.|[2408.15894](http://arxiv.org/abs/2408.15894)|null|
@@ -2248,7 +2248,7 @@ layout: default
 |**2024-06-20**|**Geometric Self-Supervised Pretraining on 3D Protein Structures using Subgraphs**|Michail Chatzianastasis et.al.|[2406.14142](http://arxiv.org/abs/2406.14142)|null|
 |**2024-06-20**|**Graph Neural Networks for Job Shop Scheduling Problems: A Survey**|Igor G. Smit et.al.|[2406.14096](http://arxiv.org/abs/2406.14096)|null|
 |**2024-06-20**|**HIGHT: Hierarchical Graph Tokenization for Graph-Language Alignment**|Yongqiang Chen et.al.|[2406.14021](http://arxiv.org/abs/2406.14021)|null|
-|**2024-06-20**|**Reducing Memory Contention and I/O Congestion for Disk-based GNN Training**|Qisheng Jiang et.al.|[2406.13984](http://arxiv.org/abs/2406.13984)|null|
+|**2024-06-20**|**Reducing Memory Contention and I/O Congestion for Disk-based GNN Training**|Qisheng Jiang et.al.|[2406.13984](http://arxiv.org/abs/2406.13984)|**[link](https://github.com/toast-lab/gnndrive)**|
 |**2024-06-20**|**Explainable AI Security: Exploring Robustness of Graph Neural Networks to Adversarial Attacks**|Tao Wu et.al.|[2406.13920](http://arxiv.org/abs/2406.13920)|null|
 |**2024-06-19**|**A Pure Transformer Pretraining Framework on Text-attributed Graphs**|Yu Song et.al.|[2406.13873](http://arxiv.org/abs/2406.13873)|**[link](https://github.com/songyyyy/gspt)**|
 |**2024-06-19**|**Global Human-guided Counterfactual Explanations for Molecular Properties via Reinforcement Learning**|Danqing Wang et.al.|[2406.13869](http://arxiv.org/abs/2406.13869)|**[link](https://github.com/dqwang122/rlhex)**|
@@ -3858,7 +3858,7 @@ layout: default
 |**2023-07-07**|**DE-TGN: Uncertainty-Aware Human Motion Forecasting using Deep Ensembles**|Kareem A. Eltouny et.al.|[2307.03610](http://arxiv.org/abs/2307.03610)|null|
 |**2023-07-07**|**GEANN: Scalable Graph Augmentations for Multi-Horizon Time Series Forecasting**|Sitan Yang et.al.|[2307.03595](http://arxiv.org/abs/2307.03595)|null|
 |**2023-07-07**|**Roman Numeral Analysis with Graph Neural Networks: Onset-wise Predictions from Note-wise Features**|Emmanouil Karystinaios et.al.|[2307.03544](http://arxiv.org/abs/2307.03544)|**[link](https://github.com/manoskary/chordgnn)**|
-|**2023-07-07**|**Learning from Heterogeneity: A Dynamic Learning Framework for Hypergraphs**|Tiehua Zhang et.al.|[2307.03411](http://arxiv.org/abs/2307.03411)|null|
+|**2023-07-07**|**Learning from Heterogeneity: A Dynamic Learning Framework for Hypergraphs**|Tiehua Zhang et.al.|[2307.03411](http://arxiv.org/abs/2307.03411)|**[link](https://github.com/papercodeeric/lfh)**|
 |**2023-07-10**|**Exploring the Potential of Large Language Models (LLMs) in Learning on Graphs**|Zhikai Chen et.al.|[2307.03393](http://arxiv.org/abs/2307.03393)|**[link](https://github.com/CurryTang/Graph-LLM)**|
 |**2023-07-06**|**CPDG: A Contrastive Pre-Training Method for Dynamic Graph Neural Networks**|Yuanchen Bei et.al.|[2307.02813](http://arxiv.org/abs/2307.02813)|null|
 |**2023-07-05**|**Exploring Multimodal Approaches for Alzheimer's Disease Detection Using Patient Speech Transcript and Audio Data**|Hongmin Cai et.al.|[2307.02514](http://arxiv.org/abs/2307.02514)|**[link](https://github.com/shui-dun/multimodal_ad)**|
@@ -3912,7 +3912,7 @@ layout: default
 |**2023-06-24**|**Leveraging Brain Modularity Prior for Interpretable Representation Learning of fMRI**|Qianqian Wang et.al.|[2306.14080](http://arxiv.org/abs/2306.14080)|null|
 |**2023-06-24**|**Modeling Graphs Beyond Hyperbolic: Graph Neural Networks in Symmetric Positive Definite Matrices**|Wei Zhao et.al.|[2306.14064](http://arxiv.org/abs/2306.14064)|**[link](https://github.com/andyweizhao/spd4gnns)**|
 |**2023-06-23**|**Torsion Graph Neural Networks**|Cong Shen et.al.|[2306.13541](http://arxiv.org/abs/2306.13541)|**[link](https://github.com/cs-bio/torgnn)**|
-|**2023-06-23**|**PathMLP: Smooth Path Towards High-order Homophily**|Chenxuan Xie et.al.|[2306.13532](http://arxiv.org/abs/2306.13532)|null|
+|**2023-06-23**|**PathMLP: Smooth Path Towards High-order Homophily**|Chenxuan Xie et.al.|[2306.13532](http://arxiv.org/abs/2306.13532)|**[link](https://github.com/graph4sec-team/pathmlp)**|
 |**2023-06-23**|**A Graph Neural Network Approach for Temporal Mesh Blending and Correspondence**|Aalok Gangopadhyay et.al.|[2306.13452](http://arxiv.org/abs/2306.13452)|null|
 |**2023-06-23**|**TrustGuard: GNN-based Robust and Explainable Trust Evaluation with Dynamicity Support**|Jie Wang et.al.|[2306.13339](http://arxiv.org/abs/2306.13339)|**[link](https://github.com/jieerbobo/trustguard)**|
 |**2023-06-22**|**A Decade of Scholarly Research on Open Knowledge Graphs**|Houcemeddine Turki et.al.|[2306.13186](http://arxiv.org/abs/2306.13186)|**[link](https://github.com/data-engineering-and-semantics/openkgbiblio)**|
