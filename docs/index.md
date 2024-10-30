@@ -1646,6 +1646,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-10-29**|**Pushing the Performance Envelope of DNN-based Recommendation Systems Inference on GPUs**|Rishabh Jain et.al.|[2410.22249](http://arxiv.org/abs/2410.22249)|null|
 |**2024-10-04**|**SwiftKV: Fast Prefill-Optimized Inference with Knowledge-Preserving Model Transformation**|Aurick Qiao et.al.|[2410.03960](http://arxiv.org/abs/2410.03960)|null|
 |**2024-09-24**|**UELLM: A Unified and Efficient Approach for LLM Inference Serving**|Yiyuan He et.al.|[2409.14961](http://arxiv.org/abs/2409.14961)|null|
 |**2024-08-10**|**LLMServingSim: A HW/SW Co-Simulation Infrastructure for LLM Inference Serving at Scale**|Jaehong Cho et.al.|[2408.05499](http://arxiv.org/abs/2408.05499)|**[link](https://github.com/casys-kaist/llmservingsim)**|
@@ -1914,6 +1915,11 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-10-29**|**Subgraph Aggregation for Out-of-Distribution Generalization on Graphs**|Bowen Liu et.al.|[2410.22228](http://arxiv.org/abs/2410.22228)|null|
+|**2024-10-29**|**Vision Paper: Designing Graph Neural Networks in Compliance with the European Artificial Intelligence Act**|Barbara Hoffmann et.al.|[2410.22120](http://arxiv.org/abs/2410.22120)|null|
+|**2024-10-29**|**LogSHIELD: A Graph-based Real-time Anomaly Detection Framework using Frequency Analysis**|Krishna Chandra Roy et.al.|[2410.21936](http://arxiv.org/abs/2410.21936)|null|
+|**2024-10-29**|**Pushing the Limits of All-Atom Geometric Graph Neural Networks: Pre-Training, Scaling and Zero-Shot Transfer**|Zihan Pengmei et.al.|[2410.21683](http://arxiv.org/abs/2410.21683)|null|
+|**2024-10-28**|**Graph Sparsification for Enhanced Conformal Prediction in Graph Neural Networks**|Yuntian He et.al.|[2410.21618](http://arxiv.org/abs/2410.21618)|null|
 |**2024-10-28**|**Graph Based Traffic Analysis and Delay Prediction**|Gabriele Borg et.al.|[2410.21028](http://arxiv.org/abs/2410.21028)|null|
 |**2024-10-28**|**A Review of Graph-Powered Data Quality Applications for IoT Monitoring Sensor Networks**|Pau Ferrer-Cid et.al.|[2410.21006](http://arxiv.org/abs/2410.21006)|null|
 |**2024-10-28**|**SEG:Seeds-Enhanced Iterative Refinement Graph Neural Network for Entity Alignment**|Wei Ai et.al.|[2410.20733](http://arxiv.org/abs/2410.20733)|null|
