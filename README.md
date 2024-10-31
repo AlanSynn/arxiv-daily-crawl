@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.10.30
+## Updated on 2024.10.31
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -421,7 +421,7 @@
 |**2021-10-03**|**Quadrotor Control on $SU(2)\times R^3$ with SLAM Integration**|Marcus Greiff et.al.|[2110.01099](http://arxiv.org/abs/2110.01099)|null|
 |**2021-10-02**|**Online Incremental Non-Gaussian Inference for SLAM Using Normalizing Flows**|Qiangqiang Huang et.al.|[2110.00876](http://arxiv.org/abs/2110.00876)|**[link](https://github.com/marineroboticsgroup/nf-isam)**|
 
-<p align=right>(<a href=#Updated-on-20241030>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20241031>back to top</a>)</p>
 
 ## SFM
 
@@ -529,7 +529,7 @@
 |**2021-08-29**|**Solving Viewing Graph Optimization for Simultaneous Position and Rotation Registration**|Seyed-Mahdi Nasiri et.al.|[2108.12876](http://arxiv.org/abs/2108.12876)|null|
 |**2021-08-23**|**Burst Imaging for Light-Constrained Structure-From-Motion**|Ahalya Ravendran et.al.|[2108.09895](http://arxiv.org/abs/2108.09895)|null|
 
-<p align=right>(<a href=#Updated-on-20241030>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20241031>back to top</a>)</p>
 
 ## Visual Localization
 
@@ -972,7 +972,7 @@
 |**2021-09-09**|**CrowdDriven: A New Challenging Dataset for Outdoor Visual Localization**|Ara Jafarzadeh et.al.|[2109.04527](http://arxiv.org/abs/2109.04527)|null|
 |**2021-09-09**|**Keeping an Eye on Things: Deep Learned Features for Long-Term Visual Localization**|Mona Gridseth et.al.|[2109.04041](http://arxiv.org/abs/2109.04041)|**[link](https://github.com/utiasasrl/deep_learned_visual_features)**|
 
-<p align=right>(<a href=#Updated-on-20241030>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20241031>back to top</a>)</p>
 
 ## Keypoint Detection
 
@@ -1121,7 +1121,7 @@
 |**2021-08-31**|**A Novel Dataset for Keypoint Detection of quadruped Animals from Images**|Prianka Banik et.al.|[2108.13958](http://arxiv.org/abs/2108.13958)|**[link](https://github.com/prinik/awa-pose)**|
 |**2021-08-27**|**A Matching Algorithm based on Image Attribute Transfer and Local Features for Underwater Acoustic and Optical Images**|Xiaoteng Zhou et.al.|[2108.12151](http://arxiv.org/abs/2108.12151)|null|
 
-<p align=right>(<a href=#Updated-on-20241030>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20241031>back to top</a>)</p>
 
 ## Image Matching
 
@@ -1268,7 +1268,7 @@
 |**2021-08-27**|**Matching Underwater Sonar Images by the Learned Descriptor Based on Style Transfer Method**|Xiaoteng Zhou et.al.|[2108.12072](http://arxiv.org/abs/2108.12072)|null|
 |**2021-08-26**|**Efficient Joint Object Matching via Linear Programming**|Antonio De Rosa et.al.|[2108.11911](http://arxiv.org/abs/2108.11911)|null|
 
-<p align=right>(<a href=#Updated-on-20241030>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20241031>back to top</a>)</p>
 
 ## NeRF
 
@@ -1663,13 +1663,13 @@
 |**2022-07-29**|**Neural Density-Distance Fields**|Itsuki Ueda et.al.|[2207.14455](http://arxiv.org/abs/2207.14455)|**[link](https://github.com/ueda0319/neddf)**|
 |**2022-07-27**|**Is Attention All NeRF Needs?**|Mukund Varma T et.al.|[2207.13298](http://arxiv.org/abs/2207.13298)|null|
 
-<p align=right>(<a href=#Updated-on-20241030>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20241031>back to top</a>)</p>
 
 ## Inference
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2024-10-29**|**Pushing the Performance Envelope of DNN-based Recommendation Systems Inference on GPUs**|Rishabh Jain et.al.|[2410.22249](http://arxiv.org/abs/2410.22249)|null|
+|**2024-10-29**|**Pushing the Performance Envelope of DNN-based Recommendation Systems Inference on GPUs**|Rishabh Jain et.al.|[2410.22249](http://arxiv.org/abs/2410.22249)|**[link](https://github.com/rishucoding/reproduce_MICRO24_GPU_DLRM_inference)**|
 |**2024-10-04**|**SwiftKV: Fast Prefill-Optimized Inference with Knowledge-Preserving Model Transformation**|Aurick Qiao et.al.|[2410.03960](http://arxiv.org/abs/2410.03960)|null|
 |**2024-09-24**|**UELLM: A Unified and Efficient Approach for LLM Inference Serving**|Yiyuan He et.al.|[2409.14961](http://arxiv.org/abs/2409.14961)|null|
 |**2024-08-10**|**LLMServingSim: A HW/SW Co-Simulation Infrastructure for LLM Inference Serving at Scale**|Jaehong Cho et.al.|[2408.05499](http://arxiv.org/abs/2408.05499)|**[link](https://github.com/casys-kaist/llmservingsim)**|
@@ -1704,13 +1704,13 @@
 |**2022-02-18**|**A Survey of Large-Scale Deep Learning Serving System Optimization: Challenges and Opportunities**|Fuxun Yu et.al.|[2111.14247](http://arxiv.org/abs/2111.14247)|null|
 |**2021-10-28**|**Characterizing and Taming Resolution in Convolutional Neural Networks**|Eddie Yan et.al.|[2110.14819](http://arxiv.org/abs/2110.14819)|null|
 
-<p align=right>(<a href=#Updated-on-20241030>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20241031>back to top</a>)</p>
 
 ## Distributed Deep Learning
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2024-10-26**|**DQRM: Deep Quantized Recommendation Models**|Yang Zhou et.al.|[2410.20046](http://arxiv.org/abs/2410.20046)|null|
+|**2024-10-26**|**DQRM: Deep Quantized Recommendation Models**|Yang Zhou et.al.|[2410.20046](http://arxiv.org/abs/2410.20046)|**[link](https://github.com/YangZhou08/Deep_Quantized_Recommendation_Model_DQRM)**|
 |**2024-10-25**|**Lightweight, Secure and Stateful Serverless Computing with PSL**|Alexander Thomas et.al.|[2410.20004](http://arxiv.org/abs/2410.20004)|null|
 |**2024-10-25**|**BitPipe: Bidirectional Interleaved Pipeline Parallelism for Accelerating Large Models Training**|Houming Wu et.al.|[2410.19367](http://arxiv.org/abs/2410.19367)|**[link](https://github.com/wuhouming/bitpipe)**|
 |**2024-10-25**|**COAT: Compressing Optimizer states and Activation for Memory-Efficient FP8 Training**|Haocheng Xi et.al.|[2410.19313](http://arxiv.org/abs/2410.19313)|null|
@@ -1936,7 +1936,7 @@
 |**2023-05-12**|**Dynamically Conservative Self-Driving Planner for Long-Tail Cases**|Weitao Zhou et.al.|[2305.07497](http://arxiv.org/abs/2305.07497)|null|
 |**2023-05-10**|**P4SGD: Programmable Switch Enhanced Model-Parallel Training on Generalized Linear Models on Distributed FPGAs**|Hongjing Huang et.al.|[2305.05885](http://arxiv.org/abs/2305.05885)|null|
 
-<p align=right>(<a href=#Updated-on-20241030>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20241031>back to top</a>)</p>
 
 ## GNN System
 
@@ -1951,7 +1951,7 @@
 |**2024-10-28**|**A Review of Graph-Powered Data Quality Applications for IoT Monitoring Sensor Networks**|Pau Ferrer-Cid et.al.|[2410.21006](http://arxiv.org/abs/2410.21006)|null|
 |**2024-10-28**|**SEG:Seeds-Enhanced Iterative Refinement Graph Neural Network for Entity Alignment**|Wei Ai et.al.|[2410.20733](http://arxiv.org/abs/2410.20733)|null|
 |**2024-10-27**|**A Cosmic-Scale Benchmark for Symmetry-Preserving Data Processing**|Julia Balla et.al.|[2410.20516](http://arxiv.org/abs/2410.20516)|null|
-|**2024-10-27**|**Graph Neural Networks on Discriminative Graphs of Words**|Yassine Abbahaddou et.al.|[2410.20469](http://arxiv.org/abs/2410.20469)|null|
+|**2024-10-27**|**Graph Neural Networks on Discriminative Graphs of Words**|Yassine Abbahaddou et.al.|[2410.20469](http://arxiv.org/abs/2410.20469)|**[link](https://github.com/abbahaddou/DGOW)**|
 |**2024-10-27**|**Uncovering Capabilities of Model Pruning in Graph Contrastive Learning**|Wu Junran et.al.|[2410.20356](http://arxiv.org/abs/2410.20356)|null|
 |**2024-10-27**|**DeCaf: A Causal Decoupling Framework for OOD Generalization on Node Classification**|Xiaoxue Han et.al.|[2410.20295](http://arxiv.org/abs/2410.20295)|null|
 |**2024-10-26**|**Age of Information-Oriented Probabilistic Link Scheduling for Device-to-Device Networks**|Lixin Wang et.al.|[2410.20196](http://arxiv.org/abs/2410.20196)|null|
@@ -4269,7 +4269,7 @@
 |**2023-06-11**|**Between-Sample Relationship in Learning Tabular Data Using Graph and Attention Networks**|Shourav B. Rabbani et.al.|[2306.06772](http://arxiv.org/abs/2306.06772)|null|
 |**2023-06-11**|**Local-to-global Perspectives on Graph Neural Networks**|Chen Cai et.al.|[2306.06547](http://arxiv.org/abs/2306.06547)|**[link](https://github.com/chen-cai-osu/mpnn-gt-connection)**|
 
-<p align=right>(<a href=#Updated-on-20241030>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20241031>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors

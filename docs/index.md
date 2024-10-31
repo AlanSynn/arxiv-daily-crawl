@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.10.30
+## Updated on 2024.10.31
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1646,7 +1646,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2024-10-29**|**Pushing the Performance Envelope of DNN-based Recommendation Systems Inference on GPUs**|Rishabh Jain et.al.|[2410.22249](http://arxiv.org/abs/2410.22249)|null|
+|**2024-10-29**|**Pushing the Performance Envelope of DNN-based Recommendation Systems Inference on GPUs**|Rishabh Jain et.al.|[2410.22249](http://arxiv.org/abs/2410.22249)|**[link](https://github.com/rishucoding/reproduce_MICRO24_GPU_DLRM_inference)**|
 |**2024-10-04**|**SwiftKV: Fast Prefill-Optimized Inference with Knowledge-Preserving Model Transformation**|Aurick Qiao et.al.|[2410.03960](http://arxiv.org/abs/2410.03960)|null|
 |**2024-09-24**|**UELLM: A Unified and Efficient Approach for LLM Inference Serving**|Yiyuan He et.al.|[2409.14961](http://arxiv.org/abs/2409.14961)|null|
 |**2024-08-10**|**LLMServingSim: A HW/SW Co-Simulation Infrastructure for LLM Inference Serving at Scale**|Jaehong Cho et.al.|[2408.05499](http://arxiv.org/abs/2408.05499)|**[link](https://github.com/casys-kaist/llmservingsim)**|
@@ -1685,7 +1685,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2024-10-26**|**DQRM: Deep Quantized Recommendation Models**|Yang Zhou et.al.|[2410.20046](http://arxiv.org/abs/2410.20046)|null|
+|**2024-10-26**|**DQRM: Deep Quantized Recommendation Models**|Yang Zhou et.al.|[2410.20046](http://arxiv.org/abs/2410.20046)|**[link](https://github.com/YangZhou08/Deep_Quantized_Recommendation_Model_DQRM)**|
 |**2024-10-25**|**Lightweight, Secure and Stateful Serverless Computing with PSL**|Alexander Thomas et.al.|[2410.20004](http://arxiv.org/abs/2410.20004)|null|
 |**2024-10-25**|**BitPipe: Bidirectional Interleaved Pipeline Parallelism for Accelerating Large Models Training**|Houming Wu et.al.|[2410.19367](http://arxiv.org/abs/2410.19367)|**[link](https://github.com/wuhouming/bitpipe)**|
 |**2024-10-25**|**COAT: Compressing Optimizer states and Activation for Memory-Efficient FP8 Training**|Haocheng Xi et.al.|[2410.19313](http://arxiv.org/abs/2410.19313)|null|
@@ -1924,7 +1924,7 @@ layout: default
 |**2024-10-28**|**A Review of Graph-Powered Data Quality Applications for IoT Monitoring Sensor Networks**|Pau Ferrer-Cid et.al.|[2410.21006](http://arxiv.org/abs/2410.21006)|null|
 |**2024-10-28**|**SEG:Seeds-Enhanced Iterative Refinement Graph Neural Network for Entity Alignment**|Wei Ai et.al.|[2410.20733](http://arxiv.org/abs/2410.20733)|null|
 |**2024-10-27**|**A Cosmic-Scale Benchmark for Symmetry-Preserving Data Processing**|Julia Balla et.al.|[2410.20516](http://arxiv.org/abs/2410.20516)|null|
-|**2024-10-27**|**Graph Neural Networks on Discriminative Graphs of Words**|Yassine Abbahaddou et.al.|[2410.20469](http://arxiv.org/abs/2410.20469)|null|
+|**2024-10-27**|**Graph Neural Networks on Discriminative Graphs of Words**|Yassine Abbahaddou et.al.|[2410.20469](http://arxiv.org/abs/2410.20469)|**[link](https://github.com/abbahaddou/DGOW)**|
 |**2024-10-27**|**Uncovering Capabilities of Model Pruning in Graph Contrastive Learning**|Wu Junran et.al.|[2410.20356](http://arxiv.org/abs/2410.20356)|null|
 |**2024-10-27**|**DeCaf: A Causal Decoupling Framework for OOD Generalization on Node Classification**|Xiaoxue Han et.al.|[2410.20295](http://arxiv.org/abs/2410.20295)|null|
 |**2024-10-26**|**Age of Information-Oriented Probabilistic Link Scheduling for Device-to-Device Networks**|Lixin Wang et.al.|[2410.20196](http://arxiv.org/abs/2410.20196)|null|
