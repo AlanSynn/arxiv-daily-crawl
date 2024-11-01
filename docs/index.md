@@ -1646,6 +1646,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-10-31**|**ALISE: Accelerating Large Language Model Serving with Speculative Scheduling**|Youpeng Zhao et.al.|[2410.23537](http://arxiv.org/abs/2410.23537)|null|
 |**2024-10-29**|**Pushing the Performance Envelope of DNN-based Recommendation Systems Inference on GPUs**|Rishabh Jain et.al.|[2410.22249](http://arxiv.org/abs/2410.22249)|**[link](https://github.com/rishucoding/reproduce_MICRO24_GPU_DLRM_inference)**|
 |**2024-10-04**|**SwiftKV: Fast Prefill-Optimized Inference with Knowledge-Preserving Model Transformation**|Aurick Qiao et.al.|[2410.03960](http://arxiv.org/abs/2410.03960)|null|
 |**2024-09-24**|**UELLM: A Unified and Efficient Approach for LLM Inference Serving**|Yiyuan He et.al.|[2409.14961](http://arxiv.org/abs/2409.14961)|null|
@@ -1915,6 +1916,16 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2024-10-31**|**The Importance of Being Scalable: Improving the Speed and Accuracy of Neural Network Interatomic Potentials Across Chemical Domains**|Eric Qu et.al.|[2410.24169](http://arxiv.org/abs/2410.24169)|null|
+|**2024-10-31**|**Graph Learning for Numeric Planning**|Dillon Z. Chen et.al.|[2410.24080](http://arxiv.org/abs/2410.24080)|**[link](https://github.com/DillonZChen/goose)**|
+|**2024-10-31**|**Detecting text level intellectual influence with knowledge graph embeddings**|Lucian Li et.al.|[2410.24021](http://arxiv.org/abs/2410.24021)|null|
+|**2024-10-31**|**RAGraph: A General Retrieval-Augmented Graph Learning Framework**|Xinke Jiang et.al.|[2410.23855](http://arxiv.org/abs/2410.23855)|null|
+|**2024-10-31**|**Reducing Oversmoothing through Informed Weight Initialization in Graph Neural Networks**|Dimitrios Kelesis et.al.|[2410.23830](http://arxiv.org/abs/2410.23830)|null|
+|**2024-10-31**|**Graph Neural Networks Uncover Geometric Neural Representations in Reinforcement-Based Motor Learning**|Federico Nardi et.al.|[2410.23812](http://arxiv.org/abs/2410.23812)|null|
+|**2024-10-31**|**Enhancing Chess Reinforcement Learning with Graph Representation**|Tomas Rigaux et.al.|[2410.23753](http://arxiv.org/abs/2410.23753)|**[link](https://github.com/akulen/alphagateau)**|
+|**2024-10-31**|**Exploring Consistency in Graph Representations:from Graph Kernels to Graph Neural Networks**|Xuyuan Liu et.al.|[2410.23748](http://arxiv.org/abs/2410.23748)|null|
+|**2024-10-31**|**Towards Dynamic Message Passing on Graphs**|Junshu Sun et.al.|[2410.23686](http://arxiv.org/abs/2410.23686)|null|
+|**2024-10-30**|**Multi-fidelity Machine Learning for Uncertainty Quantification and Optimization**|Ruda Zhang et.al.|[2410.23482](http://arxiv.org/abs/2410.23482)|null|
 |**2024-10-30**|**Conditional Forecasting of Margin Calls using Dynamic Graph Neural Networks**|Matteo Citterio et.al.|[2410.23275](http://arxiv.org/abs/2410.23275)|null|
 |**2024-10-30**|**NASM: Neural Anisotropic Surface Meshing**|Hongbo Li et.al.|[2410.23109](http://arxiv.org/abs/2410.23109)|null|
 |**2024-10-30**|**Dual-Optimized Adaptive Graph Reconstruction for Multi-View Graph Clustering**|Zichen Wen et.al.|[2410.22983](http://arxiv.org/abs/2410.22983)|null|
