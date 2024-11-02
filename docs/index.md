@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2024.11.01
+## Updated on 2024.11.02
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1692,7 +1692,7 @@ layout: default
 |**2024-10-25**|**COAT: Compressing Optimizer states and Activation for Memory-Efficient FP8 Training**|Haocheng Xi et.al.|[2410.19313](http://arxiv.org/abs/2410.19313)|null|
 |**2024-10-24**|**Why Does the Effective Context Length of LLMs Fall Short?**|Chenxin An et.al.|[2410.18745](http://arxiv.org/abs/2410.18745)|null|
 |**2024-10-09**|**OPTIMA: Optimized Policy for Intelligent Multi-Agent Systems Enables Coordination-Aware Autonomous Vehicles**|Rui Du et.al.|[2410.18112](http://arxiv.org/abs/2410.18112)|null|
-|**2024-10-20**|**SDP4Bit: Toward 4-bit Communication Quantization in Sharded Data Parallelism for LLM Training**|Jinda Jia et.al.|[2410.15526](http://arxiv.org/abs/2410.15526)|**[link](https://github.com/jindajia/SDP4Bit)**|
+|**2024-10-20**|**SDP4Bit: Toward 4-bit Communication Quantization in Sharded Data Parallelism for LLM Training**|Jinda Jia et.al.|[2410.15526](http://arxiv.org/abs/2410.15526)|null|
 |**2024-10-15**|**Patch-Based Diffusion Models Beat Whole-Image Models for Mismatched Distribution Inverse Problems**|Jason Hu et.al.|[2410.11730](http://arxiv.org/abs/2410.11730)|null|
 |**2024-10-24**|**Scalable Multi-Domain Adaptation of Language Models using Modular Experts**|Peter Schafhalter et.al.|[2410.10181](http://arxiv.org/abs/2410.10181)|null|
 |**2024-10-09**|**TorchTitan: One-stop PyTorch native solution for production ready LLM pre-training**|Wanchao Liang et.al.|[2410.06511](http://arxiv.org/abs/2410.06511)|**[link](https://github.com/pytorch/torchtitan)**|
@@ -1923,7 +1923,7 @@ layout: default
 |**2024-10-31**|**Reducing Oversmoothing through Informed Weight Initialization in Graph Neural Networks**|Dimitrios Kelesis et.al.|[2410.23830](http://arxiv.org/abs/2410.23830)|null|
 |**2024-10-31**|**Graph Neural Networks Uncover Geometric Neural Representations in Reinforcement-Based Motor Learning**|Federico Nardi et.al.|[2410.23812](http://arxiv.org/abs/2410.23812)|null|
 |**2024-10-31**|**Enhancing Chess Reinforcement Learning with Graph Representation**|Tomas Rigaux et.al.|[2410.23753](http://arxiv.org/abs/2410.23753)|**[link](https://github.com/akulen/alphagateau)**|
-|**2024-10-31**|**Exploring Consistency in Graph Representations:from Graph Kernels to Graph Neural Networks**|Xuyuan Liu et.al.|[2410.23748](http://arxiv.org/abs/2410.23748)|null|
+|**2024-10-31**|**Exploring Consistency in Graph Representations:from Graph Kernels to Graph Neural Networks**|Xuyuan Liu et.al.|[2410.23748](http://arxiv.org/abs/2410.23748)|**[link](https://github.com/graphminddartmouth/graph-consistency)**|
 |**2024-10-31**|**Towards Dynamic Message Passing on Graphs**|Junshu Sun et.al.|[2410.23686](http://arxiv.org/abs/2410.23686)|null|
 |**2024-10-30**|**Multi-fidelity Machine Learning for Uncertainty Quantification and Optimization**|Ruda Zhang et.al.|[2410.23482](http://arxiv.org/abs/2410.23482)|null|
 |**2024-10-30**|**Conditional Forecasting of Margin Calls using Dynamic Graph Neural Networks**|Matteo Citterio et.al.|[2410.23275](http://arxiv.org/abs/2410.23275)|null|
