@@ -1712,6 +1712,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-11-15**|**Pro-Prophet: Systematic Load Balancing Method for Efficient Parallel Training of Large-scale MoE Models**|Wei Wang et.al.|[2411.10003](http://arxiv.org/abs/2411.10003)|null|
 |**2024-11-06**|**ParaGAN: A Scalable Distributed Training Framework for Generative Adversarial Networks**|Ziji Shi et.al.|[2411.03999](http://arxiv.org/abs/2411.03999)|null|
 |**2024-11-06**|**Adaptive Consensus Gradients Aggregation for Scaled Distributed Training**|Yoni Choukroun et.al.|[2411.03742](http://arxiv.org/abs/2411.03742)|**[link](https://github.com/yonilc/adacons)**|
 |**2024-11-05**|**Photon: Federated LLM Pre-Training**|Lorenzo Sani et.al.|[2411.02908](http://arxiv.org/abs/2411.02908)|null|
@@ -1952,7 +1953,9 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2024-11-14**|**Graph Neural Networks and Differential Equations: A hybrid approach for data assimilation of fluid flows**|M. Quattromini et.al.|[2411.09476](http://arxiv.org/abs/2411.09476)|null|
+|**2024-11-15**|**Bitcoin Research with a Transaction Graph Dataset**|Hugo Schnoering et.al.|[2411.10325](http://arxiv.org/abs/2411.10325)|null|
+|**2024-11-15**|**DuSEGO: Dual Second-order Equivariant Graph Ordinary Differential Equation**|Yingxu Wang et.al.|[2411.10000](http://arxiv.org/abs/2411.10000)|null|
+|**2024-11-15**|**Graph Neural Networks and Differential Equations: A hybrid approach for data assimilation of fluid flows**|M. Quattromini et.al.|[2411.09476](http://arxiv.org/abs/2411.09476)|null|
 |**2024-11-14**|**Less is More: Unseen Domain Fake News Detection via Causal Propagation Substructures**|Shuzhi Gong et.al.|[2411.09389](http://arxiv.org/abs/2411.09389)|null|
 |**2024-11-14**|**Cross Space and Time: A Spatio-Temporal Unitized Model for Traffic Flow Forecasting**|Weilin Ruan et.al.|[2411.09251](http://arxiv.org/abs/2411.09251)|null|
 |**2024-11-14**|**Neural Graph Simulator for Complex Systems**|Hoyun Choi et.al.|[2411.09120](http://arxiv.org/abs/2411.09120)|null|
