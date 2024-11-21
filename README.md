@@ -1712,6 +1712,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-11-20**|**Hardware Scaling Trends and Diminishing Returns in Large-Scale Distributed Training**|Jared Fernandez et.al.|[2411.13055](http://arxiv.org/abs/2411.13055)|null|
 |**2024-11-18**|**Graph Neural Networks on Graph Databases**|Dmytro Lopushanskyy et.al.|[2411.11375](http://arxiv.org/abs/2411.11375)|null|
 |**2024-11-18**|**Syllabus: Portable Curricula for Reinforcement Learning Agents**|Ryan Sullivan et.al.|[2411.11318](http://arxiv.org/abs/2411.11318)|**[link](https://github.com/RyanNavillus/Syllabus)**|
 |**2024-11-15**|**Pro-Prophet: Systematic Load Balancing Method for Efficient Parallel Training of Large-scale MoE Models**|Wei Wang et.al.|[2411.10003](http://arxiv.org/abs/2411.10003)|null|
@@ -1955,6 +1956,13 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-11-20**|**Predictive Insights into LGBTQ+ Minority Stress: A Transductive Exploration of Social Media Discourse**|S. Chapagain et.al.|[2411.13534](http://arxiv.org/abs/2411.13534)|null|
+|**2024-11-20**|**Advancing Heatwave Forecasting via Distribution Informed-Graph Neural Networks (DI-GNNs): Integrating Extreme Value Theory with GNNs**|Farrukh A. Chishtie et.al.|[2411.13496](http://arxiv.org/abs/2411.13496)|null|
+|**2024-11-20**|**Predicting Wall Thickness Changes in Cold Forging Processes: An Integrated FEM and Neural Network approach**|Sasa Ilic et.al.|[2411.13366](http://arxiv.org/abs/2411.13366)|null|
+|**2024-11-20**|**Domain Adaptive Unfolded Graph Neural Networks**|Zepeng Zhang et.al.|[2411.13137](http://arxiv.org/abs/2411.13137)|null|
+|**2024-11-20**|**ORID: Organ-Regional Information Driven Framework for Radiology Report Generation**|Tiancheng Gu et.al.|[2411.13025](http://arxiv.org/abs/2411.13025)|null|
+|**2024-11-20**|**Epidemiology-informed Network for Robust Rumor Detection**|Wei Jiang et.al.|[2411.12949](http://arxiv.org/abs/2411.12949)|null|
+|**2024-11-19**|**MLDGG: Meta-Learning for Domain Generalization on Graphs**|Qin Tian et.al.|[2411.12913](http://arxiv.org/abs/2411.12913)|null|
 |**2024-11-19**|**Benchmarking Positional Encodings for GNNs and Graph Transformers**|Florian Grötschla et.al.|[2411.12732](http://arxiv.org/abs/2411.12732)|**[link](https://github.com/ETH-DISCO/Benchmarking-PEs)**|
 |**2024-11-19**|**Estimating Dark Matter Halo Masses in Simulated Galaxy Clusters with Graph Neural Networks**|Nikhil Garuda et.al.|[2411.12629](http://arxiv.org/abs/2411.12629)|null|
 |**2024-11-19**|**GNNAS-Dock: Budget Aware Algorithm Selection with Graph Neural Networks for Molecular Docking**|Yiliang Yuan et.al.|[2411.12597](http://arxiv.org/abs/2411.12597)|null|
