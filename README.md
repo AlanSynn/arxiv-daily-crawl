@@ -1713,6 +1713,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-12-19**|**MoEtion: Efficient and Reliable Checkpointing for Mixture-of-Experts Models at Scale**|Swapnil Gandhi et.al.|[2412.15411](http://arxiv.org/abs/2412.15411)|null|
 |**2024-12-17**|**Echo: Simulating Distributed Training At Scale**|Yicheng Feng et.al.|[2412.12487](http://arxiv.org/abs/2412.12487)|null|
 |**2024-12-17**|**SepLLM: Accelerate Large Language Models by Compressing One Segment into One Separator**|Guoxuan Chen et.al.|[2412.12094](http://arxiv.org/abs/2412.12094)|**[link](https://github.com/HKUDS/SepLLM)**|
 |**2024-12-10**|**Distributed Gradient Descent with Many Local Steps in Overparameterized Models**|Heng Zhu et.al.|[2412.07971](http://arxiv.org/abs/2412.07971)|null|
@@ -1970,6 +1971,12 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-12-20**|**Astrometric constraints on stochastic gravitational wave background with neural networks**|Marienza Caldarola et.al.|[2412.15879](http://arxiv.org/abs/2412.15879)|null|
+|**2024-12-20**|**GraphSeqLM: A Unified Graph Language Framework for Omic Graph Learning**|Heming Zhang et.al.|[2412.15790](http://arxiv.org/abs/2412.15790)|null|
+|**2024-12-20**|**Prompt-based Unifying Inference Attack on Graph Neural Networks**|Yuecen Wei et.al.|[2412.15735](http://arxiv.org/abs/2412.15735)|**[link](https://github.com/ringbdstack/proia)**|
+|**2024-12-20**|**Pre-training Graph Neural Networks on Molecules by Using Subgraph-Conditioned Graph Information Bottleneck**|Van Thuy Hoang et.al.|[2412.15589](http://arxiv.org/abs/2412.15589)|null|
+|**2024-12-19**|**Investigating Relational State Abstraction in Collaborative MARL**|Sharlin Utke et.al.|[2412.15388](http://arxiv.org/abs/2412.15388)|**[link](https://github.com/gmontana/collaborativepickandplaceenv)**|
+|**2024-12-19**|**Tokenphormer: Structure-aware Multi-token Graph Transformer for Node Classification**|Zijie Zhou et.al.|[2412.15302](http://arxiv.org/abs/2412.15302)|**[link](https://github.com/Dodo-D-Caster/Tokenphormer)**|
 |**2024-12-19**|**Graph-neural-network predictions of solid-state NMR parameters from spherical tensor decomposition**|Chiheb Ben Mahmoud et.al.|[2412.15063](http://arxiv.org/abs/2412.15063)|null|
 |**2024-12-19**|**Answer Set Networks: Casting Answer Set Programming into Deep Learning**|Arseny Skryagin et.al.|[2412.14814](http://arxiv.org/abs/2412.14814)|null|
 |**2024-12-19**|**Boosting GNN Performance via Training Sample Selection Based on Adversarial Robustness Evaluation**|Yongyu Wang et.al.|[2412.14738](http://arxiv.org/abs/2412.14738)|null|
