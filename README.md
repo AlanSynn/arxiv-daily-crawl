@@ -1714,6 +1714,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-12-26**|**Federated Hybrid Training and Self-Adversarial Distillation: Towards Robust Edge Networks**|Yu Qiao et.al.|[2412.19354](http://arxiv.org/abs/2412.19354)|null|
 |**2024-12-24**|**Beyond Gradient Averaging in Parallel Optimization: Improved Robustness through Gradient Agreement Filtering**|Francois Chaubard et.al.|[2412.18052](http://arxiv.org/abs/2412.18052)|null|
 |**2024-12-19**|**MoEtion: Efficient and Reliable Checkpointing for Mixture-of-Experts Models at Scale**|Swapnil Gandhi et.al.|[2412.15411](http://arxiv.org/abs/2412.15411)|null|
 |**2024-12-17**|**Echo: Simulating Distributed Training At Scale**|Yicheng Feng et.al.|[2412.12487](http://arxiv.org/abs/2412.12487)|null|
@@ -1973,6 +1974,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2024-12-27**|**ViDTA: Enhanced Drug-Target Affinity Prediction via Virtual Graph Nodes and Attention-based Feature Fusion**|Minghui Li et.al.|[2412.19589](http://arxiv.org/abs/2412.19589)|null|
+|**2024-12-27**|**Introduction to Graph Neural Networks: A Starting Point for Machine Learning Engineers**|James H. Tanis et.al.|[2412.19419](http://arxiv.org/abs/2412.19419)|null|
+|**2024-12-26**|**RecLM: Recommendation Instruction Tuning**|Yangqin Jiang et.al.|[2412.19302](http://arxiv.org/abs/2412.19302)|null|
+|**2024-12-26**|**Virtual Nodes Can Help: Tackling Distribution Shifts in Federated Graph Learning**|Xingbo Fu et.al.|[2412.19229](http://arxiv.org/abs/2412.19229)|null|
+|**2024-12-26**|**Large Language Models Meet Graph Neural Networks: A Perspective of Graph Mining**|Yuxin You et.al.|[2412.19211](http://arxiv.org/abs/2412.19211)|null|
+|**2024-12-26**|**ERGNN: Spectral Graph Neural Network with Explicitly-optimized Rational Graph Filters**|Guoming Li et.al.|[2412.19106](http://arxiv.org/abs/2412.19106)|null|
+|**2024-12-25**|**Adversarial Training for Graph Neural Networks via Graph Subspace Energy Optimization**|Ganlin Liu et.al.|[2412.18886](http://arxiv.org/abs/2412.18886)|null|
+|**2024-12-25**|**Enhancing Federated Graph Learning via Adaptive Fusion of Structural and Node Characteristics**|Xianjun Gao et.al.|[2412.18845](http://arxiv.org/abs/2412.18845)|null|
+|**2024-12-25**|**Hierarchical Multi-Graphs Learning for Robust Group Re-Identification**|Ruiqi Liu et.al.|[2412.18766](http://arxiv.org/abs/2412.18766)|null|
+|**2024-12-25**|**Predicting Time Series of Networked Dynamical Systems without Knowing Topology**|Yanna Ding et.al.|[2412.18734](http://arxiv.org/abs/2412.18734)|null|
 |**2024-12-24**|**Unveiling the Threat of Fraud Gangs to Graph Neural Networks: Multi-Target Graph Injection Attacks against GNN-Based Fraud Detectors**|Jinhyeok Choi et.al.|[2412.18370](http://arxiv.org/abs/2412.18370)|**[link](https://github.com/bdi-lab/monti)**|
 |**2024-12-24**|**Semi-supervised Credit Card Fraud Detection via Attribute-Driven Graph Representation**|Sheng Xiang et.al.|[2412.18287](http://arxiv.org/abs/2412.18287)|**[link](https://github.com/ai4risk/antifraud)**|
 |**2024-12-24**|**NoiseHGNN: Synthesized Similarity Graph-Based Neural Network For Noised Heterogeneous Graph Representation Learning**|Xiong Zhang et.al.|[2412.18267](http://arxiv.org/abs/2412.18267)|**[link](https://github.com/kg-cc/noisehgnn)**|
