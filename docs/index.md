@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2025.01.01
+## Updated on 2025.01.02
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## SLAM
@@ -1692,7 +1692,7 @@ layout: default
 |**2024-12-30**|**Adaptive Batch Size Schedules for Distributed Training of Language Models with Data and Model Parallelism**|Tim Tsz-Kit Lau et.al.|[2412.21124](http://arxiv.org/abs/2412.21124)|null|
 |**2024-12-30**|**UnrealZoo: Enriching Photo-realistic Virtual Worlds for Embodied AI**|Fangwei Zhong et.al.|[2412.20977](http://arxiv.org/abs/2412.20977)|null|
 |**2024-12-26**|**Federated Hybrid Training and Self-Adversarial Distillation: Towards Robust Edge Networks**|Yu Qiao et.al.|[2412.19354](http://arxiv.org/abs/2412.19354)|null|
-|**2024-12-29**|**Beyond Gradient Averaging in Parallel Optimization: Improved Robustness through Gradient Agreement Filtering**|Francois Chaubard et.al.|[2412.18052](http://arxiv.org/abs/2412.18052)|null|
+|**2024-12-29**|**Beyond Gradient Averaging in Parallel Optimization: Improved Robustness through Gradient Agreement Filtering**|Francois Chaubard et.al.|[2412.18052](http://arxiv.org/abs/2412.18052)|**[link](https://github.com/Fchaubard/gradient_agreement_filtering)**|
 |**2024-12-19**|**MoEtion: Efficient and Reliable Checkpointing for Mixture-of-Experts Models at Scale**|Swapnil Gandhi et.al.|[2412.15411](http://arxiv.org/abs/2412.15411)|null|
 |**2024-12-17**|**Echo: Simulating Distributed Training At Scale**|Yicheng Feng et.al.|[2412.12487](http://arxiv.org/abs/2412.12487)|null|
 |**2024-12-30**|**SepLLM: Accelerate Large Language Models by Compressing One Segment into One Separator**|Guoxuan Chen et.al.|[2412.12094](http://arxiv.org/abs/2412.12094)|**[link](https://github.com/HKUDS/SepLLM)**|
