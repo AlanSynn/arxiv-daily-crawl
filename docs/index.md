@@ -1989,10 +1989,10 @@ layout: default
 |**2025-01-15**|**Enhancing Graph Representation Learning with Localized Topological Features**|Zuoyu Yan et.al.|[2501.09178](http://arxiv.org/abs/2501.09178)|**[link](https://github.com/pkuyzy/TLC-GNN)**|
 |**2025-01-15**|**Multi-Class Traffic Assignment using Multi-View Heterogeneous Graph Attention Networks**|Tong Liu et.al.|[2501.09117](http://arxiv.org/abs/2501.09117)|null|
 |**2025-01-15**|**Similarity-Quantized Relative Difference Learning for Improved Molecular Activity Prediction**|Karina Zadorozhny et.al.|[2501.09103](http://arxiv.org/abs/2501.09103)|null|
-|**2025-01-15**|**CrystalGRW: Generative Modeling of Crystal Structures with Targeted Properties via Geodesic Random Walks**|Krit Tangsongcharoen et.al.|[2501.08998](http://arxiv.org/abs/2501.08998)|null|
+|**2025-01-15**|**CrystalGRW: Generative Modeling of Crystal Structures with Targeted Properties via Geodesic Random Walks**|Krit Tangsongcharoen et.al.|[2501.08998](http://arxiv.org/abs/2501.08998)|**[link](https://github.com/trachote/crystalgrw)**|
 |**2025-01-15**|**Joint Detection and Decoding: A Graph Neural Network Approach**|Jannis Clausius et.al.|[2501.08871](http://arxiv.org/abs/2501.08871)|null|
 |**2025-01-15**|**MeshMask: Physics-Based Simulations with Masked Graph Neural Networks**|Paul Garnier et.al.|[2501.08738](http://arxiv.org/abs/2501.08738)|null|
-|**2025-01-15**|**GRAPPA -- A Hybrid Graph Neural Network for Predicting Pure Component Vapor Pressures**|Marco Hoffmann et.al.|[2501.08729](http://arxiv.org/abs/2501.08729)|null|
+|**2025-01-15**|**GRAPPA -- A Hybrid Graph Neural Network for Predicting Pure Component Vapor Pressures**|Marco Hoffmann et.al.|[2501.08729](http://arxiv.org/abs/2501.08729)|**[link](https://github.com/marco-hoffmann/grappa)**|
 |**2025-01-15**|**Normalize Then Propagate: Efficient Homophilous Regularization for Few-shot Semi-Supervised Node Classification**|Baoming Zhang et.al.|[2501.08581](http://arxiv.org/abs/2501.08581)|null|
 |**2025-01-15**|**OMEGA: A Low-Latency GNN Serving System for Large Graphs**|Geon-Woo Kim et.al.|[2501.08547](http://arxiv.org/abs/2501.08547)|null|
 |**2025-01-14**|**Predict Confidently, Predict Right: Abstention in Dynamic Graph Learning**|Jayadratha Gayen et.al.|[2501.08397](http://arxiv.org/abs/2501.08397)|null|
@@ -2013,7 +2013,7 @@ layout: default
 |**2025-01-10**|**Annealing Machine-assisted Learning of Graph Neural Network for Combinatorial Optimization**|Pablo Loyola et.al.|[2501.05845](http://arxiv.org/abs/2501.05845)|null|
 |**2025-01-10**|**Fine-tuning is Not Fine: Mitigating Backdoor Attacks in GNNs with Limited Clean Data**|Jiale Zhang et.al.|[2501.05835](http://arxiv.org/abs/2501.05835)|null|
 |**2025-01-10**|**TransPlace: Transferable Circuit Global Placement via Graph Neural Network**|Yunbo Hou et.al.|[2501.05667](http://arxiv.org/abs/2501.05667)|**[link](https://github.com/sorarain/transplace)**|
-|**2025-01-10**|**Scaling Safe Multi-Agent Control for Signal Temporal Logic Specifications**|Joe Eappen et.al.|[2501.05639](http://arxiv.org/abs/2501.05639)|null|
+|**2025-01-10**|**Scaling Safe Multi-Agent Control for Signal Temporal Logic Specifications**|Joe Eappen et.al.|[2501.05639](http://arxiv.org/abs/2501.05639)|**[link](https://github.com/jeappen/mastl-gcbf)**|
 |**2025-01-09**|**Watermarking Graph Neural Networks via Explanations for Ownership Protection**|Jane Downer et.al.|[2501.05614](http://arxiv.org/abs/2501.05614)|null|
 |**2025-01-09**|**Quantum Simplicial Neural Networks**|Simone Piperno et.al.|[2501.05558](http://arxiv.org/abs/2501.05558)|null|
 |**2025-01-09**|**Discovery of Spin-Crossover Candidates with Equivariant Graph Neural Networks**|Angel Albavera-Mata et.al.|[2501.05341](http://arxiv.org/abs/2501.05341)|null|
@@ -2580,7 +2580,7 @@ layout: default
 |**2024-09-13**|**ATFLRec: A Multimodal Recommender System with Audio-Text Fusion and Low-Rank Adaptation via Instruction-Tuned Large Language Model**|Zezheng Qin et.al.|[2409.08543](http://arxiv.org/abs/2409.08543)|null|
 |**2024-09-13**|**An Efficient Privacy-aware Split Learning Framework for Satellite Communications**|Jianfei Sun et.al.|[2409.08538](http://arxiv.org/abs/2409.08538)|null|
 |**2024-09-12**|**Learning incomplete factorization preconditioners for GMRES**|Paul Häusner et.al.|[2409.08262](http://arxiv.org/abs/2409.08262)|**[link](https://github.com/paulhausner/neural-incomplete-factorization)**|
-|**2024-09-12**|**CliquePH: Higher-Order Information for Graph Neural Networks through Persistent Homology on Clique Graphs**|Davide Buffelli et.al.|[2409.08217](http://arxiv.org/abs/2409.08217)|null|
+|**2024-09-12**|**CliquePH: Higher-Order Information for Graph Neural Networks through Persistent Homology on Clique Graphs**|Davide Buffelli et.al.|[2409.08217](http://arxiv.org/abs/2409.08217)|**[link](https://github.com/DavideBuffelli/CliquePH)**|
 |**2024-09-12**|**Gaussian Garments: Reconstructing Simulation-Ready Clothing with Photorealistic Appearance from Multi-View Video**|Boxiang Rong et.al.|[2409.08189](http://arxiv.org/abs/2409.08189)|null|
 |**2024-09-12**|**Hierarchical Symbolic Pop Music Generation with Graph Neural Networks**|Wen Qing Lim et.al.|[2409.08155](http://arxiv.org/abs/2409.08155)|null|
 |**2024-09-12**|**Heterogeneous Sheaf Neural Networks**|Luke Braithwaite et.al.|[2409.08036](http://arxiv.org/abs/2409.08036)|null|
