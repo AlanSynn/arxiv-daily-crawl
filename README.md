@@ -1669,7 +1669,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2025-02-03**|**OCTOPINF: Workload-Aware Inference Serving for Edge Video Analytics**|Thanh-Tung Nguyen et.al.|[2502.01277](http://arxiv.org/abs/2502.01277)|null|
+|**2025-02-03**|**OCTOPINF: Workload-Aware Inference Serving for Edge Video Analytics**|Thanh-Tung Nguyen et.al.|[2502.01277](http://arxiv.org/abs/2502.01277)|**[link](https://github.com/tungngreen/pipelinescheduler)**|
 |**2025-01-09**|**Optimizing Distributed Deployment of Mixture-of-Experts Model Inference in Serverless Computing**|Mengfan Liu et.al.|[2501.05313](http://arxiv.org/abs/2501.05313)|null|
 |**2025-01-02**|**FlashInfer: Efficient and Customizable Attention Engine for LLM Inference Serving**|Zihao Ye et.al.|[2501.01005](http://arxiv.org/abs/2501.01005)|**[link](https://github.com/flashinfer-ai/flashinfer)**|
 |**2024-12-21**|**SYMPHONY: Improving Memory Management for LLM Inference Workloads**|Saurabh Agarwal et.al.|[2412.16434](http://arxiv.org/abs/2412.16434)|null|
