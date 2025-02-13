@@ -1693,6 +1693,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-02-11**|**Memory Analysis on the Training Course of DeepSeek Models**|Ping Zhang et.al.|[2502.07846](http://arxiv.org/abs/2502.07846)|null|
 |**2025-02-11**|**Distributed Value Decomposition Networks with Networked Agents**|Guilherme S. Varela et.al.|[2502.07635](http://arxiv.org/abs/2502.07635)|null|
 |**2025-02-10**|**Fine-tuning Multimodal Transformers on Edge: A Parallel Split Learning Approach**|Timo Fudala et.al.|[2502.06355](http://arxiv.org/abs/2502.06355)|null|
 |**2025-02-04**|**Scalable Higher Resolution Polar Sea Ice Classification and Freeboard Calculation from ICESat-2 ATL03 Data**|Jurdana Masuma Iqrah et.al.|[2502.02700](http://arxiv.org/abs/2502.02700)|null|
@@ -1972,6 +1973,15 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-02-12**|**Bridging Domain Adaptation and Graph Neural Networks: A Tensor-Based Framework for Effective Label Propagation**|Tao Wen et.al.|[2502.08505](http://arxiv.org/abs/2502.08505)|null|
+|**2025-02-12**|**Trustworthy GNNs with LLMs: A Systematic Review and Taxonomy**|Ruizhan Xue et.al.|[2502.08353](http://arxiv.org/abs/2502.08353)|null|
+|**2025-02-12**|**Graph Foundation Models for Recommendation: A Comprehensive Survey**|Bin Wu et.al.|[2502.08346](http://arxiv.org/abs/2502.08346)|null|
+|**2025-02-12**|**Data Pricing for Graph Neural Networks without Pre-purchased Inspection**|Yiping Liu et.al.|[2502.08284](http://arxiv.org/abs/2502.08284)|null|
+|**2025-02-12**|**Equivariant Masked Position Prediction for Efficient Molecular Representation**|Junyi An et.al.|[2502.08209](http://arxiv.org/abs/2502.08209)|null|
+|**2025-02-12**|**MixDec Sampling: A Soft Link-based Sampling Method of Graph Neural Network for Recommendation**|Xiangjin Xie et.al.|[2502.08161](http://arxiv.org/abs/2502.08161)|null|
+|**2025-02-12**|**Mixture of Decoupled Message Passing Experts with Entropy Constraint for General Node Classification**|Xuanze Chen et.al.|[2502.08083](http://arxiv.org/abs/2502.08083)|null|
+|**2025-02-12**|**Collaborative Filtering Meets Spectrum Shift: Connecting User-Item Interaction with Graph-Structured Side Information**|Yunhang He et.al.|[2502.08071](http://arxiv.org/abs/2502.08071)|null|
+|**2025-02-11**|**Learning Effective Dynamics across Spatio-Temporal Scales of Complex Flows**|Han Gao et.al.|[2502.07990](http://arxiv.org/abs/2502.07990)|null|
 |**2025-02-11**|**Stereograph: Stereoscopic event reconstruction using graph neural networks applied to CTAO**|Hana Ali Messaoud et.al.|[2502.07421](http://arxiv.org/abs/2502.07421)|null|
 |**2025-02-11**|**Effects of Random Edge-Dropping on Over-Squashing in Graph Neural Networks**|Jasraj Singh et.al.|[2502.07364](http://arxiv.org/abs/2502.07364)|null|
 |**2025-02-10**|**Neighborhood-Order Learning Graph Attention Network for Fake News Detection**|Batool Lakzaei et.al.|[2502.06927](http://arxiv.org/abs/2502.06927)|null|
