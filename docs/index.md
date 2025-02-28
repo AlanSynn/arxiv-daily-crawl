@@ -2002,7 +2002,7 @@ layout: default
 |**2025-02-24**|**Detecting Code Vulnerabilities with Heterogeneous GNN Training**|Yu Luo et.al.|[2502.16835](http://arxiv.org/abs/2502.16835)|null|
 |**2025-02-24**|**VGFL-SA: Vertical Graph Federated Learning Structure Attack Based on Contrastive Learning**|Yang Chen et.al.|[2502.16793](http://arxiv.org/abs/2502.16793)|null|
 |**2025-02-23**|**Subsampling Graphs with GNN Performance Guarantees**|Mika Sarkin Jain et.al.|[2502.16703](http://arxiv.org/abs/2502.16703)|null|
-|**2025-02-23**|**Interpretable Retinal Disease Prediction Using Biology-Informed Heterogeneous Graph Representations**|Laurin Lux et.al.|[2502.16697](http://arxiv.org/abs/2502.16697)|null|
+|**2025-02-23**|**Interpretable Retinal Disease Prediction Using Biology-Informed Heterogeneous Graph Representations**|Laurin Lux et.al.|[2502.16697](http://arxiv.org/abs/2502.16697)|**[link](https://github.com/luxtu/OCTA-graph)**|
 |**2025-02-23**|**A Survey of Graph Transformers: Architectures, Theories and Applications**|Chaohao Yuan et.al.|[2502.16533](http://arxiv.org/abs/2502.16533)|null|
 |**2025-02-23**|**GraphCheck: Breaking Long-Term Text Barriers with Extracted Knowledge Graph-Powered Fact-Checking**|Yingjian Chen et.al.|[2502.16514](http://arxiv.org/abs/2502.16514)|null|
 |**2025-02-23**|**MAPN: Enhancing Heterogeneous Sparse Graph Representation by Mamba-based Asynchronous Aggregation**|Xuqi Mao et.al.|[2502.16454](http://arxiv.org/abs/2502.16454)|null|
@@ -2020,7 +2020,7 @@ layout: default
 |**2025-02-20**|**Small Graph Is All You Need: DeepStateGNN for Scalable Traffic Forecasting**|Yannick Wölker et.al.|[2502.14525](http://arxiv.org/abs/2502.14525)|null|
 |**2025-02-20**|**DAG: Deep Adaptive and Generative $K$ -Free Community Detection on Attributed Graphs**|Chang Liu et.al.|[2502.14294](http://arxiv.org/abs/2502.14294)|null|
 |**2025-02-20**|**Adaptive Sparsified Graph Learning Framework for Vessel Behavior Anomalies**|Jeehong Kim et.al.|[2502.14197](http://arxiv.org/abs/2502.14197)|null|
-|**2025-02-19**|**Dual-level Mixup for Graph Few-shot Learning with Fewer Tasks**|Yonghao Liu et.al.|[2502.14158](http://arxiv.org/abs/2502.14158)|null|
+|**2025-02-19**|**Dual-level Mixup for Graph Few-shot Learning with Fewer Tasks**|Yonghao Liu et.al.|[2502.14158](http://arxiv.org/abs/2502.14158)|**[link](https://github.com/KEAML-JLU/SMILE)**|
 |**2025-02-19**|**SALTY: Explainable Artificial Intelligence Guided Structural Analysis for Hardware Trojan Detection**|Tanzim Mahfuz et.al.|[2502.14116](http://arxiv.org/abs/2502.14116)|null|
 |**2025-02-20**|**Extending the RANGE of Graph Neural Networks: Relaying Attention Nodes for Global Encoding**|Alessandro Caruso et.al.|[2502.13797](http://arxiv.org/abs/2502.13797)|null|
 |**2025-02-19**|**Unsupervised Graph Embeddings for Session-based Recommendation with Item Features**|Andreas Peintner et.al.|[2502.13763](http://arxiv.org/abs/2502.13763)|**[link](https://github.com/dbis-uibk/gcnext)**|
@@ -2029,12 +2029,12 @@ layout: default
 |**2025-02-19**|**Non-Euclidean Hierarchical Representational Learning using Hyperbolic Graph Neural Networks for Environmental Claim Detection**|Darpan Aswal et.al.|[2502.13628](http://arxiv.org/abs/2502.13628)|null|
 |**2025-02-19**|**Are Large Language Models In-Context Graph Learners?**|Jintang Li et.al.|[2502.13562](http://arxiv.org/abs/2502.13562)|null|
 |**2025-02-19**|**Some Insights of Construction of Feature Graph to Learn Pairwise Feature Interactions with Graph Neural Networks**|Phaphontee Yamchote et.al.|[2502.13471](http://arxiv.org/abs/2502.13471)|null|
-|**2025-02-18**|**K-Paths: Reasoning over Graph Paths for Drug Repurposing and Drug Interaction Prediction**|Tassallah Abdullahi et.al.|[2502.13344](http://arxiv.org/abs/2502.13344)|null|
+|**2025-02-18**|**K-Paths: Reasoning over Graph Paths for Drug Repurposing and Drug Interaction Prediction**|Tassallah Abdullahi et.al.|[2502.13344](http://arxiv.org/abs/2502.13344)|**[link](https://github.com/rsinghlab/K-Paths)**|
 |**2025-02-18**|**Tuning Algorithmic and Architectural Hyperparameters in Graph-Based Semi-Supervised Learning with Provable Guarantees**|Ally Yalei Du et.al.|[2502.12937](http://arxiv.org/abs/2502.12937)|null|
 |**2025-02-19**|**Graph Neural Networks for Databases: A Survey**|Ziming Li et.al.|[2502.12908](http://arxiv.org/abs/2502.12908)|null|
 |**2025-02-18**|**NTP-INT: Network Traffic Prediction-Driven In-band Network Telemetry for High-load Switches**|Penghui Zhang et.al.|[2502.12834](http://arxiv.org/abs/2502.12834)|null|
 |**2025-02-18**|**Circuit Representation Learning with Masked Gate Modeling and Verilog-AIG Alignment**|Haoyuan Wu et.al.|[2502.12732](http://arxiv.org/abs/2502.12732)|null|
-|**2025-02-18**|**Uncertainty-Aware Graph Structure Learning**|Shen Han et.al.|[2502.12618](http://arxiv.org/abs/2502.12618)|null|
+|**2025-02-18**|**Uncertainty-Aware Graph Structure Learning**|Shen Han et.al.|[2502.12618](http://arxiv.org/abs/2502.12618)|**[link](https://github.com/UnHans/UnGSL)**|
 |**2025-02-18**|**A Graph-Enhanced Deep-Reinforcement Learning Framework for the Aircraft Landing Problem**|Vatsal Maru et.al.|[2502.12617](http://arxiv.org/abs/2502.12617)|null|
 |**2025-02-18**|**Unveiling Mode Connectivity in Graph Neural Networks**|Bingheng Li et.al.|[2502.12608](http://arxiv.org/abs/2502.12608)|null|
 |**2025-02-18**|**GVTNet: Graph Vision Transformer For Face Super-Resolution**|Chao Yang et.al.|[2502.12570](http://arxiv.org/abs/2502.12570)|null|
@@ -2460,7 +2460,7 @@ layout: default
 |**2024-11-19**|**GNNAS-Dock: Budget Aware Algorithm Selection with Graph Neural Networks for Molecular Docking**|Yiliang Yuan et.al.|[2411.12597](http://arxiv.org/abs/2411.12597)|null|
 |**2024-11-19**|**Bias Free Sentiment Analysis**|Hubert Plisiecki et.al.|[2411.12493](http://arxiv.org/abs/2411.12493)|null|
 |**2024-11-19**|**Graph as a feature: improving node classification with non-neural graph-aware logistic regression**|Simon Delarue et.al.|[2411.12330](http://arxiv.org/abs/2411.12330)|**[link](https://github.com/graph-lr/graph-aware-logistic-regression)**|
-|**2024-11-18**|**Cartesian Atomic Moment Machine Learning Interatomic Potentials**|Mingjian Wen et.al.|[2411.12096](http://arxiv.org/abs/2411.12096)|null|
+|**2024-11-18**|**Cartesian Atomic Moment Machine Learning Interatomic Potentials**|Mingjian Wen et.al.|[2411.12096](http://arxiv.org/abs/2411.12096)|**[link](https://github.com/wengroup/camp_run)**|
 |**2024-11-18**|**Efficient and Robust Continual Graph Learning for Graph Classification in Biology**|Ding Zhang et.al.|[2411.11668](http://arxiv.org/abs/2411.11668)|null|
 |**2024-11-19**|**GNN-Based Code Annotation Logic for Establishing Security Boundaries in C Code**|Varun Gadey et.al.|[2411.11567](http://arxiv.org/abs/2411.11567)|null|
 |**2024-11-18**|**Graph Artificial Intelligence for Quantifying Compatibility Mechanisms in Traditional Chinese Medicine**|Jingqi Zeng et.al.|[2411.11474](http://arxiv.org/abs/2411.11474)|**[link](https://github.com/zengjingqi/graphai-for-tcm)**|
@@ -3907,7 +3907,7 @@ layout: default
 |**2024-01-29**|**Combined track finding with GNN & CKF**|Lukas Heinrich et.al.|[2401.16016](http://arxiv.org/abs/2401.16016)|null|
 |**2024-01-29**|**Spatio-Temporal Attention Graph Neural Network for Remaining Useful Life Prediction**|Zhixin Huang et.al.|[2401.15964](http://arxiv.org/abs/2401.15964)|null|
 |**2024-01-29**|**A Gated MLP Architecture for Learning Topological Dependencies in Spatio-Temporal Graphs**|Yun Young Choi et.al.|[2401.15894](http://arxiv.org/abs/2401.15894)|**[link](https://github.com/leemingo/cy2mixer)**|
-|**2024-01-28**|**Improving Expressive Power of Spectral Graph Neural Networks with Eigenvalue Correction**|Kangkang Lu et.al.|[2401.15603](http://arxiv.org/abs/2401.15603)|null|
+|**2024-01-28**|**Improving Expressive Power of Spectral Graph Neural Networks with Eigenvalue Correction**|Kangkang Lu et.al.|[2401.15603](http://arxiv.org/abs/2401.15603)|**[link](https://github.com/lukangkang123/ec-gnn)**|
 |**2024-01-28**|**DGNN: Decoupled Graph Neural Networks with Structural Consistency between Attribute and Graph Embedding Representations**|Jinlu Wang et.al.|[2401.15584](http://arxiv.org/abs/2401.15584)|**[link](https://github.com/jinluwang1002/dgnn)**|
 |**2024-01-28**|**Efficient Tuning and Inference for Large Language Models on Textual Graphs**|Yun Zhu et.al.|[2401.15569](http://arxiv.org/abs/2401.15569)|**[link](https://github.com/ZhuYun97/ENGINE)**|
 |**2024-01-26**|**Macro Graph Neural Networks for Online Billion-Scale Recommender Systems**|Hao Chen et.al.|[2401.14939](http://arxiv.org/abs/2401.14939)|**[link](https://github.com/yuanchenbei/macgnn)**|
@@ -4031,7 +4031,7 @@ layout: default
 |**2023-12-30**|**ReasoningLM: Enabling Structural Subgraph Reasoning in Pre-trained Language Models for Question Answering over Knowledge Graph**|Jinhao Jiang et.al.|[2401.00158](http://arxiv.org/abs/2401.00158)|null|
 |**2023-12-29**|**Physics-informed Graphical Neural Network for Power System State Estimation**|Quang-Ha Ngo et.al.|[2312.17738](http://arxiv.org/abs/2312.17738)|null|
 |**2023-12-29**|**Data Augmentation for Supervised Graph Outlier Detection with Latent Diffusion Models**|Kay Liu et.al.|[2312.17679](http://arxiv.org/abs/2312.17679)|**[link](https://github.com/kayzliu/godm)**|
-|**2023-12-29**|**A graph neural network-based model with Out-of-Distribution Robustness for enhancing Antiretroviral Therapy Outcome Prediction for HIV-1**|Giulia Di Teodoro et.al.|[2312.17506](http://arxiv.org/abs/2312.17506)|null|
+|**2023-12-29**|**A graph neural network-based model with Out-of-Distribution Robustness for enhancing Antiretroviral Therapy Outcome Prediction for HIV-1**|Giulia Di Teodoro et.al.|[2312.17506](http://arxiv.org/abs/2312.17506)|**[link](https://github.com/federicosiciliano/graph-ood-hiv)**|
 |**2023-12-28**|**Explainability-Based Adversarial Attack on Graphs Through Edge Perturbation**|Dibaloke Chanda et.al.|[2312.17301](http://arxiv.org/abs/2312.17301)|null|
 |**2023-12-28**|**TSPP: A Unified Benchmarking Tool for Time-series Forecasting**|Jan Bączek et.al.|[2312.17100](http://arxiv.org/abs/2312.17100)|**[link](https://github.com/NVIDIA/DeepLearningExamples)**|
 |**2023-12-28**|**Molecular Property Prediction Based on Graph Structure Learning**|Bangyi Zhao et.al.|[2312.16855](http://arxiv.org/abs/2312.16855)|null|
