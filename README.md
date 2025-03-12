@@ -1720,6 +1720,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2025-03-11**|**Will LLMs Scaling Hit the Wall? Breaking Barriers via Distributed Resources on Massive Edge Devices**|Tao Shen et.al.|[2503.08223](http://arxiv.org/abs/2503.08223)|null|
 |**2025-03-10**|**Distributed Resource Block Allocation for Wideband Cell-free System**|Yang Ma et.al.|[2503.06875](http://arxiv.org/abs/2503.06875)|null|
 |**2025-03-07**|**FedMABench: Benchmarking Mobile Agents on Decentralized Heterogeneous User Data**|Wenhao Wang et.al.|[2503.05143](http://arxiv.org/abs/2503.05143)|null|
 |**2025-03-06**|**Efficient Long Context Fine-tuning with Chunk Flow**|Xiulong Yuan et.al.|[2503.02356](http://arxiv.org/abs/2503.02356)|null|
@@ -2013,6 +2014,9 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2025-03-11**|**i-WiViG: Interpretable Window Vision GNN**|Ivica Obadic et.al.|[2503.08321](http://arxiv.org/abs/2503.08321)|null|
+|**2025-03-11**|**Evidential Uncertainty Probes for Graph Neural Networks**|Linlin Yu et.al.|[2503.08097](http://arxiv.org/abs/2503.08097)|null|
+|**2025-03-10**|**CIMAGE: Exploiting the Conditional Independence in Masked Graph Auto-encoders**|Jongwon Park et.al.|[2503.07852](http://arxiv.org/abs/2503.07852)|null|
 |**2025-03-10**|**Beyond the Edge of Function: Unraveling the Patterns of Type Recovery in Binary Code**|Gangyang Li et.al.|[2503.07243](http://arxiv.org/abs/2503.07243)|null|
 |**2025-03-10**|**An Analytics-Driven Approach to Enhancing Supply Chain Visibility with Graph Neural Networks and Federated Learning**|Ge Zheng et.al.|[2503.07231](http://arxiv.org/abs/2503.07231)|null|
 |**2025-03-10**|**Explainable Android Malware Detection and Malicious Code Localization Using Graph Attention**|Merve Cigdem Ipek et.al.|[2503.07109](http://arxiv.org/abs/2503.07109)|null|
