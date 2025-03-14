@@ -1669,6 +1669,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2025-03-13**|**Collaborative Speculative Inference for Efficient LLM Inference Serving**|Luyao Gao et.al.|[2503.10325](http://arxiv.org/abs/2503.10325)|null|
 |**2025-03-07**|**Optimizing LLM Inference Throughput via Memory-aware and SLA-constrained Dynamic Batching**|Bowen Pang et.al.|[2503.05248](http://arxiv.org/abs/2503.05248)|null|
 |**2025-02-21**|**Towards Swift Serverless LLM Cold Starts with ParaServe**|Chiheng Lou et.al.|[2502.15524](http://arxiv.org/abs/2502.15524)|null|
 |**2025-02-03**|**OCTOPINF: Workload-Aware Inference Serving for Edge Video Analytics**|Thanh-Tung Nguyen et.al.|[2502.01277](http://arxiv.org/abs/2502.01277)|**[link](https://github.com/tungngreen/pipelinescheduler)**|
@@ -2015,6 +2016,10 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2025-03-13**|**DP-GPL: Differentially Private Graph Prompt Learning**|Jing Xu et.al.|[2503.10544](http://arxiv.org/abs/2503.10544)|null|
+|**2025-03-13**|**AMR-Transformer: Enabling Efficient Long-range Interaction for Complex Neural Fluid Simulation**|Zeyi Xu et.al.|[2503.10257](http://arxiv.org/abs/2503.10257)|null|
+|**2025-03-12**|**Fine-tuning Vision Language Models with Graph-based Knowledge for Explainable Medical Image Analysis**|Chenjun Li et.al.|[2503.09808](http://arxiv.org/abs/2503.09808)|null|
+|**2025-03-12**|**How Feasible is Augmenting Fake Nodes with Learnable Features as a Counter-strategy against Link Stealing Attacks?**|Mir Imtiaz Mostafiz et.al.|[2503.09726](http://arxiv.org/abs/2503.09726)|null|
 |**2025-03-12**|**Graph-based Full Event Interpretation: a graph neural network for event reconstruction in Belle II**|Merna Abumusabh et.al.|[2503.09401](http://arxiv.org/abs/2503.09401)|null|
 |**2025-03-12**|**Post-interactive Multimodal Trajectory Prediction for Autonomous Driving**|Ziyi Huang et.al.|[2503.09366](http://arxiv.org/abs/2503.09366)|null|
 |**2025-03-12**|**Crowdsourced Homophily Ties Based Graph Annotation Via Large Language Model**|Yu Bu et.al.|[2503.09281](http://arxiv.org/abs/2503.09281)|null|
