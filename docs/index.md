@@ -1697,6 +1697,8 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-03-19**|**Global Group Fairness in Federated Learning via Function Tracking**|Yves Rychener et.al.|[2503.15163](http://arxiv.org/abs/2503.15163)|null|
+|**2025-03-19**|**pFedFair: Towards Optimal Group Fairness-Accuracy Trade-off in Heterogeneous Federated Learning**|Haoyu Lei et.al.|[2503.14925](http://arxiv.org/abs/2503.14925)|null|
 |**2025-03-14**|**Federated Learning for Secure and Efficient Device Activity Detection in mMTC Networks**|Ali Elkeshawy et.al.|[2503.13513](http://arxiv.org/abs/2503.13513)|null|
 |**2025-03-12**|**Automatic Operator-level Parallelism Planning for Distributed Deep Learning -- A Mixed-Integer Programming Approach**|Ruifeng She et.al.|[2503.09357](http://arxiv.org/abs/2503.09357)|null|
 |**2025-03-11**|**Will LLMs Scaling Hit the Wall? Breaking Barriers via Distributed Resources on Massive Edge Devices**|Tao Shen et.al.|[2503.08223](http://arxiv.org/abs/2503.08223)|null|
@@ -1992,6 +1994,16 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-03-19**|**Modeling crystal defects using defect-informed neural networks**|Ziduo Yang et.al.|[2503.15391](http://arxiv.org/abs/2503.15391)|null|
+|**2025-03-19**|**Lyapunov-Based Graph Neural Networks for Adaptive Control of Multi-Agent Systems**|Brandon C. Fallin et.al.|[2503.15360](http://arxiv.org/abs/2503.15360)|null|
+|**2025-03-19**|**Learning to quantify graph nodes**|Alessio Micheli et.al.|[2503.15267](http://arxiv.org/abs/2503.15267)|null|
+|**2025-03-19**|**Classification of Electron and Muon Neutrino Events for the ESS $ν$ SB Near Water Cherenkov Detector using Graph Neural Networks**|J. Aguilar et.al.|[2503.15247](http://arxiv.org/abs/2503.15247)|null|
+|**2025-03-19**|**Learning Topology Actions for Power Grid Control: A Graph-Based Soft-Label Imitation Learning Approach**|Mohamed Hassouna et.al.|[2503.15190](http://arxiv.org/abs/2503.15190)|null|
+|**2025-03-19**|**Interpretability of Graph Neural Networks to Assert Effects of Global Change Drivers on Ecological Networks**|Emre Anakok et.al.|[2503.15107](http://arxiv.org/abs/2503.15107)|null|
+|**2025-03-19**|**Embedding spatial context in urban traffic forecasting with contrastive pre-training**|Matthew Low et.al.|[2503.14980](http://arxiv.org/abs/2503.14980)|null|
+|**2025-03-19**|**Deep Polycuboid Fitting for Compact 3D Representation of Indoor Scenes**|Gahye Lee et.al.|[2503.14912](http://arxiv.org/abs/2503.14912)|null|
+|**2025-03-19**|**DVHGNN: Multi-Scale Dilated Vision HGNN for Efficient Vision Recognition**|Caoshuo Li et.al.|[2503.14867](http://arxiv.org/abs/2503.14867)|null|
+|**2025-03-19**|**Graph-Based Re-ranking: Emerging Techniques, Limitations, and Opportunities**|Md Shahir Zaoad et.al.|[2503.14802](http://arxiv.org/abs/2503.14802)|null|
 |**2025-03-18**|**Unifying Text Semantics and Graph Structures for Temporal Text-attributed Graphs with Large Language Models**|Siwei Zhang et.al.|[2503.14411](http://arxiv.org/abs/2503.14411)|null|
 |**2025-03-18**|**Spatio-Temporal Graph Neural Networks for Infant Language Acquisition Prediction**|Andrew Roxburgh et.al.|[2503.14341](http://arxiv.org/abs/2503.14341)|null|
 |**2025-03-18**|**Higher-Order Graphon Neural Networks: Approximation and Cut Distance**|Daniel Herbst et.al.|[2503.14338](http://arxiv.org/abs/2503.14338)|null|
