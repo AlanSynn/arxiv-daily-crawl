@@ -1724,6 +1724,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2025-03-29**|**Optimizing Distributed Training Approaches for Scaling Neural Networks**|Vishnu Vardhan Baligodugula et.al.|[2503.23186](http://arxiv.org/abs/2503.23186)|null|
 |**2025-03-26**|**Scalability Evaluation of HPC Multi-GPU Training for ECG-based LLMs**|Dimitar Mileski et.al.|[2503.21033](http://arxiv.org/abs/2503.21033)|null|
 |**2025-03-24**|**Mist: Efficient Distributed Training of Large Language Models via Memory-Parallelism Co-Optimization**|Zhanda Zhu et.al.|[2503.19050](http://arxiv.org/abs/2503.19050)|**[link](https://github.com/dazz993/mist)**|
 |**2025-03-21**|**OmniLearn: A Framework for Distributed Deep Learning over Heterogeneous Clusters**|Sahil Tyagi et.al.|[2503.17469](http://arxiv.org/abs/2503.17469)|**[link](https://github.com/sahiltyagi4/OmniLearn)**|
@@ -2029,6 +2030,16 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2025-03-31**|**Evaluating machine learning models for predicting pesticides toxicity to honey bees**|Jakub Adamczyk et.al.|[2503.24305](http://arxiv.org/abs/2503.24305)|**[link](https://github.com/j-adamczyk/apistox_bee_toxicity_ml_prediction)**|
+|**2025-03-31**|**Advances in Continual Graph Learning for Anti-Money Laundering Systems: A Comprehensive Review**|Bruno Deprez et.al.|[2503.24259](http://arxiv.org/abs/2503.24259)|null|
+|**2025-03-31**|**Traffic Engineering in Large-scale Networks with Generalizable Graph Neural Networks**|Fangtong Zhou et.al.|[2503.24203](http://arxiv.org/abs/2503.24203)|null|
+|**2025-03-31**|**Graph Neural Network-Based Predictive Modeling for Robotic Plaster Printing**|Diego Machain Rivera et.al.|[2503.24130](http://arxiv.org/abs/2503.24130)|null|
+|**2025-03-31**|**Inductive Graph Representation Learning with Quantum Graph Neural Networks**|Arthur M. Faria et.al.|[2503.24111](http://arxiv.org/abs/2503.24111)|null|
+|**2025-03-31**|**Accelerating High-Efficiency Organic Photovoltaic Discovery via Pretrained Graph Neural Networks and Generative Reinforcement Learning**|Jiangjie Qiu et.al.|[2503.23766](http://arxiv.org/abs/2503.23766)|null|
+|**2025-03-31**|**GNN-Based Candidate Node Predictor for Influence Maximization in Temporal Graphs**|Priyanka Gautam et.al.|[2503.23713](http://arxiv.org/abs/2503.23713)|null|
+|**2025-03-31**|**Predicting the von Neumann Entanglement Entropy Using a Graph Neural Network**|Anas Saleh et.al.|[2503.23635](http://arxiv.org/abs/2503.23635)|null|
+|**2025-03-30**|**Simple Feedfoward Neural Networks are Almost All You Need for Time Series Forecasting**|Fan-Keng Sun et.al.|[2503.23621](http://arxiv.org/abs/2503.23621)|null|
+|**2025-03-30**|**Graph-Eq: Discovering Mathematical Equations using Graph Generative Models**|Nisal Ranasinghe et.al.|[2503.23617](http://arxiv.org/abs/2503.23617)|null|
 |**2025-03-28**|**Comparing Methods for Bias Mitigation in Graph Neural Networks**|Barbara Hoffmann et.al.|[2503.22569](http://arxiv.org/abs/2503.22569)|null|
 |**2025-03-28**|**CFiCS: Graph-Based Classification of Common Factors and Microcounseling Skills**|Fabian Schmidt et.al.|[2503.22277](http://arxiv.org/abs/2503.22277)|**[link](https://github.com/smidtfab/CFiCS)**|
 |**2025-03-28**|**Data-driven modeling of fluid flow around rotating structures with graph neural networks**|Rui Gao et.al.|[2503.22252](http://arxiv.org/abs/2503.22252)|null|
