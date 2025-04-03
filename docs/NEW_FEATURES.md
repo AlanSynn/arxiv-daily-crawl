@@ -1,4 +1,4 @@
-# New Features for CV-Arxiv-Daily
+# New Features for Daily Arxiv
 
 ## 1. Fresh Run Option (`--fresh-run`)
 
@@ -24,26 +24,28 @@ The `fresh_run.sh` script will:
 
 ## 2. Email Notifications
 
-This feature allows you to receive daily email notifications with the latest papers. Only papers from the current day are included in the email.
+Daily Arxiv now supports email notifications! When configured, the system will send a beautiful HTML email containing the latest papers fetched from arXiv with:
 
-### Configuration
+- 📝 Clean, modern design with emojis
+- 📚 Papers organized by topic category
+- 📄 Direct links to papers and source code
+- 📋 Abstracts included for quick review
 
-Edit the `config.yaml` file to set up email notifications:
+To configure email notifications:
 
-```yaml
-# email settings
-email_settings:
-  enabled: True  # Set to True to enable email notifications
-  smtp_server: "smtp.gmail.com"  # Your SMTP server
-  smtp_port: 587
-  smtp_user: "your.email@gmail.com"  # Your email address
-  smtp_password: "your-app-password"  # Your password or app password
-```
+1. Edit `config.yaml` and set `send_email: True`
+2. Configure `email_settings` with your SMTP server details:
+   ```yaml
+   email_settings:
+     enabled: True
+     smtp_server: "smtp.gmail.com"
+     smtp_port: 587
+     smtp_user: "${SMTP_USER}"  # Uses environment variable
+     smtp_password: "${SMTP_PASSWORD}"  # Uses environment variable
+   ```
+3. Set `email_recipient: "${EMAIL_RECIPIENT}"` to specify who receives the notifications
 
-**Notes for Gmail users:**
-- You'll need to use an "App Password" instead of your regular password
-- Go to your Google Account → Security → 2-Step Verification → App passwords
-- Generate a new app password for "Mail"
+For GitHub Actions, add these as repository secrets.
 
 ### Usage
 
@@ -59,7 +61,11 @@ The default recipient is `alansynn@gatech.edu` but you can change it with the `-
 
 ## 3. Paper Archiving
 
-Papers older than 1 year are automatically archived to keep the main collection current. Archives are organized by month and can be browsed through the archive pages.
+Old papers are now automatically archived to keep the main view focused on recent research:
+
+- 🗄️ Papers older than 365 days are moved to archive files
+- 📚 Archives are organized by month in `docs/archive`
+- 📑 Each archive includes full paper details and abstracts
 
 ### Configuration
 
@@ -83,7 +89,31 @@ python archive_old_papers.py
 
 Archives can be browsed in the `docs/archive/` directory.
 
-## 4. GitHub Secrets 사용하기 (민감한 정보 보호)
+## 4. Daily Logs
+
+Daily Arxiv now generates daily log files to make tracking and recovery easier. The system will:
+
+- 📂 Create a new log file each day (both JSON and MD formats)
+- 🗃️ Store previous files in `logs/json` and `logs/md` directories
+- 📊 Maintain a history of all papers collected
+
+Example directory structure:
+```
+logs/
+├── README.md
+├── json/
+│   ├── daily-arxiv_2023-07-01.json
+│   ├── daily-arxiv_2023-07-02.json
+│   ├── daily-arxiv-web_2023-07-01.json
+│   └── daily-arxiv-web_2023-07-02.json
+└── md/
+    ├── README_2023-07-01.md
+    ├── README_2023-07-02.md
+    ├── index_2023-07-01.md
+    └── index_2023-07-02.md
+```
+
+## 5. GitHub Secrets 사용하기 (민감한 정보 보호)
 
 민감한 정보(SMTP 인증 정보, 이메일 주소 등)는 GitHub Secrets를 통해 안전하게 관리됩니다.
 

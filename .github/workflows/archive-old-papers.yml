@@ -1,9 +1,9 @@
 name: Archive Old Papers Monthly
 
 on:
-  workflow_dispatch:  # Allow manual triggers
+  workflow_dispatch:  # manual trigger
   schedule:
-    - cron: "0 0 1 * *"  # Run at midnight on the 1st day of each month
+    - cron: "0 12 1 * *"  # Run at 8:00 AM EDT (12:00 UTC) on the 1st of each month
 
 env:
   GITHUB_USER_NAME: AlanSynn
@@ -13,40 +13,39 @@ env:
   EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
 
 jobs:
-  archive:
-    name: archive-old-papers
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+          fetch-depth: 0
 
-      - name: Set up Python Env
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
+          cache: 'pip'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pyyaml
-          pip install requests
-          pip install arxiv
+          pip install -r requirements.txt
 
-      - name: Run archiving script
+      - name: Run Archive Script
         run: |
           python archive_old_papers.py
-        env:
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
+
+      - name: Commit files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "Archive old papers (monthly)" -a || echo "No changes to commit"
 
       - name: Push changes
-        uses: github-actions-x/commit@v2.9
+        uses: ad-m/github-push-action@master
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Github Action Automatic Archive of Old Papers"
-          files: docs/cv-arxiv-daily.json docs/cv-arxiv-daily-web.json docs/cv-arxiv-daily-wechat.json docs/archive/* README.md docs/index.md docs/wechat.md
-          rebase: 'true'
-          name: ${{ env.GITHUB_USER_NAME }}
-          email: ${{ env.GITHUB_USER_EMAIL }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

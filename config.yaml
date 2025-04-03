@@ -1,7 +1,6 @@
-# TODO: add papers by configuration file
 base_url: "https://arxiv.paperswithcode.com/api/v0/papers/"
 user_name: "AlanSynn"
-repo_name: "cv-arxiv-daily"
+repo_name: "daily-arxiv"
 show_authors: True
 show_links: True
 show_badge: True
@@ -9,16 +8,16 @@ max_results: 10
 
 publish_readme: True
 publish_gitpage: True
-publish_wechat: False
 
 # file paths
-json_readme_path: './docs/cv-arxiv-daily.json'
-json_gitpage_path: './docs/cv-arxiv-daily-web.json'
-json_wechat_path: './docs/cv-arxiv-daily-wechat.json'
+json_readme_path: './docs/daily-arxiv.json'
+json_gitpage_path: './docs/daily-arxiv-web.json'
 
 md_readme_path: 'README.md'
 md_gitpage_path: './docs/index.md'
-md_wechat_path: './docs/wechat.md'
+
+# logs storage directory
+log_dir: './logs'
 
 # archive settings
 archive_settings:
@@ -101,10 +100,3 @@ keywords:
             - "Language Models in Design"
             - "Diffusion Models for Design" # Increasingly relevant generative model
             - "AI for Engineering Design" # Broader application context
-
-    "Inference":
-        filters: ["Inference", "Inference Serving"]
-    "Distributed Deep Learning":
-        filters: ["Distributed Deep Learning","Distributed Training"]
-    "GNN System":
-        filters: ["Graph Neural Networks", "Training", "Deep Graph Learning", "Distributed Deep Graph Learning"]

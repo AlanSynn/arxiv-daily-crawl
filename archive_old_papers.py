@@ -134,11 +134,11 @@ def archive_old_papers(json_file, archive_dir, max_age_days=365):
 def generate_archive_markdown(archive_data, output_file):
     """Generate a markdown file from the archived JSON data"""
     with open(output_file, 'w') as f:
-        f.write("# Archived Papers\n\n")
+        f.write("# 📚 Archived Papers\n\n")
         f.write(f"*Last updated: {datetime.date.today().strftime('%Y-%m-%d')}*\n\n")
 
         # Table of contents
-        f.write("## Table of Contents\n\n")
+        f.write("## 📋 Table of Contents\n\n")
         for category in archive_data.keys():
             if archive_data[category]:  # Only add categories with papers
                 category_link = category.replace(' ', '-').lower()
@@ -150,7 +150,7 @@ def generate_archive_markdown(archive_data, output_file):
             if not papers:
                 continue
 
-            f.write(f"## {category}\n\n")
+            f.write(f"## 📑 {category}\n\n")
 
             # Sort papers by date (newest first)
             sorted_papers = sorted(
@@ -171,11 +171,11 @@ def generate_archive_markdown(archive_data, output_file):
                     code_link = parts[5].strip()
 
                     f.write(f"### {title}\n\n")
-                    f.write(f"**Date:** {date}  \n")
-                    f.write(f"**Authors:** {authors}  \n")
-                    f.write(f"**Paper:** {paper_link}  \n")
+                    f.write(f"**📅 Date:** {date}  \n")
+                    f.write(f"**👨‍🔬 Authors:** {authors}  \n")
+                    f.write(f"**📄 Paper:** {paper_link}  \n")
                     if code_link != "null" and code_link.strip():
-                        f.write(f"**Code:** {code_link}  \n")
+                        f.write(f"**💻 Code:** {code_link}  \n")
 
                     # Try to fetch abstract if not in the entry
                     try:
@@ -184,7 +184,7 @@ def generate_archive_markdown(archive_data, output_file):
                             search = arxiv.Search(id_list=[paper_id_clean])
                             paper = next(search.results())
                             abstract = paper.summary.replace("\n", " ")
-                            f.write(f"\n**Abstract:** {abstract}\n\n")
+                            f.write(f"\n**📝 Abstract:** {abstract}\n\n")
                     except Exception as e:
                         logging.warning(f"Could not fetch abstract for {paper_id}: {e}")
 
@@ -213,7 +213,7 @@ def update_config_for_archiving(config_file):
     return config
 
 def main():
-    parser = argparse.ArgumentParser(description='Archive old papers from cv-arxiv-daily')
+    parser = argparse.ArgumentParser(description='Archive old papers from daily-arxiv')
     parser.add_argument('--config', type=str, default='config.yaml', help='Path to config file')
     args = parser.parse_args()
 
@@ -224,8 +224,7 @@ def main():
         # Archive papers from all JSON files mentioned in config
         json_files = [
             config['json_readme_path'],
-            config['json_gitpage_path'],
-            config['json_wechat_path']
+            config['json_gitpage_path']
         ]
 
         for json_file in json_files:

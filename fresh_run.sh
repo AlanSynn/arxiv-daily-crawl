@@ -1,39 +1,68 @@
 #!/bin/bash
 
-# Check if environment variables are set, otherwise prompt for them
-if [ -z "$SMTP_USER" ]; then
-  read -p "Enter SMTP username (email): " SMTP_USER
-  export SMTP_USER
+# Create backups directory
+mkdir -p backups
+
+# Get current timestamp for backup files
+TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
+
+# Back up existing files before fresh run
+if [ -f "README.md" ]; then
+  cp README.md "backups/README_${TIMESTAMP}.md"
+  echo "Backed up README.md to backups/README_${TIMESTAMP}.md"
 fi
 
-if [ -z "$SMTP_PASSWORD" ]; then
-  read -s -p "Enter SMTP password: " SMTP_PASSWORD
-  echo
-  export SMTP_PASSWORD
+if [ -f "docs/index.md" ]; then
+  cp docs/index.md "backups/index_${TIMESTAMP}.md"
+  echo "Backed up docs/index.md to backups/index_${TIMESTAMP}.md"
 fi
 
-if [ -z "$EMAIL_RECIPIENT" ]; then
-  read -p "Enter email recipient: " EMAIL_RECIPIENT
-  export EMAIL_RECIPIENT
+if [ -f "docs/daily-arxiv.json" ]; then
+  cp docs/daily-arxiv.json "backups/daily-arxiv_${TIMESTAMP}.json"
+  echo "Backed up docs/daily-arxiv.json to backups/daily-arxiv_${TIMESTAMP}.json"
 fi
 
-# Backup existing files
-echo "Backing up existing files..."
-mkdir -p backup
-cp docs/cv-arxiv-daily.json backup/ 2>/dev/null || true
-cp docs/cv-arxiv-daily-web.json backup/ 2>/dev/null || true
-cp docs/cv-arxiv-daily-wechat.json backup/ 2>/dev/null || true
-cp README.md backup/ 2>/dev/null || true
-cp docs/index.md backup/ 2>/dev/null || true
-cp docs/wechat.md backup/ 2>/dev/null || true
+if [ -f "docs/daily-arxiv-web.json" ]; then
+  cp docs/daily-arxiv-web.json "backups/daily-arxiv-web_${TIMESTAMP}.json"
+  echo "Backed up docs/daily-arxiv-web.json to backups/daily-arxiv-web_${TIMESTAMP}.json"
+fi
 
-# Run with fresh-run flag and email notification
-echo "Running fresh start..."
-python daily_arxiv.py --fresh-run --send-email
+# Check if we need to prompt for email settings
+if [ -z "$SMTP_USER" ] || [ -z "$SMTP_PASSWORD" ] || [ -z "$EMAIL_RECIPIENT" ]; then
+  echo "Email settings not found in environment. Would you like to configure email notifications? (y/n)"
+  read configure_email
 
-# Run archive to clean up old papers
-echo "Running archive to clean old papers..."
-python archive_old_papers.py
+  if [ "$configure_email" = "y" ] || [ "$configure_email" = "Y" ]; then
+    if [ -z "$SMTP_USER" ]; then
+      echo "Enter SMTP username (email address):"
+      read SMTP_USER
+      export SMTP_USER
+    fi
 
-echo "Done! Fresh run completed."
-echo "Email notification has been sent if properly configured in config.yaml."
+    if [ -z "$SMTP_PASSWORD" ]; then
+      echo "Enter SMTP password or app password:"
+      read -s SMTP_PASSWORD
+      export SMTP_PASSWORD
+      echo
+    fi
+
+    if [ -z "$EMAIL_RECIPIENT" ]; then
+      echo "Enter email recipient address:"
+      read EMAIL_RECIPIENT
+      export EMAIL_RECIPIENT
+    fi
+
+    SEND_EMAIL="--send-email"
+  else
+    SEND_EMAIL=""
+  fi
+else
+  # Email settings found in environment
+  SEND_EMAIL="--send-email"
+fi
+
+# Run the script with fresh-run flag
+echo "Starting fresh run of Daily Arxiv..."
+python3 daily_arxiv.py --fresh-run $SEND_EMAIL
+
+echo "Fresh run completed!"

@@ -8,6 +8,7 @@ import argparse
 import datetime
 import requests
 import smtplib
+import shutil
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
@@ -18,6 +19,44 @@ logging.basicConfig(format='[%(asctime)s %(levelname)s] %(message)s',
 base_url = "https://arxiv.paperswithcode.com/api/v0/papers/"
 github_url = "https://api.github.com/search/repositories"
 arxiv_url = "http://arxiv.org/"
+
+def ensure_directory_exists(directory):
+    """
+    Ensure that the specified directory exists, creating it if necessary
+    """
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+        logging.info(f"Created directory: {directory}")
+
+def get_dated_file_paths(config, date_str=None):
+    """
+    Generate file paths with date included
+    If date_str is None, use today's date
+
+    Returns:
+        dict: Dictionary with dated file paths for JSON and MD files
+    """
+    if date_str is None:
+        date_str = datetime.date.today().strftime("%Y-%m-%d")
+
+    # Create log directories if they don't exist
+    log_dir = config.get('log_dir', './logs')
+    ensure_directory_exists(log_dir)
+
+    json_log_dir = os.path.join(log_dir, 'json')
+    md_log_dir = os.path.join(log_dir, 'md')
+    ensure_directory_exists(json_log_dir)
+    ensure_directory_exists(md_log_dir)
+
+    # Generate dated file paths
+    paths = {
+        'json_readme_log': os.path.join(json_log_dir, f"daily-arxiv_{date_str}.json"),
+        'json_gitpage_log': os.path.join(json_log_dir, f"daily-arxiv-web_{date_str}.json"),
+        'md_readme_log': os.path.join(md_log_dir, f"README_{date_str}.md"),
+        'md_gitpage_log': os.path.join(md_log_dir, f"index_{date_str}.md"),
+    }
+
+    return paths
 
 def load_config(config_file:str) -> dict:
     '''
@@ -60,6 +99,10 @@ def load_config(config_file:str) -> dict:
         # Handle email recipient
         if '${EMAIL_RECIPIENT}' in config.get('email_recipient', ''):
             config['email_recipient'] = os.environ.get('EMAIL_RECIPIENT', 'alansynn@gatech.edu')
+
+        # Set default log directory if not specified
+        if 'log_dir' not in config:
+            config['log_dir'] = './logs'
 
         config['kv'] = pretty_filters(**config)
         logging.info(f'config = {config}')
@@ -252,20 +295,47 @@ def update_paper_links(filename):
         with open(filename,"w") as f:
             json.dump(json_data,f)
 
-def update_json_file(filename,data_dict):
+def update_json_file(filename, data_dict, create_new=False):
     '''
     daily update json file using data_dict
+    if create_new is True, create a new file instead of updating existing one
     '''
-    with open(filename,"r") as f:
-        content = f.read()
-        if not content:
+    # Ensure the directory exists
+    directory = os.path.dirname(filename)
+    if directory and not os.path.exists(directory):
+        os.makedirs(directory)
+        logging.info(f"Created directory: {directory}")
+
+    if create_new or not os.path.exists(filename) or os.path.getsize(filename) == 0:
+        # Create new file
+        json_data = {}
+        for data in data_dict:
+            for keyword in data.keys():
+                papers = data[keyword]
+                if keyword in json_data.keys():
+                    json_data[keyword].update(papers)
+                else:
+                    json_data[keyword] = papers
+
+        with open(filename, "w") as f:
+            json.dump(json_data, f)
+        logging.info(f"Created new JSON file: {filename}")
+    else:
+        # Update existing file
+        try:
+            with open(filename, "r") as f:
+                content = f.read()
+                if not content:
+                    m = {}
+                else:
+                    m = json.loads(content)
+        except (FileNotFoundError, json.JSONDecodeError) as e:
+            logging.warning(f"Error reading {filename}: {e}. Creating a new file.")
             m = {}
-        else:
-            m = json.loads(content)
 
-    json_data = m.copy()
+        json_data = m.copy()
 
-    # update papers in each keywords
+        # Update papers in each keywords
     for data in data_dict:
         for keyword in data.keys():
             papers = data[keyword]
@@ -275,19 +345,24 @@ def update_json_file(filename,data_dict):
             else:
                 json_data[keyword] = papers
 
-    with open(filename,"w") as f:
-        json.dump(json_data,f)
+        with open(filename, "w") as f:
+            json.dump(json_data, f)
+        logging.info(f"Updated existing JSON file: {filename}")
 
-def json_to_md(filename,md_filename,
+    return json_data
+
+def json_to_md(filename, md_filename,
                task = '',
                to_web = False,
                use_title = True,
                use_tc = True,
                show_badge = True,
-               use_b2t = True):
+               use_b2t = True,
+               create_new=False):
     """
     @param filename: str
     @param md_filename: str
+    @param create_new: bool, if True, create new file instead of updating existing
     @return None
     """
     def pretty_math(s:str) -> str:
@@ -304,24 +379,36 @@ def json_to_md(filename,md_filename,
         ret += s[math_end:]
         return ret
 
+    # Ensure the directory exists
+    directory = os.path.dirname(md_filename)
+    if directory and not os.path.exists(directory):
+        os.makedirs(directory)
+        logging.info(f"Created directory: {directory}")
+
     DateNow = datetime.date.today()
     DateNow = str(DateNow)
     DateNow = DateNow.replace('-','.')
 
-    with open(filename,"r") as f:
-        content = f.read()
-        if not content:
+    # Check if JSON file exists, if not create empty dict
+    if not os.path.exists(filename):
+        logging.warning(f"JSON file {filename} not found. Creating an empty file.")
+        with open(filename, "w") as f:
+            json.dump({}, f)
+        data = {}
+    else:
+        try:
+            with open(filename,"r") as f:
+                content = f.read()
+                if not content:
+                    data = {}
+                else:
+                    data = json.loads(content)
+        except json.JSONDecodeError:
+            logging.warning(f"Error parsing JSON from {filename}. Using empty data.")
             data = {}
-        else:
-            data = json.loads(content)
 
-    # clean README.md if daily already exist else create it
-    with open(md_filename,"w+") as f:
-        pass
-
-    # write data into README.md
-    with open(md_filename,"a+") as f:
-
+    # Create or overwrite the MD file
+    with open(md_filename,"w") as f:
         if (use_title == True) and (to_web == True):
             f.write("---\n" + "layout: default\n" + "---\n\n")
 
@@ -332,14 +419,12 @@ def json_to_md(filename,md_filename,
             f.write(f"[![Issues][issues-shield]][issues-url]\n\n")
 
         if use_title == True:
-            #f.write(("<p align="center"><h1 align="center"><br><ins>CV-ARXIV-DAILY"
-            #         "</ins><br>Automatically Update CV Papers Daily</h1></p>\n"))
-            f.write("## Updated on " + DateNow + "\n")
+            f.write("## 📚 Updated on " + DateNow + "\n")
         else:
-            f.write("> Updated on " + DateNow + "\n")
+            f.write("> 📚 Updated on " + DateNow + "\n")
 
         # TODO: add usage
-        f.write("> Usage instructions: [here](./docs/README.md#usage)\n\n")
+        f.write("> 📖 Usage instructions: [here](./docs/README.md#usage)\n\n")
 
         #Add: table of contents
         if use_tc == True:
@@ -387,23 +472,23 @@ def json_to_md(filename,md_filename,
         if show_badge == True:
             # we don't like long string, break it!
             f.write((f"[contributors-shield]: https://img.shields.io/github/"
-                     f"contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge\n"))
-            f.write((f"[contributors-url]: https://github.com/Vincentqyw/"
-                     f"cv-arxiv-daily/graphs/contributors\n"))
-            f.write((f"[forks-shield]: https://img.shields.io/github/forks/Vincentqyw/"
-                     f"cv-arxiv-daily.svg?style=for-the-badge\n"))
-            f.write((f"[forks-url]: https://github.com/Vincentqyw/"
-                     f"cv-arxiv-daily/network/members\n"))
-            f.write((f"[stars-shield]: https://img.shields.io/github/stars/Vincentqyw/"
-                     f"cv-arxiv-daily.svg?style=for-the-badge\n"))
-            f.write((f"[stars-url]: https://github.com/Vincentqyw/"
-                     f"cv-arxiv-daily/stargazers\n"))
-            f.write((f"[issues-shield]: https://img.shields.io/github/issues/Vincentqyw/"
-                     f"cv-arxiv-daily.svg?style=for-the-badge\n"))
-            f.write((f"[issues-url]: https://github.com/Vincentqyw/"
-                     f"cv-arxiv-daily/issues\n\n"))
+                     f"contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge\n"))
+            f.write((f"[contributors-url]: https://github.com/AlanSynn/"
+                     f"daily-arxiv/graphs/contributors\n"))
+            f.write((f"[forks-shield]: https://img.shields.io/github/forks/AlanSynn/"
+                     f"daily-arxiv.svg?style=for-the-badge\n"))
+            f.write((f"[forks-url]: https://github.com/AlanSynn/"
+                     f"daily-arxiv/network/members\n"))
+            f.write((f"[stars-shield]: https://img.shields.io/github/stars/AlanSynn/"
+                     f"daily-arxiv.svg?style=for-the-badge\n"))
+            f.write((f"[stars-url]: https://github.com/AlanSynn/"
+                     f"daily-arxiv/stargazers\n"))
+            f.write((f"[issues-shield]: https://img.shields.io/github/issues/AlanSynn/"
+                     f"daily-arxiv.svg?style=for-the-badge\n"))
+            f.write((f"[issues-url]: https://github.com/AlanSynn/"
+                     f"daily-arxiv/issues\n\n"))
 
-    logging.info(f"{task} finished")
+    logging.info(f"{task} finished: {md_filename}")
 
 def send_email(email_to, email_subject, email_body, config):
     """Send email with daily paper updates
@@ -457,8 +542,7 @@ def reset_json_files(config):
     """Reset all JSON files to empty when using fresh-run option"""
     json_files = [
         config.get('json_readme_path'),
-        config.get('json_gitpage_path'),
-        config.get('json_wechat_path')
+        config.get('json_gitpage_path')
     ]
 
     for json_file in json_files:
@@ -481,21 +565,38 @@ def generate_daily_email_content(data_collector_web, date_now):
     <html>
     <head>
         <style>
-            body {{ font-family: Arial, sans-serif; margin: 20px; }}
-            h1 {{ color: #333366; }}
-            h2 {{ color: #333366; margin-top: 30px; border-bottom: 1px solid #ddd; padding-bottom: 5px; }}
-            .paper {{ margin-bottom: 20px; padding: 15px; background-color: #f9f9f9; border-left: 4px solid #333366; }}
-            .title {{ font-weight: bold; color: #333366; }}
-            .authors {{ color: #666; margin-bottom: 5px; }}
-            .abstract {{ font-size: 0.9em; line-height: 1.4; }}
-            .links {{ margin-top: 10px; }}
-            .links a {{ color: #0066cc; text-decoration: none; }}
-            .date {{ color: #888; font-size: 0.85em; }}
+            body {{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f5f7fa; color: #333; }}
+            .container {{ max-width: 800px; margin: 0 auto; padding: 20px; }}
+            .header {{ background-color: #4051b5; color: white; padding: 20px; border-radius: 8px 8px 0 0; text-align: center; }}
+            h1 {{ margin: 0; font-size: 28px; }}
+            .date {{ font-size: 16px; opacity: 0.9; margin-top: 5px; }}
+            .intro {{ padding: 20px; background: white; border-radius: 0 0 8px 8px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }}
+            .section {{ margin-bottom: 30px; }}
+            h2 {{ color: #4051b5; font-weight: 600; margin-top: 0; border-bottom: 2px solid #e5e8ed; padding-bottom: 10px; }}
+            .paper {{ background: white; border-radius: 8px; padding: 20px; margin-bottom: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }}
+            .paper:hover {{ box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: all 0.3s; }}
+            .paper-date {{ color: #888; font-size: 14px; margin-bottom: 5px; }}
+            .paper-title {{ font-weight: bold; font-size: 18px; color: #333; margin-bottom: 8px; }}
+            .paper-authors {{ color: #666; margin-bottom: 10px; }}
+            .paper-abstract {{ font-size: 15px; line-height: 1.5; margin-bottom: 15px; text-align: justify; }}
+            .paper-links {{ margin-top: 15px; }}
+            .paper-links a {{ display: inline-block; margin-right: 10px; color: #4051b5; text-decoration: none; padding: 5px 10px; border: 1px solid #4051b5; border-radius: 4px; font-size: 14px; }}
+            .paper-links a:hover {{ background-color: #4051b5; color: white; }}
+            .footer {{ text-align: center; padding: 20px; color: #666; font-size: 14px; }}
+            .no-papers {{ padding: 15px; background: #f8f9fa; border-radius: 8px; text-align: center; color: #666; }}
+            .emoji {{ font-size: 1.2em; }}
         </style>
     </head>
     <body>
-        <h1>CV Arxiv Daily - {date_now}</h1>
-        <p>Today's computer vision papers from arXiv:</p>
+        <div class="container">
+            <div class="header">
+                <h1>📚 Daily arXiv Papers</h1>
+                <div class="date">🗓️ {date_now}</div>
+            </div>
+
+            <div class="intro">
+                <p>Here are the latest papers from arXiv that match your interests:</p>
+            </div>
     """
 
     today = datetime.date.today().strftime("%Y-%m-%d")
@@ -504,11 +605,13 @@ def generate_daily_email_content(data_collector_web, date_now):
     for data_web in data_collector_web:
         for topic, papers in data_web.items():
             if papers:
-                html += f"<h2>{topic}</h2>"
-                topic_has_papers = False
+                has_today_papers = False
+                section_html = f"""<div class="section">
+                    <h2>📑 {topic}</h2>
+                """
 
                 for paper_id, paper_content in papers.items():
-                    # Extract date from paper content (assuming format includes the date at the beginning)
+                    # Extract date from paper content
                     paper_date_match = re.search(r'- (\d{4}-\d{2}-\d{2})', paper_content)
 
                     if paper_date_match:
@@ -537,29 +640,50 @@ def generate_daily_email_content(data_collector_web, date_now):
                             abstract_match = re.search(r'\> \*\*Abstract:\*\*\s+(.*?)$', paper_content, re.MULTILINE)
                             abstract = abstract_match.group(1) if abstract_match else "No abstract available"
 
-                            html += f"""
+                            # Truncate abstract if too long
+                            if len(abstract) > 500:
+                                abstract = abstract[:500] + "..."
+
+                            section_html += f"""
                             <div class="paper">
-                                <div class="date">{paper_date}</div>
-                                <div class="title">{title}</div>
-                                <div class="authors">{authors} et al.</div>
-                                <div class="abstract">{abstract}</div>
-                                <div class="links">
-                                    <a href="{paper_link}" target="_blank">[@{paper_id}]</a>
-                                    {f'<a href="{code_link}" target="_blank">[Code]</a>' if code_link else ''}
+                                <div class="paper-date">📅 {paper_date}</div>
+                                <div class="paper-title">{title}</div>
+                                <div class="paper-authors">👨‍🔬 {authors} et al.</div>
+                                <div class="paper-abstract">{abstract}</div>
+                                <div class="paper-links">
+                                    <a href="{paper_link}" target="_blank">📄 Read Paper</a>
+                                    {f'<a href="{code_link}" target="_blank">💻 View Code</a>' if code_link else ''}
                                 </div>
                             </div>
                             """
                             papers_found = True
-                            topic_has_papers = True
+                            has_today_papers = True
 
-                if not topic_has_papers:
-                    html += "<p>No papers found today for this topic.</p>"
+                if has_today_papers:
+                    section_html += "</div>"
+                    html += section_html
+                else:
+                    html += f"""
+                    <div class="section">
+                        <h2>📑 {topic}</h2>
+                        <div class="no-papers">No papers found today for this topic.</div>
+                    </div>
+                    """
 
     if not papers_found:
-        html += "<p>No papers found today.</p>"
+        html += """
+        <div class="no-papers">
+            <p>😴 No papers found today that match your interests.</p>
+            <p>Check back tomorrow for new updates!</p>
+        </div>
+        """
 
     html += """
-        <p>This email was automatically sent by CV Arxiv Daily system.</p>
+            <div class="footer">
+                <p>This email was automatically sent by the Daily arXiv system.</p>
+                <p>To unsubscribe or change your preferences, please contact the administrator.</p>
+            </div>
+        </div>
     </body>
     </html>
     """
@@ -575,9 +699,14 @@ def demo(**config):
     max_results = config['max_results']
     publish_readme = config['publish_readme']
     publish_gitpage = config['publish_gitpage']
-    publish_wechat = config['publish_wechat']
     show_badge = config['show_badge']
     fresh_run = config.get('fresh_run', False)
+
+    # Get today's date for file naming
+    today_str = datetime.date.today().strftime("%Y-%m-%d")
+
+    # Get dated file paths for logging
+    dated_paths = get_dated_file_paths(config)
 
     # Reset JSON files if fresh run is requested
     if fresh_run:
@@ -597,50 +726,62 @@ def demo(**config):
             print("\n")
         logging.info(f"GET daily papers end")
 
-    # 1. update README.md file
+    # 1. Update README.md file
     if publish_readme:
         json_file = config['json_readme_path']
-        md_file   = config['md_readme_path']
-        # update paper links
+        md_file = config['md_readme_path']
+
+        # Create daily log files
+        json_file_daily = dated_paths['json_readme_log']
+        md_file_daily = dated_paths['md_readme_log']
+
+        # Update paper links
         if config['update_paper_links']:
             update_paper_links(json_file)
+            # Copy the updated file to daily log
+            if os.path.exists(json_file):
+                shutil.copy2(json_file, json_file_daily)
         else:
-            # update json data
-            update_json_file(json_file,data_collector)
-        # json data to markdown
-        json_to_md(json_file,md_file, task ='Update Readme', \
-            show_badge = show_badge)
+            # Update main JSON file
+            update_json_file(json_file, data_collector)
+            # Create new daily JSON file
+            update_json_file(json_file_daily, data_collector, create_new=True)
 
-    # 2. update docs/index.md file (to gitpage)
+        # Generate main markdown from JSON
+        json_to_md(json_file, md_file, task='Update Readme', show_badge=show_badge)
+        # Generate daily markdown for logs
+        json_to_md(json_file_daily, md_file_daily, task='Create Daily Log', show_badge=show_badge, create_new=True)
+
+    # 2. Update docs/index.md file (to gitpage)
     if publish_gitpage:
         json_file = config['json_gitpage_path']
-        md_file   = config['md_gitpage_path']
-        # TODO: duplicated update paper links!!!
-        if config['update_paper_links']:
-            update_paper_links(json_file)
-        else:
-            update_json_file(json_file,data_collector)
-        json_to_md(json_file, md_file, task ='Update GitPage', \
-            to_web = True, show_badge = show_badge, \
-            use_tc=False, use_b2t=False)
+        md_file = config['md_gitpage_path']
 
-    # 3. Update docs/wechat.md file
-    if publish_wechat:
-        json_file = config['json_wechat_path']
-        md_file   = config['md_wechat_path']
-        # TODO: duplicated update paper links!!!
+        # Create daily log files
+        json_file_daily = dated_paths['json_gitpage_log']
+        md_file_daily = dated_paths['md_gitpage_log']
+
         if config['update_paper_links']:
             update_paper_links(json_file)
+            # Copy the updated file to daily log
+            if os.path.exists(json_file):
+                shutil.copy2(json_file, json_file_daily)
         else:
-            update_json_file(json_file, data_collector_web)
-        json_to_md(json_file, md_file, task ='Update Wechat', \
-            to_web=False, use_title= False, show_badge = show_badge)
+            # Update main JSON file
+            update_json_file(json_file, data_collector)
+            # Create new daily JSON file
+            update_json_file(json_file_daily, data_collector, create_new=True)
+
+        # Generate main markdown from JSON
+        json_to_md(json_file, md_file, task='Update GitPage', to_web=True, show_badge=show_badge, use_tc=False, use_b2t=False)
+        # Generate daily markdown for logs
+        json_to_md(json_file_daily, md_file_daily, task='Create Daily GitPage Log', to_web=True, show_badge=show_badge, use_tc=False, use_b2t=False, create_new=True)
 
     # 4. Send email if needed and if we have daily papers
     if config.get('send_email', False) and data_collector_web and not b_update:
         recipient = config.get('email_recipient', 'alansynn@gatech.edu')
         date_now = datetime.date.today().strftime('%Y-%m-%d')
-        subject = f"CV Arxiv Daily Update - {date_now}"
+        subject = f"📚 Daily arXiv Update - {date_now}"
 
         # Generate email content with only today's papers
         email_content = generate_daily_email_content(data_collector_web, date_now)
