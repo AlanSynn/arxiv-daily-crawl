@@ -20,8 +20,88 @@ md_readme_path: 'README.md'
 md_gitpage_path: './docs/index.md'
 md_wechat_path: './docs/wechat.md'
 
-# keywords to search
+# archive settings
+archive_settings:
+  enabled: True
+  max_age_days: 365  # Papers older than this will be archived (1 year)
+  archive_dir: './docs/archive'
+
+# email settings
+email_settings:
+  enabled: True  # Set to True after configuring your SMTP settings
+  smtp_server: "smtp.gmail.com"  # Update with your SMTP server
+  smtp_port: 25
+  smtp_user: "${SMTP_USER}"  # Will be replaced with GitHub secret
+  smtp_password: "${SMTP_PASSWORD}"  # Will be replaced with GitHub secret
+
+# send email
+send_email: True
+email_recipient: "${EMAIL_RECIPIENT}"  # Will be replaced with GitHub secret
+
+# keywords to search - Refined for ArXiv precision
 keywords:
+    # Core computational methods for design and making (cs.GR, cs.HC)
+    "Computational Design & Fabrication":
+        filters:
+            - "Computational Design"
+            - "Generative Design"
+            - "Computational Fabrication"
+            - "Additive Manufacturing" # More formal term than 3D printing design
+            - "Digital Fabrication"
+            - "Computational Origami" # More specific/academic term
+            - "Paper Mechanics" # More specific/academic term
+
+    # Mechanics, kinematics, simulation, and animation (cs.GR, cs.RO)
+    "Mechanics, Kinematics & Motion Synthesis":
+        filters:
+            - "Kinematic Synthesis"
+            - "Mechanism Design" # Standard term
+            - "Computational Mechanism Design"
+            - "Linkage Synthesis" # Standard term
+            - "Linkage Optimization"
+            - "Motion Synthesis"
+            - "Motion Planning" # Relevant for robotics/animation
+            - "Character Animation" # Often involves kinematics
+            - "Physics-based Modeling"
+            - "Physics-based Animation"
+            - "Mechanical Character Animation" # Specific to examples like Coros et al.
+
+    # Robotics design, control, learning, and simulation (cs.RO, cs.LG, cs.AI)
+    "Robotics: Design, Control & Learning":
+        filters:
+            - "Computational Robot Design"
+            - "Legged Locomotion" # Key term for legged robots
+            - "Robot Control"
+            - "Physics-based Robot Simulation"
+            - "Reinforcement Learning for Robotics"
+            - "RL for Robot Control" # Common abbreviation
+            - "Sim-to-Real Robotics" # Relevant for learned controllers
+
+    # Interaction methods and user aspects in design tools (cs.HC, cs.GR)
+    "Human-Computer Interaction for Design":
+        filters:
+            - "Interactive Design Systems"
+            - "Sketch-based Modeling"
+            - "Sketch-based Interfaces" # Common HCI term
+            - "VR for Design" # More common phrasing
+            - "AR for Design"
+            - "Immersive Design Interfaces" # Broader term for VR/AR in design
+            - "Human-AI Collaboration" # Standard term
+            - "Co-Creative AI"
+            - "Human-in-the-loop Design"
+            - "Design Tools for Novices" # Academic phrasing
+            - "User Intent Modeling Design" # More specific than preservation
+
+    # Specific AI models and their application in design (cs.AI, cs.LG, cs.GR, cs.HC)
+    "Generative AI & Foundation Models in Design":
+        filters:
+            - "Generative AI for Design"
+            - "Foundation Models for Design"
+            - "LLMs for Design" # Common abbreviation
+            - "Language Models in Design"
+            - "Diffusion Models for Design" # Increasingly relevant generative model
+            - "AI for Engineering Design" # Broader application context
+
     "Inference":
         filters: ["Inference", "Inference Serving"]
     "Distributed Deep Learning":
