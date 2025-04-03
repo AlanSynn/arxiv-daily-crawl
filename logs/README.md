@@ -1,6 +1,6 @@
-# CV-Arxiv-Daily Log Files
+# Daily Arxiv Log Files
 
-This directory contains daily logs of papers collected by the CV-Arxiv-Daily system.
+This directory contains daily logs of papers collected by the Daily Arxiv system.
 
 ## Directory Structure
 
