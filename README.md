@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.04.03
+## 📚 Updated on 2025.04.04
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -32,29 +32,30 @@
 |**2025-03-21**|**Understanding Social Support Needs in Questions: A Hybrid Approach Integrating Semi-Supervised Learning and LLM-based Data Augmentation**|Junwei Kuang et.al.|[@2503.17421](http://arxiv.org/abs/2503.17421)|null|
 |**2025-03-21**|**Multi-property directed generative design of inorganic materials through Wyckoff-augmented transfer learning**|Shuya Yamazaki et.al.|[@2503.16784](http://arxiv.org/abs/2503.16784)|null|
 
-<p align=right>(<a href=#Updated-on-20250403>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250404>back to top</a>)</p>
 
 ## Mechanics, Kinematics & Motion Synthesis
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
-|**2025-04-02**|**DreamActor-M1: Holistic, Expressive and Robust Human Image Animation with Hybrid Guidance**|Yuxuan Luo et.al.|[@2504.01724](http://arxiv.org/abs/2504.01724)|null|
-|**2025-04-02**|**Pedestrian-Aware Motion Planning for Autonomous Driving in Complex Urban Scenarios**|Korbinian Moller et.al.|[@2504.01409](http://arxiv.org/abs/2504.01409)|null|
-|**2025-04-02**|**From Shadows to Safety: Occlusion Tracking and Risk Mitigation for Urban Autonomous Driving**|Korbinian Moller et.al.|[@2504.01408](http://arxiv.org/abs/2504.01408)|null|
+|**2025-04-03**|**DreamActor-M1: Holistic, Expressive and Robust Human Image Animation with Hybrid Guidance**|Yuxuan Luo et.al.|[@2504.01724](http://arxiv.org/abs/2504.01724)|null|
+|**2025-04-02**|**Pedestrian-Aware Motion Planning for Autonomous Driving in Complex Urban Scenarios**|Korbinian Moller et.al.|[@2504.01409](http://arxiv.org/abs/2504.01409)|**[link](https://github.com/tum-avs/pedestrianawaremotionplanning)**|
+|**2025-04-02**|**From Shadows to Safety: Occlusion Tracking and Risk Mitigation for Urban Autonomous Driving**|Korbinian Moller et.al.|[@2504.01408](http://arxiv.org/abs/2504.01408)|**[link](https://github.com/tum-avs/occlusionawaremotionplanning)**|
 |**2025-04-02**|**FlowMotion: Target-Predictive Flow Matching for Realistic Text-Driven Human Motion Generation**|Manolo Canales Cuba et.al.|[@2504.01338](http://arxiv.org/abs/2504.01338)|null|
 |**2025-04-01**|**A New Approach to Motion Planning in 3D for a Dubins Vehicle: Special Case on a Sphere**|Deepak Prakash Kumar et.al.|[@2504.01215](http://arxiv.org/abs/2504.01215)|null|
 |**2025-04-01**|**Articulated Kinematics Distillation from Video Diffusion Models**|Xuan Li et.al.|[@2504.01204](http://arxiv.org/abs/2504.01204)|null|
-|**2025-04-01**|**Time-optimal Convexified Reeds-Shepp Paths on a Sphere**|Sixu Li et.al.|[@2504.00966](http://arxiv.org/abs/2504.00966)|null|
+|**2025-04-01**|**Time-optimal Convexified Reeds-Shepp Paths on a Sphere**|Sixu Li et.al.|[@2504.00966](http://arxiv.org/abs/2504.00966)|**[link](https://github.com/sixuli97/optimal-spherical-convexified-reeds-shepp-paths)**|
 |**2025-03-31**|**A Reactive Framework for Whole-Body Motion Planning of Mobile Manipulators Combining Reinforcement Learning and SDF-Constrained Quadratic Programmi**|Chenyu Zhang et.al.|[@2503.23975](http://arxiv.org/abs/2503.23975)|null|
 |**2025-03-31**|**Less is More: Contextual Sampling for Nonlinear Data-Enabled Predictive Control**|Julius Beerwerth et.al.|[@2503.23890](http://arxiv.org/abs/2503.23890)|null|
 |**2025-03-31**|**A Survey of Reinforcement Learning-Based Motion Planning for Autonomous Driving: Lessons Learned from a Driving Task Perspective**|Zhuoren Li et.al.|[@2503.23650](http://arxiv.org/abs/2503.23650)|null|
 
-<p align=right>(<a href=#Updated-on-20250403>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250404>back to top</a>)</p>
 
 ## Robotics: Design, Control & Learning
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-04-03**|**Industrial Internet Robot Collaboration System and Edge Computing Optimization**|Qian Zuo et.al.|[@2504.02492](http://arxiv.org/abs/2504.02492)|null|
 |**2025-04-02**|**TransforMerger: Transformer-based Voice-Gesture Fusion for Robust Human-Robot Communication**|Petr Vanc et.al.|[@2504.01708](http://arxiv.org/abs/2504.01708)|null|
 |**2025-04-02**|**8-DoFs Cable Driven Parallel Robots for Bimanual Teleportation**|Hung Hon Cheng et.al.|[@2504.01554](http://arxiv.org/abs/2504.01554)|null|
 |**2025-04-01**|**Value Iteration for Learning Concurrently Executable Robotic Control Tasks**|Sheikh A. Tahmid et.al.|[@2504.01174](http://arxiv.org/abs/2504.01174)|null|
@@ -66,7 +67,7 @@
 |**2025-03-27**|**Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making**|Filip Surma et.al.|[@2503.21065](http://arxiv.org/abs/2503.21065)|null|
 |**2025-03-26**|**Beyond Visuals: Investigating Force Feedback in Extended Reality for Robot Data Collection**|Xueyin Li et.al.|[@2503.20714](http://arxiv.org/abs/2503.20714)|null|
 
-<p align=right>(<a href=#Updated-on-20250403>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250404>back to top</a>)</p>
 
 ## Human-Computer Interaction for Design
 
@@ -76,7 +77,7 @@
 |**2021-02-20**|**GenFloor: Interactive Generative Space Layout System via Encoded Tree Graphs**|Mohammad Keshavarzi et.al.|[@2102.10320](http://arxiv.org/abs/2102.10320)|null|
 |**2019-12-19**|**MVF Designer: Design and Visualization of Morse Vector Fields**|Youjia Zhou et.al.|[@1912.09580](http://arxiv.org/abs/1912.09580)|**[link](https://github.com/zhou325/VIS-MSVF)**|
 
-<p align=right>(<a href=#Updated-on-20250403>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250404>back to top</a>)</p>
 
 ## Generative AI & Foundation Models in Design
 
@@ -89,7 +90,7 @@
 |**2024-02-26**|**From Cloud to Edge: Rethinking Generative AI for Low-Resource Design Challenges**|Sai Krishna Revanth Vuruma et.al.|[@2402.12702](http://arxiv.org/abs/2402.12702)|null|
 |**2024-09-09**|**Explainable AI for Engineering Design: A Unified Approach of Systems Engineering and Component- Based Deep Learning Demonstrated by Energy- Efficient Building Design**|Philipp Geyer et.al.|[@2108.13836](http://arxiv.org/abs/2108.13836)|null|
 
-<p align=right>(<a href=#Updated-on-20250403>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250404>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
