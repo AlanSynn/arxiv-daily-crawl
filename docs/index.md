@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.04.05
+## 📚 Updated on 2025.04.06
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
@@ -47,7 +47,7 @@ layout: default
 |**2025-04-03**|**Industrial Internet Robot Collaboration System and Edge Computing Optimization**|Qian Zuo et.al.|[@2504.02492](http://arxiv.org/abs/2504.02492)|null|
 |**2025-04-02**|**TransforMerger: Transformer-based Voice-Gesture Fusion for Robust Human-Robot Communication**|Petr Vanc et.al.|[@2504.01708](http://arxiv.org/abs/2504.01708)|null|
 |**2025-04-02**|**8-DoFs Cable Driven Parallel Robots for Bimanual Teleportation**|Hung Hon Cheng et.al.|[@2504.01554](http://arxiv.org/abs/2504.01554)|null|
-|**2025-04-01**|**Value Iteration for Learning Concurrently Executable Robotic Control Tasks**|Sheikh A. Tahmid et.al.|[@2504.01174](http://arxiv.org/abs/2504.01174)|null|
+|**2025-04-01**|**Value Iteration for Learning Concurrently Executable Robotic Control Tasks**|Sheikh A. Tahmid et.al.|[@2504.01174](http://arxiv.org/abs/2504.01174)|**[link](https://github.com/erablab/value_iteration_for_learning_concurrently_executable_robotic_control_tasks)**|
 |**2025-04-01**|**Control Barrier Functions via Minkowski Operations for Safe Navigation among Polytopic Sets**|Yi-Hsuan Chen et.al.|[@2504.00364](http://arxiv.org/abs/2504.00364)|null|
 |**2025-03-31**|**HACTS: a Human-As-Copilot Teleoperation System for Robot Learning**|Zhiyuan Xu et.al.|[@2503.24070](http://arxiv.org/abs/2503.24070)|null|
 |**2025-03-30**|**Physically Ground Commonsense Knowledge for Articulated Object Manipulation with Analytic Concepts**|Jianhua Sun et.al.|[@2503.23348](http://arxiv.org/abs/2503.23348)|null|
