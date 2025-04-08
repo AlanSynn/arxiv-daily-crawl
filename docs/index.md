@@ -7,13 +7,16 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.04.07
+## 📚 Updated on 2025.04.08
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-07**|**CREA: A Collaborative Multi-Agent Framework for Creative Content Generation with Diffusion Models**|Kavana Venkatesh et.al.|[@2504.05306](http://arxiv.org/abs/2504.05306)|null|
+|**2025-04-07**|**X-ray particle tracking velocimetry for rheological characterization: Application to material extrusion additive manufacturing**|Julian Kattinger et.al.|[@2504.04830](http://arxiv.org/abs/2504.04830)|null|
+|**2025-04-05**|**Samila: A Generative Art Generator**|Sadra Sabouri et.al.|[@2504.04298](http://arxiv.org/abs/2504.04298)|null|
 |**2025-04-04**|**Optimal Sizing and Material Choice for Additively Manufactured Compact Plate Heat Exchangers**|Mehmet Basaran et.al.|[@2504.03372](http://arxiv.org/abs/2504.03372)|null|
 |**2025-04-03**|**A Review of Prototyping in XR: Linking Extended Reality to Digital Fabrication**|Bixun Chen et.al.|[@2504.02998](http://arxiv.org/abs/2504.02998)|null|
 |**2025-04-02**|**Deep Learning-Driven Protein Structure Prediction and Design: Key Model Developments by Nobel Laureates and Multi-Domain Applications**|Wanqing Yang et.al.|[@2504.01490](http://arxiv.org/abs/2504.01490)|null|
@@ -31,6 +34,11 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-07**|**One Quantizer is Enough: Toward a Lightweight Audio Codec**|Linwei Zhai et.al.|[@2504.04949](http://arxiv.org/abs/2504.04949)|null|
+|**2025-04-07**|**Constrained Gaussian Process Motion Planning via Stein Variational Newton Inference**|Jiayun Li et.al.|[@2504.04936](http://arxiv.org/abs/2504.04936)|null|
+|**2025-04-07**|**FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis**|Mengchao Wang et.al.|[@2504.04842](http://arxiv.org/abs/2504.04842)|null|
+|**2025-04-06**|**B4P: Simultaneous Grasp and Motion Planning for Object Placement via Parallelized Bidirectional Forests and Path Repair**|Benjamin H. Leebron et.al.|[@2504.04598](http://arxiv.org/abs/2504.04598)|null|
+|**2025-04-04**|**Energy Efficient Planning for Repetitive Heterogeneous Tasks in Precision Agriculture**|Shuangyu Xie et.al.|[@2504.03938](http://arxiv.org/abs/2504.03938)|null|
 |**2025-04-04**|**Shape My Moves: Text-Driven Shape-Aware Synthesis of Human Motions**|Ting-Hsuan Liao et.al.|[@2504.03639](http://arxiv.org/abs/2504.03639)|null|
 |**2025-04-04**|**Dynamic Objective MPC for Motion Planning of Seamless Docking Maneuvers**|Oliver Schumann et.al.|[@2504.03280](http://arxiv.org/abs/2504.03280)|null|
 |**2025-04-03**|**DreamActor-M1: Holistic, Expressive and Robust Human Image Animation with Hybrid Guidance**|Yuxuan Luo et.al.|[@2504.01724](http://arxiv.org/abs/2504.01724)|null|
@@ -48,6 +56,9 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-06**|**Redefining Information Freshness: AoGI for Generative AI in 6G Networks**|Yuquan Xiao et.al.|[@2504.04414](http://arxiv.org/abs/2504.04414)|null|
+|**2025-04-05**|**MInCo: Mitigating Information Conflicts in Distracted Visual Model-based Reinforcement Learning**|Shiguang Sun et.al.|[@2504.04164](http://arxiv.org/abs/2504.04164)|null|
+|**2025-04-05**|**Risk-Aware Robot Control in Dynamic Environments Using Belief Control Barrier Functions**|Shaohang Han et.al.|[@2504.04097](http://arxiv.org/abs/2504.04097)|null|
 |**2025-04-03**|**Industrial Internet Robot Collaboration System and Edge Computing Optimization**|Qian Zuo et.al.|[@2504.02492](http://arxiv.org/abs/2504.02492)|null|
 |**2025-04-02**|**TransforMerger: Transformer-based Voice-Gesture Fusion for Robust Human-Robot Communication**|Petr Vanc et.al.|[@2504.01708](http://arxiv.org/abs/2504.01708)|null|
 |**2025-04-02**|**8-DoFs Cable Driven Parallel Robots for Bimanual Teleportation**|Hung Hon Cheng et.al.|[@2504.01554](http://arxiv.org/abs/2504.01554)|null|
