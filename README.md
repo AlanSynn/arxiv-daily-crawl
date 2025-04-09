@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.04.08
+## 📚 Updated on 2025.04.09
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -21,13 +21,15 @@
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-04-08**|**X-ray Strain and Stress Tensor Tomography**|Peter Modregger et.al.|[@2504.05796](http://arxiv.org/abs/2504.05796)|null|
 |**2025-04-07**|**CREA: A Collaborative Multi-Agent Framework for Creative Content Generation with Diffusion Models**|Kavana Venkatesh et.al.|[@2504.05306](http://arxiv.org/abs/2504.05306)|null|
 |**2025-04-07**|**X-ray particle tracking velocimetry for rheological characterization: Application to material extrusion additive manufacturing**|Julian Kattinger et.al.|[@2504.04830](http://arxiv.org/abs/2504.04830)|null|
 |**2025-04-05**|**Samila: A Generative Art Generator**|Sadra Sabouri et.al.|[@2504.04298](http://arxiv.org/abs/2504.04298)|null|
+|**2025-04-08**|**SymPlex Plots for Visualizing Properties in High-Dimensional Alloy Spaces**|John Cavin et.al.|[@2504.03973](http://arxiv.org/abs/2504.03973)|null|
 |**2025-04-04**|**Optimal Sizing and Material Choice for Additively Manufactured Compact Plate Heat Exchangers**|Mehmet Basaran et.al.|[@2504.03372](http://arxiv.org/abs/2504.03372)|null|
 |**2025-04-03**|**A Review of Prototyping in XR: Linking Extended Reality to Digital Fabrication**|Bixun Chen et.al.|[@2504.02998](http://arxiv.org/abs/2504.02998)|null|
 |**2025-04-02**|**Deep Learning-Driven Protein Structure Prediction and Design: Key Model Developments by Nobel Laureates and Multi-Domain Applications**|Wanqing Yang et.al.|[@2504.01490](http://arxiv.org/abs/2504.01490)|null|
-|**2025-04-01**|**Towards Sign Distance Function based Metamaterial Design: Neural Operator Transformer for Forward Prediction and Diffusion Models for Inverse Design**|Qibang Liu et.al.|[@2504.01195](http://arxiv.org/abs/2504.01195)|null|
+|**2025-04-01**|**Towards Sign Distance Function based Metamaterial Design: Neural Operator Transformer for Forward Prediction and Diffusion Models for Inverse Design**|Qibang Liu et.al.|[@2504.01195](http://arxiv.org/abs/2504.01195)|**[link](https://github.com/qibangliu/sdfgeodesign)**|
 |**2025-03-29**|**Reducing Artifacts in Grating Interferometry Using Multiple Harmonics and Phase Step Corrections**|Hunter C. Meyer et.al.|[@2503.23148](http://arxiv.org/abs/2503.23148)|null|
 |**2025-03-28**|**Generative Reliability-Based Design Optimization Using In-Context Learning Capabilities of Large Language Models**|Zhonglin Jiang et.al.|[@2503.22401](http://arxiv.org/abs/2503.22401)|null|
 |**2025-03-27**|**Designing a User Interface for Generative Design in Augmented Reality: A Step Towards More Visualization and Feed-Forwarding**|Sora Kang et.al.|[@2503.21191](http://arxiv.org/abs/2503.21191)|null|
@@ -37,12 +39,16 @@
 |**2025-03-21**|**Understanding Social Support Needs in Questions: A Hybrid Approach Integrating Semi-Supervised Learning and LLM-based Data Augmentation**|Junwei Kuang et.al.|2503.17421|null|
 |**2025-03-21**|**Multi-property directed generative design of inorganic materials through Wyckoff-augmented transfer learning**|Shuya Yamazaki et.al.|2503.16784|null|
 
-<p align=right>(<a href=#Updated-on-20250408>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250409>back to top</a>)</p>
 
 ## Mechanics, Kinematics & Motion Synthesis
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-04-08**|**Accelerated Reeds-Shepp and Under-Specified Reeds-Shepp Algorithms for Mobile Robot Path Planning**|Ibrahim Ibrahim et.al.|[@2504.05921](http://arxiv.org/abs/2504.05921)|null|
+|**2025-04-07**|**From Fairness to Truthfulness: Rethinking Data Valuation Design**|Dongyang Fan et.al.|[@2504.05563](http://arxiv.org/abs/2504.05563)|null|
+|**2025-04-07**|**Lazy-DaSH: Lazy Approach for Hypergraph-based Multi-robot Task and Motion Planning**|Seongwon Lee et.al.|[@2504.05552](http://arxiv.org/abs/2504.05552)|null|
+|**2025-04-07**|**Path Database Guidance for Motion Planning**|Amnon Attali et.al.|[@2504.05550](http://arxiv.org/abs/2504.05550)|null|
 |**2025-04-07**|**One Quantizer is Enough: Toward a Lightweight Audio Codec**|Linwei Zhai et.al.|[@2504.04949](http://arxiv.org/abs/2504.04949)|null|
 |**2025-04-07**|**Constrained Gaussian Process Motion Planning via Stein Variational Newton Inference**|Jiayun Li et.al.|[@2504.04936](http://arxiv.org/abs/2504.04936)|null|
 |**2025-04-07**|**FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis**|Mengchao Wang et.al.|[@2504.04842](http://arxiv.org/abs/2504.04842)|null|
@@ -61,12 +67,15 @@
 |**2025-03-31**|**Less is More: Contextual Sampling for Nonlinear Data-Enabled Predictive Control**|Julius Beerwerth et.al.|2503.23890|null|
 |**2025-03-31**|**A Survey of Reinforcement Learning-Based Motion Planning for Autonomous Driving: Lessons Learned from a Driving Task Perspective**|Zhuoren Li et.al.|2503.23650|null|
 
-<p align=right>(<a href=#Updated-on-20250408>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250409>back to top</a>)</p>
 
 ## Robotics: Design, Control & Learning
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-04-08**|**Addressing Relative Degree Issues in Control Barrier Function Synthesis with Physics-Informed Neural Networks**|Lukas Brunke et.al.|[@2504.06242](http://arxiv.org/abs/2504.06242)|null|
+|**2025-04-08**|**A ROS2-based software library for inverse dynamics computation**|Vincenzo Petrone et.al.|[@2504.06106](http://arxiv.org/abs/2504.06106)|null|
+|**2025-04-08**|**GPU-accelerated Evolutionary Many-objective Optimization Using Tensorized NSGA-III**|Hao Li et.al.|[@2504.06067](http://arxiv.org/abs/2504.06067)|null|
 |**2025-04-06**|**Redefining Information Freshness: AoGI for Generative AI in 6G Networks**|Yuquan Xiao et.al.|[@2504.04414](http://arxiv.org/abs/2504.04414)|null|
 |**2025-04-05**|**MInCo: Mitigating Information Conflicts in Distracted Visual Model-based Reinforcement Learning**|Shiguang Sun et.al.|[@2504.04164](http://arxiv.org/abs/2504.04164)|null|
 |**2025-04-05**|**Risk-Aware Robot Control in Dynamic Environments Using Belief Control Barrier Functions**|Shaohang Han et.al.|[@2504.04097](http://arxiv.org/abs/2504.04097)|null|
@@ -82,7 +91,7 @@
 |**2025-03-27**|**Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making**|Filip Surma et.al.|[@2503.21065](http://arxiv.org/abs/2503.21065)|null|
 |**2025-03-26**|**Beyond Visuals: Investigating Force Feedback in Extended Reality for Robot Data Collection**|Xueyin Li et.al.|2503.20714|null|
 
-<p align=right>(<a href=#Updated-on-20250408>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250409>back to top</a>)</p>
 
 ## Human-Computer Interaction for Design
 
@@ -92,7 +101,7 @@
 |**2021-02-20**|**GenFloor: Interactive Generative Space Layout System via Encoded Tree Graphs**|Mohammad Keshavarzi et.al.|[@2102.10320](http://arxiv.org/abs/2102.10320)|null|
 |**2019-12-19**|**MVF Designer: Design and Visualization of Morse Vector Fields**|Youjia Zhou et.al.|[@1912.09580](http://arxiv.org/abs/1912.09580)|**[link](https://github.com/zhou325/VIS-MSVF)**|
 
-<p align=right>(<a href=#Updated-on-20250408>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250409>back to top</a>)</p>
 
 ## Generative AI & Foundation Models in Design
 
@@ -105,7 +114,7 @@
 |**2024-02-26**|**From Cloud to Edge: Rethinking Generative AI for Low-Resource Design Challenges**|Sai Krishna Revanth Vuruma et.al.|[@2402.12702](http://arxiv.org/abs/2402.12702)|null|
 |**2024-09-09**|**Explainable AI for Engineering Design: A Unified Approach of Systems Engineering and Component- Based Deep Learning Demonstrated by Energy- Efficient Building Design**|Philipp Geyer et.al.|[@2108.13836](http://arxiv.org/abs/2108.13836)|null|
 
-<p align=right>(<a href=#Updated-on-20250408>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250409>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
