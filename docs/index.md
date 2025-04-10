@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.04.09
+## 📚 Updated on 2025.04.10
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
@@ -22,7 +22,7 @@ layout: default
 |**2025-04-04**|**Optimal Sizing and Material Choice for Additively Manufactured Compact Plate Heat Exchangers**|Mehmet Basaran et.al.|[@2504.03372](http://arxiv.org/abs/2504.03372)|null|
 |**2025-04-03**|**A Review of Prototyping in XR: Linking Extended Reality to Digital Fabrication**|Bixun Chen et.al.|[@2504.02998](http://arxiv.org/abs/2504.02998)|null|
 |**2025-04-02**|**Deep Learning-Driven Protein Structure Prediction and Design: Key Model Developments by Nobel Laureates and Multi-Domain Applications**|Wanqing Yang et.al.|[@2504.01490](http://arxiv.org/abs/2504.01490)|null|
-|**2025-04-01**|**Towards Sign Distance Function based Metamaterial Design: Neural Operator Transformer for Forward Prediction and Diffusion Models for Inverse Design**|Qibang Liu et.al.|[@2504.01195](http://arxiv.org/abs/2504.01195)|**[link](https://github.com/qibangliu/sdfgeodesign)**|
+|**2025-04-09**|**Towards Signed Distance Function based Metamaterial Design: Neural Operator Transformer for Forward Prediction and Diffusion Model for Inverse Design**|Qibang Liu et.al.|[@2504.01195](http://arxiv.org/abs/2504.01195)|**[link](https://github.com/qibangliu/sdfgeodesign)**|
 |**2025-03-29**|**Reducing Artifacts in Grating Interferometry Using Multiple Harmonics and Phase Step Corrections**|Hunter C. Meyer et.al.|[@2503.23148](http://arxiv.org/abs/2503.23148)|null|
 |**2025-03-28**|**Generative Reliability-Based Design Optimization Using In-Context Learning Capabilities of Large Language Models**|Zhonglin Jiang et.al.|[@2503.22401](http://arxiv.org/abs/2503.22401)|null|
 |**2025-03-27**|**Designing a User Interface for Generative Design in Augmented Reality: A Step Towards More Visualization and Feed-Forwarding**|Sora Kang et.al.|[@2503.21191](http://arxiv.org/abs/2503.21191)|null|
@@ -36,6 +36,9 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-09**|**Leveraging GCN-based Action Recognition for Teleoperation in Daily Activity Assistance**|Thomas M. Kwok et.al.|[@2504.07001](http://arxiv.org/abs/2504.07001)|null|
+|**2025-04-09**|**Overcoming Dynamic Environments: A Hybrid Approach to Motion Planning for Manipulators**|Ho Minh Quang Ngo et.al.|[@2504.06596](http://arxiv.org/abs/2504.06596)|null|
+|**2025-04-08**|**Extended Version: Multi-Robot Motion Planning with Cooperative Localization**|Anne Theurkauf et.al.|[@2504.06429](http://arxiv.org/abs/2504.06429)|null|
 |**2025-04-08**|**Accelerated Reeds-Shepp and Under-Specified Reeds-Shepp Algorithms for Mobile Robot Path Planning**|Ibrahim Ibrahim et.al.|[@2504.05921](http://arxiv.org/abs/2504.05921)|null|
 |**2025-04-07**|**From Fairness to Truthfulness: Rethinking Data Valuation Design**|Dongyang Fan et.al.|[@2504.05563](http://arxiv.org/abs/2504.05563)|null|
 |**2025-04-07**|**Lazy-DaSH: Lazy Approach for Hypergraph-based Multi-robot Task and Motion Planning**|Seongwon Lee et.al.|[@2504.05552](http://arxiv.org/abs/2504.05552)|null|
@@ -62,6 +65,9 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-09**|**Leveraging GCN-based Action Recognition for Teleoperation in Daily Activity Assistance**|Thomas M. Kwok et.al.|[@2504.07001](http://arxiv.org/abs/2504.07001)|null|
+|**2025-04-09**|**OPAL: Encoding Causal Understanding of Physical Systems for Robot Learning**|Daniel Tcheurekdjian et.al.|[@2504.06538](http://arxiv.org/abs/2504.06538)|null|
+|**2025-04-08**|**Classifying Subjective Time Perception in a Multi-robot Control Scenario Using Eye-tracking Information**|Till Aust et.al.|[@2504.06442](http://arxiv.org/abs/2504.06442)|null|
 |**2025-04-08**|**Addressing Relative Degree Issues in Control Barrier Function Synthesis with Physics-Informed Neural Networks**|Lukas Brunke et.al.|[@2504.06242](http://arxiv.org/abs/2504.06242)|null|
 |**2025-04-08**|**A ROS2-based software library for inverse dynamics computation**|Vincenzo Petrone et.al.|[@2504.06106](http://arxiv.org/abs/2504.06106)|null|
 |**2025-04-08**|**GPU-accelerated Evolutionary Many-objective Optimization Using Tensorized NSGA-III**|Hao Li et.al.|[@2504.06067](http://arxiv.org/abs/2504.06067)|null|
