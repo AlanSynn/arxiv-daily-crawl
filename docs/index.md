@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.04.11
+## 📚 Updated on 2025.04.12
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
@@ -72,7 +72,7 @@ layout: default
 |**2025-04-09**|**OPAL: Encoding Causal Understanding of Physical Systems for Robot Learning**|Daniel Tcheurekdjian et.al.|[@2504.06538](http://arxiv.org/abs/2504.06538)|null|
 |**2025-04-08**|**Classifying Subjective Time Perception in a Multi-robot Control Scenario Using Eye-tracking Information**|Till Aust et.al.|[@2504.06442](http://arxiv.org/abs/2504.06442)|null|
 |**2025-04-08**|**Addressing Relative Degree Issues in Control Barrier Function Synthesis with Physics-Informed Neural Networks**|Lukas Brunke et.al.|[@2504.06242](http://arxiv.org/abs/2504.06242)|null|
-|**2025-04-08**|**A ROS2-based software library for inverse dynamics computation**|Vincenzo Petrone et.al.|[@2504.06106](http://arxiv.org/abs/2504.06106)|null|
+|**2025-04-08**|**A ROS2-based software library for inverse dynamics computation**|Vincenzo Petrone et.al.|[@2504.06106](http://arxiv.org/abs/2504.06106)|**[link](https://github.com/unisa-acg/inverse-dynamics-solver)**|
 |**2025-04-08**|**GPU-accelerated Evolutionary Many-objective Optimization Using Tensorized NSGA-III**|Hao Li et.al.|[@2504.06067](http://arxiv.org/abs/2504.06067)|null|
 |**2025-04-06**|**Redefining Information Freshness: AoGI for Generative AI in 6G Networks**|Yuquan Xiao et.al.|[@2504.04414](http://arxiv.org/abs/2504.04414)|null|
 |**2025-04-05**|**MInCo: Mitigating Information Conflicts in Distracted Visual Model-based Reinforcement Learning**|Shiguang Sun et.al.|[@2504.04164](http://arxiv.org/abs/2504.04164)|null|
