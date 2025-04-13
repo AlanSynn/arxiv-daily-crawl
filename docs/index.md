@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.04.12
+## 📚 Updated on 2025.04.13
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
@@ -45,7 +45,7 @@ layout: default
 |**2025-04-07**|**From Fairness to Truthfulness: Rethinking Data Valuation Design**|Dongyang Fan et.al.|[@2504.05563](http://arxiv.org/abs/2504.05563)|null|
 |**2025-04-07**|**Lazy-DaSH: Lazy Approach for Hypergraph-based Multi-robot Task and Motion Planning**|Seongwon Lee et.al.|[@2504.05552](http://arxiv.org/abs/2504.05552)|null|
 |**2025-04-07**|**Path Database Guidance for Motion Planning**|Amnon Attali et.al.|[@2504.05550](http://arxiv.org/abs/2504.05550)|null|
-|**2025-04-07**|**One Quantizer is Enough: Toward a Lightweight Audio Codec**|Linwei Zhai et.al.|[@2504.04949](http://arxiv.org/abs/2504.04949)|null|
+|**2025-04-07**|**One Quantizer is Enough: Toward a Lightweight Audio Codec**|Linwei Zhai et.al.|[@2504.04949](http://arxiv.org/abs/2504.04949)|**[link](https://github.com/zhai-lw/sqcodec)**|
 |**2025-04-07**|**Constrained Gaussian Process Motion Planning via Stein Variational Newton Inference**|Jiayun Li et.al.|[@2504.04936](http://arxiv.org/abs/2504.04936)|null|
 |**2025-04-07**|**FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis**|Mengchao Wang et.al.|[@2504.04842](http://arxiv.org/abs/2504.04842)|null|
 |**2025-04-06**|**B4P: Simultaneous Grasp and Motion Planning for Object Placement via Parallelized Bidirectional Forests and Path Repair**|Benjamin H. Leebron et.al.|[@2504.04598](http://arxiv.org/abs/2504.04598)|null|
@@ -72,8 +72,8 @@ layout: default
 |**2025-04-09**|**OPAL: Encoding Causal Understanding of Physical Systems for Robot Learning**|Daniel Tcheurekdjian et.al.|[@2504.06538](http://arxiv.org/abs/2504.06538)|null|
 |**2025-04-08**|**Classifying Subjective Time Perception in a Multi-robot Control Scenario Using Eye-tracking Information**|Till Aust et.al.|[@2504.06442](http://arxiv.org/abs/2504.06442)|null|
 |**2025-04-08**|**Addressing Relative Degree Issues in Control Barrier Function Synthesis with Physics-Informed Neural Networks**|Lukas Brunke et.al.|[@2504.06242](http://arxiv.org/abs/2504.06242)|null|
-|**2025-04-08**|**A ROS2-based software library for inverse dynamics computation**|Vincenzo Petrone et.al.|[@2504.06106](http://arxiv.org/abs/2504.06106)|**[link](https://github.com/unisa-acg/inverse-dynamics-solver)**|
-|**2025-04-08**|**GPU-accelerated Evolutionary Many-objective Optimization Using Tensorized NSGA-III**|Hao Li et.al.|[@2504.06067](http://arxiv.org/abs/2504.06067)|null|
+|**2025-04-08**|**A ROS2-based software library for inverse dynamics computation**|Vincenzo Petrone et.al.|[@2504.06106](http://arxiv.org/abs/2504.06106)|**[link](https://github.com/ros2-gbp/ros2-gbp-github-org)**|
+|**2025-04-08**|**GPU-accelerated Evolutionary Many-objective Optimization Using Tensorized NSGA-III**|Hao Li et.al.|[@2504.06067](http://arxiv.org/abs/2504.06067)|**[link](https://github.com/emi-group/evomo)**|
 |**2025-04-06**|**Redefining Information Freshness: AoGI for Generative AI in 6G Networks**|Yuquan Xiao et.al.|[@2504.04414](http://arxiv.org/abs/2504.04414)|null|
 |**2025-04-05**|**MInCo: Mitigating Information Conflicts in Distracted Visual Model-based Reinforcement Learning**|Shiguang Sun et.al.|[@2504.04164](http://arxiv.org/abs/2504.04164)|null|
 |**2025-04-05**|**Risk-Aware Robot Control in Dynamic Environments Using Belief Control Barrier Functions**|Shaohang Han et.al.|[@2504.04097](http://arxiv.org/abs/2504.04097)|null|

@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.04.12
+## 📚 Updated on 2025.04.13
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -39,7 +39,7 @@
 |**2025-03-21**|**Understanding Social Support Needs in Questions: A Hybrid Approach Integrating Semi-Supervised Learning and LLM-based Data Augmentation**|Junwei Kuang et.al.|2503.17421|null|
 |**2025-03-21**|**Multi-property directed generative design of inorganic materials through Wyckoff-augmented transfer learning**|Shuya Yamazaki et.al.|2503.16784|null|
 
-<p align=right>(<a href=#Updated-on-20250412>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250413>back to top</a>)</p>
 
 ## Mechanics, Kinematics & Motion Synthesis
 
@@ -54,7 +54,7 @@
 |**2025-04-07**|**From Fairness to Truthfulness: Rethinking Data Valuation Design**|Dongyang Fan et.al.|[@2504.05563](http://arxiv.org/abs/2504.05563)|null|
 |**2025-04-07**|**Lazy-DaSH: Lazy Approach for Hypergraph-based Multi-robot Task and Motion Planning**|Seongwon Lee et.al.|[@2504.05552](http://arxiv.org/abs/2504.05552)|null|
 |**2025-04-07**|**Path Database Guidance for Motion Planning**|Amnon Attali et.al.|[@2504.05550](http://arxiv.org/abs/2504.05550)|null|
-|**2025-04-07**|**One Quantizer is Enough: Toward a Lightweight Audio Codec**|Linwei Zhai et.al.|[@2504.04949](http://arxiv.org/abs/2504.04949)|null|
+|**2025-04-07**|**One Quantizer is Enough: Toward a Lightweight Audio Codec**|Linwei Zhai et.al.|[@2504.04949](http://arxiv.org/abs/2504.04949)|**[link](https://github.com/zhai-lw/sqcodec)**|
 |**2025-04-07**|**Constrained Gaussian Process Motion Planning via Stein Variational Newton Inference**|Jiayun Li et.al.|[@2504.04936](http://arxiv.org/abs/2504.04936)|null|
 |**2025-04-07**|**FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis**|Mengchao Wang et.al.|[@2504.04842](http://arxiv.org/abs/2504.04842)|null|
 |**2025-04-06**|**B4P: Simultaneous Grasp and Motion Planning for Object Placement via Parallelized Bidirectional Forests and Path Repair**|Benjamin H. Leebron et.al.|[@2504.04598](http://arxiv.org/abs/2504.04598)|null|
@@ -72,7 +72,7 @@
 |**2025-03-31**|**Less is More: Contextual Sampling for Nonlinear Data-Enabled Predictive Control**|Julius Beerwerth et.al.|2503.23890|null|
 |**2025-03-31**|**A Survey of Reinforcement Learning-Based Motion Planning for Autonomous Driving: Lessons Learned from a Driving Task Perspective**|Zhuoren Li et.al.|2503.23650|null|
 
-<p align=right>(<a href=#Updated-on-20250412>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250413>back to top</a>)</p>
 
 ## Robotics: Design, Control & Learning
 
@@ -83,8 +83,8 @@
 |**2025-04-09**|**OPAL: Encoding Causal Understanding of Physical Systems for Robot Learning**|Daniel Tcheurekdjian et.al.|[@2504.06538](http://arxiv.org/abs/2504.06538)|null|
 |**2025-04-08**|**Classifying Subjective Time Perception in a Multi-robot Control Scenario Using Eye-tracking Information**|Till Aust et.al.|[@2504.06442](http://arxiv.org/abs/2504.06442)|null|
 |**2025-04-08**|**Addressing Relative Degree Issues in Control Barrier Function Synthesis with Physics-Informed Neural Networks**|Lukas Brunke et.al.|[@2504.06242](http://arxiv.org/abs/2504.06242)|null|
-|**2025-04-08**|**A ROS2-based software library for inverse dynamics computation**|Vincenzo Petrone et.al.|[@2504.06106](http://arxiv.org/abs/2504.06106)|**[link](https://github.com/unisa-acg/inverse-dynamics-solver)**|
-|**2025-04-08**|**GPU-accelerated Evolutionary Many-objective Optimization Using Tensorized NSGA-III**|Hao Li et.al.|[@2504.06067](http://arxiv.org/abs/2504.06067)|null|
+|**2025-04-08**|**A ROS2-based software library for inverse dynamics computation**|Vincenzo Petrone et.al.|[@2504.06106](http://arxiv.org/abs/2504.06106)|**[link](https://github.com/ros2-gbp/ros2-gbp-github-org)**|
+|**2025-04-08**|**GPU-accelerated Evolutionary Many-objective Optimization Using Tensorized NSGA-III**|Hao Li et.al.|[@2504.06067](http://arxiv.org/abs/2504.06067)|**[link](https://github.com/emi-group/evomo)**|
 |**2025-04-06**|**Redefining Information Freshness: AoGI for Generative AI in 6G Networks**|Yuquan Xiao et.al.|[@2504.04414](http://arxiv.org/abs/2504.04414)|null|
 |**2025-04-05**|**MInCo: Mitigating Information Conflicts in Distracted Visual Model-based Reinforcement Learning**|Shiguang Sun et.al.|[@2504.04164](http://arxiv.org/abs/2504.04164)|null|
 |**2025-04-05**|**Risk-Aware Robot Control in Dynamic Environments Using Belief Control Barrier Functions**|Shaohang Han et.al.|[@2504.04097](http://arxiv.org/abs/2504.04097)|null|
@@ -100,7 +100,7 @@
 |**2025-03-27**|**Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making**|Filip Surma et.al.|[@2503.21065](http://arxiv.org/abs/2503.21065)|null|
 |**2025-03-26**|**Beyond Visuals: Investigating Force Feedback in Extended Reality for Robot Data Collection**|Xueyin Li et.al.|2503.20714|null|
 
-<p align=right>(<a href=#Updated-on-20250412>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250413>back to top</a>)</p>
 
 ## Human-Computer Interaction for Design
 
@@ -110,7 +110,7 @@
 |**2021-02-20**|**GenFloor: Interactive Generative Space Layout System via Encoded Tree Graphs**|Mohammad Keshavarzi et.al.|[@2102.10320](http://arxiv.org/abs/2102.10320)|null|
 |**2019-12-19**|**MVF Designer: Design and Visualization of Morse Vector Fields**|Youjia Zhou et.al.|[@1912.09580](http://arxiv.org/abs/1912.09580)|**[link](https://github.com/zhou325/VIS-MSVF)**|
 
-<p align=right>(<a href=#Updated-on-20250412>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250413>back to top</a>)</p>
 
 ## Generative AI & Foundation Models in Design
 
@@ -123,7 +123,7 @@
 |**2024-02-26**|**From Cloud to Edge: Rethinking Generative AI for Low-Resource Design Challenges**|Sai Krishna Revanth Vuruma et.al.|[@2402.12702](http://arxiv.org/abs/2402.12702)|null|
 |**2024-09-09**|**Explainable AI for Engineering Design: A Unified Approach of Systems Engineering and Component- Based Deep Learning Demonstrated by Energy- Efficient Building Design**|Philipp Geyer et.al.|[@2108.13836](http://arxiv.org/abs/2108.13836)|null|
 
-<p align=right>(<a href=#Updated-on-20250412>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250413>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
