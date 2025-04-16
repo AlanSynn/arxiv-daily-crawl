@@ -7,13 +7,15 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.04.15
+## 📚 Updated on 2025.04.16
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-15**|**A Winner-Takes-All Mechanism for Event Generation**|Yongkang Huo et.al.|[@2504.11374](http://arxiv.org/abs/2504.11374)|null|
+|**2025-04-15**|**Super time-resolved tomography**|Zhe Hu et.al.|[@2504.11148](http://arxiv.org/abs/2504.11148)|null|
 |**2025-04-14**|**BLAST: Bayesian online change-point detection with structured image data**|Xiaojun Zheng et.al.|[@2504.09783](http://arxiv.org/abs/2504.09783)|null|
 |**2025-04-11**|**AGENT: An Aerial Vehicle Generation and Design Tool Using Large Language Models**|Colin Samplawski et.al.|[@2504.08981](http://arxiv.org/abs/2504.08981)|null|
 |**2025-04-06**|**Molecular Dynamics (MD) simulation of silicon nanoparticle crystallization during laser-induced forward transfer (LIFT) printing**|Youwen Liang et.al.|[@2504.08787](http://arxiv.org/abs/2504.08787)|null|
@@ -40,6 +42,8 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-15**|**Superfast Configuration-Space Convex Set Computation on GPUs for Online Motion Planning**|Peter Werner et.al.|[@2504.10783](http://arxiv.org/abs/2504.10783)|null|
+|**2025-04-14**|**HyRRT-Connect: Bidirectional Motion Planning for Hybrid Dynamical Systems**|Nan Wang et.al.|[@2504.10699](http://arxiv.org/abs/2504.10699)|null|
 |**2025-04-14**|**Layered Multirate Control of Constrained Linear Systems**|Charis Stamouli et.al.|[@2504.10461](http://arxiv.org/abs/2504.10461)|null|
 |**2025-04-14**|**Separate to Collaborate: Dual-Stream Diffusion Model for Coordinated Piano Hand Motion Synthesis**|Zihao Liu et.al.|[@2504.09885](http://arxiv.org/abs/2504.09885)|null|
 |**2025-04-11**|**MotionDreamer: One-to-Many Motion Synthesis with Localized Generative Masked Transformer**|Yilin Wang et.al.|[@2504.08959](http://arxiv.org/abs/2504.08959)|null|
@@ -85,7 +89,7 @@ layout: default
 |**2025-04-14**|**EmbodiedAgent: A Scalable Hierarchical Approach to Overcome Practical Challenge in Multi-Robot Control**|Hanwen Wan et.al.|[@2504.10030](http://arxiv.org/abs/2504.10030)|null|
 |**2025-04-14**|**Efficient Task-specific Conditional Diffusion Policies: Shortcut Model Acceleration and SO(3) Optimization**|Haiyong Yu et.al.|[@2504.09927](http://arxiv.org/abs/2504.09927)|null|
 |**2025-04-13**|**Embodied Chain of Action Reasoning with Multi-Modal Foundation Model for Humanoid Loco-manipulation**|Yu Hao et.al.|[@2504.09532](http://arxiv.org/abs/2504.09532)|null|
-|**2025-04-11**|**TensorNEAT: A GPU-accelerated Library for NeuroEvolution of Augmenting Topologies**|Lishuang Wang et.al.|[@2504.08339](http://arxiv.org/abs/2504.08339)|null|
+|**2025-04-11**|**TensorNEAT: A GPU-accelerated Library for NeuroEvolution of Augmenting Topologies**|Lishuang Wang et.al.|[@2504.08339](http://arxiv.org/abs/2504.08339)|**[link](https://github.com/emi-group/tensorneat)**|
 |**2025-04-09**|**Adaptive Vision-Guided Robotic Arm Control for Precision Pruning in Dynamic Orchard Environments**|Dawood Ahmed et.al.|[@2504.07309](http://arxiv.org/abs/2504.07309)|null|
 |**2025-04-09**|**Leveraging GCN-based Action Recognition for Teleoperation in Daily Activity Assistance**|Thomas M. Kwok et.al.|[@2504.07001](http://arxiv.org/abs/2504.07001)|null|
 |**2025-04-09**|**OPAL: Encoding Causal Understanding of Physical Systems for Robot Learning**|Daniel Tcheurekdjian et.al.|[@2504.06538](http://arxiv.org/abs/2504.06538)|null|
