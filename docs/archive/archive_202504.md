@@ -1,6 +1,6 @@
 # 📚 Archived Papers
 
-*Last updated: 2025-04-16*
+*Last updated: 2025-04-17*
 
 ## 📋 Table of Contents
 
@@ -28,6 +28,14 @@
 
 
 ## 📑 Generative AI & Foundation Models in Design
+
+### Multi-objective generative AI for designing novel brain-targeting small molecules
+
+**📅 Date:** 2024-04-16  
+**👨‍🔬 Authors:** Ayush Noori et.al.  
+**📄 Paper:** [@2407.00004](http://arxiv.org/abs/2407.00004)  
+
+---
 
 ### From Cloud to Edge: Rethinking Generative AI for Low-Resource Design Challenges
 

@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.04.16
+## 📚 Updated on 2025.04.17
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
@@ -42,6 +42,8 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-16**|**Self-Supervised Traversability Learning with Online Prototype Adaptation for Off-Road Autonomous Driving**|Yafeng Bu et.al.|[@2504.12109](http://arxiv.org/abs/2504.12109)|null|
+|**2025-04-16**|**Generation of Paths for Motion Planning for a Dubins Vehicle on Sphere**|Deepak Prakash Kumar et.al.|[@2504.11832](http://arxiv.org/abs/2504.11832)|null|
 |**2025-04-15**|**Superfast Configuration-Space Convex Set Computation on GPUs for Online Motion Planning**|Peter Werner et.al.|[@2504.10783](http://arxiv.org/abs/2504.10783)|null|
 |**2025-04-14**|**HyRRT-Connect: Bidirectional Motion Planning for Hybrid Dynamical Systems**|Nan Wang et.al.|[@2504.10699](http://arxiv.org/abs/2504.10699)|null|
 |**2025-04-14**|**Layered Multirate Control of Constrained Linear Systems**|Charis Stamouli et.al.|[@2504.10461](http://arxiv.org/abs/2504.10461)|null|
@@ -86,6 +88,7 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-16**|**Towards Forceful Robotic Foundation Models: a Literature Survey**|William Xie et.al.|[@2504.11827](http://arxiv.org/abs/2504.11827)|null|
 |**2025-04-14**|**EmbodiedAgent: A Scalable Hierarchical Approach to Overcome Practical Challenge in Multi-Robot Control**|Hanwen Wan et.al.|[@2504.10030](http://arxiv.org/abs/2504.10030)|null|
 |**2025-04-14**|**Efficient Task-specific Conditional Diffusion Policies: Shortcut Model Acceleration and SO(3) Optimization**|Haiyong Yu et.al.|[@2504.09927](http://arxiv.org/abs/2504.09927)|null|
 |**2025-04-13**|**Embodied Chain of Action Reasoning with Multi-Modal Foundation Model for Humanoid Loco-manipulation**|Yu Hao et.al.|[@2504.09532](http://arxiv.org/abs/2504.09532)|null|
