@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.04.17
+## 📚 Updated on 2025.04.18
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -45,12 +45,15 @@
 |**2025-03-21**|**Understanding Social Support Needs in Questions: A Hybrid Approach Integrating Semi-Supervised Learning and LLM-based Data Augmentation**|Junwei Kuang et.al.|2503.17421|null|
 |**2025-03-21**|**Multi-property directed generative design of inorganic materials through Wyckoff-augmented transfer learning**|Shuya Yamazaki et.al.|2503.16784|null|
 
-<p align=right>(<a href=#Updated-on-20250417>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250418>back to top</a>)</p>
 
 ## Mechanics, Kinematics & Motion Synthesis
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-04-17**|**Versatile, Robust, and Explosive Locomotion with Rigid and Articulated Compliant Quadrupeds**|Jiatao Ding et.al.|[@2504.12854](http://arxiv.org/abs/2504.12854)|null|
+|**2025-04-17**|**B*: Efficient and Optimal Base Placement for Fixed-Base Manipulators**|Zihang Zhao et.al.|[@2504.12719](http://arxiv.org/abs/2504.12719)|**[link](https://github.com/leiyaocui/B_STAR)**|
+|**2025-04-17**|**UniPhys: Unified Planner and Controller with Diffusion for Flexible Physics-Based Character Control**|Yan Wu et.al.|[@2504.12540](http://arxiv.org/abs/2504.12540)|null|
 |**2025-04-16**|**Self-Supervised Traversability Learning with Online Prototype Adaptation for Off-Road Autonomous Driving**|Yafeng Bu et.al.|[@2504.12109](http://arxiv.org/abs/2504.12109)|null|
 |**2025-04-16**|**Generation of Paths for Motion Planning for a Dubins Vehicle on Sphere**|Deepak Prakash Kumar et.al.|[@2504.11832](http://arxiv.org/abs/2504.11832)|null|
 |**2025-04-15**|**Superfast Configuration-Space Convex Set Computation on GPUs for Online Motion Planning**|Peter Werner et.al.|[@2504.10783](http://arxiv.org/abs/2504.10783)|null|
@@ -93,7 +96,7 @@
 |**2025-03-31**|**Less is More: Contextual Sampling for Nonlinear Data-Enabled Predictive Control**|Julius Beerwerth et.al.|2503.23890|null|
 |**2025-03-31**|**A Survey of Reinforcement Learning-Based Motion Planning for Autonomous Driving: Lessons Learned from a Driving Task Perspective**|Zhuoren Li et.al.|2503.23650|null|
 
-<p align=right>(<a href=#Updated-on-20250417>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250418>back to top</a>)</p>
 
 ## Robotics: Design, Control & Learning
 
@@ -126,7 +129,7 @@
 |**2025-03-27**|**Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making**|Filip Surma et.al.|2503.21065|null|
 |**2025-03-26**|**Beyond Visuals: Investigating Force Feedback in Extended Reality for Robot Data Collection**|Xueyin Li et.al.|2503.20714|null|
 
-<p align=right>(<a href=#Updated-on-20250417>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250418>back to top</a>)</p>
 
 ## Human-Computer Interaction for Design
 
@@ -136,7 +139,7 @@
 |**2021-02-20**|**GenFloor: Interactive Generative Space Layout System via Encoded Tree Graphs**|Mohammad Keshavarzi et.al.|[@2102.10320](http://arxiv.org/abs/2102.10320)|null|
 |**2019-12-19**|**MVF Designer: Design and Visualization of Morse Vector Fields**|Youjia Zhou et.al.|[@1912.09580](http://arxiv.org/abs/1912.09580)|**[link](https://github.com/zhou325/VIS-MSVF)**|
 
-<p align=right>(<a href=#Updated-on-20250417>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250418>back to top</a>)</p>
 
 ## Generative AI & Foundation Models in Design
 
@@ -149,7 +152,7 @@
 |**2024-02-26**|**From Cloud to Edge: Rethinking Generative AI for Low-Resource Design Challenges**|Sai Krishna Revanth Vuruma et.al.|[@2402.12702](http://arxiv.org/abs/2402.12702)|null|
 |**2024-09-09**|**Explainable AI for Engineering Design: A Unified Approach of Systems Engineering and Component- Based Deep Learning Demonstrated by Energy- Efficient Building Design**|Philipp Geyer et.al.|[@2108.13836](http://arxiv.org/abs/2108.13836)|null|
 
-<p align=right>(<a href=#Updated-on-20250417>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250418>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors

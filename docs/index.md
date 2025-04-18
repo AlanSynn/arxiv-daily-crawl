@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.04.17
+## 📚 Updated on 2025.04.18
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
@@ -42,6 +42,9 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-17**|**Versatile, Robust, and Explosive Locomotion with Rigid and Articulated Compliant Quadrupeds**|Jiatao Ding et.al.|[@2504.12854](http://arxiv.org/abs/2504.12854)|null|
+|**2025-04-17**|**B*: Efficient and Optimal Base Placement for Fixed-Base Manipulators**|Zihang Zhao et.al.|[@2504.12719](http://arxiv.org/abs/2504.12719)|**[link](https://github.com/leiyaocui/B_STAR)**|
+|**2025-04-17**|**UniPhys: Unified Planner and Controller with Diffusion for Flexible Physics-Based Character Control**|Yan Wu et.al.|[@2504.12540](http://arxiv.org/abs/2504.12540)|null|
 |**2025-04-16**|**Self-Supervised Traversability Learning with Online Prototype Adaptation for Off-Road Autonomous Driving**|Yafeng Bu et.al.|[@2504.12109](http://arxiv.org/abs/2504.12109)|null|
 |**2025-04-16**|**Generation of Paths for Motion Planning for a Dubins Vehicle on Sphere**|Deepak Prakash Kumar et.al.|[@2504.11832](http://arxiv.org/abs/2504.11832)|null|
 |**2025-04-15**|**Superfast Configuration-Space Convex Set Computation on GPUs for Online Motion Planning**|Peter Werner et.al.|[@2504.10783](http://arxiv.org/abs/2504.10783)|null|
