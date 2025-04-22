@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.04.21
+## 📚 Updated on 2025.04.22
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -21,6 +21,7 @@
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-04-20**|**Virtual Reality for Urban Walkability Assessment**|Viet Hung Pham et.al.|[@2504.14580](http://arxiv.org/abs/2504.14580)|null|
 |**2025-04-15**|**A Winner-Takes-All Mechanism for Event Generation**|Yongkang Huo et.al.|[@2504.11374](http://arxiv.org/abs/2504.11374)|null|
 |**2025-04-15**|**Super time-resolved tomography**|Zhe Hu et.al.|[@2504.11148](http://arxiv.org/abs/2504.11148)|null|
 |**2025-04-14**|**BLAST: Bayesian online change-point detection with structured image data**|Xiaojun Zheng et.al.|[@2504.09783](http://arxiv.org/abs/2504.09783)|null|
@@ -45,12 +46,17 @@
 |**2025-03-21**|**Understanding Social Support Needs in Questions: A Hybrid Approach Integrating Semi-Supervised Learning and LLM-based Data Augmentation**|Junwei Kuang et.al.|2503.17421|null|
 |**2025-03-21**|**Multi-property directed generative design of inorganic materials through Wyckoff-augmented transfer learning**|Shuya Yamazaki et.al.|2503.16784|null|
 
-<p align=right>(<a href=#Updated-on-20250421>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250422>back to top</a>)</p>
 
 ## Mechanics, Kinematics & Motion Synthesis
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-04-21**|**RealisDance-DiT: Simple yet Strong Baseline towards Controllable Character Animation in the Wild**|Jingkai Zhou et.al.|[@2504.14977](http://arxiv.org/abs/2504.14977)|null|
+|**2025-04-21**|**Mechanism Design for Auctions with Externalities on Budgets**|Yusen Zheng et.al.|[@2504.14948](http://arxiv.org/abs/2504.14948)|null|
+|**2025-04-21**|**A level set topology optimization theory based on Hamilton's principle**|Jan Oellerich et.al.|[@2504.14892](http://arxiv.org/abs/2504.14892)|null|
+|**2025-04-20**|**BiDexHand: Design and Evaluation of an Open-Source 16-DoF Biomimetic Dexterous Hand**|Zhengyang Kris Weng et.al.|[@2504.14712](http://arxiv.org/abs/2504.14712)|null|
+|**2025-04-20**|**An LLM-enabled Multi-Agent Autonomous Mechatronics Design Framework**|Zeyu Wang et.al.|[@2504.14681](http://arxiv.org/abs/2504.14681)|null|
 |**2025-04-18**|**Robot Navigation in Dynamic Environments using Acceleration Obstacles**|Asher Stern et.al.|[@2504.13637](http://arxiv.org/abs/2504.13637)|null|
 |**2025-04-18**|**An Addendum to NeBula: Towards Extending TEAM CoSTAR's Solution to Larger Scale Environments**|Ali Agha et.al.|[@2504.13461](http://arxiv.org/abs/2504.13461)|null|
 |**2025-04-17**|**Versatile, Robust, and Explosive Locomotion with Rigid and Articulated Compliant Quadrupeds**|Jiatao Ding et.al.|[@2504.12854](http://arxiv.org/abs/2504.12854)|null|
@@ -98,7 +104,7 @@
 |**2025-03-31**|**Less is More: Contextual Sampling for Nonlinear Data-Enabled Predictive Control**|Julius Beerwerth et.al.|2503.23890|null|
 |**2025-03-31**|**A Survey of Reinforcement Learning-Based Motion Planning for Autonomous Driving: Lessons Learned from a Driving Task Perspective**|Zhuoren Li et.al.|2503.23650|null|
 
-<p align=right>(<a href=#Updated-on-20250421>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250422>back to top</a>)</p>
 
 ## Robotics: Design, Control & Learning
 
@@ -132,7 +138,7 @@
 |**2025-03-27**|**Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making**|Filip Surma et.al.|2503.21065|null|
 |**2025-03-26**|**Beyond Visuals: Investigating Force Feedback in Extended Reality for Robot Data Collection**|Xueyin Li et.al.|2503.20714|null|
 
-<p align=right>(<a href=#Updated-on-20250421>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250422>back to top</a>)</p>
 
 ## Human-Computer Interaction for Design
 
@@ -142,7 +148,7 @@
 |**2021-02-20**|**GenFloor: Interactive Generative Space Layout System via Encoded Tree Graphs**|Mohammad Keshavarzi et.al.|[@2102.10320](http://arxiv.org/abs/2102.10320)|null|
 |**2019-12-19**|**MVF Designer: Design and Visualization of Morse Vector Fields**|Youjia Zhou et.al.|[@1912.09580](http://arxiv.org/abs/1912.09580)|**[link](https://github.com/zhou325/VIS-MSVF)**|
 
-<p align=right>(<a href=#Updated-on-20250421>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250422>back to top</a>)</p>
 
 ## Generative AI & Foundation Models in Design
 
@@ -155,7 +161,7 @@
 |**2024-02-26**|**From Cloud to Edge: Rethinking Generative AI for Low-Resource Design Challenges**|Sai Krishna Revanth Vuruma et.al.|[@2402.12702](http://arxiv.org/abs/2402.12702)|null|
 |**2024-09-09**|**Explainable AI for Engineering Design: A Unified Approach of Systems Engineering and Component- Based Deep Learning Demonstrated by Energy- Efficient Building Design**|Philipp Geyer et.al.|[@2108.13836](http://arxiv.org/abs/2108.13836)|null|
 
-<p align=right>(<a href=#Updated-on-20250421>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250422>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors

@@ -7,13 +7,14 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.04.21
+## 📚 Updated on 2025.04.22
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-20**|**Virtual Reality for Urban Walkability Assessment**|Viet Hung Pham et.al.|[@2504.14580](http://arxiv.org/abs/2504.14580)|null|
 |**2025-04-15**|**A Winner-Takes-All Mechanism for Event Generation**|Yongkang Huo et.al.|[@2504.11374](http://arxiv.org/abs/2504.11374)|null|
 |**2025-04-15**|**Super time-resolved tomography**|Zhe Hu et.al.|[@2504.11148](http://arxiv.org/abs/2504.11148)|null|
 |**2025-04-14**|**BLAST: Bayesian online change-point detection with structured image data**|Xiaojun Zheng et.al.|[@2504.09783](http://arxiv.org/abs/2504.09783)|null|
@@ -42,6 +43,11 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-21**|**RealisDance-DiT: Simple yet Strong Baseline towards Controllable Character Animation in the Wild**|Jingkai Zhou et.al.|[@2504.14977](http://arxiv.org/abs/2504.14977)|null|
+|**2025-04-21**|**Mechanism Design for Auctions with Externalities on Budgets**|Yusen Zheng et.al.|[@2504.14948](http://arxiv.org/abs/2504.14948)|null|
+|**2025-04-21**|**A level set topology optimization theory based on Hamilton's principle**|Jan Oellerich et.al.|[@2504.14892](http://arxiv.org/abs/2504.14892)|null|
+|**2025-04-20**|**BiDexHand: Design and Evaluation of an Open-Source 16-DoF Biomimetic Dexterous Hand**|Zhengyang Kris Weng et.al.|[@2504.14712](http://arxiv.org/abs/2504.14712)|null|
+|**2025-04-20**|**An LLM-enabled Multi-Agent Autonomous Mechatronics Design Framework**|Zeyu Wang et.al.|[@2504.14681](http://arxiv.org/abs/2504.14681)|null|
 |**2025-04-18**|**Robot Navigation in Dynamic Environments using Acceleration Obstacles**|Asher Stern et.al.|[@2504.13637](http://arxiv.org/abs/2504.13637)|null|
 |**2025-04-18**|**An Addendum to NeBula: Towards Extending TEAM CoSTAR's Solution to Larger Scale Environments**|Ali Agha et.al.|[@2504.13461](http://arxiv.org/abs/2504.13461)|null|
 |**2025-04-17**|**Versatile, Robust, and Explosive Locomotion with Rigid and Articulated Compliant Quadrupeds**|Jiatao Ding et.al.|[@2504.12854](http://arxiv.org/abs/2504.12854)|null|
