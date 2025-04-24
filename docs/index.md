@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.04.23
+## 📚 Updated on 2025.04.24
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
@@ -44,8 +44,12 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-23**|**Zero-shot Sim-to-Real Transfer for Reinforcement Learning-based Visual Servoing of Soft Continuum Arms**|Hsin-Jung Yang et.al.|[@2504.16916](http://arxiv.org/abs/2504.16916)|null|
+|**2025-04-23**|**MOSAIC: A Skill-Centric Algorithmic Framework for Long-Horizon Manipulation Planning**|Itamar Mishani et.al.|[@2504.16738](http://arxiv.org/abs/2504.16738)|null|
+|**2025-04-23**|**PMG: Progressive Motion Generation via Sparse Anchor Postures Curriculum Learning**|Yingjie Xi et.al.|[@2504.16722](http://arxiv.org/abs/2504.16722)|null|
+|**2025-04-23**|**Next Generation Multi-element monolithic Germanium detectors for Spectroscopy: First integration at ESRF facility**|N. Goyal et.al.|[@2504.16482](http://arxiv.org/abs/2504.16482)|null|
 |**2025-04-22**|**Monocular inspection of spacecraft under illumination constraints and avoidance regions**|Tochukwu Elijah Ogri et.al.|[@2504.15954](http://arxiv.org/abs/2504.15954)|null|
-|**2025-04-22**|**Bidirectional Task-Motion Planning Based on Hierarchical Reinforcement Learning for Strategic Confrontation**|Qizhen Wu Lei Chen et.al.|[@2504.15876](http://arxiv.org/abs/2504.15876)|null|
+|**2025-04-23**|**Bidirectional Task-Motion Planning Based on Hierarchical Reinforcement Learning for Strategic Confrontation**|Qizhen Wu et.al.|[@2504.15876](http://arxiv.org/abs/2504.15876)|null|
 |**2025-04-21**|**RealisDance-DiT: Simple yet Strong Baseline towards Controllable Character Animation in the Wild**|Jingkai Zhou et.al.|[@2504.14977](http://arxiv.org/abs/2504.14977)|null|
 |**2025-04-21**|**Mechanism Design for Auctions with Externalities on Budgets**|Yusen Zheng et.al.|[@2504.14948](http://arxiv.org/abs/2504.14948)|null|
 |**2025-04-21**|**A level set topology optimization theory based on Hamilton's principle**|Jan Oellerich et.al.|[@2504.14892](http://arxiv.org/abs/2504.14892)|null|
@@ -102,6 +106,8 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-23**|**Offline Robotic World Model: Learning Robotic Policies without a Physics Simulator**|Chenhao Li et.al.|[@2504.16680](http://arxiv.org/abs/2504.16680)|null|
+|**2025-04-23**|**Fast Online Adaptive Neural MPC via Meta-Learning**|Yu Mei et.al.|[@2504.16369](http://arxiv.org/abs/2504.16369)|null|
 |**2025-04-22**|**$π_{0.5}$ : a Vision-Language-Action Model with Open-World Generalization**|Physical Intelligence et.al.|[@2504.16054](http://arxiv.org/abs/2504.16054)|null|
 |**2025-04-18**|**Hysteresis-Aware Neural Network Modeling and Whole-Body Reinforcement Learning Control of Soft Robots**|Zongyuan Chen et.al.|[@2504.13582](http://arxiv.org/abs/2504.13582)|null|
 |**2025-04-16**|**Towards Forceful Robotic Foundation Models: a Literature Survey**|William Xie et.al.|[@2504.11827](http://arxiv.org/abs/2504.11827)|null|
