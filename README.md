@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.04.24
+## 📚 Updated on 2025.04.25
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -21,6 +21,7 @@
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-04-18**|**SCRAG: Social Computing-Based Retrieval Augmented Generation for Community Response Forecasting in Social Media Environments**|Dachun Sun et.al.|[@2504.16947](http://arxiv.org/abs/2504.16947)|null|
 |**2025-04-22**|**MetaMolGen: A Neural Graph Motif Generation Model for De Novo Molecular Design**|Zimo Yan et.al.|[@2504.15587](http://arxiv.org/abs/2504.15587)|null|
 |**2025-04-20**|**Virtual Reality for Urban Walkability Assessment**|Viet Hung Pham et.al.|[@2504.14580](http://arxiv.org/abs/2504.14580)|null|
 |**2025-04-15**|**A Winner-Takes-All Mechanism for Event Generation**|Yongkang Huo et.al.|[@2504.11374](http://arxiv.org/abs/2504.11374)|null|
@@ -47,12 +48,16 @@
 |**2025-03-21**|**Understanding Social Support Needs in Questions: A Hybrid Approach Integrating Semi-Supervised Learning and LLM-based Data Augmentation**|Junwei Kuang et.al.|2503.17421|null|
 |**2025-03-21**|**Multi-property directed generative design of inorganic materials through Wyckoff-augmented transfer learning**|Shuya Yamazaki et.al.|2503.16784|null|
 
-<p align=right>(<a href=#Updated-on-20250424>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250425>back to top</a>)</p>
 
 ## Mechanics, Kinematics & Motion Synthesis
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-04-24**|**Learning Isometric Embeddings of Road Networks using Multidimensional Scaling**|Juan Carlos Climent Pardo et.al.|[@2504.17534](http://arxiv.org/abs/2504.17534)|null|
+|**2025-04-24**|**Mamba-Sea: A Mamba-based Framework with Global-to-Local Sequence Augmentation for Generalizable Medical Image Segmentation**|Zihan Cheng et.al.|[@2504.17515](http://arxiv.org/abs/2504.17515)|null|
+|**2025-04-24**|**Highly Accurate and Diverse Traffic Data: The DeepScenario Open 3D Dataset**|Oussema Dhaouadi et.al.|[@2504.17371](http://arxiv.org/abs/2504.17371)|null|
+|**2025-04-23**|**Reinforcement learning framework for the mechanical design of microelectronic components under multiphysics constraints**|Siddharth Nair et.al.|[@2504.17142](http://arxiv.org/abs/2504.17142)|null|
 |**2025-04-23**|**Zero-shot Sim-to-Real Transfer for Reinforcement Learning-based Visual Servoing of Soft Continuum Arms**|Hsin-Jung Yang et.al.|[@2504.16916](http://arxiv.org/abs/2504.16916)|null|
 |**2025-04-23**|**MOSAIC: A Skill-Centric Algorithmic Framework for Long-Horizon Manipulation Planning**|Itamar Mishani et.al.|[@2504.16738](http://arxiv.org/abs/2504.16738)|null|
 |**2025-04-23**|**PMG: Progressive Motion Generation via Sparse Anchor Postures Curriculum Learning**|Yingjie Xi et.al.|[@2504.16722](http://arxiv.org/abs/2504.16722)|null|
@@ -111,14 +116,16 @@
 |**2025-03-31**|**Less is More: Contextual Sampling for Nonlinear Data-Enabled Predictive Control**|Julius Beerwerth et.al.|2503.23890|null|
 |**2025-03-31**|**A Survey of Reinforcement Learning-Based Motion Planning for Autonomous Driving: Lessons Learned from a Driving Task Perspective**|Zhuoren Li et.al.|2503.23650|null|
 
-<p align=right>(<a href=#Updated-on-20250424>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250425>back to top</a>)</p>
 
 ## Robotics: Design, Control & Learning
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-04-24**|**Integrating Learning-Based Manipulation and Physics-Based Locomotion for Whole-Body Badminton Robot Control**|Haochen Wang et.al.|[@2504.17771](http://arxiv.org/abs/2504.17771)|null|
+|**2025-04-24**|**Unifying Complementarity Constraints and Control Barrier Functions for Safe Whole-Body Robot Control**|Rafael I. Cabral Muchacho et.al.|[@2504.17647](http://arxiv.org/abs/2504.17647)|null|
 |**2025-04-23**|**Offline Robotic World Model: Learning Robotic Policies without a Physics Simulator**|Chenhao Li et.al.|[@2504.16680](http://arxiv.org/abs/2504.16680)|null|
-|**2025-04-23**|**Fast Online Adaptive Neural MPC via Meta-Learning**|Yu Mei et.al.|[@2504.16369](http://arxiv.org/abs/2504.16369)|null|
+|**2025-04-24**|**Fast Online Adaptive Neural MPC via Meta-Learning**|Yu Mei et.al.|[@2504.16369](http://arxiv.org/abs/2504.16369)|null|
 |**2025-04-22**|**$π_{0.5}$ : a Vision-Language-Action Model with Open-World Generalization**|Physical Intelligence et.al.|[@2504.16054](http://arxiv.org/abs/2504.16054)|null|
 |**2025-04-18**|**Hysteresis-Aware Neural Network Modeling and Whole-Body Reinforcement Learning Control of Soft Robots**|Zongyuan Chen et.al.|[@2504.13582](http://arxiv.org/abs/2504.13582)|null|
 |**2025-04-16**|**Towards Forceful Robotic Foundation Models: a Literature Survey**|William Xie et.al.|[@2504.11827](http://arxiv.org/abs/2504.11827)|null|
@@ -148,7 +155,7 @@
 |**2025-03-27**|**Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making**|Filip Surma et.al.|2503.21065|null|
 |**2025-03-26**|**Beyond Visuals: Investigating Force Feedback in Extended Reality for Robot Data Collection**|Xueyin Li et.al.|2503.20714|null|
 
-<p align=right>(<a href=#Updated-on-20250424>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250425>back to top</a>)</p>
 
 ## Human-Computer Interaction for Design
 
@@ -158,7 +165,7 @@
 |**2021-02-20**|**GenFloor: Interactive Generative Space Layout System via Encoded Tree Graphs**|Mohammad Keshavarzi et.al.|[@2102.10320](http://arxiv.org/abs/2102.10320)|null|
 |**2019-12-19**|**MVF Designer: Design and Visualization of Morse Vector Fields**|Youjia Zhou et.al.|[@1912.09580](http://arxiv.org/abs/1912.09580)|**[link](https://github.com/zhou325/VIS-MSVF)**|
 
-<p align=right>(<a href=#Updated-on-20250424>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250425>back to top</a>)</p>
 
 ## Generative AI & Foundation Models in Design
 
@@ -171,7 +178,7 @@
 |**2024-02-26**|**From Cloud to Edge: Rethinking Generative AI for Low-Resource Design Challenges**|Sai Krishna Revanth Vuruma et.al.|[@2402.12702](http://arxiv.org/abs/2402.12702)|null|
 |**2024-09-09**|**Explainable AI for Engineering Design: A Unified Approach of Systems Engineering and Component- Based Deep Learning Demonstrated by Energy- Efficient Building Design**|Philipp Geyer et.al.|[@2108.13836](http://arxiv.org/abs/2108.13836)|null|
 
-<p align=right>(<a href=#Updated-on-20250424>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250425>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors

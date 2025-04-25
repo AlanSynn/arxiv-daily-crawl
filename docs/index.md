@@ -7,13 +7,14 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.04.24
+## 📚 Updated on 2025.04.25
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-18**|**SCRAG: Social Computing-Based Retrieval Augmented Generation for Community Response Forecasting in Social Media Environments**|Dachun Sun et.al.|[@2504.16947](http://arxiv.org/abs/2504.16947)|null|
 |**2025-04-22**|**MetaMolGen: A Neural Graph Motif Generation Model for De Novo Molecular Design**|Zimo Yan et.al.|[@2504.15587](http://arxiv.org/abs/2504.15587)|null|
 |**2025-04-20**|**Virtual Reality for Urban Walkability Assessment**|Viet Hung Pham et.al.|[@2504.14580](http://arxiv.org/abs/2504.14580)|null|
 |**2025-04-15**|**A Winner-Takes-All Mechanism for Event Generation**|Yongkang Huo et.al.|[@2504.11374](http://arxiv.org/abs/2504.11374)|null|
@@ -44,6 +45,10 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-24**|**Learning Isometric Embeddings of Road Networks using Multidimensional Scaling**|Juan Carlos Climent Pardo et.al.|[@2504.17534](http://arxiv.org/abs/2504.17534)|null|
+|**2025-04-24**|**Mamba-Sea: A Mamba-based Framework with Global-to-Local Sequence Augmentation for Generalizable Medical Image Segmentation**|Zihan Cheng et.al.|[@2504.17515](http://arxiv.org/abs/2504.17515)|null|
+|**2025-04-24**|**Highly Accurate and Diverse Traffic Data: The DeepScenario Open 3D Dataset**|Oussema Dhaouadi et.al.|[@2504.17371](http://arxiv.org/abs/2504.17371)|null|
+|**2025-04-23**|**Reinforcement learning framework for the mechanical design of microelectronic components under multiphysics constraints**|Siddharth Nair et.al.|[@2504.17142](http://arxiv.org/abs/2504.17142)|null|
 |**2025-04-23**|**Zero-shot Sim-to-Real Transfer for Reinforcement Learning-based Visual Servoing of Soft Continuum Arms**|Hsin-Jung Yang et.al.|[@2504.16916](http://arxiv.org/abs/2504.16916)|null|
 |**2025-04-23**|**MOSAIC: A Skill-Centric Algorithmic Framework for Long-Horizon Manipulation Planning**|Itamar Mishani et.al.|[@2504.16738](http://arxiv.org/abs/2504.16738)|null|
 |**2025-04-23**|**PMG: Progressive Motion Generation via Sparse Anchor Postures Curriculum Learning**|Yingjie Xi et.al.|[@2504.16722](http://arxiv.org/abs/2504.16722)|null|
@@ -106,8 +111,10 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-24**|**Integrating Learning-Based Manipulation and Physics-Based Locomotion for Whole-Body Badminton Robot Control**|Haochen Wang et.al.|[@2504.17771](http://arxiv.org/abs/2504.17771)|null|
+|**2025-04-24**|**Unifying Complementarity Constraints and Control Barrier Functions for Safe Whole-Body Robot Control**|Rafael I. Cabral Muchacho et.al.|[@2504.17647](http://arxiv.org/abs/2504.17647)|null|
 |**2025-04-23**|**Offline Robotic World Model: Learning Robotic Policies without a Physics Simulator**|Chenhao Li et.al.|[@2504.16680](http://arxiv.org/abs/2504.16680)|null|
-|**2025-04-23**|**Fast Online Adaptive Neural MPC via Meta-Learning**|Yu Mei et.al.|[@2504.16369](http://arxiv.org/abs/2504.16369)|null|
+|**2025-04-24**|**Fast Online Adaptive Neural MPC via Meta-Learning**|Yu Mei et.al.|[@2504.16369](http://arxiv.org/abs/2504.16369)|null|
 |**2025-04-22**|**$π_{0.5}$ : a Vision-Language-Action Model with Open-World Generalization**|Physical Intelligence et.al.|[@2504.16054](http://arxiv.org/abs/2504.16054)|null|
 |**2025-04-18**|**Hysteresis-Aware Neural Network Modeling and Whole-Body Reinforcement Learning Control of Soft Robots**|Zongyuan Chen et.al.|[@2504.13582](http://arxiv.org/abs/2504.13582)|null|
 |**2025-04-16**|**Towards Forceful Robotic Foundation Models: a Literature Survey**|William Xie et.al.|[@2504.11827](http://arxiv.org/abs/2504.11827)|null|
