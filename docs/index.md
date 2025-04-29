@@ -7,13 +7,14 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.04.28
+## 📚 Updated on 2025.04.29
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-26**|**Spreading of highly cohesive metal powders with transverse oscillation kinematics**|Reimar Weissbach et.al.|[@2504.18981](http://arxiv.org/abs/2504.18981)|null|
 |**2025-04-25**|**Development of a Scaled Down Horizontal Axis Wind Turbine for Wind Tunnel Tests**|Bhaskar Aryal et.al.|[@2504.18420](http://arxiv.org/abs/2504.18420)|null|
 |**2025-04-25**|**Cabbage: A Differential Growth Framework for Open Surfaces**|Xiaoyi Liu et.al.|[@2504.18040](http://arxiv.org/abs/2504.18040)|null|
 |**2025-04-18**|**SCRAG: Social Computing-Based Retrieval Augmented Generation for Community Response Forecasting in Social Media Environments**|Dachun Sun et.al.|[@2504.16947](http://arxiv.org/abs/2504.16947)|null|
@@ -47,6 +48,14 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-28**|**Tensegrity-based Robot Leg Design with Variable Stiffness**|Erik Mortensen et.al.|[@2504.19685](http://arxiv.org/abs/2504.19685)|null|
+|**2025-04-28**|**Robot Motion Planning using One-Step Diffusion with Noise-Optimized Approximate Motions**|Tomoharu Aizu et.al.|[@2504.19652](http://arxiv.org/abs/2504.19652)|null|
+|**2025-04-27**|**Sketch2Anim: Towards Transferring Sketch Storyboards into 3D Animation**|Lei Zhong et.al.|[@2504.19189](http://arxiv.org/abs/2504.19189)|null|
+|**2025-04-27**|**Geometric Gait Optimization for Kinodynamic Systems Using a Lie Group Integrator**|Yanhao Yang et.al.|[@2504.19072](http://arxiv.org/abs/2504.19072)|null|
+|**2025-04-27**|**Generative AI for Character Animation: A Comprehensive Survey of Techniques, Applications, and Future Directions**|Mohammad Mahdi Abootorabi et.al.|[@2504.19056](http://arxiv.org/abs/2504.19056)|null|
+|**2025-04-26**|**A biconvex method for minimum-time motion planning through sequences of convex sets**|Tobia Marcucci et.al.|[@2504.18978](http://arxiv.org/abs/2504.18978)|null|
+|**2025-04-26**|**Hierarchical Temporal Logic Task and Motion Planning for Multi-Robot Systems**|Zhongqi Wei et.al.|[@2504.18899](http://arxiv.org/abs/2504.18899)|null|
+|**2025-04-25**|**Collaborative Object Transportation in Space via Impact Interactions**|Joris Verhagen et.al.|[@2504.18667](http://arxiv.org/abs/2504.18667)|null|
 |**2025-04-24**|**Mixed Bernstein-Fourier Approximants for Optimal Trajectory Generation with Periodic Behavior**|Liraz Mudrik et.al.|[@2504.17969](http://arxiv.org/abs/2504.17969)|null|
 |**2025-04-24**|**Beyond Task and Motion Planning: Hierarchical Robot Planning with General-Purpose Policies**|Benned Hedegaard et.al.|[@2504.17901](http://arxiv.org/abs/2504.17901)|null|
 |**2025-04-24**|**Terrain-Aware Kinodynamic Planning with Efficiently Adaptive State Lattices for Mobile Robot Navigation in Off-Road Environments**|Eric R. Damm et.al.|[@2504.17889](http://arxiv.org/abs/2504.17889)|null|
@@ -116,11 +125,13 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-28**|**Mesh-Learner: Texturing Mesh with Spherical Harmonics**|Yunfei Wan et.al.|[@2504.19938](http://arxiv.org/abs/2504.19938)|null|
+|**2025-04-28**|**UTTG_ A Universal Teleoperation Approach via Online Trajectory Generation**|Shengjian Fang et.al.|[@2504.19736](http://arxiv.org/abs/2504.19736)|null|
 |**2025-04-25**|**Revisiting Data Auditing in Large Vision-Language Models**|Hongyu Zhu et.al.|[@2504.18349](http://arxiv.org/abs/2504.18349)|null|
-|**2025-04-24**|**Integrating Learning-Based Manipulation and Physics-Based Locomotion for Whole-Body Badminton Robot Control**|Haochen Wang et.al.|[@2504.17771](http://arxiv.org/abs/2504.17771)|null|
+|**2025-04-27**|**Integrating Learning-Based Manipulation and Physics-Based Locomotion for Whole-Body Badminton Robot Control**|Haochen Wang et.al.|[@2504.17771](http://arxiv.org/abs/2504.17771)|null|
 |**2025-04-24**|**Unifying Complementarity Constraints and Control Barrier Functions for Safe Whole-Body Robot Control**|Rafael I. Cabral Muchacho et.al.|[@2504.17647](http://arxiv.org/abs/2504.17647)|null|
 |**2025-04-23**|**Offline Robotic World Model: Learning Robotic Policies without a Physics Simulator**|Chenhao Li et.al.|[@2504.16680](http://arxiv.org/abs/2504.16680)|null|
-|**2025-04-24**|**Fast Online Adaptive Neural MPC via Meta-Learning**|Yu Mei et.al.|[@2504.16369](http://arxiv.org/abs/2504.16369)|**[link](https://github.com/yu-mei/MetaResidual-MPC)**|
+|**2025-04-25**|**Fast Online Adaptive Neural MPC via Meta-Learning**|Yu Mei et.al.|[@2504.16369](http://arxiv.org/abs/2504.16369)|**[link](https://github.com/yu-mei/MetaResidual-MPC)**|
 |**2025-04-22**|**$π_{0.5}$ : a Vision-Language-Action Model with Open-World Generalization**|Physical Intelligence et.al.|[@2504.16054](http://arxiv.org/abs/2504.16054)|null|
 |**2025-04-18**|**Hysteresis-Aware Neural Network Modeling and Whole-Body Reinforcement Learning Control of Soft Robots**|Zongyuan Chen et.al.|[@2504.13582](http://arxiv.org/abs/2504.13582)|null|
 |**2025-04-16**|**Towards Forceful Robotic Foundation Models: a Literature Survey**|William Xie et.al.|[@2504.11827](http://arxiv.org/abs/2504.11827)|null|
