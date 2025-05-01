@@ -7,13 +7,14 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.04.30
+## 📚 Updated on 2025.05.01
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-30**|**Redundancy Analysis and Mitigation for Machine Learning-Based Process Monitoring of Additive Manufacturing**|Jiarui Xie et.al.|[@2504.21317](http://arxiv.org/abs/2504.21317)|null|
 |**2025-04-29**|**Using LLMs in Generating Design Rationale for Software Architecture Decisions**|Xiyu Zhou et.al.|[@2504.20781](http://arxiv.org/abs/2504.20781)|null|
 |**2025-04-26**|**Spreading of highly cohesive metal powders with transverse oscillation kinematics**|Reimar Weissbach et.al.|[@2504.18981](http://arxiv.org/abs/2504.18981)|null|
 |**2025-04-25**|**Development of a Scaled Down Horizontal Axis Wind Turbine for Wind Tunnel Tests**|Bhaskar Aryal et.al.|[@2504.18420](http://arxiv.org/abs/2504.18420)|null|
@@ -49,6 +50,9 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-30**|**Whleaper: A 10-DOF Flexible Bipedal Wheeled Robot**|Yinglei Zhu et.al.|[@2504.21767](http://arxiv.org/abs/2504.21767)|null|
+|**2025-04-30**|**Leveraging Pre-trained Large Language Models with Refined Prompting for Online Task and Motion Planning**|Huihui Guo et.al.|[@2504.21596](http://arxiv.org/abs/2504.21596)|null|
+|**2025-04-30**|**RWKV-X: A Linear Complexity Hybrid Language Model**|Haowen Hou et.al.|[@2504.21463](http://arxiv.org/abs/2504.21463)|null|
 |**2025-04-29**|**Confidence-based Intent Prediction for Teleoperation in Bimanual Robotic Suturing**|Zhaoyang Jacopo Hu et.al.|[@2504.20761](http://arxiv.org/abs/2504.20761)|null|
 |**2025-04-29**|**Efficient Listener: Dyadic Facial Motion Synthesis via Action Diffusion**|Zesheng Wang et.al.|[@2504.20685](http://arxiv.org/abs/2504.20685)|null|
 |**2025-04-29**|**SFi-Former: Sparse Flow Induced Attention for Graph Transformer**|Zhonghao Li et.al.|[@2504.20666](http://arxiv.org/abs/2504.20666)|null|
@@ -137,7 +141,7 @@ layout: default
 |**2025-04-27**|**Integrating Learning-Based Manipulation and Physics-Based Locomotion for Whole-Body Badminton Robot Control**|Haochen Wang et.al.|[@2504.17771](http://arxiv.org/abs/2504.17771)|null|
 |**2025-04-24**|**Unifying Complementarity Constraints and Control Barrier Functions for Safe Whole-Body Robot Control**|Rafael I. Cabral Muchacho et.al.|[@2504.17647](http://arxiv.org/abs/2504.17647)|null|
 |**2025-04-23**|**Offline Robotic World Model: Learning Robotic Policies without a Physics Simulator**|Chenhao Li et.al.|[@2504.16680](http://arxiv.org/abs/2504.16680)|null|
-|**2025-04-25**|**Fast Online Adaptive Neural MPC via Meta-Learning**|Yu Mei et.al.|[@2504.16369](http://arxiv.org/abs/2504.16369)|**[link](https://github.com/yu-mei/MetaResidual-MPC)**|
+|**2025-04-30**|**Fast Online Adaptive Neural MPC via Meta-Learning**|Yu Mei et.al.|[@2504.16369](http://arxiv.org/abs/2504.16369)|**[link](https://github.com/yu-mei/MetaResidual-MPC)**|
 |**2025-04-22**|**$π_{0.5}$ : a Vision-Language-Action Model with Open-World Generalization**|Physical Intelligence et.al.|[@2504.16054](http://arxiv.org/abs/2504.16054)|null|
 |**2025-04-18**|**Hysteresis-Aware Neural Network Modeling and Whole-Body Reinforcement Learning Control of Soft Robots**|Zongyuan Chen et.al.|[@2504.13582](http://arxiv.org/abs/2504.13582)|null|
 |**2025-04-16**|**Towards Forceful Robotic Foundation Models: a Literature Survey**|William Xie et.al.|[@2504.11827](http://arxiv.org/abs/2504.11827)|null|
