@@ -7,13 +7,14 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.05.01
+## 📚 Updated on 2025.05.02
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-04-30**|**Generative Multimodal Multiscale Data Fusion for Digital Twins in Aerosol Jet Electronics Printing**|Fatemeh Elhambakhsh et.al.|[@2505.00176](http://arxiv.org/abs/2505.00176)|null|
 |**2025-04-30**|**Redundancy Analysis and Mitigation for Machine Learning-Based Process Monitoring of Additive Manufacturing**|Jiarui Xie et.al.|[@2504.21317](http://arxiv.org/abs/2504.21317)|null|
 |**2025-04-29**|**Using LLMs in Generating Design Rationale for Software Architecture Decisions**|Xiyu Zhou et.al.|[@2504.20781](http://arxiv.org/abs/2504.20781)|null|
 |**2025-04-26**|**Spreading of highly cohesive metal powders with transverse oscillation kinematics**|Reimar Weissbach et.al.|[@2504.18981](http://arxiv.org/abs/2504.18981)|null|
@@ -50,6 +51,7 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-01**|**Future-Oriented Navigation: Dynamic Obstacle Avoidance with One-Shot Energy-Based Multimodal Motion Prediction**|Ze Zhang et.al.|[@2505.00237](http://arxiv.org/abs/2505.00237)|null|
 |**2025-04-30**|**Whleaper: A 10-DOF Flexible Bipedal Wheeled Robot**|Yinglei Zhu et.al.|[@2504.21767](http://arxiv.org/abs/2504.21767)|null|
 |**2025-04-30**|**Leveraging Pre-trained Large Language Models with Refined Prompting for Online Task and Motion Planning**|Huihui Guo et.al.|[@2504.21596](http://arxiv.org/abs/2504.21596)|null|
 |**2025-04-30**|**RWKV-X: A Linear Complexity Hybrid Language Model**|Haowen Hou et.al.|[@2504.21463](http://arxiv.org/abs/2504.21463)|null|
@@ -133,6 +135,9 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-01**|**Robotic Visual Instruction**|Yanbang Li et.al.|[@2505.00693](http://arxiv.org/abs/2505.00693)|null|
+|**2025-05-01**|**Multi-segment Soft Robot Control via Deep Koopman-based Model Predictive Control**|Lei Lv et.al.|[@2505.00354](http://arxiv.org/abs/2505.00354)|null|
+|**2025-04-30**|**Characterizing gaussian mixture of motion modes for skid-steer state estimation**|Ameya Salvi et.al.|[@2505.00200](http://arxiv.org/abs/2505.00200)|null|
 |**2025-04-29**|**PRISM: Projection-based Reward Integration for Scene-Aware Real-to-Sim-to-Real Transfer with Few Demonstrations**|Haowen Sun et.al.|[@2504.20520](http://arxiv.org/abs/2504.20520)|null|
 |**2025-04-28**|**Deformable Multibody Modeling for Model Predictive Control in Legged Locomotion with Embodied Compliance**|Keran Ye et.al.|[@2504.20301](http://arxiv.org/abs/2504.20301)|null|
 |**2025-04-28**|**Mesh-Learner: Texturing Mesh with Spherical Harmonics**|Yunfei Wan et.al.|[@2504.19938](http://arxiv.org/abs/2504.19938)|null|
