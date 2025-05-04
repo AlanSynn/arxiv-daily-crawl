@@ -4,17 +4,17 @@ repo_name: "daily-arxiv"
 show_authors: True
 show_links: True
 show_badge: True
-max_results: 10
+max_results: 30
 
-publish_readme: True
-publish_gitpage: True
+publish_readme: False  # Don't modify root README.md
+publish_gitpage: False  # Don't publish to docs/ (use logs/ instead)
 
-# file paths
-json_readme_path: './docs/daily-arxiv.json'
-json_gitpage_path: './docs/daily-arxiv-web.json'
+# file paths - all outputs go to logs directory
+json_readme_path: './logs/daily-arxiv.json'
+json_gitpage_path: './logs/daily-arxiv-web.json'
 
-md_readme_path: 'README.md'
-md_gitpage_path: './docs/index.md'
+md_readme_path: './logs/ARXIV_PAPERS.md'
+md_gitpage_path: './logs/arxiv-web.md'
 
 # logs storage directory
 log_dir: './logs'
@@ -23,13 +23,13 @@ log_dir: './logs'
 archive_settings:
   enabled: True
   max_age_days: 365  # Papers older than this will be archived (1 year)
-  archive_dir: './docs/archive'
+  archive_dir: './logs/archive'
 
 # email settings
 email_settings:
   enabled: True  # Set to True after configuring your SMTP settings
   smtp_server: "smtp.gmail.com"  # Update with your SMTP server
-  smtp_port: 25
+  smtp_port: 587
   smtp_user: "${SMTP_USER}"  # Will be replaced with GitHub secret
   smtp_password: "${SMTP_PASSWORD}"  # Will be replaced with GitHub secret
 
@@ -44,37 +44,34 @@ keywords:
         filters:
             - "Computational Design"
             - "Generative Design"
-            - "Computational Fabrication"
-            - "Additive Manufacturing" # More formal term than 3D printing design
-            - "Digital Fabrication"
-            - "Computational Origami" # More specific/academic term
-            - "Paper Mechanics" # More specific/academic term
 
     # Mechanics, kinematics, simulation, and animation (cs.GR, cs.RO)
     "Mechanics, Kinematics & Motion Synthesis":
         filters:
             - "Kinematic Synthesis"
-            - "Mechanism Design" # Standard term
+            - "Mechanism Design"
             - "Computational Mechanism Design"
-            - "Linkage Synthesis" # Standard term
+            - "Linkage Synthesis"
             - "Linkage Optimization"
             - "Motion Synthesis"
-            - "Motion Planning" # Relevant for robotics/animation
-            - "Character Animation" # Often involves kinematics
+            - "Motion Planning"
+            - "Character Animation"
             - "Physics-based Modeling"
             - "Physics-based Animation"
-            - "Mechanical Character Animation" # Specific to examples like Coros et al.
+            - "Physics-based Simulation"
+            - "Mechanical Character Animation"
 
     # Robotics design, control, learning, and simulation (cs.RO, cs.LG, cs.AI)
     "Robotics: Design, Control & Learning":
         filters:
             - "Computational Robot Design"
-            - "Legged Locomotion" # Key term for legged robots
+            - "Legged Locomotion"
             - "Robot Control"
             - "Physics-based Robot Simulation"
             - "Reinforcement Learning for Robotics"
-            - "RL for Robot Control" # Common abbreviation
-            - "Sim-to-Real Robotics" # Relevant for learned controllers
+            - "Sim2Real"
+            - "Sim-2-Real"
+            - "Sim-to-Real"
 
     # Interaction methods and user aspects in design tools (cs.HC, cs.GR)
     "Human-Computer Interaction for Design":

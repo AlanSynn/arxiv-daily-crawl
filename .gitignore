@@ -1,15 +1,82 @@
-CMakeLists.txt.user
-CMakeLists_modified.txt
-
-
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
 build/
-
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
 lib/
-bin/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-cmake_modules/
-cmake-build-debug/
-.idea/
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
 .vscode/
-*.pyc
+.idea/
+*.swp
+*.swo
+*~
 
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific - exclude all logs and generated content from main branch
+logs/
+docs_backup/
+
+# Keep configuration but ignore sensitive files
+*.log
+*.tmp
+temp/
+
+# Email credentials (use environment variables instead)
+.env.local
+.env.production
+secrets.yaml
+
+.claude/

@@ -1,0 +1,53 @@
+[project]
+name = "daily-arxiv"
+version = "0.1.0"
+description = "Automated daily arXiv paper aggregator for Computer Vision and related research fields"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+    {name = "Alan Synn", email = "alan@alansynn.com"}
+]
+maintainers = [
+    {name = "Alan Synn", email = "alan@alansynn.com"}
+]
+keywords = ["arxiv", "research", "computer-vision", "automation", "academic-papers"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+]
+dependencies = [
+    "arxiv>=1.4.3",
+    "requests>=2.28.0",
+    "PyYAML>=6.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/AlanSynn/daily-arxiv"
+Repository = "https://github.com/AlanSynn/daily-arxiv"
+Issues = "https://github.com/AlanSynn/daily-arxiv/issues"
+Documentation = "https://github.com/AlanSynn/daily-arxiv#readme"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+daily-arxiv = "src.daily_arxiv.cli.main:main"
+archive-papers = "src.daily_arxiv.archive.archiver:main"
+
+[tool.uv]
+dev-dependencies = [
+    "ruff>=0.6.2",
+    "pytest>=7.0.0",
+    "pytest-mock>=3.10.0",
+    "responses>=0.23.0",
+]
