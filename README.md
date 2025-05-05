@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.05.04
+## 📚 Updated on 2025.05.05
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -21,21 +21,21 @@
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
-|**2025-04-30**|**Generative Multimodal Multiscale Data Fusion for Digital Twins in Aerosol Jet Electronics Printing**|Fatemeh Elhambakhsh et.al.|[@2505.00176](http://arxiv.org/abs/2505.00176)|null|
-|**2025-04-30**|**Redundancy Analysis and Mitigation for Machine Learning-Based Process Monitoring of Additive Manufacturing**|Jiarui Xie et.al.|[@2504.21317](http://arxiv.org/abs/2504.21317)|null|
-|**2025-04-29**|**Using LLMs in Generating Design Rationale for Software Architecture Decisions**|Xiyu Zhou et.al.|[@2504.20781](http://arxiv.org/abs/2504.20781)|null|
-|**2025-04-26**|**Spreading of highly cohesive metal powders with transverse oscillation kinematics**|Reimar Weissbach et.al.|[@2504.18981](http://arxiv.org/abs/2504.18981)|null|
-|**2025-04-25**|**Development of a Scaled Down Horizontal Axis Wind Turbine for Wind Tunnel Tests**|Bhaskar Aryal et.al.|[@2504.18420](http://arxiv.org/abs/2504.18420)|null|
-|**2025-04-25**|**Cabbage: A Differential Growth Framework for Open Surfaces**|Xiaoyi Liu et.al.|[@2504.18040](http://arxiv.org/abs/2504.18040)|null|
-|**2025-04-18**|**SCRAG: Social Computing-Based Retrieval Augmented Generation for Community Response Forecasting in Social Media Environments**|Dachun Sun et.al.|[@2504.16947](http://arxiv.org/abs/2504.16947)|null|
-|**2025-04-22**|**MetaMolGen: A Neural Graph Motif Generation Model for De Novo Molecular Design**|Zimo Yan et.al.|[@2504.15587](http://arxiv.org/abs/2504.15587)|null|
-|**2025-04-20**|**Virtual Reality for Urban Walkability Assessment**|Viet Hung Pham et.al.|[@2504.14580](http://arxiv.org/abs/2504.14580)|null|
-|**2025-04-15**|**A Winner-Takes-All Mechanism for Event Generation**|Yongkang Huo et.al.|[@2504.11374](http://arxiv.org/abs/2504.11374)|null|
-|**2025-04-15**|**Super time-resolved tomography**|Zhe Hu et.al.|[@2504.11148](http://arxiv.org/abs/2504.11148)|null|
-|**2025-04-14**|**BLAST: Bayesian online change-point detection with structured image data**|Xiaojun Zheng et.al.|[@2504.09783](http://arxiv.org/abs/2504.09783)|null|
-|**2025-04-11**|**AGENT: An Aerial Vehicle Generation and Design Tool Using Large Language Models**|Colin Samplawski et.al.|[@2504.08981](http://arxiv.org/abs/2504.08981)|null|
+|**2025-04-30**|**Generative Multimodal Multiscale Data Fusion for Digital Twins in Aerosol Jet Electronics Printing**|Fatemeh Elhambakhsh et.al.|2505.00176|null|
+|**2025-04-30**|**Redundancy Analysis and Mitigation for Machine Learning-Based Process Monitoring of Additive Manufacturing**|Jiarui Xie et.al.|2504.21317|null|
+|**2025-04-29**|**Using LLMs in Generating Design Rationale for Software Architecture Decisions**|Xiyu Zhou et.al.|2504.20781|null|
+|**2025-04-26**|**Spreading of highly cohesive metal powders with transverse oscillation kinematics**|Reimar Weissbach et.al.|2504.18981|null|
+|**2025-04-25**|**Development of a Scaled Down Horizontal Axis Wind Turbine for Wind Tunnel Tests**|Bhaskar Aryal et.al.|2504.18420|null|
+|**2025-04-25**|**Cabbage: A Differential Growth Framework for Open Surfaces**|Xiaoyi Liu et.al.|2504.18040|null|
+|**2025-04-18**|**SCRAG: Social Computing-Based Retrieval Augmented Generation for Community Response Forecasting in Social Media Environments**|Dachun Sun et.al.|2504.16947|null|
+|**2025-04-22**|**MetaMolGen: A Neural Graph Motif Generation Model for De Novo Molecular Design**|Zimo Yan et.al.|2504.15587|null|
+|**2025-04-20**|**Virtual Reality for Urban Walkability Assessment**|Viet Hung Pham et.al.|2504.14580|null|
+|**2025-04-15**|**A Winner-Takes-All Mechanism for Event Generation**|Yongkang Huo et.al.|2504.11374|null|
+|**2025-04-15**|**Super time-resolved tomography**|Zhe Hu et.al.|2504.11148|null|
+|**2025-04-14**|**BLAST: Bayesian online change-point detection with structured image data**|Xiaojun Zheng et.al.|2504.09783|null|
+|**2025-04-11**|**AGENT: An Aerial Vehicle Generation and Design Tool Using Large Language Models**|Colin Samplawski et.al.|2504.08981|null|
 |**2025-04-06**|**Molecular Dynamics (MD) simulation of silicon nanoparticle crystallization during laser-induced forward transfer (LIFT) printing**|Youwen Liang et.al.|2504.08787|null|
-|**2025-04-11**|**Genetic Algorithm Design Exploration for On-Device Training on FPGAs**|Alaa Mazouz et.al.|[@2504.08534](http://arxiv.org/abs/2504.08534)|null|
+|**2025-04-11**|**Genetic Algorithm Design Exploration for On-Device Training on FPGAs**|Alaa Mazouz et.al.|2504.08534|null|
 |**2025-04-08**|**X-ray Strain and Stress Tensor Tomography**|Peter Modregger et.al.|2504.05796|null|
 |**2025-04-07**|**CREA: A Collaborative Multi-Agent Framework for Creative Content Generation with Diffusion Models**|Kavana Venkatesh et.al.|2504.05306|null|
 |**2025-04-07**|**X-ray particle tracking velocimetry for rheological characterization: Application to material extrusion additive manufacturing**|Julian Kattinger et.al.|2504.04830|null|
@@ -54,37 +54,37 @@
 |**2025-03-21**|**Understanding Social Support Needs in Questions: A Hybrid Approach Integrating Semi-Supervised Learning and LLM-based Data Augmentation**|Junwei Kuang et.al.|2503.17421|null|
 |**2025-03-21**|**Multi-property directed generative design of inorganic materials through Wyckoff-augmented transfer learning**|Shuya Yamazaki et.al.|2503.16784|null|
 
-<p align=right>(<a href=#Updated-on-20250504>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250505>back to top</a>)</p>
 
 ## Mechanics, Kinematics & Motion Synthesis
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
-|**2025-05-01**|**Future-Oriented Navigation: Dynamic Obstacle Avoidance with One-Shot Energy-Based Multimodal Motion Prediction**|Ze Zhang et.al.|[@2505.00237](http://arxiv.org/abs/2505.00237)|null|
-|**2025-04-30**|**Whleaper: A 10-DOF Flexible Bipedal Wheeled Robot**|Yinglei Zhu et.al.|[@2504.21767](http://arxiv.org/abs/2504.21767)|null|
-|**2025-04-30**|**Leveraging Pre-trained Large Language Models with Refined Prompting for Online Task and Motion Planning**|Huihui Guo et.al.|[@2504.21596](http://arxiv.org/abs/2504.21596)|null|
-|**2025-04-30**|**RWKV-X: A Linear Complexity Hybrid Language Model**|Haowen Hou et.al.|[@2504.21463](http://arxiv.org/abs/2504.21463)|null|
-|**2025-04-29**|**Confidence-based Intent Prediction for Teleoperation in Bimanual Robotic Suturing**|Zhaoyang Jacopo Hu et.al.|[@2504.20761](http://arxiv.org/abs/2504.20761)|null|
-|**2025-04-29**|**Efficient Listener: Dyadic Facial Motion Synthesis via Action Diffusion**|Zesheng Wang et.al.|[@2504.20685](http://arxiv.org/abs/2504.20685)|null|
-|**2025-04-29**|**SFi-Former: Sparse Flow Induced Attention for Graph Transformer**|Zhonghao Li et.al.|[@2504.20666](http://arxiv.org/abs/2504.20666)|null|
-|**2025-04-28**|**Tensegrity-based Robot Leg Design with Variable Stiffness**|Erik Mortensen et.al.|[@2504.19685](http://arxiv.org/abs/2504.19685)|null|
-|**2025-04-28**|**Robot Motion Planning using One-Step Diffusion with Noise-Optimized Approximate Motions**|Tomoharu Aizu et.al.|[@2504.19652](http://arxiv.org/abs/2504.19652)|null|
-|**2025-04-27**|**Sketch2Anim: Towards Transferring Sketch Storyboards into 3D Animation**|Lei Zhong et.al.|[@2504.19189](http://arxiv.org/abs/2504.19189)|null|
-|**2025-04-27**|**Geometric Gait Optimization for Kinodynamic Systems Using a Lie Group Integrator**|Yanhao Yang et.al.|[@2504.19072](http://arxiv.org/abs/2504.19072)|null|
-|**2025-04-27**|**Generative AI for Character Animation: A Comprehensive Survey of Techniques, Applications, and Future Directions**|Mohammad Mahdi Abootorabi et.al.|[@2504.19056](http://arxiv.org/abs/2504.19056)|null|
-|**2025-04-26**|**A biconvex method for minimum-time motion planning through sequences of convex sets**|Tobia Marcucci et.al.|[@2504.18978](http://arxiv.org/abs/2504.18978)|null|
-|**2025-04-29**|**Hierarchical Temporal Logic Task and Motion Planning for Multi-Robot Systems**|Zhongqi Wei et.al.|[@2504.18899](http://arxiv.org/abs/2504.18899)|null|
-|**2025-04-25**|**Collaborative Object Transportation in Space via Impact Interactions**|Joris Verhagen et.al.|[@2504.18667](http://arxiv.org/abs/2504.18667)|null|
-|**2025-04-24**|**Mixed Bernstein-Fourier Approximants for Optimal Trajectory Generation with Periodic Behavior**|Liraz Mudrik et.al.|[@2504.17969](http://arxiv.org/abs/2504.17969)|null|
-|**2025-04-24**|**Beyond Task and Motion Planning: Hierarchical Robot Planning with General-Purpose Policies**|Benned Hedegaard et.al.|[@2504.17901](http://arxiv.org/abs/2504.17901)|null|
-|**2025-04-24**|**Terrain-Aware Kinodynamic Planning with Efficiently Adaptive State Lattices for Mobile Robot Navigation in Off-Road Environments**|Eric R. Damm et.al.|[@2504.17889](http://arxiv.org/abs/2504.17889)|null|
-|**2025-04-24**|**Learning Isometric Embeddings of Road Networks using Multidimensional Scaling**|Juan Carlos Climent Pardo et.al.|[@2504.17534](http://arxiv.org/abs/2504.17534)|null|
-|**2025-04-24**|**Mamba-Sea: A Mamba-based Framework with Global-to-Local Sequence Augmentation for Generalizable Medical Image Segmentation**|Zihan Cheng et.al.|[@2504.17515](http://arxiv.org/abs/2504.17515)|null|
-|**2025-04-25**|**Highly Accurate and Diverse Traffic Data: The DeepScenario Open 3D Dataset**|Oussema Dhaouadi et.al.|[@2504.17371](http://arxiv.org/abs/2504.17371)|null|
-|**2025-04-23**|**Reinforcement learning framework for the mechanical design of microelectronic components under multiphysics constraints**|Siddharth Nair et.al.|[@2504.17142](http://arxiv.org/abs/2504.17142)|null|
-|**2025-04-23**|**Zero-shot Sim-to-Real Transfer for Reinforcement Learning-based Visual Servoing of Soft Continuum Arms**|Hsin-Jung Yang et.al.|[@2504.16916](http://arxiv.org/abs/2504.16916)|null|
-|**2025-04-23**|**MOSAIC: A Skill-Centric Algorithmic Framework for Long-Horizon Manipulation Planning**|Itamar Mishani et.al.|[@2504.16738](http://arxiv.org/abs/2504.16738)|null|
-|**2025-04-23**|**PMG: Progressive Motion Generation via Sparse Anchor Postures Curriculum Learning**|Yingjie Xi et.al.|[@2504.16722](http://arxiv.org/abs/2504.16722)|null|
+|**2025-05-01**|**Future-Oriented Navigation: Dynamic Obstacle Avoidance with One-Shot Energy-Based Multimodal Motion Prediction**|Ze Zhang et.al.|2505.00237|null|
+|**2025-04-30**|**Whleaper: A 10-DOF Flexible Bipedal Wheeled Robot**|Yinglei Zhu et.al.|2504.21767|null|
+|**2025-04-30**|**Leveraging Pre-trained Large Language Models with Refined Prompting for Online Task and Motion Planning**|Huihui Guo et.al.|2504.21596|null|
+|**2025-04-30**|**RWKV-X: A Linear Complexity Hybrid Language Model**|Haowen Hou et.al.|2504.21463|null|
+|**2025-04-29**|**Confidence-based Intent Prediction for Teleoperation in Bimanual Robotic Suturing**|Zhaoyang Jacopo Hu et.al.|2504.20761|null|
+|**2025-04-29**|**Efficient Listener: Dyadic Facial Motion Synthesis via Action Diffusion**|Zesheng Wang et.al.|2504.20685|null|
+|**2025-04-29**|**SFi-Former: Sparse Flow Induced Attention for Graph Transformer**|Zhonghao Li et.al.|2504.20666|null|
+|**2025-04-28**|**Tensegrity-based Robot Leg Design with Variable Stiffness**|Erik Mortensen et.al.|2504.19685|null|
+|**2025-04-28**|**Robot Motion Planning using One-Step Diffusion with Noise-Optimized Approximate Motions**|Tomoharu Aizu et.al.|2504.19652|null|
+|**2025-04-27**|**Sketch2Anim: Towards Transferring Sketch Storyboards into 3D Animation**|Lei Zhong et.al.|2504.19189|null|
+|**2025-04-27**|**Geometric Gait Optimization for Kinodynamic Systems Using a Lie Group Integrator**|Yanhao Yang et.al.|2504.19072|null|
+|**2025-04-27**|**Generative AI for Character Animation: A Comprehensive Survey of Techniques, Applications, and Future Directions**|Mohammad Mahdi Abootorabi et.al.|2504.19056|null|
+|**2025-04-26**|**A biconvex method for minimum-time motion planning through sequences of convex sets**|Tobia Marcucci et.al.|2504.18978|null|
+|**2025-04-29**|**Hierarchical Temporal Logic Task and Motion Planning for Multi-Robot Systems**|Zhongqi Wei et.al.|2504.18899|null|
+|**2025-04-25**|**Collaborative Object Transportation in Space via Impact Interactions**|Joris Verhagen et.al.|2504.18667|null|
+|**2025-04-24**|**Mixed Bernstein-Fourier Approximants for Optimal Trajectory Generation with Periodic Behavior**|Liraz Mudrik et.al.|2504.17969|null|
+|**2025-04-24**|**Beyond Task and Motion Planning: Hierarchical Robot Planning with General-Purpose Policies**|Benned Hedegaard et.al.|2504.17901|null|
+|**2025-04-24**|**Terrain-Aware Kinodynamic Planning with Efficiently Adaptive State Lattices for Mobile Robot Navigation in Off-Road Environments**|Eric R. Damm et.al.|2504.17889|null|
+|**2025-04-24**|**Learning Isometric Embeddings of Road Networks using Multidimensional Scaling**|Juan Carlos Climent Pardo et.al.|2504.17534|null|
+|**2025-04-24**|**Mamba-Sea: A Mamba-based Framework with Global-to-Local Sequence Augmentation for Generalizable Medical Image Segmentation**|Zihan Cheng et.al.|2504.17515|null|
+|**2025-04-25**|**Highly Accurate and Diverse Traffic Data: The DeepScenario Open 3D Dataset**|Oussema Dhaouadi et.al.|2504.17371|null|
+|**2025-04-23**|**Reinforcement learning framework for the mechanical design of microelectronic components under multiphysics constraints**|Siddharth Nair et.al.|2504.17142|null|
+|**2025-04-23**|**Zero-shot Sim-to-Real Transfer for Reinforcement Learning-based Visual Servoing of Soft Continuum Arms**|Hsin-Jung Yang et.al.|2504.16916|null|
+|**2025-04-23**|**MOSAIC: A Skill-Centric Algorithmic Framework for Long-Horizon Manipulation Planning**|Itamar Mishani et.al.|2504.16738|null|
+|**2025-04-23**|**PMG: Progressive Motion Generation via Sparse Anchor Postures Curriculum Learning**|Yingjie Xi et.al.|2504.16722|null|
 |**2025-04-23**|**Next Generation Multi-element monolithic Germanium detectors for Spectroscopy: First integration at ESRF facility**|N. Goyal et.al.|2504.16482|null|
 |**2025-04-22**|**Monocular inspection of spacecraft under illumination constraints and avoidance regions**|Tochukwu Elijah Ogri et.al.|2504.15954|null|
 |**2025-04-23**|**Bidirectional Task-Motion Planning Based on Hierarchical Reinforcement Learning for Strategic Confrontation**|Qizhen Wu et.al.|2504.15876|null|
@@ -140,29 +140,29 @@
 |**2025-03-31**|**Less is More: Contextual Sampling for Nonlinear Data-Enabled Predictive Control**|Julius Beerwerth et.al.|2503.23890|null|
 |**2025-03-31**|**A Survey of Reinforcement Learning-Based Motion Planning for Autonomous Driving: Lessons Learned from a Driving Task Perspective**|Zhuoren Li et.al.|2503.23650|null|
 
-<p align=right>(<a href=#Updated-on-20250504>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250505>back to top</a>)</p>
 
 ## Robotics: Design, Control & Learning
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
-|**2025-05-01**|**Robotic Visual Instruction**|Yanbang Li et.al.|[@2505.00693](http://arxiv.org/abs/2505.00693)|null|
-|**2025-05-01**|**Multi-segment Soft Robot Control via Deep Koopman-based Model Predictive Control**|Lei Lv et.al.|[@2505.00354](http://arxiv.org/abs/2505.00354)|null|
-|**2025-04-30**|**Characterizing gaussian mixture of motion modes for skid-steer state estimation**|Ameya Salvi et.al.|[@2505.00200](http://arxiv.org/abs/2505.00200)|null|
-|**2025-04-29**|**PRISM: Projection-based Reward Integration for Scene-Aware Real-to-Sim-to-Real Transfer with Few Demonstrations**|Haowen Sun et.al.|[@2504.20520](http://arxiv.org/abs/2504.20520)|null|
-|**2025-04-28**|**Deformable Multibody Modeling for Model Predictive Control in Legged Locomotion with Embodied Compliance**|Keran Ye et.al.|[@2504.20301](http://arxiv.org/abs/2504.20301)|null|
-|**2025-04-28**|**Mesh-Learner: Texturing Mesh with Spherical Harmonics**|Yunfei Wan et.al.|[@2504.19938](http://arxiv.org/abs/2504.19938)|null|
-|**2025-04-28**|**UTTG_ A Universal Teleoperation Approach via Online Trajectory Generation**|Shengjian Fang et.al.|[@2504.19736](http://arxiv.org/abs/2504.19736)|null|
-|**2025-04-25**|**Revisiting Data Auditing in Large Vision-Language Models**|Hongyu Zhu et.al.|[@2504.18349](http://arxiv.org/abs/2504.18349)|null|
-|**2025-04-27**|**Integrating Learning-Based Manipulation and Physics-Based Locomotion for Whole-Body Badminton Robot Control**|Haochen Wang et.al.|[@2504.17771](http://arxiv.org/abs/2504.17771)|null|
-|**2025-04-24**|**Unifying Complementarity Constraints and Control Barrier Functions for Safe Whole-Body Robot Control**|Rafael I. Cabral Muchacho et.al.|[@2504.17647](http://arxiv.org/abs/2504.17647)|null|
-|**2025-04-23**|**Offline Robotic World Model: Learning Robotic Policies without a Physics Simulator**|Chenhao Li et.al.|[@2504.16680](http://arxiv.org/abs/2504.16680)|null|
-|**2025-04-30**|**Fast Online Adaptive Neural MPC via Meta-Learning**|Yu Mei et.al.|[@2504.16369](http://arxiv.org/abs/2504.16369)|**[link](https://github.com/yu-mei/MetaResidual-MPC)**|
-|**2025-04-22**|**$π_{0.5}$ : a Vision-Language-Action Model with Open-World Generalization**|Physical Intelligence et.al.|[@2504.16054](http://arxiv.org/abs/2504.16054)|null|
-|**2025-04-18**|**Hysteresis-Aware Neural Network Modeling and Whole-Body Reinforcement Learning Control of Soft Robots**|Zongyuan Chen et.al.|[@2504.13582](http://arxiv.org/abs/2504.13582)|null|
-|**2025-04-16**|**Towards Forceful Robotic Foundation Models: a Literature Survey**|William Xie et.al.|[@2504.11827](http://arxiv.org/abs/2504.11827)|null|
-|**2025-04-14**|**EmbodiedAgent: A Scalable Hierarchical Approach to Overcome Practical Challenge in Multi-Robot Control**|Hanwen Wan et.al.|[@2504.10030](http://arxiv.org/abs/2504.10030)|**[link](https://github.com/haronw/embodiedagent)**|
-|**2025-04-14**|**Efficient Task-specific Conditional Diffusion Policies: Shortcut Model Acceleration and SO(3) Optimization**|Haiyong Yu et.al.|[@2504.09927](http://arxiv.org/abs/2504.09927)|null|
+|**2025-05-01**|**Robotic Visual Instruction**|Yanbang Li et.al.|2505.00693|null|
+|**2025-05-01**|**Multi-segment Soft Robot Control via Deep Koopman-based Model Predictive Control**|Lei Lv et.al.|2505.00354|null|
+|**2025-04-30**|**Characterizing gaussian mixture of motion modes for skid-steer state estimation**|Ameya Salvi et.al.|2505.00200|null|
+|**2025-04-29**|**PRISM: Projection-based Reward Integration for Scene-Aware Real-to-Sim-to-Real Transfer with Few Demonstrations**|Haowen Sun et.al.|2504.20520|null|
+|**2025-04-28**|**Deformable Multibody Modeling for Model Predictive Control in Legged Locomotion with Embodied Compliance**|Keran Ye et.al.|2504.20301|null|
+|**2025-04-28**|**Mesh-Learner: Texturing Mesh with Spherical Harmonics**|Yunfei Wan et.al.|2504.19938|null|
+|**2025-04-28**|**UTTG_ A Universal Teleoperation Approach via Online Trajectory Generation**|Shengjian Fang et.al.|2504.19736|null|
+|**2025-04-25**|**Revisiting Data Auditing in Large Vision-Language Models**|Hongyu Zhu et.al.|2504.18349|null|
+|**2025-04-27**|**Integrating Learning-Based Manipulation and Physics-Based Locomotion for Whole-Body Badminton Robot Control**|Haochen Wang et.al.|2504.17771|null|
+|**2025-04-24**|**Unifying Complementarity Constraints and Control Barrier Functions for Safe Whole-Body Robot Control**|Rafael I. Cabral Muchacho et.al.|2504.17647|null|
+|**2025-04-23**|**Offline Robotic World Model: Learning Robotic Policies without a Physics Simulator**|Chenhao Li et.al.|2504.16680|null|
+|**2025-04-30**|**Fast Online Adaptive Neural MPC via Meta-Learning**|Yu Mei et.al.|2504.16369|**[link](https://github.com/yu-mei/MetaResidual-MPC)**|
+|**2025-04-22**|**$π_{0.5}$ : a Vision-Language-Action Model with Open-World Generalization**|Physical Intelligence et.al.|2504.16054|null|
+|**2025-04-18**|**Hysteresis-Aware Neural Network Modeling and Whole-Body Reinforcement Learning Control of Soft Robots**|Zongyuan Chen et.al.|2504.13582|null|
+|**2025-04-16**|**Towards Forceful Robotic Foundation Models: a Literature Survey**|William Xie et.al.|2504.11827|null|
+|**2025-04-14**|**EmbodiedAgent: A Scalable Hierarchical Approach to Overcome Practical Challenge in Multi-Robot Control**|Hanwen Wan et.al.|2504.10030|**[link](https://github.com/haronw/embodiedagent)**|
+|**2025-04-14**|**Efficient Task-specific Conditional Diffusion Policies: Shortcut Model Acceleration and SO(3) Optimization**|Haiyong Yu et.al.|2504.09927|null|
 |**2025-04-13**|**Embodied Chain of Action Reasoning with Multi-Modal Foundation Model for Humanoid Loco-manipulation**|Yu Hao et.al.|2504.09532|null|
 |**2025-04-11**|**TensorNEAT: A GPU-accelerated Library for NeuroEvolution of Augmenting Topologies**|Lishuang Wang et.al.|2504.08339|**[link](https://github.com/emi-group/tensorneat)**|
 |**2025-04-09**|**Adaptive Vision-Guided Robotic Arm Control for Precision Pruning in Dynamic Orchard Environments**|Dawood Ahmed et.al.|2504.07309|null|
@@ -187,30 +187,26 @@
 |**2025-03-27**|**Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making**|Filip Surma et.al.|2503.21065|null|
 |**2025-03-26**|**Beyond Visuals: Investigating Force Feedback in Extended Reality for Robot Data Collection**|Xueyin Li et.al.|2503.20714|null|
 
-<p align=right>(<a href=#Updated-on-20250504>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250505>back to top</a>)</p>
 
 ## Human-Computer Interaction for Design
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
-|**2025-02-05**|**Immersion for AI: Immersive Learning with Artificial Intelligence**|Leonel Morgado et.al.|[@2502.03504](http://arxiv.org/abs/2502.03504)|null|
-|**2021-02-20**|**GenFloor: Interactive Generative Space Layout System via Encoded Tree Graphs**|Mohammad Keshavarzi et.al.|[@2102.10320](http://arxiv.org/abs/2102.10320)|null|
-|**2019-12-19**|**MVF Designer: Design and Visualization of Morse Vector Fields**|Youjia Zhou et.al.|[@1912.09580](http://arxiv.org/abs/1912.09580)|**[link](https://github.com/zhou325/VIS-MSVF)**|
+|**2025-02-05**|**Immersion for AI: Immersive Learning with Artificial Intelligence**|Leonel Morgado et.al.|2502.03504|null|
 
-<p align=right>(<a href=#Updated-on-20250504>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250505>back to top</a>)</p>
 
 ## Generative AI & Foundation Models in Design
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
-|**2024-12-03**|**Mediating Modes of Thought: LLM's for design scripting**|Moritz Rietschel et.al.|[@2411.14485](http://arxiv.org/abs/2411.14485)|null|
-|**2024-09-26**|**Loop-Diffusion: an equivariant diffusion model for designing and scoring protein loops**|Kevin Borisiak et.al.|[@2409.18201](http://arxiv.org/abs/2409.18201)|null|
-|**2024-07-23**|**Optimizing Robotic Manipulation with Decision-RWKV: A Recurrent Sequence Modeling Approach for Lifelong Learning**|Yujian Dong et.al.|[@2407.16306](http://arxiv.org/abs/2407.16306)|**[link](https://github.com/ancorasir/decisionrwkv)**|
-|**2024-04-16**|**Multi-objective generative AI for designing novel brain-targeting small molecules**|Ayush Noori et.al.|[@2407.00004](http://arxiv.org/abs/2407.00004)|null|
-|**2024-02-26**|**From Cloud to Edge: Rethinking Generative AI for Low-Resource Design Challenges**|Sai Krishna Revanth Vuruma et.al.|[@2402.12702](http://arxiv.org/abs/2402.12702)|null|
-|**2024-09-09**|**Explainable AI for Engineering Design: A Unified Approach of Systems Engineering and Component- Based Deep Learning Demonstrated by Energy- Efficient Building Design**|Philipp Geyer et.al.|[@2108.13836](http://arxiv.org/abs/2108.13836)|null|
+|**2024-12-03**|**Mediating Modes of Thought: LLM's for design scripting**|Moritz Rietschel et.al.|2411.14485|null|
+|**2024-09-26**|**Loop-Diffusion: an equivariant diffusion model for designing and scoring protein loops**|Kevin Borisiak et.al.|2409.18201|null|
+|**2024-07-23**|**Optimizing Robotic Manipulation with Decision-RWKV: A Recurrent Sequence Modeling Approach for Lifelong Learning**|Yujian Dong et.al.|2407.16306|**[link](https://github.com/ancorasir/decisionrwkv)**|
+|**2024-09-09**|**Explainable AI for Engineering Design: A Unified Approach of Systems Engineering and Component- Based Deep Learning Demonstrated by Energy- Efficient Building Design**|Philipp Geyer et.al.|2108.13836|null|
 
-<p align=right>(<a href=#Updated-on-20250504>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250505>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
