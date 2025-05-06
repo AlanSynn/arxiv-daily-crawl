@@ -7,13 +7,14 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.05.05
+## 📚 Updated on 2025.05.06
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-03**|**Speculative Evolution Through 3D Cellular Automata**|Amir Hossein Khazaei et.al.|[@2505.01692](http://arxiv.org/abs/2505.01692)|null|
 |**2025-05-02**|**Computational, Data-Driven, and Physics-Informed Machine Learning Approaches for Microstructure Modeling in Metal Additive Manufacturing**|D. Patel et.al.|[@2505.01424](http://arxiv.org/abs/2505.01424)|null|
 |**2025-05-02**|**Reduced-order structure-property linkages for stochastic metamaterials**|Hooman Danesh et.al.|[@2505.01283](http://arxiv.org/abs/2505.01283)|null|
 |**2025-04-30**|**Generative Multimodal Multiscale Data Fusion for Digital Twins in Aerosol Jet Electronics Printing**|Fatemeh Elhambakhsh et.al.|[@2505.00176](http://arxiv.org/abs/2505.00176)|null|
@@ -53,6 +54,13 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-05**|**Re-purposing a modular origami manipulator into an adaptive physical computer for machine learning and robotic perception**|Jun Wang et.al.|[@2505.02744](http://arxiv.org/abs/2505.02744)|null|
+|**2025-05-05**|**A Survey on Progress in LLM Alignment from the Perspective of Reward Design**|Miaomiao Ji et.al.|[@2505.02666](http://arxiv.org/abs/2505.02666)|null|
+|**2025-05-05**|**ZeloS -- A Research Platform for Early-Stage Validation of Research Findings Related to Automated Driving**|Christopher Bohn et.al.|[@2505.02460](http://arxiv.org/abs/2505.02460)|null|
+|**2025-05-05**|**A Real-Time Control Barrier Function-Based Safety Filter for Motion Planning with Arbitrary Road Boundary Constraints**|Jianye Xu et.al.|[@2505.02395](http://arxiv.org/abs/2505.02395)|null|
+|**2025-05-02**|**Phasing Through the Flames: Rapid Motion Planning with the AGHF PDE for Arbitrary Objective Functions and Constraints**|Challen Enninful Adu et.al.|[@2505.01589](http://arxiv.org/abs/2505.01589)|null|
+|**2025-05-02**|**On the effectiveness of Large Language Models in the mechanical design domain**|Daniele Grandi et.al.|[@2505.01559](http://arxiv.org/abs/2505.01559)|null|
+|**2025-05-01**|**MoxE: Mixture of xLSTM Experts with Entropy-Aware Routing for Efficient Language Modeling**|Abdoul Majid O. Thiombiano et.al.|[@2505.01459](http://arxiv.org/abs/2505.01459)|null|
 |**2025-05-02**|**LLM Security: Vulnerabilities, Attacks, Defenses, and Countermeasures**|Francisco Aguilera-Martínez et.al.|[@2505.01177](http://arxiv.org/abs/2505.01177)|null|
 |**2025-05-02**|**Deterministic-to-Stochastic Diverse Latent Feature Mapping for Human Motion Synthesis**|Yu Hua et.al.|[@2505.00998](http://arxiv.org/abs/2505.00998)|null|
 |**2025-04-30**|**Zoomer: Adaptive Image Focus Optimization for Black-box MLLM**|Jiaxu Qian et.al.|[@2505.00742](http://arxiv.org/abs/2505.00742)|null|
@@ -141,6 +149,7 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-03**|**ReLI: A Language-Agnostic Approach to Human-Robot Interaction**|Linus Nwankwo et.al.|[@2505.01862](http://arxiv.org/abs/2505.01862)|null|
 |**2025-05-02**|**SIME: Enhancing Policy Self-Improvement with Modal-level Exploration**|Yang Jin et.al.|[@2505.01396](http://arxiv.org/abs/2505.01396)|null|
 |**2025-05-02**|**Desired Impedance Allocation for Robotic Systems**|Mahdi Hejrati et.al.|[@2505.01308](http://arxiv.org/abs/2505.01308)|null|
 |**2025-05-01**|**Robotic Visual Instruction**|Yanbang Li et.al.|[@2505.00693](http://arxiv.org/abs/2505.00693)|null|
