@@ -1,10 +1,10 @@
-# CV Arxiv Paper Archive System
+# Arxiv Paper Archive System
 
-This document explains the paper archiving system implemented for the CV Arxiv Daily project.
+This document explains the paper archiving system implemented for the Arxiv Daily project.
 
 ## Overview
 
-The CV Arxiv Daily project automatically collects and organizes Computer Vision papers from arXiv. To keep the main collection current and relevant, papers older than 1 year are automatically archived.
+The Arxiv Daily project automatically collects and organizes Computer Vision papers from arXiv. To keep the main collection current and relevant, papers older than 1 year are automatically archived.
 
 ## How the Archive Works
 
@@ -40,7 +40,7 @@ If you need to manually run the archiving process, you can:
 
 1. Run it locally:
    ```bash
-   python archive_old_papers.py
+   python -m src.daily_arxiv.archive_old_papers.py
    ```
 
 2. Trigger the GitHub Action workflow manually from the Actions tab
