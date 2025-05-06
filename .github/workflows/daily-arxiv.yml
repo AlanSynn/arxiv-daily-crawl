@@ -31,26 +31,34 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          persist-credentials: false
+          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
-          cache: 'pip'
+          python-version: '3.11'
 
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          cache-dependency-glob: "**/uv.lock"
+      
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          uv sync
 
       - name: Set Up Environment
         run: |
-          mkdir -p logs/json logs/md # Ensure log directories exist
-          bash setup_logs.sh
+          mkdir -p logs/json logs/md logs/archive # Ensure log directories exist
+          if [ -f scripts/setup_logs.sh ]; then bash scripts/setup_logs.sh; fi
+
+      - name: Validate CLI works
+        run: |
+          uv run python -m src.daily_arxiv --help
 
       - name: Run Daily Arxiv
         env:
@@ -58,21 +66,28 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
         run: |
-          python daily_arxiv.py --send-email
+          uv run python -m src.daily_arxiv --send-email
 
       - name: Run Archive Old Papers
+        continue-on-error: true
         run: |
-          python archive_old_papers.py
+          uv run python -m src.daily_arxiv.archive
 
-      - name: Commit files
+      - name: Create/switch to results branch
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add .
-          git commit -m "Update daily-arxiv papers" -a || echo "No changes to commit"
+          git checkout -B results || git checkout results
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - name: Commit files to results branch
+        run: |
+          # Add only the logs directory to results branch
+          git add logs/ || echo "No logs to add"
+          git commit -m "Update daily-arxiv papers - $(date +'%Y-%m-%d')" || echo "No changes to commit"
+
+      - name: Push to results branch
+        uses: ad-m/github-push-action@v0.8.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          branch: results
+          force: true
