@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.05.06
+## 📚 Updated on 2025.05.07
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -21,6 +21,7 @@
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-05-06**|**Fabrication and Characterization of Additively Manufactured Stretchable Strain Sensors Towards the Shape Sensing of Continuum Robots**|Daniel C. Moyer et.al.|[@2505.03087](http://arxiv.org/abs/2505.03087)|null|
 |**2025-05-03**|**Speculative Evolution Through 3D Cellular Automata**|Amir Hossein Khazaei et.al.|[@2505.01692](http://arxiv.org/abs/2505.01692)|null|
 |**2025-05-02**|**Computational, Data-Driven, and Physics-Informed Machine Learning Approaches for Microstructure Modeling in Metal Additive Manufacturing**|D. Patel et.al.|[@2505.01424](http://arxiv.org/abs/2505.01424)|null|
 |**2025-05-02**|**Reduced-order structure-property linkages for stochastic metamaterials**|Hooman Danesh et.al.|[@2505.01283](http://arxiv.org/abs/2505.01283)|null|
@@ -57,12 +58,16 @@
 |**2025-03-21**|**Understanding Social Support Needs in Questions: A Hybrid Approach Integrating Semi-Supervised Learning and LLM-based Data Augmentation**|Junwei Kuang et.al.|2503.17421|null|
 |**2025-03-21**|**Multi-property directed generative design of inorganic materials through Wyckoff-augmented transfer learning**|Shuya Yamazaki et.al.|2503.16784|null|
 
-<p align=right>(<a href=#Updated-on-20250506>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250507>back to top</a>)</p>
 
 ## Mechanics, Kinematics & Motion Synthesis
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-05-06**|**Meta-Optimization and Program Search using Language Models for Task and Motion Planning**|Denis Shcherba et.al.|[@2505.03725](http://arxiv.org/abs/2505.03725)|null|
+|**2025-05-06**|**NBF at SemEval-2025 Task 5: Light-Burst Attention Enhanced System for Multilingual Subject Recommendation**|Baharul Islam et.al.|[@2505.03711](http://arxiv.org/abs/2505.03711)|null|
+|**2025-05-06**|**Simulation to Reality: Testbeds and Architectures for Connected and Automated Vehicles**|David Klüner et.al.|[@2505.03472](http://arxiv.org/abs/2505.03472)|null|
+|**2025-05-06**|**Enabling Robots to Autonomously Search Dynamic Cluttered Post-Disaster Environments**|Karlo Rado et.al.|[@2505.03283](http://arxiv.org/abs/2505.03283)|null|
 |**2025-05-05**|**Re-purposing a modular origami manipulator into an adaptive physical computer for machine learning and robotic perception**|Jun Wang et.al.|[@2505.02744](http://arxiv.org/abs/2505.02744)|null|
 |**2025-05-05**|**A Survey on Progress in LLM Alignment from the Perspective of Reward Design**|Miaomiao Ji et.al.|[@2505.02666](http://arxiv.org/abs/2505.02666)|null|
 |**2025-05-05**|**ZeloS -- A Research Platform for Early-Stage Validation of Research Findings Related to Automated Driving**|Christopher Bohn et.al.|[@2505.02460](http://arxiv.org/abs/2505.02460)|null|
@@ -154,13 +159,15 @@
 |**2025-03-31**|**Less is More: Contextual Sampling for Nonlinear Data-Enabled Predictive Control**|Julius Beerwerth et.al.|2503.23890|null|
 |**2025-03-31**|**A Survey of Reinforcement Learning-Based Motion Planning for Autonomous Driving: Lessons Learned from a Driving Task Perspective**|Zhuoren Li et.al.|2503.23650|null|
 
-<p align=right>(<a href=#Updated-on-20250506>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250507>back to top</a>)</p>
 
 ## Robotics: Design, Control & Learning
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
-|**2025-05-03**|**ReLI: A Language-Agnostic Approach to Human-Robot Interaction**|Linus Nwankwo et.al.|[@2505.01862](http://arxiv.org/abs/2505.01862)|null|
+|**2025-05-06**|**Meta-Optimization and Program Search using Language Models for Task and Motion Planning**|Denis Shcherba et.al.|[@2505.03725](http://arxiv.org/abs/2505.03725)|null|
+|**2025-05-06**|**Capability-Driven Skill Generation with LLMs: A RAG-Based Approach for Reusing Existing Libraries and Interfaces**|Luis Miguel Vieira da Silva et.al.|[@2505.03295](http://arxiv.org/abs/2505.03295)|null|
+|**2025-05-06**|**ReLI: A Language-Agnostic Approach to Human-Robot Interaction**|Linus Nwankwo et.al.|[@2505.01862](http://arxiv.org/abs/2505.01862)|null|
 |**2025-05-02**|**SIME: Enhancing Policy Self-Improvement with Modal-level Exploration**|Yang Jin et.al.|[@2505.01396](http://arxiv.org/abs/2505.01396)|null|
 |**2025-05-02**|**Desired Impedance Allocation for Robotic Systems**|Mahdi Hejrati et.al.|[@2505.01308](http://arxiv.org/abs/2505.01308)|null|
 |**2025-05-01**|**Robotic Visual Instruction**|Yanbang Li et.al.|[@2505.00693](http://arxiv.org/abs/2505.00693)|null|
@@ -204,7 +211,7 @@
 |**2025-03-27**|**Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making**|Filip Surma et.al.|2503.21065|null|
 |**2025-03-26**|**Beyond Visuals: Investigating Force Feedback in Extended Reality for Robot Data Collection**|Xueyin Li et.al.|2503.20714|null|
 
-<p align=right>(<a href=#Updated-on-20250506>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250507>back to top</a>)</p>
 
 ## Human-Computer Interaction for Design
 
@@ -214,7 +221,7 @@
 |**2021-02-20**|**GenFloor: Interactive Generative Space Layout System via Encoded Tree Graphs**|Mohammad Keshavarzi et.al.|[@2102.10320](http://arxiv.org/abs/2102.10320)|null|
 |**2019-12-19**|**MVF Designer: Design and Visualization of Morse Vector Fields**|Youjia Zhou et.al.|[@1912.09580](http://arxiv.org/abs/1912.09580)|**[link](https://github.com/zhou325/VIS-MSVF)**|
 
-<p align=right>(<a href=#Updated-on-20250506>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250507>back to top</a>)</p>
 
 ## Generative AI & Foundation Models in Design
 
@@ -227,7 +234,7 @@
 |**2024-02-26**|**From Cloud to Edge: Rethinking Generative AI for Low-Resource Design Challenges**|Sai Krishna Revanth Vuruma et.al.|[@2402.12702](http://arxiv.org/abs/2402.12702)|null|
 |**2024-09-09**|**Explainable AI for Engineering Design: A Unified Approach of Systems Engineering and Component- Based Deep Learning Demonstrated by Energy- Efficient Building Design**|Philipp Geyer et.al.|[@2108.13836](http://arxiv.org/abs/2108.13836)|null|
 
-<p align=right>(<a href=#Updated-on-20250506>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250507>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
