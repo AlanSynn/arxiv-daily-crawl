@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.05.08
+## 📚 Updated on 2025.05.09
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
@@ -55,6 +55,9 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-08**|**A Vehicle System for Navigating Among Vulnerable Road Users Including Remote Operation**|Oscar de Groot et.al.|[@2505.04982](http://arxiv.org/abs/2505.04982)|null|
+|**2025-05-08**|**LVLM-MPC Collaboration for Autonomous Driving: A Safety-Aware and Task-Scalable Control Architecture**|Kazuki Atsuta et.al.|[@2505.04980](http://arxiv.org/abs/2505.04980)|null|
+|**2025-05-08**|**Real-Time Model Predictive Control of Vehicles with Convex-Polygon-Aware Collision Avoidance in Tight Spaces**|Haruki Kojima et.al.|[@2505.04935](http://arxiv.org/abs/2505.04935)|null|
 |**2025-05-07**|**Stow: Robotic Packing of Items into Fabric Pods**|Nicolas Hudson et.al.|[@2505.04572](http://arxiv.org/abs/2505.04572)|null|
 |**2025-05-06**|**Meta-Optimization and Program Search using Language Models for Task and Motion Planning**|Denis Shcherba et.al.|[@2505.03725](http://arxiv.org/abs/2505.03725)|null|
 |**2025-05-06**|**NBF at SemEval-2025 Task 5: Light-Burst Attention Enhanced System for Multilingual Subject Recommendation**|Baharul Islam et.al.|[@2505.03711](http://arxiv.org/abs/2505.03711)|null|
@@ -155,6 +158,7 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-07**|**Fitts' List Revisited: An Empirical Study on Function Allocation in a Two-Agent Physical Human-Robot Collaborative Position/Force Task**|Nicky Mol et.al.|[@2505.04722](http://arxiv.org/abs/2505.04722)|null|
 |**2025-05-07**|**Merging and Disentangling Views in Visual Reinforcement Learning for Robotic Manipulation**|Abdulaziz Almuzairee et.al.|[@2505.04619](http://arxiv.org/abs/2505.04619)|null|
 |**2025-05-06**|**Meta-Optimization and Program Search using Language Models for Task and Motion Planning**|Denis Shcherba et.al.|[@2505.03725](http://arxiv.org/abs/2505.03725)|null|
 |**2025-05-06**|**Capability-Driven Skill Generation with LLMs: A RAG-Based Approach for Reusing Existing Libraries and Interfaces**|Luis Miguel Vieira da Silva et.al.|[@2505.03295](http://arxiv.org/abs/2505.03295)|null|
