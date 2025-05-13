@@ -7,16 +7,18 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.05.12
+## 📚 Updated on 2025.05.13
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-12**|**Mapping of Microstructure Transitions during Rapid Alloy Solidification Using Bayesian-Guided Phase-Field Simulations**|José Mancias et.al.|[@2505.07752](http://arxiv.org/abs/2505.07752)|null|
+|**2025-05-10**|**Modeling PFAS in Semiconductor Manufacturing to Quantify Trade-offs in Energy Efficiency and Environmental Impact of Computing Systems**|Mariam Elgamal et.al.|[@2505.06727](http://arxiv.org/abs/2505.06727)|null|
 |**2025-05-09**|**Connected C-Core Hybrid SRMs for EV Applications**|Gholamreza Davarpanah et.al.|[@2505.05726](http://arxiv.org/abs/2505.05726)|null|
 |**2025-05-08**|**Designing 3D Anisotropic Frame Fields with Odeco Tensors**|Haikuan Zhu et.al.|[@2505.05639](http://arxiv.org/abs/2505.05639)|null|
-|**2025-05-07**|**Nature's Insight: A Novel Framework and Comprehensive Analysis of Agentic Reasoning Through the Lens of Neuroscience**|Zinan Liu et.al.|[@2505.05515](http://arxiv.org/abs/2505.05515)|null|
+|**2025-05-07**|**Nature's Insight: A Novel Framework and Comprehensive Analysis of Agentic Reasoning Through the Lens of Neuroscience**|Zinan Liu et.al.|[@2505.05515](http://arxiv.org/abs/2505.05515)|**[link](https://github.com/biorailab/awesome-neuroscience-agent-reasoning)**|
 |**2025-05-06**|**Fabrication and Characterization of Additively Manufactured Stretchable Strain Sensors Towards the Shape Sensing of Continuum Robots**|Daniel C. Moyer et.al.|[@2505.03087](http://arxiv.org/abs/2505.03087)|null|
 |**2025-05-03**|**Speculative Evolution Through 3D Cellular Automata**|Amir Hossein Khazaei et.al.|[@2505.01692](http://arxiv.org/abs/2505.01692)|null|
 |**2025-05-02**|**Computational, Data-Driven, and Physics-Informed Machine Learning Approaches for Microstructure Modeling in Metal Additive Manufacturing**|D. Patel et.al.|[@2505.01424](http://arxiv.org/abs/2505.01424)|null|
@@ -58,6 +60,12 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-12**|**Intuitive Human-Robot Interfaces Leveraging on Autonomy Features for the Control of Highly-redundant Robots**|Davide Torielli et.al.|[@2505.07668](http://arxiv.org/abs/2505.07668)|null|
+|**2025-05-12**|**Dynamic Rental Games with Stagewise Individual Rationality**|Batya Berzack et.al.|[@2505.07579](http://arxiv.org/abs/2505.07579)|null|
+|**2025-05-12**|**A Framework for Joint Grasp and Motion Planning in Confined Spaces**|Martin Rudorfer et.al.|[@2505.07259](http://arxiv.org/abs/2505.07259)|null|
+|**2025-05-11**|**YOPOv2-Tracker: An End-to-End Agile Tracking and Navigation Framework from Perception to Action**|Junjie Lu et.al.|[@2505.06923](http://arxiv.org/abs/2505.06923)|null|
+|**2025-05-11**|**cpRRTC: GPU-Parallel RRT-Connect for Constrained Motion Planning**|Jiaming Hu et.al.|[@2505.06791](http://arxiv.org/abs/2505.06791)|null|
+|**2025-05-10**|**Motion Planning for Autonomous Vehicles: When Model Predictive Control Meets Ensemble Kalman Smoothing**|Iman Askari et.al.|[@2505.06666](http://arxiv.org/abs/2505.06666)|null|
 |**2025-05-09**|**KRRF: Kinodynamic Rapidly-exploring Random Forest algorithm for multi-goal motion planning**|Petr Ježek et.al.|[@2505.06126](http://arxiv.org/abs/2505.06126)|null|
 |**2025-05-09**|**Multi-Agent Systems for Robotic Autonomy with LLMs**|Junhong Chen et.al.|[@2505.05762](http://arxiv.org/abs/2505.05762)|null|
 |**2025-05-09**|**Physics-informed Temporal Difference Metric Learning for Robot Motion Planning**|Ruiqi Ni et.al.|[@2505.05691](http://arxiv.org/abs/2505.05691)|null|
@@ -164,6 +172,9 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-12**|**Pixel Motion as Universal Representation for Robot Control**|Kanchana Ranasinghe et.al.|[@2505.07817](http://arxiv.org/abs/2505.07817)|null|
+|**2025-05-12**|**Intuitive Human-Robot Interfaces Leveraging on Autonomy Features for the Control of Highly-redundant Robots**|Davide Torielli et.al.|[@2505.07668](http://arxiv.org/abs/2505.07668)|null|
+|**2025-05-11**|**FACET: Force-Adaptive Control via Impedance Reference Tracking for Legged Robots**|Botian Xu et.al.|[@2505.06883](http://arxiv.org/abs/2505.06883)|null|
 |**2025-05-07**|**Fitts' List Revisited: An Empirical Study on Function Allocation in a Two-Agent Physical Human-Robot Collaborative Position/Force Task**|Nicky Mol et.al.|[@2505.04722](http://arxiv.org/abs/2505.04722)|null|
 |**2025-05-07**|**Merging and Disentangling Views in Visual Reinforcement Learning for Robotic Manipulation**|Abdulaziz Almuzairee et.al.|[@2505.04619](http://arxiv.org/abs/2505.04619)|null|
 |**2025-05-06**|**Meta-Optimization and Program Search using Language Models for Task and Motion Planning**|Denis Shcherba et.al.|[@2505.03725](http://arxiv.org/abs/2505.03725)|null|
@@ -224,6 +235,7 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-12**|**DiffCrysGen: A Score-Based Diffusion Model for Design of Diverse Inorganic Crystalline Materials**|Sourav Mal et.al.|[@2505.07442](http://arxiv.org/abs/2505.07442)|null|
 |**2024-12-03**|**Mediating Modes of Thought: LLM's for design scripting**|Moritz Rietschel et.al.|[@2411.14485](http://arxiv.org/abs/2411.14485)|null|
 |**2024-09-26**|**Loop-Diffusion: an equivariant diffusion model for designing and scoring protein loops**|Kevin Borisiak et.al.|[@2409.18201](http://arxiv.org/abs/2409.18201)|null|
 |**2024-07-23**|**Optimizing Robotic Manipulation with Decision-RWKV: A Recurrent Sequence Modeling Approach for Lifelong Learning**|Yujian Dong et.al.|[@2407.16306](http://arxiv.org/abs/2407.16306)|**[link](https://github.com/ancorasir/decisionrwkv)**|
