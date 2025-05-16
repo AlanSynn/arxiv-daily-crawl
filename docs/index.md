@@ -7,14 +7,14 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.05.15
+## 📚 Updated on 2025.05.16
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2025-05-13**|**Generative Molecular Design with Steerable and Granular Synthesizability Control**|Jeff Guo et.al.|[@2505.08774](http://arxiv.org/abs/2505.08774)|null|
+|**2025-05-13**|**Generative Molecular Design with Steerable and Granular Synthesizability Control**|Jeff Guo et.al.|[@2505.08774](http://arxiv.org/abs/2505.08774)|**[link](https://github.com/schwallergroup/saturn)**|
 |**2025-05-12**|**Implicit Toolpath Generation for Functionally Graded Additive Manufacturing via Gradient-Aware Slicing**|Charles Wade et.al.|[@2505.08093](http://arxiv.org/abs/2505.08093)|null|
 |**2025-05-12**|**Mapping of Microstructure Transitions during Rapid Alloy Solidification Using Bayesian-Guided Phase-Field Simulations**|José Mancias et.al.|[@2505.07752](http://arxiv.org/abs/2505.07752)|null|
 |**2025-05-10**|**Modeling PFAS in Semiconductor Manufacturing to Quantify Trade-offs in Energy Efficiency and Environmental Impact of Computing Systems**|Mariam Elgamal et.al.|[@2505.06727](http://arxiv.org/abs/2505.06727)|null|
@@ -62,6 +62,9 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-15**|**AORRTC: Almost-Surely Asymptotically Optimal Planning with RRT-Connect**|Tyler Wilson et.al.|[@2505.10542](http://arxiv.org/abs/2505.10542)|null|
+|**2025-05-15**|**pc-dbCBS: Kinodynamic Motion Planning of Physically-Coupled Robot Teams**|Khaled Wahba et.al.|[@2505.10355](http://arxiv.org/abs/2505.10355)|null|
+|**2025-05-14**|**Dyadic Mamba: Long-term Dyadic Human Motion Synthesis**|Julian Tanke et.al.|[@2505.09827](http://arxiv.org/abs/2505.09827)|null|
 |**2025-05-14**|**Text-driven Motion Generation: Overview, Challenges and Directions**|Ali Rida Sahili et.al.|[@2505.09379](http://arxiv.org/abs/2505.09379)|null|
 |**2025-05-14**|**Improved Corner Cutting Constraints for Mixed-Integer Motion Planning of a Differential Drive Micro-Mobility Vehicle**|Angelo Caregnato-Neto et.al.|[@2505.09359](http://arxiv.org/abs/2505.09359)|null|
 |**2025-05-14**|**Robot-Assisted Drone Recovery on a Wavy Surface Using Error-State Kalman Filter and Receding Horizon Model Predictive Control**|Yimou Wu et.al.|[@2505.09145](http://arxiv.org/abs/2505.09145)|null|
@@ -181,6 +184,8 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-15**|**Fine-tuning Diffusion Policies with Backpropagation Through Diffusion Timesteps**|Ningyuan Yang et.al.|[@2505.10482](http://arxiv.org/abs/2505.10482)|null|
+|**2025-05-14**|**Neural Associative Skill Memories for safer robotics and modelling human sensorimotor repertoires**|Pranav Mahajan et.al.|[@2505.09760](http://arxiv.org/abs/2505.09760)|null|
 |**2025-05-14**|**Imitation Learning for Adaptive Control of a Virtual Soft Exoglove**|Shirui Lyu et.al.|[@2505.09099](http://arxiv.org/abs/2505.09099)|null|
 |**2025-05-13**|**Adaptive Diffusion Policy Optimization for Robotic Manipulation**|Huiyun Jiang et.al.|[@2505.08376](http://arxiv.org/abs/2505.08376)|null|
 |**2025-05-12**|**Pixel Motion as Universal Representation for Robot Control**|Kanchana Ranasinghe et.al.|[@2505.07817](http://arxiv.org/abs/2505.07817)|null|
