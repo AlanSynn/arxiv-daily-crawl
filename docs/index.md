@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.05.17
+## 📚 Updated on 2025.05.18
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
@@ -189,7 +189,7 @@ layout: default
 |**2025-05-14**|**Imitation Learning for Adaptive Control of a Virtual Soft Exoglove**|Shirui Lyu et.al.|[@2505.09099](http://arxiv.org/abs/2505.09099)|null|
 |**2025-05-13**|**Adaptive Diffusion Policy Optimization for Robotic Manipulation**|Huiyun Jiang et.al.|[@2505.08376](http://arxiv.org/abs/2505.08376)|null|
 |**2025-05-12**|**Pixel Motion as Universal Representation for Robot Control**|Kanchana Ranasinghe et.al.|[@2505.07817](http://arxiv.org/abs/2505.07817)|null|
-|**2025-05-12**|**Intuitive Human-Robot Interfaces Leveraging on Autonomy Features for the Control of Highly-redundant Robots**|Davide Torielli et.al.|[@2505.07668](http://arxiv.org/abs/2505.07668)|null|
+|**2025-05-12**|**Intuitive Human-Robot Interfaces Leveraging on Autonomy Features for the Control of Highly-redundant Robots**|Davide Torielli et.al.|[@2505.07668](http://arxiv.org/abs/2505.07668)|**[link](https://github.com/advrhumanoids/nn_laser_spot_tracking)**|
 |**2025-05-11**|**FACET: Force-Adaptive Control via Impedance Reference Tracking for Legged Robots**|Botian Xu et.al.|[@2505.06883](http://arxiv.org/abs/2505.06883)|null|
 |**2025-05-07**|**Fitts' List Revisited: An Empirical Study on Function Allocation in a Two-Agent Physical Human-Robot Collaborative Position/Force Task**|Nicky Mol et.al.|[@2505.04722](http://arxiv.org/abs/2505.04722)|null|
 |**2025-05-07**|**Merging and Disentangling Views in Visual Reinforcement Learning for Robotic Manipulation**|Abdulaziz Almuzairee et.al.|[@2505.04619](http://arxiv.org/abs/2505.04619)|null|
