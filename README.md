@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.05.18
+## 📚 Updated on 2025.05.19
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -21,20 +21,20 @@
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
-|**2025-05-13**|**Generative Molecular Design with Steerable and Granular Synthesizability Control**|Jeff Guo et.al.|[@2505.08774](http://arxiv.org/abs/2505.08774)|**[link](https://github.com/schwallergroup/saturn)**|
-|**2025-05-12**|**Implicit Toolpath Generation for Functionally Graded Additive Manufacturing via Gradient-Aware Slicing**|Charles Wade et.al.|[@2505.08093](http://arxiv.org/abs/2505.08093)|null|
-|**2025-05-12**|**Mapping of Microstructure Transitions during Rapid Alloy Solidification Using Bayesian-Guided Phase-Field Simulations**|José Mancias et.al.|[@2505.07752](http://arxiv.org/abs/2505.07752)|null|
-|**2025-05-10**|**Modeling PFAS in Semiconductor Manufacturing to Quantify Trade-offs in Energy Efficiency and Environmental Impact of Computing Systems**|Mariam Elgamal et.al.|[@2505.06727](http://arxiv.org/abs/2505.06727)|null|
-|**2025-05-09**|**Connected C-Core Hybrid SRMs for EV Applications**|Gholamreza Davarpanah et.al.|[@2505.05726](http://arxiv.org/abs/2505.05726)|null|
-|**2025-05-08**|**Designing 3D Anisotropic Frame Fields with Odeco Tensors**|Haikuan Zhu et.al.|[@2505.05639](http://arxiv.org/abs/2505.05639)|null|
-|**2025-05-07**|**Nature's Insight: A Novel Framework and Comprehensive Analysis of Agentic Reasoning Through the Lens of Neuroscience**|Zinan Liu et.al.|[@2505.05515](http://arxiv.org/abs/2505.05515)|**[link](https://github.com/biorailab/awesome-neuroscience-agent-reasoning)**|
-|**2025-05-06**|**Fabrication and Characterization of Additively Manufactured Stretchable Strain Sensors Towards the Shape Sensing of Continuum Robots**|Daniel C. Moyer et.al.|[@2505.03087](http://arxiv.org/abs/2505.03087)|null|
-|**2025-05-03**|**Speculative Evolution Through 3D Cellular Automata**|Amir Hossein Khazaei et.al.|[@2505.01692](http://arxiv.org/abs/2505.01692)|null|
-|**2025-05-02**|**Computational, Data-Driven, and Physics-Informed Machine Learning Approaches for Microstructure Modeling in Metal Additive Manufacturing**|D. Patel et.al.|[@2505.01424](http://arxiv.org/abs/2505.01424)|null|
-|**2025-05-02**|**Reduced-order structure-property linkages for stochastic metamaterials**|Hooman Danesh et.al.|[@2505.01283](http://arxiv.org/abs/2505.01283)|null|
-|**2025-04-30**|**Generative Multimodal Multiscale Data Fusion for Digital Twins in Aerosol Jet Electronics Printing**|Fatemeh Elhambakhsh et.al.|[@2505.00176](http://arxiv.org/abs/2505.00176)|null|
-|**2025-04-30**|**Redundancy Analysis and Mitigation for Machine Learning-Based Process Monitoring of Additive Manufacturing**|Jiarui Xie et.al.|[@2504.21317](http://arxiv.org/abs/2504.21317)|null|
-|**2025-04-29**|**Using LLMs in Generating Design Rationale for Software Architecture Decisions**|Xiyu Zhou et.al.|[@2504.20781](http://arxiv.org/abs/2504.20781)|null|
+|**2025-05-13**|**Generative Molecular Design with Steerable and Granular Synthesizability Control**|Jeff Guo et.al.|2505.08774|**[link](https://github.com/schwallergroup/saturn)**|
+|**2025-05-12**|**Implicit Toolpath Generation for Functionally Graded Additive Manufacturing via Gradient-Aware Slicing**|Charles Wade et.al.|2505.08093|null|
+|**2025-05-12**|**Mapping of Microstructure Transitions during Rapid Alloy Solidification Using Bayesian-Guided Phase-Field Simulations**|José Mancias et.al.|2505.07752|null|
+|**2025-05-10**|**Modeling PFAS in Semiconductor Manufacturing to Quantify Trade-offs in Energy Efficiency and Environmental Impact of Computing Systems**|Mariam Elgamal et.al.|2505.06727|null|
+|**2025-05-09**|**Connected C-Core Hybrid SRMs for EV Applications**|Gholamreza Davarpanah et.al.|2505.05726|null|
+|**2025-05-08**|**Designing 3D Anisotropic Frame Fields with Odeco Tensors**|Haikuan Zhu et.al.|2505.05639|null|
+|**2025-05-07**|**Nature's Insight: A Novel Framework and Comprehensive Analysis of Agentic Reasoning Through the Lens of Neuroscience**|Zinan Liu et.al.|2505.05515|**[link](https://github.com/biorailab/awesome-neuroscience-agent-reasoning)**|
+|**2025-05-06**|**Fabrication and Characterization of Additively Manufactured Stretchable Strain Sensors Towards the Shape Sensing of Continuum Robots**|Daniel C. Moyer et.al.|2505.03087|null|
+|**2025-05-03**|**Speculative Evolution Through 3D Cellular Automata**|Amir Hossein Khazaei et.al.|2505.01692|null|
+|**2025-05-02**|**Computational, Data-Driven, and Physics-Informed Machine Learning Approaches for Microstructure Modeling in Metal Additive Manufacturing**|D. Patel et.al.|2505.01424|null|
+|**2025-05-02**|**Reduced-order structure-property linkages for stochastic metamaterials**|Hooman Danesh et.al.|2505.01283|null|
+|**2025-04-30**|**Generative Multimodal Multiscale Data Fusion for Digital Twins in Aerosol Jet Electronics Printing**|Fatemeh Elhambakhsh et.al.|2505.00176|null|
+|**2025-04-30**|**Redundancy Analysis and Mitigation for Machine Learning-Based Process Monitoring of Additive Manufacturing**|Jiarui Xie et.al.|2504.21317|null|
+|**2025-04-29**|**Using LLMs in Generating Design Rationale for Software Architecture Decisions**|Xiyu Zhou et.al.|2504.20781|null|
 |**2025-04-26**|**Spreading of highly cohesive metal powders with transverse oscillation kinematics**|Reimar Weissbach et.al.|2504.18981|null|
 |**2025-04-25**|**Development of a Scaled Down Horizontal Axis Wind Turbine for Wind Tunnel Tests**|Bhaskar Aryal et.al.|2504.18420|null|
 |**2025-04-25**|**Cabbage: A Differential Growth Framework for Open Surfaces**|Xiaoyi Liu et.al.|2504.18040|null|
@@ -65,45 +65,45 @@
 |**2025-03-21**|**Understanding Social Support Needs in Questions: A Hybrid Approach Integrating Semi-Supervised Learning and LLM-based Data Augmentation**|Junwei Kuang et.al.|2503.17421|null|
 |**2025-03-21**|**Multi-property directed generative design of inorganic materials through Wyckoff-augmented transfer learning**|Shuya Yamazaki et.al.|2503.16784|null|
 
-<p align=right>(<a href=#Updated-on-20250518>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250519>back to top</a>)</p>
 
 ## Mechanics, Kinematics & Motion Synthesis
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
-|**2025-05-15**|**AORRTC: Almost-Surely Asymptotically Optimal Planning with RRT-Connect**|Tyler Wilson et.al.|[@2505.10542](http://arxiv.org/abs/2505.10542)|null|
-|**2025-05-15**|**pc-dbCBS: Kinodynamic Motion Planning of Physically-Coupled Robot Teams**|Khaled Wahba et.al.|[@2505.10355](http://arxiv.org/abs/2505.10355)|null|
-|**2025-05-14**|**Dyadic Mamba: Long-term Dyadic Human Motion Synthesis**|Julian Tanke et.al.|[@2505.09827](http://arxiv.org/abs/2505.09827)|null|
-|**2025-05-14**|**Text-driven Motion Generation: Overview, Challenges and Directions**|Ali Rida Sahili et.al.|[@2505.09379](http://arxiv.org/abs/2505.09379)|null|
-|**2025-05-14**|**Improved Corner Cutting Constraints for Mixed-Integer Motion Planning of a Differential Drive Micro-Mobility Vehicle**|Angelo Caregnato-Neto et.al.|[@2505.09359](http://arxiv.org/abs/2505.09359)|null|
-|**2025-05-14**|**Robot-Assisted Drone Recovery on a Wavy Surface Using Error-State Kalman Filter and Receding Horizon Model Predictive Control**|Yimou Wu et.al.|[@2505.09145](http://arxiv.org/abs/2505.09145)|null|
-|**2025-05-13**|**Multi-step manipulation task and motion planning guided by video demonstration**|Kateryna Zorina et.al.|[@2505.08949](http://arxiv.org/abs/2505.08949)|null|
-|**2025-05-13**|**Continuous World Coverage Path Planning for Fixed-Wing UAVs using Deep Reinforcement Learning**|Mirco Theile et.al.|[@2505.08382](http://arxiv.org/abs/2505.08382)|null|
-|**2025-05-13**|**M3G: Multi-Granular Gesture Generator for Audio-Driven Full-Body Human Motion Synthesis**|Zhizhuo Yin et.al.|[@2505.08293](http://arxiv.org/abs/2505.08293)|null|
-|**2025-05-12**|**Virtual Holonomic Constraints in Motion Planning: Revisiting Feasibility and Limitations**|Maksim Surov et.al.|[@2505.07983](http://arxiv.org/abs/2505.07983)|null|
-|**2025-05-12**|**Intuitive Human-Robot Interfaces Leveraging on Autonomy Features for the Control of Highly-redundant Robots**|Davide Torielli et.al.|[@2505.07668](http://arxiv.org/abs/2505.07668)|null|
-|**2025-05-12**|**Dynamic Rental Games with Stagewise Individual Rationality**|Batya Berzack et.al.|[@2505.07579](http://arxiv.org/abs/2505.07579)|null|
-|**2025-05-12**|**A Framework for Joint Grasp and Motion Planning in Confined Spaces**|Martin Rudorfer et.al.|[@2505.07259](http://arxiv.org/abs/2505.07259)|null|
-|**2025-05-11**|**YOPOv2-Tracker: An End-to-End Agile Tracking and Navigation Framework from Perception to Action**|Junjie Lu et.al.|[@2505.06923](http://arxiv.org/abs/2505.06923)|null|
-|**2025-05-11**|**cpRRTC: GPU-Parallel RRT-Connect for Constrained Motion Planning**|Jiaming Hu et.al.|[@2505.06791](http://arxiv.org/abs/2505.06791)|null|
-|**2025-05-10**|**Motion Planning for Autonomous Vehicles: When Model Predictive Control Meets Ensemble Kalman Smoothing**|Iman Askari et.al.|[@2505.06666](http://arxiv.org/abs/2505.06666)|null|
-|**2025-05-09**|**KRRF: Kinodynamic Rapidly-exploring Random Forest algorithm for multi-goal motion planning**|Petr Ježek et.al.|[@2505.06126](http://arxiv.org/abs/2505.06126)|null|
-|**2025-05-09**|**Multi-Agent Systems for Robotic Autonomy with LLMs**|Junhong Chen et.al.|[@2505.05762](http://arxiv.org/abs/2505.05762)|null|
-|**2025-05-09**|**Physics-informed Temporal Difference Metric Learning for Robot Motion Planning**|Ruiqi Ni et.al.|[@2505.05691](http://arxiv.org/abs/2505.05691)|null|
-|**2025-05-08**|**A Vehicle System for Navigating Among Vulnerable Road Users Including Remote Operation**|Oscar de Groot et.al.|[@2505.04982](http://arxiv.org/abs/2505.04982)|null|
-|**2025-05-08**|**LVLM-MPC Collaboration for Autonomous Driving: A Safety-Aware and Task-Scalable Control Architecture**|Kazuki Atsuta et.al.|[@2505.04980](http://arxiv.org/abs/2505.04980)|null|
-|**2025-05-08**|**Real-Time Model Predictive Control of Vehicles with Convex-Polygon-Aware Collision Avoidance in Tight Spaces**|Haruki Kojima et.al.|[@2505.04935](http://arxiv.org/abs/2505.04935)|null|
-|**2025-05-07**|**Stow: Robotic Packing of Items into Fabric Pods**|Nicolas Hudson et.al.|[@2505.04572](http://arxiv.org/abs/2505.04572)|null|
-|**2025-05-06**|**Meta-Optimization and Program Search using Language Models for Task and Motion Planning**|Denis Shcherba et.al.|[@2505.03725](http://arxiv.org/abs/2505.03725)|null|
-|**2025-05-06**|**NBF at SemEval-2025 Task 5: Light-Burst Attention Enhanced System for Multilingual Subject Recommendation**|Baharul Islam et.al.|[@2505.03711](http://arxiv.org/abs/2505.03711)|null|
-|**2025-05-06**|**Simulation to Reality: Testbeds and Architectures for Connected and Automated Vehicles**|David Klüner et.al.|[@2505.03472](http://arxiv.org/abs/2505.03472)|null|
+|**2025-05-15**|**AORRTC: Almost-Surely Asymptotically Optimal Planning with RRT-Connect**|Tyler Wilson et.al.|2505.10542|null|
+|**2025-05-15**|**pc-dbCBS: Kinodynamic Motion Planning of Physically-Coupled Robot Teams**|Khaled Wahba et.al.|2505.10355|null|
+|**2025-05-14**|**Dyadic Mamba: Long-term Dyadic Human Motion Synthesis**|Julian Tanke et.al.|2505.09827|null|
+|**2025-05-14**|**Text-driven Motion Generation: Overview, Challenges and Directions**|Ali Rida Sahili et.al.|2505.09379|null|
+|**2025-05-14**|**Improved Corner Cutting Constraints for Mixed-Integer Motion Planning of a Differential Drive Micro-Mobility Vehicle**|Angelo Caregnato-Neto et.al.|2505.09359|null|
+|**2025-05-14**|**Robot-Assisted Drone Recovery on a Wavy Surface Using Error-State Kalman Filter and Receding Horizon Model Predictive Control**|Yimou Wu et.al.|2505.09145|null|
+|**2025-05-13**|**Multi-step manipulation task and motion planning guided by video demonstration**|Kateryna Zorina et.al.|2505.08949|null|
+|**2025-05-13**|**Continuous World Coverage Path Planning for Fixed-Wing UAVs using Deep Reinforcement Learning**|Mirco Theile et.al.|2505.08382|null|
+|**2025-05-13**|**M3G: Multi-Granular Gesture Generator for Audio-Driven Full-Body Human Motion Synthesis**|Zhizhuo Yin et.al.|2505.08293|null|
+|**2025-05-12**|**Virtual Holonomic Constraints in Motion Planning: Revisiting Feasibility and Limitations**|Maksim Surov et.al.|2505.07983|null|
+|**2025-05-12**|**Intuitive Human-Robot Interfaces Leveraging on Autonomy Features for the Control of Highly-redundant Robots**|Davide Torielli et.al.|2505.07668|**[link](https://github.com/advrhumanoids/nn_laser_spot_tracking)**|
+|**2025-05-12**|**Dynamic Rental Games with Stagewise Individual Rationality**|Batya Berzack et.al.|2505.07579|null|
+|**2025-05-12**|**A Framework for Joint Grasp and Motion Planning in Confined Spaces**|Martin Rudorfer et.al.|2505.07259|null|
+|**2025-05-11**|**YOPOv2-Tracker: An End-to-End Agile Tracking and Navigation Framework from Perception to Action**|Junjie Lu et.al.|2505.06923|**[link](https://github.com/TJU-Aerial-Robotics/YOPO-Tracker)**|
+|**2025-05-11**|**cpRRTC: GPU-Parallel RRT-Connect for Constrained Motion Planning**|Jiaming Hu et.al.|2505.06791|null|
+|**2025-05-10**|**Motion Planning for Autonomous Vehicles: When Model Predictive Control Meets Ensemble Kalman Smoothing**|Iman Askari et.al.|2505.06666|null|
+|**2025-05-09**|**KRRF: Kinodynamic Rapidly-exploring Random Forest algorithm for multi-goal motion planning**|Petr Ježek et.al.|2505.06126|null|
+|**2025-05-09**|**Multi-Agent Systems for Robotic Autonomy with LLMs**|Junhong Chen et.al.|2505.05762|null|
+|**2025-05-09**|**Physics-informed Temporal Difference Metric Learning for Robot Motion Planning**|Ruiqi Ni et.al.|2505.05691|**[link](https://github.com/ruiqini/ntrl-demo)**|
+|**2025-05-08**|**A Vehicle System for Navigating Among Vulnerable Road Users Including Remote Operation**|Oscar de Groot et.al.|2505.04982|null|
+|**2025-05-08**|**LVLM-MPC Collaboration for Autonomous Driving: A Safety-Aware and Task-Scalable Control Architecture**|Kazuki Atsuta et.al.|2505.04980|null|
+|**2025-05-08**|**Real-Time Model Predictive Control of Vehicles with Convex-Polygon-Aware Collision Avoidance in Tight Spaces**|Haruki Kojima et.al.|2505.04935|null|
+|**2025-05-07**|**Stow: Robotic Packing of Items into Fabric Pods**|Nicolas Hudson et.al.|2505.04572|null|
+|**2025-05-06**|**Meta-Optimization and Program Search using Language Models for Task and Motion Planning**|Denis Shcherba et.al.|2505.03725|null|
+|**2025-05-06**|**NBF at SemEval-2025 Task 5: Light-Burst Attention Enhanced System for Multilingual Subject Recommendation**|Baharul Islam et.al.|2505.03711|null|
+|**2025-05-06**|**Simulation to Reality: Testbeds and Architectures for Connected and Automated Vehicles**|David Klüner et.al.|2505.03472|null|
 |**2025-05-06**|**Enabling Robots to Autonomously Search Dynamic Cluttered Post-Disaster Environments**|Karlo Rado et.al.|2505.03283|null|
 |**2025-05-05**|**Re-purposing a modular origami manipulator into an adaptive physical computer for machine learning and robotic perception**|Jun Wang et.al.|2505.02744|null|
 |**2025-05-05**|**A Survey on Progress in LLM Alignment from the Perspective of Reward Design**|Miaomiao Ji et.al.|2505.02666|null|
 |**2025-05-05**|**ZeloS -- A Research Platform for Early-Stage Validation of Research Findings Related to Automated Driving**|Christopher Bohn et.al.|2505.02460|null|
 |**2025-05-05**|**A Real-Time Control Barrier Function-Based Safety Filter for Motion Planning with Arbitrary Road Boundary Constraints**|Jianye Xu et.al.|2505.02395|**[link](https://github.com/bassamlab/sigmarl)**|
 |**2025-05-02**|**Phasing Through the Flames: Rapid Motion Planning with the AGHF PDE for Arbitrary Objective Functions and Constraints**|Challen Enninful Adu et.al.|2505.01589|null|
-|**2025-05-02**|**On the effectiveness of Large Language Models in the mechanical design domain**|Daniele Grandi et.al.|2505.01559|null|
+|**2025-05-02**|**On the effectiveness of Large Language Models in the mechanical design domain**|Daniele Grandi et.al.|2505.01559|**[link](https://github.com/grndnl/w266_final_project)**|
 |**2025-05-01**|**MoxE: Mixture of xLSTM Experts with Entropy-Aware Routing for Efficient Language Modeling**|Abdoul Majid O. Thiombiano et.al.|2505.01459|null|
 |**2025-05-02**|**LLM Security: Vulnerabilities, Attacks, Defenses, and Countermeasures**|Francisco Aguilera-Martínez et.al.|2505.01177|null|
 |**2025-05-02**|**Deterministic-to-Stochastic Diverse Latent Feature Mapping for Human Motion Synthesis**|Yu Hua et.al.|2505.00998|null|
@@ -122,7 +122,7 @@
 |**2025-04-27**|**Geometric Gait Optimization for Kinodynamic Systems Using a Lie Group Integrator**|Yanhao Yang et.al.|2504.19072|null|
 |**2025-04-27**|**Generative AI for Character Animation: A Comprehensive Survey of Techniques, Applications, and Future Directions**|Mohammad Mahdi Abootorabi et.al.|2504.19056|**[link](https://github.com/llm-lab-org/generative-ai-for-character-animation-survey)**|
 |**2025-04-26**|**A biconvex method for minimum-time motion planning through sequences of convex sets**|Tobia Marcucci et.al.|2504.18978|null|
-|**2025-04-29**|**Hierarchical Temporal Logic Task and Motion Planning for Multi-Robot Systems**|Zhongqi Wei et.al.|2504.18899|null|
+|**2025-04-29**|**Hierarchical Temporal Logic Task and Motion Planning for Multi-Robot Systems**|Zhongqi Wei et.al.|2504.18899|**[link](https://github.com/intelligent-control-lab/Task_Motion_Planning_with_HLTL_and_GCS)**|
 |**2025-04-25**|**Collaborative Object Transportation in Space via Impact Interactions**|Joris Verhagen et.al.|2504.18667|null|
 |**2025-04-24**|**Mixed Bernstein-Fourier Approximants for Optimal Trajectory Generation with Periodic Behavior**|Liraz Mudrik et.al.|2504.17969|null|
 |**2025-04-24**|**Beyond Task and Motion Planning: Hierarchical Robot Planning with General-Purpose Policies**|Benned Hedegaard et.al.|2504.17901|null|
@@ -189,30 +189,30 @@
 |**2025-03-31**|**Less is More: Contextual Sampling for Nonlinear Data-Enabled Predictive Control**|Julius Beerwerth et.al.|2503.23890|null|
 |**2025-03-31**|**A Survey of Reinforcement Learning-Based Motion Planning for Autonomous Driving: Lessons Learned from a Driving Task Perspective**|Zhuoren Li et.al.|2503.23650|null|
 
-<p align=right>(<a href=#Updated-on-20250518>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250519>back to top</a>)</p>
 
 ## Robotics: Design, Control & Learning
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
-|**2025-05-15**|**Fine-tuning Diffusion Policies with Backpropagation Through Diffusion Timesteps**|Ningyuan Yang et.al.|[@2505.10482](http://arxiv.org/abs/2505.10482)|null|
-|**2025-05-14**|**Neural Associative Skill Memories for safer robotics and modelling human sensorimotor repertoires**|Pranav Mahajan et.al.|[@2505.09760](http://arxiv.org/abs/2505.09760)|null|
-|**2025-05-14**|**Imitation Learning for Adaptive Control of a Virtual Soft Exoglove**|Shirui Lyu et.al.|[@2505.09099](http://arxiv.org/abs/2505.09099)|null|
-|**2025-05-13**|**Adaptive Diffusion Policy Optimization for Robotic Manipulation**|Huiyun Jiang et.al.|[@2505.08376](http://arxiv.org/abs/2505.08376)|null|
-|**2025-05-12**|**Pixel Motion as Universal Representation for Robot Control**|Kanchana Ranasinghe et.al.|[@2505.07817](http://arxiv.org/abs/2505.07817)|null|
-|**2025-05-12**|**Intuitive Human-Robot Interfaces Leveraging on Autonomy Features for the Control of Highly-redundant Robots**|Davide Torielli et.al.|[@2505.07668](http://arxiv.org/abs/2505.07668)|**[link](https://github.com/advrhumanoids/nn_laser_spot_tracking)**|
-|**2025-05-11**|**FACET: Force-Adaptive Control via Impedance Reference Tracking for Legged Robots**|Botian Xu et.al.|[@2505.06883](http://arxiv.org/abs/2505.06883)|null|
-|**2025-05-07**|**Fitts' List Revisited: An Empirical Study on Function Allocation in a Two-Agent Physical Human-Robot Collaborative Position/Force Task**|Nicky Mol et.al.|[@2505.04722](http://arxiv.org/abs/2505.04722)|null|
-|**2025-05-07**|**Merging and Disentangling Views in Visual Reinforcement Learning for Robotic Manipulation**|Abdulaziz Almuzairee et.al.|[@2505.04619](http://arxiv.org/abs/2505.04619)|null|
-|**2025-05-06**|**Meta-Optimization and Program Search using Language Models for Task and Motion Planning**|Denis Shcherba et.al.|[@2505.03725](http://arxiv.org/abs/2505.03725)|null|
-|**2025-05-06**|**Capability-Driven Skill Generation with LLMs: A RAG-Based Approach for Reusing Existing Libraries and Interfaces**|Luis Miguel Vieira da Silva et.al.|[@2505.03295](http://arxiv.org/abs/2505.03295)|null|
-|**2025-05-06**|**ReLI: A Language-Agnostic Approach to Human-Robot Interaction**|Linus Nwankwo et.al.|[@2505.01862](http://arxiv.org/abs/2505.01862)|null|
-|**2025-05-02**|**SIME: Enhancing Policy Self-Improvement with Modal-level Exploration**|Yang Jin et.al.|[@2505.01396](http://arxiv.org/abs/2505.01396)|null|
-|**2025-05-02**|**Desired Impedance Allocation for Robotic Systems**|Mahdi Hejrati et.al.|[@2505.01308](http://arxiv.org/abs/2505.01308)|null|
+|**2025-05-15**|**Fine-tuning Diffusion Policies with Backpropagation Through Diffusion Timesteps**|Ningyuan Yang et.al.|2505.10482|null|
+|**2025-05-14**|**Neural Associative Skill Memories for safer robotics and modelling human sensorimotor repertoires**|Pranav Mahajan et.al.|2505.09760|null|
+|**2025-05-14**|**Imitation Learning for Adaptive Control of a Virtual Soft Exoglove**|Shirui Lyu et.al.|2505.09099|null|
+|**2025-05-13**|**Adaptive Diffusion Policy Optimization for Robotic Manipulation**|Huiyun Jiang et.al.|2505.08376|null|
+|**2025-05-12**|**Pixel Motion as Universal Representation for Robot Control**|Kanchana Ranasinghe et.al.|2505.07817|null|
+|**2025-05-12**|**Intuitive Human-Robot Interfaces Leveraging on Autonomy Features for the Control of Highly-redundant Robots**|Davide Torielli et.al.|2505.07668|**[link](https://github.com/advrhumanoids/nn_laser_spot_tracking)**|
+|**2025-05-11**|**FACET: Force-Adaptive Control via Impedance Reference Tracking for Legged Robots**|Botian Xu et.al.|2505.06883|null|
+|**2025-05-07**|**Fitts' List Revisited: An Empirical Study on Function Allocation in a Two-Agent Physical Human-Robot Collaborative Position/Force Task**|Nicky Mol et.al.|2505.04722|null|
+|**2025-05-07**|**Merging and Disentangling Views in Visual Reinforcement Learning for Robotic Manipulation**|Abdulaziz Almuzairee et.al.|2505.04619|null|
+|**2025-05-06**|**Meta-Optimization and Program Search using Language Models for Task and Motion Planning**|Denis Shcherba et.al.|2505.03725|null|
+|**2025-05-06**|**Capability-Driven Skill Generation with LLMs: A RAG-Based Approach for Reusing Existing Libraries and Interfaces**|Luis Miguel Vieira da Silva et.al.|2505.03295|null|
+|**2025-05-06**|**ReLI: A Language-Agnostic Approach to Human-Robot Interaction**|Linus Nwankwo et.al.|2505.01862|null|
+|**2025-05-02**|**SIME: Enhancing Policy Self-Improvement with Modal-level Exploration**|Yang Jin et.al.|2505.01396|null|
+|**2025-05-02**|**Desired Impedance Allocation for Robotic Systems**|Mahdi Hejrati et.al.|2505.01308|null|
 |**2025-05-01**|**Robotic Visual Instruction**|Yanbang Li et.al.|2505.00693|null|
-|**2025-05-01**|**Multi-segment Soft Robot Control via Deep Koopman-based Model Predictive Control**|Lei Lv et.al.|[@2505.00354](http://arxiv.org/abs/2505.00354)|null|
-|**2025-04-30**|**Characterizing gaussian mixture of motion modes for skid-steer state estimation**|Ameya Salvi et.al.|[@2505.00200](http://arxiv.org/abs/2505.00200)|null|
-|**2025-04-29**|**PRISM: Projection-based Reward Integration for Scene-Aware Real-to-Sim-to-Real Transfer with Few Demonstrations**|Haowen Sun et.al.|[@2504.20520](http://arxiv.org/abs/2504.20520)|null|
+|**2025-05-01**|**Multi-segment Soft Robot Control via Deep Koopman-based Model Predictive Control**|Lei Lv et.al.|2505.00354|null|
+|**2025-04-30**|**Characterizing gaussian mixture of motion modes for skid-steer state estimation**|Ameya Salvi et.al.|2505.00200|null|
+|**2025-04-29**|**PRISM: Projection-based Reward Integration for Scene-Aware Real-to-Sim-to-Real Transfer with Few Demonstrations**|Haowen Sun et.al.|2504.20520|null|
 |**2025-04-28**|**Deformable Multibody Modeling for Model Predictive Control in Legged Locomotion with Embodied Compliance**|Keran Ye et.al.|2504.20301|null|
 |**2025-04-28**|**Mesh-Learner: Texturing Mesh with Spherical Harmonics**|Yunfei Wan et.al.|2504.19938|**[link](https://github.com/hku-mars/mesh-learner)**|
 |**2025-04-28**|**UTTG_ A Universal Teleoperation Approach via Online Trajectory Generation**|Shengjian Fang et.al.|2504.19736|**[link](https://github.com/irmv-manipulation-group/uttg)**|
@@ -250,32 +250,28 @@
 |**2025-03-27**|**Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making**|Filip Surma et.al.|2503.21065|null|
 |**2025-03-26**|**Beyond Visuals: Investigating Force Feedback in Extended Reality for Robot Data Collection**|Xueyin Li et.al.|2503.20714|null|
 
-<p align=right>(<a href=#Updated-on-20250518>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250519>back to top</a>)</p>
 
 ## Human-Computer Interaction for Design
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
-|**2025-02-05**|**Immersion for AI: Immersive Learning with Artificial Intelligence**|Leonel Morgado et.al.|[@2502.03504](http://arxiv.org/abs/2502.03504)|null|
-|**2021-02-20**|**GenFloor: Interactive Generative Space Layout System via Encoded Tree Graphs**|Mohammad Keshavarzi et.al.|[@2102.10320](http://arxiv.org/abs/2102.10320)|null|
-|**2019-12-19**|**MVF Designer: Design and Visualization of Morse Vector Fields**|Youjia Zhou et.al.|[@1912.09580](http://arxiv.org/abs/1912.09580)|**[link](https://github.com/zhou325/VIS-MSVF)**|
+|**2025-02-05**|**Immersion for AI: Immersive Learning with Artificial Intelligence**|Leonel Morgado et.al.|2502.03504|null|
 
-<p align=right>(<a href=#Updated-on-20250518>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250519>back to top</a>)</p>
 
 ## Generative AI & Foundation Models in Design
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
-|**2025-05-14**|**A Note on Semantic Diffusion**|Alexander P. Ryjov et.al.|[@2505.09283](http://arxiv.org/abs/2505.09283)|null|
-|**2025-05-12**|**DiffCrysGen: A Score-Based Diffusion Model for Design of Diverse Inorganic Crystalline Materials**|Sourav Mal et.al.|[@2505.07442](http://arxiv.org/abs/2505.07442)|null|
-|**2024-12-03**|**Mediating Modes of Thought: LLM's for design scripting**|Moritz Rietschel et.al.|[@2411.14485](http://arxiv.org/abs/2411.14485)|null|
-|**2024-09-26**|**Loop-Diffusion: an equivariant diffusion model for designing and scoring protein loops**|Kevin Borisiak et.al.|[@2409.18201](http://arxiv.org/abs/2409.18201)|null|
-|**2024-07-23**|**Optimizing Robotic Manipulation with Decision-RWKV: A Recurrent Sequence Modeling Approach for Lifelong Learning**|Yujian Dong et.al.|[@2407.16306](http://arxiv.org/abs/2407.16306)|**[link](https://github.com/ancorasir/decisionrwkv)**|
-|**2024-04-16**|**Multi-objective generative AI for designing novel brain-targeting small molecules**|Ayush Noori et.al.|[@2407.00004](http://arxiv.org/abs/2407.00004)|null|
-|**2024-02-26**|**From Cloud to Edge: Rethinking Generative AI for Low-Resource Design Challenges**|Sai Krishna Revanth Vuruma et.al.|[@2402.12702](http://arxiv.org/abs/2402.12702)|null|
-|**2024-09-09**|**Explainable AI for Engineering Design: A Unified Approach of Systems Engineering and Component- Based Deep Learning Demonstrated by Energy- Efficient Building Design**|Philipp Geyer et.al.|[@2108.13836](http://arxiv.org/abs/2108.13836)|null|
+|**2025-05-14**|**A Note on Semantic Diffusion**|Alexander P. Ryjov et.al.|2505.09283|null|
+|**2025-05-12**|**DiffCrysGen: A Score-Based Diffusion Model for Design of Diverse Inorganic Crystalline Materials**|Sourav Mal et.al.|2505.07442|null|
+|**2024-12-03**|**Mediating Modes of Thought: LLM's for design scripting**|Moritz Rietschel et.al.|2411.14485|null|
+|**2024-09-26**|**Loop-Diffusion: an equivariant diffusion model for designing and scoring protein loops**|Kevin Borisiak et.al.|2409.18201|null|
+|**2024-07-23**|**Optimizing Robotic Manipulation with Decision-RWKV: A Recurrent Sequence Modeling Approach for Lifelong Learning**|Yujian Dong et.al.|2407.16306|**[link](https://github.com/ancorasir/decisionrwkv)**|
+|**2024-09-09**|**Explainable AI for Engineering Design: A Unified Approach of Systems Engineering and Component- Based Deep Learning Demonstrated by Energy- Efficient Building Design**|Philipp Geyer et.al.|2108.13836|null|
 
-<p align=right>(<a href=#Updated-on-20250518>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250519>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
