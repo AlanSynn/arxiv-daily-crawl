@@ -7,13 +7,15 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.05.19
+## 📚 Updated on 2025.05.20
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-18**|**Engineering application of physics-informed neural networks for Saint-Venant torsion**|Su Yeong Jo et.al.|[@2505.12389](http://arxiv.org/abs/2505.12389)|null|
+|**2025-05-17**|**Generating Digital Models Using Text-to-3D and Image-to-3D Prompts: Critical Case Study**|Rushan Ziatdinov et.al.|[@2505.11799](http://arxiv.org/abs/2505.11799)|null|
 |**2025-05-13**|**Generative Molecular Design with Steerable and Granular Synthesizability Control**|Jeff Guo et.al.|[@2505.08774](http://arxiv.org/abs/2505.08774)|**[link](https://github.com/schwallergroup/saturn)**|
 |**2025-05-12**|**Implicit Toolpath Generation for Functionally Graded Additive Manufacturing via Gradient-Aware Slicing**|Charles Wade et.al.|[@2505.08093](http://arxiv.org/abs/2505.08093)|null|
 |**2025-05-12**|**Mapping of Microstructure Transitions during Rapid Alloy Solidification Using Bayesian-Guided Phase-Field Simulations**|José Mancias et.al.|[@2505.07752](http://arxiv.org/abs/2505.07752)|null|
@@ -62,11 +64,15 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-19**|**UniHM: Universal Human Motion Generation with Object Interactions in Indoor Scenes**|Zichen Geng et.al.|[@2505.12774](http://arxiv.org/abs/2505.12774)|null|
+|**2025-05-19**|**SafeMove-RL: A Certifiable Reinforcement Learning Framework for Dynamic Motion Constraints in Trajectory Planning**|Tengfei Liu et.al.|[@2505.12648](http://arxiv.org/abs/2505.12648)|null|
+|**2025-05-18**|**Optimal Task and Motion Planning for Autonomous Systems Using Petri Nets**|Zhou He et.al.|[@2505.12503](http://arxiv.org/abs/2505.12503)|null|
+|**2025-05-18**|**Scene-Adaptive Motion Planning with Explicit Mixture of Experts and Interaction-Oriented Optimization**|Hongbiao Zhu et.al.|[@2505.12311](http://arxiv.org/abs/2505.12311)|null|
 |**2025-05-16**|**Decoupling Collision Avoidance in and for Optimal Control using Least-Squares Support Vector Machines**|Dries Dirckx et.al.|[@2505.11376](http://arxiv.org/abs/2505.11376)|null|
 |**2025-05-16**|**Towards Robust and Controllable Text-to-Motion via Masked Autoregressive Diffusion**|Zongye Zhang et.al.|[@2505.11013](http://arxiv.org/abs/2505.11013)|null|
 |**2025-05-16**|**Humans expect rationality and cooperation from LLM opponents in strategic games**|Darija Barak et.al.|[@2505.11011](http://arxiv.org/abs/2505.11011)|null|
 |**2025-05-16**|**Anti-Sensing: Defense against Unauthorized Radar-based Human Vital Sign Sensing with Physically Realizable Wearable Oscillators**|Md Farhan Tasnim Oshim et.al.|[@2505.10864](http://arxiv.org/abs/2505.10864)|null|
-|**2025-05-15**|**AORRTC: Almost-Surely Asymptotically Optimal Planning with RRT-Connect**|Tyler Wilson et.al.|[@2505.10542](http://arxiv.org/abs/2505.10542)|null|
+|**2025-05-17**|**AORRTC: Almost-Surely Asymptotically Optimal Planning with RRT-Connect**|Tyler Wilson et.al.|[@2505.10542](http://arxiv.org/abs/2505.10542)|null|
 |**2025-05-15**|**pc-dbCBS: Kinodynamic Motion Planning of Physically-Coupled Robot Teams**|Khaled Wahba et.al.|[@2505.10355](http://arxiv.org/abs/2505.10355)|null|
 |**2025-05-14**|**Dyadic Mamba: Long-term Dyadic Human Motion Synthesis**|Julian Tanke et.al.|[@2505.09827](http://arxiv.org/abs/2505.09827)|null|
 |**2025-05-14**|**Text-driven Motion Generation: Overview, Challenges and Directions**|Ali Rida Sahili et.al.|[@2505.09379](http://arxiv.org/abs/2505.09379)|null|
@@ -188,6 +194,10 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-19**|**Dribble Master: Learning Agile Humanoid Dribbling Through Legged Locomotion**|Zhuoheng Wang et.al.|[@2505.12679](http://arxiv.org/abs/2505.12679)|null|
+|**2025-05-19**|**The Robot of Theseus: A modular robotic testbed for legged locomotion**|Karthik Urs et.al.|[@2505.12649](http://arxiv.org/abs/2505.12649)|null|
+|**2025-05-19**|**A Comprehensive Survey on Physical Risk Control in the Era of Foundation Model-enabled Robotics**|Takeshi Kojima et.al.|[@2505.12583](http://arxiv.org/abs/2505.12583)|null|
+|**2025-05-18**|**Adaptive MPC-based quadrupedal robot control under periodic disturbances**|Elizaveta Pestova et.al.|[@2505.12361](http://arxiv.org/abs/2505.12361)|**[link](https://github.com/aidagroup/quad-periodic-mpc)**|
 |**2025-05-16**|**SurgPose: Generalisable Surgical Instrument Pose Estimation using Zero-Shot Learning and Stereo Vision**|Utsav Rai et.al.|[@2505.11439](http://arxiv.org/abs/2505.11439)|null|
 |**2025-05-16**|**Conditioning Matters: Training Diffusion Policies is Faster Than You Think**|Zibin Dong et.al.|[@2505.11123](http://arxiv.org/abs/2505.11123)|null|
 |**2025-05-16**|**GROQLoco: Generalist and RObot-agnostic Quadruped Locomotion Control using Offline Datasets**|Narayanan PP et.al.|[@2505.10973](http://arxiv.org/abs/2505.10973)|null|
