@@ -7,13 +7,16 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.05.20
+## 📚 Updated on 2025.05.21
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-20**|**Handloom Design Generation Using Generative Networks**|Rajat Kanti Bhattacharjee et.al.|[@2505.14330](http://arxiv.org/abs/2505.14330)|null|
+|**2025-05-20**|**Multimodal RAG-driven Anomaly Detection and Classification in Laser Powder Bed Fusion using Large Language Models**|Kiarash Naghavi Khanghah et.al.|[@2505.13828](http://arxiv.org/abs/2505.13828)|null|
+|**2025-05-19**|**Symmetry-Driven Trimer Formation in Kagome Correlated Electron Materials**|Varsha Kumari et.al.|[@2505.13659](http://arxiv.org/abs/2505.13659)|null|
 |**2025-05-18**|**Engineering application of physics-informed neural networks for Saint-Venant torsion**|Su Yeong Jo et.al.|[@2505.12389](http://arxiv.org/abs/2505.12389)|null|
 |**2025-05-17**|**Generating Digital Models Using Text-to-3D and Image-to-3D Prompts: Critical Case Study**|Rushan Ziatdinov et.al.|[@2505.11799](http://arxiv.org/abs/2505.11799)|null|
 |**2025-05-13**|**Generative Molecular Design with Steerable and Granular Synthesizability Control**|Jeff Guo et.al.|[@2505.08774](http://arxiv.org/abs/2505.08774)|**[link](https://github.com/schwallergroup/saturn)**|
@@ -64,6 +67,14 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-20**|**Large-Scale Multi-Character Interaction Synthesis**|Ziyi Chang et.al.|[@2505.14087](http://arxiv.org/abs/2505.14087)|null|
+|**2025-05-20**|**MultiDrive: A Co-Simulation Framework Bridging 2D and 3D Driving Simulation for AV Software Validation**|Marc Kaufeld et.al.|[@2505.13959](http://arxiv.org/abs/2505.13959)|null|
+|**2025-05-20**|**Certifiably Safe Manipulation of Deformable Linear Objects via Joint Shape and Tension Prediction**|Yiting Zhang et.al.|[@2505.13889](http://arxiv.org/abs/2505.13889)|null|
+|**2025-05-20**|**Duawlfin: A Drone with Unified Actuation for Wheeled Locomotion and Flight Operation**|Jerry Tang et.al.|[@2505.13836](http://arxiv.org/abs/2505.13836)|null|
+|**2025-05-19**|**Language Models Are Capable of Metacognitive Monitoring and Control of Their Internal Activations**|Li Ji-An et.al.|[@2505.13763](http://arxiv.org/abs/2505.13763)|null|
+|**2025-05-19**|**From Structural Design to Dynamics Modeling: Control-Oriented Development of a 3-RRR Parallel Ankle Rehabilitation Robot**|Siyuan Zhang et.al.|[@2505.13762](http://arxiv.org/abs/2505.13762)|null|
+|**2025-05-19**|**Multiple Proposer Transaction Fee Mechanism Design: Robust Incentives Against Censorship and Bribery**|Aikaterini-Panagiota Stouka et.al.|[@2505.13751](http://arxiv.org/abs/2505.13751)|null|
+|**2025-05-19**|**Revenue-Optimal Efficient Mechanism Design with General Type Spaces**|Siddharth Prasad et.al.|[@2505.13687](http://arxiv.org/abs/2505.13687)|null|
 |**2025-05-19**|**UniHM: Universal Human Motion Generation with Object Interactions in Indoor Scenes**|Zichen Geng et.al.|[@2505.12774](http://arxiv.org/abs/2505.12774)|null|
 |**2025-05-19**|**SafeMove-RL: A Certifiable Reinforcement Learning Framework for Dynamic Motion Constraints in Trajectory Planning**|Tengfei Liu et.al.|[@2505.12648](http://arxiv.org/abs/2505.12648)|null|
 |**2025-05-18**|**Optimal Task and Motion Planning for Autonomous Systems Using Petri Nets**|Zhou He et.al.|[@2505.12503](http://arxiv.org/abs/2505.12503)|null|
@@ -194,13 +205,14 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-20**|**Toward Real-World Cooperative and Competitive Soccer with Quadrupedal Robot Teams**|Zhi Su et.al.|[@2505.13834](http://arxiv.org/abs/2505.13834)|null|
 |**2025-05-19**|**Dribble Master: Learning Agile Humanoid Dribbling Through Legged Locomotion**|Zhuoheng Wang et.al.|[@2505.12679](http://arxiv.org/abs/2505.12679)|null|
 |**2025-05-19**|**The Robot of Theseus: A modular robotic testbed for legged locomotion**|Karthik Urs et.al.|[@2505.12649](http://arxiv.org/abs/2505.12649)|null|
 |**2025-05-19**|**A Comprehensive Survey on Physical Risk Control in the Era of Foundation Model-enabled Robotics**|Takeshi Kojima et.al.|[@2505.12583](http://arxiv.org/abs/2505.12583)|null|
 |**2025-05-18**|**Adaptive MPC-based quadrupedal robot control under periodic disturbances**|Elizaveta Pestova et.al.|[@2505.12361](http://arxiv.org/abs/2505.12361)|**[link](https://github.com/aidagroup/quad-periodic-mpc)**|
 |**2025-05-16**|**SurgPose: Generalisable Surgical Instrument Pose Estimation using Zero-Shot Learning and Stereo Vision**|Utsav Rai et.al.|[@2505.11439](http://arxiv.org/abs/2505.11439)|null|
 |**2025-05-16**|**Conditioning Matters: Training Diffusion Policies is Faster Than You Think**|Zibin Dong et.al.|[@2505.11123](http://arxiv.org/abs/2505.11123)|null|
-|**2025-05-16**|**GROQLoco: Generalist and RObot-agnostic Quadruped Locomotion Control using Offline Datasets**|Narayanan PP et.al.|[@2505.10973](http://arxiv.org/abs/2505.10973)|null|
+|**2025-05-20**|**GRoQ-Loco: Generalist and Robot-agnostic Quadruped Locomotion Control using Offline Datasets**|Narayanan PP et.al.|[@2505.10973](http://arxiv.org/abs/2505.10973)|null|
 |**2025-05-15**|**Modular Robot Control with Motor Primitives**|Moses C. Nah et.al.|[@2505.10694](http://arxiv.org/abs/2505.10694)|null|
 |**2025-05-15**|**Fine-tuning Diffusion Policies with Backpropagation Through Diffusion Timesteps**|Ningyuan Yang et.al.|[@2505.10482](http://arxiv.org/abs/2505.10482)|null|
 |**2025-05-14**|**Neural Associative Skill Memories for safer robotics and modelling human sensorimotor repertoires**|Pranav Mahajan et.al.|[@2505.09760](http://arxiv.org/abs/2505.09760)|null|
