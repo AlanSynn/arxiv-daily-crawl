@@ -7,13 +7,16 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.05.21
+## 📚 Updated on 2025.05.22
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-21**|**A Deep Learning Framework for Two-Dimensional, Multi-Frequency Propagation Factor Estimation**|Sarah E. Wessinger et.al.|[@2505.15802](http://arxiv.org/abs/2505.15802)|null|
+|**2025-05-21**|**Lithium Intercalation in the Anisotropic van der Waals Magnetic Semiconductor CrSBr**|Kseniia Mosina et.al.|[@2505.15663](http://arxiv.org/abs/2505.15663)|null|
+|**2025-05-20**|**Coordinated motion control of a wire arc additive manufacturing robotic system for multi-directional building parts**|Fernando Coutinho et.al.|[@2505.14858](http://arxiv.org/abs/2505.14858)|null|
 |**2025-05-20**|**Handloom Design Generation Using Generative Networks**|Rajat Kanti Bhattacharjee et.al.|[@2505.14330](http://arxiv.org/abs/2505.14330)|null|
 |**2025-05-20**|**Multimodal RAG-driven Anomaly Detection and Classification in Laser Powder Bed Fusion using Large Language Models**|Kiarash Naghavi Khanghah et.al.|[@2505.13828](http://arxiv.org/abs/2505.13828)|null|
 |**2025-05-19**|**Symmetry-Driven Trimer Formation in Kagome Correlated Electron Materials**|Varsha Kumari et.al.|[@2505.13659](http://arxiv.org/abs/2505.13659)|null|
@@ -67,8 +70,12 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-21**|**HCRMP: A LLM-Hinted Contextual Reinforcement Learning Framework for Autonomous Driving**|Zhiwen Chen et.al.|[@2505.15793](http://arxiv.org/abs/2505.15793)|null|
+|**2025-05-21**|**EndoVLA: Dual-Phase Vision-Language-Action Model for Autonomous Tracking in Endoscopy**|Chi Kit Ng et.al.|[@2505.15206](http://arxiv.org/abs/2505.15206)|null|
+|**2025-05-21**|**Cascaded Diffusion Models for Neural Motion Planning**|Mohit Sharma et.al.|[@2505.15157](http://arxiv.org/abs/2505.15157)|null|
+|**2025-05-21**|**Shape-Adaptive Planning and Control for a Deformable Quadrotor**|Yuze Wu et.al.|[@2505.15010](http://arxiv.org/abs/2505.15010)|null|
 |**2025-05-20**|**Large-Scale Multi-Character Interaction Synthesis**|Ziyi Chang et.al.|[@2505.14087](http://arxiv.org/abs/2505.14087)|null|
-|**2025-05-20**|**MultiDrive: A Co-Simulation Framework Bridging 2D and 3D Driving Simulation for AV Software Validation**|Marc Kaufeld et.al.|[@2505.13959](http://arxiv.org/abs/2505.13959)|null|
+|**2025-05-20**|**MultiDrive: A Co-Simulation Framework Bridging 2D and 3D Driving Simulation for AV Software Validation**|Marc Kaufeld et.al.|[@2505.13959](http://arxiv.org/abs/2505.13959)|**[link](https://github.com/tum-avs/multidrive)**|
 |**2025-05-20**|**Certifiably Safe Manipulation of Deformable Linear Objects via Joint Shape and Tension Prediction**|Yiting Zhang et.al.|[@2505.13889](http://arxiv.org/abs/2505.13889)|null|
 |**2025-05-20**|**Duawlfin: A Drone with Unified Actuation for Wheeled Locomotion and Flight Operation**|Jerry Tang et.al.|[@2505.13836](http://arxiv.org/abs/2505.13836)|null|
 |**2025-05-19**|**Language Models Are Capable of Metacognitive Monitoring and Control of Their Internal Activations**|Li Ji-An et.al.|[@2505.13763](http://arxiv.org/abs/2505.13763)|null|
@@ -205,6 +212,8 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-21**|**FLARE: Robot Learning with Implicit World Modeling**|Ruijie Zheng et.al.|[@2505.15659](http://arxiv.org/abs/2505.15659)|null|
+|**2025-05-21**|**Saliency-Aware Quantized Imitation Learning for Efficient Robotic Control**|Seongmin Park et.al.|[@2505.15304](http://arxiv.org/abs/2505.15304)|null|
 |**2025-05-20**|**Toward Real-World Cooperative and Competitive Soccer with Quadrupedal Robot Teams**|Zhi Su et.al.|[@2505.13834](http://arxiv.org/abs/2505.13834)|null|
 |**2025-05-19**|**Dribble Master: Learning Agile Humanoid Dribbling Through Legged Locomotion**|Zhuoheng Wang et.al.|[@2505.12679](http://arxiv.org/abs/2505.12679)|null|
 |**2025-05-19**|**The Robot of Theseus: A modular robotic testbed for legged locomotion**|Karthik Urs et.al.|[@2505.12649](http://arxiv.org/abs/2505.12649)|null|
