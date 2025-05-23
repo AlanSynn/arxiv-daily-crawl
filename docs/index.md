@@ -7,13 +7,14 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.05.22
+## 📚 Updated on 2025.05.23
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-22**|**Accurate crystal field Hamiltonians of single-ion magnets at mean-field cost**|Linqing Peng et.al.|[@2505.16905](http://arxiv.org/abs/2505.16905)|null|
 |**2025-05-21**|**A Deep Learning Framework for Two-Dimensional, Multi-Frequency Propagation Factor Estimation**|Sarah E. Wessinger et.al.|[@2505.15802](http://arxiv.org/abs/2505.15802)|null|
 |**2025-05-21**|**Lithium Intercalation in the Anisotropic van der Waals Magnetic Semiconductor CrSBr**|Kseniia Mosina et.al.|[@2505.15663](http://arxiv.org/abs/2505.15663)|null|
 |**2025-05-20**|**Coordinated motion control of a wire arc additive manufacturing robotic system for multi-directional building parts**|Fernando Coutinho et.al.|[@2505.14858](http://arxiv.org/abs/2505.14858)|null|
@@ -70,7 +71,10 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2025-05-21**|**HCRMP: A LLM-Hinted Contextual Reinforcement Learning Framework for Autonomous Driving**|Zhiwen Chen et.al.|[@2505.15793](http://arxiv.org/abs/2505.15793)|null|
+|**2025-05-22**|**Advanced Integration Strategies for ESD Protection and Termination in High-Speed LVDS Systems**|Kavya Gaddipati et.al.|[@2505.16200](http://arxiv.org/abs/2505.16200)|null|
+|**2025-05-21**|**Extremum Seeking for PDE Systems using Physics-Informed Neural Networks**|Haojin Guo et.al.|[@2505.15972](http://arxiv.org/abs/2505.15972)|null|
+|**2025-05-21**|**Generative AI for Autonomous Driving: A Review**|Katharina Winter et.al.|[@2505.15863](http://arxiv.org/abs/2505.15863)|null|
+|**2025-05-22**|**HCRMP: A LLM-Hinted Contextual Reinforcement Learning Framework for Autonomous Driving**|Zhiwen Chen et.al.|[@2505.15793](http://arxiv.org/abs/2505.15793)|null|
 |**2025-05-21**|**EndoVLA: Dual-Phase Vision-Language-Action Model for Autonomous Tracking in Endoscopy**|Chi Kit Ng et.al.|[@2505.15206](http://arxiv.org/abs/2505.15206)|null|
 |**2025-05-21**|**Cascaded Diffusion Models for Neural Motion Planning**|Mohit Sharma et.al.|[@2505.15157](http://arxiv.org/abs/2505.15157)|null|
 |**2025-05-21**|**Shape-Adaptive Planning and Control for a Deformable Quadrotor**|Yuze Wu et.al.|[@2505.15010](http://arxiv.org/abs/2505.15010)|null|
@@ -212,6 +216,10 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-22**|**FlashBack: Consistency Model-Accelerated Shared Autonomy**|Luzhe Sun et.al.|[@2505.16892](http://arxiv.org/abs/2505.16892)|null|
+|**2025-05-22**|**BadVLA: Towards Backdoor Attacks on Vision-Language-Action Models via Objective-Decoupled Optimization**|Xueyang Zhou et.al.|[@2505.16640](http://arxiv.org/abs/2505.16640)|null|
+|**2025-05-22**|**Find the Fruit: Designing a Zero-Shot Sim2Real Deep RL Planner for Occlusion Aware Plant Manipulation**|Nitesh Subedi et.al.|[@2505.16547](http://arxiv.org/abs/2505.16547)|null|
+|**2025-05-21**|**Motion Priors Reimagined: Adapting Flat-Terrain Skills for Complex Quadruped Mobility**|Zewei Zhang et.al.|[@2505.16084](http://arxiv.org/abs/2505.16084)|null|
 |**2025-05-21**|**FLARE: Robot Learning with Implicit World Modeling**|Ruijie Zheng et.al.|[@2505.15659](http://arxiv.org/abs/2505.15659)|null|
 |**2025-05-21**|**Saliency-Aware Quantized Imitation Learning for Efficient Robotic Control**|Seongmin Park et.al.|[@2505.15304](http://arxiv.org/abs/2505.15304)|null|
 |**2025-05-20**|**Toward Real-World Cooperative and Competitive Soccer with Quadrupedal Robot Teams**|Zhi Su et.al.|[@2505.13834](http://arxiv.org/abs/2505.13834)|null|
