@@ -1,6 +1,6 @@
 # 📚 Archived Papers
 
-*Last updated: 2025-05-24*
+*Last updated: 2025-05-25*
 
 ## 📋 Table of Contents
 
