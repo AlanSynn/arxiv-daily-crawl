@@ -1,0 +1,121 @@
+"""ArXiv API client for fetching research papers."""
+
+import arxiv
+import requests
+import logging
+from typing import Dict, Tuple, Optional
+from datetime import date
+
+from ..utils.date_utils import format_authors
+
+
+class ArXivClient:
+    """Client for interacting with ArXiv API."""
+    
+    def __init__(self, base_url: str = "https://arxiv.paperswithcode.com/api/v0/papers/"):
+        self.base_url = base_url
+        self.arxiv_url = "http://arxiv.org/"
+    
+    def get_daily_papers(self, topic: str, query: str = "computational design", 
+                        max_results: int = 5) -> Tuple[Dict, Dict]:
+        """
+        Fetch papers from ArXiv for a given topic and query.
+        
+        Args:
+            topic: Research topic/category name
+            query: Search query string
+            max_results: Maximum number of results to fetch
+            
+        Returns:
+            Tuple of (content_dict, content_web_dict) containing paper data
+        """
+        content = {}
+        content_to_web = {}
+        
+        search_engine = arxiv.Search(
+            query=query,
+            max_results=max_results,
+            sort_by=arxiv.SortCriterion.SubmittedDate
+        )
+
+        for result in search_engine.results():
+            paper_data = self._process_paper_result(result)
+            if paper_data:
+                paper_key = paper_data['paper_key']
+                content[paper_key] = paper_data['content']
+                content_to_web[paper_key] = paper_data['content_web']
+
+        return {topic: content}, {topic: content_to_web}
+    
+    def _process_paper_result(self, result) -> Optional[Dict]:
+        """Process a single ArXiv result into structured data."""
+        try:
+            paper_id = result.get_short_id()
+            paper_title = result.title
+            paper_url = result.entry_id
+            code_url = self.base_url + paper_id
+            paper_abstract = result.summary.replace("\n", " ")
+            paper_authors = format_authors(result.authors)
+            paper_first_author = format_authors(result.authors, first_author=True)
+            publish_time = result.published.date()
+            update_time = result.updated.date()
+            comments = result.comment
+
+            logging.info(f"Processing: {update_time} - {paper_title} by {paper_first_author}")
+
+            # Clean paper ID (remove version info)
+            ver_pos = paper_id.find('v')
+            paper_key = paper_id[0:ver_pos] if ver_pos != -1 else paper_id
+            paper_url = f"{self.arxiv_url}abs/{paper_key}"
+
+            # Get code repository URL
+            repo_url = self._get_paper_code_url(code_url)
+            
+            # Generate content strings
+            content_data = self._generate_content_strings(
+                update_time, paper_title, paper_first_author, 
+                paper_key, paper_url, repo_url, paper_abstract
+            )
+            
+            return {
+                'paper_key': paper_key,
+                'content': content_data['content'],
+                'content_web': content_data['content_web']
+            }
+            
+        except Exception as e:
+            logging.error(f"Error processing paper {result.get_short_id()}: {e}")
+            return None
+    
+    def _get_paper_code_url(self, code_url: str) -> Optional[str]:
+        """Get code repository URL for a paper."""
+        try:
+            response = requests.get(code_url)
+            data = response.json()
+            
+            if "official" in data and data["official"]:
+                return data["official"]["url"]
+        except Exception as e:
+            logging.debug(f"Could not fetch code URL from {code_url}: {e}")
+        
+        return None
+    
+    def _generate_content_strings(self, update_time: date, paper_title: str, 
+                                 paper_first_author: str, paper_key: str,
+                                 paper_url: str, repo_url: Optional[str], 
+                                 paper_abstract: str) -> Dict[str, str]:
+        """Generate markdown content strings for paper."""
+        if repo_url:
+            content = (f"|**{update_time}**|**{paper_title}**|{paper_first_author} et.al.|"
+                      f"[@{paper_key}]({paper_url})|**[link]({repo_url})**|\\n")
+            content_web = (f"- {update_time}, **{paper_title}**, {paper_first_author} et.al., "
+                          f"Paper: [@{paper_key}]({paper_url}), Code: **[link]({repo_url})** \\n"
+                          f"> **Abstract:** {paper_abstract}\\n")
+        else:
+            content = (f"|**{update_time}**|**{paper_title}**|{paper_first_author} et.al.|"
+                      f"[@{paper_key}]({paper_url})|null|\\n")
+            content_web = (f"- {update_time}, **{paper_title}**, {paper_first_author} et.al., "
+                          f"Paper: [@{paper_key}]({paper_url}) \\n"
+                          f"> **Abstract:** {paper_abstract}\\n")
+        
+        return {'content': content, 'content_web': content_web}
