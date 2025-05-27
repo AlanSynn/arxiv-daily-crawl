@@ -7,13 +7,15 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.05.26
+## 📚 Updated on 2025.05.27
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-26**|**Optimizing edge AI models on HPC systems with the edge in the loop**|Marcel Aach et.al.|[@2505.19995](http://arxiv.org/abs/2505.19995)|null|
+|**2025-05-25**|**Passive Vibration Control of a 3-D Printer Gantry**|Maharshi A. Sharma et.al.|[@2505.19311](http://arxiv.org/abs/2505.19311)|null|
 |**2025-05-23**|**Cross-scale Modeling of Polymer Topology Impact on Extrudability through Molecular Dynamics and Computational Fluid Dynamics**|Yawei Gao et.al.|[@2505.17396](http://arxiv.org/abs/2505.17396)|null|
 |**2025-05-22**|**Accurate crystal field Hamiltonians of single-ion magnets at mean-field cost**|Linqing Peng et.al.|[@2505.16905](http://arxiv.org/abs/2505.16905)|null|
 |**2025-05-21**|**A Deep Learning Framework for Two-Dimensional, Multi-Frequency Propagation Factor Estimation**|Sarah E. Wessinger et.al.|[@2505.15802](http://arxiv.org/abs/2505.15802)|null|
@@ -72,8 +74,14 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-26**|**GeoPF: Infusing Geometry into Potential Fields for Reactive Planning in Non-trivial Environments**|Yuhe Gong et.al.|[@2505.19688](http://arxiv.org/abs/2505.19688)|null|
+|**2025-05-26**|**Eliciting Informed Preferences**|Modibo K. Camara et.al.|[@2505.19570](http://arxiv.org/abs/2505.19570)|null|
+|**2025-05-26**|**Approximately Optimal Mechanism Design for Competing Sellers**|Brendan Lucier et.al.|[@2505.19453](http://arxiv.org/abs/2505.19453)|null|
+|**2025-05-25**|**Communication-Efficient Multi-Device Inference Acceleration for Transformer Models**|Xiao Liu et.al.|[@2505.19342](http://arxiv.org/abs/2505.19342)|null|
+|**2025-05-24**|**One Policy but Many Worlds: A Scalable Unified Policy for Versatile Humanoid Locomotion**|Yahao Fan et.al.|[@2505.18780](http://arxiv.org/abs/2505.18780)|null|
+|**2025-05-23**|**One Demo Is All It Takes: Planning Domain Derivation with LLMs from A Single Demonstration**|Jinbang Huang et.al.|[@2505.18382](http://arxiv.org/abs/2505.18382)|null|
 |**2025-05-23**|**Automata Learning of Preferences over Temporal Logic Formulas from Pairwise Comparisons**|Hazhar Rahmani et.al.|[@2505.18030](http://arxiv.org/abs/2505.18030)|null|
-|**2025-05-23**|**Transaction Fee Mechanism Design for Leaderless Blockchain Protocols**|Pranav Garimidi et.al.|[@2505.17885](http://arxiv.org/abs/2505.17885)|null|
+|**2025-05-26**|**Transaction Fee Mechanism Design for Leaderless Blockchain Protocols**|Pranav Garimidi et.al.|[@2505.17885](http://arxiv.org/abs/2505.17885)|null|
 |**2025-05-22**|**LiloDriver: A Lifelong Learning Framework for Closed-loop Motion Planning in Long-tail Autonomous Driving Scenarios**|Huaiyuan Yao et.al.|[@2505.17209](http://arxiv.org/abs/2505.17209)|null|
 |**2025-05-22**|**Advanced Integration Strategies for ESD Protection and Termination in High-Speed LVDS Systems**|Kavya Gaddipati et.al.|[@2505.16200](http://arxiv.org/abs/2505.16200)|null|
 |**2025-05-21**|**Extremum Seeking for PDE Systems using Physics-Informed Neural Networks**|Haojin Guo et.al.|[@2505.15972](http://arxiv.org/abs/2505.15972)|null|
@@ -220,6 +228,10 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-26**|**EMAC+: Embodied Multimodal Agent for Collaborative Planning with VLM+LLM**|Shuang Ao et.al.|[@2505.19905](http://arxiv.org/abs/2505.19905)|null|
+|**2025-05-25**|**Omni-Perception: Omnidirectional Collision Avoidance for Legged Locomotion in Dynamic Environments**|Zifan Wang et.al.|[@2505.19214](http://arxiv.org/abs/2505.19214)|null|
+|**2025-05-24**|**GenPO: Generative Diffusion Models Meet On-Policy Reinforcement Learning**|Shutong Ding et.al.|[@2505.18763](http://arxiv.org/abs/2505.18763)|null|
+|**2025-05-23**|**LA-RCS: LLM-Agent-Based Robot Control System**|TaekHyun Park et.al.|[@2505.18214](http://arxiv.org/abs/2505.18214)|null|
 |**2025-05-23**|**Imagine Beyond! Distributionally Robust Auto-Encoding for State Space Coverage in Online Reinforcement Learning**|Nicolas Castanet et.al.|[@2505.17830](http://arxiv.org/abs/2505.17830)|null|
 |**2025-05-23**|**PPO-BR: Dual-Signal Entropy-Reward Adaptation for Trust Region Policy Optimization**|Ben Rahman et.al.|[@2505.17714](http://arxiv.org/abs/2505.17714)|null|
 |**2025-05-23**|**H2-COMPACT: Human-Humanoid Co-Manipulation via Adaptive Contact Trajectory Policies**|Geeta Chandra Raju Bethala et.al.|[@2505.17627](http://arxiv.org/abs/2505.17627)|null|
