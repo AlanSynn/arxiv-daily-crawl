@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.05.28
+## 📚 Updated on 2025.05.29
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
@@ -76,11 +76,13 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-28**|**Mastering Agile Tasks with Limited Trials**|Yihang Hu et.al.|[@2505.21916](http://arxiv.org/abs/2505.21916)|null|
+|**2025-05-28**|**UniMoGen: Universal Motion Generation**|Aliasghar Khani et.al.|[@2505.21837](http://arxiv.org/abs/2505.21837)|null|
 |**2025-05-27**|**Collision Probability Estimation for Optimization-based Vehicular Motion Planning**|Leon Tolksdorf et.al.|[@2505.21161](http://arxiv.org/abs/2505.21161)|null|
 |**2025-05-27**|**RefAV: Towards Planning-Centric Scenario Mining**|Cainan Davidson et.al.|[@2505.20981](http://arxiv.org/abs/2505.20981)|null|
 |**2025-05-26**|**CoRI: Synthesizing Communication of Robot Intent for Physical Human-Robot Interaction**|Junxiang Wang et.al.|[@2505.20537](http://arxiv.org/abs/2505.20537)|null|
 |**2025-05-26**|**MotionPro: A Precise Motion Controller for Image-to-Video Generation**|Zhongwei Zhang et.al.|[@2505.20287](http://arxiv.org/abs/2505.20287)|null|
-|**2025-05-26**|**AniCrafter: Customizing Realistic Human-Centric Animation via Avatar-Background Conditioning in Video Diffusion Models**|Muyao Niu et.al.|[@2505.20255](http://arxiv.org/abs/2505.20255)|null|
+|**2025-05-26**|**AniCrafter: Customizing Realistic Human-Centric Animation via Avatar-Background Conditioning in Video Diffusion Models**|Muyao Niu et.al.|[@2505.20255](http://arxiv.org/abs/2505.20255)|**[link](https://github.com/myniuuu/anicrafter)**|
 |**2025-05-26**|**URPlanner: A Universal Paradigm For Collision-Free Robotic Motion Planning Based on Deep Reinforcement Learning**|Fengkang Ying et.al.|[@2505.20175](http://arxiv.org/abs/2505.20175)|null|
 |**2025-05-26**|**GeoPF: Infusing Geometry into Potential Fields for Reactive Planning in Non-trivial Environments**|Yuhe Gong et.al.|[@2505.19688](http://arxiv.org/abs/2505.19688)|null|
 |**2025-05-26**|**Eliciting Informed Preferences**|Modibo K. Camara et.al.|[@2505.19570](http://arxiv.org/abs/2505.19570)|null|
@@ -236,6 +238,10 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-05-28**|**ForceVLA: Enhancing VLA Models with a Force-aware MoE for Contact-rich Manipulation**|Jiawen Yu et.al.|[@2505.22159](http://arxiv.org/abs/2505.22159)|null|
+|**2025-05-28**|**ReinFlow: Fine-tuning Flow Matching Policy with Online Reinforcement Learning**|Tonghe Zhang et.al.|[@2505.22094](http://arxiv.org/abs/2505.22094)|null|
+|**2025-05-28**|**Streaming Flow Policy: Simplifying diffusion $/$ flow-matching policies by treating action trajectories as flow trajectories**|Sunshine Jiang et.al.|[@2505.21851](http://arxiv.org/abs/2505.21851)|null|
+|**2025-05-27**|**Right Side Up? Disentangling Orientation Understanding in MLLMs with Fine-grained Multi-axis Perception Tasks**|Keanu Nichols et.al.|[@2505.21649](http://arxiv.org/abs/2505.21649)|null|
 |**2025-05-27**|**Hume: Introducing System-2 Thinking in Visual-Language-Action Model**|Haoming Song et.al.|[@2505.21432](http://arxiv.org/abs/2505.21432)|null|
 |**2025-05-27**|**Think Twice, Act Once: Token-Aware Compression and Action Reuse for Efficient Inference in Vision-Language-Action Models**|Xudong Tan et.al.|[@2505.21200](http://arxiv.org/abs/2505.21200)|null|
 |**2025-05-26**|**Collision- and Reachability-Aware Multi-Robot Control with Grounded LLM Planners**|Jiabao Ji et.al.|[@2505.20573](http://arxiv.org/abs/2505.20573)|null|
