@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.06.01
+## 📚 Updated on 2025.06.02
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -21,21 +21,21 @@
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
-|**2025-05-29**|**GenCAD-Self-Repairing: Feasibility Enhancement for 3D CAD Generation**|Chikaha Tsuji et.al.|[@2505.23287](http://arxiv.org/abs/2505.23287)|null|
-|**2025-05-27**|**THE WASTIVE: An Interactive Ebb and Flow of Digital Fabrication Waste**|Yifan Shan et.al.|[@2505.21153](http://arxiv.org/abs/2505.21153)|null|
-|**2025-05-20**|**Large Language Model-Powered Decision Support for a Metal Additive Manufacturing Knowledge Graph**|Muhammad Tayyab Khan et.al.|[@2505.20308](http://arxiv.org/abs/2505.20308)|null|
-|**2025-05-26**|**Optimizing edge AI models on HPC systems with the edge in the loop**|Marcel Aach et.al.|[@2505.19995](http://arxiv.org/abs/2505.19995)|null|
-|**2025-05-25**|**Passive Vibration Control of a 3-D Printer Gantry**|Maharshi A. Sharma et.al.|[@2505.19311](http://arxiv.org/abs/2505.19311)|null|
-|**2025-05-23**|**Cross-scale Modeling of Polymer Topology Impact on Extrudability through Molecular Dynamics and Computational Fluid Dynamics**|Yawei Gao et.al.|[@2505.17396](http://arxiv.org/abs/2505.17396)|null|
-|**2025-05-22**|**Accurate crystal field Hamiltonians of single-ion magnets at mean-field cost**|Linqing Peng et.al.|[@2505.16905](http://arxiv.org/abs/2505.16905)|null|
-|**2025-05-21**|**A Deep Learning Framework for Two-Dimensional, Multi-Frequency Propagation Factor Estimation**|Sarah E. Wessinger et.al.|[@2505.15802](http://arxiv.org/abs/2505.15802)|null|
-|**2025-05-21**|**Lithium Intercalation in the Anisotropic van der Waals Magnetic Semiconductor CrSBr**|Kseniia Mosina et.al.|[@2505.15663](http://arxiv.org/abs/2505.15663)|null|
-|**2025-05-20**|**Coordinated motion control of a wire arc additive manufacturing robotic system for multi-directional building parts**|Fernando Coutinho et.al.|[@2505.14858](http://arxiv.org/abs/2505.14858)|null|
-|**2025-05-20**|**Handloom Design Generation Using Generative Networks**|Rajat Kanti Bhattacharjee et.al.|[@2505.14330](http://arxiv.org/abs/2505.14330)|null|
-|**2025-05-20**|**Multimodal RAG-driven Anomaly Detection and Classification in Laser Powder Bed Fusion using Large Language Models**|Kiarash Naghavi Khanghah et.al.|[@2505.13828](http://arxiv.org/abs/2505.13828)|null|
-|**2025-05-19**|**Symmetry-Driven Trimer Formation in Kagome Correlated Electron Materials**|Varsha Kumari et.al.|[@2505.13659](http://arxiv.org/abs/2505.13659)|null|
-|**2025-05-18**|**Engineering application of physics-informed neural networks for Saint-Venant torsion**|Su Yeong Jo et.al.|[@2505.12389](http://arxiv.org/abs/2505.12389)|null|
-|**2025-05-17**|**Generating Digital Models Using Text-to-3D and Image-to-3D Prompts: Critical Case Study**|Rushan Ziatdinov et.al.|[@2505.11799](http://arxiv.org/abs/2505.11799)|null|
+|**2025-05-29**|**GenCAD-Self-Repairing: Feasibility Enhancement for 3D CAD Generation**|Chikaha Tsuji et.al.|2505.23287|null|
+|**2025-05-27**|**THE WASTIVE: An Interactive Ebb and Flow of Digital Fabrication Waste**|Yifan Shan et.al.|2505.21153|null|
+|**2025-05-20**|**Large Language Model-Powered Decision Support for a Metal Additive Manufacturing Knowledge Graph**|Muhammad Tayyab Khan et.al.|2505.20308|null|
+|**2025-05-26**|**Optimizing edge AI models on HPC systems with the edge in the loop**|Marcel Aach et.al.|2505.19995|**[link](https://github.com/flanders-make-vzw/hpc2edge)**|
+|**2025-05-25**|**Passive Vibration Control of a 3-D Printer Gantry**|Maharshi A. Sharma et.al.|2505.19311|null|
+|**2025-05-23**|**Cross-scale Modeling of Polymer Topology Impact on Extrudability through Molecular Dynamics and Computational Fluid Dynamics**|Yawei Gao et.al.|2505.17396|null|
+|**2025-05-22**|**Accurate crystal field Hamiltonians of single-ion magnets at mean-field cost**|Linqing Peng et.al.|2505.16905|null|
+|**2025-05-21**|**A Deep Learning Framework for Two-Dimensional, Multi-Frequency Propagation Factor Estimation**|Sarah E. Wessinger et.al.|2505.15802|null|
+|**2025-05-21**|**Lithium Intercalation in the Anisotropic van der Waals Magnetic Semiconductor CrSBr**|Kseniia Mosina et.al.|2505.15663|null|
+|**2025-05-20**|**Coordinated motion control of a wire arc additive manufacturing robotic system for multi-directional building parts**|Fernando Coutinho et.al.|2505.14858|null|
+|**2025-05-20**|**Handloom Design Generation Using Generative Networks**|Rajat Kanti Bhattacharjee et.al.|2505.14330|null|
+|**2025-05-20**|**Multimodal RAG-driven Anomaly Detection and Classification in Laser Powder Bed Fusion using Large Language Models**|Kiarash Naghavi Khanghah et.al.|2505.13828|null|
+|**2025-05-19**|**Symmetry-Driven Trimer Formation in Kagome Correlated Electron Materials**|Varsha Kumari et.al.|2505.13659|null|
+|**2025-05-18**|**Engineering application of physics-informed neural networks for Saint-Venant torsion**|Su Yeong Jo et.al.|2505.12389|null|
+|**2025-05-17**|**Generating Digital Models Using Text-to-3D and Image-to-3D Prompts: Critical Case Study**|Rushan Ziatdinov et.al.|2505.11799|null|
 |**2025-05-13**|**Generative Molecular Design with Steerable and Granular Synthesizability Control**|Jeff Guo et.al.|2505.08774|**[link](https://github.com/schwallergroup/saturn)**|
 |**2025-05-12**|**Implicit Toolpath Generation for Functionally Graded Additive Manufacturing via Gradient-Aware Slicing**|Charles Wade et.al.|2505.08093|null|
 |**2025-05-12**|**Mapping of Microstructure Transitions during Rapid Alloy Solidification Using Bayesian-Guided Phase-Field Simulations**|José Mancias et.al.|2505.07752|null|
@@ -80,36 +80,36 @@
 |**2025-03-21**|**Understanding Social Support Needs in Questions: A Hybrid Approach Integrating Semi-Supervised Learning and LLM-based Data Augmentation**|Junwei Kuang et.al.|2503.17421|null|
 |**2025-03-21**|**Multi-property directed generative design of inorganic materials through Wyckoff-augmented transfer learning**|Shuya Yamazaki et.al.|2503.16784|null|
 
-<p align=right>(<a href=#Updated-on-20250601>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250602>back to top</a>)</p>
 
 ## Mechanics, Kinematics & Motion Synthesis
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
-|**2025-05-28**|**Mastering Agile Tasks with Limited Trials**|Yihang Hu et.al.|[@2505.21916](http://arxiv.org/abs/2505.21916)|null|
-|**2025-05-28**|**UniMoGen: Universal Motion Generation**|Aliasghar Khani et.al.|[@2505.21837](http://arxiv.org/abs/2505.21837)|null|
-|**2025-05-27**|**Collision Probability Estimation for Optimization-based Vehicular Motion Planning**|Leon Tolksdorf et.al.|[@2505.21161](http://arxiv.org/abs/2505.21161)|null|
-|**2025-05-27**|**RefAV: Towards Planning-Centric Scenario Mining**|Cainan Davidson et.al.|[@2505.20981](http://arxiv.org/abs/2505.20981)|null|
-|**2025-05-26**|**CoRI: Synthesizing Communication of Robot Intent for Physical Human-Robot Interaction**|Junxiang Wang et.al.|[@2505.20537](http://arxiv.org/abs/2505.20537)|null|
-|**2025-05-26**|**MotionPro: A Precise Motion Controller for Image-to-Video Generation**|Zhongwei Zhang et.al.|[@2505.20287](http://arxiv.org/abs/2505.20287)|null|
-|**2025-05-26**|**AniCrafter: Customizing Realistic Human-Centric Animation via Avatar-Background Conditioning in Video Diffusion Models**|Muyao Niu et.al.|[@2505.20255](http://arxiv.org/abs/2505.20255)|**[link](https://github.com/myniuuu/anicrafter)**|
-|**2025-05-26**|**URPlanner: A Universal Paradigm For Collision-Free Robotic Motion Planning Based on Deep Reinforcement Learning**|Fengkang Ying et.al.|[@2505.20175](http://arxiv.org/abs/2505.20175)|null|
-|**2025-05-26**|**GeoPF: Infusing Geometry into Potential Fields for Reactive Planning in Non-trivial Environments**|Yuhe Gong et.al.|[@2505.19688](http://arxiv.org/abs/2505.19688)|null|
-|**2025-05-26**|**Eliciting Informed Preferences**|Modibo K. Camara et.al.|[@2505.19570](http://arxiv.org/abs/2505.19570)|null|
-|**2025-05-26**|**Approximately Optimal Mechanism Design for Competing Sellers**|Brendan Lucier et.al.|[@2505.19453](http://arxiv.org/abs/2505.19453)|null|
-|**2025-05-25**|**Communication-Efficient Multi-Device Inference Acceleration for Transformer Models**|Xiao Liu et.al.|[@2505.19342](http://arxiv.org/abs/2505.19342)|null|
-|**2025-05-24**|**One Policy but Many Worlds: A Scalable Unified Policy for Versatile Humanoid Locomotion**|Yahao Fan et.al.|[@2505.18780](http://arxiv.org/abs/2505.18780)|null|
-|**2025-05-23**|**One Demo Is All It Takes: Planning Domain Derivation with LLMs from A Single Demonstration**|Jinbang Huang et.al.|[@2505.18382](http://arxiv.org/abs/2505.18382)|null|
-|**2025-05-23**|**Automata Learning of Preferences over Temporal Logic Formulas from Pairwise Comparisons**|Hazhar Rahmani et.al.|[@2505.18030](http://arxiv.org/abs/2505.18030)|null|
-|**2025-05-26**|**Transaction Fee Mechanism Design for Leaderless Blockchain Protocols**|Pranav Garimidi et.al.|[@2505.17885](http://arxiv.org/abs/2505.17885)|null|
-|**2025-05-22**|**LiloDriver: A Lifelong Learning Framework for Closed-loop Motion Planning in Long-tail Autonomous Driving Scenarios**|Huaiyuan Yao et.al.|[@2505.17209](http://arxiv.org/abs/2505.17209)|null|
-|**2025-05-22**|**Advanced Integration Strategies for ESD Protection and Termination in High-Speed LVDS Systems**|Kavya Gaddipati et.al.|[@2505.16200](http://arxiv.org/abs/2505.16200)|null|
-|**2025-05-21**|**Extremum Seeking for PDE Systems using Physics-Informed Neural Networks**|Haojin Guo et.al.|[@2505.15972](http://arxiv.org/abs/2505.15972)|null|
-|**2025-05-21**|**Generative AI for Autonomous Driving: A Review**|Katharina Winter et.al.|[@2505.15863](http://arxiv.org/abs/2505.15863)|null|
-|**2025-05-22**|**HCRMP: A LLM-Hinted Contextual Reinforcement Learning Framework for Autonomous Driving**|Zhiwen Chen et.al.|[@2505.15793](http://arxiv.org/abs/2505.15793)|null|
-|**2025-05-21**|**EndoVLA: Dual-Phase Vision-Language-Action Model for Autonomous Tracking in Endoscopy**|Chi Kit Ng et.al.|[@2505.15206](http://arxiv.org/abs/2505.15206)|null|
-|**2025-05-21**|**Cascaded Diffusion Models for Neural Motion Planning**|Mohit Sharma et.al.|[@2505.15157](http://arxiv.org/abs/2505.15157)|null|
-|**2025-05-21**|**Shape-Adaptive Planning and Control for a Deformable Quadrotor**|Yuze Wu et.al.|[@2505.15010](http://arxiv.org/abs/2505.15010)|null|
+|**2025-05-28**|**Mastering Agile Tasks with Limited Trials**|Yihang Hu et.al.|2505.21916|null|
+|**2025-05-28**|**UniMoGen: Universal Motion Generation**|Aliasghar Khani et.al.|2505.21837|null|
+|**2025-05-27**|**Collision Probability Estimation for Optimization-based Vehicular Motion Planning**|Leon Tolksdorf et.al.|2505.21161|**[link](https://github.com/Tolksdorf/Collision-Probaility-Estimation)**|
+|**2025-05-27**|**RefAV: Towards Planning-Centric Scenario Mining**|Cainan Davidson et.al.|2505.20981|**[link](https://github.com/cainand/refav)**|
+|**2025-05-26**|**CoRI: Synthesizing Communication of Robot Intent for Physical Human-Robot Interaction**|Junxiang Wang et.al.|2505.20537|null|
+|**2025-05-26**|**MotionPro: A Precise Motion Controller for Image-to-Video Generation**|Zhongwei Zhang et.al.|2505.20287|null|
+|**2025-05-26**|**AniCrafter: Customizing Realistic Human-Centric Animation via Avatar-Background Conditioning in Video Diffusion Models**|Muyao Niu et.al.|2505.20255|**[link](https://github.com/myniuuu/anicrafter)**|
+|**2025-05-26**|**URPlanner: A Universal Paradigm For Collision-Free Robotic Motion Planning Based on Deep Reinforcement Learning**|Fengkang Ying et.al.|2505.20175|null|
+|**2025-05-26**|**GeoPF: Infusing Geometry into Potential Fields for Reactive Planning in Non-trivial Environments**|Yuhe Gong et.al.|2505.19688|null|
+|**2025-05-26**|**Eliciting Informed Preferences**|Modibo K. Camara et.al.|2505.19570|null|
+|**2025-05-26**|**Approximately Optimal Mechanism Design for Competing Sellers**|Brendan Lucier et.al.|2505.19453|null|
+|**2025-05-25**|**Communication-Efficient Multi-Device Inference Acceleration for Transformer Models**|Xiao Liu et.al.|2505.19342|**[link](https://github.com/xl1990/astra)**|
+|**2025-05-24**|**One Policy but Many Worlds: A Scalable Unified Policy for Versatile Humanoid Locomotion**|Yahao Fan et.al.|2505.18780|null|
+|**2025-05-23**|**One Demo Is All It Takes: Planning Domain Derivation with LLMs from A Single Demonstration**|Jinbang Huang et.al.|2505.18382|null|
+|**2025-05-23**|**Automata Learning of Preferences over Temporal Logic Formulas from Pairwise Comparisons**|Hazhar Rahmani et.al.|2505.18030|null|
+|**2025-05-26**|**Transaction Fee Mechanism Design for Leaderless Blockchain Protocols**|Pranav Garimidi et.al.|2505.17885|null|
+|**2025-05-22**|**LiloDriver: A Lifelong Learning Framework for Closed-loop Motion Planning in Long-tail Autonomous Driving Scenarios**|Huaiyuan Yao et.al.|2505.17209|**[link](https://github.com/hyan-yao/lilodriver)**|
+|**2025-05-22**|**Advanced Integration Strategies for ESD Protection and Termination in High-Speed LVDS Systems**|Kavya Gaddipati et.al.|2505.16200|null|
+|**2025-05-21**|**Extremum Seeking for PDE Systems using Physics-Informed Neural Networks**|Haojin Guo et.al.|2505.15972|null|
+|**2025-05-21**|**Generative AI for Autonomous Driving: A Review**|Katharina Winter et.al.|2505.15863|null|
+|**2025-05-22**|**HCRMP: A LLM-Hinted Contextual Reinforcement Learning Framework for Autonomous Driving**|Zhiwen Chen et.al.|2505.15793|null|
+|**2025-05-21**|**EndoVLA: Dual-Phase Vision-Language-Action Model for Autonomous Tracking in Endoscopy**|Chi Kit Ng et.al.|2505.15206|null|
+|**2025-05-21**|**Cascaded Diffusion Models for Neural Motion Planning**|Mohit Sharma et.al.|2505.15157|null|
+|**2025-05-21**|**Shape-Adaptive Planning and Control for a Deformable Quadrotor**|Yuze Wu et.al.|2505.15010|null|
 |**2025-05-20**|**Large-Scale Multi-Character Interaction Synthesis**|Ziyi Chang et.al.|2505.14087|null|
 |**2025-05-20**|**MultiDrive: A Co-Simulation Framework Bridging 2D and 3D Driving Simulation for AV Software Validation**|Marc Kaufeld et.al.|2505.13959|**[link](https://github.com/tum-avs/multidrive)**|
 |**2025-05-20**|**Certifiably Safe Manipulation of Deformable Linear Objects via Joint Shape and Tension Prediction**|Yiting Zhang et.al.|2505.13889|null|
@@ -195,7 +195,7 @@
 |**2025-04-21**|**RealisDance-DiT: Simple yet Strong Baseline towards Controllable Character Animation in the Wild**|Jingkai Zhou et.al.|2504.14977|null|
 |**2025-04-21**|**Mechanism Design for Auctions with Externalities on Budgets**|Yusen Zheng et.al.|2504.14948|null|
 |**2025-04-21**|**A level set topology optimization theory based on Hamilton's principle**|Jan Oellerich et.al.|2504.14892|null|
-|**2025-04-20**|**BiDexHand: Design and Evaluation of an Open-Source 16-DoF Biomimetic Dexterous Hand**|Zhengyang Kris Weng et.al.|2504.14712|null|
+|**2025-04-20**|**BiDexHand: Design and Evaluation of an Open-Source 16-DoF Biomimetic Dexterous Hand**|Zhengyang Kris Weng et.al.|2504.14712|**[link](https://github.com/wengmister/BiDexHand)**|
 |**2025-04-20**|**An LLM-enabled Multi-Agent Autonomous Mechatronics Design Framework**|Zeyu Wang et.al.|2504.14681|null|
 |**2025-04-18**|**Robot Navigation in Dynamic Environments using Acceleration Obstacles**|Asher Stern et.al.|2504.13637|null|
 |**2025-04-18**|**An Addendum to NeBula: Towards Extending TEAM CoSTAR's Solution to Larger Scale Environments**|Ali Agha et.al.|2504.13461|null|
@@ -215,7 +215,7 @@
 |**2025-04-11**|**Tactile sensing enables vertical obstacle negotiation for elongate many-legged robots**|Juntao He et.al.|2504.08615|null|
 |**2025-04-11**|**A proposal of a concept for a balanced internal combustion engine configuration**|István Gere et.al.|2504.08423|null|
 |**2025-04-14**|**RINGO: Real-time Navigation with a Guiding Trajectory for Aerial Manipulators in Unknown Environments**|Zhaopeng Zhang et.al.|2504.08338|null|
-|**2025-04-11**|**Interior Point Differential Dynamic Programming, Redux**|Ming Xu et.al.|2504.08278|null|
+|**2025-04-11**|**Interior Point Differential Dynamic Programming, Redux**|Ming Xu et.al.|2504.08278|**[link](https://github.com/mingu6/interiorpointddp.jl)**|
 |**2025-04-10**|**ChildlikeSHAPES: Semantic Hierarchical Region Parsing for Animating Figure Drawings**|Astitva Srivastava et.al.|2504.08022|null|
 |**2025-04-10**|**Efficient Swept Volume-Based Trajectory Generation for Arbitrary-Shaped Ground Robot Navigation**|Yisheng Li et.al.|2504.07554|null|
 |**2025-04-09**|**Bridging Deep Reinforcement Learning and Motion Planning for Model-Free Navigation in Cluttered Environments**|Licheng Luo et.al.|2504.07283|null|
@@ -244,35 +244,35 @@
 |**2025-03-31**|**Less is More: Contextual Sampling for Nonlinear Data-Enabled Predictive Control**|Julius Beerwerth et.al.|2503.23890|null|
 |**2025-03-31**|**A Survey of Reinforcement Learning-Based Motion Planning for Autonomous Driving: Lessons Learned from a Driving Task Perspective**|Zhuoren Li et.al.|2503.23650|null|
 
-<p align=right>(<a href=#Updated-on-20250601>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250602>back to top</a>)</p>
 
 ## Robotics: Design, Control & Learning
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
-|**2025-05-29**|**Eye-tracking-Driven Shared Control for Robotic Arms:Wizard of Oz Studies to Assess Design Choices**|Anke Fischer-Janzen et.al.|[@2505.23147](http://arxiv.org/abs/2505.23147)|null|
-|**2025-05-28**|**ForceVLA: Enhancing VLA Models with a Force-aware MoE for Contact-rich Manipulation**|Jiawen Yu et.al.|[@2505.22159](http://arxiv.org/abs/2505.22159)|null|
-|**2025-05-29**|**ReinFlow: Fine-tuning Flow Matching Policy with Online Reinforcement Learning**|Tonghe Zhang et.al.|[@2505.22094](http://arxiv.org/abs/2505.22094)|null|
-|**2025-05-28**|**Streaming Flow Policy: Simplifying diffusion $/$ flow-matching policies by treating action trajectories as flow trajectories**|Sunshine Jiang et.al.|[@2505.21851](http://arxiv.org/abs/2505.21851)|null|
-|**2025-05-29**|**Right Side Up? Disentangling Orientation Understanding in MLLMs with Fine-grained Multi-axis Perception Tasks**|Keanu Nichols et.al.|[@2505.21649](http://arxiv.org/abs/2505.21649)|null|
-|**2025-05-29**|**Hume: Introducing System-2 Thinking in Visual-Language-Action Model**|Haoming Song et.al.|[@2505.21432](http://arxiv.org/abs/2505.21432)|null|
-|**2025-05-27**|**Think Twice, Act Once: Token-Aware Compression and Action Reuse for Efficient Inference in Vision-Language-Action Models**|Xudong Tan et.al.|[@2505.21200](http://arxiv.org/abs/2505.21200)|null|
-|**2025-05-26**|**Collision- and Reachability-Aware Multi-Robot Control with Grounded LLM Planners**|Jiabao Ji et.al.|[@2505.20573](http://arxiv.org/abs/2505.20573)|null|
-|**2025-05-26**|**Decision Flow Policy Optimization**|Jifeng Hu et.al.|[@2505.20350](http://arxiv.org/abs/2505.20350)|null|
-|**2025-05-26**|**EMAC+: Embodied Multimodal Agent for Collaborative Planning with VLM+LLM**|Shuang Ao et.al.|[@2505.19905](http://arxiv.org/abs/2505.19905)|null|
-|**2025-05-25**|**Omni-Perception: Omnidirectional Collision Avoidance for Legged Locomotion in Dynamic Environments**|Zifan Wang et.al.|[@2505.19214](http://arxiv.org/abs/2505.19214)|null|
-|**2025-05-24**|**GenPO: Generative Diffusion Models Meet On-Policy Reinforcement Learning**|Shutong Ding et.al.|[@2505.18763](http://arxiv.org/abs/2505.18763)|null|
-|**2025-05-23**|**LA-RCS: LLM-Agent-Based Robot Control System**|TaekHyun Park et.al.|[@2505.18214](http://arxiv.org/abs/2505.18214)|null|
-|**2025-05-23**|**Imagine Beyond! Distributionally Robust Auto-Encoding for State Space Coverage in Online Reinforcement Learning**|Nicolas Castanet et.al.|[@2505.17830](http://arxiv.org/abs/2505.17830)|null|
-|**2025-05-23**|**PPO-BR: Dual-Signal Entropy-Reward Adaptation for Trust Region Policy Optimization**|Ben Rahman et.al.|[@2505.17714](http://arxiv.org/abs/2505.17714)|null|
-|**2025-05-23**|**H2-COMPACT: Human-Humanoid Co-Manipulation via Adaptive Contact Trajectory Policies**|Geeta Chandra Raju Bethala et.al.|[@2505.17627](http://arxiv.org/abs/2505.17627)|null|
-|**2025-05-22**|**FlashBack: Consistency Model-Accelerated Shared Autonomy**|Luzhe Sun et.al.|[@2505.16892](http://arxiv.org/abs/2505.16892)|null|
-|**2025-05-22**|**BadVLA: Towards Backdoor Attacks on Vision-Language-Action Models via Objective-Decoupled Optimization**|Xueyang Zhou et.al.|[@2505.16640](http://arxiv.org/abs/2505.16640)|null|
-|**2025-05-22**|**Find the Fruit: Designing a Zero-Shot Sim2Real Deep RL Planner for Occlusion Aware Plant Manipulation**|Nitesh Subedi et.al.|[@2505.16547](http://arxiv.org/abs/2505.16547)|null|
-|**2025-05-21**|**Motion Priors Reimagined: Adapting Flat-Terrain Skills for Complex Quadruped Mobility**|Zewei Zhang et.al.|[@2505.16084](http://arxiv.org/abs/2505.16084)|null|
-|**2025-05-21**|**FLARE: Robot Learning with Implicit World Modeling**|Ruijie Zheng et.al.|[@2505.15659](http://arxiv.org/abs/2505.15659)|null|
-|**2025-05-21**|**Saliency-Aware Quantized Imitation Learning for Efficient Robotic Control**|Seongmin Park et.al.|[@2505.15304](http://arxiv.org/abs/2505.15304)|null|
-|**2025-05-20**|**Toward Real-World Cooperative and Competitive Soccer with Quadrupedal Robot Teams**|Zhi Su et.al.|[@2505.13834](http://arxiv.org/abs/2505.13834)|null|
+|**2025-05-29**|**Eye-tracking-Driven Shared Control for Robotic Arms:Wizard of Oz Studies to Assess Design Choices**|Anke Fischer-Janzen et.al.|2505.23147|null|
+|**2025-05-28**|**ForceVLA: Enhancing VLA Models with a Force-aware MoE for Contact-rich Manipulation**|Jiawen Yu et.al.|2505.22159|null|
+|**2025-05-29**|**ReinFlow: Fine-tuning Flow Matching Policy with Online Reinforcement Learning**|Tonghe Zhang et.al.|2505.22094|null|
+|**2025-05-28**|**Streaming Flow Policy: Simplifying diffusion $/$ flow-matching policies by treating action trajectories as flow trajectories**|Sunshine Jiang et.al.|2505.21851|null|
+|**2025-05-29**|**Right Side Up? Disentangling Orientation Understanding in MLLMs with Fine-grained Multi-axis Perception Tasks**|Keanu Nichols et.al.|2505.21649|null|
+|**2025-05-29**|**Hume: Introducing System-2 Thinking in Visual-Language-Action Model**|Haoming Song et.al.|2505.21432|null|
+|**2025-05-27**|**Think Twice, Act Once: Token-Aware Compression and Action Reuse for Efficient Inference in Vision-Language-Action Models**|Xudong Tan et.al.|2505.21200|null|
+|**2025-05-26**|**Collision- and Reachability-Aware Multi-Robot Control with Grounded LLM Planners**|Jiabao Ji et.al.|2505.20573|null|
+|**2025-05-26**|**Decision Flow Policy Optimization**|Jifeng Hu et.al.|2505.20350|null|
+|**2025-05-26**|**EMAC+: Embodied Multimodal Agent for Collaborative Planning with VLM+LLM**|Shuang Ao et.al.|2505.19905|null|
+|**2025-05-25**|**Omni-Perception: Omnidirectional Collision Avoidance for Legged Locomotion in Dynamic Environments**|Zifan Wang et.al.|2505.19214|null|
+|**2025-05-24**|**GenPO: Generative Diffusion Models Meet On-Policy Reinforcement Learning**|Shutong Ding et.al.|2505.18763|null|
+|**2025-05-23**|**LA-RCS: LLM-Agent-Based Robot Control System**|TaekHyun Park et.al.|2505.18214|null|
+|**2025-05-23**|**Imagine Beyond! Distributionally Robust Auto-Encoding for State Space Coverage in Online Reinforcement Learning**|Nicolas Castanet et.al.|2505.17830|null|
+|**2025-05-23**|**PPO-BR: Dual-Signal Entropy-Reward Adaptation for Trust Region Policy Optimization**|Ben Rahman et.al.|2505.17714|null|
+|**2025-05-23**|**H2-COMPACT: Human-Humanoid Co-Manipulation via Adaptive Contact Trajectory Policies**|Geeta Chandra Raju Bethala et.al.|2505.17627|null|
+|**2025-05-22**|**FlashBack: Consistency Model-Accelerated Shared Autonomy**|Luzhe Sun et.al.|2505.16892|null|
+|**2025-05-22**|**BadVLA: Towards Backdoor Attacks on Vision-Language-Action Models via Objective-Decoupled Optimization**|Xueyang Zhou et.al.|2505.16640|null|
+|**2025-05-22**|**Find the Fruit: Designing a Zero-Shot Sim2Real Deep RL Planner for Occlusion Aware Plant Manipulation**|Nitesh Subedi et.al.|2505.16547|null|
+|**2025-05-21**|**Motion Priors Reimagined: Adapting Flat-Terrain Skills for Complex Quadruped Mobility**|Zewei Zhang et.al.|2505.16084|null|
+|**2025-05-21**|**FLARE: Robot Learning with Implicit World Modeling**|Ruijie Zheng et.al.|2505.15659|null|
+|**2025-05-21**|**Saliency-Aware Quantized Imitation Learning for Efficient Robotic Control**|Seongmin Park et.al.|2505.15304|null|
+|**2025-05-20**|**Toward Real-World Cooperative and Competitive Soccer with Quadrupedal Robot Teams**|Zhi Su et.al.|2505.13834|null|
 |**2025-05-19**|**Dribble Master: Learning Agile Humanoid Dribbling Through Legged Locomotion**|Zhuoheng Wang et.al.|2505.12679|null|
 |**2025-05-19**|**The Robot of Theseus: A modular robotic testbed for legged locomotion**|Karthik Urs et.al.|2505.12649|null|
 |**2025-05-19**|**A Comprehensive Survey on Physical Risk Control in the Era of Foundation Model-enabled Robotics**|Takeshi Kojima et.al.|2505.12583|null|
@@ -336,32 +336,28 @@
 |**2025-03-27**|**Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making**|Filip Surma et.al.|2503.21065|null|
 |**2025-03-26**|**Beyond Visuals: Investigating Force Feedback in Extended Reality for Robot Data Collection**|Xueyin Li et.al.|2503.20714|null|
 
-<p align=right>(<a href=#Updated-on-20250601>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250602>back to top</a>)</p>
 
 ## Human-Computer Interaction for Design
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
-|**2025-02-05**|**Immersion for AI: Immersive Learning with Artificial Intelligence**|Leonel Morgado et.al.|[@2502.03504](http://arxiv.org/abs/2502.03504)|null|
-|**2021-02-20**|**GenFloor: Interactive Generative Space Layout System via Encoded Tree Graphs**|Mohammad Keshavarzi et.al.|[@2102.10320](http://arxiv.org/abs/2102.10320)|null|
-|**2019-12-19**|**MVF Designer: Design and Visualization of Morse Vector Fields**|Youjia Zhou et.al.|[@1912.09580](http://arxiv.org/abs/1912.09580)|**[link](https://github.com/zhou325/VIS-MSVF)**|
+|**2025-02-05**|**Immersion for AI: Immersive Learning with Artificial Intelligence**|Leonel Morgado et.al.|2502.03504|null|
 
-<p align=right>(<a href=#Updated-on-20250601>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250602>back to top</a>)</p>
 
 ## Generative AI & Foundation Models in Design
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
-|**2025-05-14**|**A Note on Semantic Diffusion**|Alexander P. Ryjov et.al.|[@2505.09283](http://arxiv.org/abs/2505.09283)|null|
-|**2025-05-12**|**DiffCrysGen: A Score-Based Diffusion Model for Design of Diverse Inorganic Crystalline Materials**|Sourav Mal et.al.|[@2505.07442](http://arxiv.org/abs/2505.07442)|null|
-|**2024-12-03**|**Mediating Modes of Thought: LLM's for design scripting**|Moritz Rietschel et.al.|[@2411.14485](http://arxiv.org/abs/2411.14485)|null|
-|**2024-09-26**|**Loop-Diffusion: an equivariant diffusion model for designing and scoring protein loops**|Kevin Borisiak et.al.|[@2409.18201](http://arxiv.org/abs/2409.18201)|null|
-|**2024-07-23**|**Optimizing Robotic Manipulation with Decision-RWKV: A Recurrent Sequence Modeling Approach for Lifelong Learning**|Yujian Dong et.al.|[@2407.16306](http://arxiv.org/abs/2407.16306)|**[link](https://github.com/ancorasir/decisionrwkv)**|
-|**2024-04-16**|**Multi-objective generative AI for designing novel brain-targeting small molecules**|Ayush Noori et.al.|[@2407.00004](http://arxiv.org/abs/2407.00004)|null|
-|**2024-02-26**|**From Cloud to Edge: Rethinking Generative AI for Low-Resource Design Challenges**|Sai Krishna Revanth Vuruma et.al.|[@2402.12702](http://arxiv.org/abs/2402.12702)|null|
-|**2024-09-09**|**Explainable AI for Engineering Design: A Unified Approach of Systems Engineering and Component- Based Deep Learning Demonstrated by Energy- Efficient Building Design**|Philipp Geyer et.al.|[@2108.13836](http://arxiv.org/abs/2108.13836)|null|
+|**2025-05-14**|**A Note on Semantic Diffusion**|Alexander P. Ryjov et.al.|2505.09283|null|
+|**2025-05-12**|**DiffCrysGen: A Score-Based Diffusion Model for Design of Diverse Inorganic Crystalline Materials**|Sourav Mal et.al.|2505.07442|null|
+|**2024-12-03**|**Mediating Modes of Thought: LLM's for design scripting**|Moritz Rietschel et.al.|2411.14485|null|
+|**2024-09-26**|**Loop-Diffusion: an equivariant diffusion model for designing and scoring protein loops**|Kevin Borisiak et.al.|2409.18201|null|
+|**2024-07-23**|**Optimizing Robotic Manipulation with Decision-RWKV: A Recurrent Sequence Modeling Approach for Lifelong Learning**|Yujian Dong et.al.|2407.16306|**[link](https://github.com/ancorasir/decisionrwkv)**|
+|**2024-09-09**|**Explainable AI for Engineering Design: A Unified Approach of Systems Engineering and Component- Based Deep Learning Demonstrated by Energy- Efficient Building Design**|Philipp Geyer et.al.|2108.13836|null|
 
-<p align=right>(<a href=#Updated-on-20250601>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250602>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
