@@ -7,7 +7,7 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.06.02
+## 📚 Updated on 2025.06.03
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
@@ -252,7 +252,7 @@ layout: default
 |**2025-05-29**|**ReinFlow: Fine-tuning Flow Matching Policy with Online Reinforcement Learning**|Tonghe Zhang et.al.|[@2505.22094](http://arxiv.org/abs/2505.22094)|null|
 |**2025-05-28**|**Streaming Flow Policy: Simplifying diffusion $/$ flow-matching policies by treating action trajectories as flow trajectories**|Sunshine Jiang et.al.|[@2505.21851](http://arxiv.org/abs/2505.21851)|null|
 |**2025-05-30**|**Right Side Up? Disentangling Orientation Understanding in MLLMs with Fine-grained Multi-axis Perception Tasks**|Keanu Nichols et.al.|[@2505.21649](http://arxiv.org/abs/2505.21649)|null|
-|**2025-05-29**|**Hume: Introducing System-2 Thinking in Visual-Language-Action Model**|Haoming Song et.al.|[@2505.21432](http://arxiv.org/abs/2505.21432)|null|
+|**2025-06-02**|**Hume: Introducing System-2 Thinking in Visual-Language-Action Model**|Haoming Song et.al.|[@2505.21432](http://arxiv.org/abs/2505.21432)|null|
 |**2025-05-27**|**Think Twice, Act Once: Token-Aware Compression and Action Reuse for Efficient Inference in Vision-Language-Action Models**|Xudong Tan et.al.|[@2505.21200](http://arxiv.org/abs/2505.21200)|null|
 |**2025-05-26**|**Collision- and Reachability-Aware Multi-Robot Control with Grounded LLM Planners**|Jiabao Ji et.al.|[@2505.20573](http://arxiv.org/abs/2505.20573)|null|
 |**2025-05-26**|**Decision Flow Policy Optimization**|Jifeng Hu et.al.|2505.20350|null|
