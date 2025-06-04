@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.06.03
+## 📚 Updated on 2025.06.04
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -21,6 +21,11 @@
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-06-03**|**SAMJ: Fast Image Annotation on ImageJ/Fiji via Segment Anything Model**|Carlos Garcia-Lopez-de-Haro et.al.|[@2506.02783](http://arxiv.org/abs/2506.02783)|null|
+|**2025-06-03**|**High Light-Efficiency Holographic Tomographic Volumetric Additive Manufacturing using a MEMS-based Phase-only Light Modulator**|Maria Isabel Álvarez-Castaño et.al.|[@2506.02578](http://arxiv.org/abs/2506.02578)|null|
+|**2025-06-02**|**Benchmarking Large Language Models for Polymer Property Predictions**|Sonakshi Gupta et.al.|[@2506.02129](http://arxiv.org/abs/2506.02129)|null|
+|**2025-06-02**|**Solving Euclidean Problems by Isotropic Initialization**|Khusrav Yorov et.al.|[@2506.01726](http://arxiv.org/abs/2506.01726)|null|
+|**2025-05-30**|**MOFGPT: Generative Design of Metal-Organic Frameworks using Language Models**|Srivathsan Badrinarayanan et.al.|[@2506.00198](http://arxiv.org/abs/2506.00198)|null|
 |**2025-05-30**|**Generative AI for Urban Design: A Stepwise Approach Integrating Human Expertise with Multimodal Diffusion Models**|Mingyi He et.al.|[@2505.24260](http://arxiv.org/abs/2505.24260)|null|
 |**2025-05-29**|**GenCAD-Self-Repairing: Feasibility Enhancement for 3D CAD Generation**|Chikaha Tsuji et.al.|[@2505.23287](http://arxiv.org/abs/2505.23287)|null|
 |**2025-05-27**|**THE WASTIVE: An Interactive Ebb and Flow of Digital Fabrication Waste**|Yifan Shan et.al.|[@2505.21153](http://arxiv.org/abs/2505.21153)|null|
@@ -81,12 +86,22 @@
 |**2025-03-21**|**Understanding Social Support Needs in Questions: A Hybrid Approach Integrating Semi-Supervised Learning and LLM-based Data Augmentation**|Junwei Kuang et.al.|2503.17421|null|
 |**2025-03-21**|**Multi-property directed generative design of inorganic materials through Wyckoff-augmented transfer learning**|Shuya Yamazaki et.al.|2503.16784|null|
 
-<p align=right>(<a href=#Updated-on-20250603>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250604>back to top</a>)</p>
 
 ## Mechanics, Kinematics & Motion Synthesis
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-06-03**|**DyTact: Capturing Dynamic Contacts in Hand-Object Manipulation**|Xiaoyan Cong et.al.|[@2506.03103](http://arxiv.org/abs/2506.03103)|null|
+|**2025-06-03**|**TalkingMachines: Real-Time Audio-Driven FaceTime-Style Video via Autoregressive Diffusion Models**|Chetwin Low et.al.|[@2506.03099](http://arxiv.org/abs/2506.03099)|null|
+|**2025-06-03**|**InterMamba: Efficient Human-Human Interaction Generation with Adaptive Spatio-Temporal Mamba**|Zizhao Wu et.al.|[@2506.03084](http://arxiv.org/abs/2506.03084)|null|
+|**2025-06-03**|**UniConFlow: A Unified Constrained Generalization Framework for Certified Motion Planning with Flow Matching Models**|Zewen Yang et.al.|[@2506.02955](http://arxiv.org/abs/2506.02955)|null|
+|**2025-06-03**|**MotionRAG-Diff: A Retrieval-Augmented Diffusion Framework for Long-Term Music-to-Dance Generation**|Mingyang Huang et.al.|[@2506.02661](http://arxiv.org/abs/2506.02661)|null|
+|**2025-06-03**|**V2X-UniPool: Unifying Multimodal Perception and Knowledge Reasoning for Autonomous Driving**|Xuewen Luo et.al.|[@2506.02580](http://arxiv.org/abs/2506.02580)|null|
+|**2025-06-03**|**A Transformer-Based Neural Network for Optimal Deterministic-Allocation and Anonymous Joint Auction Design**|Zhen Zhang et.al.|[@2506.02435](http://arxiv.org/abs/2506.02435)|null|
+|**2025-06-02**|**Captivity-Escape Games as a Means for Safety in Online Motion Generation**|Christopher Bohn et.al.|[@2506.01399](http://arxiv.org/abs/2506.01399)|null|
+|**2025-06-02**|**A Reliable Vertical Federated Learning Framework for Traffic State Estimation with Data Selection and Incentive Mechanisms**|Zijun Zhan et.al.|[@2506.01285](http://arxiv.org/abs/2506.01285)|null|
+|**2025-05-31**|**Constrained Stein Variational Gradient Descent for Robot Perception, Planning, and Identification**|Griffin Tabor et.al.|[@2506.00589](http://arxiv.org/abs/2506.00589)|null|
 |**2025-05-30**|**EL-AGHF: Extended Lagrangian Affine Geometric Heat Flow**|Sangmin Kim et.al.|[@2505.24751](http://arxiv.org/abs/2505.24751)|null|
 |**2025-05-30**|**DreamDance: Animating Character Art via Inpainting Stable Gaussian Worlds**|Jiaxu Zhang et.al.|[@2505.24733](http://arxiv.org/abs/2505.24733)|null|
 |**2025-05-30**|**Online Budget-Feasible Mechanism Design with Predictions**|Georgios Amanatidis et.al.|[@2505.24624](http://arxiv.org/abs/2505.24624)|null|
@@ -250,12 +265,20 @@
 |**2025-03-31**|**Less is More: Contextual Sampling for Nonlinear Data-Enabled Predictive Control**|Julius Beerwerth et.al.|2503.23890|null|
 |**2025-03-31**|**A Survey of Reinforcement Learning-Based Motion Planning for Autonomous Driving: Lessons Learned from a Driving Task Perspective**|Zhuoren Li et.al.|2503.23650|null|
 
-<p align=right>(<a href=#Updated-on-20250603>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250604>back to top</a>)</p>
 
 ## Robotics: Design, Control & Learning
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-06-02**|**ADEPT: Adaptive Diffusion Environment for Policy Transfer Sim-to-Real**|Youwei Yu et.al.|[@2506.01759](http://arxiv.org/abs/2506.01759)|null|
+|**2025-06-02**|**Generating Diverse Challenging Terrains for Legged Robots Using Quality-Diversity Algorithm**|Arthur Esquerre-Pourtère et.al.|[@2506.01362](http://arxiv.org/abs/2506.01362)|null|
+|**2025-06-02**|**ReAgent-V: A Reward-Driven Multi-Agent Framework for Video Understanding**|Yiyang Zhou et.al.|[@2506.01300](http://arxiv.org/abs/2506.01300)|null|
+|**2025-06-01**|**$\text{TREX}^2$ : Dual-Reconstruction Framework for Teleoperated-Robot with EXtended Reality**|Ziliang Zhang et.al.|[@2506.01135](http://arxiv.org/abs/2506.01135)|null|
+|**2025-05-31**|**Evaluating Robot Policies in a World Model**|Julian Quevedo et.al.|[@2506.00613](http://arxiv.org/abs/2506.00613)|null|
+|**2025-05-31**|**A "Wenlu" Brain System for Multimodal Cognition and Embodied Decision-Making: A Secure New Architecture for Deep Integration of Foundation Models and Domain Knowledge**|Liang Geng et.al.|[@2506.00570](http://arxiv.org/abs/2506.00570)|null|
+|**2025-05-30**|**Visual Embodied Brain: Let Multimodal Large Language Models See, Think, and Control in Spaces**|Gen Luo et.al.|[@2506.00123](http://arxiv.org/abs/2506.00123)|null|
+|**2025-05-29**|**Robot-R1: Reinforcement Learning for Enhanced Embodied Reasoning in Robotics**|Dongyoung Kim et.al.|[@2506.00070](http://arxiv.org/abs/2506.00070)|null|
 |**2025-05-30**|**System-integrated intrinsic static-dynamic pressure sensing enabled by charge excitation and 3D gradient engineering for autonomous robotic interaction**|Kequan Xia et.al.|[@2505.24645](http://arxiv.org/abs/2505.24645)|null|
 |**2025-05-29**|**DiffCoTune: Differentiable Co-Tuning for Cross-domain Robot Control**|Lokesh Krishna et.al.|[@2505.24068](http://arxiv.org/abs/2505.24068)|null|
 |**2025-05-29**|**Eye-tracking-Driven Shared Control for Robotic Arms:Wizard of Oz Studies to Assess Design Choices**|Anke Fischer-Janzen et.al.|[@2505.23147](http://arxiv.org/abs/2505.23147)|null|
@@ -344,7 +367,7 @@
 |**2025-03-27**|**Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making**|Filip Surma et.al.|2503.21065|null|
 |**2025-03-26**|**Beyond Visuals: Investigating Force Feedback in Extended Reality for Robot Data Collection**|Xueyin Li et.al.|2503.20714|null|
 
-<p align=right>(<a href=#Updated-on-20250603>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250604>back to top</a>)</p>
 
 ## Human-Computer Interaction for Design
 
@@ -354,7 +377,7 @@
 |**2021-02-20**|**GenFloor: Interactive Generative Space Layout System via Encoded Tree Graphs**|Mohammad Keshavarzi et.al.|[@2102.10320](http://arxiv.org/abs/2102.10320)|null|
 |**2019-12-19**|**MVF Designer: Design and Visualization of Morse Vector Fields**|Youjia Zhou et.al.|[@1912.09580](http://arxiv.org/abs/1912.09580)|**[link](https://github.com/zhou325/VIS-MSVF)**|
 
-<p align=right>(<a href=#Updated-on-20250603>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250604>back to top</a>)</p>
 
 ## Generative AI & Foundation Models in Design
 
@@ -369,7 +392,7 @@
 |**2024-02-26**|**From Cloud to Edge: Rethinking Generative AI for Low-Resource Design Challenges**|Sai Krishna Revanth Vuruma et.al.|[@2402.12702](http://arxiv.org/abs/2402.12702)|null|
 |**2024-09-09**|**Explainable AI for Engineering Design: A Unified Approach of Systems Engineering and Component- Based Deep Learning Demonstrated by Energy- Efficient Building Design**|Philipp Geyer et.al.|[@2108.13836](http://arxiv.org/abs/2108.13836)|null|
 
-<p align=right>(<a href=#Updated-on-20250603>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250604>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
