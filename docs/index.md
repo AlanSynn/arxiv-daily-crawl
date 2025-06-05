@@ -7,13 +7,15 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.06.04
+## 📚 Updated on 2025.06.05
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-06-04**|**Enhancing Experimental Efficiency in Materials Design: A Comparative Study of Taguchi and Machine Learning Methods**|Shyam Prabhu et.al.|[@2506.03910](http://arxiv.org/abs/2506.03910)|null|
+|**2025-06-04**|**Designing morphologies of soft medical devices using cooperative neuro coevolution**|Hugo Alcaraz-Herrera et.al.|[@2506.03847](http://arxiv.org/abs/2506.03847)|null|
 |**2025-06-03**|**SAMJ: Fast Image Annotation on ImageJ/Fiji via Segment Anything Model**|Carlos Garcia-Lopez-de-Haro et.al.|[@2506.02783](http://arxiv.org/abs/2506.02783)|null|
 |**2025-06-03**|**High Light-Efficiency Holographic Tomographic Volumetric Additive Manufacturing using a MEMS-based Phase-only Light Modulator**|Maria Isabel Álvarez-Castaño et.al.|[@2506.02578](http://arxiv.org/abs/2506.02578)|null|
 |**2025-06-02**|**Benchmarking Large Language Models for Polymer Property Predictions**|Sonakshi Gupta et.al.|[@2506.02129](http://arxiv.org/abs/2506.02129)|null|
@@ -83,6 +85,9 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-06-04**|**Understanding Physical Properties of Unseen Deformable Objects by Leveraging Large Language Models and Robot Actions**|Changmin Park et.al.|[@2506.03760](http://arxiv.org/abs/2506.03760)|null|
+|**2025-06-03**|**Position Auctions in AI-Generated Content**|Santiago Balseiro et.al.|[@2506.03309](http://arxiv.org/abs/2506.03309)|null|
+|**2025-06-03**|**Grounded Vision-Language Interpreter for Integrated Task and Motion Planning**|Jeremy Siburian et.al.|[@2506.03270](http://arxiv.org/abs/2506.03270)|null|
 |**2025-06-03**|**DyTact: Capturing Dynamic Contacts in Hand-Object Manipulation**|Xiaoyan Cong et.al.|[@2506.03103](http://arxiv.org/abs/2506.03103)|null|
 |**2025-06-03**|**TalkingMachines: Real-Time Audio-Driven FaceTime-Style Video via Autoregressive Diffusion Models**|Chetwin Low et.al.|[@2506.03099](http://arxiv.org/abs/2506.03099)|null|
 |**2025-06-03**|**InterMamba: Efficient Human-Human Interaction Generation with Adaptive Spatio-Temporal Mamba**|Zizhao Wu et.al.|[@2506.03084](http://arxiv.org/abs/2506.03084)|null|
@@ -260,6 +265,9 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-06-04**|**Object-centric 3D Motion Field for Robot Learning from Human Videos**|Zhao-Heng Yin et.al.|[@2506.04227](http://arxiv.org/abs/2506.04227)|null|
+|**2025-06-04**|**OWMM-Agent: Open World Mobile Manipulation With Multi-modal Agentic Data Synthesis**|Junting Chen et.al.|[@2506.04217](http://arxiv.org/abs/2506.04217)|null|
+|**2025-06-04**|**SLAC: Simulation-Pretrained Latent Action Space for Whole-Body Real-World RL**|Jiaheng Hu et.al.|[@2506.04147](http://arxiv.org/abs/2506.04147)|null|
 |**2025-06-02**|**ADEPT: Adaptive Diffusion Environment for Policy Transfer Sim-to-Real**|Youwei Yu et.al.|[@2506.01759](http://arxiv.org/abs/2506.01759)|null|
 |**2025-06-02**|**Generating Diverse Challenging Terrains for Legged Robots Using Quality-Diversity Algorithm**|Arthur Esquerre-Pourtère et.al.|[@2506.01362](http://arxiv.org/abs/2506.01362)|null|
 |**2025-06-02**|**ReAgent-V: A Reward-Driven Multi-Agent Framework for Video Understanding**|Yiyang Zhou et.al.|[@2506.01300](http://arxiv.org/abs/2506.01300)|null|
