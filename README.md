@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.06.09
+## 📚 Updated on 2025.06.10
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -21,6 +21,8 @@
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-06-09**|**ProtocolLLM: RTL Benchmark for SystemVerilog Generation of Communication Protocols**|Arnav Sheth et.al.|[@2506.07945](http://arxiv.org/abs/2506.07945)|null|
+|**2025-06-05**|**Additive Manufacturing of Lunar Regolith for Reconfigurable Building Blocks toward Lunar Habitation**|Cole McCallum et.al.|[@2506.06392](http://arxiv.org/abs/2506.06392)|null|
 |**2025-06-06**|**Recommender systems, stigmergy, and the tyranny of popularity**|Zackary Okun Dunivin et.al.|[@2506.06162](http://arxiv.org/abs/2506.06162)|null|
 |**2025-06-06**|**Conversational Interfaces for Parametric Conceptual Architectural Design: Integrating Mixed Reality with LLM-driven Interaction**|Ruochen Ji et.al.|[@2506.06066](http://arxiv.org/abs/2506.06066)|null|
 |**2025-06-05**|**Adaptive recycled plastic architecture: Vacuum-Sealed Chainmail Structures Through Computational Design**|Yi Xu et.al.|[@2506.04660](http://arxiv.org/abs/2506.04660)|null|
@@ -91,16 +93,22 @@
 |**2025-03-21**|**Understanding Social Support Needs in Questions: A Hybrid Approach Integrating Semi-Supervised Learning and LLM-based Data Augmentation**|Junwei Kuang et.al.|2503.17421|null|
 |**2025-03-21**|**Multi-property directed generative design of inorganic materials through Wyckoff-augmented transfer learning**|Shuya Yamazaki et.al.|2503.16784|null|
 
-<p align=right>(<a href=#Updated-on-20250609>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250610>back to top</a>)</p>
 
 ## Mechanics, Kinematics & Motion Synthesis
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-06-09**|**A distributed motion planning approach to cooperative underwater acoustic source tracking and pursuit**|Andrea Tiranti et.al.|[@2506.07877](http://arxiv.org/abs/2506.07877)|null|
+|**2025-06-09**|**Language-Grounded Hierarchical Planning and Execution with Multi-Robot 3D Scene Graphs**|Jared Strader et.al.|[@2506.07454](http://arxiv.org/abs/2506.07454)|null|
+|**2025-06-08**|**Harmony-Aware Music-driven Motion Synthesis with Perceptual Constraint on UGC Datasets**|Xinyi Wu et.al.|[@2506.07076](http://arxiv.org/abs/2506.07076)|null|
+|**2025-06-08**|**Prime the search: Using large language models for guiding geometric task and motion planning by warm-starting tree search**|Dongryung Lee et.al.|[@2506.07062](http://arxiv.org/abs/2506.07062)|null|
+|**2025-06-07**|**Underwater Multi-Robot Simulation and Motion Planning in Angler**|Akshaya Agrawal et.al.|[@2506.06612](http://arxiv.org/abs/2506.06612)|null|
+|**2025-06-06**|**Hierarchical and Collaborative LLM-Based Control for Multi-UAV Motion and Communication in Integrated Terrestrial and Non-Terrestrial Networks**|Zijiang Yan et.al.|[@2506.06532](http://arxiv.org/abs/2506.06532)|null|
 |**2025-06-05**|**Fabrica: Dual-Arm Assembly of General Multi-Part Objects via Integrated Planning and Learning**|Yunsheng Tian et.al.|[@2506.05168](http://arxiv.org/abs/2506.05168)|null|
 |**2025-06-05**|**Hierarchical Language Models for Semantic Navigation and Manipulation in an Aerial-Ground Robotic System**|Haokun Liu et.al.|[@2506.05020](http://arxiv.org/abs/2506.05020)|null|
 |**2025-06-05**|**Distributionally Robust Auction Design with Deferred Inspection**|Halil I. Bayrak et.al.|[@2506.04767](http://arxiv.org/abs/2506.04767)|null|
-|**2025-06-05**|**BVLSM: Write-Efficient LSM-Tree Storage via WAL-Time Key-Value Separation**|Ming Li et.al.|[@2506.04678](http://arxiv.org/abs/2506.04678)|null|
+|**2025-06-09**|**BVLSM: Write-Efficient LSM-Tree Storage via WAL-Time Key-Value Separation**|Ming Li et.al.|[@2506.04678](http://arxiv.org/abs/2506.04678)|null|
 |**2025-06-05**|**An O(log log n)-approximate budget feasible mechanism for subadditive valuations**|Rian Neogi et.al.|[@2506.04665](http://arxiv.org/abs/2506.04665)|null|
 |**2025-06-04**|**WorldPrediction: A Benchmark for High-level World Modeling and Long-horizon Procedural Planning**|Delong Chen et.al.|[@2506.04363](http://arxiv.org/abs/2506.04363)|null|
 |**2025-06-04**|**Understanding Physical Properties of Unseen Deformable Objects by Leveraging Large Language Models and Robot Actions**|Changmin Park et.al.|[@2506.03760](http://arxiv.org/abs/2506.03760)|null|
@@ -279,18 +287,20 @@
 |**2025-03-31**|**Less is More: Contextual Sampling for Nonlinear Data-Enabled Predictive Control**|Julius Beerwerth et.al.|2503.23890|null|
 |**2025-03-31**|**A Survey of Reinforcement Learning-Based Motion Planning for Autonomous Driving: Lessons Learned from a Driving Task Perspective**|Zhuoren Li et.al.|2503.23650|null|
 
-<p align=right>(<a href=#Updated-on-20250609>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250610>back to top</a>)</p>
 
 ## Robotics: Design, Control & Learning
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-06-09**|**Reproducibility in the Control of Autonomous Mobility-on-Demand Systems**|Xinling Li et.al.|[@2506.07345](http://arxiv.org/abs/2506.07345)|null|
+|**2025-06-07**|**SpikePingpong: High-Frequency Spike Vision-based Robot Learning for Precise Striking in Table Tennis Game**|Hao Wang et.al.|[@2506.06690](http://arxiv.org/abs/2506.06690)|null|
 |**2025-06-06**|**Learning Design-Score Manifold to Guide Diffusion Models for Offline Optimization**|Tailin Zhou et.al.|[@2506.05680](http://arxiv.org/abs/2506.05680)|null|
 |**2025-06-05**|**Whole-Body Constrained Learning for Legged Locomotion via Hierarchical Optimization**|Haoyu Wang et.al.|[@2506.05115](http://arxiv.org/abs/2506.05115)|null|
 |**2025-06-05**|**Composing Agents to Minimize Worst-case Risk**|Guruprerana Shabadi et.al.|[@2506.04632](http://arxiv.org/abs/2506.04632)|null|
 |**2025-06-04**|**Object-centric 3D Motion Field for Robot Learning from Human Videos**|Zhao-Heng Yin et.al.|[@2506.04227](http://arxiv.org/abs/2506.04227)|null|
-|**2025-06-04**|**OWMM-Agent: Open World Mobile Manipulation With Multi-modal Agentic Data Synthesis**|Junting Chen et.al.|[@2506.04217](http://arxiv.org/abs/2506.04217)|null|
-|**2025-06-04**|**SLAC: Simulation-Pretrained Latent Action Space for Whole-Body Real-World RL**|Jiaheng Hu et.al.|[@2506.04147](http://arxiv.org/abs/2506.04147)|null|
+|**2025-06-04**|**OWMM-Agent: Open World Mobile Manipulation With Multi-modal Agentic Data Synthesis**|Junting Chen et.al.|[@2506.04217](http://arxiv.org/abs/2506.04217)|**[link](https://github.com/hhyhrhy/owmm-agent)**|
+|**2025-06-07**|**SLAC: Simulation-Pretrained Latent Action Space for Whole-Body Real-World RL**|Jiaheng Hu et.al.|[@2506.04147](http://arxiv.org/abs/2506.04147)|null|
 |**2025-06-05**|**ADEPT: Adaptive Diffusion Environment for Policy Transfer Sim-to-Real**|Youwei Yu et.al.|[@2506.01759](http://arxiv.org/abs/2506.01759)|null|
 |**2025-06-02**|**Generating Diverse Challenging Terrains for Legged Robots Using Quality-Diversity Algorithm**|Arthur Esquerre-Pourtère et.al.|[@2506.01362](http://arxiv.org/abs/2506.01362)|null|
 |**2025-06-02**|**ReAgent-V: A Reward-Driven Multi-Agent Framework for Video Understanding**|Yiyang Zhou et.al.|[@2506.01300](http://arxiv.org/abs/2506.01300)|null|
@@ -387,7 +397,7 @@
 |**2025-03-27**|**Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making**|Filip Surma et.al.|2503.21065|null|
 |**2025-03-26**|**Beyond Visuals: Investigating Force Feedback in Extended Reality for Robot Data Collection**|Xueyin Li et.al.|2503.20714|null|
 
-<p align=right>(<a href=#Updated-on-20250609>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250610>back to top</a>)</p>
 
 ## Human-Computer Interaction for Design
 
@@ -397,7 +407,7 @@
 |**2021-02-20**|**GenFloor: Interactive Generative Space Layout System via Encoded Tree Graphs**|Mohammad Keshavarzi et.al.|[@2102.10320](http://arxiv.org/abs/2102.10320)|null|
 |**2019-12-19**|**MVF Designer: Design and Visualization of Morse Vector Fields**|Youjia Zhou et.al.|[@1912.09580](http://arxiv.org/abs/1912.09580)|**[link](https://github.com/zhou325/VIS-MSVF)**|
 
-<p align=right>(<a href=#Updated-on-20250609>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250610>back to top</a>)</p>
 
 ## Generative AI & Foundation Models in Design
 
@@ -412,7 +422,7 @@
 |**2024-02-26**|**From Cloud to Edge: Rethinking Generative AI for Low-Resource Design Challenges**|Sai Krishna Revanth Vuruma et.al.|[@2402.12702](http://arxiv.org/abs/2402.12702)|null|
 |**2024-09-09**|**Explainable AI for Engineering Design: A Unified Approach of Systems Engineering and Component- Based Deep Learning Demonstrated by Energy- Efficient Building Design**|Philipp Geyer et.al.|[@2108.13836](http://arxiv.org/abs/2108.13836)|null|
 
-<p align=right>(<a href=#Updated-on-20250609>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250610>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
