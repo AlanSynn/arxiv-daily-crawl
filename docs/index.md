@@ -7,13 +7,14 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.06.10
+## 📚 Updated on 2025.06.11
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-06-10**|**Semantic Communication for Cooperative Multi-Tasking over Rate-Limited Wireless Channels with Implicit Optimal Prior**|Ahmad Halimi Razlighi et.al.|[@2506.08944](http://arxiv.org/abs/2506.08944)|null|
 |**2025-06-09**|**ProtocolLLM: RTL Benchmark for SystemVerilog Generation of Communication Protocols**|Arnav Sheth et.al.|[@2506.07945](http://arxiv.org/abs/2506.07945)|null|
 |**2025-06-05**|**Additive Manufacturing of Lunar Regolith for Reconfigurable Building Blocks toward Lunar Habitation**|Cole McCallum et.al.|[@2506.06392](http://arxiv.org/abs/2506.06392)|null|
 |**2025-06-06**|**Recommender systems, stigmergy, and the tyranny of popularity**|Zackary Okun Dunivin et.al.|[@2506.06162](http://arxiv.org/abs/2506.06162)|null|
@@ -90,6 +91,10 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-06-10**|**Deploying SICNav in the Field: Safe and Interactive Crowd Navigation using MPC and Bilevel Optimization**|Sepehr Samavi et.al.|[@2506.08851](http://arxiv.org/abs/2506.08851)|null|
+|**2025-06-10**|**Deep Reinforcement Learning-Based Motion Planning and PDE Control for Flexible Manipulators**|Amir Hossein Barjini et.al.|[@2506.08639](http://arxiv.org/abs/2506.08639)|null|
+|**2025-06-10**|**Re4MPC: Reactive Nonlinear MPC for Multi-model Motion Planning via Deep Reinforcement Learning**|Neşet Ünver Akmandor et.al.|[@2506.08344](http://arxiv.org/abs/2506.08344)|null|
+|**2025-06-10**|**Dynamical System Optimization**|Emo Todorov et.al.|[@2506.08340](http://arxiv.org/abs/2506.08340)|null|
 |**2025-06-09**|**A distributed motion planning approach to cooperative underwater acoustic source tracking and pursuit**|Andrea Tiranti et.al.|[@2506.07877](http://arxiv.org/abs/2506.07877)|null|
 |**2025-06-09**|**Language-Grounded Hierarchical Planning and Execution with Multi-Robot 3D Scene Graphs**|Jared Strader et.al.|[@2506.07454](http://arxiv.org/abs/2506.07454)|null|
 |**2025-06-08**|**Harmony-Aware Music-driven Motion Synthesis with Perceptual Constraint on UGC Datasets**|Xinyi Wu et.al.|[@2506.07076](http://arxiv.org/abs/2506.07076)|null|
@@ -282,6 +287,7 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-06-10**|**Modular Recurrence in Contextual MDPs for Universal Morphology Control**|Laurens Engwegen et.al.|[@2506.08630](http://arxiv.org/abs/2506.08630)|null|
 |**2025-06-09**|**Reproducibility in the Control of Autonomous Mobility-on-Demand Systems**|Xinling Li et.al.|[@2506.07345](http://arxiv.org/abs/2506.07345)|null|
 |**2025-06-07**|**SpikePingpong: High-Frequency Spike Vision-based Robot Learning for Precise Striking in Table Tennis Game**|Hao Wang et.al.|[@2506.06690](http://arxiv.org/abs/2506.06690)|null|
 |**2025-06-06**|**Learning Design-Score Manifold to Guide Diffusion Models for Offline Optimization**|Tailin Zhou et.al.|[@2506.05680](http://arxiv.org/abs/2506.05680)|null|
