@@ -7,13 +7,14 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.06.11
+## 📚 Updated on 2025.06.12
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-06-10**|**Risk-based Design Optimization for Powder Bed Fusion Metal Additive Manufacturing**|Yulin Guo et.al.|[@2506.09294](http://arxiv.org/abs/2506.09294)|null|
 |**2025-06-10**|**Semantic Communication for Cooperative Multi-Tasking over Rate-Limited Wireless Channels with Implicit Optimal Prior**|Ahmad Halimi Razlighi et.al.|[@2506.08944](http://arxiv.org/abs/2506.08944)|null|
 |**2025-06-09**|**ProtocolLLM: RTL Benchmark for SystemVerilog Generation of Communication Protocols**|Arnav Sheth et.al.|[@2506.07945](http://arxiv.org/abs/2506.07945)|null|
 |**2025-06-05**|**Additive Manufacturing of Lunar Regolith for Reconfigurable Building Blocks toward Lunar Habitation**|Cole McCallum et.al.|[@2506.06392](http://arxiv.org/abs/2506.06392)|null|
@@ -287,6 +288,9 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-06-11**|**Locomotion on Constrained Footholds via Layered Architectures and Model Predictive Control**|Zachary Olkin et.al.|[@2506.09979](http://arxiv.org/abs/2506.09979)|null|
+|**2025-06-11**|**Attention-Based Map Encoding for Learning Generalized Legged Locomotion**|Junzhe He et.al.|[@2506.09588](http://arxiv.org/abs/2506.09588)|null|
+|**2025-06-10**|**MultiNet: An Open-Source Software Toolkit \& Benchmark Suite for the Evaluation and Adaptation of Multimodal Action Models**|Pranav Guruprasad et.al.|[@2506.09172](http://arxiv.org/abs/2506.09172)|null|
 |**2025-06-10**|**Modular Recurrence in Contextual MDPs for Universal Morphology Control**|Laurens Engwegen et.al.|[@2506.08630](http://arxiv.org/abs/2506.08630)|null|
 |**2025-06-09**|**Reproducibility in the Control of Autonomous Mobility-on-Demand Systems**|Xinling Li et.al.|[@2506.07345](http://arxiv.org/abs/2506.07345)|null|
 |**2025-06-07**|**SpikePingpong: High-Frequency Spike Vision-based Robot Learning for Precise Striking in Table Tennis Game**|Hao Wang et.al.|[@2506.06690](http://arxiv.org/abs/2506.06690)|null|
