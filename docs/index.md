@@ -7,13 +7,16 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.06.12
+## 📚 Updated on 2025.06.13
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-06-11**|**Strategic Adoption of 3D Printing in Multi-Product Supply Chains: Cost and Capacity Considerations**|Mohammad Ebrahim Arbabian et.al.|[@2506.10198](http://arxiv.org/abs/2506.10198)|null|
+|**2025-06-11**|**Comparing name generator designs in rural panel studies: analyzing alter retention and change**|Marian-Gabriel Hâncean et.al.|[@2506.10136](http://arxiv.org/abs/2506.10136)|null|
+|**2025-06-09**|**LLMs Caught in the Crossfire: Malware Requests and Jailbreak Challenges**|Haoyang Li et.al.|[@2506.10022](http://arxiv.org/abs/2506.10022)|null|
 |**2025-06-10**|**Risk-based Design Optimization for Powder Bed Fusion Metal Additive Manufacturing**|Yulin Guo et.al.|[@2506.09294](http://arxiv.org/abs/2506.09294)|null|
 |**2025-06-10**|**Semantic Communication for Cooperative Multi-Tasking over Rate-Limited Wireless Channels with Implicit Optimal Prior**|Ahmad Halimi Razlighi et.al.|[@2506.08944](http://arxiv.org/abs/2506.08944)|null|
 |**2025-06-09**|**ProtocolLLM: RTL Benchmark for SystemVerilog Generation of Communication Protocols**|Arnav Sheth et.al.|[@2506.07945](http://arxiv.org/abs/2506.07945)|null|
@@ -92,6 +95,9 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-06-12**|**DanceChat: Large Language Model-Guided Music-to-Dance Generation**|Qing Wang et.al.|[@2506.10574](http://arxiv.org/abs/2506.10574)|null|
+|**2025-06-12**|**Equitable Mechanism Design for Facility Location**|Toby Walsh et.al.|[@2506.10460](http://arxiv.org/abs/2506.10460)|null|
+|**2025-06-12**|**Motion-R1: Chain-of-Thought Reasoning and Reinforcement Learning for Human Motion Generation**|Runqi Ouyang et.al.|[@2506.10353](http://arxiv.org/abs/2506.10353)|null|
 |**2025-06-10**|**Deploying SICNav in the Field: Safe and Interactive Crowd Navigation using MPC and Bilevel Optimization**|Sepehr Samavi et.al.|[@2506.08851](http://arxiv.org/abs/2506.08851)|null|
 |**2025-06-10**|**Deep Reinforcement Learning-Based Motion Planning and PDE Control for Flexible Manipulators**|Amir Hossein Barjini et.al.|[@2506.08639](http://arxiv.org/abs/2506.08639)|null|
 |**2025-06-10**|**Re4MPC: Reactive Nonlinear MPC for Multi-model Motion Planning via Deep Reinforcement Learning**|Neşet Ünver Akmandor et.al.|[@2506.08344](http://arxiv.org/abs/2506.08344)|null|
