@@ -7,30 +7,30 @@ layout: default
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.06.15
+## 📚 Updated on 2025.06.16
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 ## Computational Design & Fabrication
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2025-06-11**|**Strategic Adoption of 3D Printing in Multi-Product Supply Chains: Cost and Capacity Considerations**|Mohammad Ebrahim Arbabian et.al.|[@2506.10198](http://arxiv.org/abs/2506.10198)|null|
-|**2025-06-11**|**Comparing name generator designs in rural panel studies: analyzing alter retention and change**|Marian-Gabriel Hâncean et.al.|[@2506.10136](http://arxiv.org/abs/2506.10136)|null|
-|**2025-06-09**|**LLMs Caught in the Crossfire: Malware Requests and Jailbreak Challenges**|Haoyang Li et.al.|[@2506.10022](http://arxiv.org/abs/2506.10022)|null|
-|**2025-06-10**|**Risk-based Design Optimization for Powder Bed Fusion Metal Additive Manufacturing**|Yulin Guo et.al.|[@2506.09294](http://arxiv.org/abs/2506.09294)|null|
-|**2025-06-10**|**Semantic Communication for Cooperative Multi-Tasking over Rate-Limited Wireless Channels with Implicit Optimal Prior**|Ahmad Halimi Razlighi et.al.|[@2506.08944](http://arxiv.org/abs/2506.08944)|null|
-|**2025-06-09**|**ProtocolLLM: RTL Benchmark for SystemVerilog Generation of Communication Protocols**|Arnav Sheth et.al.|[@2506.07945](http://arxiv.org/abs/2506.07945)|**[link](https://github.com/amsheth/fpga_protocols_llm)**|
-|**2025-06-05**|**Additive Manufacturing of Lunar Regolith for Reconfigurable Building Blocks toward Lunar Habitation**|Cole McCallum et.al.|[@2506.06392](http://arxiv.org/abs/2506.06392)|null|
-|**2025-06-06**|**Recommender systems, stigmergy, and the tyranny of popularity**|Zackary Okun Dunivin et.al.|[@2506.06162](http://arxiv.org/abs/2506.06162)|null|
-|**2025-06-06**|**Conversational Interfaces for Parametric Conceptual Architectural Design: Integrating Mixed Reality with LLM-driven Interaction**|Ruochen Ji et.al.|[@2506.06066](http://arxiv.org/abs/2506.06066)|null|
-|**2025-06-05**|**Adaptive recycled plastic architecture: Vacuum-Sealed Chainmail Structures Through Computational Design**|Yi Xu et.al.|[@2506.04660](http://arxiv.org/abs/2506.04660)|null|
-|**2025-06-04**|**Enhancing Experimental Efficiency in Materials Design: A Comparative Study of Taguchi and Machine Learning Methods**|Shyam Prabhu et.al.|[@2506.03910](http://arxiv.org/abs/2506.03910)|null|
-|**2025-06-04**|**Designing morphologies of soft medical devices using cooperative neuro coevolution**|Hugo Alcaraz-Herrera et.al.|[@2506.03847](http://arxiv.org/abs/2506.03847)|null|
-|**2025-06-03**|**SAMJ: Fast Image Annotation on ImageJ/Fiji via Segment Anything Model**|Carlos Garcia-Lopez-de-Haro et.al.|[@2506.02783](http://arxiv.org/abs/2506.02783)|null|
-|**2025-06-03**|**High Light-Efficiency Holographic Tomographic Volumetric Additive Manufacturing using a MEMS-based Phase-only Light Modulator**|Maria Isabel Álvarez-Castaño et.al.|[@2506.02578](http://arxiv.org/abs/2506.02578)|null|
-|**2025-06-02**|**Benchmarking Large Language Models for Polymer Property Predictions**|Sonakshi Gupta et.al.|[@2506.02129](http://arxiv.org/abs/2506.02129)|null|
-|**2025-06-02**|**Solving Euclidean Problems by Isotropic Initialization**|Khusrav Yorov et.al.|[@2506.01726](http://arxiv.org/abs/2506.01726)|null|
-|**2025-05-30**|**MOFGPT: Generative Design of Metal-Organic Frameworks using Language Models**|Srivathsan Badrinarayanan et.al.|[@2506.00198](http://arxiv.org/abs/2506.00198)|null|
+|**2025-06-11**|**Strategic Adoption of 3D Printing in Multi-Product Supply Chains: Cost and Capacity Considerations**|Mohammad Ebrahim Arbabian et.al.|2506.10198|null|
+|**2025-06-11**|**Comparing name generator designs in rural panel studies: analyzing alter retention and change**|Marian-Gabriel Hâncean et.al.|2506.10136|null|
+|**2025-06-09**|**LLMs Caught in the Crossfire: Malware Requests and Jailbreak Challenges**|Haoyang Li et.al.|2506.10022|null|
+|**2025-06-10**|**Risk-based Design Optimization for Powder Bed Fusion Metal Additive Manufacturing**|Yulin Guo et.al.|2506.09294|null|
+|**2025-06-10**|**Semantic Communication for Cooperative Multi-Tasking over Rate-Limited Wireless Channels with Implicit Optimal Prior**|Ahmad Halimi Razlighi et.al.|2506.08944|null|
+|**2025-06-09**|**ProtocolLLM: RTL Benchmark for SystemVerilog Generation of Communication Protocols**|Arnav Sheth et.al.|2506.07945|**[link](https://github.com/amsheth/fpga_protocols_llm)**|
+|**2025-06-05**|**Additive Manufacturing of Lunar Regolith for Reconfigurable Building Blocks toward Lunar Habitation**|Cole McCallum et.al.|2506.06392|null|
+|**2025-06-06**|**Recommender systems, stigmergy, and the tyranny of popularity**|Zackary Okun Dunivin et.al.|2506.06162|null|
+|**2025-06-06**|**Conversational Interfaces for Parametric Conceptual Architectural Design: Integrating Mixed Reality with LLM-driven Interaction**|Ruochen Ji et.al.|2506.06066|null|
+|**2025-06-05**|**Adaptive recycled plastic architecture: Vacuum-Sealed Chainmail Structures Through Computational Design**|Yi Xu et.al.|2506.04660|null|
+|**2025-06-04**|**Enhancing Experimental Efficiency in Materials Design: A Comparative Study of Taguchi and Machine Learning Methods**|Shyam Prabhu et.al.|2506.03910|null|
+|**2025-06-04**|**Designing morphologies of soft medical devices using cooperative neuro coevolution**|Hugo Alcaraz-Herrera et.al.|2506.03847|null|
+|**2025-06-03**|**SAMJ: Fast Image Annotation on ImageJ/Fiji via Segment Anything Model**|Carlos Garcia-Lopez-de-Haro et.al.|2506.02783|null|
+|**2025-06-03**|**High Light-Efficiency Holographic Tomographic Volumetric Additive Manufacturing using a MEMS-based Phase-only Light Modulator**|Maria Isabel Álvarez-Castaño et.al.|2506.02578|null|
+|**2025-06-02**|**Benchmarking Large Language Models for Polymer Property Predictions**|Sonakshi Gupta et.al.|2506.02129|null|
+|**2025-06-02**|**Solving Euclidean Problems by Isotropic Initialization**|Khusrav Yorov et.al.|2506.01726|null|
+|**2025-05-30**|**MOFGPT: Generative Design of Metal-Organic Frameworks using Language Models**|Srivathsan Badrinarayanan et.al.|2506.00198|**[link](https://github.com/srivathsanb14/mofgpt)**|
 |**2025-05-30**|**Generative AI for Urban Design: A Stepwise Approach Integrating Human Expertise with Multimodal Diffusion Models**|Mingyi He et.al.|2505.24260|null|
 |**2025-05-29**|**GenCAD-Self-Repairing: Feasibility Enhancement for 3D CAD Generation**|Chikaha Tsuji et.al.|2505.23287|null|
 |**2025-05-27**|**THE WASTIVE: An Interactive Ebb and Flow of Digital Fabrication Waste**|Yifan Shan et.al.|2505.21153|null|
@@ -95,29 +95,29 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2025-06-12**|**DanceChat: Large Language Model-Guided Music-to-Dance Generation**|Qing Wang et.al.|[@2506.10574](http://arxiv.org/abs/2506.10574)|null|
-|**2025-06-12**|**Equitable Mechanism Design for Facility Location**|Toby Walsh et.al.|[@2506.10460](http://arxiv.org/abs/2506.10460)|null|
-|**2025-06-12**|**Motion-R1: Chain-of-Thought Reasoning and Reinforcement Learning for Human Motion Generation**|Runqi Ouyang et.al.|[@2506.10353](http://arxiv.org/abs/2506.10353)|null|
-|**2025-06-10**|**Deploying SICNav in the Field: Safe and Interactive Crowd Navigation using MPC and Bilevel Optimization**|Sepehr Samavi et.al.|[@2506.08851](http://arxiv.org/abs/2506.08851)|null|
-|**2025-06-10**|**Deep Reinforcement Learning-Based Motion Planning and PDE Control for Flexible Manipulators**|Amir Hossein Barjini et.al.|[@2506.08639](http://arxiv.org/abs/2506.08639)|null|
-|**2025-06-10**|**Re4MPC: Reactive Nonlinear MPC for Multi-model Motion Planning via Deep Reinforcement Learning**|Neşet Ünver Akmandor et.al.|[@2506.08344](http://arxiv.org/abs/2506.08344)|null|
-|**2025-06-10**|**Dynamical System Optimization**|Emo Todorov et.al.|[@2506.08340](http://arxiv.org/abs/2506.08340)|null|
-|**2025-06-09**|**A distributed motion planning approach to cooperative underwater acoustic source tracking and pursuit**|Andrea Tiranti et.al.|[@2506.07877](http://arxiv.org/abs/2506.07877)|null|
-|**2025-06-09**|**Language-Grounded Hierarchical Planning and Execution with Multi-Robot 3D Scene Graphs**|Jared Strader et.al.|[@2506.07454](http://arxiv.org/abs/2506.07454)|null|
-|**2025-06-08**|**Harmony-Aware Music-driven Motion Synthesis with Perceptual Constraint on UGC Datasets**|Xinyi Wu et.al.|[@2506.07076](http://arxiv.org/abs/2506.07076)|null|
-|**2025-06-08**|**Prime the search: Using large language models for guiding geometric task and motion planning by warm-starting tree search**|Dongryung Lee et.al.|[@2506.07062](http://arxiv.org/abs/2506.07062)|null|
-|**2025-06-07**|**Underwater Multi-Robot Simulation and Motion Planning in Angler**|Akshaya Agrawal et.al.|[@2506.06612](http://arxiv.org/abs/2506.06612)|null|
-|**2025-06-06**|**Hierarchical and Collaborative LLM-Based Control for Multi-UAV Motion and Communication in Integrated Terrestrial and Non-Terrestrial Networks**|Zijiang Yan et.al.|[@2506.06532](http://arxiv.org/abs/2506.06532)|null|
-|**2025-06-05**|**Fabrica: Dual-Arm Assembly of General Multi-Part Objects via Integrated Planning and Learning**|Yunsheng Tian et.al.|[@2506.05168](http://arxiv.org/abs/2506.05168)|null|
-|**2025-06-05**|**Hierarchical Language Models for Semantic Navigation and Manipulation in an Aerial-Ground Robotic System**|Haokun Liu et.al.|[@2506.05020](http://arxiv.org/abs/2506.05020)|null|
-|**2025-06-05**|**Distributionally Robust Auction Design with Deferred Inspection**|Halil I. Bayrak et.al.|[@2506.04767](http://arxiv.org/abs/2506.04767)|null|
-|**2025-06-09**|**BVLSM: Write-Efficient LSM-Tree Storage via WAL-Time Key-Value Separation**|Ming Li et.al.|[@2506.04678](http://arxiv.org/abs/2506.04678)|null|
-|**2025-06-05**|**An O(log log n)-approximate budget feasible mechanism for subadditive valuations**|Rian Neogi et.al.|[@2506.04665](http://arxiv.org/abs/2506.04665)|null|
-|**2025-06-04**|**WorldPrediction: A Benchmark for High-level World Modeling and Long-horizon Procedural Planning**|Delong Chen et.al.|[@2506.04363](http://arxiv.org/abs/2506.04363)|null|
-|**2025-06-04**|**Understanding Physical Properties of Unseen Deformable Objects by Leveraging Large Language Models and Robot Actions**|Changmin Park et.al.|[@2506.03760](http://arxiv.org/abs/2506.03760)|null|
-|**2025-06-03**|**Position Auctions in AI-Generated Content**|Santiago Balseiro et.al.|[@2506.03309](http://arxiv.org/abs/2506.03309)|null|
-|**2025-06-03**|**Grounded Vision-Language Interpreter for Integrated Task and Motion Planning**|Jeremy Siburian et.al.|[@2506.03270](http://arxiv.org/abs/2506.03270)|null|
-|**2025-06-03**|**DyTact: Capturing Dynamic Contacts in Hand-Object Manipulation**|Xiaoyan Cong et.al.|[@2506.03103](http://arxiv.org/abs/2506.03103)|null|
+|**2025-06-12**|**DanceChat: Large Language Model-Guided Music-to-Dance Generation**|Qing Wang et.al.|2506.10574|null|
+|**2025-06-12**|**Equitable Mechanism Design for Facility Location**|Toby Walsh et.al.|2506.10460|null|
+|**2025-06-12**|**Motion-R1: Chain-of-Thought Reasoning and Reinforcement Learning for Human Motion Generation**|Runqi Ouyang et.al.|2506.10353|null|
+|**2025-06-10**|**Deploying SICNav in the Field: Safe and Interactive Crowd Navigation using MPC and Bilevel Optimization**|Sepehr Samavi et.al.|2506.08851|null|
+|**2025-06-10**|**Deep Reinforcement Learning-Based Motion Planning and PDE Control for Flexible Manipulators**|Amir Hossein Barjini et.al.|2506.08639|null|
+|**2025-06-10**|**Re4MPC: Reactive Nonlinear MPC for Multi-model Motion Planning via Deep Reinforcement Learning**|Neşet Ünver Akmandor et.al.|2506.08344|null|
+|**2025-06-10**|**Dynamical System Optimization**|Emo Todorov et.al.|2506.08340|null|
+|**2025-06-09**|**A distributed motion planning approach to cooperative underwater acoustic source tracking and pursuit**|Andrea Tiranti et.al.|2506.07877|null|
+|**2025-06-09**|**Language-Grounded Hierarchical Planning and Execution with Multi-Robot 3D Scene Graphs**|Jared Strader et.al.|2506.07454|null|
+|**2025-06-08**|**Harmony-Aware Music-driven Motion Synthesis with Perceptual Constraint on UGC Datasets**|Xinyi Wu et.al.|2506.07076|null|
+|**2025-06-08**|**Prime the search: Using large language models for guiding geometric task and motion planning by warm-starting tree search**|Dongryung Lee et.al.|2506.07062|null|
+|**2025-06-07**|**Underwater Multi-Robot Simulation and Motion Planning in Angler**|Akshaya Agrawal et.al.|2506.06612|null|
+|**2025-06-06**|**Hierarchical and Collaborative LLM-Based Control for Multi-UAV Motion and Communication in Integrated Terrestrial and Non-Terrestrial Networks**|Zijiang Yan et.al.|2506.06532|null|
+|**2025-06-05**|**Fabrica: Dual-Arm Assembly of General Multi-Part Objects via Integrated Planning and Learning**|Yunsheng Tian et.al.|2506.05168|null|
+|**2025-06-05**|**Hierarchical Language Models for Semantic Navigation and Manipulation in an Aerial-Ground Robotic System**|Haokun Liu et.al.|2506.05020|null|
+|**2025-06-05**|**Distributionally Robust Auction Design with Deferred Inspection**|Halil I. Bayrak et.al.|2506.04767|null|
+|**2025-06-09**|**BVLSM: Write-Efficient LSM-Tree Storage via WAL-Time Key-Value Separation**|Ming Li et.al.|2506.04678|null|
+|**2025-06-05**|**An O(log log n)-approximate budget feasible mechanism for subadditive valuations**|Rian Neogi et.al.|2506.04665|null|
+|**2025-06-04**|**WorldPrediction: A Benchmark for High-level World Modeling and Long-horizon Procedural Planning**|Delong Chen et.al.|2506.04363|null|
+|**2025-06-04**|**Understanding Physical Properties of Unseen Deformable Objects by Leveraging Large Language Models and Robot Actions**|Changmin Park et.al.|2506.03760|null|
+|**2025-06-03**|**Position Auctions in AI-Generated Content**|Santiago Balseiro et.al.|2506.03309|null|
+|**2025-06-03**|**Grounded Vision-Language Interpreter for Integrated Task and Motion Planning**|Jeremy Siburian et.al.|2506.03270|null|
+|**2025-06-03**|**DyTact: Capturing Dynamic Contacts in Hand-Object Manipulation**|Xiaoyan Cong et.al.|2506.03103|null|
 |**2025-06-03**|**TalkingMachines: Real-Time Audio-Driven FaceTime-Style Video via Autoregressive Diffusion Models**|Chetwin Low et.al.|2506.03099|null|
 |**2025-06-03**|**InterMamba: Efficient Human-Human Interaction Generation with Adaptive Spatio-Temporal Mamba**|Zizhao Wu et.al.|2506.03084|null|
 |**2025-06-03**|**UniConFlow: A Unified Constrained Generalization Framework for Certified Motion Planning with Flow Matching Models**|Zewen Yang et.al.|2506.02955|null|
@@ -294,22 +294,22 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2025-06-11**|**Locomotion on Constrained Footholds via Layered Architectures and Model Predictive Control**|Zachary Olkin et.al.|[@2506.09979](http://arxiv.org/abs/2506.09979)|null|
-|**2025-06-11**|**Attention-Based Map Encoding for Learning Generalized Legged Locomotion**|Junzhe He et.al.|[@2506.09588](http://arxiv.org/abs/2506.09588)|null|
-|**2025-06-10**|**MultiNet: An Open-Source Software Toolkit \& Benchmark Suite for the Evaluation and Adaptation of Multimodal Action Models**|Pranav Guruprasad et.al.|[@2506.09172](http://arxiv.org/abs/2506.09172)|null|
-|**2025-06-10**|**Modular Recurrence in Contextual MDPs for Universal Morphology Control**|Laurens Engwegen et.al.|[@2506.08630](http://arxiv.org/abs/2506.08630)|null|
-|**2025-06-09**|**Reproducibility in the Control of Autonomous Mobility-on-Demand Systems**|Xinling Li et.al.|[@2506.07345](http://arxiv.org/abs/2506.07345)|null|
-|**2025-06-07**|**SpikePingpong: High-Frequency Spike Vision-based Robot Learning for Precise Striking in Table Tennis Game**|Hao Wang et.al.|[@2506.06690](http://arxiv.org/abs/2506.06690)|null|
-|**2025-06-06**|**Learning Design-Score Manifold to Guide Diffusion Models for Offline Optimization**|Tailin Zhou et.al.|[@2506.05680](http://arxiv.org/abs/2506.05680)|null|
-|**2025-06-05**|**Whole-Body Constrained Learning for Legged Locomotion via Hierarchical Optimization**|Haoyu Wang et.al.|[@2506.05115](http://arxiv.org/abs/2506.05115)|null|
-|**2025-06-05**|**Composing Agents to Minimize Worst-case Risk**|Guruprerana Shabadi et.al.|[@2506.04632](http://arxiv.org/abs/2506.04632)|null|
-|**2025-06-04**|**Object-centric 3D Motion Field for Robot Learning from Human Videos**|Zhao-Heng Yin et.al.|[@2506.04227](http://arxiv.org/abs/2506.04227)|null|
-|**2025-06-04**|**OWMM-Agent: Open World Mobile Manipulation With Multi-modal Agentic Data Synthesis**|Junting Chen et.al.|[@2506.04217](http://arxiv.org/abs/2506.04217)|**[link](https://github.com/hhyhrhy/owmm-agent)**|
-|**2025-06-07**|**SLAC: Simulation-Pretrained Latent Action Space for Whole-Body Real-World RL**|Jiaheng Hu et.al.|[@2506.04147](http://arxiv.org/abs/2506.04147)|null|
-|**2025-06-05**|**ADEPT: Adaptive Diffusion Environment for Policy Transfer Sim-to-Real**|Youwei Yu et.al.|[@2506.01759](http://arxiv.org/abs/2506.01759)|null|
-|**2025-06-02**|**Generating Diverse Challenging Terrains for Legged Robots Using Quality-Diversity Algorithm**|Arthur Esquerre-Pourtère et.al.|[@2506.01362](http://arxiv.org/abs/2506.01362)|null|
-|**2025-06-02**|**ReAgent-V: A Reward-Driven Multi-Agent Framework for Video Understanding**|Yiyang Zhou et.al.|[@2506.01300](http://arxiv.org/abs/2506.01300)|null|
-|**2025-06-05**|**Understanding and Mitigating Network Latency Effect on Teleoperated-Robot with Extended Reality**|Ziliang Zhang et.al.|[@2506.01135](http://arxiv.org/abs/2506.01135)|null|
+|**2025-06-11**|**Locomotion on Constrained Footholds via Layered Architectures and Model Predictive Control**|Zachary Olkin et.al.|2506.09979|null|
+|**2025-06-11**|**Attention-Based Map Encoding for Learning Generalized Legged Locomotion**|Junzhe He et.al.|2506.09588|null|
+|**2025-06-10**|**MultiNet: An Open-Source Software Toolkit \& Benchmark Suite for the Evaluation and Adaptation of Multimodal Action Models**|Pranav Guruprasad et.al.|2506.09172|null|
+|**2025-06-10**|**Modular Recurrence in Contextual MDPs for Universal Morphology Control**|Laurens Engwegen et.al.|2506.08630|null|
+|**2025-06-09**|**Reproducibility in the Control of Autonomous Mobility-on-Demand Systems**|Xinling Li et.al.|2506.07345|null|
+|**2025-06-07**|**SpikePingpong: High-Frequency Spike Vision-based Robot Learning for Precise Striking in Table Tennis Game**|Hao Wang et.al.|2506.06690|null|
+|**2025-06-06**|**Learning Design-Score Manifold to Guide Diffusion Models for Offline Optimization**|Tailin Zhou et.al.|2506.05680|null|
+|**2025-06-05**|**Whole-Body Constrained Learning for Legged Locomotion via Hierarchical Optimization**|Haoyu Wang et.al.|2506.05115|null|
+|**2025-06-05**|**Composing Agents to Minimize Worst-case Risk**|Guruprerana Shabadi et.al.|2506.04632|null|
+|**2025-06-04**|**Object-centric 3D Motion Field for Robot Learning from Human Videos**|Zhao-Heng Yin et.al.|2506.04227|null|
+|**2025-06-04**|**OWMM-Agent: Open World Mobile Manipulation With Multi-modal Agentic Data Synthesis**|Junting Chen et.al.|2506.04217|**[link](https://github.com/hhyhrhy/owmm-agent)**|
+|**2025-06-07**|**SLAC: Simulation-Pretrained Latent Action Space for Whole-Body Real-World RL**|Jiaheng Hu et.al.|2506.04147|null|
+|**2025-06-05**|**ADEPT: Adaptive Diffusion Environment for Policy Transfer Sim-to-Real**|Youwei Yu et.al.|2506.01759|null|
+|**2025-06-02**|**Generating Diverse Challenging Terrains for Legged Robots Using Quality-Diversity Algorithm**|Arthur Esquerre-Pourtère et.al.|2506.01362|null|
+|**2025-06-02**|**ReAgent-V: A Reward-Driven Multi-Agent Framework for Video Understanding**|Yiyang Zhou et.al.|2506.01300|null|
+|**2025-06-05**|**Understanding and Mitigating Network Latency Effect on Teleoperated-Robot with Extended Reality**|Ziliang Zhang et.al.|2506.01135|null|
 |**2025-05-31**|**Evaluating Robot Policies in a World Model**|Julian Quevedo et.al.|2506.00613|null|
 |**2025-05-31**|**A "Wenlu" Brain System for Multimodal Cognition and Embodied Decision-Making: A Secure New Architecture for Deep Integration of Foundation Models and Domain Knowledge**|Liang Geng et.al.|2506.00570|null|
 |**2025-05-30**|**Visual Embodied Brain: Let Multimodal Large Language Models See, Think, and Control in Spaces**|Gen Luo et.al.|2506.00123|null|
@@ -406,22 +406,18 @@ layout: default
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2025-02-05**|**Immersion for AI: Immersive Learning with Artificial Intelligence**|Leonel Morgado et.al.|[@2502.03504](http://arxiv.org/abs/2502.03504)|null|
-|**2021-02-20**|**GenFloor: Interactive Generative Space Layout System via Encoded Tree Graphs**|Mohammad Keshavarzi et.al.|[@2102.10320](http://arxiv.org/abs/2102.10320)|null|
-|**2019-12-19**|**MVF Designer: Design and Visualization of Morse Vector Fields**|Youjia Zhou et.al.|[@1912.09580](http://arxiv.org/abs/1912.09580)|**[link](https://github.com/zhou325/VIS-MSVF)**|
+|**2025-02-05**|**Immersion for AI: Immersive Learning with Artificial Intelligence**|Leonel Morgado et.al.|2502.03504|null|
 
 ## Generative AI & Foundation Models in Design
 
 | Publish Date | Title | Authors | arXiv | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2025-05-14**|**A Note on Semantic Diffusion**|Alexander P. Ryjov et.al.|[@2505.09283](http://arxiv.org/abs/2505.09283)|null|
-|**2025-05-12**|**DiffCrysGen: A Score-Based Diffusion Model for Design of Diverse Inorganic Crystalline Materials**|Sourav Mal et.al.|[@2505.07442](http://arxiv.org/abs/2505.07442)|null|
-|**2024-12-03**|**Mediating Modes of Thought: LLM's for design scripting**|Moritz Rietschel et.al.|[@2411.14485](http://arxiv.org/abs/2411.14485)|null|
-|**2024-09-26**|**Loop-Diffusion: an equivariant diffusion model for designing and scoring protein loops**|Kevin Borisiak et.al.|[@2409.18201](http://arxiv.org/abs/2409.18201)|null|
-|**2024-07-23**|**Optimizing Robotic Manipulation with Decision-RWKV: A Recurrent Sequence Modeling Approach for Lifelong Learning**|Yujian Dong et.al.|[@2407.16306](http://arxiv.org/abs/2407.16306)|**[link](https://github.com/ancorasir/decisionrwkv)**|
-|**2024-04-16**|**Multi-objective generative AI for designing novel brain-targeting small molecules**|Ayush Noori et.al.|[@2407.00004](http://arxiv.org/abs/2407.00004)|null|
-|**2024-02-26**|**From Cloud to Edge: Rethinking Generative AI for Low-Resource Design Challenges**|Sai Krishna Revanth Vuruma et.al.|[@2402.12702](http://arxiv.org/abs/2402.12702)|null|
-|**2024-09-09**|**Explainable AI for Engineering Design: A Unified Approach of Systems Engineering and Component- Based Deep Learning Demonstrated by Energy- Efficient Building Design**|Philipp Geyer et.al.|[@2108.13836](http://arxiv.org/abs/2108.13836)|null|
+|**2025-05-14**|**A Note on Semantic Diffusion**|Alexander P. Ryjov et.al.|2505.09283|null|
+|**2025-05-12**|**DiffCrysGen: A Score-Based Diffusion Model for Design of Diverse Inorganic Crystalline Materials**|Sourav Mal et.al.|2505.07442|null|
+|**2024-12-03**|**Mediating Modes of Thought: LLM's for design scripting**|Moritz Rietschel et.al.|2411.14485|null|
+|**2024-09-26**|**Loop-Diffusion: an equivariant diffusion model for designing and scoring protein loops**|Kevin Borisiak et.al.|2409.18201|null|
+|**2024-07-23**|**Optimizing Robotic Manipulation with Decision-RWKV: A Recurrent Sequence Modeling Approach for Lifelong Learning**|Yujian Dong et.al.|2407.16306|**[link](https://github.com/ancorasir/decisionrwkv)**|
+|**2024-09-09**|**Explainable AI for Engineering Design: A Unified Approach of Systems Engineering and Component- Based Deep Learning Demonstrated by Energy- Efficient Building Design**|Philipp Geyer et.al.|2108.13836|null|
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
