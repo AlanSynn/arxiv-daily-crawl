@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2025.06.17
+## 📚 Updated on 2025.06.18
 > 📖 Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -21,6 +21,8 @@
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-06-17**|**Active viscoelastic condensates provide controllable mechanical anchor points**|Oliver W. Paulin et.al.|[@2506.14591](http://arxiv.org/abs/2506.14591)|null|
+|**2025-06-16**|**Evolvable Conditional Diffusion**|Zhao Wei et.al.|[@2506.13834](http://arxiv.org/abs/2506.13834)|null|
 |**2025-06-15**|**Noise resilience of deterministic analog combinatorial optimization solvers**|Clemens Gneiting et.al.|[@2506.12914](http://arxiv.org/abs/2506.12914)|null|
 |**2025-06-14**|**OscNet v1.5: Energy Efficient Hopfield Network on CMOS Oscillators for Image Classification**|Wenxiao Cai et.al.|[@2506.12610](http://arxiv.org/abs/2506.12610)|null|
 |**2025-06-14**|**Tailored ordering enables high-capacity cathode materials**|Tzu-chen Liu et.al.|[@2506.12545](http://arxiv.org/abs/2506.12545)|null|
@@ -103,12 +105,16 @@
 |**2025-03-21**|**Understanding Social Support Needs in Questions: A Hybrid Approach Integrating Semi-Supervised Learning and LLM-based Data Augmentation**|Junwei Kuang et.al.|2503.17421|null|
 |**2025-03-21**|**Multi-property directed generative design of inorganic materials through Wyckoff-augmented transfer learning**|Shuya Yamazaki et.al.|2503.16784|null|
 
-<p align=right>(<a href=#Updated-on-20250617>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250618>back to top</a>)</p>
 
 ## Mechanics, Kinematics & Motion Synthesis
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-06-17**|**Swarm-STL: A Framework for Motion Planning in Large-Scale, Multi-Swarm Systems**|Shiyu Cheng et.al.|[@2506.14749](http://arxiv.org/abs/2506.14749)|null|
+|**2025-06-17**|**GAMORA: A Gesture Articulated Meta Operative Robotic Arm for Hazardous Material Handling in Containment-Level Environments**|Farha Abdul Wasay et.al.|[@2506.14513](http://arxiv.org/abs/2506.14513)|null|
+|**2025-06-17**|**ros2 fanuc interface: Design and Evaluation of a Fanuc CRX Hardware Interface in ROS2**|Paolo Franceschi et.al.|[@2506.14487](http://arxiv.org/abs/2506.14487)|null|
+|**2025-06-16**|**A Point Cloud Completion Approach for the Grasping of Partially Occluded Objects and Its Applications in Robotic Strawberry Harvesting**|Ali Abouzeid et.al.|[@2506.14066](http://arxiv.org/abs/2506.14066)|null|
 |**2025-06-16**|**Edge Nearest Neighbor in Sampling-Based Motion Planning**|Stav Ashur et.al.|[@2506.13753](http://arxiv.org/abs/2506.13753)|null|
 |**2025-06-16**|**VLM-SFD: VLM-Assisted Siamese Flow Diffusion Framework for Dual-Arm Cooperative Manipulation**|Jiaming Chen et.al.|[@2506.13428](http://arxiv.org/abs/2506.13428)|null|
 |**2025-06-15**|**Exploring the Potential of Metacognitive Support Agents for Human-AI Co-Creation**|Frederic Gmeiner et.al.|[@2506.12879](http://arxiv.org/abs/2506.12879)|null|
@@ -312,12 +318,17 @@
 |**2025-03-31**|**Less is More: Contextual Sampling for Nonlinear Data-Enabled Predictive Control**|Julius Beerwerth et.al.|2503.23890|null|
 |**2025-03-31**|**A Survey of Reinforcement Learning-Based Motion Planning for Autonomous Driving: Lessons Learned from a Driving Task Perspective**|Zhuoren Li et.al.|2503.23650|null|
 
-<p align=right>(<a href=#Updated-on-20250617>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250618>back to top</a>)</p>
 
 ## Robotics: Design, Control & Learning
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
+|**2025-06-17**|**CDP: Towards Robust Autoregressive Visuomotor Policy Learning via Causal Diffusion**|Jiahua Ma et.al.|[@2506.14769](http://arxiv.org/abs/2506.14769)|null|
+|**2025-06-17**|**Latent Action Diffusion for Cross-Embodiment Manipulation**|Erik Bauer et.al.|[@2506.14608](http://arxiv.org/abs/2506.14608)|null|
+|**2025-06-17**|**GAMORA: A Gesture Articulated Meta Operative Robotic Arm for Hazardous Material Handling in Containment-Level Environments**|Farha Abdul Wasay et.al.|[@2506.14513](http://arxiv.org/abs/2506.14513)|null|
+|**2025-06-17**|**AMPLIFY: Actionless Motion Priors for Robot Learning from Videos**|Jeremy A. Collins et.al.|[@2506.14198](http://arxiv.org/abs/2506.14198)|null|
+|**2025-06-16**|**A Cooperative Contactless Object Transport with Acoustic Robots**|Narsimlu Kemsaram et.al.|[@2506.13957](http://arxiv.org/abs/2506.13957)|null|
 |**2025-06-16**|**Prompting with the Future: Open-World Model Predictive Control with Interactive Digital Twins**|Chuanruo Ning et.al.|[@2506.13761](http://arxiv.org/abs/2506.13761)|null|
 |**2025-06-16**|**ROSA: Harnessing Robot States for Vision-Language and Action Alignment**|Yuqing Wen et.al.|[@2506.13679](http://arxiv.org/abs/2506.13679)|null|
 |**2025-06-16**|**Block-wise Adaptive Caching for Accelerating Diffusion Policy**|Kangye Ji et.al.|[@2506.13456](http://arxiv.org/abs/2506.13456)|null|
@@ -435,7 +446,7 @@
 |**2025-03-27**|**Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making**|Filip Surma et.al.|2503.21065|null|
 |**2025-03-26**|**Beyond Visuals: Investigating Force Feedback in Extended Reality for Robot Data Collection**|Xueyin Li et.al.|2503.20714|null|
 
-<p align=right>(<a href=#Updated-on-20250617>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250618>back to top</a>)</p>
 
 ## Human-Computer Interaction for Design
 
@@ -445,7 +456,7 @@
 |**2021-02-20**|**GenFloor: Interactive Generative Space Layout System via Encoded Tree Graphs**|Mohammad Keshavarzi et.al.|[@2102.10320](http://arxiv.org/abs/2102.10320)|null|
 |**2019-12-19**|**MVF Designer: Design and Visualization of Morse Vector Fields**|Youjia Zhou et.al.|[@1912.09580](http://arxiv.org/abs/1912.09580)|**[link](https://github.com/zhou325/VIS-MSVF)**|
 
-<p align=right>(<a href=#Updated-on-20250617>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250618>back to top</a>)</p>
 
 ## Generative AI & Foundation Models in Design
 
@@ -461,7 +472,7 @@
 |**2024-02-26**|**From Cloud to Edge: Rethinking Generative AI for Low-Resource Design Challenges**|Sai Krishna Revanth Vuruma et.al.|[@2402.12702](http://arxiv.org/abs/2402.12702)|null|
 |**2024-09-09**|**Explainable AI for Engineering Design: A Unified Approach of Systems Engineering and Component- Based Deep Learning Demonstrated by Energy- Efficient Building Design**|Philipp Geyer et.al.|[@2108.13836](http://arxiv.org/abs/2108.13836)|null|
 
-<p align=right>(<a href=#Updated-on-20250617>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250618>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
