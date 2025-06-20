@@ -55,6 +55,84 @@ class EmailService:
         Returns:
             HTML email content string
         """
+        return self._get_email_body(data_collector_web, date_now)
+    
+    def _is_email_enabled(self) -> bool:
+        """Check if email functionality is enabled."""
+        return self.email_settings.get('enabled', False)
+    
+    def _validate_smtp_settings(self) -> bool:
+        """Validate that all required SMTP settings are present."""
+        required_settings = ['smtp_server', 'smtp_user', 'smtp_password']
+        return all(self.email_settings.get(setting) for setting in required_settings)
+    
+    def _create_email_message(self, email_to: str, email_subject: str, email_body: str) -> MIMEMultipart:
+        """Create email message with HTML and text parts."""
+        msg = MIMEMultipart('alternative')
+        msg['Subject'] = email_subject
+        msg['From'] = self.email_settings['smtp_user']
+        msg['To'] = email_to
+
+        # Create both plain text and HTML versions
+        text_part = MIMEText("This email requires HTML support to view properly.", 'plain')
+        html_part = MIMEText(email_body, 'html')
+
+        msg.attach(text_part)
+        msg.attach(html_part)
+        
+        return msg
+    
+    def _send_via_smtp(self, msg: MIMEMultipart, email_to: str) -> bool:
+        """Send email via SMTP server."""
+        try:
+            with smtplib.SMTP(self.email_settings['smtp_server'], 
+                            self.email_settings.get('smtp_port', 587)) as server:
+                server.ehlo()
+                server.starttls()
+                server.login(self.email_settings['smtp_user'], 
+                           self.email_settings['smtp_password'])
+                server.send_message(msg)
+                
+            logging.info(f"Email sent successfully to {email_to}")
+            return True
+            
+        except Exception as e:
+            logging.error(f"Failed to send email: {e}")
+            return False
+    
+    @staticmethod
+    def _format_paper_content(paper_content: str) -> str:
+        """
+        Formats the paper content into HTML.
+
+        Args:
+            paper_content: The content of the paper.
+
+        Returns:
+            The formatted paper content.
+        """
+        formatted_content = paper_content.replace('\n', '<br>')
+        return f"""
+        <div class="paper">
+            {formatted_content}
+        </div>
+        """
+
+    def _get_email_body(
+        self,
+        data_collector_web: Dict,
+        date_now: str
+    ) -> str:
+        """
+        Get the email body content.
+
+        Args:
+            data_collector_web: The collected data for the web.
+            date_now: The current date.
+
+        Returns:
+            The formatted email body.
+        """
         html_content = f"""
         <!DOCTYPE html>
         <html lang="en">
@@ -173,7 +251,7 @@ class EmailService:
                     """
                     
                     for paper_content in papers.values():
-                        html_content += self._format_paper_for_email(paper_content)
+                        html_content += self._format_paper_content(paper_content)
                     
                     html_content += "</div>"
         
@@ -193,56 +271,3 @@ class EmailService:
         """
         
         return html_content
-    
-    def _is_email_enabled(self) -> bool:
-        """Check if email functionality is enabled."""
-        return self.email_settings.get('enabled', False)
-    
-    def _validate_smtp_settings(self) -> bool:
-        """Validate that all required SMTP settings are present."""
-        required_settings = ['smtp_server', 'smtp_user', 'smtp_password']
-        return all(self.email_settings.get(setting) for setting in required_settings)
-    
-    def _create_email_message(self, email_to: str, email_subject: str, email_body: str) -> MIMEMultipart:
-        """Create email message with HTML and text parts."""
-        msg = MIMEMultipart('alternative')
-        msg['Subject'] = email_subject
-        msg['From'] = self.email_settings['smtp_user']
-        msg['To'] = email_to
-
-        # Create both plain text and HTML versions
-        text_part = MIMEText("This email requires HTML support to view properly.", 'plain')
-        html_part = MIMEText(email_body, 'html')
-
-        msg.attach(text_part)
-        msg.attach(html_part)
-        
-        return msg
-    
-    def _send_via_smtp(self, msg: MIMEMultipart, email_to: str) -> bool:
-        """Send email via SMTP server."""
-        try:
-            with smtplib.SMTP(self.email_settings['smtp_server'], 
-                            self.email_settings.get('smtp_port', 587)) as server:
-                server.ehlo()
-                server.starttls()
-                server.login(self.email_settings['smtp_user'], 
-                           self.email_settings['smtp_password'])
-                server.send_message(msg)
-                
-            logging.info(f"Email sent successfully to {email_to}")
-            return True
-            
-        except Exception as e:
-            logging.error(f"Failed to send email: {e}")
-            return False
-    
-    def _format_paper_for_email(self, paper_content: str) -> str:
-        """Format paper content for HTML email display."""
-        # Parse the paper content (assuming it's in a specific format)
-        # This is a simplified version - you might need to adjust based on actual format
-        return f"""
-        <div class="paper">
-            {paper_content.replace('\\n', '<br>')}
-        </div>
-        """
