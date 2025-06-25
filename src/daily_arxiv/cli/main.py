@@ -16,11 +16,11 @@ from ..utils.date_utils import get_dated_file_paths
 
 class DailyArxivApp:
     """Main application class for daily-arxiv."""
-    
+
     def __init__(self, config: Dict[str, Any]):
         """
         Initialize the application with configuration.
-        
+
         Args:
             config: Configuration dictionary
         """
@@ -30,71 +30,88 @@ class DailyArxivApp:
         self.email_service = EmailService(config)
         self.file_manager = FileManager()
         self.content_generator = ContentGenerator()
-    
+
     def run(self):
         """Run the main application logic."""
         logging.info("Starting daily arXiv paper collection")
-        
+
         # Handle fresh run
         if self.config.get('fresh_run', False):
             logging.info("Fresh run requested. Resetting all JSON files.")
             self.file_manager.reset_json_files(self.config)
-        
+
         # Fetch papers for each category
-        all_data = {}
-        all_data_web = {}
-        
+        all_email_data = {}
+        all_email_data_web = {}
+        all_main_data = {}
+        all_main_data_web = {}
+
         for topic, query_info in self.config['kv'].items():
             logging.info(f"Fetching papers for: {topic}")
-            
-            data, data_web = self.arxiv_client.get_daily_papers(
+
+            email_data, email_data_web, main_data, main_data_web = self.arxiv_client.get_daily_papers(
                 topic, query_info, self.config.get('max_results', 30)
             )
-            
-            if data and data.get(topic):
-                all_data.update(data)
-                all_data_web.update(data_web)
-                logging.info(f"Found {len(data[topic])} papers for {topic}")
+
+            # Update email data (most recent day only)
+            if email_data and email_data.get(topic):
+                all_email_data.update(email_data)
+                all_email_data_web.update(email_data_web)
+                logging.info(f"Found {len(email_data[topic])} papers from most recent day for email for {topic}")
+            else:
+                logging.info(f"No papers from most recent day found for {topic}")
+
+            # Update main data (all papers)
+            if main_data and main_data.get(topic):
+                all_main_data.update(main_data)
+                all_main_data_web.update(main_data_web)
+                logging.info(f"Found {len(main_data[topic])} total papers for {topic}")
             else:
                 logging.info(f"No papers found for {topic}")
-        
-        # Update JSON files
-        if all_data:
-            self._update_output_files(all_data, all_data_web)
-        
-        # Send email if requested
-        if self.config.get('send_email', False) and all_data_web:
-            self._send_email_notification(all_data_web)
-        
+
+        # Update main output files with all data
+        if all_main_data:
+            self._update_main_files(all_main_data, all_main_data_web)
+
+        # Update daily log files with all data
+        if all_main_data:
+            self._update_daily_logs(all_main_data, all_main_data_web)
+
+        # Send email if requested (use email data - most recent day only)
+        if self.config.get('send_email', False) and all_email_data_web:
+            self._send_email_notification(all_email_data_web)
+
         logging.info("Daily arXiv collection completed")
-    
-    def _update_output_files(self, data: Dict, data_web: Dict):
-        """Update all output files with new paper data."""
+
+    def _update_main_files(self, data: Dict, data_web: Dict):
+        """Update main JSON and markdown files with all data (including today's papers)."""
         # Update main JSON files
         json_files = [
             self.config.get('json_readme_path'),
             self.config.get('json_gitpage_path')
         ]
-        
+
         for json_file in json_files:
             if json_file:
                 self.file_manager.update_json_file(json_file, [data])
-        
+
         # Generate markdown files
         markdown_files = [
             (self.config.get('json_readme_path'), self.config.get('md_readme_path'), False),
             (self.config.get('json_gitpage_path'), self.config.get('md_gitpage_path'), True)
         ]
-        
+
         for json_file, md_file, to_web in markdown_files:
             if json_file and md_file:
                 self.content_generator.json_to_md(
-                    json_file, md_file, 
+                    json_file, md_file,
                     task=f"Generate {'web' if to_web else 'readme'} markdown",
                     to_web=to_web,
                     show_badge=self.config.get('show_badge', True)
                 )
-        
+
+    def _update_daily_logs(self, data: Dict, data_web: Dict):
+        """Update daily log files with all data (including today's papers)."""
         # Update dated log files
         dated_paths = get_dated_file_paths(self.config)
         self.file_manager.update_json_file(dated_paths['json_path'], [data], create_new=True)
@@ -102,19 +119,26 @@ class DailyArxivApp:
             dated_paths['json_path'], dated_paths['md_path'],
             task="Generate daily log", create_new=True
         )
-    
+
+        # Also update web log files
+        self.file_manager.update_json_file(dated_paths['json_web_path'], [data_web], create_new=True)
+        self.content_generator.json_to_md(
+            dated_paths['json_web_path'], dated_paths['md_web_path'],
+            task="Generate daily web log", create_new=True, to_web=True
+        )
+
     def _send_email_notification(self, data_web: Dict):
         """Send email notification with daily papers."""
         recipient = self.config.get('email_recipient')
         if not recipient:
             logging.warning("No email recipient configured")
             return
-        
+
         date_str = datetime.date.today().strftime("%Y-%m-%d")
         subject = f"Daily arXiv Papers - {date_str}"
-        
+
         html_content = self.email_service.generate_daily_email_content(data_web, date_str)
-        
+
         success = self.email_service.send_email(recipient, subject, html_content)
         if success:
             logging.info("Email notification sent successfully")
@@ -155,14 +179,14 @@ def main():
     )
 
     args = parser.parse_args()
-    
+
     # Load configuration
     config = load_config(args.config_path)
-    
+
     if not validate_config(config):
         logging.error("Invalid configuration. Exiting.")
         return 1
-    
+
     # Apply command line overrides
     config.update({
         'update_paper_links': args.update_paper_links,
@@ -188,7 +212,7 @@ def main():
     # Run the application
     app = DailyArxivApp(config)
     app.run()
-    
+
     return 0
 
 

@@ -60,6 +60,14 @@ keywords:
             - "Physics-based Animation"
             - "Physics-based Simulation"
             - "Mechanical Character Animation"
+            - "Inverse Kinematics"
+            - "IK"
+            - "Forward Kinematics"
+            - "Kinematics Simulation"
+            - "Animation Synthesis"
+            - "Motion Capture"
+            - "Motion Retargeting"
+            - "Procedural Animation"
 
     # Robotics design, control, learning, and simulation (cs.RO, cs.LG, cs.AI)
     "Robotics: Design, Control & Learning":
@@ -87,6 +95,47 @@ keywords:
             - "Human-in-the-loop Design"
             - "Design Tools for Novices" # Academic phrasing
             - "User Intent Modeling Design" # More specific than preservation
+
+    # Computer Graphics and Animation (cs.GR)
+    "Computer Graphics & Animation":
+        filters:
+            - "Computer Graphics"
+            - "3D Graphics"
+            - "Computer Animation"
+            - "Real-time Animation"
+            - "Character Animation"
+            - "Facial Animation"
+            - "Hand Animation"
+            - "3D Animation"
+            - "Animation Systems"
+            - "Skeletal Animation"
+            - "Mesh Animation"
+            - "Deformation"
+            - "Shape Animation"
+            - "Rigging"
+            - "Skinning"
+            - "Blend Shapes"
+            - "Morph Targets"
+            - "Animation Blending"
+            - "Animation Compression"
+            - "Motion Graphs"
+            - "Animation Controllers"
+            - "Inverse Kinematics"
+            - "Forward Kinematics"
+            - "IK Solver"
+            - "Constraint-based Animation"
+            - "Physics-based Animation"
+            - "Cloth Animation"
+            - "Fluid Animation"
+            - "Particle Systems"
+            - "Procedural Animation"
+            - "Motion Synthesis"
+            - "Motion Editing"
+            - "Motion Blending"
+            - "Animation Generation"
+            - "Neural Animation"
+            - "Learning-based Animation"
+            - "Data-driven Animation"
 
     # Specific AI models and their application in design (cs.AI, cs.LG, cs.GR, cs.HC)
     "Generative AI & Foundation Models in Design":
