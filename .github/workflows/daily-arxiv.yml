@@ -36,6 +36,30 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
+      - name: Fetch results branch
+        run: |
+          git fetch origin results:results || echo "Results branch doesn't exist yet"
+          
+      - name: Checkout results branch with existing logs
+        run: |
+          # Check if results branch exists
+          if git show-ref --verify --quiet refs/heads/results; then
+            echo "Results branch exists, checking it out"
+            git checkout results
+          else
+            echo "Results branch doesn't exist yet, staying on main"
+          fi
+          
+      - name: Merge main into results to get code updates
+        run: |
+          # If we're on results branch, merge main to get code updates
+          if [ "$(git branch --show-current)" = "results" ]; then
+            echo "Merging main into results for code updates"
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git merge origin/main -m "Merge main for code updates" --no-edit || echo "No changes to merge"
+          fi
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -73,11 +97,15 @@ jobs:
         run: |
           uv run python -m src.daily_arxiv.archive
 
-      - name: Create/switch to results branch
+      - name: Ensure on results branch
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git checkout -B results || git checkout results
+          # If not on results branch, create it
+          if [ "$(git branch --show-current)" != "results" ]; then
+            echo "Creating results branch"
+            git checkout -b results
+          fi
 
       - name: Commit files to results branch
         run: |
@@ -90,4 +118,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: results
-          force: true
+          force: false
