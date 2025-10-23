@@ -19,7 +19,7 @@ def load_config(config_file: str) -> Dict[str, Any]:
     def _parse_filters(filters: list) -> str:
         """Parse filter list into query string format."""
         escape = '"'
-        or_operator = 'OR'
+        or_operator = ' OR '
         
         result = ''
         for idx, filter_term in enumerate(filters):
