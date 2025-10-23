@@ -73,7 +73,6 @@ keywords:
     "Robotics: Design, Control & Learning":
         filters:
             - "Computational Robot Design"
-            - "Legged Locomotion"
             - "Robot Control"
             - "Physics-based Robot Simulation"
             - "Reinforcement Learning for Robotics"
@@ -84,37 +83,27 @@ keywords:
     # Interaction methods and user aspects in design tools (cs.HC, cs.GR)
     "Human-Computer Interaction for Design":
         filters:
-            - "Interactive Design Systems"
-            - "Sketch-based Modeling"
+            - "Sketch-based"
             - "Sketch-based Interfaces" # Common HCI term
-            - "VR for Design" # More common phrasing
-            - "AR for Design"
             - "Immersive Design Interfaces" # Broader term for VR/AR in design
             - "Human-AI Collaboration" # Standard term
             - "Co-Creative AI"
-            - "Human-in-the-loop Design"
+            - "Human-in-the-loop"
             - "Design Tools for Novices" # Academic phrasing
-            - "User Intent Modeling Design" # More specific than preservation
+            - "User Intent"
 
     # Computer Graphics and Animation (cs.GR)
     "Computer Graphics & Animation":
         filters:
-            - "Computer Graphics"
-            - "3D Graphics"
             - "Computer Animation"
             - "Real-time Animation"
             - "Character Animation"
-            - "Facial Animation"
-            - "Hand Animation"
-            - "3D Animation"
             - "Animation Systems"
             - "Skeletal Animation"
             - "Mesh Animation"
             - "Deformation"
             - "Shape Animation"
             - "Rigging"
-            - "Skinning"
-            - "Blend Shapes"
             - "Morph Targets"
             - "Animation Blending"
             - "Animation Compression"
@@ -122,12 +111,8 @@ keywords:
             - "Animation Controllers"
             - "Inverse Kinematics"
             - "Forward Kinematics"
-            - "IK Solver"
             - "Constraint-based Animation"
             - "Physics-based Animation"
-            - "Cloth Animation"
-            - "Fluid Animation"
-            - "Particle Systems"
             - "Procedural Animation"
             - "Motion Synthesis"
             - "Motion Editing"
@@ -142,7 +127,7 @@ keywords:
         filters:
             - "Generative AI for Design"
             - "Foundation Models for Design"
-            - "LLMs for Design" # Common abbreviation
+            - "LLMs for Design"
             - "Language Models in Design"
-            - "Diffusion Models for Design" # Increasingly relevant generative model
-            - "AI for Engineering Design" # Broader application context
+            - "Diffusion Models for Design"
+            - "AI for Engineering Design"
