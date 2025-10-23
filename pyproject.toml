@@ -44,8 +44,8 @@ build-backend = "hatchling.build"
 daily-arxiv = "src.daily_arxiv.cli.main:main"
 archive-papers = "src.daily_arxiv.archive.archiver:main"
 
-[tool.uv]
-dev-dependencies = [
+[dependency-groups]
+dev = [
     "ruff>=0.6.2",
     "pytest>=7.0.0",
     "pytest-mock>=3.10.0",

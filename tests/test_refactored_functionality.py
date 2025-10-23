@@ -203,3 +203,54 @@ def test_cli_integration():
     assert app is not None
     assert hasattr(app, 'run')
     assert app.config == config
+
+
+def test_query_generation_with_proper_spacing():
+    """Test that query generation includes proper spacing around OR operators."""
+    import tempfile
+    import yaml
+    
+    # Create a test config file with single-word and multi-word filters
+    test_config = {
+        'base_url': 'https://test.com',
+        'max_results': 10,
+        'keywords': {
+            'Test Category': {
+                'filters': [
+                    'SingleWord',
+                    'Another',
+                    'Multi Word Term',
+                    'IK',
+                    'Sim2Real',
+                    'Physics-based Animation'
+                ]
+            }
+        }
+    }
+    
+    with tempfile.NamedTemporaryFile(mode='w', suffix='.yaml', delete=False) as f:
+        yaml.dump(test_config, f)
+        config_path = f.name
+    
+    try:
+        # Load the config
+        config = load_config(config_path)
+        
+        # Get the generated query
+        query = config['kv']['Test Category']
+        
+        # Verify the query format
+        assert ' OR ' in query  # Should have spaces around OR
+        assert 'SingleWord OR Another' in query
+        assert 'IK OR Sim2Real' in query
+        assert '"Multi Word Term"' in query
+        assert '"Physics-based Animation"' in query
+        
+        # Check that there are no ORs without spaces
+        import re
+        bad_ors = re.findall(r'[a-zA-Z]OR[a-zA-Z]', query)
+        assert len(bad_ors) == 0, f"Found ORs without proper spacing: {bad_ors}"
+        
+    finally:
+        # Clean up
+        os.unlink(config_path)
