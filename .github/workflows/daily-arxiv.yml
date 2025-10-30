@@ -57,7 +57,24 @@ jobs:
             echo "Merging main into results for code updates"
             git config --local user.email "github-actions[bot]@users.noreply.github.com"
             git config --local user.name "github-actions[bot]"
-            git merge origin/main -m "Merge main for code updates" --no-edit || echo "No changes to merge"
+            
+            # Try to merge main into results
+            if git merge origin/main -m "Merge main for code updates" --no-edit; then
+              echo "Merge completed successfully"
+            else
+              # Check if merge failed due to conflicts
+              if git status | grep -q "You have unmerged paths"; then
+                echo "Merge conflicts detected, aborting and retrying with strategy"
+                git merge --abort
+                
+                # Retry merge with strategy to prefer incoming changes from main for conflicts
+                # WARNING: The -X theirs strategy will accept incoming changes from main and overwrite any conflicting changes in the results branch, including logs. This may result in loss of logs if there are conflicts in the logs directory.
+                echo "Retrying merge with -X theirs strategy to accept code changes from main (may overwrite logs in case of conflicts)"
+                git merge origin/main -m "Merge main for code updates" --no-edit -X theirs || exit 1
+              else
+                echo "Merge failed but no conflicts detected, likely no changes to merge"
+              fi
+            fi
           fi
 
       - name: Set up Python
