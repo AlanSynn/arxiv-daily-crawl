@@ -66,8 +66,9 @@ jobs:
                 git merge --abort
                 
                 # Retry merge with strategy to prefer incoming changes from main for conflicts
-                # This ensures we get the latest code from main while preserving logs
-                echo "Retrying merge with -X theirs strategy to accept code changes from main"
+                # WARNING: The -X theirs strategy accepts incoming changes from main in case of conflicts,
+                # which may overwrite changes in the results branch, including in the logs directory.
+                echo "Retrying merge with -X theirs strategy to accept code changes from main (may overwrite results branch changes in case of conflicts, including logs)"
                 git merge origin/main -m "Merge main for code updates" --no-edit -X theirs
               else
                 echo "Merge failed but no conflicts detected, likely no changes to merge"
