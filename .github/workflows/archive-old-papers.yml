@@ -57,7 +57,7 @@ jobs:
                 # WARNING: This will accept changes from main and may overwrite changes in the results branch (including logs) if there are conflicts.
                 # If logs must be preserved, add explicit handling to back up or restore the logs directory before/after the merge.
                 echo "Retrying merge with -X theirs strategy to accept code changes from main"
-                git merge origin/main -m "Merge main for code updates" --no-edit -X theirs
+                git merge origin/main -m "Merge main for code updates" --no-edit -X theirs || exit 1
               else
                 echo "Merge failed but no conflicts detected, likely no changes to merge"
               fi
