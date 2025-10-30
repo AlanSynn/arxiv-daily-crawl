@@ -56,10 +56,17 @@ class ArXivClient:
             # Just log it and continue with whatever papers we collected
             logging.warning(f"ArXiv API returned empty page for {topic}: {e}")
             logging.info(f"Collected {len(all_papers)} papers before encountering empty page")
-        except Exception as e:
-            # Log other errors but don't fail completely
-            logging.error(f"Error fetching papers for {topic}: {e}")
+        except (arxiv.HTTPError, requests.exceptions.RequestException, ConnectionError, TimeoutError) as e:
+            # Handle network-related errors gracefully
+            logging.error(f"Network error fetching papers for {topic}: {e}")
             logging.info(f"Collected {len(all_papers)} papers before error")
+        except Exception as e:
+            # Catch any other unexpected errors to prevent complete failure
+            logging.error(f"Unexpected error fetching papers for {topic}: {e}")
+            logging.info(f"Collected {len(all_papers)} papers before error")
+            # Re-raise if it's a critical error we shouldn't ignore
+            if isinstance(e, (KeyboardInterrupt, SystemExit, MemoryError)):
+                raise
 
         if not all_papers:
             logging.info(f"No papers found for {topic}")
