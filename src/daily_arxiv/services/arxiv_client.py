@@ -46,10 +46,20 @@ class ArXivClient:
 
         # Collect all papers first
         all_papers = []
-        for result in search_engine.results():
-            paper_data = self._process_paper_result(result)
-            if paper_data:
-                all_papers.append(paper_data)
+        try:
+            for result in search_engine.results():
+                paper_data = self._process_paper_result(result)
+                if paper_data:
+                    all_papers.append(paper_data)
+        except arxiv.UnexpectedEmptyPageError as e:
+            # This can happen when the API returns fewer results than expected
+            # Just log it and continue with whatever papers we collected
+            logging.warning(f"ArXiv API returned empty page for {topic}: {e}")
+            logging.info(f"Collected {len(all_papers)} papers before encountering empty page")
+        except Exception as e:
+            # Log other errors but don't fail completely
+            logging.error(f"Error fetching papers for {topic}: {e}")
+            logging.info(f"Collected {len(all_papers)} papers before error")
 
         if not all_papers:
             logging.info(f"No papers found for {topic}")
