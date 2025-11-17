@@ -45,13 +45,19 @@ class DailyArxivApp:
         all_email_data_web = {}
         all_main_data = {}
         all_main_data_web = {}
+        most_recent_paper_date = None
 
         for topic, query_info in self.config['kv'].items():
             logging.info(f"Fetching papers for: {topic}")
 
-            email_data, email_data_web, main_data, main_data_web = self.arxiv_client.get_daily_papers(
+            email_data, email_data_web, main_data, main_data_web, paper_date = self.arxiv_client.get_daily_papers(
                 topic, query_info, self.config.get('max_results', 30)
             )
+
+            # Track the most recent paper date across all categories
+            if paper_date:
+                if most_recent_paper_date is None or paper_date > most_recent_paper_date:
+                    most_recent_paper_date = paper_date
 
             # Update email data (most recent day only)
             if email_data and email_data.get(topic):
@@ -75,11 +81,11 @@ class DailyArxivApp:
 
         # Update daily log files with all data
         if all_main_data:
-            self._update_daily_logs(all_main_data, all_main_data_web)
+            self._update_daily_logs(all_main_data, all_main_data_web, most_recent_paper_date)
 
         # Send email if requested (use email data - most recent day only)
         if self.config.get('send_email', False) and all_email_data_web:
-            self._send_email_notification(all_email_data_web)
+            self._send_email_notification(all_email_data_web, most_recent_paper_date)
 
         logging.info("Daily arXiv collection completed")
 
@@ -110,10 +116,13 @@ class DailyArxivApp:
                     show_badge=self.config.get('show_badge', True)
                 )
 
-    def _update_daily_logs(self, data: Dict, data_web: Dict):
+    def _update_daily_logs(self, data: Dict, data_web: Dict, paper_date=None):
         """Update daily log files with all data (including today's papers)."""
+        # Use the paper date if provided, otherwise fall back to today
+        date_str = paper_date.strftime("%Y-%m-%d") if paper_date else None
+        
         # Update dated log files
-        dated_paths = get_dated_file_paths(self.config)
+        dated_paths = get_dated_file_paths(self.config, date_str)
         self.file_manager.update_json_file(dated_paths['json_path'], [data], create_new=True)
         self.content_generator.json_to_md(
             dated_paths['json_path'], dated_paths['md_path'],
@@ -127,14 +136,19 @@ class DailyArxivApp:
             task="Generate daily web log", create_new=True, to_web=True
         )
 
-    def _send_email_notification(self, data_web: Dict):
+    def _send_email_notification(self, data_web: Dict, paper_date=None):
         """Send email notification with daily papers."""
         recipient = self.config.get('email_recipient')
         if not recipient:
             logging.warning("No email recipient configured")
             return
 
-        date_str = datetime.date.today().strftime("%Y-%m-%d")
+        # Use the paper date if provided, otherwise fall back to today
+        if paper_date:
+            date_str = paper_date.strftime("%Y-%m-%d")
+        else:
+            date_str = datetime.date.today().strftime("%Y-%m-%d")
+        
         subject = f"Daily arXiv Papers - {date_str}"
 
         html_content = self.email_service.generate_daily_email_content(data_web, date_str)

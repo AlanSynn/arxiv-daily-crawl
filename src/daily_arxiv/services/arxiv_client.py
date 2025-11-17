@@ -17,7 +17,7 @@ class ArXivClient:
         self.arxiv_url = "http://arxiv.org/"
 
     def get_daily_papers(self, topic: str, query: str = "computational design",
-                        max_results: int = 5) -> Tuple[Dict, Dict, Dict, Dict]:
+                        max_results: int = 5) -> Tuple[Dict, Dict, Dict, Dict, Optional[date]]:
         """
         Fetch papers from ArXiv for a given topic and query.
 
@@ -27,11 +27,12 @@ class ArXivClient:
             max_results: Maximum number of results to fetch
 
         Returns:
-            Tuple of (email_content, email_content_web, main_content, main_content_web)
+            Tuple of (email_content, email_content_web, main_content, main_content_web, most_recent_date)
             - email_content: Papers for email (most recent day only)
             - email_content_web: Web version of email papers
             - main_content: All papers for main report
             - main_content_web: Web version of all papers for main report
+            - most_recent_date: Date of the most recent papers (None if no papers found)
         """
         email_content = {}
         email_content_web = {}
@@ -70,7 +71,7 @@ class ArXivClient:
         if not all_papers:
             logging.info(f"No papers found for {topic}")
             return ({topic: email_content}, {topic: email_content_web},
-                    {topic: main_content}, {topic: main_content_web})
+                    {topic: main_content}, {topic: main_content_web}, None)
 
         # Find the most recent date
         most_recent_date = max(paper['update_time'] for paper in all_papers)
@@ -94,7 +95,7 @@ class ArXivClient:
 
         logging.info(f"Found {len(main_content)} total papers, {len(email_content)} papers from most recent day ({most_recent_date}) for email")
         return ({topic: email_content}, {topic: email_content_web},
-                {topic: main_content}, {topic: main_content_web})
+                {topic: main_content}, {topic: main_content_web}, most_recent_date)
 
     def _process_paper_result(self, result) -> Optional[Dict]:
         """Process a single ArXiv result into structured data."""
