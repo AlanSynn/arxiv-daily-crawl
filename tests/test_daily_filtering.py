@@ -99,7 +99,7 @@ def test_daily_filtering_with_mixed_dates(client, mixed_date_papers):
         with patch('requests.get') as mock_requests:
             mock_requests.return_value.json.return_value = {}
 
-            email_data, email_web, main_data, main_web = client.get_daily_papers(
+            email_data, email_web, main_data, main_web, paper_date = client.get_daily_papers(
                 "Test Topic", "test query", 10
             )
 
@@ -108,6 +108,9 @@ def test_daily_filtering_with_mixed_dates(client, mixed_date_papers):
 
             # Check that email data contains only today's papers (most recent date)
             assert len(email_data["Test Topic"]) == 2
+            
+            # Verify paper_date is today
+            assert paper_date == date.today()
 
             # Verify the content contains today's papers
             email_content = list(email_data["Test Topic"].values())
@@ -130,13 +133,16 @@ def test_daily_filtering_with_same_dates(client, same_date_papers):
         with patch('requests.get') as mock_requests:
             mock_requests.return_value.json.return_value = {}
 
-            email_data, email_web, main_data, main_web = client.get_daily_papers(
+            email_data, email_web, main_data, main_web, paper_date = client.get_daily_papers(
                 "Test Topic", "test query", 10
             )
 
             # When all papers are from same date, email and main should be identical
             assert len(main_data["Test Topic"]) == 3
             assert len(email_data["Test Topic"]) == 3
+            
+            # Verify paper_date is the test date
+            assert paper_date == date(2025, 6, 23)
 
             # Check that all papers are included in both
             main_titles = [content for content in main_data["Test Topic"].values()]
@@ -153,13 +159,16 @@ def test_daily_filtering_with_no_papers(client):
     with patch('arxiv.Search') as mock_arxiv_search:
         mock_arxiv_search.return_value = mock_search
 
-        email_data, email_web, main_data, main_web = client.get_daily_papers(
+        email_data, email_web, main_data, main_web, paper_date = client.get_daily_papers(
             "Test Topic", "test query", 10
         )
 
         # Both should be empty
         assert len(main_data["Test Topic"]) == 0
         assert len(email_data["Test Topic"]) == 0
+        
+        # paper_date should be None when no papers found
+        assert paper_date is None
 
 
 def test_most_recent_date_identification(client, mixed_date_papers):
@@ -175,7 +184,7 @@ def test_most_recent_date_identification(client, mixed_date_papers):
 
             # Capture the log output to verify most recent date detection
             with patch('logging.info') as mock_log:
-                email_data, email_web, main_data, main_web = client.get_daily_papers(
+                email_data, email_web, main_data, main_web, paper_date = client.get_daily_papers(
                     "Test Topic", "test query", 10
                 )
 
@@ -187,6 +196,9 @@ def test_most_recent_date_identification(client, mixed_date_papers):
                 # Verify today's date is in the log
                 today_str = str(date.today())
                 assert any(today_str in log for log in most_recent_log)
+                
+                # Verify the returned paper_date is today
+                assert paper_date == date.today()
 
 
 def test_paper_content_format(client, same_date_papers):
@@ -200,7 +212,7 @@ def test_paper_content_format(client, same_date_papers):
         with patch('requests.get') as mock_requests:
             mock_requests.return_value.json.return_value = {}
 
-            email_data, email_web, main_data, main_web = client.get_daily_papers(
+            email_data, email_web, main_data, main_web, paper_date = client.get_daily_papers(
                 "Test Topic", "test query", 10
             )
 
@@ -226,7 +238,7 @@ def test_web_content_format(client, same_date_papers):
         with patch('requests.get') as mock_requests:
             mock_requests.return_value.json.return_value = {}
 
-            email_data, email_web, main_data, main_web = client.get_daily_papers(
+            email_data, email_web, main_data, main_web, paper_date = client.get_daily_papers(
                 "Test Topic", "test query", 10
             )
 
@@ -256,7 +268,7 @@ def test_code_url_integration(client, same_date_papers):
             }
             mock_requests.return_value = mock_response
 
-            email_data, email_web, main_data, main_web = client.get_daily_papers(
+            email_data, email_web, main_data, main_web, paper_date = client.get_daily_papers(
                 "Test Topic", "test query", 10
             )
 
@@ -293,7 +305,35 @@ def test_cli_integration_with_filtering():
     # Test that arxiv_client has the new method signature
     import inspect
     sig = inspect.signature(app.arxiv_client.get_daily_papers)
-    # Should return 4 values now (email_data, email_web, main_data, main_web)
+    # Should return 5 values now (email_data, email_web, main_data, main_web, paper_date)
     assert 'topic' in sig.parameters
     assert 'query' in sig.parameters
     assert 'max_results' in sig.parameters
+
+
+def test_paper_date_returned_correctly():
+    """Test that the paper date is correctly returned from get_daily_papers."""
+    client = ArXivClient()
+    
+    # Create papers with a specific date
+    test_date = date(2025, 6, 15)
+    test_papers = [
+        MockArxivResult("2024.03001", "Test Paper 1", ["Author 1"], test_date, test_date),
+        MockArxivResult("2024.03002", "Test Paper 2", ["Author 2"], test_date, test_date),
+    ]
+    
+    mock_search = MockSearchResults(test_papers)
+
+    with patch('arxiv.Search') as mock_arxiv_search:
+        mock_arxiv_search.return_value = mock_search
+
+        with patch('requests.get') as mock_requests:
+            mock_requests.return_value.json.return_value = {}
+
+            email_data, email_web, main_data, main_web, paper_date = client.get_daily_papers(
+                "Test Topic", "test query", 10
+            )
+
+            # Verify that paper_date matches the test date
+            assert paper_date == test_date
+            assert paper_date.strftime("%Y-%m-%d") == "2025-06-15"
