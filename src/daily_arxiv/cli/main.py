@@ -330,7 +330,9 @@ class DailyArxivApp:
         else:
             date_str = datetime.date.today().strftime("%Y-%m-%d")
 
-        threshold = float(self.config.get('scoring', {}).get('threshold', 0.15))
+        # ``config['scoring']`` is a ScoringConfig dataclass (not a dict) after
+        # load_config, so read the attribute directly.
+        threshold = float(getattr(self.config.get('scoring'), 'threshold', 0.15))
         stats = {
             "total": sum(len(v) for v in papers_by_category.values()),
             "categories": sum(1 for v in papers_by_category.values() if v),
