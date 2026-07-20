@@ -189,6 +189,12 @@ class DailyArxivApp:
                 save_notified(
                     notified_path, combined, max_age_days=dedup_max_age
                 )
+            elif not sent and delta_keys:
+                # Send failed — do NOT record keys, so they retry next run.
+                logging.warning(
+                    "Email send failed; %d paper(s) will retry next run.",
+                    len(delta_keys),
+                )
         elif config.get('send_email', False):
             logging.info(
                 "No new papers since last dispatch; email skipped."

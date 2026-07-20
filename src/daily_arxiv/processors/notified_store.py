@@ -103,10 +103,12 @@ def load_notified(path: str) -> Set[str]:
         return set()
 
     if isinstance(data, dict):
-        # Preferred shape: {"notified": [...]}.
-        inner = data.get("notified")
-        if isinstance(inner, list):
-            return {str(k) for k in inner}
+        # Preferred shape: {"notified": [...]}. If the key is present but the
+        # value is not a list (corrupt), start fresh rather than mis-reading
+        # the wrapper keys ("notified"/"count") as paper ids.
+        if "notified" in data:
+            inner = data["notified"]
+            return {str(k) for k in inner} if isinstance(inner, list) else set()
         # Legacy/alt shape: {key: anything}.
         return {str(k) for k in data.keys()}
     if isinstance(data, list):
@@ -133,8 +135,12 @@ def save_notified(
     if parent:
         os.makedirs(parent, exist_ok=True)
     payload = sorted(pruned)
-    with open(path, "w", encoding="utf-8") as fh:
+    # Atomic write: dump to a sibling temp file then os.replace into place
+    # so a killed runner / full disk can't leave a truncated state file.
+    tmp = f"{path}.tmp"
+    with open(tmp, "w", encoding="utf-8") as fh:
         json.dump({"notified": payload, "count": len(payload)}, fh, indent=2)
+    os.replace(tmp, path)
     logging.info(
         "Notified state saved: %d keys (pruned to last %d days) -> %s",
         len(pruned), max_age_days, path,

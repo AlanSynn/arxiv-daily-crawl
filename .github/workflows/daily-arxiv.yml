@@ -69,6 +69,7 @@ jobs:
                 
                 # Retry merge with strategy to prefer incoming changes from main for conflicts
                 # WARNING: The -X theirs strategy will accept incoming changes from main and overwrite any conflicting changes in the results branch, including logs. This may result in loss of logs if there are conflicts in the logs directory.
+                # SAFETY for notified_papers.json: this is only safe because logs/ stays gitignored on main (.gitignore:70), so main never carries a conflicting copy. If logs/ is ever force-added to main, this strategy would clobber the dedup state and cause re-sends.
                 echo "Retrying merge with -X theirs strategy to accept code changes from main (may overwrite logs in case of conflicts)"
                 git merge origin/main -m "Merge main for code updates" --no-edit -X theirs || exit 1
               else
