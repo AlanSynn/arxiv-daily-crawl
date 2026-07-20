@@ -126,8 +126,12 @@ jobs:
 
       - name: Commit files to results branch
         run: |
-          # Add only the logs directory to results branch
-          git add logs/ || echo "No logs to add"
+          # Add the logs directory to the results branch. -f is required
+          # because .gitignore excludes logs/ (kept off main). Without -f the
+          # add silently no-ops and neither the dated snapshots nor the email
+          # dedup state (logs/notified_papers.json) ever persist — which is
+          # why daily snapshots stopped landing after 2025-06-18.
+          git add -f logs/ || echo "No logs to add"
           git commit -m "Update daily-arxiv papers - $(date +'%Y-%m-%d')" || echo "No changes to commit"
 
       - name: Push to results branch

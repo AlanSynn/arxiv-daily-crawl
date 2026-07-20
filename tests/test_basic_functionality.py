@@ -80,9 +80,9 @@ def test_import_works():
 def test_dependencies_installed():
     """Test that required dependencies are available"""
     try:
-        import arxiv
-        import yaml
-        import requests
-        import smtplib
+        import arxiv  # noqa: F401
+        import yaml  # noqa: F401
+        import requests  # noqa: F401
+        import smtplib  # noqa: F401
     except ImportError as e:
         pytest.fail(f"Required dependency not available: {e}")

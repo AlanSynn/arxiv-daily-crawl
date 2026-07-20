@@ -80,4 +80,8 @@ temp/
 .env.production
 secrets.yaml
 
+# Local-only: personal papers dir symlink + OMC runtime state
+papers
+.omc/
+
 .claude/

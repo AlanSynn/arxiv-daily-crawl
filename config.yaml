@@ -1,10 +1,27 @@
-base_url: "https://arxiv.paperswithcode.com/api/v0/papers/"
+# =============================================================================
+# daily-arxiv configuration
+# =============================================================================
+# The `categories:` block below is the source of truth for what we fetch.
+# Each category maps a display name to:
+#   cat_codes         - arXiv category codes (cs.GR, cs.CV, ...). Scoped search.
+#   include_keywords  - phrases matched against the paper. By default these
+#                       become `abs:"phrase"` clauses in the arXiv query AND
+#                       substring matches in the relevance scorer.
+#                       Prefix a keyword with `ti:` to match the TITLE only,
+#                       e.g. `ti:world model` -> `ti:"world model"` (higher
+#                       precision, lower recall).
+#   exclude_keywords  - applied client-side as a relevance penalty; NOT part
+#                       of the arXiv query (arXiv has no robust NOT operator).
+#   priority          - tie-breaker for display ordering (higher = earlier).
+# =============================================================================
+
+base_url: "https://huggingface.co/api/papers/"   # code-link lookup (replaces dead PWC API)
 user_name: "AlanSynn"
 repo_name: "daily-arxiv"
 show_authors: True
 show_links: True
 show_badge: True
-max_results: 30
+max_results: 40
 
 publish_readme: False  # Don't modify root README.md
 publish_gitpage: False  # Don't publish to docs/ (use logs/ instead)
@@ -37,97 +54,186 @@ email_settings:
 send_email: True
 email_recipient: "${EMAIL_RECIPIENT}"  # Will be replaced with GitHub secret
 
-# keywords to search - Refined for ArXiv precision
-keywords:
-    # Core computational methods for design and making (cs.GR, cs.HC)
-    "Computational Design & Fabrication":
-        filters:
-            - "Computational Design"
-            - "Generative Design"
+# email dedup: each paper is dispatched at most once. The state file records
+# already-emailed paper keys across runs so a stalled newest-day (e.g. arXiv's
+# weekday-only posting over a weekend) never re-sends the same batch. The
+# workflow force-commits logs/ (incl. this file) to the results branch.
+email_dedup:
+  enabled: True
+  state_path: './logs/notified_papers.json'
+  max_age_days: 30   # prune notified keys older than this (fetch window is 14d)
 
-    # Mechanics, kinematics, simulation, and animation (cs.GR, cs.RO)
-    "Mechanics, Kinematics & Motion Synthesis":
-        filters:
-            - "Kinematic Synthesis"
-            - "Mechanism Design"
-            - "Computational Mechanism Design"
-            - "Linkage Synthesis"
-            - "Linkage Optimization"
-            - "Motion Synthesis"
-            - "Motion Planning"
-            - "Character Animation"
-            - "Physics-based Modeling"
-            - "Physics-based Animation"
-            - "Physics-based Simulation"
-            - "Mechanical Character Animation"
-            - "Inverse Kinematics"
-            - "IK"
-            - "Forward Kinematics"
-            - "Kinematics Simulation"
-            - "Animation Synthesis"
-            - "Motion Capture"
-            - "Motion Retargeting"
-            - "Procedural Animation"
+# -----------------------------------------------------------------------------
+# Relevance scoring (see src/daily_arxiv/processors/relevance.py)
+# -----------------------------------------------------------------------------
+scoring:
+  threshold: 0.15       # drop papers below this normalized score
+  title_weight: 2.0     # a title keyword hit is worth this many abstract hits
+  include_boost: 1.0    # weight of one abstract keyword hit
+  exclude_penalty: 1.0  # subtracted from the score when any exclude keyword hits
 
-    # Robotics design, control, learning, and simulation (cs.RO, cs.LG, cs.AI)
-    "Robotics: Design, Control & Learning":
-        filters:
-            - "Computational Robot Design"
-            - "Robot Control"
-            - "Physics-based Robot Simulation"
-            - "Reinforcement Learning for Robotics"
-            - "Sim2Real"
-            - "Sim-2-Real"
-            - "Sim-to-Real"
+# -----------------------------------------------------------------------------
+# Rate limiting & feature flags
+# -----------------------------------------------------------------------------
+rate_limit:
+  arxiv_delay_seconds: 3.0      # arXiv requires >=3s between requests
+  code_link_delay_seconds: 1.0  # throttle between HF Papers API calls
+  code_link_enabled: true       # master kill switch for code-link lookups
 
-    # Interaction methods and user aspects in design tools (cs.HC, cs.GR)
-    "Human-Computer Interaction for Design":
-        filters:
-            - "Sketch-based"
-            - "Sketch-based Interfaces" # Common HCI term
-            - "Immersive Design Interfaces" # Broader term for VR/AR in design
-            - "Human-AI Collaboration" # Standard term
-            - "Co-Creative AI"
-            - "Human-in-the-loop"
-            - "Design Tools for Novices" # Academic phrasing
-            - "User Intent"
+# -----------------------------------------------------------------------------
+# Table of contents / paper list (consumed by toc_generator in Wave 2)
+# -----------------------------------------------------------------------------
+toc:
+  enabled: true
+  paper_list_path: "./logs/PAPER_LIST.md"
+  group_by_date: true
 
-    # Computer Graphics and Animation (cs.GR)
-    "Computer Graphics & Animation":
-        filters:
-            - "Computer Animation"
-            - "Real-time Animation"
-            - "Character Animation"
-            - "Animation Systems"
-            - "Skeletal Animation"
-            - "Mesh Animation"
-            - "Deformation"
-            - "Shape Animation"
-            - "Rigging"
-            - "Morph Targets"
-            - "Animation Blending"
-            - "Animation Compression"
-            - "Motion Graphs"
-            - "Animation Controllers"
-            - "Inverse Kinematics"
-            - "Forward Kinematics"
-            - "Constraint-based Animation"
-            - "Physics-based Animation"
-            - "Procedural Animation"
-            - "Motion Synthesis"
-            - "Motion Editing"
-            - "Motion Blending"
-            - "Animation Generation"
-            - "Neural Animation"
-            - "Learning-based Animation"
-            - "Data-driven Animation"
+# =============================================================================
+# Categories (the 10 merged MotionSmith-relevant areas)
+# =============================================================================
+categories:
+  # ===== T1: MotionSmith core (motion + design + HCI) =====
+  - name: "Character Motion Synthesis & Animation"
+    cat_codes: ["cs.GR", "cs.CV"]
+    priority: 9
+    include_keywords:
+      - "character animation"
+      - "motion synthesis"
+      - "motion generation"
+      - "human motion"
+      - "motion diffusion"
+      - "physics-based motion"
+      - "motion capture"
+      - "skeletal animation"
+      - "ti:character motion"   # title-only precision (bare ti:motion caught SfM/medical noise)
+      - "ti:motion synthesis"
+      - "ti:motion generation"
+      - "ti:human motion"
+    exclude_keywords: ["motion planning", "optical flow", "sport", "structure from motion", "structure-from-motion", "myocardial", "eye reconstruction"]
 
-    # Specific AI models and their application in design (cs.AI, cs.LG, cs.GR, cs.HC)
-    "Generative AI & Foundation Models in Design":
-        filters:
-            - "Generative AI for Design"
-            - "Foundation Models for Design"
-            - "LLMs for Design"
-            - "Language Models in Design"
-            - "Diffusion Models for Design"
-            - "AI for Engineering Design"
+  - name: "Motion Authoring, Editing & Retargeting"
+    cat_codes: ["cs.GR", "cs.HC"]
+    priority: 10
+    include_keywords:
+      - "motion authoring"
+      - "motion editing"
+      - "in-betweening"
+      - "motion retargeting"
+      - "pose authoring"
+      - "inverse kinematics"
+      - "generative motion rig"
+      - "match animation"
+      - "interactive motion"
+    exclude_keywords: ["video editing", "image editing", "text editing"]
+
+  - name: "Computational Design, Mechanism & Fabrication"
+    cat_codes: ["cs.GR", "cs.HC", "cs.RO"]
+    priority: 8
+    include_keywords:
+      - "computational fabrication"
+      - "computational design"
+      - "digital fabrication"
+      - "mechanism design"        # scoped to GR/HC/RO so social/economic mech-design excluded
+      - "linkage synthesis"
+      - "kinematic synthesis"
+      - "four-bar linkage"
+      - "cam-follower"
+      - "automata"
+      - "3D printing"
+    exclude_keywords: ["cathode", "anode", "battery", "crystalline", "perovskite", "supply chain", "powder bed fusion", "drug", "protein"]
+
+  - name: "Sketch-based & Creative HCI Tools"
+    cat_codes: ["cs.HC"]
+    priority: 7
+    include_keywords:
+      - "sketch-based"
+      - "ti:authoring"
+      - "creative tool"
+      - "design tool"
+      - "co-creative"
+      - "human-AI co-creation"
+      - "interactive design system"
+      - "participatory design"
+    exclude_keywords: []   # NOTE: low arXiv recall expected (CHI/UIST live in ACM DL)
+
+  # ===== T2: must-include new areas =====
+  - name: "Vision-Language & Action Models (VLA/VLM)"
+    cat_codes: ["cs.RO", "cs.LG", "cs.CV", "cs.AI", "cs.CL"]
+    priority: 9
+    include_keywords:
+      - "vision-language-action"
+      - "vision language action"
+      - "VLA"
+      - "vision-language"          # include pure VLM too
+      - "VLM"
+      - "generalist robot policy"
+      - "manipulation policy"
+      - "diffusion policy"
+      - "robot foundation model"
+      - "action chunking"
+      - "cross-embodiment"
+    exclude_keywords: []
+
+  - name: "World Models & Generative Video"
+    cat_codes: ["cs.LG", "cs.CV", "cs.RO"]
+    priority: 9
+    include_keywords:
+      - "ti:world model"           # title-only (abs:"world model" is noisy)
+      - "ti:world models"
+      - "world simulator"
+      - "interactive video generation"
+      - "video diffusion"
+      - "action-conditioned video"
+      - "video generation"
+      - "human motion generation"
+    exclude_keywords: ["weather", "climate model", "economic model"]
+
+  # ===== T3: supporting =====
+  - name: "3D Understanding: Reconstruction & Generation"
+    cat_codes: ["cs.CV", "cs.GR"]
+    priority: 6
+    include_keywords:
+      - "3D reconstruction"
+      - "Gaussian Splatting"
+      - "neural radiance"
+      - "3D generation"
+      - "part segmentation"
+      - "single-view 3D"
+      - "text-to-3D"
+    exclude_keywords: ["medical imaging", "CT reconstruction", "seismic", "remote sensing"]
+
+  - name: "Embodied AI & Robot Learning"
+    cat_codes: ["cs.RO", "cs.LG"]
+    priority: 5
+    include_keywords:
+      - "sim-to-real"
+      - "sim2real"
+      - "affordance"
+      - "dexterous manipulation"
+      - "cross-embodiment learning"
+      - "model-based reinforcement learning"
+      - "robot skill learning"
+    exclude_keywords: ["SLAM", "path planning", "agriculture"]
+
+  - name: "Narrative & Long-form Audio"
+    cat_codes: ["cs.SD", "eess.AS"]
+    priority: 4
+    include_keywords:
+      - "narrative audio"
+      - "long-form audio"
+      - "audio story"
+      - "audio generation"
+    exclude_keywords: ["speech recognition", "speaker verification", "audio classification"]   # narrative/long-form ONLY
+
+  - name: "Neural Rendering & Physics Simulation"
+    cat_codes: ["cs.GR", "cs.CV"]
+    priority: 5
+    include_keywords:
+      - "neural rendering"
+      - "differentiable rendering"
+      - "inverse rendering"
+      - "fluid simulation"
+      - "deformable simulation"
+      - "cloth simulation"
+      - "relightable"
+    exclude_keywords: ["CFD", "weather simulation", "plasma", "molecular dynamics"]
