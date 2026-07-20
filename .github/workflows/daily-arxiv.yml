@@ -69,6 +69,7 @@ jobs:
                 
                 # Retry merge with strategy to prefer incoming changes from main for conflicts
                 # WARNING: The -X theirs strategy will accept incoming changes from main and overwrite any conflicting changes in the results branch, including logs. This may result in loss of logs if there are conflicts in the logs directory.
+                # SAFETY for notified_papers.json: this is only safe because logs/ stays gitignored on main (.gitignore:70), so main never carries a conflicting copy. If logs/ is ever force-added to main, this strategy would clobber the dedup state and cause re-sends.
                 echo "Retrying merge with -X theirs strategy to accept code changes from main (may overwrite logs in case of conflicts)"
                 git merge origin/main -m "Merge main for code updates" --no-edit -X theirs || exit 1
               else
@@ -126,8 +127,12 @@ jobs:
 
       - name: Commit files to results branch
         run: |
-          # Add only the logs directory to results branch
-          git add logs/ || echo "No logs to add"
+          # Add the logs directory to the results branch. -f is required
+          # because .gitignore excludes logs/ (kept off main). Without -f the
+          # add silently no-ops and neither the dated snapshots nor the email
+          # dedup state (logs/notified_papers.json) ever persist — which is
+          # why daily snapshots stopped landing after 2025-06-18.
+          git add -f logs/ || echo "No logs to add"
           git commit -m "Update daily-arxiv papers - $(date +'%Y-%m-%d')" || echo "No changes to commit"
 
       - name: Push to results branch

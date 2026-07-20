@@ -1,9 +1,7 @@
 """Test refactored functionality for daily-arxiv."""
 
-import pytest
 import tempfile
 import os
-from pathlib import Path
 from unittest.mock import patch, MagicMock
 
 from src.daily_arxiv.core.config import load_config, validate_config
@@ -18,26 +16,34 @@ from src.daily_arxiv.utils.date_utils import format_authors, get_dated_file_path
 
 def test_config_validation():
     """Test configuration validation."""
-    # Valid config
+    # Valid config (new categories schema)
     valid_config = {
         'base_url': 'https://test.com',
-        'keywords': {'Test': {'filters': ['test']}},
-        'max_results': 10
+        'max_results': 10,
+        'categories': [{'name': 'Test', 'cat_codes': ['cs.GR']}],
     }
     assert validate_config(valid_config) is True
-    
+
     # Invalid config - missing required key
     invalid_config = {
         'base_url': 'https://test.com'
     }
     assert validate_config(invalid_config) is False
 
+    # Invalid config - no categories
+    invalid_config_no_cats = {
+        'base_url': 'https://test.com',
+        'max_results': 10,
+    }
+    assert validate_config(invalid_config_no_cats) is False
+
 
 def test_arxiv_client_initialization():
-    """Test ArXiv client can be initialized."""
+    """Test ArXiv client can be initialized and exposes the new + legacy APIs."""
     client = ArXivClient()
     assert client is not None
-    assert hasattr(client, 'get_daily_papers')
+    assert hasattr(client, 'fetch_category')      # new primary API
+    assert hasattr(client, 'get_daily_papers')     # deprecated compat wrapper
 
 
 def test_github_client_initialization():
@@ -167,23 +173,101 @@ def test_file_manager_json_operations():
         assert result['Test Category']['paper1'] == 'content1'
 
 
-def test_email_service_content_generation():
-    """Test email service content generation."""
+def test_render_email_basic():
+    """render_email produces Dispatch HTML from real Paper objects."""
+    from datetime import date
+    from src.daily_arxiv.models.paper import Paper
+
     config = {'email_settings': {'enabled': True}}
     service = EmailService(config)
-    
-    test_data = {
-        'Test Category': {
-            'paper1': 'Test paper content'
-        }
-    }
-    
-    html_content = service.generate_daily_email_content(test_data, '2024-01-15')
-    
-    assert html_content is not None
-    assert 'Test Category' in html_content
-    assert '2024-01-15' in html_content
-    assert '<html lang="en">' in html_content
+
+    p1 = Paper(
+        paper_key="2506.14513", title="MotionSmith: A <Cool> Tool & More",
+        authors_str="Alan Synn",
+        abstract="We present a system for authoring motion. " * 30,
+        published=date(2025, 6, 17), updated=date(2025, 6, 17),
+        primary_category="cs.GR", all_categories=["cs.GR", "cs.HC"],
+        entry_id="http://arxiv.org/abs/2506.14513",
+        abs_url="http://arxiv.org/abs/2506.14513", code_url=None,
+        category="Character Motion", score=0.82, matched_keywords=["motion"],
+    )
+    p2 = Paper(
+        paper_key="2506.14000", title="World Models for Robots",
+        authors_str="Jane Doe", abstract="Interactive video generation model.",
+        published=date(2025, 6, 17), updated=date(2025, 6, 17),
+        primary_category="cs.LG", all_categories=["cs.LG"],
+        entry_id="http://arxiv.org/abs/2506.14000",
+        abs_url="http://arxiv.org/abs/2506.14000",
+        code_url="https://github.com/x/y",
+        category="World Models", score=0.61, matched_keywords=["world model"],
+    )
+    html = service.render_email(
+        {"Character Motion": [p1], "World Models": [p2]},
+        "2025-06-17", {"total": 2, "categories": 2, "threshold": 0.15},
+    )
+
+    assert html is not None
+    assert "<!DOCTYPE html>" in html
+    assert "DAILY ARXIV DISPATCH" in html
+    assert "2025-06-17" in html
+    assert "MotionSmith" in html
+    assert "World Models for Robots" in html
+    # HTML-escaping of dynamic content (html.escape with quote=True).
+    assert "&lt;Cool&gt;" in html
+    assert "&amp; More" in html
+    # Top-5 block: only 2 papers, total<=5 -> SKIP per spec (no eyebrow).
+    assert "TOP 5 BY RELEVANCE" not in html
+    # Dot-leader index eyebrow present.
+    assert "INDEX" in html
+    # Abstract trimmed (p1 abstract > 600 chars -> ellipsis appended).
+    assert "…" in html or "..." in html
+    # Code link rendered for p2.
+    assert "github.com/x/y" in html
+    # Intra-email anchor present and resolves to a matching section id.
+    assert 'href="#world-models"' in html
+    assert 'id="world-models"' in html
+
+
+def test_render_email_empty():
+    """render_email handles the empty state gracefully."""
+    config = {'email_settings': {'enabled': True}}
+    service = EmailService(config)
+
+    html = service.render_email({}, "2025-06-17")
+
+    assert "<!DOCTYPE html>" in html
+    assert "No new papers matched today" in html
+    # No sections / index / top-5 in the empty state.
+    assert "INDEX" not in html
+    assert "TOP 5 BY RELEVANCE" not in html
+
+
+def test_render_email_top5_block_when_many_papers():
+    """Top-5 block appears once total papers exceed 5."""
+    from datetime import date
+    from src.daily_arxiv.models.paper import Paper
+
+    config = {'email_settings': {'enabled': True}}
+    service = EmailService(config)
+
+    papers = [
+        Paper(
+            paper_key=f"2506.{i:05d}", title=f"Paper {i}",
+            authors_str="Author", abstract="Short abstract.",
+            published=date(2025, 6, 17), updated=date(2025, 6, 17),
+            primary_category="cs.GR", all_categories=["cs.GR"],
+            entry_id=f"http://arxiv.org/abs/2506.{i:05d}",
+            abs_url=f"http://arxiv.org/abs/2506.{i:05d}",
+            code_url=None, category="Character Motion",
+            score=0.1 * i, matched_keywords=[],
+        )
+        for i in range(1, 9)  # 8 papers, all in one category
+    ]
+    html = service.render_email({"Character Motion": papers}, "2025-06-17")
+
+    assert "TOP 5 BY RELEVANCE" in html
+    # Top-5 should surface the highest-scoring paper first.
+    assert "Paper 8" in html
 
 
 def test_cli_integration():
@@ -206,11 +290,14 @@ def test_cli_integration():
 
 
 def test_query_generation_with_proper_spacing():
-    """Test that query generation includes proper spacing around OR operators."""
+    """Fielded queries must keep spaces around OR operators (regression for the
+    bare-keyword spacing bug that caused UnexpectedEmptyPageError)."""
     import tempfile
     import yaml
-    
-    # Create a test config file with single-word and multi-word filters
+    import re
+
+    # Legacy keywords block is shimmed into a Category; the kv shim then exposes
+    # the fielded query string per topic.
     test_config = {
         'base_url': 'https://test.com',
         'max_results': 10,
@@ -227,30 +314,119 @@ def test_query_generation_with_proper_spacing():
             }
         }
     }
-    
+
     with tempfile.NamedTemporaryFile(mode='w', suffix='.yaml', delete=False) as f:
         yaml.dump(test_config, f)
         config_path = f.name
-    
+
     try:
-        # Load the config
         config = load_config(config_path)
-        
-        # Get the generated query
         query = config['kv']['Test Category']
-        
-        # Verify the query format
-        assert ' OR ' in query  # Should have spaces around OR
-        assert 'SingleWord OR Another' in query
-        assert 'IK OR Sim2Real' in query
-        assert '"Multi Word Term"' in query
-        assert '"Physics-based Animation"' in query
-        
-        # Check that there are no ORs without spaces
-        import re
+
+        # New format wraps each keyword in an abs: field; single words bare,
+        # multi-word phrases quoted.
+        assert ' OR ' in query
+        assert 'abs:SingleWord OR abs:Another' in query
+        assert 'abs:IK OR abs:Sim2Real' in query
+        assert 'abs:"Multi Word Term"' in query
+        assert 'abs:"Physics-based Animation"' in query
+
+        # No ORs glued directly to letters (the original bug).
         bad_ors = re.findall(r'[a-zA-Z]OR[a-zA-Z]', query)
         assert len(bad_ors) == 0, f"Found ORs without proper spacing: {bad_ors}"
-        
+
     finally:
-        # Clean up
         os.unlink(config_path)
+
+
+def test_notified_store_roundtrip_and_prune():
+    """notified_store round-trips keys and prunes by arXiv YYMM age."""
+    import tempfile
+    from datetime import date
+    from src.daily_arxiv.processors.notified_store import (
+        load_notified, save_notified, prune_old, _key_year_month,
+    )
+
+    # Modern + legacy key parsing.
+    assert _key_year_month("2506.14513") == (2025, 6)
+    assert _key_year_month("9707123") == (1997, 7)        # legacy bare YYMM
+    assert _key_year_month("cond-mat/0102003") == (2001, 2)
+    assert _key_year_month("garbage") is None             # unparseable -> kept
+
+    today = date(2025, 6, 17)
+    keys = {"2506.14513", "2506.14000", "2504.00001", "2401.99999", "weird-key"}
+    # max_age_days=30 -> keep_months=1 -> keep May 2025 (05) onward; 2504.* drops.
+    pruned = prune_old(keys, max_age_days=30, today=today)
+    assert "2506.14513" in pruned
+    assert "2506.14000" in pruned
+    assert "weird-key" in pruned          # unparseable always kept
+    assert "2504.00001" not in pruned
+    assert "2401.99999" not in pruned
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+        path = os.path.join(tmpdir, "nested", "notified_papers.json")
+        written = save_notified(path, keys, max_age_days=30, today=today)
+        assert os.path.exists(path)
+        assert written == pruned
+        # Round-trip: load reads the {"notified": [...]} shape back.
+        reloaded = load_notified(path)
+        assert reloaded == pruned
+
+
+def test_notified_store_load_tolerates_missing_and_corrupt():
+    """load_notified never raises; missing/empty/corrupt -> empty set."""
+    import tempfile
+    from src.daily_arxiv.processors.notified_store import load_notified
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+        # Missing file.
+        assert load_notified(os.path.join(tmpdir, "nope.json")) == set()
+
+        # Legacy bare-list shape.
+        legacy = os.path.join(tmpdir, "legacy.json")
+        with open(legacy, "w") as f:
+            f.write('["2506.14513", "2506.14000"]')
+        assert load_notified(legacy) == {"2506.14513", "2506.14000"}
+
+        # {key: ...} dict shape.
+        as_dict = os.path.join(tmpdir, "dict.json")
+        with open(as_dict, "w") as f:
+            f.write('{"2506.14513": "2025-06-17"}')
+        assert load_notified(as_dict) == {"2506.14513"}
+
+        # Corrupt JSON -> empty set, no raise.
+        corrupt = os.path.join(tmpdir, "corrupt.json")
+        with open(corrupt, "w") as f:
+            f.write('{not valid json')
+        assert load_notified(corrupt) == set()
+
+
+def test_dedupe_email_slice_drops_already_notified():
+    """_dedupe_email_slice keeps only unseen keys and collapses empty cats."""
+    from datetime import date
+    from src.daily_arxiv.models.paper import Paper
+    from src.daily_arxiv.cli.main import DailyArxivApp
+
+    def _paper(key, cat):
+        return Paper(
+            paper_key=key, title=f"T {key}", authors_str="A",
+            abstract="abs", published=date(2025, 6, 17),
+            updated=date(2025, 6, 17), primary_category="cs.GR",
+            all_categories=["cs.GR"], entry_id=f"http://arxiv.org/abs/{key}",
+            abs_url=f"http://arxiv.org/abs/{key}", code_url=None,
+            category=cat, score=0.5, matched_keywords=[],
+        )
+
+    slice_in = {
+        "Motion": [_paper("2506.14513", "Motion"),   # already notified
+                   _paper("2506.14000", "Motion")],   # new
+        "World":  [_paper("2506.13000", "World")],   # already notified -> cat empties
+    }
+    notified = {"2506.14513", "2506.13000"}
+
+    deduped, delta = DailyArxivApp._dedupe_email_slice(slice_in, notified)
+
+    # Only the unseen Motion paper survives; World collapses and is dropped.
+    assert set(deduped.keys()) == {"Motion"}
+    assert [p.paper_key for p in deduped["Motion"]] == ["2506.14000"]
+    assert delta == {"2506.14000"}

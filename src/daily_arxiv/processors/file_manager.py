@@ -3,7 +3,7 @@
 import os
 import json
 import logging
-from typing import Dict, List, Any
+from typing import Dict, List
 
 from ..utils.file_utils import ensure_directory_exists
 
@@ -99,10 +99,10 @@ class FileManager:
     def load_json_file(self, filename: str) -> Dict:
         """
         Load data from a JSON file.
-        
+
         Args:
             filename: Path to the JSON file
-            
+
         Returns:
             Dictionary containing the JSON data
         """
@@ -112,3 +112,23 @@ class FileManager:
         except (FileNotFoundError, json.JSONDecodeError) as e:
             logging.warning(f"Error loading {filename}: {e}")
             return {}
+
+    def write_paper_list(self, content: str, path: str) -> None:
+        """
+        Write the flat paper-list markdown to ``path``.
+
+        Creates the parent directory if needed. Used for the generated
+        ``PAPER_LIST.md`` produced by
+        :func:`daily_arxiv.processors.toc_generator.generate_paper_list`.
+
+        Args:
+            content: Full markdown string to write.
+            path: Destination file path (``config['toc'].paper_list_path``).
+        """
+        directory = os.path.dirname(path)
+        if directory:
+            ensure_directory_exists(directory)
+
+        with open(path, "w", encoding='utf-8') as f:
+            f.write(content)
+        logging.info(f"Wrote paper list: {path}")

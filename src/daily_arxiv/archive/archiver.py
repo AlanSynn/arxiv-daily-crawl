@@ -34,17 +34,42 @@ def parse_date(date_str):
             return None
 
 def parse_paper_entry(paper_entry):
-    """Parse a paper entry from the JSON data"""
-    # Format is typically |**date**|**title**|authors|[id](url)|code|
-    parts = paper_entry.split('|')
-    if len(parts) >= 6:
-        date_str = parts[1].strip('*')
-        paper_date = parse_date(date_str)
-        paper_id = re.search(r'\[(.*?)\]', parts[4]).group(1) if re.search(r'\[(.*?)\]', parts[4]) else None
+    """Parse a paper entry from the JSON data.
+
+    Handles two row formats produced by the pipeline:
+
+    * readme/pipe row (``Paper.to_md_row``):
+      ``|**date**|**title**|authors|[@id](url)|code|``
+    * web/bullet row (``Paper.to_web_row``):
+      ``- date, **title**, authors et.al., Paper: [@id](url)\\n> **Abstract:** ...``
+
+    Returns ``{date, entry, id}`` where ``entry`` is the original row string
+    preserved verbatim (so the archiver can rewrite either JSON format after
+    pruning without reconstructing the row), or ``None`` if no date/id can be
+    extracted.
+    """
+    # Pipe-delimited readme row.
+    if '|' in paper_entry:
+        parts = paper_entry.split('|')
+        if len(parts) >= 6:
+            date_str = parts[1].strip('*')
+            paper_date = parse_date(date_str)
+            paper_id = re.search(r'\[(.*?)\]', parts[4]).group(1) if re.search(r'\[(.*?)\]', parts[4]) else None
+            return {
+                'date': paper_date,
+                'entry': paper_entry,
+                'id': paper_id
+            }
+        return None
+
+    # Web/bullet row: extract the leading date and the [@paper_key] token.
+    date_match = re.match(r'\s*-\s*(\d{4}-\d{2}-\d{2})', paper_entry)
+    key_match = re.search(r'\[@([^\]\s]+)\]', paper_entry)
+    if date_match and key_match:
         return {
-            'date': paper_date,
+            'date': parse_date(date_match.group(1)),
             'entry': paper_entry,
-            'id': paper_id
+            'id': key_match.group(1),
         }
     return None
 
@@ -152,10 +177,16 @@ def generate_archive_markdown(archive_data, output_file):
 
             f.write(f"## 📑 {category}\n\n")
 
-            # Sort papers by date (newest first)
+            # Sort papers by date (newest first). Use parse_paper_entry so both
+            # pipe (readme) and web/bullet rows sort correctly; fall back to
+            # date.min for anything unparseable.
+            def _entry_sort_date(entry):
+                parsed = parse_paper_entry(entry)
+                return parsed['date'] if parsed and parsed['date'] else datetime.date.min
+
             sorted_papers = sorted(
                 papers.items(),
-                key=lambda x: parse_date(x[1].split('|')[1]) if parse_date(x[1].split('|')[1]) else datetime.date.min,
+                key=lambda x: _entry_sort_date(x[1]),
                 reverse=True
             )
 
@@ -187,6 +218,10 @@ def generate_archive_markdown(archive_data, output_file):
                             f.write(f"\n**📝 Abstract:** {abstract}\n\n")
                     except Exception as e:
                         logging.warning(f"Could not fetch abstract for {paper_id}: {e}")
+                else:
+                    # Web/bullet row (Paper.to_web_row): preserve verbatim —
+                    # it already carries title/authors/abstract inline.
+                    f.write(paper_entry.rstrip() + "\n\n")
 
                 f.write("\n---\n\n")
 
@@ -208,7 +243,7 @@ def update_config_for_archiving(config_file):
         with open(config_file, 'w') as f:
             yaml.dump(config, f, default_flow_style=False)
 
-        logging.info(f"Updated config file with archive settings")
+        logging.info("Updated config file with archive settings")
 
     return config
 

@@ -1,173 +1,259 @@
-"""ArXiv API client for fetching research papers."""
+"""ArXiv API client for fetching research papers.
+
+Architecture notes
+------------------
+* A single :class:`arxiv.Client` (built once via :func:`make_client`) enforces
+  the >=3s rate limit, pagination and retries for the whole run.  Wave 2 owns
+  instantiation; this module exposes the factory.
+* Queries are *fielded* (``cat:cs.GR AND (abs:"..." OR ti:"...")``) via
+  :func:`daily_arxiv.core.config.build_category_query` — never bare ``all:``
+  keyword searches, which were the root cause of off-topic noise.
+* "New today" is keyed on ``published.date()`` (the v1 submission date), not
+  ``updated.date()`` — a v2 revision of an old paper no longer hijacks the
+  email slice.  See :func:`filter_recent_day`.
+* Code-link lookup is intentionally NOT done here; it lives in
+  :mod:`daily_arxiv.services.code_link_client` and is called after scoring so
+  we only spend API calls on papers that survive the relevance filter.
+"""
+
+from __future__ import annotations
+
+import re
+import logging
+import warnings
+from datetime import date, timedelta
+from typing import Dict, List, Optional, Tuple
 
 import arxiv
-import requests
-import logging
-from typing import Dict, Tuple, Optional
-from datetime import date, timedelta
 
+from ..core.config import Category, RateLimitConfig, build_category_query
+from ..models.paper import Paper
 from ..utils.date_utils import format_authors
 
 
+_VERSION_RE = re.compile(r"v\d+$")
+ARXIV_ABS_URL = "http://arxiv.org/abs/"
+
+
+def _strip_version(paper_id: str) -> str:
+    """Strip a trailing arXiv version suffix, e.g. ``2506.14513v2`` -> ``2506.14513``."""
+    return _VERSION_RE.sub("", paper_id)
+
+
+def make_client(rate_limit: RateLimitConfig) -> arxiv.Client:
+    """Build a single shared :class:`arxiv.Client` honoring the configured rate limit."""
+    return arxiv.Client(
+        page_size=100,
+        delay_seconds=rate_limit.arxiv_delay_seconds,
+        num_retries=3,
+    )
+
+
+def filter_recent_day(papers: List[Paper], window_days: int = 1) -> List[Paper]:
+    """Return papers published within ``window_days`` of the newest paper.
+
+    "Newest" is keyed on ``published.date()`` (v1 submission), not
+    ``updated.date()``.  ``window_days=1`` keeps only papers from the single
+    most recent published day; larger windows are inclusive of the trailing days.
+    """
+    if not papers:
+        return []
+    newest = max(p.published for p in papers)
+    cutoff = newest - timedelta(days=window_days - 1)
+    return [p for p in papers if p.published >= cutoff]
+
+
 class ArXivClient:
-    """Client for interacting with ArXiv API."""
+    """Client for interacting with the ArXiv API.
 
-    def __init__(self, base_url: str = "https://arxiv.paperswithcode.com/api/v0/papers/"):
+    The ``base_url`` argument is retained only for backward compatibility with
+    callers that passed the (now-dead) Papers With Code URL; it is unused.
+    """
+
+    def __init__(self, base_url: Optional[str] = None):
+        if base_url:
+            # base_url pointed at the sun-set Papers With Code API; kept only
+            # so existing callers (cli/main.py) do not break.
+            logging.debug("ArXivClient base_url is deprecated and ignored: %s", base_url)
         self.base_url = base_url
-        self.arxiv_url = "http://arxiv.org/"
 
-    def get_daily_papers(self, topic: str, query: str = "computational design",
-                        max_results: int = 5) -> Tuple[Dict, Dict, Dict, Dict, Optional[date]]:
-        """
-        Fetch papers from ArXiv for a given topic and query.
+    # ------------------------------------------------------------------
+    # New API
+    # ------------------------------------------------------------------
+    def fetch_category(
+        self,
+        category: Category,
+        max_results: int,
+        max_age_days: int,
+        client: arxiv.Client,
+    ) -> List[Paper]:
+        """Fetch and post-filter papers for one :class:`Category`.
 
         Args:
-            topic: Research topic/category name
-            query: Search query string
-            max_results: Maximum number of results to fetch
+            category: Category with cat codes + keyword filters.
+            max_results: Cap on arXiv results to request.
+            max_age_days: Drop papers whose ``published`` date is older than
+                this many days (keeps the working set fresh).  ``<= 0`` disables.
+            client: A shared :class:`arxiv.Client` (see :func:`make_client`).
 
         Returns:
-            Tuple of (email_content, email_content_web, main_content, main_content_web, most_recent_date)
-            - email_content: Papers for email (most recent day only)
-            - email_content_web: Web version of email papers
-            - main_content: All papers for main report
-            - main_content_web: Web version of all papers for main report
-            - most_recent_date: Date of the most recent papers (None if no papers found)
+            List of :class:`Paper` objects (may be partial on network errors).
         """
-        email_content = {}
-        email_content_web = {}
-        main_content = {}
-        main_content_web = {}
+        query = build_category_query(category)
+        if not query:
+            logging.warning(
+                "Category %r produced an empty query (no cat_codes and no "
+                "include_keywords); skipping", category.name
+            )
+            return []
 
-        search_engine = arxiv.Search(
+        logging.info("Fetching %r: %s", category.name, query)
+        search = arxiv.Search(
             query=query,
             max_results=max_results,
-            sort_by=arxiv.SortCriterion.SubmittedDate
+            sort_by=arxiv.SortCriterion.SubmittedDate,
+            sort_order=arxiv.SortOrder.Descending,
         )
 
-        # Collect all papers first
-        all_papers = []
+        cutoff = date.today() - timedelta(days=max_age_days) if max_age_days and max_age_days > 0 else None
+
+        papers: List[Paper] = []
         try:
-            for result in search_engine.results():
-                paper_data = self._process_paper_result(result)
-                if paper_data:
-                    all_papers.append(paper_data)
+            for result in client.results(search):
+                paper = self._build_paper(result)
+                if paper is None:
+                    continue
+                if cutoff and paper.published < cutoff:
+                    continue
+                papers.append(paper)
         except arxiv.UnexpectedEmptyPageError as e:
-            # This can happen when the API returns fewer results than expected
-            # Just log it and continue with whatever papers we collected
-            logging.warning(f"ArXiv API returned empty page for {topic}: {e}")
-            logging.info(f"Collected {len(all_papers)} papers before encountering empty page")
-        except (requests.exceptions.RequestException, ConnectionError, TimeoutError) as e:
-            # Handle network-related errors gracefully
-            logging.error(f"Network error fetching papers for {topic}: {e}")
-            logging.info(f"Collected {len(all_papers)} papers before error")
-        except Exception as e:
-            # Catch any other unexpected errors to prevent complete failure
-            # Note: KeyboardInterrupt and SystemExit inherit from BaseException, not Exception,
-            # so they won't be caught here and will propagate normally
-            logging.error(f"Unexpected error fetching papers for {topic}: {e}")
-            logging.info(f"Collected {len(all_papers)} papers before error")
-
-        if not all_papers:
-            logging.info(f"No papers found for {topic}")
-            return ({topic: email_content}, {topic: email_content_web},
-                    {topic: main_content}, {topic: main_content_web}, None)
-
-        # Find the most recent date
-        most_recent_date = max(paper['update_time'] for paper in all_papers)
-        logging.info(f"Most recent paper date: {most_recent_date}")
-
-        # Process papers
-        for paper_data in all_papers:
-            paper_key = paper_data['paper_key']
-            update_time = paper_data['update_time']
-
-            # Add to main (all papers)
-            main_content[paper_key] = paper_data['content']
-            main_content_web[paper_key] = paper_data['content_web']
-
-            # Add to email only if paper is from the most recent day
-            if update_time == most_recent_date:
-                email_content[paper_key] = paper_data['content']
-                email_content_web[paper_key] = paper_data['content_web']
-            else:
-                logging.info(f"Excluding from email (not most recent day): {paper_data['paper_title']} ({update_time})")
-
-        logging.info(f"Found {len(main_content)} total papers, {len(email_content)} papers from most recent day ({most_recent_date}) for email")
-        return ({topic: email_content}, {topic: email_content_web},
-                {topic: main_content}, {topic: main_content_web}, most_recent_date)
-
-    def _process_paper_result(self, result) -> Optional[Dict]:
-        """Process a single ArXiv result into structured data."""
-        try:
-            paper_id = result.get_short_id()
-            paper_title = result.title
-            paper_url = result.entry_id
-            code_url = self.base_url + paper_id
-            paper_abstract = result.summary.replace("\n", " ")
-            paper_authors = format_authors(result.authors)
-            paper_first_author = format_authors(result.authors, first_author=True)
-            publish_time = result.published.date()
-            update_time = result.updated.date()
-            comments = result.comment
-
-            logging.info(f"Processing: {update_time} - {paper_title} by {paper_first_author}")
-
-            # Clean paper ID (remove version info)
-            ver_pos = paper_id.find('v')
-            paper_key = paper_id[0:ver_pos] if ver_pos != -1 else paper_id
-            paper_url = f"{self.arxiv_url}abs/{paper_key}"
-
-            # Get code repository URL
-            repo_url = self._get_paper_code_url(code_url)
-
-            # Generate content strings
-            content_data = self._generate_content_strings(
-                update_time, paper_title, paper_first_author,
-                paper_key, paper_url, repo_url, paper_abstract
+            logging.warning(
+                "ArXiv API returned empty page for %r: %s (returning %d partial)",
+                category.name, e, len(papers),
+            )
+        except Exception as e:  # network / HTTP / parse -> return partial
+            logging.error(
+                "Error fetching papers for %r: %s (returning %d partial)",
+                category.name, e, len(papers),
             )
 
-            return {
-                'paper_key': paper_key,
-                'paper_title': paper_title,
-                'update_time': update_time,
-                'content': content_data['content'],
-                'content_web': content_data['content_web']
-            }
+        logging.info("Fetched %d papers for %r", len(papers), category.name)
+        return papers
 
+    def _build_paper(self, result) -> Optional[Paper]:
+        """Convert one :class:`arxiv.Result` into a :class:`Paper`."""
+        try:
+            short_id = result.get_short_id()
+            paper_key = _strip_version(short_id)
+            title = result.title
+            abstract = result.summary.replace("\n", " ")
+            first_author = format_authors(result.authors, first_author=True)
+
+            primary = getattr(result, "primary_category", "") or ""
+            all_cats_raw = getattr(result, "categories", None)
+            if all_cats_raw:
+                all_categories = list(all_cats_raw)
+            elif primary:
+                all_categories = [primary]
+            else:
+                all_categories = []
+
+            return Paper(
+                paper_key=paper_key,
+                title=title,
+                authors_str=first_author,
+                abstract=abstract,
+                published=result.published.date(),
+                updated=result.updated.date(),
+                primary_category=primary,
+                all_categories=all_categories,
+                entry_id=result.entry_id,
+                abs_url=f"{ARXIV_ABS_URL}{paper_key}",
+            )
         except Exception as e:
-            logging.error(f"Error processing paper {result.get_short_id()}: {e}")
+            logging.error("Error processing arXiv result: %s", e)
             return None
 
-    def _get_paper_code_url(self, code_url: str) -> Optional[str]:
-        """Get code repository URL for a paper."""
-        try:
-            response = requests.get(code_url)
-            data = response.json()
+    # ------------------------------------------------------------------
+    # Deprecated compat wrapper
+    # ------------------------------------------------------------------
+    def get_daily_papers(
+        self,
+        topic: str,
+        query: str = "computational design",
+        max_results: int = 5,
+    ) -> Tuple[Dict, Dict, Dict, Dict, Optional[date]]:
+        """Deprecated.  Fetch papers and return the legacy 4-dict shape.
 
-            if "official" in data and data["official"]:
-                return data["official"]["url"]
-        except Exception as e:
-            logging.debug(f"Could not fetch code URL from {code_url}: {e}")
+        Kept so the not-yet-rewritten ``cli/main.py`` keeps importing cleanly.
+        New code should call :meth:`fetch_category` + :func:`filter_recent_day`
+        and render via :meth:`Paper.to_md_row` / :meth:`Paper.to_web_row`.
 
-        return None
+        Returns:
+            ``(email_content, email_content_web, main_content,
+            main_content_web, most_recent_date)`` where each ``*_content`` is
+            ``{topic: {paper_key: row_str}}``.
+        """
+        warnings.warn(
+            "ArXivClient.get_daily_papers is deprecated; use fetch_category() "
+            "+ filter_recent_day() with Paper.to_md_row()/to_web_row().",
+            DeprecationWarning,
+            stacklevel=2,
+        )
+        logging.warning("get_daily_papers(%r) called via deprecated path", topic)
 
-    def _generate_content_strings(self, update_time: date, paper_title: str,
-                                 paper_first_author: str, paper_key: str,
-                                 paper_url: str, repo_url: Optional[str],
-                                 paper_abstract: str) -> Dict[str, str]:
-        """Generate markdown content strings for paper."""
-        if repo_url:
-            content = (f"|**{update_time}**|**{paper_title}**|{paper_first_author} et.al.|"
-                      f"[@{paper_key}]({paper_url})|**[link]({repo_url})**|\\n")
-            content_web = (f"- {update_time}, **{paper_title}**, {paper_first_author} et.al., "
-                          f"Paper: [@{paper_key}]({paper_url}), Code: **[link]({repo_url})** \\n"
-                          f"> **Abstract:** {paper_abstract}\\n")
+        # Build a transient Category from the raw query so fetch_category can
+        # run.  ``query`` is treated as a single abstract phrase.
+        cat = Category(
+            name=topic,
+            cat_codes=[],
+            include_keywords=[query] if query else [],
+        )
+        # If the caller passed an already-built query string (legacy kv shim),
+        # fall back to using it verbatim by injecting it as the raw search query.
+        client = make_client(RateLimitConfig())
+        if query and (" OR " in query or ":" in query):
+            papers = self._fetch_raw_query(query, max_results, client)
         else:
-            content = (f"|**{update_time}**|**{paper_title}**|{paper_first_author} et.al.|"
-                      f"[@{paper_key}]({paper_url})|null|\\n")
-            content_web = (f"- {update_time}, **{paper_title}**, {paper_first_author} et.al., "
-                          f"Paper: [@{paper_key}]({paper_url}) \\n"
-                          f"> **Abstract:** {paper_abstract}\\n")
+            papers = self.fetch_category(cat, max_results, max_age_days=0, client=client)
 
-        return {'content': content, 'content_web': content_web}
+        main_content: Dict[str, str] = {}
+        main_content_web: Dict[str, str] = {}
+        for p in papers:
+            main_content[p.paper_key] = p.to_md_row()
+            main_content_web[p.paper_key] = p.to_web_row()
+
+        recent = filter_recent_day(papers, window_days=1)
+        email_content = {p.paper_key: p.to_md_row() for p in recent}
+        email_content_web = {p.paper_key: p.to_web_row() for p in recent}
+
+        most_recent = max((p.published for p in papers), default=None)
+        return (
+            {topic: email_content},
+            {topic: email_content_web},
+            {topic: main_content},
+            {topic: main_content_web},
+            most_recent,
+        )
+
+    def _fetch_raw_query(
+        self, query: str, max_results: int, client: arxiv.Client
+    ) -> List[Paper]:
+        """Run a caller-supplied query string verbatim (legacy compat path)."""
+        search = arxiv.Search(
+            query=query,
+            max_results=max_results,
+            sort_by=arxiv.SortCriterion.SubmittedDate,
+            sort_order=arxiv.SortOrder.Descending,
+        )
+        papers: List[Paper] = []
+        try:
+            for result in client.results(search):
+                paper = self._build_paper(result)
+                if paper is not None:
+                    papers.append(paper)
+        except arxiv.UnexpectedEmptyPageError as e:
+            logging.warning("ArXiv empty page for raw query %r: %s", query, e)
+        except Exception as e:
+            logging.error("Error fetching raw query %r: %s", query, e)
+        return papers

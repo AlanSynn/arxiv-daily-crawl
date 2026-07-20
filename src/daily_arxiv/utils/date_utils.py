@@ -2,7 +2,30 @@
 
 import datetime
 import os
+import re
 from typing import Dict
+
+
+def github_slug(text: str) -> str:
+    """GitHub-flavored markdown heading anchor slug.
+
+    Mirrors GitHub's server-side anchor generation so in-page links line up
+    with rendered ``## {heading}`` sections.  Non-word characters (``&``,
+    ``(``, ``:``, ``/``, ...) are *removed* rather than replaced; the spaces
+    flanking them then each collapse into their own hyphen, which is what
+    produces the double-hyphen in e.g.
+    ``"World Models & Generative Video" -> "world-models--generative-video"``.
+
+    Algorithm:
+      1. strip + lowercase
+      2. drop every char that is not a word char, hyphen, or space
+      3. spaces -> hyphens
+      4. strip leading/trailing hyphens
+    """
+    s = text.strip().lower()
+    s = re.sub(r"[^\w\- ]", "", s)
+    s = s.replace(" ", "-")
+    return s.strip("-")
 
 
 def format_authors(authors, first_author: bool = False) -> str:

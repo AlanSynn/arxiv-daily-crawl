@@ -5,22 +5,23 @@ import re
 import json
 import logging
 import datetime
-from typing import Dict, Any
+from typing import Dict
 
+from ..utils.date_utils import github_slug
 from ..utils.file_utils import ensure_directory_exists
 
 
 class ContentGenerator:
     """Generates markdown and other content formats from paper data."""
     
-    def json_to_md(self, json_filename: str, md_filename: str, 
-                   task: str = '', to_web: bool = False, 
+    def json_to_md(self, json_filename: str, md_filename: str,
+                   task: str = '', to_web: bool = False,
                    use_title: bool = True, use_tc: bool = True,
                    show_badge: bool = True, use_b2t: bool = True,
-                   create_new: bool = False):
+                   create_new: bool = False, toc_block: str = ''):
         """
         Convert JSON data to markdown format.
-        
+
         Args:
             json_filename: Path to input JSON file
             md_filename: Path to output markdown file
@@ -31,6 +32,10 @@ class ContentGenerator:
             show_badge: Whether to show badges
             use_b2t: Whether to use back-to-top links
             create_new: Whether to create a new file
+            toc_block: Pre-rendered TOC block (from
+                :func:`toc_generator.generate_toc`). When non-empty it replaces
+                the "Updated on" header and the built-in TOC. Pass empty for
+                the web/email rendering.
         """
         # Ensure output directory exists
         directory = os.path.dirname(md_filename)
@@ -38,17 +43,18 @@ class ContentGenerator:
             ensure_directory_exists(directory)
 
         date_now = datetime.date.today().strftime("%Y.%m.%d")
-        
+
         # Load JSON data
         data = self._load_json_data(json_filename)
-        
+
         if not data:
             logging.warning(f"No data found in {json_filename}")
             return
 
         # Generate markdown content
         md_content = self._generate_markdown_content(
-            data, date_now, to_web, use_title, use_tc, show_badge, use_b2t
+            data, date_now, to_web, use_title, use_tc, show_badge, use_b2t,
+            toc_block,
         )
         
         # Write to file
@@ -71,40 +77,45 @@ class ContentGenerator:
             logging.error(f"Error loading JSON from {filename}: {e}")
             return {}
     
-    def _generate_markdown_content(self, data: Dict, date_now: str, 
-                                 to_web: bool, use_title: bool, 
-                                 use_tc: bool, show_badge: bool, 
-                                 use_b2t: bool) -> str:
+    def _generate_markdown_content(self, data: Dict, date_now: str,
+                                 to_web: bool, use_title: bool,
+                                 use_tc: bool, show_badge: bool,
+                                 use_b2t: bool, toc_block: str = '') -> str:
         """Generate the complete markdown content."""
         content_parts = []
-        
+
         # Add header
         if use_title:
             content_parts.append(self._generate_header(show_badge))
-        
-        # Add update date
-        content_parts.append(f"## 📚 Updated on {date_now}")
-        
+
+        if toc_block:
+            # Pre-rendered TOC block already includes its own
+            # "## 📚 Updated on ..." header + the <details> TOC.
+            content_parts.append(toc_block)
+        else:
+            # Add update date
+            content_parts.append(f"## 📚 Updated on {date_now}")
+
+            # Add table of contents
+            if use_tc and data:
+                content_parts.append(self._generate_table_of_contents(data))
+
         # Add usage instructions if not for web
         if not to_web:
             content_parts.append("> 📖 Usage instructions: [here](./docs/README.md#usage)")
-        
-        # Add table of contents
-        if use_tc and data:
-            content_parts.append(self._generate_table_of_contents(data))
-        
+
         # Add paper sections
         for topic, papers in data.items():
             if papers:  # Only add sections with papers
                 section_content = self._generate_paper_section(
-                    topic, papers, use_b2t
+                    topic, papers, use_b2t, to_web=to_web, date_now=date_now
                 )
                 content_parts.append(section_content)
-        
+
         # Add footer
         content_parts.append(self._generate_footer())
-        
-        return "\\n\\n".join(content_parts)
+
+        return "\n\n".join(content_parts)
     
     def _generate_header(self, show_badge: bool) -> str:
         """Generate markdown header with badges."""
@@ -119,8 +130,8 @@ class ContentGenerator:
             ]
             header.extend(badges)
         
-        return "\\n".join(header)
-    
+        return "\n".join(header)
+
     def _generate_table_of_contents(self, data: Dict) -> str:
         """Generate table of contents from paper categories."""
         toc_lines = [
@@ -128,34 +139,49 @@ class ContentGenerator:
             "  <summary>Table of Contents</summary>",
             "  <ol>"
         ]
-        
+
         for topic in data.keys():
-            # Convert topic to anchor link format
-            anchor = topic.replace(" ", "-").replace("&", "").replace(",", "").replace(":", "")
+            # GitHub's anchor algorithm so links match rendered headings.
+            anchor = github_slug(topic)
             toc_lines.append(f"    <li><a href=#{anchor}>{topic}</a></li>")
-        
+
         toc_lines.extend(["  </ol>", "</details>"])
-        
-        return "\\n".join(toc_lines)
-    
-    def _generate_paper_section(self, topic: str, papers: Dict, use_b2t: bool) -> str:
-        """Generate a section for a specific paper topic."""
-        section_lines = [
-            f"## {topic}",
-            "",
-            "|Publish Date|Title|Authors|arXiv|Code|",
-            "|---|---|---|---|---|"
-        ]
-        
+
+        return "\n".join(toc_lines)
+
+    def _generate_paper_section(self, topic: str, papers: Dict, use_b2t: bool,
+                                to_web: bool = False, date_now: str = '') -> str:
+        """Generate a section for a specific paper topic.
+
+        ``to_web`` selects the row layout: web rows (``Paper.to_web_row``) are
+        bullet/list items rendered as a plain list, while readme rows
+        (``Paper.to_md_row``) are pipe-delimited and go under a pipe-table
+        header.
+        """
+        section_lines = [f"## {topic}", ""]
+
+        if not to_web:
+            # Pipe-table header for readme rows only.
+            section_lines.extend([
+                "|Publish Date|Title|Authors|arXiv|Code|",
+                "|---|---|---|---|---|",
+            ])
+
         # Add papers (they should already be formatted strings)
         for paper_content in papers.values():
-            section_lines.append(paper_content.rstrip('\\n'))
-        
+            section_lines.append(paper_content.rstrip('\n'))
+
         if use_b2t:
+            # Anchor must match the GitHub-rendered id of the top
+            # "## 📚 Updated on {date_now}" heading. GitHub drops the emoji
+            # and the dots in the pretty date, so derive it via github_slug.
+            heading_slug = github_slug(f"📚 Updated on {date_now}")
             section_lines.append("")
-            section_lines.append("<p align=right>(<a href=#updated-on-{date}>back to top</a>)</p>")
-        
-        return "\\n".join(section_lines)
+            section_lines.append(
+                f'<p align=right>(<a href=#{heading_slug}>back to top</a>)</p>'
+            )
+
+        return "\n".join(section_lines)
     
     def _generate_footer(self) -> str:
         """Generate markdown footer with links."""
