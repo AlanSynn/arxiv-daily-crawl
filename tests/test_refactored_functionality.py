@@ -430,3 +430,45 @@ def test_dedupe_email_slice_drops_already_notified():
     assert set(deduped.keys()) == {"Motion"}
     assert [p.paper_key for p in deduped["Motion"]] == ["2506.14000"]
     assert delta == {"2506.14000"}
+
+
+def test_send_email_notification_reads_scoring_dataclass():
+    """_send_email_notification must read threshold off the ScoringConfig
+    dataclass (regression: it once called .get() on it and crashed the whole
+    run at the final email step)."""
+    from datetime import date
+    from unittest.mock import patch
+    from src.daily_arxiv.models.paper import Paper
+    from src.daily_arxiv.cli.main import DailyArxivApp
+
+    # A real config: load_config turns 'scoring' into a ScoringConfig dataclass.
+    config = {
+        'base_url': 'https://test.com', 'max_results': 5,
+        'categories': [{'name': 'X', 'cat_codes': ['cs.GR']}],
+        'scoring': {'threshold': 0.42},
+        'email_recipient': 'someone@example.com',
+    }
+    from src.daily_arxiv.core.config import _parse_scoring
+    config['scoring'] = _parse_scoring(config['scoring'])
+
+    app = DailyArxivApp(config)
+    paper = Paper(
+        paper_key="2506.14513", title="T", authors_str="A", abstract="x",
+        published=date(2025, 6, 17), updated=date(2025, 6, 17),
+        primary_category="cs.GR", all_categories=["cs.GR"],
+        entry_id="http://arxiv.org/abs/2506.14513",
+        abs_url="http://arxiv.org/abs/2506.14513", code_url=None,
+        category="X", score=0.9, matched_keywords=[],
+    )
+
+    # Mock the actual SMTP send; we only care that the threshold is read
+    # without AttributeError and render_email is handed the right value.
+    with patch.object(app.email_service, 'send_email', return_value=True) as m_send, \
+         patch.object(app.email_service, 'render_email', return_value="<html/>") as m_render:
+        result = app._send_email_notification({"X": [paper]}, date(2025, 6, 17))
+
+    assert result is True
+    m_send.assert_called_once()
+    # render_email receives the stats dict carrying the configured threshold.
+    _papers, _date, stats = m_render.call_args.args
+    assert stats["threshold"] == 0.42
