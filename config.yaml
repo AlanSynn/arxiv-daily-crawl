@@ -75,7 +75,7 @@ hf_papers:
   min_upvotes: 15     # floor for "notable" (HF median ~13; this keeps top-half)
   top_n: 10           # cap papers shown in the section
   section_name: "Trending on HuggingFace"
-  date_offset_days: 0 # 0 = today's HF daily (cron already timed post-publish)
+  date_offset_days: 1 # TEMP test: fetch 2026-07-20 (post-publish) to verify HF section in a live send
 
 # -----------------------------------------------------------------------------
 # Relevance scoring (see src/daily_arxiv/processors/relevance.py)
