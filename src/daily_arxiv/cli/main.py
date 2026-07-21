@@ -33,6 +33,7 @@ from ..processors.toc_generator import generate_paper_list, generate_toc
 from ..services.arxiv_client import ArXivClient, filter_recent_day, make_client
 from ..services.code_link_client import CodeLinkClient
 from ..services.email_service import EmailService
+from ..services.hf_papers_client import HfPapersClient
 from ..utils.date_utils import get_dated_file_paths
 
 
@@ -144,8 +145,10 @@ class DailyArxivApp:
         )
         dedup_max_age = int(dedup_cfg.get("max_age_days", 30))
         delta_keys: Set[str] = set()
+        # ``notified`` is loaded unconditionally so the HF section can reuse it
+        # for cross-source dedup even when arXiv-slice dedup is disabled.
+        notified = load_notified(notified_path) if dedup_enabled else set()
         if dedup_enabled:
-            notified = load_notified(notified_path)
             email_papers_by_cat, delta_keys = self._dedupe_email_slice(
                 email_papers_by_cat, notified
             )
@@ -177,6 +180,54 @@ class DailyArxivApp:
         # Flat paper list (always written; independent of inline TOC).
         paper_list_md = generate_paper_list(all_scored)
         self.file_manager.write_paper_list(paper_list_md, toc_cfg.paper_list_path)
+
+        # HuggingFace Daily Papers — community-signal section. Parallel
+        # pipeline: HF curates by its own feature date, so these papers bypass
+        # the arXiv publish-day slice and never join seen_best / all_scored
+        # (email-only; they'd otherwise leak into the readme + snapshots).
+        # They share the arxiv-id keyspace, so the same notified store dedupes
+        # them across both sources. HF is best-effort: a fetch failure must
+        # never block the arXiv digest.
+        hf_cfg = self.config.get("hf_papers")
+        if getattr(hf_cfg, "enabled", False):
+            try:
+                hf_date = (
+                    datetime.date.today()
+                    - datetime.timedelta(days=hf_cfg.date_offset_days)
+                ).strftime("%Y-%m-%d")
+                already_today = {
+                    p.paper_key
+                    for papers in email_papers_by_cat.values()
+                    for p in papers
+                }
+                hf_papers = HfPapersClient().fetch_daily_papers(
+                    date_str=hf_date,
+                    section_name=hf_cfg.section_name,
+                    min_upvotes=hf_cfg.min_upvotes,
+                    top_n=hf_cfg.top_n,
+                )
+                fresh_hf = [
+                    p for p in hf_papers
+                    if p.paper_key not in notified
+                    and p.paper_key not in already_today
+                ]
+                if len(fresh_hf) < len(hf_papers):
+                    logging.info(
+                        "HF section: %d already-dispatched/duplicate paper(s) "
+                        "dropped.",
+                        len(hf_papers) - len(fresh_hf),
+                    )
+                if fresh_hf:
+                    email_papers_by_cat[hf_cfg.section_name] = fresh_hf
+                    delta_keys.update(p.paper_key for p in fresh_hf)
+                    logging.info(
+                        "HF section: %d notable paper(s) added (%s).",
+                        len(fresh_hf), hf_cfg.section_name,
+                    )
+            except Exception as e:
+                logging.warning(
+                    "HF daily-papers fetch failed; continuing arXiv-only: %s", e
+                )
 
         # Email the most-recent-day slice if requested. After a successful
         # send, record the dispatched keys so they are never re-emailed.

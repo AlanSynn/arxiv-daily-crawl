@@ -183,6 +183,22 @@ def _score_badge(score: float) -> str:
     )
 
 
+def _upvote_badge(upvotes: int) -> str:
+    """Community-signal upvote badge (HuggingFace papers).
+
+    Shares the ``.badge`` shell with :func:`_score_badge` so the accent-tint
+    flips cleanly in dark mode; the content is an up-triangle + integer count,
+    visually distinct from the decimal relevance score so a reader can tell a
+    community-signal paper from a scored one at a glance.
+    """
+    return (
+        f'<span class="badge" style="font-family:{_MONO}; font-size:10px; '
+        f'font-weight:500; letter-spacing:0.04em; padding:2px 6px; '
+        f'border-radius:4px; line-height:1.4; white-space:nowrap; '
+        f'display:inline-block;">▲ {upvotes}</span>'
+    )
+
+
 # --- EmailService -----------------------------------------------------------
 
 class EmailService:
@@ -323,13 +339,19 @@ class EmailService:
     def _compute_top5(papers_by_category: Dict[str, List[Paper]]) -> List[Paper]:
         """Flatten, dedupe by ``paper_key`` (keep best score), sort desc, take 5.
 
-        Dedupe is defensive — in the email slice each paper appears in
-        exactly one category, but the flatten-then-sort should not promote
-        a single paper twice if a caller ever passes duplicates.
+        Community-signal (HuggingFace) papers are excluded: their ``score``
+        is the neutral ``0.0`` default (popularity lives in ``upvotes``), so
+        they would pollute the relevance ranking and squeeze out scored
+        arXiv papers whenever the slice is short. Dedupe is defensive — in
+        the email slice each paper appears in exactly one category, but the
+        flatten-then-sort should not promote a single paper twice if a caller
+        ever passes duplicates.
         """
         best: Dict[str, Paper] = {}
         for papers in papers_by_category.values():
             for p in papers:
+                if p.is_community_signal:
+                    continue
                 prev = best.get(p.paper_key)
                 if prev is None or p.score > prev.score:
                     best[p.paper_key] = p
@@ -698,6 +720,13 @@ class EmailService:
                 f' · <a href="{_esc(paper.code_url)}" class="muted" '
                 f'style="color:{_MUTED}; text-decoration:none;">code</a>'
             )
+        # Badge: community-signal papers show their HF upvote count; scored
+        # arXiv papers show the relevance score.
+        badge = (
+            _upvote_badge(paper.upvotes or 0)
+            if paper.is_community_signal
+            else _score_badge(paper.score)
+        )
         return (
             # Nested 1-cell table = the card.
             '<table role="presentation" cellpadding="0" cellspacing="0"'
@@ -724,7 +753,7 @@ class EmailService:
             # Badge cell — top-right.
             f'<td valign="top" align="right" style="vertical-align:top; '
             f'text-align:right; white-space:nowrap;">'
-            f'{_score_badge(paper.score)}</td>'
+            f'{badge}</td>'
             '</tr>'
             '</table>'
             # Abstract toggle (details/summary, default closed).

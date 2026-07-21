@@ -7,7 +7,13 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
   schedule:
-    - cron: "0 12 * * *" # run every day at 8:00 AM EDT (12:00 UTC)
+    # 15:00 UTC = 11:00 AM EDT (summer) / 10:00 AM EST (winter).
+    # Timed to run AFTER both feeds are fresh: arXiv posts overnight ET and
+    # HuggingFace publishes its Daily Papers ~09:00 ET, so 15:00 UTC gives a
+    # ~2h (summer) / ~1h (winter) buffer past HF's publish. Running earlier
+    # risks an empty/stale HF section for that date, and because hf_papers
+    # uses date_offset_days=0, a missed day is never recovered.
+    - cron: "0 15 * * *"
   # Triggers the workflow on push or pull request events but only for the main branch
 #   push:
 #     branches:
