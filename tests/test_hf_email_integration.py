@@ -114,3 +114,45 @@ def test_render_email_top5_skips_hf_when_slice_short():
     # No HF title leaked into the Top-5 mini-cards.
     for p in hf:
         assert p.title not in html.split("TOP 5 BY RELEVANCE")[1].split("INDEX")[0]
+
+
+# --- Link row + inline abstract (post-toggle removal) -------------------
+def test_render_email_hf_paper_full_link_row():
+    """HF paper link row carries arXiv + code + project + hf paper page."""
+    config = {'email_settings': {'enabled': True}}
+    service = EmailService(config)
+    hf = _hf("2607.900", 113)
+    hf.code_url = "https://github.com/o/r"
+    hf.project_url = "https://aka.ms/demo"
+    html = service.render_email(
+        {"Trending on HuggingFace": [hf]}, "2026-07-20",
+        {"total": 1, "categories": 1, "threshold": None},
+    )
+    assert "huggingface.co/papers/2607.900" in html
+    assert "github.com/o/r" in html and ">code<" in html
+    assert "aka.ms/demo" in html and ">project<" in html
+    assert ">hf<" in html
+
+
+def test_render_email_no_hf_link_for_scored_papers():
+    """Scored arXiv papers do NOT get the hf paper-page link."""
+    config = {'email_settings': {'enabled': True}}
+    service = EmailService(config)
+    scored = _scored("2607.100", score=0.5)
+    scored.code_url = "https://github.com/o/r"
+    html = service.render_email({"Character Motion": [scored]}, "2026-07-20")
+    assert "huggingface.co/papers/2607.100" not in html
+    assert ">code<" in html
+
+
+def test_render_email_abstract_is_inline_not_toggle():
+    """No <details>/<summary>; ABSTRACT shown inline (email-client robust)."""
+    config = {'email_settings': {'enabled': True}}
+    service = EmailService(config)
+    p = _scored("2607.100", score=0.5)
+    html = service.render_email({"Character Motion": [p]}, "2026-07-20")
+    assert "<details" not in html
+    assert "<summary" not in html
+    assert "▾" not in html
+    assert "ABSTRACT" in html
+    assert "Short abstract." in html      # body visible inline (not hidden)

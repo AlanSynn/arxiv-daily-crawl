@@ -709,17 +709,31 @@ class EmailService:
 
     @staticmethod
     def _render_paper_block(paper: Paper) -> str:
-        """A single paper card: title + badge row, abstract toggle, link row."""
+        """A single paper card: title + badge row, inline abstract, link row."""
         abstract = _trim_abstract(paper.abstract, 600)
         pub_str = (
             paper.published.strftime("%Y-%m-%d") if paper.published else ""
         )
-        code_link = ""
+        # Link row, built from whatever the paper carries. Order: arXiv key
+        # (always) · code · project · hf paper page (community-signal only —
+        # surfaces the HF upvotes/comments thread).
+        link_pairs: List[Tuple[str, str]] = [
+            (f"arXiv:{paper.paper_key}", paper.abs_url)
+        ]
         if paper.code_url:
-            code_link = (
-                f' · <a href="{_esc(paper.code_url)}" class="muted" '
-                f'style="color:{_MUTED}; text-decoration:none;">code</a>'
+            link_pairs.append(("code", paper.code_url))
+        if paper.project_url:
+            link_pairs.append(("project", paper.project_url))
+        if paper.is_community_signal:
+            link_pairs.append(
+                ("hf", f"https://huggingface.co/papers/{paper.paper_key}")
             )
+        link_row = " · ".join(
+            f'<a href="{_esc(url)}" class="muted" '
+            f'style="color:{_MUTED}; text-decoration:none;">'
+            f'{_esc(label)}</a>'
+            for label, url in link_pairs
+        )
         # Badge: community-signal papers show their HF upvote count; scored
         # arXiv papers show the relevance score.
         badge = (
@@ -756,31 +770,20 @@ class EmailService:
             f'{badge}</td>'
             '</tr>'
             '</table>'
-            # Abstract toggle (details/summary, default closed).
-            '<details style="margin-top:8px;">'
-            f'<summary class="accent" style="font-family:{_MONO}; '
+            # Abstract — inline. No <details>/<summary> toggle: Outlook and
+            # Gmail don't honor the toggle and render the summary as dead
+            # text with the body forced open, so a static labelled block is
+            # the only choice that looks right in every client.
+            f'<div class="accent" style="font-family:{_MONO}; '
             f'color:{_ACCENT}; font-size:10px; font-weight:500; '
-            f'text-transform:uppercase; letter-spacing:1.5px;">'
-            '▾ ABSTRACT</summary>'
+            f'text-transform:uppercase; letter-spacing:1.5px; '
+            f'margin-top:10px;">ABSTRACT</div>'
             f'<div class="ink" style="font-family:{_SANS}; color:{_INK}; '
-            f'font-size:13px; line-height:1.55; padding-top:8px;">'
-            f'{_esc(abstract)}'
-            # → arxiv.org link inside the details block (muted — the
-            # toggle owns the accent; out-links stay quiet).
-            f'<div style="margin-top:6px;">'
-            f'<a href="{_esc(paper.abs_url)}" class="muted" '
-            f'style="color:{_MUTED}; text-decoration:none; '
-            f'font-family:{_MONO}; font-size:11px;">→ arxiv.org</a>'
-            '</div>'
-            '</div>'
-            '</details>'
-            # Link row: arXiv key (muted) · code (muted, if present).
+            f'font-size:13px; line-height:1.55; padding-top:4px;">'
+            f'{_esc(abstract)}</div>'
+            # Link row.
             f'<div class="muted" style="font-family:{_MONO}; color:{_MUTED}; '
-            f'font-size:10px; margin-top:8px;">'
-            f'<a href="{_esc(paper.abs_url)}" class="muted" '
-            f'style="color:{_MUTED}; text-decoration:none;">'
-            f'arXiv:{_esc(paper.paper_key)}</a>{code_link}'
-            '</div>'
+            f'font-size:10px; margin-top:8px;">{link_row}</div>'
             '</td>'
             '</tr>'
             '</table>'

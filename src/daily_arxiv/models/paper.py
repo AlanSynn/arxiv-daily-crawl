@@ -30,7 +30,12 @@ class Paper:
         all_categories: Every arXiv category the paper is filed under.
         entry_id: Raw arXiv entry id / canonical URL.
         abs_url: Human abstract URL, ``http://arxiv.org/abs/{paper_key}``.
-        code_url: Optional code-repository URL (filled by CodeLinkClient).
+        code_url: Optional code-repository URL (filled by CodeLinkClient, or
+            from HuggingFace ``githubRepo`` for community-signal papers).
+        project_url: Optional non-code project/demo page — typically the
+            paper's website (e.g. a HuggingFace ``projectPage`` that isn't a
+            GitHub repo). Kept separate from ``code_url`` so both a repo and
+            a demo site can link out at once.
         category: Display category name (assigned at orchestration).
         score: Relevance score in ``[0.0, 1.0]`` (assigned by RelevanceScorer).
         matched_keywords: Include keywords that matched (for transparency).
@@ -54,6 +59,7 @@ class Paper:
     entry_id: str
     abs_url: str
     code_url: Optional[str] = None
+    project_url: Optional[str] = None  # non-code demo/project page (HF papers)
     # Assigned at orchestration time:
     category: Optional[str] = None
     score: float = 0.0
