@@ -7,7 +7,7 @@ filter / sort / mapping behavior.
 
 from unittest.mock import patch, MagicMock
 
-from src.daily_arxiv.services.hf_papers_client import HfPapersClient
+from src.daily_arxiv.services.hf_papers_client import HfPapersClient, _extract_links
 from src.daily_arxiv.models.paper import Paper
 
 
@@ -167,3 +167,51 @@ def test_hf_empty_day_returns_empty(mock_get):
         date_str="2026-07-20", section_name="HF", min_upvotes=15, top_n=10,
     )
     assert papers == []
+
+
+# --- _extract_links: code vs project split ------------------------------
+def test_extract_links_splits_github_repo_and_demo_page():
+    """GitHub repo -> code; non-github projectPage -> project (both kept)."""
+    code, project = _extract_links({
+        "githubRepo": "https://github.com/org/repo",
+        "projectPage": "https://robotics.xiaomi.com/demo.html",
+    })
+    assert code == "https://github.com/org/repo"
+    assert project == "https://robotics.xiaomi.com/demo.html"
+
+
+def test_extract_links_github_projectpage_only_becomes_code():
+    """A lone GitHub projectPage (no repo) is code, not project."""
+    code, project = _extract_links({"projectPage": "https://github.com/org/repo"})
+    assert code == "https://github.com/org/repo"
+    assert project is None
+
+
+def test_extract_links_neither_present():
+    assert _extract_links({}) == (None, None)
+
+
+def test_extract_links_repo_wins_over_github_projectpage():
+    """Repo + a GitHub projectPage -> repo is code; no project_url."""
+    code, project = _extract_links({
+        "githubRepo": "https://github.com/a/b",
+        "projectPage": "https://github.com/a/b-site",
+    })
+    assert code == "https://github.com/a/b"
+    assert project is None
+
+
+@patch("src.daily_arxiv.services.hf_papers_client.requests.get")
+def test_hf_project_url_preserved_on_paper(mock_get):
+    """A non-github demo page flows through to Paper.project_url."""
+    mock_get.return_value = _mock_response([
+        _hf_item("2607.030", "Demo Paper", upvotes=50,
+                 github="https://github.com/o/r",
+                 project="https://aka.ms/demo"),
+    ])
+    papers = HfPapersClient().fetch_daily_papers(
+        date_str="2026-07-20", section_name="HF", min_upvotes=15, top_n=10,
+    )
+    p = papers[0]
+    assert p.code_url == "https://github.com/o/r"
+    assert p.project_url == "https://aka.ms/demo"

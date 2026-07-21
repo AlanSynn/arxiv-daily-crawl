@@ -26,7 +26,7 @@ from __future__ import annotations
 
 import datetime
 import logging
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 import requests
 
@@ -130,7 +130,7 @@ class HfPapersClient:
 
         paper_id = str(paper_id)
         authors_str = _first_author(inner.get("authors"))
-        code_url = _extract_code_url(inner)
+        code_url, project_url = _extract_links(inner)
 
         return Paper(
             paper_key=paper_id,
@@ -144,6 +144,7 @@ class HfPapersClient:
             entry_id=f"http://arxiv.org/abs/{paper_id}",
             abs_url=f"http://arxiv.org/abs/{paper_id}",
             code_url=code_url,
+            project_url=project_url,
             category=section_name,
             score=0.0,  # left at the neutral default; popularity lives in upvotes
             matched_keywords=[],
@@ -163,15 +164,32 @@ def _first_author(authors: Any) -> str:
     return ""
 
 
-def _extract_code_url(inner: Dict[str, Any]) -> Optional[str]:
-    """Prefer ``githubRepo``, fall back to a github ``projectPage``."""
+def _extract_links(inner: Dict[str, Any]) -> Tuple[Optional[str], Optional[str]]:
+    """Split HF links into ``(code_url, project_url)``.
+
+    ``code_url`` is the GitHub repo (or a GitHub ``projectPage`` as fallback
+    when no repo is listed). ``project_url`` is a NON-GitHub ``projectPage``
+    — typically the paper's demo / website (e.g. ``robotics.xiaomi.com/...``,
+    ``aka.ms/...``). HF items often carry BOTH a repo and a separate demo
+    page; previously the demo page was dropped whenever a repo was present
+    or whenever the projectPage wasn't a GitHub URL.
+    """
     repo = inner.get("githubRepo")
-    if isinstance(repo, str) and repo and _is_github_url(repo):
-        return repo
     project = inner.get("projectPage")
-    if isinstance(project, str) and project and _is_github_url(project):
-        return project
-    return None
+    repo_ok = isinstance(repo, str) and bool(repo) and _is_github_url(repo)
+    project_ok = isinstance(project, str) and bool(project)
+
+    code_url: Optional[str] = None
+    if repo_ok:
+        code_url = repo
+    elif project_ok and _is_github_url(project):
+        code_url = project
+
+    project_url: Optional[str] = None
+    if project_ok and not _is_github_url(project):
+        project_url = project
+
+    return code_url, project_url
 
 
 def _to_int(value: Any) -> Optional[int]:
