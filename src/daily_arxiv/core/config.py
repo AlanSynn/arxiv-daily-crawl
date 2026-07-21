@@ -70,6 +70,23 @@ class TocConfig:
     group_by_date: bool = True
 
 
+@dataclass
+class HfPapersConfig:
+    """HuggingFace Daily Papers integration settings.
+
+    HF papers are a *community-signal* source, parallel to the keyword crawl:
+    they enter the email as their own section but never join ``seen_best`` /
+    ``all_scored`` / the readme outputs, and they bypass the arXiv publish-day
+    slice (HF curates by its own feature date, not the arxiv v1 date).
+    """
+
+    enabled: bool = True
+    min_upvotes: int = 15
+    top_n: int = 10
+    section_name: str = "Trending on HuggingFace"
+    date_offset_days: int = 0
+
+
 # ---------------------------------------------------------------------------
 # Query building
 # ---------------------------------------------------------------------------
@@ -207,6 +224,17 @@ def _parse_toc(raw: Dict[str, Any]) -> TocConfig:
     )
 
 
+def _parse_hf_papers(raw: Dict[str, Any]) -> HfPapersConfig:
+    raw = raw or {}
+    return HfPapersConfig(
+        enabled=bool(raw.get("enabled", True)),
+        min_upvotes=int(raw.get("min_upvotes", 15)),
+        top_n=int(raw.get("top_n", 10)),
+        section_name=str(raw.get("section_name", "Trending on HuggingFace")),
+        date_offset_days=int(raw.get("date_offset_days", 0)),
+    )
+
+
 def _legacy_query_string(filters: List[str]) -> str:
     """Build the legacy bare ``"phrase" OR word`` query string for old code paths.
 
@@ -280,6 +308,7 @@ def load_config(config_file: str) -> Dict[str, Any]:
     config["scoring"] = _parse_scoring(config.get("scoring"))
     config["rate_limit"] = _parse_rate_limit(config.get("rate_limit"))
     config["toc"] = _parse_toc(config.get("toc"))
+    config["hf_papers"] = _parse_hf_papers(config.get("hf_papers"))
 
     # Backward-compat ``kv`` shim: map topic name -> legacy bare query string.
     # New code should call build_category_query(category) instead.
@@ -318,6 +347,7 @@ __all__ = [
     "ScoringConfig",
     "RateLimitConfig",
     "TocConfig",
+    "HfPapersConfig",
     "build_category_query",
     "load_config",
     "validate_config",
