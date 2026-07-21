@@ -63,6 +63,20 @@ email_dedup:
   state_path: './logs/notified_papers.json'
   max_age_days: 30   # prune notified keys older than this (fetch window is 14d)
 
+# HuggingFace Daily Papers — community-signal source. HF curates ~25
+# papers/day by its own feature date (published ~09:00 EDT). These enter the
+# Dispatch as their own section, bypassing the arXiv publish-day slice and
+# the readme/snapshots (email-only). They carry an arXiv id, so the same
+# notified store above dedupes them across both sources — a paper already
+# emailed via the keyword crawl is dropped here (and vice versa). The cron
+# runs 10:30 EDT (14:30 UTC), safely after HF's morning publish.
+hf_papers:
+  enabled: true
+  min_upvotes: 15     # floor for "notable" (HF median ~13; this keeps top-half)
+  top_n: 10           # cap papers shown in the section
+  section_name: "Trending on HuggingFace"
+  date_offset_days: 0 # 0 = today's HF daily (cron already timed post-publish)
+
 # -----------------------------------------------------------------------------
 # Relevance scoring (see src/daily_arxiv/processors/relevance.py)
 # -----------------------------------------------------------------------------

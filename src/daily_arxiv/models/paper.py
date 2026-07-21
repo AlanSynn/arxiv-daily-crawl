@@ -34,6 +34,13 @@ class Paper:
         category: Display category name (assigned at orchestration).
         score: Relevance score in ``[0.0, 1.0]`` (assigned by RelevanceScorer).
         matched_keywords: Include keywords that matched (for transparency).
+        upvotes: HuggingFace upvote count (community-signal papers only); the
+            relevance ``score`` field stays in ``[0.0, 1.0]`` for keyword
+            papers, so popularity is kept in its own field.
+        is_community_signal: True for HuggingFace-sourced papers. Marks the
+            paper as belonging to the parallel HF pipeline — it bypasses the
+            arXiv publish-day slice, never enters ``seen_best``/``all_scored``,
+            and renders an upvote badge instead of a score badge.
     """
 
     paper_key: str
@@ -51,6 +58,10 @@ class Paper:
     category: Optional[str] = None
     score: float = 0.0
     matched_keywords: list[str] = field(default_factory=list)
+    # HuggingFace community-signal fields (default off — zero impact on the
+    # keyword pipeline / existing callers).
+    upvotes: Optional[int] = None
+    is_community_signal: bool = False
 
     # ------------------------------------------------------------------
     # Row serializers
