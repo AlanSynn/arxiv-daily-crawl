@@ -9,6 +9,9 @@
 <summary>📑 Table of Contents — 2026-07-21</summary>
 
 **By category**
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (23)
+- [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (4)
+- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (9)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (36)
 - [World Models & Generative Video](#world-models--generative-video) (36)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (29)
@@ -19,6 +22,63 @@
 </details>
 
 > 📖 Usage instructions: [here](./docs/README.md#usage)
+
+## Character Motion Synthesis & Animation
+
+|Publish Date|Title|Authors|arXiv|Code|
+|---|---|---|---|---|
+|**2026-07-17**|**Exo2EgoPose: Leveraging Exocentric Demonstrations for Vision-Language guided Egocentric 3D Hand Pose Forecasting**|Zhaofeng Shi et.al.|[@2607.15890](http://arxiv.org/abs/2607.15890)|null|
+|**2026-07-17**|**EgoExoMoCap: Distributed Ego-Exo Human Motion Capture**|Jiaxi Jiang et.al.|[@2607.15868](http://arxiv.org/abs/2607.15868)|null|
+|**2026-07-17**|**HybridSim: A Physics-Learning Hybrid Digital Twin for mmWave Human Sensing**|Weitao Xiong et.al.|[@2607.15806](http://arxiv.org/abs/2607.15806)|null|
+|**2026-07-16**|**Online Neural Space Time Memory for Dynamic Novel View Synthesis**|Baback Elmieh et.al.|[@2607.15271](http://arxiv.org/abs/2607.15271)|null|
+|**2026-07-15**|**Music-to-Dance Generation via Atomic Movements**|Xinhao Cai et.al.|[@2607.13978](http://arxiv.org/abs/2607.13978)|null|
+|**2026-07-15**|**Human4K: A Large-Scale 4K Multi-View Mocap Dataset for Whole-Body 3D Human Reconstruction**|Tianshun Han et.al.|[@2607.13646](http://arxiv.org/abs/2607.13646)|null|
+|**2026-07-15**|**EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal**|Alex Brandes et.al.|[@2607.13472](http://arxiv.org/abs/2607.13472)|null|
+|**2026-07-15**|**MultiAnimate: A Unified Framework for Controllable Multi-Character Animation**|Zhongyi Zhang et.al.|[@2607.13415](http://arxiv.org/abs/2607.13415)|null|
+|**2026-07-13**|**EquiFusion: Kinematics-Agnostic Human Motion Prediction via Equivariant Latent Diffusion**|Cecilia Curreli et.al.|[@2607.10984](http://arxiv.org/abs/2607.10984)|null|
+|**2026-07-12**|**Diversify Diffusion with Temperature Sampling and Variance-Corrective Time Shifting**|Peizhuo Li et.al.|[@2607.10853](http://arxiv.org/abs/2607.10853)|null|
+|**2026-07-11**|**Neural Motion Blending Across Arbitrary Character Topologies**|Luca Cazzola et.al.|[@2607.10370](http://arxiv.org/abs/2607.10370)|null|
+|**2026-07-11**|**Learn2Chat: Rethinking Dyadic Talking Heads via Interaction-Modulated Monologic Priors**|Zikai Huang et.al.|[@2607.10313](http://arxiv.org/abs/2607.10313)|null|
+|**2026-07-11**|**InterPet4D: A Multimodal 4D Human-Pet Interaction Dataset for Pet Motion Generation**|Yichen Peng et.al.|[@2607.10287](http://arxiv.org/abs/2607.10287)|null|
+|**2026-07-11**|**TSCA-Net: Temporal-Spatial Clique Attention for Interpretable Multimodal Pedestrian Trajectory Prediction**|Md Mustafizur Rahman et.al.|[@2607.11939](http://arxiv.org/abs/2607.11939)|null|
+|**2026-07-10**|**Multimodal Scenario Similarity Search for Autonomous Driving**|Tamás Matuszka et.al.|[@2607.09428](http://arxiv.org/abs/2607.09428)|null|
+|**2026-07-09**|**SplatCtrl: Perception-Action Coupling via Gaussian Scene Representations and Reactive Robot Control**|Siddarth Jain et.al.|[@2607.08948](http://arxiv.org/abs/2607.08948)|null|
+|**2026-07-09**|**Moving Like a Human: Ego-Motion-Normalized Temporal Signatures for Real-Time Aerial Person Tracking on Milliwatt-Class Hardware**|Akbar Anbar Jafari et.al.|[@2607.16282](http://arxiv.org/abs/2607.16282)|null|
+|**2026-07-09**|**ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation**|Kaifeng Zhao et.al.|[@2607.08741](http://arxiv.org/abs/2607.08741)|null|
+|**2026-07-08**|**Ego-Human Motion Prediction with 3D-Aware LLM**|Yujin Bae et.al.|[@2607.07001](http://arxiv.org/abs/2607.07001)|null|
+|**2026-07-07**|**Retrieving and Refining Winning Noise Tickets for Diffusion-Based Motion Generation**|Sakuya Ota et.al.|[@2607.06843](http://arxiv.org/abs/2607.06843)|null|
+|**2026-07-07**|**SparseCtrl-HOI: Sparse Temporal Control for Human-Object Interaction Video Generation**|Shenbo Xie et.al.|[@2607.05994](http://arxiv.org/abs/2607.05994)|null|
+|**2026-07-07**|**DeSeG: Decoupling Semantic Intent and Geometric Constraints for Physically Plausible Human-Scene Interaction**|Jiakun Li et.al.|[@2607.05787](http://arxiv.org/abs/2607.05787)|null|
+|**2026-07-07**|**ARMS: Anchor-Relational Motion Streaming for Seamless Solo-Social Motion Transitions**|Huakun Liu et.al.|[@2607.05733](http://arxiv.org/abs/2607.05733)|null|
+
+<p align=right>(<a href=#updated-on-20260721>back to top</a>)</p>
+
+## Computational Design, Mechanism & Fabrication
+
+|Publish Date|Title|Authors|arXiv|Code|
+|---|---|---|---|---|
+|**2026-07-18**|**Retrofitting Existing 3D Objects with Surface-Conforming Capacitive Sensing**|Andela Ilic et.al.|[@2607.16739](http://arxiv.org/abs/2607.16739)|null|
+|**2026-07-14**|**Towards end-to-end optimization in multimaterial 3D printing**|Xue-Ling Luo et.al.|[@2607.13174](http://arxiv.org/abs/2607.13174)|null|
+|**2026-07-09**|**Sculptable Mesh Structures for Room-Scale Form-Finding**|Jesse T. Gonzalez et.al.|[@2607.08736](http://arxiv.org/abs/2607.08736)|null|
+|**2026-07-08**|**Continuous and large-scale: ELEANOR, the soft architected arm inspired by the elephant trunk**|Giovanna A. Naselli et.al.|[@2607.07622](http://arxiv.org/abs/2607.07622)|null|
+
+<p align=right>(<a href=#updated-on-20260721>back to top</a>)</p>
+
+## Sketch-based & Creative HCI Tools
+
+|Publish Date|Title|Authors|arXiv|Code|
+|---|---|---|---|---|
+|**2026-07-17**|**Breakdowns for Human-Machine Creative Reflexivity**|Marianne Bossema et.al.|[@2607.15866](http://arxiv.org/abs/2607.15866)|null|
+|**2026-07-17**|**Visualization Autocomplete: Visualization Authoring via Stepwise Design Recommendations**|Hyeon Jeon et.al.|[@2607.15608](http://arxiv.org/abs/2607.15608)|null|
+|**2026-07-16**|**Authoring Narrative Visualization in Motion: Visual Storytelling in Swimming Videos**|Junhao Zhao et.al.|[@2607.14924](http://arxiv.org/abs/2607.14924)|null|
+|**2026-07-16**|**Skeleton: Visual Authoring of Non-visual Data Experiences**|Frank Elavsky et.al.|[@2607.14579](http://arxiv.org/abs/2607.14579)|null|
+|**2026-07-10**|**Central Tendency Bias in Human Selection of AI-Generated Design Variations**|Huiyang Chen et.al.|[@2607.09018](http://arxiv.org/abs/2607.09018)|null|
+|**2026-07-08**|**Two-player Alternate Uses Test: A Controlled Testbed for Interactive Human-AI and Human-Human Co-Creation**|Babak Hemmatian et.al.|[@2607.07522](http://arxiv.org/abs/2607.07522)|null|
+|**2026-07-08**|**Creativity from Friction: Human-AI Interaction for Exploratory Structural Design**|Ricardo Maia Avelino et.al.|[@2607.07521](http://arxiv.org/abs/2607.07521)|null|
+|**2026-07-08**|**ShapeTalk: Combining Natural Language and Sketch for Time-Series Pattern Querying**|Guoruizhe Sun et.al.|[@2607.07073](http://arxiv.org/abs/2607.07073)|null|
+|**2026-07-07**|**Creating a Mixed-Reality Installation with Families through Theatrical Co-Design**|Pavlos Panagiotidis et.al.|[@2607.06754](http://arxiv.org/abs/2607.06754)|null|
+
+<p align=right>(<a href=#updated-on-20260721>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 

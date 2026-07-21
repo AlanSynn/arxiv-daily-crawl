@@ -9,6 +9,9 @@
 <summary>📑 Table of Contents — 2026-07-21</summary>
 
 **By category**
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (23)
+- [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (4)
+- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (9)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (36)
 - [World Models & Generative Video](#world-models--generative-video) (36)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (29)
@@ -46,6 +49,7 @@
 |**2026-07-07**|**SparseCtrl-HOI: Sparse Temporal Control for Human-Object Interaction Video Generation**|Shenbo Xie et.al.|[@2607.05994](http://arxiv.org/abs/2607.05994)|null|
 |**2026-07-07**|**DeSeG: Decoupling Semantic Intent and Geometric Constraints for Physically Plausible Human-Scene Interaction**|Jiakun Li et.al.|[@2607.05787](http://arxiv.org/abs/2607.05787)|null|
 |**2026-07-07**|**ARMS: Anchor-Relational Motion Streaming for Seamless Solo-Social Motion Transitions**|Huakun Liu et.al.|[@2607.05733](http://arxiv.org/abs/2607.05733)|null|
+|**2026-07-09**|**Moving Like a Human: Ego-Motion-Normalized Temporal Signatures for Real-Time Aerial Person Tracking on Milliwatt-Class Hardware**|Akbar Anbar Jafari et.al.|[@2607.16282](http://arxiv.org/abs/2607.16282)|null|
 
 <p align=right>(<a href=#updated-on-20260721>back to top</a>)</p>
 
@@ -56,6 +60,7 @@
 |**2026-07-14**|**Towards end-to-end optimization in multimaterial 3D printing**|Xue-Ling Luo et.al.|[@2607.13174](http://arxiv.org/abs/2607.13174)|null|
 |**2026-07-09**|**Sculptable Mesh Structures for Room-Scale Form-Finding**|Jesse T. Gonzalez et.al.|[@2607.08736](http://arxiv.org/abs/2607.08736)|null|
 |**2026-07-08**|**Continuous and large-scale: ELEANOR, the soft architected arm inspired by the elephant trunk**|Giovanna A. Naselli et.al.|[@2607.07622](http://arxiv.org/abs/2607.07622)|null|
+|**2026-07-18**|**Retrofitting Existing 3D Objects with Surface-Conforming Capacitive Sensing**|Andela Ilic et.al.|[@2607.16739](http://arxiv.org/abs/2607.16739)|null|
 
 <p align=right>(<a href=#updated-on-20260721>back to top</a>)</p>
 
