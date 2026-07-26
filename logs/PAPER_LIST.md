@@ -167,8 +167,3 @@
 | 2026-07-13 | **Qwen-Audio-VAE Technical Report** | Narrative & Long-form Audio | 0.33 | [@2607.11738](http://arxiv.org/abs/2607.11738) | null |
 | 2026-07-12 | **Diversify Diffusion with Temperature Sampling and Variance-Corrective Time Shifting** | Character Motion Synthesis & Animation | 0.33 | [@2607.10853](http://arxiv.org/abs/2607.10853) | null |
 | 2026-07-12 | **MAC-Splat: Multi-Attribute Consistency for High-Fidelity Sparse-View Reconstruction** | Neural Rendering & Physics Simulation | 0.33 | [@2607.10792](http://arxiv.org/abs/2607.10792) | null |
-| 2026-07-11 | **InterPet4D: A Multimodal 4D Human-Pet Interaction Dataset for Pet Motion Generation** | Character Motion Synthesis & Animation | 1.00 | [@2607.10287](http://arxiv.org/abs/2607.10287) | null |
-| 2026-07-11 | **Learn2Chat: Rethinking Dyadic Talking Heads via Interaction-Modulated Monologic Priors** | Character Motion Synthesis & Animation | 0.67 | [@2607.10313](http://arxiv.org/abs/2607.10313) | null |
-| 2026-07-11 | **TSCA-Net: Temporal-Spatial Clique Attention for Interpretable Multimodal Pedestrian Trajectory Prediction** | Character Motion Synthesis & Animation | 0.67 | [@2607.11939](http://arxiv.org/abs/2607.11939) | null |
-| 2026-07-11 | **FdAudio: MeanFlow-Anchored Fréchet-Distance Post-Training for One-Step Text-to-Audio Generation** | Narrative & Long-form Audio | 0.67 | [@2607.10421](http://arxiv.org/abs/2607.10421) | null |
-| 2026-07-11 | **Neural Motion Blending Across Arbitrary Character Topologies** | Character Motion Synthesis & Animation | 0.33 | [@2607.10370](http://arxiv.org/abs/2607.10370) | null |

@@ -3,20 +3,20 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.07.25
+## 📚 Updated on 2026.07.26
 
 <details open>
-<summary>📑 Table of Contents — 2026-07-25</summary>
+<summary>📑 Table of Contents — 2026-07-26</summary>
 
 **By category**
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (14)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (10)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (2)
 - [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (6)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (33)
 - [World Models & Generative Video](#world-models--generative-video) (38)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (35)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (32)
-- [Narrative & Long-form Audio](#narrative--long-form-audio) (5)
+- [Narrative & Long-form Audio](#narrative--long-form-audio) (4)
 - [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (13)
 
 </details>
@@ -37,12 +37,8 @@
 |**2026-07-15**|**MultiAnimate: A Unified Framework for Controllable Multi-Character Animation**|Zhongyi Zhang et.al.|[@2607.13415](http://arxiv.org/abs/2607.13415)|null|
 |**2026-07-13**|**EquiFusion: Kinematics-Agnostic Human Motion Prediction via Equivariant Latent Diffusion**|Cecilia Curreli et.al.|[@2607.10984](http://arxiv.org/abs/2607.10984)|null|
 |**2026-07-12**|**Diversify Diffusion with Temperature Sampling and Variance-Corrective Time Shifting**|Peizhuo Li et.al.|[@2607.10853](http://arxiv.org/abs/2607.10853)|null|
-|**2026-07-11**|**Neural Motion Blending Across Arbitrary Character Topologies**|Luca Cazzola et.al.|[@2607.10370](http://arxiv.org/abs/2607.10370)|null|
-|**2026-07-11**|**Learn2Chat: Rethinking Dyadic Talking Heads via Interaction-Modulated Monologic Priors**|Zikai Huang et.al.|[@2607.10313](http://arxiv.org/abs/2607.10313)|null|
-|**2026-07-11**|**InterPet4D: A Multimodal 4D Human-Pet Interaction Dataset for Pet Motion Generation**|Yichen Peng et.al.|[@2607.10287](http://arxiv.org/abs/2607.10287)|null|
-|**2026-07-11**|**TSCA-Net: Temporal-Spatial Clique Attention for Interpretable Multimodal Pedestrian Trajectory Prediction**|Md Mustafizur Rahman et.al.|[@2607.11939](http://arxiv.org/abs/2607.11939)|null|
 
-<p align=right>(<a href=#updated-on-20260725>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -51,7 +47,7 @@
 |**2026-07-18**|**Retrofitting Existing 3D Objects with Surface-Conforming Capacitive Sensing**|Andela Ilic et.al.|[@2607.16739](http://arxiv.org/abs/2607.16739)|null|
 |**2026-07-14**|**Towards end-to-end optimization in multimaterial 3D printing**|Xue-Ling Luo et.al.|[@2607.13174](http://arxiv.org/abs/2607.13174)|null|
 
-<p align=right>(<a href=#updated-on-20260725>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -64,7 +60,7 @@
 |**2026-07-16**|**Authoring Narrative Visualization in Motion: Visual Storytelling in Swimming Videos**|Junhao Zhao et.al.|[@2607.14924](http://arxiv.org/abs/2607.14924)|null|
 |**2026-07-16**|**Skeleton: Visual Authoring of Non-visual Data Experiences**|Frank Elavsky et.al.|[@2607.14579](http://arxiv.org/abs/2607.14579)|null|
 
-<p align=right>(<a href=#updated-on-20260725>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -104,7 +100,7 @@
 |**2026-07-22**|**EA-Nav: Learning Safe Visual Navigation Policies with Embodiment Awareness**|Jialu Zhang et.al.|[@2607.19880](http://arxiv.org/abs/2607.19880)|null|
 |**2026-07-22**|**SOPD-SocialNav: Selective On-Policy Distillation for Vision-Language Social Navigation**|Xinyu Zhang et.al.|[@2607.19850](http://arxiv.org/abs/2607.19850)|null|
 
-<p align=right>(<a href=#updated-on-20260725>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -149,7 +145,7 @@
 |**2026-07-17**|**SlotMem: Character-Addressable Internal Memory for Narrative Long Video Generation**|Yilai Liu et.al.|[@2607.15772](http://arxiv.org/abs/2607.15772)|null|
 |**2026-07-17**|**PhysAgent: Reflective Agentic Physics Control for Physically Plausible Video Generation**|Qirui Li et.al.|[@2607.16355](http://arxiv.org/abs/2607.16355)|null|
 
-<p align=right>(<a href=#updated-on-20260725>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -191,7 +187,7 @@
 |**2026-07-17**|**Toward Semantic Communication for Real-time Mobile 3D Reconstruction**|Fangzhou Zhao et.al.|[@2607.16128](http://arxiv.org/abs/2607.16128)|null|
 |**2026-07-17**|**OmniStyle-INR: Universal and Multimodal Style Transfer for INRs**|Rafał Kajca et.al.|[@2607.16362](http://arxiv.org/abs/2607.16362)|null|
 
-<p align=right>(<a href=#updated-on-20260725>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -230,7 +226,7 @@
 |**2026-07-13**|**Towards Predictive, Aligned, and Scalable Robot Learning**|Peijun Tang et.al.|[@2607.11270](http://arxiv.org/abs/2607.11270)|null|
 |**2026-07-13**|**Affordance-Based Manipulation Planning with Text Goals and Sim-to-Real Generalisation via Real-to-Sim Image Conversion**|Solvi Arnold et.al.|[@2607.11004](http://arxiv.org/abs/2607.11004)|null|
 
-<p align=right>(<a href=#updated-on-20260725>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -240,9 +236,8 @@
 |**2026-07-14**|**Efficient Text-to-Audio Generation via Pruning**|Arshdeep Singh et.al.|[@2607.13330](http://arxiv.org/abs/2607.13330)|null|
 |**2026-07-14**|**Adapting Diffusion-Based Music Synthesis to Speech and Singing Voice Conversion**|Ben Maman et.al.|[@2607.13278](http://arxiv.org/abs/2607.13278)|null|
 |**2026-07-13**|**Qwen-Audio-VAE Technical Report**|Ziyue Jiang et.al.|[@2607.11738](http://arxiv.org/abs/2607.11738)|null|
-|**2026-07-11**|**FdAudio: MeanFlow-Anchored Fréchet-Distance Post-Training for One-Step Text-to-Audio Generation**|Kuan-Po Huang et.al.|[@2607.10421](http://arxiv.org/abs/2607.10421)|null|
 
-<p align=right>(<a href=#updated-on-20260725>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -262,7 +257,7 @@
 |**2026-07-14**|**ExtraGS: Enhancing Endoscopic View Extrapolation via Diffusion-Guided 3D Gaussian Splatting**|Cheng-Tai Hsieh et.al.|[@2607.12785](http://arxiv.org/abs/2607.12785)|null|
 |**2026-07-12**|**MAC-Splat: Multi-Attribute Consistency for High-Fidelity Sparse-View Reconstruction**|Jinqian Yang et.al.|[@2607.10792](http://arxiv.org/abs/2607.10792)|null|
 
-<p align=right>(<a href=#updated-on-20260725>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors

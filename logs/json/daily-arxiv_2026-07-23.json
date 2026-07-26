@@ -9,11 +9,7 @@
     "2607.13472": "|**2026-07-15**|**EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal**|Alex Brandes et.al.|[@2607.13472](http://arxiv.org/abs/2607.13472)|null|\n",
     "2607.13415": "|**2026-07-15**|**MultiAnimate: A Unified Framework for Controllable Multi-Character Animation**|Zhongyi Zhang et.al.|[@2607.13415](http://arxiv.org/abs/2607.13415)|null|\n",
     "2607.10984": "|**2026-07-13**|**EquiFusion: Kinematics-Agnostic Human Motion Prediction via Equivariant Latent Diffusion**|Cecilia Curreli et.al.|[@2607.10984](http://arxiv.org/abs/2607.10984)|null|\n",
-    "2607.10853": "|**2026-07-12**|**Diversify Diffusion with Temperature Sampling and Variance-Corrective Time Shifting**|Peizhuo Li et.al.|[@2607.10853](http://arxiv.org/abs/2607.10853)|null|\n",
-    "2607.10370": "|**2026-07-11**|**Neural Motion Blending Across Arbitrary Character Topologies**|Luca Cazzola et.al.|[@2607.10370](http://arxiv.org/abs/2607.10370)|null|\n",
-    "2607.10313": "|**2026-07-11**|**Learn2Chat: Rethinking Dyadic Talking Heads via Interaction-Modulated Monologic Priors**|Zikai Huang et.al.|[@2607.10313](http://arxiv.org/abs/2607.10313)|null|\n",
-    "2607.10287": "|**2026-07-11**|**InterPet4D: A Multimodal 4D Human-Pet Interaction Dataset for Pet Motion Generation**|Yichen Peng et.al.|[@2607.10287](http://arxiv.org/abs/2607.10287)|null|\n",
-    "2607.11939": "|**2026-07-11**|**TSCA-Net: Temporal-Spatial Clique Attention for Interpretable Multimodal Pedestrian Trajectory Prediction**|Md Mustafizur Rahman et.al.|[@2607.11939](http://arxiv.org/abs/2607.11939)|null|\n"
+    "2607.10853": "|**2026-07-12**|**Diversify Diffusion with Temperature Sampling and Variance-Corrective Time Shifting**|Peizhuo Li et.al.|[@2607.10853](http://arxiv.org/abs/2607.10853)|null|\n"
   },
   "Computational Design, Mechanism & Fabrication": {
     "2607.16739": "|**2026-07-18**|**Retrofitting Existing 3D Objects with Surface-Conforming Capacitive Sensing**|Andela Ilic et.al.|[@2607.16739](http://arxiv.org/abs/2607.16739)|null|\n",
@@ -177,8 +173,7 @@
     "2607.14749": "|**2026-07-16**|**WanSong v1.0 Technical Report**|Binghui Chen et.al.|[@2607.14749](http://arxiv.org/abs/2607.14749)|null|\n",
     "2607.13330": "|**2026-07-14**|**Efficient Text-to-Audio Generation via Pruning**|Arshdeep Singh et.al.|[@2607.13330](http://arxiv.org/abs/2607.13330)|null|\n",
     "2607.13278": "|**2026-07-14**|**Adapting Diffusion-Based Music Synthesis to Speech and Singing Voice Conversion**|Ben Maman et.al.|[@2607.13278](http://arxiv.org/abs/2607.13278)|null|\n",
-    "2607.11738": "|**2026-07-13**|**Qwen-Audio-VAE Technical Report**|Ziyue Jiang et.al.|[@2607.11738](http://arxiv.org/abs/2607.11738)|null|\n",
-    "2607.10421": "|**2026-07-11**|**FdAudio: MeanFlow-Anchored Fréchet-Distance Post-Training for One-Step Text-to-Audio Generation**|Kuan-Po Huang et.al.|[@2607.10421](http://arxiv.org/abs/2607.10421)|null|\n"
+    "2607.11738": "|**2026-07-13**|**Qwen-Audio-VAE Technical Report**|Ziyue Jiang et.al.|[@2607.11738](http://arxiv.org/abs/2607.11738)|null|\n"
   },
   "Neural Rendering & Physics Simulation": {
     "2607.21078": "|**2026-07-23**|**The RealDefocus Benchmark for Defocus Deblurring**|Tim Seizinger et.al.|[@2607.21078](http://arxiv.org/abs/2607.21078)|null|\n",

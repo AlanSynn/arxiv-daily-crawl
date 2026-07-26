@@ -3,20 +3,20 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.07.25
+## 📚 Updated on 2026.07.26
 
 <details open>
-<summary>📑 Table of Contents — 2026-07-25</summary>
+<summary>📑 Table of Contents — 2026-07-26</summary>
 
 **By category**
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (14)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (10)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (2)
 - [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (6)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (33)
 - [World Models & Generative Video](#world-models--generative-video) (38)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (35)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (32)
-- [Narrative & Long-form Audio](#narrative--long-form-audio) (5)
+- [Narrative & Long-form Audio](#narrative--long-form-audio) (4)
 - [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (13)
 
 </details>
@@ -51,7 +51,7 @@
 |**2026-07-07**|**ARMS: Anchor-Relational Motion Streaming for Seamless Solo-Social Motion Transitions**|Huakun Liu et.al.|[@2607.05733](http://arxiv.org/abs/2607.05733)|null|
 |**2026-07-09**|**Moving Like a Human: Ego-Motion-Normalized Temporal Signatures for Real-Time Aerial Person Tracking on Milliwatt-Class Hardware**|Akbar Anbar Jafari et.al.|[@2607.16282](http://arxiv.org/abs/2607.16282)|null|
 
-<p align=right>(<a href=#updated-on-20260725>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -62,7 +62,7 @@
 |**2026-07-08**|**Continuous and large-scale: ELEANOR, the soft architected arm inspired by the elephant trunk**|Giovanna A. Naselli et.al.|[@2607.07622](http://arxiv.org/abs/2607.07622)|null|
 |**2026-07-18**|**Retrofitting Existing 3D Objects with Surface-Conforming Capacitive Sensing**|Andela Ilic et.al.|[@2607.16739](http://arxiv.org/abs/2607.16739)|null|
 
-<p align=right>(<a href=#updated-on-20260725>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -80,7 +80,7 @@
 |**2026-07-20**|**I wanted it to feel more personal: Customization of social AI as AI individualism in practice**|Marita Skjuve et.al.|[@2607.17826](http://arxiv.org/abs/2607.17826)|null|
 |**2026-07-22**|**A Framework of User Experience Principles for Human-AI Agent Interaction in the Workplace**|Kathrin Paimann et.al.|[@2607.19941](http://arxiv.org/abs/2607.19941)|null|
 
-<p align=right>(<a href=#updated-on-20260725>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -223,7 +223,7 @@
 |**2026-07-22**|**EA-Nav: Learning Safe Visual Navigation Policies with Embodiment Awareness**|Jialu Zhang et.al.|[@2607.19880](http://arxiv.org/abs/2607.19880)|null|
 |**2026-07-22**|**SOPD-SocialNav: Selective On-Policy Distillation for Vision-Language Social Navigation**|Xinyu Zhang et.al.|[@2607.19850](http://arxiv.org/abs/2607.19850)|null|
 
-<p align=right>(<a href=#updated-on-20260725>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -303,7 +303,7 @@
 |**2026-07-22**|**The World Model Remembers, the Actor Forgets: Dream Rehearsal for Continual Model-Based RL**|Gurp Nijjer et.al.|[@2607.19749](http://arxiv.org/abs/2607.19749)|null|
 |**2026-07-22**|**Koopman Dreamer: Spectrally Constrained Latent Dynamics for Stable World-Model Imagination**|Jiaqi Li et.al.|[@2607.19719](http://arxiv.org/abs/2607.19719)|null|
 
-<p align=right>(<a href=#updated-on-20260725>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -373,7 +373,7 @@
 |**2026-07-22**|**Extending a Large View Synthesis Model for Multi-view Panoptic Segmentation**|Kwonyoung Ryu et.al.|[@2607.19765](http://arxiv.org/abs/2607.19765)|null|
 |**2026-07-22**|**Fast Wave-optics Rendering of Multiplane Images for 3D Holographic Displays**|Brian Chao et.al.|[@2607.19731](http://arxiv.org/abs/2607.19731)|null|
 
-<p align=right>(<a href=#updated-on-20260725>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -425,7 +425,7 @@
 |**2026-07-22**|**Safe and Scalable Multi-Drone Payload Transport via CBF-based Reinforcement Learning with Zero-Shot Sim-to-Real Transfer**|Jaeyoun Choi et.al.|[@2607.20665](http://arxiv.org/abs/2607.20665)|null|
 |**2026-07-22**|**ReferTrack: Referring Then Tracking for Embodied Visual Tracking**|Hanjing Ye et.al.|[@2607.20061](http://arxiv.org/abs/2607.20061)|null|
 
-<p align=right>(<a href=#updated-on-20260725>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -439,7 +439,7 @@
 |**2026-07-10**|**A Production-Oriented Framework for Evaluation of SFX Generation**|Mélodie Desbos et.al.|[@2607.09973](http://arxiv.org/abs/2607.09973)|null|
 |**2026-07-08**|**EscFOA: Enhancing Spatial Learning for Visually Impaired Learners via Generative Spatial Audio in 360-Degree Educational Environments**|Ziyu Luo et.al.|[@2607.07015](http://arxiv.org/abs/2607.07015)|null|
 
-<p align=right>(<a href=#updated-on-20260725>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -463,7 +463,7 @@
 |**2026-07-23**|**The RealDefocus Benchmark for Defocus Deblurring**|Tim Seizinger et.al.|[@2607.21078](http://arxiv.org/abs/2607.21078)|null|
 |**2026-07-22**|**Fast Wave-optics Rendering of Multiplane Images for 3D Holographic Displays**|Brian Chao et.al.|[@2607.19731](http://arxiv.org/abs/2607.19731)|null|
 
-<p align=right>(<a href=#updated-on-20260725>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
