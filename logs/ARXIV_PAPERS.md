@@ -3,21 +3,21 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.07.26
+## 📚 Updated on 2026.07.27
 
 <details open>
-<summary>📑 Table of Contents — 2026-07-26</summary>
+<summary>📑 Table of Contents — 2026-07-27</summary>
 
 **By category**
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (10)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (9)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (2)
-- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (6)
+- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (7)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (33)
 - [World Models & Generative Video](#world-models--generative-video) (38)
-- [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (35)
+- [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (36)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (32)
-- [Narrative & Long-form Audio](#narrative--long-form-audio) (4)
-- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (13)
+- [Narrative & Long-form Audio](#narrative--long-form-audio) (5)
+- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (12)
 
 </details>
 
@@ -51,7 +51,7 @@
 |**2026-07-07**|**ARMS: Anchor-Relational Motion Streaming for Seamless Solo-Social Motion Transitions**|Huakun Liu et.al.|[@2607.05733](http://arxiv.org/abs/2607.05733)|null|
 |**2026-07-09**|**Moving Like a Human: Ego-Motion-Normalized Temporal Signatures for Real-Time Aerial Person Tracking on Milliwatt-Class Hardware**|Akbar Anbar Jafari et.al.|[@2607.16282](http://arxiv.org/abs/2607.16282)|null|
 
-<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260727>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -62,7 +62,7 @@
 |**2026-07-08**|**Continuous and large-scale: ELEANOR, the soft architected arm inspired by the elephant trunk**|Giovanna A. Naselli et.al.|[@2607.07622](http://arxiv.org/abs/2607.07622)|null|
 |**2026-07-18**|**Retrofitting Existing 3D Objects with Surface-Conforming Capacitive Sensing**|Andela Ilic et.al.|[@2607.16739](http://arxiv.org/abs/2607.16739)|null|
 
-<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260727>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -79,8 +79,9 @@
 |**2026-07-07**|**Creating a Mixed-Reality Installation with Families through Theatrical Co-Design**|Pavlos Panagiotidis et.al.|[@2607.06754](http://arxiv.org/abs/2607.06754)|null|
 |**2026-07-20**|**I wanted it to feel more personal: Customization of social AI as AI individualism in practice**|Marita Skjuve et.al.|[@2607.17826](http://arxiv.org/abs/2607.17826)|null|
 |**2026-07-22**|**A Framework of User Experience Principles for Human-AI Agent Interaction in the Workplace**|Kathrin Paimann et.al.|[@2607.19941](http://arxiv.org/abs/2607.19941)|null|
+|**2026-07-24**|**VisCanvas: A Node-based Interface for Exploratory Visualization Authoring with LLMs**|Yuki Ueno et.al.|[@2607.21886](http://arxiv.org/abs/2607.21886)|null|
 
-<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260727>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -222,8 +223,25 @@
 |**2026-07-22**|**LAVIFT: Latent-Action-Guided Vision Fine-Tuning for Surgical Interaction Recognition**|Jiajun Cheng et.al.|[@2607.19889](http://arxiv.org/abs/2607.19889)|null|
 |**2026-07-22**|**EA-Nav: Learning Safe Visual Navigation Policies with Embodiment Awareness**|Jialu Zhang et.al.|[@2607.19880](http://arxiv.org/abs/2607.19880)|null|
 |**2026-07-22**|**SOPD-SocialNav: Selective On-Policy Distillation for Vision-Language Social Navigation**|Xinyu Zhang et.al.|[@2607.19850](http://arxiv.org/abs/2607.19850)|null|
+|**2026-07-24**|**CARA: Concept-Aware Risk Attention for Interpretable Collision Anticipation**|Zhishan Tao et.al.|[@2607.22494](http://arxiv.org/abs/2607.22494)|null|
+|**2026-07-24**|**SceneActBench: Can Agents Act on the 3D Scenes They See?**|Yifei Zhao et.al.|[@2607.22393](http://arxiv.org/abs/2607.22393)|null|
+|**2026-07-24**|**SiPhy: Single-Image Physical Property Reasoning**|Hoang Le et.al.|[@2607.22355](http://arxiv.org/abs/2607.22355)|null|
+|**2026-07-24**|**Time-Reversed Imaging: A Multimodal Benchmark and Framework for Reconstructing Past Human-Environment Interactions**|Jorge Bacca et.al.|[@2607.22352](http://arxiv.org/abs/2607.22352)|null|
+|**2026-07-24**|**Offline Vision-Language Navigation with Geometric Goal Localization for Outdoor Environments**|Ali Salmasi et.al.|[@2607.22226](http://arxiv.org/abs/2607.22226)|null|
+|**2026-07-24**|**LayoutLite: Token-Level Implicit Layout Analysis for Efficient Document OCR**|Xudong Liu et.al.|[@2607.22200](http://arxiv.org/abs/2607.22200)|null|
+|**2026-07-24**|**Scaling Native Multimodal Pre-Training From Scratch**|Haoyuan Wu et.al.|[@2607.22043](http://arxiv.org/abs/2607.22043)|null|
+|**2026-07-24**|**Small Vision-Language Models Know When They Are Wrong But Cannot Say So: A Two-Model Study of Stated versus Internal Confidence Under Realistic Image Degradation**|M M Asif Ferdous et.al.|[@2607.22034](http://arxiv.org/abs/2607.22034)|null|
+|**2026-07-24**|**EVL-MCoT: Enhanced Vision-Language Multi-CoT for Harmful Meme Detection**|Hao Yang et.al.|[@2607.22016](http://arxiv.org/abs/2607.22016)|null|
+|**2026-07-24**|**Medical-Checklist: Assessing the Comprehension of Medical Images by Multimodal Models**|Bannapol Limanond et.al.|[@2607.21998](http://arxiv.org/abs/2607.21998)|null|
+|**2026-07-24**|**TextSLIP: Text Self-Supervised CLIP for Medical Report Generation**|Haoyu Jiang et.al.|[@2607.21970](http://arxiv.org/abs/2607.21970)|null|
+|**2026-07-24**|**Low-Altitude Channel Multipath Prediction via Panoramic Perception and Vision-Language Model**|Zihang Zeng et.al.|[@2607.21953](http://arxiv.org/abs/2607.21953)|null|
+|**2026-07-23**|**SCALE: Self-Supervised Constraint-Aware Layout GEneration for Local P&R DRV Fixing at Advanced Nodes**|Chia-Tung Ho et.al.|[@2607.21850](http://arxiv.org/abs/2607.21850)|null|
+|**2026-07-23**|**Addressing the Orchestration Gap in Generalist Robots via Physical Agency**|Liane Galanti et.al.|[@2607.21725](http://arxiv.org/abs/2607.21725)|null|
+|**2026-07-23**|**Be Consistent! Enhancing Robust Visual Reasoning in LVLMs with Consistency Constraints**|Liqiang Jing et.al.|[@2607.21722](http://arxiv.org/abs/2607.21722)|null|
+|**2026-07-23**|**Pixels for Programs? A Cross-Provider Case Study of Input-Token Accounting for Source Code as Text and Images**|Ronak Bhalgami et.al.|[@2607.21672](http://arxiv.org/abs/2607.21672)|null|
+|**2026-07-23**|**Ordered Action Tokens for Visuomotor Policy Learning**|Chaoqi Liu et.al.|[@2607.21670](http://arxiv.org/abs/2607.21670)|null|
 
-<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260727>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -302,8 +320,15 @@
 |**2026-07-22**|**Dreamer-CPC: Message Learning with World Models for Decentralized Multi-agent Reinforcement Learning**|Taisuke Takayama et.al.|[@2607.19809](http://arxiv.org/abs/2607.19809)|null|
 |**2026-07-22**|**The World Model Remembers, the Actor Forgets: Dream Rehearsal for Continual Model-Based RL**|Gurp Nijjer et.al.|[@2607.19749](http://arxiv.org/abs/2607.19749)|null|
 |**2026-07-22**|**Koopman Dreamer: Spectrally Constrained Latent Dynamics for Stable World-Model Imagination**|Jiaqi Li et.al.|[@2607.19719](http://arxiv.org/abs/2607.19719)|null|
+|**2026-07-24**|**Robot-Factored World Models via Robot Rendering**|Byungjun Kim et.al.|[@2607.22535](http://arxiv.org/abs/2607.22535)|null|
+|**2026-07-24**|**ViTacWorld: Scaling Visuo-Tactile World Models for Contact-Rich Robot Manipulation**|Yunao Huang et.al.|[@2607.22530](http://arxiv.org/abs/2607.22530)|null|
+|**2026-07-24**|**On the Identifiability of Controlled World Models**|Xiangteng Zhang et.al.|[@2607.22430](http://arxiv.org/abs/2607.22430)|null|
+|**2026-07-24**|**fMRI2Face: A Full-HD fMRI-Video Dataset and Geometry-Guided Neural Decoding Framework for Dynamic Human Face Reconstruction**|Jingyang Huo et.al.|[@2607.22302](http://arxiv.org/abs/2607.22302)|null|
+|**2026-07-24**|**AgentHOI: Multi-Agent Reasoning for Human-Object-Interaction Video Generation via Implicit Representation Alignment**|Ziyao Huang et.al.|[@2607.22241](http://arxiv.org/abs/2607.22241)|null|
+|**2026-07-24**|**Action-Conditioned World Model for Goal Plane Probe Guidance in Robotic Ultrasound**|Siqi Fan et.al.|[@2607.21918](http://arxiv.org/abs/2607.21918)|null|
+|**2026-07-23**|**Closing the Loop: Training-Free Revisit Consistency for Autoregressive Generative Rendering**|Wenchao Ma et.al.|[@2607.21848](http://arxiv.org/abs/2607.21848)|null|
 
-<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260727>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -372,8 +397,11 @@
 |**2026-07-22**|**Look Before You Edit: Attention-Guided Camera Placement and Multi-View Alignment for 3D Gaussian Splatting Editing**|Jaeyeon Park et.al.|[@2607.19777](http://arxiv.org/abs/2607.19777)|null|
 |**2026-07-22**|**Extending a Large View Synthesis Model for Multi-view Panoptic Segmentation**|Kwonyoung Ryu et.al.|[@2607.19765](http://arxiv.org/abs/2607.19765)|null|
 |**2026-07-22**|**Fast Wave-optics Rendering of Multiplane Images for 3D Holographic Displays**|Brian Chao et.al.|[@2607.19731](http://arxiv.org/abs/2607.19731)|null|
+|**2026-07-24**|**SM4RT: Learning Structured Motion Geometry for 4D Reconstruction**|Shing Ho J. Lin et.al.|[@2607.22534](http://arxiv.org/abs/2607.22534)|null|
+|**2026-07-24**|**Visual Relocalization from Sparse Views in Aliased and Low-Texture Environments via Novel View Synthesis**|Maria Peribañez et.al.|[@2607.22147](http://arxiv.org/abs/2607.22147)|null|
+|**2026-07-23**|**Hash-QNeRF: Multiresolution Hash Encoding for Quantum Neural Radiance Fields**|Digonto Biswas et.al.|[@2607.21675](http://arxiv.org/abs/2607.21675)|null|
 
-<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260727>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -424,8 +452,9 @@
 |**2026-07-23**|**FORGE-plus: Force-Budgeted Recovery for Contact-Rich Assembly with a Frozen LLM Supervisor**|Kyupaeck Jeff Rah et.al.|[@2607.21227](http://arxiv.org/abs/2607.21227)|null|
 |**2026-07-22**|**Safe and Scalable Multi-Drone Payload Transport via CBF-based Reinforcement Learning with Zero-Shot Sim-to-Real Transfer**|Jaeyoun Choi et.al.|[@2607.20665](http://arxiv.org/abs/2607.20665)|null|
 |**2026-07-22**|**ReferTrack: Referring Then Tracking for Embodied Visual Tracking**|Hanjing Ye et.al.|[@2607.20061](http://arxiv.org/abs/2607.20061)|null|
+|**2026-07-23**|**Quantifying Political Partisanship for Cross-Platform Analyses**|Fathima Ameen et.al.|[@2607.21842](http://arxiv.org/abs/2607.21842)|null|
 
-<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260727>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -438,8 +467,9 @@
 |**2026-07-11**|**FdAudio: MeanFlow-Anchored Fréchet-Distance Post-Training for One-Step Text-to-Audio Generation**|Kuan-Po Huang et.al.|[@2607.10421](http://arxiv.org/abs/2607.10421)|null|
 |**2026-07-10**|**A Production-Oriented Framework for Evaluation of SFX Generation**|Mélodie Desbos et.al.|[@2607.09973](http://arxiv.org/abs/2607.09973)|null|
 |**2026-07-08**|**EscFOA: Enhancing Spatial Learning for Visually Impaired Learners via Generative Spatial Audio in 360-Degree Educational Environments**|Ziyu Luo et.al.|[@2607.07015](http://arxiv.org/abs/2607.07015)|null|
+|**2026-07-23**|**SoundscapeAgent: Agentic Soundscape Construction for Controllable Synthesis and Scalable Audio-Language Supervision**|Hao Zhang et.al.|[@2607.21857](http://arxiv.org/abs/2607.21857)|null|
 
-<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260727>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -463,7 +493,7 @@
 |**2026-07-23**|**The RealDefocus Benchmark for Defocus Deblurring**|Tim Seizinger et.al.|[@2607.21078](http://arxiv.org/abs/2607.21078)|null|
 |**2026-07-22**|**Fast Wave-optics Rendering of Multiplane Images for 3D Holographic Displays**|Brian Chao et.al.|[@2607.19731](http://arxiv.org/abs/2607.19731)|null|
 
-<p align=right>(<a href=#updated-on-20260726>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260727>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
