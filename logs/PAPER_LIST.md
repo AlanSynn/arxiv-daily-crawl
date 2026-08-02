@@ -152,5 +152,3 @@
 | 2026-07-20 | **FF-ProCams: Feed-Forward Gaussian Splatting for Projector-Camera System** | Neural Rendering & Physics Simulation | 0.33 | [@2607.17803](http://arxiv.org/abs/2607.17803) | null |
 | 2026-07-19 | **Feature-Guided Diffusion for Non-Differentiable Inverse Rendering** | Neural Rendering & Physics Simulation | 0.67 | [@2607.17411](http://arxiv.org/abs/2607.17411) | null |
 | 2026-07-19 | **ALLUDE: A Unified Evaluation System for Configurable Attacks in Differentiable Environments** | Neural Rendering & Physics Simulation | 0.33 | [@2607.17077](http://arxiv.org/abs/2607.17077) | null |
-| 2026-07-18 | **MIME: Multimodal Interactive Motion Encoder** | Character Motion Synthesis & Animation | 0.67 | [@2607.22702](http://arxiv.org/abs/2607.22702) | null |
-| 2026-07-18 | **Retrofitting Existing 3D Objects with Surface-Conforming Capacitive Sensing** | Computational Design, Mechanism & Fabrication | 0.33 | [@2607.16739](http://arxiv.org/abs/2607.16739) | null |

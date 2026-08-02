@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.08.01
+## 📚 Updated on 2026.08.02
 
 <details>
   <summary>Table of Contents</summary>
@@ -81,7 +81,7 @@
 - 2026-07-28, **Two2Four: Generative Quadruped Puppeteering from Human Motion**, Fatemeh Zargarbashi et.al., Paper: [@2607.26108](http://arxiv.org/abs/2607.26108)
 > **Abstract:** Realistic animal motion for virtual production is typically obtained either through motion capture of highly trained performers who accurately mimic animal behavior, or by retargeting ordinary human motion using complex control setups. Both approaches are challenging and often fail to fully reproduce the nuances of natural animal motion, motivating data-driven alternatives. We present an automatic human-to-quadruped puppeteering framework that produces plausible and controllable quadruped motions from ordinary human motion data. Our approach employs a two-stage generative diffusion model trained purely on quadruped motion data. By introducing a structured conditioning and inpainting strategy, our method supports a wide range of actions, including walking, running, jumping, sitting, and lying. Furthermore, we enable fine-grained intuitive control of the quadruped motion such as head movement control and individual limb puppeteering. Experimental results demonstrate improved motion realism and controllability compared to existing retargeting approaches, highlighting the effectiveness of our framework as a tool for animation and virtual production applications.
 
-<p align=right>(<a href=#updated-on-20260801>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260802>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -96,7 +96,7 @@
 - 2026-07-22, **Design-Intent Compilation for Heterogeneous Fabrication**, Charles Wade et.al., Paper: [@2607.22741](http://arxiv.org/abs/2607.22741)
 > **Abstract:** Computational fabrication workflows increasingly require designers to specify spatially varying behavior, appearance, material composition, and process state. Yet most workflows force these intentions into printer-specific representations, such as material fractions, voxel labels, mesh partitions, or slicer settings. This coupling makes heterogeneous designs difficult to reuse because each backend requires a different realization of the same property. We present a compiler architecture for heterogeneous fabrication that treats design as a staged, typed lowering problem. A source design consists of implicit geometry and named, typed spatial attribute fields over a shared object domain. These attributes may encode measured data, visual appearance, target mechanical behavior, material recipes, process parameters, or other user-specified attributes. Translation models derive compiler-required realization attributes from source or intent attributes, and backend compilers emit machine-facing outputs such as voxel material stacks, process G-code, or configured slicer project files. This separates source modeling, attribute translation, and backend compilation, allowing a design to remain expressed in fabrication-agnostic terms while each toolchain determines how intent becomes executable instructions. We validate the method through fabricated objects and measurements across sampled volumetric data, CT-derived visual and mechanical models, Shore-hardness fields, and full-color fields, implemented via material jetting and material extrusion. These results show that one source design can be lowered into distinct material, process, and slicer representations without rewriting it in printer-specific terms. We provide the representation, translation framework, compiler interface, and workflows as an open-source Python package to accelerate research in heterogeneous computational fabrication.
 
-<p align=right>(<a href=#updated-on-20260801>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260802>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -129,7 +129,7 @@
 - 2026-07-25, **From Vibe to Code -- and Back: Lexical Oscillation in the Formation of Design Intent with Generative AI**, Daisaku Sato et.al., Paper: [@2607.23126](http://arxiv.org/abs/2607.23126)
 > **Abstract:** Generative AI design tools make natural-language prompts a starting point for design, placing new articulation demands on designers. Rather than treating prompts as the transmission of pre-existing design intent, we ask how design intent is formed through situated interaction with AI. Five expert UI/UX designers (11-20 years' experience, M = 15.4) designed landing-page hero sections with a generative AI tool, recorded through think-aloud and retrospective interviews. Using reflexive thematic analysis, we used lexical granularity (L1 vibe, L2 design-domain, L3 operational language) as a sensitizing lens. Rather than moving from vibe to code unidirectionally, designers showed lexical oscillation, including returns from operational specificity to ambiguity. Mismatches with AI outputs were taken up as occasions for designers to reconsider what they meant, and engagement shifted from instruction to consultation. One non-oscillating trajectory -- a negative case -- suggested conceptual misalignment as a tentative boundary for future examination. We position AI as a non-neutral generative interlocutor and ambiguity as a resource for design judgment.
 
-<p align=right>(<a href=#updated-on-20260801>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260802>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -620,7 +620,7 @@
 - 2026-07-30, **MMOOC: A Comprehensive Benchmark for Out-of-Context Evaluation in Multimodal Large Language Models**, Wenjie Zhu et.al., Paper: [@2607.27637](http://arxiv.org/abs/2607.27637)
 > **Abstract:** Multimodal Large Language Models (MLLMs) have achieved strong performance on a wide range of vision-language tasks, but often fail under imperfect or shifted contexts. A reliable MLLM should refuse truly out-of-context (OOC) questions with subject-level context shifts while still answering shifted in-context (Shifted IC) questions with non-subject context shifts. Existing benchmarks mainly target OOC or visually unanswerable questions, but overlook answerable Shifted IC cases and cover limited OOC shifts. To fill this gap, we present MMOOC, a large-scale benchmark for evaluating refusal and robust answering abilities of MLLMs. MMOOC contains over 41K image-question pairs, including answerable Shifted IC cases and unanswerable OOC cases, spanning three question formats, eight shift types and six visual scenarios, with data quality ensured through MLLM-based filtering and human verification. We evaluate model responses using Accuracy and Refusal Rate, and further introduce an LLM-as-a-Judge metric to assess the correctness of model reasoning. Experiments on diverse MLLMs show that current models still struggle to balance answer-ability and refusal under shifted contexts. We further analyze key failure patterns and show that post-training can improve robustness. MMOOC will be made publicly available.
 
-<p align=right>(<a href=#updated-on-20260801>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260802>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -899,7 +899,7 @@
 - 2026-07-28, **WildShadowRemover: In-the-Wild Video Shadow Removal via Detail-Preserving Video Diffusion Models**, Jiamin Xu et.al., Paper: [@2607.26203](http://arxiv.org/abs/2607.26203)
 > **Abstract:** Video shadow removal in the wild remains challenging due to complex illumination, diverse shadow appearances, and limited training data. Despite its importance to numerous vision and graphics applications, it remains largely unexplored in unconstrained real-world scenarios. To address this gap, we present WildShadowRemover, a framework that adapts a pretrained video diffusion model for robust video shadow removal via LoRA fine-tuning. To preserve fine image details while retaining the model's powerful generative prior, we augment the frozen VAE decoder with a detail injection module and introduce a shadow-mask-guided frequency-decomposed modulation module to selectively restore high-frequency textures while suppressing shadow artifacts. Monocular depth priors from Depth Anything 3 further provide geometry-aware guidance under challenging lighting conditions. We also construct WildShadow, a large-scale paired video shadow removal dataset and benchmark, covering diverse synthetic scenes. Extensive experiments demonstrate that our method outperforms existing approaches in shadow removal quality and temporal consistency, producing temporally coherent shadow-free videos with superior visual quality and strong generalization across challenging in-the-wild scenarios.
 
-<p align=right>(<a href=#updated-on-20260801>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260802>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -1090,7 +1090,7 @@
 - 2026-07-29, **AtlasLC: Fast Codec-Ready Compression of Object-Centric 3D Gaussian Splatting**, ByungHyun Kim et.al., Paper: [@2607.26525](http://arxiv.org/abs/2607.26525)
 > **Abstract:** 3D Gaussian Splatting (3DGS) enables photorealistic novel-view synthesis with real-time rendering, but deploying compressed object-centric 3DGS in XR requires more than image-space rate-distortion. In practical XR asset pipelines, reusable objects are repeatedly packaged, transmitted, decoded, and instantiated, making asset-preparation cost, codec compatibility, decoding latency, and preservation of depth and silhouette cues first-class concerns. Existing 3DGS compression methods are largely developed for scene-scale captures and often rely on heavy layout generation or aggressive global pruning, assumptions that transfer poorly to semantically concentrated foreground objects. We present AtlasLC, a source-free, training-free compression pipeline for object-centric 3DGS that operates directly on released Gaussian assets, without original images, camera poses, or per-asset optimization. AtlasLC couples local-competition pruning with deterministic atlas packing to remove the mapping/remapping bottleneck while preserving object-wide foreground support; a lightweight single-pass sort-based conditional transport is used as a shared coordinate backbone for these stages. Across the evaluated assets, AtlasLC reduces atlas-preparation time by up to a factor of 25 and end-to-end compression time by up to a factor of 5, while offering a favorable deployment-aware balance of payload, decode latency, runtime FPS, and 3D geometry relative to the evaluated compressed baselines. Relative to similarly compact structured baselines, it uses about 6 to 8 percent fewer bits while maintaining comparable perceptual and geometric quality. These results show that object-centric 3DGS compression should be optimized for a deployment-aware operating point enabling scalable XR asset libraries.
 
-<p align=right>(<a href=#updated-on-20260801>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260802>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -1233,7 +1233,7 @@
 - 2026-07-28, **Learning Implicit Causal World Models from Multi-Agent Demonstrations**, Jasorsi Ghosh et.al., Paper: [@2607.26336](http://arxiv.org/abs/2607.26336)
 > **Abstract:** In model-based reinforcement learning, world models exist as internal simulators, but their training often conflates statistical correlations with causal mechanisms. This problem is exacerbated in multi-agent systems where physical transitions are intertwined with strategic agent intents, causing world models to fail under distribution shift. We introduce Implicit Causal World Models to recover environmental dynamics from offline demonstrations without requiring pre-defined causal graphs. By incorporating policy variance, we render world models discoverable via the sequential backdoor condition. Evaluations across coordination tasks (Two-Door, Navigation, and Giveway) demonstrate that these models provide interpretable causal representations under both full and partial observability, with model accuracy scaling directly with interventional strength.
 
-<p align=right>(<a href=#updated-on-20260801>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260802>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -1254,7 +1254,7 @@
 - 2026-07-23, **SoundscapeAgent: Agentic Soundscape Construction for Controllable Synthesis and Scalable Audio-Language Supervision**, Hao Zhang et.al., Paper: [@2607.21857](http://arxiv.org/abs/2607.21857)
 > **Abstract:** We present an agentic soundscape construction framework for controllable compositional audio generation that makes explicit the scene planning, source selection, temporal layout, and rendering steps typically handled implicitly by single-shot text-to-audio models. An LLM-based agent converts user intent into an executable scene plan, acquires assets through retrieval and on-demand generation, renders controllable multi-event mixtures, and exports aligned scene metadata. The framework also supports human-in-the-loop interaction through user-guided tool selection and editable scene plans. Together, these components provide an inspectable and reusable approach to controllable soundscape synthesis and scalable audio-language data construction. Listener studies and objective metrics demonstrate competitive generation performance against text-to-audio baselines, while models trained with agent-generated data consistently outperform real-only baselines in downstream audio reasoning. Code, demos, and listening-test results are available at https://haozhang6720.github.io/SoundscapeAgentDemoPage/.
 
-<p align=right>(<a href=#updated-on-20260801>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260802>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -1299,7 +1299,7 @@
 - 2026-07-30, **Endo-NeRF++: Uncertainty-Aware Neural Rendering with Multi-Resolution Hash Encoding for Dynamic Surgical Scene Reconstruction**, Gousia Habib et.al., Paper: [@2607.27825](http://arxiv.org/abs/2607.27825)
 > **Abstract:** Reconstructing dynamic surgical scenes is crucial for robot-assisted minimally invasive surgery; however, it continues to be difficult because of tissue deformation, occlusions, specular reflections, and restricted viewpoints. In this study, we introduce Endo-NeRF++, a neural rendering framework that accounts for uncertainty in the reconstruction of dynamic surgical scenes. Expanding on EndoNeRF, the suggested approach incorporates multi-resolution hash-grid encoding, temporal feature merging, and uncertainty-informed adaptive sampling to enhance reconstruction accuracy and temporal coherence in deformable endoscopic scenes.The multi-resolution hash-grid representation within the framework effectively captures both coarse and fine anatomical details, while temporal feature blending ensures stable reconstruction during tissue deformation and surgical tool occlusions. Additionally, uncertainty-driven adaptive sampling assigns more samples to uncertain areas to enhance rendering quality and geometric coherence. Experiments on robotic surgical video sequences demonstrate that the proposed uncertainty-guided adaptive sampling improves PSNR by up to 1.22\,dB (4.3\%), increases SSIM by up to 5.3\%, and reduces LPIPS by up to 55.1\% compared with the EndoNeRF baseline.
 
-<p align=right>(<a href=#updated-on-20260801>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260802>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors

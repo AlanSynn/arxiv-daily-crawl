@@ -3,14 +3,14 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.08.01
+## 📚 Updated on 2026.08.02
 
 <details open>
-<summary>📑 Table of Contents — 2026-08-01</summary>
+<summary>📑 Table of Contents — 2026-08-02</summary>
 
 **By category**
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (6)
-- [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (2)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (5)
+- [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (1)
 - [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (5)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (33)
 - [World Models & Generative Video](#world-models--generative-video) (39)
@@ -32,18 +32,16 @@
 |**2026-07-26**|**STEER: Steerable Dyadic Head Avatars**|Kartik Teotia et.al.|[@2607.23840](http://arxiv.org/abs/2607.23840)|null|
 |**2026-07-26**|**Markerless Motion Capture in Routine Clinical Upper Limb Assessments: Validity and Insights Beyond Ordinal Scoring**|Tim Unger et.al.|[@2607.23608](http://arxiv.org/abs/2607.23608)|null|
 |**2026-07-25**|**mmSimPrior: Learning Simulation Priors for Data-Efficient Real-World Generalizable Radar-Based Human Motion Reconstruction**|Cheng Guo et.al.|[@2607.22973](http://arxiv.org/abs/2607.22973)|null|
-|**2026-07-18**|**MIME: Multimodal Interactive Motion Encoder**|Addison Zucek et.al.|[@2607.22702](http://arxiv.org/abs/2607.22702)|null|
 
-<p align=right>(<a href=#updated-on-20260801>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260802>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
 |Publish Date|Title|Authors|arXiv|Code|
 |---|---|---|---|---|
 |**2026-07-22**|**Design-Intent Compilation for Heterogeneous Fabrication**|Charles Wade et.al.|[@2607.22741](http://arxiv.org/abs/2607.22741)|null|
-|**2026-07-18**|**Retrofitting Existing 3D Objects with Surface-Conforming Capacitive Sensing**|Andela Ilic et.al.|[@2607.16739](http://arxiv.org/abs/2607.16739)|null|
 
-<p align=right>(<a href=#updated-on-20260801>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260802>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -55,7 +53,7 @@
 |**2026-07-22**|**A Framework of User Experience Principles for Human-AI Agent Interaction in the Workplace**|Kathrin Paimann et.al.|[@2607.19941](http://arxiv.org/abs/2607.19941)|null|
 |**2026-07-20**|**I wanted it to feel more personal: Customization of social AI as AI individualism in practice**|Marita Skjuve et.al.|[@2607.17826](http://arxiv.org/abs/2607.17826)|null|
 
-<p align=right>(<a href=#updated-on-20260801>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260802>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -95,7 +93,7 @@
 |**2026-07-30**|**JigShape: Evaluating Visual-Geometric Reasoning in VLMs through Jigsaw Puzzles**|Shawn Li et.al.|[@2607.27670](http://arxiv.org/abs/2607.27670)|null|
 |**2026-07-30**|**MMOOC: A Comprehensive Benchmark for Out-of-Context Evaluation in Multimodal Large Language Models**|Wenjie Zhu et.al.|[@2607.27637](http://arxiv.org/abs/2607.27637)|null|
 
-<p align=right>(<a href=#updated-on-20260801>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260802>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -141,7 +139,7 @@
 |**2026-07-28**|**Temporal-Distance JEPA: Plan-Aware Representation Learning for Latent World Model Predictive Control**|Jiaxin Bai et.al.|[@2607.25337](http://arxiv.org/abs/2607.25337)|null|
 |**2026-07-28**|**Medical world models in healthcare: foundations, applications, and challenges for trustworthy clinical translation**|Zhaoyan Chen et.al.|[@2607.25242](http://arxiv.org/abs/2607.25242)|null|
 
-<p align=right>(<a href=#updated-on-20260801>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260802>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -179,7 +177,7 @@
 |**2026-07-23**|**GLAM-SLAM: Real-time Gaussian Large-scale Mapping via Flow Densification and Spatial Decomposition**|Panagiotis Mermigkas et.al.|[@2607.21416](http://arxiv.org/abs/2607.21416)|null|
 |**2026-07-23**|**Hash-QNeRF: Multiresolution Hash Encoding for Quantum Neural Radiance Fields**|Digonto Biswas et.al.|[@2607.21675](http://arxiv.org/abs/2607.21675)|null|
 
-<p align=right>(<a href=#updated-on-20260801>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260802>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -218,7 +216,7 @@
 |**2026-07-20**|**Bridging the Sim-to-Real Gap under Real-Time Constraints in Autonomous Racing**|Hossein Maghsoumi et.al.|[@2607.18586](http://arxiv.org/abs/2607.18586)|null|
 |**2026-07-20**|**Optimization of sim-to-real transfer in the humanoid robot NICO**|Juraj Gavura et.al.|[@2607.18210](http://arxiv.org/abs/2607.18210)|null|
 
-<p align=right>(<a href=#updated-on-20260801>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260802>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -226,7 +224,7 @@
 |---|---|---|---|---|
 |**2026-07-23**|**SoundscapeAgent: Agentic Soundscape Construction for Controllable Synthesis and Scalable Audio-Language Supervision**|Hao Zhang et.al.|[@2607.21857](http://arxiv.org/abs/2607.21857)|null|
 
-<p align=right>(<a href=#updated-on-20260801>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260802>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -245,7 +243,7 @@
 |**2026-07-19**|**Feature-Guided Diffusion for Non-Differentiable Inverse Rendering**|Andrei-Timotei Ardelean et.al.|[@2607.17411](http://arxiv.org/abs/2607.17411)|null|
 |**2026-07-19**|**ALLUDE: A Unified Evaluation System for Configurable Attacks in Differentiable Environments**|Mansi Phute et.al.|[@2607.17077](http://arxiv.org/abs/2607.17077)|null|
 
-<p align=right>(<a href=#updated-on-20260801>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260802>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
