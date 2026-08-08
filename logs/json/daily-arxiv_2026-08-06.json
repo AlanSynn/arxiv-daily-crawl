@@ -1,12 +1,30 @@
 {
+  "Character Motion Synthesis & Animation": {
+    "2608.06009": "|**2026-08-06**|**Wan-Animate-2: Pushing the Application Boundaries of Character Animation**|Guangyuan Wang et.al.|[@2608.06009](http://arxiv.org/abs/2608.06009)|null|\n",
+    "2608.04722": "|**2026-08-05**|**Multi-View Face and Gesture Animation with Dynamic Gaussians**|Alireza Javanmardi et.al.|[@2608.04722](http://arxiv.org/abs/2608.04722)|null|\n",
+    "2608.03637": "|**2026-08-04**|**Learning Biomechanically Plausible Human Motion from Sparse Radar Point Clouds**|Jonas Leo Mueller et.al.|[@2608.03637](http://arxiv.org/abs/2608.03637)|null|\n",
+    "2608.02285": "|**2026-08-03**|**Sen-Cap: Sensor-Flexible and Noise-Resilient Human Motion Capture via LiDAR-Camera Integration**|Aoru Xue et.al.|[@2608.02285](http://arxiv.org/abs/2608.02285)|null|\n",
+    "2608.01944": "|**2026-08-03**|**UniMoCa: Unifying Motion and Camera Controls as Visual Proxies for Faithful Human Video Generation**|Liming Tan et.al.|[@2608.01944](http://arxiv.org/abs/2608.01944)|null|\n",
+    "2608.01410": "|**2026-08-02**|**GenTrack: Physical Alignment for Robot-Native Motion Generation and Zero-Shot Humanoid Tracking**|Zeyu Ling et.al.|[@2608.01410](http://arxiv.org/abs/2608.01410)|null|\n",
+    "2608.01392": "|**2026-08-02**|**FineMoLA: Towards Fine-Grained Motion-Language Alignment from Clip-Level Supervision**|Tongyan Wang et.al.|[@2608.01392](http://arxiv.org/abs/2608.01392)|null|\n",
+    "2607.29180": "|**2026-07-31**|**MoRAE: Flow-Friendly Self-Supervised Latents for Text-to-Motion Generation**|Yifei Zhu et.al.|[@2607.29180](http://arxiv.org/abs/2607.29180)|null|\n",
+    "2607.29133": "|**2026-07-31**|**Interactive Generative Motion Editing via Scheduled Inpainting**|Dhruv Agrawal et.al.|[@2607.29133](http://arxiv.org/abs/2607.29133)|null|\n",
+    "2607.27865": "|**2026-07-30**|**Learning to Understand Body Language from Flight through Robust 3D Avatar Placing**|Dragos Costea et.al.|[@2607.27865](http://arxiv.org/abs/2607.27865)|null|\n",
+    "2607.26108": "|**2026-07-28**|**Two2Four: Generative Quadruped Puppeteering from Human Motion**|Fatemeh Zargarbashi et.al.|[@2607.26108](http://arxiv.org/abs/2607.26108)|null|\n",
+    "2607.23840": "|**2026-07-26**|**STEER: Steerable Dyadic Head Avatars**|Kartik Teotia et.al.|[@2607.23840](http://arxiv.org/abs/2607.23840)|null|\n",
+    "2607.23608": "|**2026-07-26**|**Markerless Motion Capture in Routine Clinical Upper Limb Assessments: Validity and Insights Beyond Ordinal Scoring**|Tim Unger et.al.|[@2607.23608](http://arxiv.org/abs/2607.23608)|null|\n",
+    "2607.22973": "|**2026-07-25**|**mmSimPrior: Learning Simulation Priors for Data-Efficient and Generalizable Real-World Radar-based Human Motion Reconstruction**|Cheng Guo et.al.|[@2607.22973](http://arxiv.org/abs/2607.22973)|null|\n"
+  },
+  "Motion Authoring, Editing & Retargeting": {
+    "2608.05971": "|**2026-08-06**|**PoseForge: Editable Pose Analytics for AI-Assisted Sports Coaching**|Shuvam Swapnil Dash et.al.|[@2608.05971](http://arxiv.org/abs/2608.05971)|null|\n"
+  },
   "Sketch-based & Creative HCI Tools": {
     "2608.04293": "|**2026-08-04**|**LEGOUI: Designing with UI-DSL Bricks to Balance Transparency and Controllability**|Yinsi Zhou et.al.|[@2608.04293](http://arxiv.org/abs/2608.04293)|null|\n",
     "2608.01335": "|**2026-08-02**|**PartInteractor: Intent-Driven Part-Aware 3D Authoring for Continuous Co-Creation in XR**|Jianan Jiang et.al.|[@2608.01335](http://arxiv.org/abs/2608.01335)|null|\n",
     "2608.00393": "|**2026-08-01**|**MolecularCanvas: LLM-assisted Small-Molecule Drug Discovery via Structure-Guided Constraints**|Haoyu Dong et.al.|[@2608.00393](http://arxiv.org/abs/2608.00393)|null|\n",
     "2607.29113": "|**2026-07-31**|**Designing a digital word-learning intervention with neurodiverse children: Experiences and ideas from children with developmental language disorder**|Rafiah Ansari et.al.|[@2607.29113](http://arxiv.org/abs/2607.29113)|null|\n",
     "2607.23298": "|**2026-07-25**|**Cross Sensory Co-Design Tools and Interaction Qualities**|Albrecht Kurze et.al.|[@2607.23298](http://arxiv.org/abs/2607.23298)|null|\n",
-    "2607.23126": "|**2026-07-25**|**From Vibe to Code -- and Back: Lexical Oscillation in the Formation of Design Intent with Generative AI**|Daisaku Sato et.al.|[@2607.23126](http://arxiv.org/abs/2607.23126)|null|\n",
-    "2607.21886": "|**2026-07-24**|**VisCanvas: A Node-based Interface for Exploratory Visualization Authoring with LLMs**|Yuki Ueno et.al.|[@2607.21886](http://arxiv.org/abs/2607.21886)|null|\n"
+    "2607.23126": "|**2026-07-25**|**From Vibe to Code -- and Back: Lexical Oscillation in the Formation of Design Intent with Generative AI**|Daisaku Sato et.al.|[@2607.23126](http://arxiv.org/abs/2607.23126)|null|\n"
   },
   "Vision-Language & Action Models (VLA/VLM)": {
     "2608.06375": "|**2026-08-06**|**$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation**|Zhe Li et.al.|[@2608.06375](http://arxiv.org/abs/2608.06375)|null|\n",
@@ -167,7 +185,6 @@
     "2608.01761": "|**2026-08-03**|**DecoupleGS: Interactive 3D Gaussian Splatting for End-to-End Autonomous Driving Testing**|Siying Li et.al.|[@2608.01761](http://arxiv.org/abs/2608.01761)|null|\n",
     "2608.01053": "|**2026-08-02**|**Struct-GStream: Towards Efficient Free-Viewpoint Video Streaming at Low-Bitrates with Structured 3D Gaussians**|Han Jiao et.al.|[@2608.01053](http://arxiv.org/abs/2608.01053)|null|\n",
     "2607.28132": "|**2026-07-30**|**Convolutional Neural Shading for High-Quality 3D Reconstruction from Multi-View Images**|Juheon Hwang et.al.|[@2607.28132](http://arxiv.org/abs/2607.28132)|null|\n",
-    "2607.27825": "|**2026-07-30**|**Endo-NeRF++: Uncertainty-Aware Neural Rendering with Multi-Resolution Hash Encoding for Dynamic Surgical Scene Reconstruction**|Gousia Habib et.al.|[@2607.27825](http://arxiv.org/abs/2607.27825)|null|\n",
-    "2607.22780": "|**2026-07-24**|**Inter-Reflective Gaussian Splatting for Robust and Efficient Inverse Rendering**|Chun Gu et.al.|[@2607.22780](http://arxiv.org/abs/2607.22780)|null|\n"
+    "2607.27825": "|**2026-07-30**|**Endo-NeRF++: Uncertainty-Aware Neural Rendering with Multi-Resolution Hash Encoding for Dynamic Surgical Scene Reconstruction**|Gousia Habib et.al.|[@2607.27825](http://arxiv.org/abs/2607.27825)|null|\n"
   }
 }

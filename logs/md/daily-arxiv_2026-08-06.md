@@ -3,23 +3,54 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.08.07
+## 📚 Updated on 2026.08.08
 
 <details open>
-<summary>📑 Table of Contents — 2026-08-07</summary>
+<summary>📑 Table of Contents — 2026-08-08</summary>
 
 **By category**
-- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (7)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (14)
+- [Motion Authoring, Editing & Retargeting](#motion-authoring-editing--retargeting) (1)
+- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (6)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (36)
 - [World Models & Generative Video](#world-models--generative-video) (37)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (27)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (34)
 - [Narrative & Long-form Audio](#narrative--long-form-audio) (7)
-- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (9)
+- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (8)
 
 </details>
 
 > 📖 Usage instructions: [here](./docs/README.md#usage)
+
+## Character Motion Synthesis & Animation
+
+|Publish Date|Title|Authors|arXiv|Code|
+|---|---|---|---|---|
+|**2026-08-06**|**Wan-Animate-2: Pushing the Application Boundaries of Character Animation**|Guangyuan Wang et.al.|[@2608.06009](http://arxiv.org/abs/2608.06009)|null|
+|**2026-08-05**|**Multi-View Face and Gesture Animation with Dynamic Gaussians**|Alireza Javanmardi et.al.|[@2608.04722](http://arxiv.org/abs/2608.04722)|null|
+|**2026-08-04**|**Learning Biomechanically Plausible Human Motion from Sparse Radar Point Clouds**|Jonas Leo Mueller et.al.|[@2608.03637](http://arxiv.org/abs/2608.03637)|null|
+|**2026-08-03**|**Sen-Cap: Sensor-Flexible and Noise-Resilient Human Motion Capture via LiDAR-Camera Integration**|Aoru Xue et.al.|[@2608.02285](http://arxiv.org/abs/2608.02285)|null|
+|**2026-08-03**|**UniMoCa: Unifying Motion and Camera Controls as Visual Proxies for Faithful Human Video Generation**|Liming Tan et.al.|[@2608.01944](http://arxiv.org/abs/2608.01944)|null|
+|**2026-08-02**|**GenTrack: Physical Alignment for Robot-Native Motion Generation and Zero-Shot Humanoid Tracking**|Zeyu Ling et.al.|[@2608.01410](http://arxiv.org/abs/2608.01410)|null|
+|**2026-08-02**|**FineMoLA: Towards Fine-Grained Motion-Language Alignment from Clip-Level Supervision**|Tongyan Wang et.al.|[@2608.01392](http://arxiv.org/abs/2608.01392)|null|
+|**2026-07-31**|**MoRAE: Flow-Friendly Self-Supervised Latents for Text-to-Motion Generation**|Yifei Zhu et.al.|[@2607.29180](http://arxiv.org/abs/2607.29180)|null|
+|**2026-07-31**|**Interactive Generative Motion Editing via Scheduled Inpainting**|Dhruv Agrawal et.al.|[@2607.29133](http://arxiv.org/abs/2607.29133)|null|
+|**2026-07-30**|**Learning to Understand Body Language from Flight through Robust 3D Avatar Placing**|Dragos Costea et.al.|[@2607.27865](http://arxiv.org/abs/2607.27865)|null|
+|**2026-07-28**|**Two2Four: Generative Quadruped Puppeteering from Human Motion**|Fatemeh Zargarbashi et.al.|[@2607.26108](http://arxiv.org/abs/2607.26108)|null|
+|**2026-07-26**|**STEER: Steerable Dyadic Head Avatars**|Kartik Teotia et.al.|[@2607.23840](http://arxiv.org/abs/2607.23840)|null|
+|**2026-07-26**|**Markerless Motion Capture in Routine Clinical Upper Limb Assessments: Validity and Insights Beyond Ordinal Scoring**|Tim Unger et.al.|[@2607.23608](http://arxiv.org/abs/2607.23608)|null|
+|**2026-07-25**|**mmSimPrior: Learning Simulation Priors for Data-Efficient and Generalizable Real-World Radar-based Human Motion Reconstruction**|Cheng Guo et.al.|[@2607.22973](http://arxiv.org/abs/2607.22973)|null|
+
+<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+
+## Motion Authoring, Editing & Retargeting
+
+|Publish Date|Title|Authors|arXiv|Code|
+|---|---|---|---|---|
+|**2026-08-06**|**PoseForge: Editable Pose Analytics for AI-Assisted Sports Coaching**|Shuvam Swapnil Dash et.al.|[@2608.05971](http://arxiv.org/abs/2608.05971)|null|
+
+<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -31,9 +62,8 @@
 |**2026-07-31**|**Designing a digital word-learning intervention with neurodiverse children: Experiences and ideas from children with developmental language disorder**|Rafiah Ansari et.al.|[@2607.29113](http://arxiv.org/abs/2607.29113)|null|
 |**2026-07-25**|**Cross Sensory Co-Design Tools and Interaction Qualities**|Albrecht Kurze et.al.|[@2607.23298](http://arxiv.org/abs/2607.23298)|null|
 |**2026-07-25**|**From Vibe to Code -- and Back: Lexical Oscillation in the Formation of Design Intent with Generative AI**|Daisaku Sato et.al.|[@2607.23126](http://arxiv.org/abs/2607.23126)|null|
-|**2026-07-24**|**VisCanvas: A Node-based Interface for Exploratory Visualization Authoring with LLMs**|Yuki Ueno et.al.|[@2607.21886](http://arxiv.org/abs/2607.21886)|null|
 
-<p align=right>(<a href=#updated-on-20260807>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -76,7 +106,7 @@
 |**2026-08-05**|**Positive-Unlabeled Preference Optimization For Chest X-ray Report Generation**|Yuta Kobayashi et.al.|[@2608.05341](http://arxiv.org/abs/2608.05341)|null|
 |**2026-08-05**|**A Paragraph is Worth a Thousand Captions: Rethinking Text Supervision for Vision-Language Retrieval**|Mahyar Ghazanfari et.al.|[@2608.05260](http://arxiv.org/abs/2608.05260)|null|
 
-<p align=right>(<a href=#updated-on-20260807>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -120,7 +150,7 @@
 |**2026-08-03**|**Token Radius Attention for Efficient Video Generation**|Jiayu Chen et.al.|[@2608.02504](http://arxiv.org/abs/2608.02504)|null|
 |**2026-08-03**|**EchoCache: Energy-Guided Cross-Modal Caching for Efficient Audio-Driven Video Generation**|Jiayu Chen et.al.|[@2608.02474](http://arxiv.org/abs/2608.02474)|null|
 
-<p align=right>(<a href=#updated-on-20260807>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -154,7 +184,7 @@
 |**2026-08-03**|**ASTRA: Asynchronous Spatio-Temporal Reconstruction via Trajectory Alignment**|Junyu Zhu et.al.|[@2608.02006](http://arxiv.org/abs/2608.02006)|null|
 |**2026-08-03**|**FAST-GS: Frequency Aware Space-time Gaussian Splatting for Photorealistic Dynamic Novel View Synthesis**|Zhengyang Zhang et.al.|[@2608.01958](http://arxiv.org/abs/2608.01958)|null|
 
-<p align=right>(<a href=#updated-on-20260807>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -195,7 +225,7 @@
 |**2026-07-28**|**Reinformed Dreamer: An Asymmetric World Model Efficiently Trained through Latent Guidance**|Gaspard Lambrechts et.al.|[@2607.26040](http://arxiv.org/abs/2607.26040)|null|
 |**2026-07-28**|**Shared Voxel-Map-Based Cooperative Indoor UAV Guidance with a Multi-Agent Soft Actor-Critic Controller**|Thomas Hickling et.al.|[@2607.25728](http://arxiv.org/abs/2607.25728)|null|
 
-<p align=right>(<a href=#updated-on-20260807>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -209,7 +239,7 @@
 |**2026-07-31**|**Stable Autoregressive Speech Generation with Low-Frame-Rate High-Dimensional Continuous Tokens**|Yi Luo et.al.|[@2607.29363](http://arxiv.org/abs/2607.29363)|null|
 |**2026-07-30**|**TORUS: A Test of Rendering-Understanding Self-Coherence for Unified Audio Models**|Aryan Vijay Bhosale et.al.|[@2607.28896](http://arxiv.org/abs/2607.28896)|null|
 
-<p align=right>(<a href=#updated-on-20260807>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -223,9 +253,8 @@
 |**2026-08-02**|**Struct-GStream: Towards Efficient Free-Viewpoint Video Streaming at Low-Bitrates with Structured 3D Gaussians**|Han Jiao et.al.|[@2608.01053](http://arxiv.org/abs/2608.01053)|null|
 |**2026-07-30**|**Convolutional Neural Shading for High-Quality 3D Reconstruction from Multi-View Images**|Juheon Hwang et.al.|[@2607.28132](http://arxiv.org/abs/2607.28132)|null|
 |**2026-07-30**|**Endo-NeRF++: Uncertainty-Aware Neural Rendering with Multi-Resolution Hash Encoding for Dynamic Surgical Scene Reconstruction**|Gousia Habib et.al.|[@2607.27825](http://arxiv.org/abs/2607.27825)|null|
-|**2026-07-24**|**Inter-Reflective Gaussian Splatting for Robust and Efficient Inverse Rendering**|Chun Gu et.al.|[@2607.22780](http://arxiv.org/abs/2607.22780)|null|
 
-<p align=right>(<a href=#updated-on-20260807>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
