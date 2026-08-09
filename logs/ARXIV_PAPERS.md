@@ -3,15 +3,15 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.08.08
+## 📚 Updated on 2026.08.09
 
 <details open>
-<summary>📑 Table of Contents — 2026-08-08</summary>
+<summary>📑 Table of Contents — 2026-08-09</summary>
 
 **By category**
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (14)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (13)
 - [Motion Authoring, Editing & Retargeting](#motion-authoring-editing--retargeting) (1)
-- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (6)
+- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (4)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (36)
 - [World Models & Generative Video](#world-models--generative-video) (37)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (27)
@@ -66,7 +66,7 @@
 |**2026-08-06**|**Wan-Animate-2: Pushing the Application Boundaries of Character Animation**|Guangyuan Wang et.al.|[@2608.06009](http://arxiv.org/abs/2608.06009)|null|
 |**2026-08-05**|**Multi-View Face and Gesture Animation with Dynamic Gaussians**|Alireza Javanmardi et.al.|[@2608.04722](http://arxiv.org/abs/2608.04722)|null|
 
-<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260809>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -78,7 +78,7 @@
 |**2026-07-18**|**Retrofitting Existing 3D Objects with Surface-Conforming Capacitive Sensing**|Andela Ilic et.al.|[@2607.16739](http://arxiv.org/abs/2607.16739)|null|
 |**2026-07-22**|**Design-Intent Compilation for Heterogeneous Fabrication**|Charles Wade et.al.|[@2607.22741](http://arxiv.org/abs/2607.22741)|null|
 
-<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260809>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -103,7 +103,7 @@
 |**2026-08-01**|**MolecularCanvas: LLM-assisted Small-Molecule Drug Discovery via Structure-Guided Constraints**|Haoyu Dong et.al.|[@2608.00393](http://arxiv.org/abs/2608.00393)|null|
 |**2026-08-04**|**LEGOUI: Designing with UI-DSL Bricks to Balance Transparency and Controllability**|Yinsi Zhou et.al.|[@2608.04293](http://arxiv.org/abs/2608.04293)|null|
 
-<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260809>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -478,7 +478,7 @@
 |**2026-08-05**|**Positive-Unlabeled Preference Optimization For Chest X-ray Report Generation**|Yuta Kobayashi et.al.|[@2608.05341](http://arxiv.org/abs/2608.05341)|null|
 |**2026-08-05**|**A Paragraph is Worth a Thousand Captions: Rethinking Text Supervision for Vision-Language Retrieval**|Mahyar Ghazanfari et.al.|[@2608.05260](http://arxiv.org/abs/2608.05260)|null|
 
-<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260809>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -677,7 +677,7 @@
 |**2026-08-05**|**Helping Music Co-Creation Agents 'Listen' Well: Hierarchical Self-Supervised World Models for Understanding and Generation**|Scott H. Hawley et.al.|[@2608.04378](http://arxiv.org/abs/2608.04378)|null|
 |**2026-08-04**|**OmniVR: Joint Video-Audio Conditional Generation for Restoring Degraded Historical Films**|Xin Lu et.al.|[@2608.04224](http://arxiv.org/abs/2608.04224)|null|
 
-<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260809>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -822,7 +822,7 @@
 |**2026-08-05**|**OutLangSplat: 3D Language Gaussian Splatting for UAV Outdoor Scenes**|Xia Yan et.al.|[@2608.04560](http://arxiv.org/abs/2608.04560)|null|
 |**2026-08-04**|**PADFormer: Pose-agnostic Anomaly Detection from Sparse View Images**|Ruiqi Wang et.al.|[@2608.04210](http://arxiv.org/abs/2608.04210)|null|
 
-<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260809>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -921,7 +921,7 @@
 |**2026-08-04**|**SAFECAST: Robust Failure Detection for VLA Policies with Contrast-Set Training and Calibration**|Harshitha Rajaprakash et.al.|[@2608.04246](http://arxiv.org/abs/2608.04246)|null|
 |**2026-08-04**|**SiMDex: Mining Similar Egocentric Videos for Cross-Embodiment Dexterous Manipulation**|Nie Lin et.al.|[@2608.04196](http://arxiv.org/abs/2608.04196)|null|
 
-<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260809>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -943,7 +943,7 @@
 |**2026-08-04**|**MeloCodec: Harnessing Melodic Priors for High-Fidelity Singing Voice Representation**|Yizhong Geng et.al.|[@2608.03021](http://arxiv.org/abs/2608.03021)|null|
 |**2026-08-05**|**Visual Representation Matters: Exploiting Temporal Differences in Video-to-Audio Generation**|Zehua Chen et.al.|[@2608.04902](http://arxiv.org/abs/2608.04902)|null|
 
-<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260809>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -976,7 +976,7 @@
 |**2026-08-06**|**Floating Radiance Networks**|Krzysztof Byrski et.al.|[@2608.05920](http://arxiv.org/abs/2608.05920)|null|
 |**2026-08-05**|**Splat-Based Metal Artifact Reduction in Cone-Beam CT via Compact Attenuation Modeling**|Kiseok Choi et.al.|[@2608.04764](http://arxiv.org/abs/2608.04764)|null|
 
-<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260809>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -985,7 +985,7 @@
 |**2026-07-31**|**Interactive Generative Motion Editing via Scheduled Inpainting**|Dhruv Agrawal et.al.|[@2607.29133](http://arxiv.org/abs/2607.29133)|null|
 |**2026-08-06**|**PoseForge: Editable Pose Analytics for AI-Assisted Sports Coaching**|Shuvam Swapnil Dash et.al.|[@2608.05971](http://arxiv.org/abs/2608.05971)|null|
 
-<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260809>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors

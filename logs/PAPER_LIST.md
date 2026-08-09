@@ -165,6 +165,3 @@
 | 2026-07-28 | **Shared Voxel-Map-Based Cooperative Indoor UAV Guidance with a Multi-Agent Soft Actor-Critic Controller** | Embodied AI & Robot Learning | 0.33 | [@2607.25728](http://arxiv.org/abs/2607.25728) | null |
 | 2026-07-26 | **STEER: Steerable Dyadic Head Avatars** | Character Motion Synthesis & Animation | 0.67 | [@2607.23840](http://arxiv.org/abs/2607.23840) | null |
 | 2026-07-26 | **Markerless Motion Capture in Routine Clinical Upper Limb Assessments: Validity and Insights Beyond Ordinal Scoring** | Character Motion Synthesis & Animation | 0.67 | [@2607.23608](http://arxiv.org/abs/2607.23608) | null |
-| 2026-07-25 | **mmSimPrior: Learning Simulation Priors for Data-Efficient and Generalizable Real-World Radar-based Human Motion Reconstruction** | Character Motion Synthesis & Animation | 1.00 | [@2607.22973](http://arxiv.org/abs/2607.22973) | null |
-| 2026-07-25 | **Cross Sensory Co-Design Tools and Interaction Qualities** | Sketch-based & Creative HCI Tools | 0.67 | [@2607.23298](http://arxiv.org/abs/2607.23298) | null |
-| 2026-07-25 | **From Vibe to Code -- and Back: Lexical Oscillation in the Formation of Design Intent with Generative AI** | Sketch-based & Creative HCI Tools | 0.33 | [@2607.23126](http://arxiv.org/abs/2607.23126) | null |

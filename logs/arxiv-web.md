@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.08.08
+## 📚 Updated on 2026.08.09
 
 <details>
   <summary>Table of Contents</summary>
@@ -100,7 +100,7 @@
 - 2026-08-05, **Multi-View Face and Gesture Animation with Dynamic Gaussians**, Alireza Javanmardi et.al., Paper: [@2608.04722](http://arxiv.org/abs/2608.04722)
 > **Abstract:** Creating photorealistic 3D human avatars with realistic upper-body motion remains challenging. Existing approaches either focus on the head and overlook hand gestures, or reconstruct the full body but fail to preserve fine-grained facial fidelity and hand pose accuracy. As a result, current methods struggle to capture the subtle dynamics of facial expressions and hand gestures that are crucial for natural human communication. While methods based on full-body parametric models enable avatar reconstruction from monocular or multi-view inputs, they often lack accurate facial animation and detailed hand articulation. To address these limitations, we propose MVFGA, a novel multi-view-consistent pipeline for generating realistic upper-body avatars. Our approach models the face and hands separately and fuses them with a parametric upper-body mesh model, enabling the capture of fine-grained facial expressions and hand poses for accurate upper-body avatar reconstruction. We then splat 3D Gaussians onto the obtained mesh, enabling high-quality rendering of dynamic avatars from novel viewpoints. Furthermore, we introduce MVFGA-MoCap, a multi-view upper-body motion capture dataset featuring controlled facial expression sequences, diverse hand gestures, and free-form communication. Experiments show that MVFGA generates visually realistic avatars with high-fidelity facial expressions and hand motions, outperforming baselines for upper-body avatar animation. Project page: https://dfki-av.github.io/MVFGA/
 
-<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260809>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -115,7 +115,7 @@
 - 2026-07-22, **Design-Intent Compilation for Heterogeneous Fabrication**, Charles Wade et.al., Paper: [@2607.22741](http://arxiv.org/abs/2607.22741)
 > **Abstract:** Computational fabrication workflows increasingly require designers to specify spatially varying behavior, appearance, material composition, and process state. Yet most workflows force these intentions into printer-specific representations, such as material fractions, voxel labels, mesh partitions, or slicer settings. This coupling makes heterogeneous designs difficult to reuse because each backend requires a different realization of the same property. We present a compiler architecture for heterogeneous fabrication that treats design as a staged, typed lowering problem. A source design consists of implicit geometry and named, typed spatial attribute fields over a shared object domain. These attributes may encode measured data, visual appearance, target mechanical behavior, material recipes, process parameters, or other user-specified attributes. Translation models derive compiler-required realization attributes from source or intent attributes, and backend compilers emit machine-facing outputs such as voxel material stacks, process G-code, or configured slicer project files. This separates source modeling, attribute translation, and backend compilation, allowing a design to remain expressed in fabrication-agnostic terms while each toolchain determines how intent becomes executable instructions. We validate the method through fabricated objects and measurements across sampled volumetric data, CT-derived visual and mechanical models, Shore-hardness fields, and full-color fields, implemented via material jetting and material extrusion. These results show that one source design can be lowered into distinct material, process, and slicer representations without rewriting it in printer-specific terms. We provide the representation, translation framework, compiler interface, and workflows as an open-source Python package to accelerate research in heterogeneous computational fabrication.
 
-<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260809>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -156,7 +156,7 @@
 - 2026-08-04, **LEGOUI: Designing with UI-DSL Bricks to Balance Transparency and Controllability**, Yinsi Zhou et.al., Paper: [@2608.04293](http://arxiv.org/abs/2608.04293)
 > **Abstract:** Generative user interface design tools enable rapid prototyping but often operate as black boxes with limited transparency and controllability. When outputs diverge from the designer's intent, users are left tweaking prompts via trial-and-error with little insight into the model's reasoning. We present LegoUI, a staged generative framework that structures the interface design process into sequential, interpretable steps along key design dimensions, capturing each step's result in a UI domain-specific language (UI-DSL) enriched with provenance. This approach exposes the model's intermediate reasoning and enables user intervention and iterative refinement. In a technical evaluation on 40 real-world design prompts, LegoUI's requirement analysis stage captured explicit requirements with over 95% accuracy, near-complete coverage, and zero redundancy. In user studies, participants using LegoUI reported significantly greater transparency, controllability, and alignment with their intent compared to existing one-shot generative UI tools.
 
-<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260809>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -897,7 +897,7 @@
 - 2026-08-05, **A Paragraph is Worth a Thousand Captions: Rethinking Text Supervision for Vision-Language Retrieval**, Mahyar Ghazanfari et.al., Paper: [@2608.05260](http://arxiv.org/abs/2608.05260)
 > **Abstract:** Contrastive vision-language models such as CLIP and BLIP are typically trained on short image captions, limiting their ability to retrieve images from detailed textual descriptions. While methods such as Long-CLIP extend the token limit through positional embedding interpolation, we ask a simpler question: does training text granularity alone determine long-text retrieval performance? We present a systematic study of supervision ranging from single captions to multi-sentence paragraphs for contrastive image-text retrieval. Using a synthetic pipeline based on Qwen2-VL and Llama 3.2 Vision, we generate diverse captions, hard negatives, and quality-scored paragraphs for 500K CC3M images. To isolate the effect of text granularity, we fine-tune only the BLIP text encoder while keeping the vision encoder frozen across 10 training configurations. Our paragraph-supervised models match Long-CLIP-L on ShareGPT4V and outperform it by more than 14 points on DOCCI for image-to-text retrieval, without architectural changes. We further show that paragraph supervision enables effective use of long token sequences, whereas caption-only training degrades beyond 60 tokens. Increasing caption diversity improves short-caption retrieval with diminishing returns, while paragraph supervision consistently benefits long-description benchmarks and hard negatives prove detrimental in text-only fine-tuning. Evaluations on Flickr30k, COCO, ShareGPT4V, and DOCCI provide a comprehensive analysis of the trade-offs between text granularity, retrieval direction, and description length.
 
-<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260809>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -1286,7 +1286,7 @@
 - 2026-08-04, **OmniVR: Joint Video-Audio Conditional Generation for Restoring Degraded Historical Films**, Xin Lu et.al., Paper: [@2608.04224](http://arxiv.org/abs/2608.04224)
 > **Abstract:** Historical films suffer from co-occurring visual and audio degradations---blur, noise, flicker, hiss, clipping, and dropout---yet existing methods restore each modality independently, leaving quality gaps and cross-modal inconsistency. We present OmniVR, the first joint audio-video generative restoration model. Built upon a 22B-parameter audio-video generation backbone, OmniVR formulates restoration as conditional generation within a unified multimodal DiT: the low-quality video and audio are encoded as latent conditions, combined with a fixed restoration prompt, and jointly denoised to recover visual structure, temporal motion, and acoustic detail under one coordinated objective. Three key designs enable this adaptation: (1) a joint audio-video degradation pipeline that simulates real old-film characteristics from Internet-collected data; (2) an architecture-preserving text-to-audio-video (T2AV) to audio-video-to-audio-video (AV2AV) transition with prompt annealing that maximally retains the generative prior; and (3) first-frame image-to-video (I2V) anchoring with loss reweighting and waveform supervision for long-video extrapolation and audio fidelity. We also propose OmniVRBench, the first benchmark that evaluates audio-video restoration across visual quality, audio quality, temporal consistency, and audio-visual synchrony on 200 real historical clips. OmniVR surpasses all prior methods on all six visual metrics, achieves the best audio quality, and produces natural colorization---the first method to jointly address all three aspects. Code and weights will be publicly released. Project Page: https://xin1u.github.io/OminiVR_PAGE/
 
-<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260809>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -1567,7 +1567,7 @@
 - 2026-08-04, **PADFormer: Pose-agnostic Anomaly Detection from Sparse View Images**, Ruiqi Wang et.al., Paper: [@2608.04210](http://arxiv.org/abs/2608.04210)
 > **Abstract:** Pose-agnostic Anomaly Detection (PAD) remains challenging as anomalies can appear under arbitrary viewpoints, requiring methods to handle significant pose variations. Existing approaches rely on complex 3D reconstruction, which are computationally expensive and require extensive multi-view data. We propose PADFormer, a novel image-space approach that leverages Vision Transformer (ViT) to directly reconstruct anomaly-free versions of query images while preserving pose information. Our key insight is to adapt cross-view masked reconstruction for anomaly detection through training exclusively on normal data, combined with dynamic patch selection and spatial alignment mechanisms that enable effective learning from sparse reference views under significant pose variations. During inference, we perform multiple forward passes with different masking patterns to generate an ensemble of anomaly-free reconstructions, ensuring comprehensive coverage of the query image. Anomalies are detected by comparing these reconstructions with the query image. PADFormer achieves state-of-the-art results on the PAD benchmark while maintaining comparable performance on classic few-shot anomaly detection (FSAD) tasks, demonstrating superior efficiency and generalization without requiring 3D reconstruction.
 
-<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260809>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -1756,7 +1756,7 @@
 - 2026-08-04, **SiMDex: Mining Similar Egocentric Videos for Cross-Embodiment Dexterous Manipulation**, Nie Lin et.al., Paper: [@2608.04196](http://arxiv.org/abs/2608.04196)
 > **Abstract:** Recent years have witnessed an explosive trend of scaling ego-centric human videos for robot manipulation, yet it remains unclear which data actually benefits dexterous manipulation. We present SiMDex, a similarity-based data mining framework that casts human data selection for VLA post-training in dexterous manipulation as a recommendation problem. For each robot demonstration, SiMDex employs a three-layer recall-ranking-re-ranking pipeline to extract task-relevant subsets from a pool of ~32M egocentric human samples, operating in a morphology-agnostic action space that requires no changes to VLA architecture or training. Against a strong baseline trained with an equal amount of randomly sampled human data, SiMDex uses only ~1.49M mined samples (<5% of the pool) yet improves the overall success rate from 47.7% to 61.1%, showing that selective curation outperforms indiscriminate data mixing.
 
-<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260809>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -1791,7 +1791,7 @@
 - 2026-08-05, **Visual Representation Matters: Exploiting Temporal Differences in Video-to-Audio Generation**, Zehua Chen et.al., Paper: [@2608.04902](http://arxiv.org/abs/2608.04902)
 > **Abstract:** Video-to-audio (V2A) generation extends image-to-audio generation (I2A) by introducing consecutive frames that provide essential temporal cues for audio synthesis. However, existing conditional diffusion-based V2A methods typically enhance visual conditioning with additional audio-visual supervision, acoustic structure prediction, or reasoning from large multimodal models, requiring extra networks or strong inductive biases. Inspired by recent advances in visual representation learning, we introduce TD-V2A, which leverages temporal differences (TD) as the key representation that distinguishes V2A from I2A, enriching visual conditioning with minimal architectural modification. We first investigate TD at both the frame and feature levels to identify the most effective representation level at which TD complements visual representations. Based on these findings, we develop a hierarchically continual learning strategy and an annealed temporal differences guidance method to progressively learn and exploit TD information during diffusion training and sampling process, respectively. Extensive experiments on benchmark datasets demonstrate that effectively exploiting TD through our proposed framework significantly improves end-to-end V2A generation quality, even outperforming dedicated V2A representations such as contrastive audio-visual pretraining.
 
-<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260809>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -1848,7 +1848,7 @@
 - 2026-08-05, **Splat-Based Metal Artifact Reduction in Cone-Beam CT via Compact Attenuation Modeling**, Kiseok Choi et.al., Paper: [@2608.04764](http://arxiv.org/abs/2608.04764)
 > **Abstract:** X-ray computed tomography (CT) suffers from severe metal artifacts when high-attenuation objects such as dental fillings or orthopedic implants are present. These artifacts originate from the polychromatic nature of X-rays, where attenuation varies strongly with photon energy and material composition, breaking the monochromatic assumption used by conventional reconstruction algorithms. Recent neural rendering approaches attempt to address this mismatch through differentiable polychromatic projection models, but they still struggle with smoothness bias, loss of fine structures, and prohibitive computation when extended to large-scale cone-beam CT. We introduce a splat-based metal artifact reduction framework that incorporates a physically grounded polychromatic forward model into a continuous Gaussian representation for cone-beam CT. Each Gaussian encodes the energy-dependent attenuation of the underlying material using a compact material parameterization, which enables efficient joint optimization of geometric and material properties without relying on a metal mask. This compact attenuation formulation captures the essential variation across biological tissues and metallic implants, allowing our model to explain metal-induced nonlinearity while preserving high-frequency structure. Experiments on simulated and real cone-beam CT scans show that our method converges significantly faster and suppresses metal artifacts more effectively than existing reconstruction and neural field-based approaches.
 
-<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260809>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -1857,7 +1857,7 @@
 - 2026-08-06, **PoseForge: Editable Pose Analytics for AI-Assisted Sports Coaching**, Shuvam Swapnil Dash et.al., Paper: [@2608.05971](http://arxiv.org/abs/2608.05971)
 > **Abstract:** Athletic coaching increasingly relies on video analysis, yet raw footage lacks tools to quantify motion or simulate valid technique corrections. Drawing on formative interviews with eleven cricket experts (coaches, performance analysts, captains, and players), we introduce PoseForge, a visual analytics system that extracts 3D skeletal poses from single-camera sports videos for interactive movement analysis. In a cricket batting case study, PoseForge computes interpretable kinematic metrics such as feet gap and elbow angle, compares them against scientifically derived norms, and uses an AI coach to suggest targeted adjustments, presented visually and through natural-language feedback (e.g., "increase feet gap by 10 cm"). Users can directly modify poses via mouse interaction or natural-language instructions, with inverse kinematics maintaining anatomical plausibility and real-time updates of metrics and comparisons. An evaluation with the same eleven cricket experts found PoseForge effective for diagnosing movement issues and exploring corrective alternatives, highlighting its applicability in low-resource, academy, and grassroots coaching settings, while identifying opportunities for enhanced sport-specific metrics and longitudinal tracking. PoseForge is available as open-source software at https://github.com/DataVisards/PoseForge.
 
-<p align=right>(<a href=#updated-on-20260808>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260809>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
