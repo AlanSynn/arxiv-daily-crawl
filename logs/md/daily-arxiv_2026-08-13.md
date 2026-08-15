@@ -3,21 +3,21 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.08.14
+## 📚 Updated on 2026.08.15
 
 <details open>
-<summary>📑 Table of Contents — 2026-08-14</summary>
+<summary>📑 Table of Contents — 2026-08-15</summary>
 
 **By category**
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (19)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (17)
 - [Motion Authoring, Editing & Retargeting](#motion-authoring-editing--retargeting) (2)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (1)
-- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (7)
+- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (6)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (37)
 - [World Models & Generative Video](#world-models--generative-video) (38)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (29)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (32)
-- [Narrative & Long-form Audio](#narrative--long-form-audio) (12)
+- [Narrative & Long-form Audio](#narrative--long-form-audio) (11)
 - [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (11)
 
 </details>
@@ -45,10 +45,8 @@
 |**2026-08-02**|**GenTrack: Physical Alignment for Robot-Native Motion Generation and Zero-Shot Humanoid Tracking**|Zeyu Ling et.al.|[@2608.01410](http://arxiv.org/abs/2608.01410)|null|
 |**2026-08-02**|**FineMoLA: Towards Fine-Grained Motion-Language Alignment from Clip-Level Supervision**|Tongyan Wang et.al.|[@2608.01392](http://arxiv.org/abs/2608.01392)|null|
 |**2026-08-02**|**Learning Physical Interaction: A Survey of Tactile- and Force-aware Robot Learning**|Shilin Shan et.al.|[@2608.07558](http://arxiv.org/abs/2608.07558)|null|
-|**2026-07-31**|**MoRAE: Flow-Friendly Self-Supervised Latents for Text-to-Motion Generation**|Yifei Zhu et.al.|[@2607.29180](http://arxiv.org/abs/2607.29180)|null|
-|**2026-07-31**|**Interactive Generative Motion Editing via Scheduled Inpainting**|Dhruv Agrawal et.al.|[@2607.29133](http://arxiv.org/abs/2607.29133)|null|
 
-<p align=right>(<a href=#updated-on-20260814>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -57,7 +55,7 @@
 |**2026-08-10**|**Smooth Motion Stitching via Laplacian Optimization in Rodrigues Vector Space**|Ryosuke Higasayama et.al.|[@2608.08986](http://arxiv.org/abs/2608.08986)|null|
 |**2026-08-06**|**PoseForge: Editable Pose Analytics for AI-Assisted Sports Coaching**|Shuvam Swapnil Dash et.al.|[@2608.05971](http://arxiv.org/abs/2608.05971)|null|
 
-<p align=right>(<a href=#updated-on-20260814>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -65,7 +63,7 @@
 |---|---|---|---|---|
 |**2026-08-13**|**Print&Fold: Printing and Folding Shape-accurate 3D Models**|Archit Kumar et.al.|[@2608.13279](http://arxiv.org/abs/2608.13279)|null|
 
-<p align=right>(<a href=#updated-on-20260814>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -77,9 +75,8 @@
 |**2026-08-04**|**LEGOUI: Designing with UI-DSL Bricks to Balance Transparency and Controllability**|Yinsi Zhou et.al.|[@2608.04293](http://arxiv.org/abs/2608.04293)|null|
 |**2026-08-02**|**PartInteractor: Intent-Driven Part-Aware 3D Authoring for Continuous Co-Creation in XR**|Jianan Jiang et.al.|[@2608.01335](http://arxiv.org/abs/2608.01335)|null|
 |**2026-08-01**|**MolecularCanvas: LLM-assisted Small-Molecule Drug Discovery via Structure-Guided Constraints**|Haoyu Dong et.al.|[@2608.00393](http://arxiv.org/abs/2608.00393)|null|
-|**2026-07-31**|**Designing a digital word-learning intervention with neurodiverse children: Experiences and ideas from children with developmental language disorder**|Rafiah Ansari et.al.|[@2607.29113](http://arxiv.org/abs/2607.29113)|null|
 
-<p align=right>(<a href=#updated-on-20260814>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -123,7 +120,7 @@
 |**2026-08-12**|**DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation**|Yan Deng et.al.|[@2608.12308](http://arxiv.org/abs/2608.12308)|null|
 |**2026-08-12**|**SCOUT: Unlocking Enhanced Spatial Reasoning via Structured Chain-of-Thought and Multi-Objective Process Reward**|Zile Zhou et.al.|[@2608.12220](http://arxiv.org/abs/2608.12220)|null|
 
-<p align=right>(<a href=#updated-on-20260814>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -168,7 +165,7 @@
 |**2026-08-11**|**Dreamer-SAC: Off-Policy Learning in Latent World Models for Sample-Efficient Autonomous Driving**|Jiazhuo Li et.al.|[@2608.10386](http://arxiv.org/abs/2608.10386)|null|
 |**2026-08-10**|**4D-WAM: 4D Consistent World Modeling for Autonomous Driving**|Jiacheng Fu et.al.|[@2608.10107](http://arxiv.org/abs/2608.10107)|null|
 
-<p align=right>(<a href=#updated-on-20260814>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -204,7 +201,7 @@
 |**2026-08-07**|**AdvTiles: Physical Adversarial Camouflage Clothing against Person Detectors via Learnable Tiles**|Jinlei Wang et.al.|[@2608.06801](http://arxiv.org/abs/2608.06801)|null|
 |**2026-08-06**|**Confidence matters: Leveraging Multi-view Geometric Priors for GS-based Reconstruction**|Hongyu Zhou et.al.|[@2608.06117](http://arxiv.org/abs/2608.06117)|null|
 
-<p align=right>(<a href=#updated-on-20260814>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -243,7 +240,7 @@
 |**2026-08-03**|**Bridging the Sim-to-Real Gap in Parallel-Link Leg Mechanisms via Simulator-Side Dynamics Normalization**|Jinsong Hong et.al.|[@2608.01697](http://arxiv.org/abs/2608.01697)|null|
 |**2026-08-03**|**AffordTrajDP: Dynamic Affordance-Guided Visuomotor Policy Learning for Robotic Manipulation**|Gaoyuan Wu et.al.|[@2608.01603](http://arxiv.org/abs/2608.01603)|null|
 
-<p align=right>(<a href=#updated-on-20260814>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -260,9 +257,8 @@
 |**2026-08-03**|**SwanTale: Unified Multi-Speaker Speech and Audio Generation for Instruct and Zero-Shot Tasks**|Yu Zhang et.al.|[@2608.02023](http://arxiv.org/abs/2608.02023)|null|
 |**2026-08-03**|**Multi-Backbone Self-Supervised Ensembles for Audio Deepfake Detection and a Cross-Track Analysis of Generation-Detection Asymmetry**|Seunghyun Kim et.al.|[@2608.01796](http://arxiv.org/abs/2608.01796)|null|
 |**2026-08-01**|**Scene2Sound: Auditory-Grounded Soundscape Generation for 3D Gaussian Worlds**|Masaki Yoshida et.al.|[@2608.00463](http://arxiv.org/abs/2608.00463)|null|
-|**2026-07-31**|**Stable Autoregressive Speech Generation with Low-Frame-Rate High-Dimensional Continuous Tokens**|Yi Luo et.al.|[@2607.29363](http://arxiv.org/abs/2607.29363)|null|
 
-<p align=right>(<a href=#updated-on-20260814>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -280,7 +276,7 @@
 |**2026-08-03**|**DecoupleGS: Interactive 3D Gaussian Splatting for End-to-End Autonomous Driving Testing**|Siying Li et.al.|[@2608.01761](http://arxiv.org/abs/2608.01761)|null|
 |**2026-08-02**|**Struct-GStream: Towards Efficient Free-Viewpoint Video Streaming at Low-Bitrates with Structured 3D Gaussians**|Han Jiao et.al.|[@2608.01053](http://arxiv.org/abs/2608.01053)|null|
 
-<p align=right>(<a href=#updated-on-20260814>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors

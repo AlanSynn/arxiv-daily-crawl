@@ -180,7 +180,3 @@
 | 2026-08-02 | **FineMoLA: Towards Fine-Grained Motion-Language Alignment from Clip-Level Supervision** | Character Motion Synthesis & Animation | 0.33 | [@2608.01392](http://arxiv.org/abs/2608.01392) | null |
 | 2026-08-01 | **MolecularCanvas: LLM-assisted Small-Molecule Drug Discovery via Structure-Guided Constraints** | Sketch-based & Creative HCI Tools | 0.33 | [@2608.00393](http://arxiv.org/abs/2608.00393) | null |
 | 2026-08-01 | **Scene2Sound: Auditory-Grounded Soundscape Generation for 3D Gaussian Worlds** | Narrative & Long-form Audio | 0.33 | [@2608.00463](http://arxiv.org/abs/2608.00463) | null |
-| 2026-07-31 | **Interactive Generative Motion Editing via Scheduled Inpainting** | Character Motion Synthesis & Animation | 0.67 | [@2607.29133](http://arxiv.org/abs/2607.29133) | null |
-| 2026-07-31 | **Designing a digital word-learning intervention with neurodiverse children: Experiences and ideas from children with developmental language disorder** | Sketch-based & Creative HCI Tools | 0.33 | [@2607.29113](http://arxiv.org/abs/2607.29113) | null |
-| 2026-07-31 | **Stable Autoregressive Speech Generation with Low-Frame-Rate High-Dimensional Continuous Tokens** | Narrative & Long-form Audio | 0.33 | [@2607.29363](http://arxiv.org/abs/2607.29363) | null |
-| 2026-07-31 | **MoRAE: Flow-Friendly Self-Supervised Latents for Text-to-Motion Generation** | Character Motion Synthesis & Animation | 0.33 | [@2607.29180](http://arxiv.org/abs/2607.29180) | null |
