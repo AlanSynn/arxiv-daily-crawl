@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.08.15
+## 📚 Updated on 2026.08.16
 
 <details>
   <summary>Table of Contents</summary>
@@ -120,7 +120,7 @@
 - 2026-08-12, **Autonomous Telerehabilitation via Skeletal Motion Prediction and Joint-Level Performance Assessment**, Lara Pereira et.al., Paper: [@2608.12145](http://arxiv.org/abs/2608.12145)
 > **Abstract:** Autonomous rehabilitation systems must not only recognize human motion but also provide structured feedback to support users without continuous therapist supervision. This paper presents a telerehabilitation pipeline that integrates skeleton-based exercise quality assessment and short-term motion prediction into a two-module system operating on marker-free RGB video. A self-attentive Bidirectional LSTM performs exercise quality classification using MMD-NCA metric learning, while a graph-based motion prediction module computes per-joint position errors between predicted and observed poses, generating spatially localized deviation signals. Each module is evaluated independently on established benchmarks: the classifier achieves 96.45% mean-class accuracy on squat sequences from the PROZIS dataset, and the adopted STARS predictor achieves a mean MPJPE of 75.8 mm at 560 ms on Human3.6M, outperforming graph and recurrent baselines across all prediction horizons. The framework is designed for eventual deployment in assistive robotics and home-based rehabilitation contexts; end-to-end integration and clinical validation are important directions for future work. By combining motion recognition and prediction in a single system, this work contributes a step toward autonomous, feedback-driven telerehabilitation, for more accessible and scalable rehabilitation solutions.
 
-<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -137,7 +137,7 @@
 - 2026-08-13, **Print&Fold: Printing and Folding Shape-accurate 3D Models**, Archit Kumar et.al., Paper: [@2608.13279](http://arxiv.org/abs/2608.13279)
 > **Abstract:** This paper introduces Print&Fold, a tool to allow FDM 3D printing of complex models with less time and material while preserving shape accuracy. Key to this work is a folding algorithm that planarizes foldable faces internal to the 3D model. While folding techniques typically discretize a target model's surface, thereby fabricating low fidelity counterparts, our method preserves the surface features in the physical print. Our design tool allows users to unfold 3D models to be FDM-printed flat before manually folding these into their target shapes. We showcase a variety of applications and evaluate the material and time savings across a range of 3D models.
 
-<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -184,7 +184,7 @@
 - 2026-08-12, **InvisIto: Weaving Unobtrusive Infrared Markers for Ubiquitous Textile Interaction**, Hsuanling Lee et.al., Paper: [@2608.12580](http://arxiv.org/abs/2608.12580)
 > **Abstract:** Textiles are increasingly explored as media for interacting with digital information. However, many of the existing approaches rely on visible tags, printed overlays, or electronic modules that compromise the fabric's aesthetic and tactile qualities. To address this, we present InvisIto, a method for weaving visually unobtrusive yet machine-readable infrared markers directly into fabrics using near-infrared (NIR)-absorbing yarns. Although these yarns look similar to standard fibers in ambient light, they produce strong contrast in NIR imaging. Our method includes: (1) a design tool that helps users easily embed infrared markers into weaving drafts, (2) five disguising strategies that further reduce marker visibility under ambient light, and (3) a camera-based detection pipeline for decoding and tracking the woven markers. InvisIto supports both woven QR codes for data encoding and woven ArUco markers for binary input and deformation tracking. We demonstrate applications across hand weaving, Jacquard weaving, and industrial fabrication, showing that InvisIto supports scalable interaction and fabrication from bespoke artifacts to mass production.
 
-<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -1235,7 +1235,7 @@
 - 2026-08-12, **Can Vision-Language Models Assess Proxemic Risk from Egocentric Robot Images?**, Vladyslava Rudas et.al., Paper: [@2608.12515](http://arxiv.org/abs/2608.12515)
 > **Abstract:** Assessing proxemic danger from a robot's egocentric perspective is critical for safe embodied navigation in human environments and requires both visual and contextual reasoning. We evaluate three opensource vision-language models (VLMs) (\textit{InternVL}, \textit{Qwen-VL}, and \textit{SmolVLM}) on the classification of egocentric robot images into four danger levels, comparing three prompting strategies and two rounds of QLoRA fine-tuning against a stratified random baseline. Without fine-tuning, all models perform near the baseline, while fine-tuning yields only modest overall improvements. However, \textit{Qwen-VL} with an advanced prompt achieves substantially higher recall for high-danger cases than the other models. An analysis of person localization further shows that correct danger classification does not correspond to better spatial grounding, indicating that a model may produce a useful safety label without attending to the relevant region of the scene. These results show that current VLMs remain limited in fine-grained proxemic reasoning and spatial grounding, although targeted prompting and fine-tuning can improve high-danger detection in selected models.
 
-<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -1770,7 +1770,7 @@
 - 2026-08-12, **Scaling Automatic Research Agents via World Models**, Xiyuan Yang et.al., Paper: [@2608.12564](http://arxiv.org/abs/2608.12564)
 > **Abstract:** Automating empirical research is a long-standing direction of AI. Recent automatic research (AutoResearch) agents bring this goal within reach, as modern LLMs show the capability to independently implement solutions and learn from the execution outcomes. Behind these gains, post-training (especially RL) plays a central role. In this paper, we identify a fundamental tension when scaling RL for these agents: the two components of every AutoResearch trajectory (agent generation and environment execution) scale in very different manners, since all generation shares compute through batching, while each execution occupies its exclusive sandbox and real machine time. As a result, the environment execution dominates the training cost and becomes the bottleneck as trajectories grow. To resolve this tension, we propose World Model RL (WMRL), which replaces environment execution with a world model to remove this bottleneck. Additionally, the world model can be imperfect, as its rewards are corrupted by bias and noise. Therefore, we further equip WMRL with two mitigations, Online Debiasing and Inverse-Variance Denoising, which offset the bias and suppress the noise respectively. Theoretically, we prove that both mitigations of WMRL strictly improve the convergence guarantee. Empirically, WMRL accelerates training by 3-4x on various tasks at different agent scales, while exceeding the performance of standard RL baselines. Moreover, our post-trained 4B and 9B agents outperform much larger open-weight agents of 48B and 120B on held-out benchmarks. Beyond AutoResearch, WMRL also transfers to post-training embodied VLA policies, which demonstrates the generalizability of our method.
 
-<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -2107,7 +2107,7 @@
 - 2026-08-13, **PixSDS: Why Latent SDS Makes Noisy Pixels**, Vsevolod Skorokhodov et.al., Paper: [@2608.12997](http://arxiv.org/abs/2608.12997)
 > **Abstract:** Score Distillation Sampling (SDS) enables text-to-3D generation by optimizing rendered images with a pretrained diffusion prior, but latent SDS often produces structured color artifacts and high-frequency texture noise. We identify a failure mode of latent SDS caused by VAE-induced pixel drift: the optimized image can move along pixel-space directions that are weakly constrained by the VAE encoder, so its latent representation remains clean and semantically meaningful while the image itself accumulates visible artifacts. We support this diagnosis with controlled 2D SDS experiments, VAE-only optimization, and a simplified analysis showing that encoder-like latent objectives can amplify image-space noise when the inverse mapping to pixels is underconstrained. Motivated by this observation, we propose PixSDS, a lightweight VAE-consistent gradient repair method. PixSDS decodes a latent SDS lookahead step and uses the decoded image as a clean direction for pixel-space optimization, reducing motion in VAE-inconsistent directions without retraining the diffusion model, changing the renderer, or replacing the SDS objective. Experiments in 2D optimization and text-to-3D generation show that PixSDS substantially reduces structured artifacts while preserving semantic content. Code is publicly available at https://sevashasla.github.io/pixsds-webpage/.
 
-<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -2328,7 +2328,7 @@
 - 2026-08-13, **FUSE: Active Functional Affordance Grounding through Adaptive Semantic-Geometric Evidence Acquisition**, Zhou Chen et.al., Paper: [@2608.12683](http://arxiv.org/abs/2608.12683)
 > **Abstract:** Embodied agents must often identify and interact with objects based on their function rather than their identity, requiring them to actively acquire observations that reveal discriminative functional evidence. Existing affordance grounding methods operate from fixed viewpoints and lack mechanisms for deciding where to look when functional cues are occluded or incomplete. We introduce Active Functional Affordance Grounding, a new task in which an agent sequentially explores a scene to identify and spatially ground an object satisfying a functional query. To address this problem, we propose FUSE, an adaptive semantic-geometric evidence acquisition framework that combines explicit uncertainty-driven exploration with a learned amortized planner to efficiently select informative viewpoints. We further introduce a Habitat-based benchmark for evaluating active functional grounding. Experiments show that FUSE achieves the highest observed non-oracle grounding performance while reducing computation by 1.33x relative to fully explicit exploration, and remains effective across multiple affordance knowledge sources.
 
-<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -2375,7 +2375,7 @@
 - 2026-08-12, **MiDashengLM-Gen: Unified Audio Scene Generation via LLM-Driven Autoregressive Flow Matching**, Xingwei Sun et.al., Paper: [@2608.11804](http://arxiv.org/abs/2608.11804)
 > **Abstract:** Generating coherent audio scenes that simultaneously blend speech, music, and sound effects remains a significant challenge. Current approaches typically rely on a disjointed pipeline where a frozen, decoupled text encoder feeds a separate audio decoder, limiting cross-modal optimization and leading to poor speech intelligibility. To overcome these limitations, we introduce MiDashengLM-Gen, an end-to-end framework that couples a pre-trained Large Language Model (LLM) with per-token conditional flow matching for autoregressive, variable-length mixed-audio scene generation. MiDashengLM-Gen represents a first approach for general text-to-audio generation with one end-to-end trained model. Empirical evaluations demonstrate that MiDashengLM-Gen drastically improves speech intelligibility over existing unified models. On the Seed-TTS benchmark, English Word Error Rate (WER) drops from 12.15% to 2.79%, approaching the performance of dedicated Text-to-Speech (TTS) systems (1.24%). Furthermore, the framework extends effectively to multilingual settings, yielding highly competitive multilingual WERs compared to existing baselines. Lastly, the model maintains competitive mixed-audio generation quality on the MECAT benchmark. Code and checkpoints are available at https://github.com/xiaomi-research/midashenglm-gen and https://huggingface.co/mispeech/midashenglm-gen, and the demo page is available at https://xingws.github.io/midashenglm-gen-demo/.
 
-<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -2442,7 +2442,7 @@
 - 2026-08-12, **MV2: Multi-View Multi-Vehicle Driving Dataset for Novel View Synthesis**, Sanjay Bhargav Dharavath et.al., Paper: [@2608.12442](http://arxiv.org/abs/2608.12442)
 > **Abstract:** Differentiable rendering has advanced novel view synthesis (NVS), yet applying it to real-world driving remains difficult due to sparse capture viewpoints, dynamic objects, and limited multi-trajectory data. We introduce the Multi-View Multi-Vehicle (MV2) dataset and benchmark for evaluating NVS models under large viewpoint changes in dynamic urban scenes. MV2 features synchronized captures from a car, scooter, and drone, each following distinct yet synchronized trajectories. Training NVS methods on one vehicle's camera stream and testing on another enables evaluation under substantially larger viewpoint variations than existing single-trajectory datasets. All sequences are registered via Structure-from-Motion and camera poses verified using manual pixel-level correspondence annotations, yielding 50 high-quality scenes with 12000 images. Benchmarking recent NVS and camera pose estimation methods shows that NVS performance degrades with increasing viewpoint disparity, and that feed-forward pose estimators notably lag behind optimization-based approaches, highlighting MV2 as a rigorous testbed for NVS in driving. The dataset, benchmark protocol, and project resources are available at https://mv2-dataset.github.io/.
 
-<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -2453,7 +2453,7 @@
 - 2026-08-10, **Smooth Motion Stitching via Laplacian Optimization in Rodrigues Vector Space**, Ryosuke Higasayama et.al., Paper: [@2608.08986](http://arxiv.org/abs/2608.08986)
 > **Abstract:** This paper presents a motion editing framework for smooth motion stitching based on Laplacian optimization in Rodrigues vector space. By representing joint rotations as continuous Rodrigues vectors, motion stitching is formulated as a temporal Laplacian optimization problem, enabling smooth transitions between motion segments while preserving characteristic temporal variations of reference motions. The proposed approach supports both intra-category replacement and cross-category motion stitching without relying on learning-based models or complex manual tuning, and is computationally efficient for interactive editing. Through a series of stitching experiments and comparisons with linear interpolation, we demonstrate that Laplacian editing produces stable and visually coherent transitions under a wide range of motion differences. Furthermore, an analysis of rotational continuity clarifies that rotation-axis inversions are rare in real motion data and explains why numerical instabilities observed in synthetic axis-flipping scenarios do not arise in practical motion stitching. These results highlight the importance of rotational representation in stabilizing temporal optimization and suggest that the proposed framework is well suited not only for animation authoring but also for motion analysis and future extensions incorporating perceptual or physiological cues.
 
-<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors

@@ -3,21 +3,18 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.08.15
+## 📚 Updated on 2026.08.16
 
 <details open>
-<summary>📑 Table of Contents — 2026-08-15</summary>
+<summary>📑 Table of Contents — 2026-08-16</summary>
 
 **By category**
 - [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (17)
 - [Motion Authoring, Editing & Retargeting](#motion-authoring-editing--retargeting) (2)
-- [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (1)
-- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (6)
-- [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (37)
 - [World Models & Generative Video](#world-models--generative-video) (38)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (29)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (32)
-- [Narrative & Long-form Audio](#narrative--long-form-audio) (11)
+- [Narrative & Long-form Audio](#narrative--long-form-audio) (10)
 - [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (11)
 
 </details>
@@ -77,7 +74,7 @@
 |**2026-08-12**|**HSTGFormer: Hyper Spatial-Temporal Graph Transformer for 3D Human Pose Estimation**|Ruochen Li et.al.|[@2608.12187](http://arxiv.org/abs/2608.12187)|null|
 |**2026-08-12**|**Autonomous Telerehabilitation via Skeletal Motion Prediction and Joint-Level Performance Assessment**|Lara Pereira et.al.|[@2608.12145](http://arxiv.org/abs/2608.12145)|null|
 
-<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -90,7 +87,7 @@
 |**2026-07-22**|**Design-Intent Compilation for Heterogeneous Fabrication**|Charles Wade et.al.|[@2607.22741](http://arxiv.org/abs/2607.22741)|null|
 |**2026-08-13**|**Print&Fold: Printing and Folding Shape-accurate 3D Models**|Archit Kumar et.al.|[@2608.13279](http://arxiv.org/abs/2608.13279)|null|
 
-<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -118,7 +115,7 @@
 |**2026-08-13**|**Print&Fold: Printing and Folding Shape-accurate 3D Models**|Archit Kumar et.al.|[@2608.13279](http://arxiv.org/abs/2608.13279)|null|
 |**2026-08-12**|**InvisIto: Weaving Unobtrusive Infrared Markers for Ubiquitous Textile Interaction**|Hsuanling Lee et.al.|[@2608.12580](http://arxiv.org/abs/2608.12580)|null|
 
-<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -648,7 +645,7 @@
 |**2026-08-12**|**MASCOT: Model-Aware Submodular Coverage for Composite-Attribute Text-to-Image Retrieval**|Aaryan Sharma et.al.|[@2608.12532](http://arxiv.org/abs/2608.12532)|null|
 |**2026-08-12**|**Can Vision-Language Models Assess Proxemic Risk from Egocentric Robot Images?**|Vladyslava Rudas et.al.|[@2608.12515](http://arxiv.org/abs/2608.12515)|null|
 
-<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -920,7 +917,7 @@
 |**2026-08-13**|**HounsWorld: A Multimodal World Model for Hidden Patient-State Readout, Reconstruction, and Simulation**|Yunhao Bai et.al.|[@2608.12904](http://arxiv.org/abs/2608.12904)|null|
 |**2026-08-12**|**Scaling Automatic Research Agents via World Models**|Xiyuan Yang et.al.|[@2608.12564](http://arxiv.org/abs/2608.12564)|null|
 
-<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -1093,7 +1090,7 @@
 |**2026-08-13**|**Splat-based Metal Artifact Reduction in Cone-Beam CT via Polychromatic Modeling**|Kiseok Choi et.al.|[@2608.13159](http://arxiv.org/abs/2608.13159)|null|
 |**2026-08-13**|**PixSDS: Why Latent SDS Makes Noisy Pixels**|Vsevolod Skorokhodov et.al.|[@2608.12997](http://arxiv.org/abs/2608.12997)|null|
 
-<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -1208,7 +1205,7 @@
 |**2026-08-13**|**HumanoidVLN: A Physics-Grounded Simulator and Benchmark for Vision-Language Navigation Across Diverse Humanoid Embodiments**|Quan-Dung Pham et.al.|[@2608.12860](http://arxiv.org/abs/2608.12860)|null|
 |**2026-08-13**|**FUSE: Active Functional Affordance Grounding through Adaptive Semantic-Geometric Evidence Acquisition**|Zhou Chen et.al.|[@2608.12683](http://arxiv.org/abs/2608.12683)|null|
 
-<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -1236,7 +1233,7 @@
 |**2026-08-10**|**MusicLayout: Explicit Structural Planning for Controllable Text-to-Music Generation**|Shuyu Li et.al.|[@2608.09035](http://arxiv.org/abs/2608.09035)|null|
 |**2026-08-12**|**MiDashengLM-Gen: Unified Audio Scene Generation via LLM-Driven Autoregressive Flow Matching**|Xingwei Sun et.al.|[@2608.11804](http://arxiv.org/abs/2608.11804)|null|
 
-<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -1274,7 +1271,7 @@
 |**2026-08-11**|**COGENT: Counterfactual Gaussian Explanations for Volumetric Medical Images**|Dorian Rząsa et.al.|[@2608.11422](http://arxiv.org/abs/2608.11422)|null|
 |**2026-08-12**|**MV2: Multi-View Multi-Vehicle Driving Dataset for Novel View Synthesis**|Sanjay Bhargav Dharavath et.al.|[@2608.12442](http://arxiv.org/abs/2608.12442)|null|
 
-<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -1284,7 +1281,7 @@
 |**2026-08-06**|**PoseForge: Editable Pose Analytics for AI-Assisted Sports Coaching**|Shuvam Swapnil Dash et.al.|[@2608.05971](http://arxiv.org/abs/2608.05971)|null|
 |**2026-08-10**|**Smooth Motion Stitching via Laplacian Optimization in Rodrigues Vector Space**|Ryosuke Higasayama et.al.|[@2608.08986](http://arxiv.org/abs/2608.08986)|null|
 
-<p align=right>(<a href=#updated-on-20260815>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors

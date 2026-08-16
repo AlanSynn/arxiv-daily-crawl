@@ -22,56 +22,6 @@
     "2608.08986": "|**2026-08-10**|**Smooth Motion Stitching via Laplacian Optimization in Rodrigues Vector Space**|Ryosuke Higasayama et.al.|[@2608.08986](http://arxiv.org/abs/2608.08986)|null|\n",
     "2608.05971": "|**2026-08-06**|**PoseForge: Editable Pose Analytics for AI-Assisted Sports Coaching**|Shuvam Swapnil Dash et.al.|[@2608.05971](http://arxiv.org/abs/2608.05971)|null|\n"
   },
-  "Computational Design, Mechanism & Fabrication": {
-    "2608.13279": "|**2026-08-13**|**Print&Fold: Printing and Folding Shape-accurate 3D Models**|Archit Kumar et.al.|[@2608.13279](http://arxiv.org/abs/2608.13279)|null|\n"
-  },
-  "Sketch-based & Creative HCI Tools": {
-    "2608.13279": "|**2026-08-13**|**Print&Fold: Printing and Folding Shape-accurate 3D Models**|Archit Kumar et.al.|[@2608.13279](http://arxiv.org/abs/2608.13279)|null|\n",
-    "2608.12580": "|**2026-08-12**|**InvisIto: Weaving Unobtrusive Infrared Markers for Ubiquitous Textile Interaction**|Hsuanling Lee et.al.|[@2608.12580](http://arxiv.org/abs/2608.12580)|null|\n",
-    "2608.06684": "|**2026-08-07**|**Octo's Adventure: At-home Deployment of a Pediatric Education Tool**|Crimson Olaleye et.al.|[@2608.06684](http://arxiv.org/abs/2608.06684)|null|\n",
-    "2608.04293": "|**2026-08-04**|**LEGOUI: Designing with UI-DSL Bricks to Balance Transparency and Controllability**|Yinsi Zhou et.al.|[@2608.04293](http://arxiv.org/abs/2608.04293)|null|\n",
-    "2608.01335": "|**2026-08-02**|**PartInteractor: Intent-Driven Part-Aware 3D Authoring for Continuous Co-Creation in XR**|Jianan Jiang et.al.|[@2608.01335](http://arxiv.org/abs/2608.01335)|null|\n",
-    "2608.00393": "|**2026-08-01**|**MolecularCanvas: LLM-assisted Small-Molecule Drug Discovery via Structure-Guided Constraints**|Haoyu Dong et.al.|[@2608.00393](http://arxiv.org/abs/2608.00393)|null|\n"
-  },
-  "Vision-Language & Action Models (VLA/VLM)": {
-    "2608.13474": "|**2026-08-13**|**Decoding Task Progress from VLA Representations**|Atiksh Bhardwaj et.al.|[@2608.13474](http://arxiv.org/abs/2608.13474)|null|\n",
-    "2608.13463": "|**2026-08-13**|**MLLM-Routed Heterogeneous Ensembles for Robust Cross-Dataset Image Classification**|Daniel Perkins et.al.|[@2608.13463](http://arxiv.org/abs/2608.13463)|null|\n",
-    "2608.13458": "|**2026-08-13**|**Fine-Grained Action Recognition with Cross-Attentive Latent Sparse Experts**|Imtiaz Ul Hassan et.al.|[@2608.13458](http://arxiv.org/abs/2608.13458)|null|\n",
-    "2608.13453": "|**2026-08-13**|**UniTexture: Cross-Task Universal Adversarial Textures for Vision-Language-Action Models**|Yukun Dai et.al.|[@2608.13453](http://arxiv.org/abs/2608.13453)|null|\n",
-    "2608.13426": "|**2026-08-13**|**Reduced Matrix Multiplication: Input-Adaptive Matrix-Product Reduction for LLM Inference**|Zixuan Lan et.al.|[@2608.13426](http://arxiv.org/abs/2608.13426)|null|\n",
-    "2608.13416": "|**2026-08-13**|**StreamTTT: Reconciling Real-Time Perception and Long-Term Memory in Streaming VLMs**|Joya Chen et.al.|[@2608.13416](http://arxiv.org/abs/2608.13416)|null|\n",
-    "2608.13395": "|**2026-08-13**|**FIRE-VLA: Failure-Informed Self-Evolution for Vision-Language-Action Models in Autonomous Driving**|Hao Dou et.al.|[@2608.13395](http://arxiv.org/abs/2608.13395)|null|\n",
-    "2608.13362": "|**2026-08-13**|**NestDex: Nested Policy Learning with Copilot Assisted Teleoperation for Dexterous Manipulation**|James Zhao et.al.|[@2608.13362](http://arxiv.org/abs/2608.13362)|null|\n",
-    "2608.13344": "|**2026-08-13**|**LongEarth-R1: Benchmarking and Aligning Vision-Language Models for Long-Horizon Earth Observation Reasoning**|Yupan Ding et.al.|[@2608.13344](http://arxiv.org/abs/2608.13344)|null|\n",
-    "2608.13343": "|**2026-08-13**|**AmalthAI: An Open-Source Computer Vision Platform for Cultural Heritage**|Christos Chatzisavvas et.al.|[@2608.13343](http://arxiv.org/abs/2608.13343)|null|\n",
-    "2608.13309": "|**2026-08-13**|**How Good are Foundation Models in Longitudinal MRI Disease Progression Reasoning?**|Wafa Al Ghallabi et.al.|[@2608.13309](http://arxiv.org/abs/2608.13309)|null|\n",
-    "2608.13267": "|**2026-08-13**|**How Do VLMs Behave When Blind or Misled? Behavioral Evaluation of VLMs on Scientific Figures**|Paul Osemudiame Oamen et.al.|[@2608.13267](http://arxiv.org/abs/2608.13267)|null|\n",
-    "2608.13226": "|**2026-08-13**|**CoverPrune: Coverage-Driven Token Pruning for 3D VLMs via Optimal Transport**|Peng Ling et.al.|[@2608.13226](http://arxiv.org/abs/2608.13226)|null|\n",
-    "2608.13167": "|**2026-08-13**|**TRAPSBench: Vision-Language Models Encode but Fail to Express Epistemic Restraint**|Fnu Pramono et.al.|[@2608.13167](http://arxiv.org/abs/2608.13167)|null|\n",
-    "2608.13148": "|**2026-08-13**|**Less Annotation, More Interpretation: Prior-Guided Concept Bottleneck Models for Interpretable Cancer Imaging Diagnosis**|Baoqiang Ma et.al.|[@2608.13148](http://arxiv.org/abs/2608.13148)|null|\n",
-    "2608.13119": "|**2026-08-13**|**QuISE: Defense against Typographic Attacks on VLMs via Query-Irrelevant Semantic Editing**|Shubin Lu et.al.|[@2608.13119](http://arxiv.org/abs/2608.13119)|null|\n",
-    "2608.13049": "|**2026-08-13**|**H2R-Bench: Benchmarking Human-to-Robot Manipulation Video Generation in World Models**|Dingyi Rong et.al.|[@2608.13049](http://arxiv.org/abs/2608.13049)|null|\n",
-    "2608.13026": "|**2026-08-13**|**Temporal GRPO: Beyond Trajectory-Level Credit in Vision-Language-Action Reinforcement Learning**|Yao Zhou et.al.|[@2608.13026](http://arxiv.org/abs/2608.13026)|null|\n",
-    "2608.12932": "|**2026-08-13**|**FlashDrive: Flash Vision-Language-Action Inference for Autonomous Driving**|Zekai Li et.al.|[@2608.12932](http://arxiv.org/abs/2608.12932)|null|\n",
-    "2608.12928": "|**2026-08-13**|**Polish Medical Visual Question Answering: Vision-Language Models Underutilize Visual Evidence**|Jakub Pokrywka et.al.|[@2608.12928](http://arxiv.org/abs/2608.12928)|null|\n",
-    "2608.12898": "|**2026-08-13**|**NaviDC-OCR: Navigating Document Parsing Across Digital and Camera-Captured Documents**|Peng Cai et.al.|[@2608.12898](http://arxiv.org/abs/2608.12898)|null|\n",
-    "2608.12860": "|**2026-08-13**|**HumanoidVLN: A Physics-Grounded Simulator and Benchmark for Vision-Language Navigation Across Diverse Humanoid Embodiments**|Quan-Dung Pham et.al.|[@2608.12860](http://arxiv.org/abs/2608.12860)|null|\n",
-    "2608.12854": "|**2026-08-13**|**BrainWAM: Action-Space Coordination of Semantic Priors and Predictive Dynamics for Autonomous Driving**|Bing Zhan et.al.|[@2608.12854](http://arxiv.org/abs/2608.12854)|null|\n",
-    "2608.12843": "|**2026-08-13**|**Heterogeneous Vision-Language Ensemble with Disagreement-Aware Reranking for Text-Based Person Anomaly Retrieval**|Huu-An Vu et.al.|[@2608.12843](http://arxiv.org/abs/2608.12843)|null|\n",
-    "2608.12835": "|**2026-08-13**|**AirForesight: Current-to-Future Spatial Map Imagination with Cross-Space Planning Consistency for UAV-VLN**|Yutong Liu et.al.|[@2608.12835](http://arxiv.org/abs/2608.12835)|null|\n",
-    "2608.12766": "|**2026-08-13**|**PatchGen: Learning Soft Intra-Image Predictive Subsets for Visual Generalization**|Zhaorui Tan et.al.|[@2608.12766](http://arxiv.org/abs/2608.12766)|null|\n",
-    "2608.12748": "|**2026-08-13**|**Scaling Representation Diversity: Modulated Attention and Reconstructive Regularization for Visual Grounding**|Junyi Hu et.al.|[@2608.12748](http://arxiv.org/abs/2608.12748)|null|\n",
-    "2608.12743": "|**2026-08-13**|**Spatial Memory Agent: Experience-Grounded Procedure Memory for Spatial Intelligence**|Haokai Zhang et.al.|[@2608.12743](http://arxiv.org/abs/2608.12743)|null|\n",
-    "2608.12689": "|**2026-08-13**|**Mr3D-VL: A generalist vision language foundation model for Multiparametric 3D Magnetic Resonance Imaging**|Zhi Qiao et.al.|[@2608.12689](http://arxiv.org/abs/2608.12689)|null|\n",
-    "2608.12677": "|**2026-08-13**|**The Role of Natural Language Understanding in Multimodal Video-Based Dengue Diagnosis**|Danial Sharifrazi et.al.|[@2608.12677](http://arxiv.org/abs/2608.12677)|null|\n",
-    "2608.12564": "|**2026-08-12**|**Scaling Automatic Research Agents via World Models**|Xiyuan Yang et.al.|[@2608.12564](http://arxiv.org/abs/2608.12564)|null|\n",
-    "2608.12549": "|**2026-08-12**|**StrAD: A Streaming Method and Benchmark for Audio Description Generation for Long-form Videos**|Julian Spravil et.al.|[@2608.12549](http://arxiv.org/abs/2608.12549)|null|\n",
-    "2608.12532": "|**2026-08-12**|**MASCOT: Model-Aware Submodular Coverage for Composite-Attribute Text-to-Image Retrieval**|Aaryan Sharma et.al.|[@2608.12532](http://arxiv.org/abs/2608.12532)|null|\n",
-    "2608.12515": "|**2026-08-12**|**Can Vision-Language Models Assess Proxemic Risk from Egocentric Robot Images?**|Vladyslava Rudas et.al.|[@2608.12515](http://arxiv.org/abs/2608.12515)|null|\n",
-    "2608.12314": "|**2026-08-12**|**StateFlow: Building, Evolving, and Accessing 3D World States for Previsualization**|Yuyang Yin et.al.|[@2608.12314](http://arxiv.org/abs/2608.12314)|null|\n",
-    "2608.12308": "|**2026-08-12**|**DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation**|Yan Deng et.al.|[@2608.12308](http://arxiv.org/abs/2608.12308)|null|\n",
-    "2608.12220": "|**2026-08-12**|**SCOUT: Unlocking Enhanced Spatial Reasoning via Structured Chain-of-Thought and Multi-Objective Process Reward**|Zile Zhou et.al.|[@2608.12220](http://arxiv.org/abs/2608.12220)|null|\n"
-  },
   "World Models & Generative Video": {
     "2608.13556": "|**2026-08-13**|**V-RAE: Rethinking Video Latent Spaces for Generation**|Minghui Guo et.al.|[@2608.13556](http://arxiv.org/abs/2608.13556)|null|\n",
     "2608.13552": "|**2026-08-13**|**PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives**|Kaixin Ding et.al.|[@2608.13552](http://arxiv.org/abs/2608.13552)|null|\n",
@@ -187,8 +137,7 @@
     "2608.04902": "|**2026-08-05**|**Visual Representation Matters: Exploiting Temporal Differences in Video-to-Audio Generation**|Zehua Chen et.al.|[@2608.04902](http://arxiv.org/abs/2608.04902)|null|\n",
     "2608.03021": "|**2026-08-04**|**MeloCodec: Harnessing Melodic Priors for High-Fidelity Singing Voice Representation**|Yizhong Geng et.al.|[@2608.03021](http://arxiv.org/abs/2608.03021)|null|\n",
     "2608.02023": "|**2026-08-03**|**SwanTale: Unified Multi-Speaker Speech and Audio Generation for Instruct and Zero-Shot Tasks**|Yu Zhang et.al.|[@2608.02023](http://arxiv.org/abs/2608.02023)|null|\n",
-    "2608.01796": "|**2026-08-03**|**Multi-Backbone Self-Supervised Ensembles for Audio Deepfake Detection and a Cross-Track Analysis of Generation-Detection Asymmetry**|Seunghyun Kim et.al.|[@2608.01796](http://arxiv.org/abs/2608.01796)|null|\n",
-    "2608.00463": "|**2026-08-01**|**Scene2Sound: Auditory-Grounded Soundscape Generation for 3D Gaussian Worlds**|Masaki Yoshida et.al.|[@2608.00463](http://arxiv.org/abs/2608.00463)|null|\n"
+    "2608.01796": "|**2026-08-03**|**Multi-Backbone Self-Supervised Ensembles for Audio Deepfake Detection and a Cross-Track Analysis of Generation-Detection Asymmetry**|Seunghyun Kim et.al.|[@2608.01796](http://arxiv.org/abs/2608.01796)|null|\n"
   },
   "Neural Rendering & Physics Simulation": {
     "2608.12442": "|**2026-08-12**|**MV2: Multi-View Multi-Vehicle Driving Dataset for Novel View Synthesis**|Sanjay Bhargav Dharavath et.al.|[@2608.12442](http://arxiv.org/abs/2608.12442)|null|\n",
