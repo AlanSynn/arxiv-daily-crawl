@@ -3,17 +3,20 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.08.16
+## 📚 Updated on 2026.08.17
 
 <details open>
-<summary>📑 Table of Contents — 2026-08-16</summary>
+<summary>📑 Table of Contents — 2026-08-17</summary>
 
 **By category**
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (17)
-- [Motion Authoring, Editing & Retargeting](#motion-authoring-editing--retargeting) (2)
-- [World Models & Generative Video](#world-models--generative-video) (38)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (14)
+- [Motion Authoring, Editing & Retargeting](#motion-authoring-editing--retargeting) (1)
+- [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (2)
+- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (4)
+- [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (36)
+- [World Models & Generative Video](#world-models--generative-video) (37)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (29)
-- [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (32)
+- [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (31)
 - [Narrative & Long-form Audio](#narrative--long-form-audio) (10)
 - [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (11)
 
@@ -74,7 +77,7 @@
 |**2026-08-12**|**HSTGFormer: Hyper Spatial-Temporal Graph Transformer for 3D Human Pose Estimation**|Ruochen Li et.al.|[@2608.12187](http://arxiv.org/abs/2608.12187)|null|
 |**2026-08-12**|**Autonomous Telerehabilitation via Skeletal Motion Prediction and Joint-Level Performance Assessment**|Lara Pereira et.al.|[@2608.12145](http://arxiv.org/abs/2608.12145)|null|
 
-<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260817>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -86,8 +89,9 @@
 |**2026-07-18**|**Retrofitting Existing 3D Objects with Surface-Conforming Capacitive Sensing**|Andela Ilic et.al.|[@2607.16739](http://arxiv.org/abs/2607.16739)|null|
 |**2026-07-22**|**Design-Intent Compilation for Heterogeneous Fabrication**|Charles Wade et.al.|[@2607.22741](http://arxiv.org/abs/2607.22741)|null|
 |**2026-08-13**|**Print&Fold: Printing and Folding Shape-accurate 3D Models**|Archit Kumar et.al.|[@2608.13279](http://arxiv.org/abs/2608.13279)|null|
+|**2026-08-13**|**Reward Machines for Signal Temporal Logic**|Alper Kamil Bozkurt et.al.|[@2608.13625](http://arxiv.org/abs/2608.13625)|null|
 
-<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260817>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -115,7 +119,7 @@
 |**2026-08-13**|**Print&Fold: Printing and Folding Shape-accurate 3D Models**|Archit Kumar et.al.|[@2608.13279](http://arxiv.org/abs/2608.13279)|null|
 |**2026-08-12**|**InvisIto: Weaving Unobtrusive Infrared Markers for Ubiquitous Textile Interaction**|Hsuanling Lee et.al.|[@2608.12580](http://arxiv.org/abs/2608.12580)|null|
 
-<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260817>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -644,8 +648,28 @@
 |**2026-08-12**|**StrAD: A Streaming Method and Benchmark for Audio Description Generation for Long-form Videos**|Julian Spravil et.al.|[@2608.12549](http://arxiv.org/abs/2608.12549)|null|
 |**2026-08-12**|**MASCOT: Model-Aware Submodular Coverage for Composite-Attribute Text-to-Image Retrieval**|Aaryan Sharma et.al.|[@2608.12532](http://arxiv.org/abs/2608.12532)|null|
 |**2026-08-12**|**Can Vision-Language Models Assess Proxemic Risk from Egocentric Robot Images?**|Vladyslava Rudas et.al.|[@2608.12515](http://arxiv.org/abs/2608.12515)|null|
+|**2026-08-14**|**Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training**|Hanfeng Lu et.al.|[@2608.14498](http://arxiv.org/abs/2608.14498)|null|
+|**2026-08-14**|**CRAFT: Constrained Reward via Attention Fine-Tuning for Subject Personalization without Composed Targets**|Jihun Park et.al.|[@2608.14403](http://arxiv.org/abs/2608.14403)|null|
+|**2026-08-14**|**Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation**|Yuxuan Chen et.al.|[@2608.14379](http://arxiv.org/abs/2608.14379)|null|
+|**2026-08-14**|**Seeing Red, Thinking Bad: Color Bias in Vision Language Models**|Kohsuke Ide et.al.|[@2608.14286](http://arxiv.org/abs/2608.14286)|null|
+|**2026-08-14**|**On the Robustness of Temporal Vision-Language Models for Surgical Endoscopy Videos**|Darakshan Rashid et.al.|[@2608.14262](http://arxiv.org/abs/2608.14262)|null|
+|**2026-08-14**|**RankT2I: A Submodular Framework for Discovering Interpretable and Diverse Semantics in Text-to-Image Models**|Ritika Allada et.al.|[@2608.14226](http://arxiv.org/abs/2608.14226)|null|
+|**2026-08-14**|**Can Language Models Understand mmWave Data? Benchmarking Large Language Models for mmWave Radar-Based Human Understanding**|Jeongwan Shin et.al.|[@2608.14179](http://arxiv.org/abs/2608.14179)|null|
+|**2026-08-14**|**AlignFace: Human-Aligned Face Similarity Metric with Interpretable Concept Relations**|Ying Huang et.al.|[@2608.14130](http://arxiv.org/abs/2608.14130)|null|
+|**2026-08-14**|**Evolve Vision-Language-Action Model into an Agent with On-the-fly Tool-use**|Yi Ding et.al.|[@2608.14047](http://arxiv.org/abs/2608.14047)|null|
+|**2026-08-14**|**AdvDex: Learning Dexterous Manipulation from Human Demonstrations via Joint-Aligned Actions and Adversarial Learning**|Zhiyue Zhao et.al.|[@2608.14028](http://arxiv.org/abs/2608.14028)|null|
+|**2026-08-14**|**SSP: An Event-Matched Syn2Sim2Phy Cross-Domain Evaluation Framework for Autonomous Driving VLA Models**|Haojie Feng et.al.|[@2608.14024](http://arxiv.org/abs/2608.14024)|null|
+|**2026-08-14**|**Content Based Video Narration of Gameplay with Vision Language Models**|Mathew Varghese et.al.|[@2608.14016](http://arxiv.org/abs/2608.14016)|null|
+|**2026-08-14**|**MedClaw: Heuristic Agent Harness for Long-Horizon Surgical Video Reasoning**|Yingying Fan et.al.|[@2608.14015](http://arxiv.org/abs/2608.14015)|null|
+|**2026-08-14**|**Rethinking Auxiliary Modalities in Multimodal Zero-shot Anomaly Detection: From Semantic Fusion to Conditional Modulation**|Peng Wu et.al.|[@2608.13973](http://arxiv.org/abs/2608.13973)|null|
+|**2026-08-14**|**PPOM: Marginalizing Patch-Grid Phase for CLIP-Based Generalizable Vision-Language Prompt Tuning**|Liang Wang et.al.|[@2608.13969](http://arxiv.org/abs/2608.13969)|null|
+|**2026-08-14**|**BICPO-VLA: Behavior-Identified Continuation Preference Optimization for Smooth Asynchronous Vision-Language-Action Control**|Ming Shang et.al.|[@2608.13924](http://arxiv.org/abs/2608.13924)|null|
+|**2026-08-13**|**VLM- and LLM-Driven Multi-Agent System for PET Image Denoising**|Boxiao Yu et.al.|[@2608.13791](http://arxiv.org/abs/2608.13791)|null|
+|**2026-08-13**|**ChartProbe: A Diagnostic Study on Visual Reasoning through Perception, Grounding, and Simple Reasoning**|Mahsa Khoshnoodi et.al.|[@2608.13766](http://arxiv.org/abs/2608.13766)|null|
+|**2026-08-13**|**Amplified Does Not Mean Predictive: Reasoning Behaviors in Thinking Models**|Jean de Dieu Nyandwi et.al.|[@2608.13760](http://arxiv.org/abs/2608.13760)|null|
+|**2026-08-13**|**MedPlex: Deep Vision-Language Co-Adaptation for Clinically Grounded Medical Segmentation**|Rafi Ibn Sultan et.al.|[@2608.13690](http://arxiv.org/abs/2608.13690)|null|
 
-<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260817>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -916,8 +940,13 @@
 |**2026-08-13**|**Diagnosing JEPA World Models with Action-Conditioned Predictive Consistency**|Guo An et.al.|[@2608.12939](http://arxiv.org/abs/2608.12939)|null|
 |**2026-08-13**|**HounsWorld: A Multimodal World Model for Hidden Patient-State Readout, Reconstruction, and Simulation**|Yunhao Bai et.al.|[@2608.12904](http://arxiv.org/abs/2608.12904)|null|
 |**2026-08-12**|**Scaling Automatic Research Agents via World Models**|Xiyuan Yang et.al.|[@2608.12564](http://arxiv.org/abs/2608.12564)|null|
+|**2026-08-14**|**Marionette: Predicting World States, Rendering Geometry, Painting Appearance**|Zian Meng et.al.|[@2608.14530](http://arxiv.org/abs/2608.14530)|null|
+|**2026-08-14**|**Beyond Text Conditioning: A Systematic Study of MLLM-DiT Fusion for Video Generation**|Yanbo Ding et.al.|[@2608.14043](http://arxiv.org/abs/2608.14043)|null|
+|**2026-08-14**|**ForgeWM: Progressive Causal Training for Few-Step Action-Conditioned Video World Models**|Xinye Li et.al.|[@2608.14022](http://arxiv.org/abs/2608.14022)|null|
+|**2026-08-14**|**Ontology-Grounded World Models for Failure Diagnosis and Closed-Loop Repair in Physical AI Systems**|Kailin Wang et.al.|[@2608.13901](http://arxiv.org/abs/2608.13901)|null|
+|**2026-08-13**|**hint$^2$: Hierarchical World Models for Inference-Time Temporal Logic Guidance**|Moritz Zoellner et.al.|[@2608.13678](http://arxiv.org/abs/2608.13678)|null|
 
-<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260817>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -1089,8 +1118,10 @@
 |**2026-08-13**|**GS$^{2}$CI: Robust Gaussian Splatting For Snapshot Compressive Imaging via Large Vision Model Priors**|Yanming Yang et.al.|[@2608.13502](http://arxiv.org/abs/2608.13502)|null|
 |**2026-08-13**|**Splat-based Metal Artifact Reduction in Cone-Beam CT via Polychromatic Modeling**|Kiseok Choi et.al.|[@2608.13159](http://arxiv.org/abs/2608.13159)|null|
 |**2026-08-13**|**PixSDS: Why Latent SDS Makes Noisy Pixels**|Vsevolod Skorokhodov et.al.|[@2608.12997](http://arxiv.org/abs/2608.12997)|null|
+|**2026-08-14**|**SPARGen: Unifying Spatial Perception and Reasoning through Native Multimodal Generation**|Jinsheng Quan et.al.|[@2608.14138](http://arxiv.org/abs/2608.14138)|null|
+|**2026-08-14**|**HiCo-GS: Hierarchical Context Aggregation and Geometric Consistency for Octree Gaussian Splatting**|Wei Zhang et.al.|[@2608.14136](http://arxiv.org/abs/2608.14136)|null|
 
-<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260817>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -1204,8 +1235,14 @@
 |**2026-08-13**|**EgoPHI: Estimating Contact and Force from Egocentric Vision**|Andela Ilic et.al.|[@2608.13014](http://arxiv.org/abs/2608.13014)|null|
 |**2026-08-13**|**HumanoidVLN: A Physics-Grounded Simulator and Benchmark for Vision-Language Navigation Across Diverse Humanoid Embodiments**|Quan-Dung Pham et.al.|[@2608.12860](http://arxiv.org/abs/2608.12860)|null|
 |**2026-08-13**|**FUSE: Active Functional Affordance Grounding through Adaptive Semantic-Geometric Evidence Acquisition**|Zhou Chen et.al.|[@2608.12683](http://arxiv.org/abs/2608.12683)|null|
+|**2026-08-14**|**OccPlanner: Goal-Aware Occupancy-Conditioned Diffusion Planner for Pixel-Goal Navigation**|Binling Huang et.al.|[@2608.14160](http://arxiv.org/abs/2608.14160)|null|
+|**2026-08-14**|**AgilePE: Autonomous UAV Pursuit-Evasion via Self-Play Reinforcement Learning**|Wenhao Tang et.al.|[@2608.14135](http://arxiv.org/abs/2608.14135)|null|
+|**2026-08-14**|**Evolve Vision-Language-Action Model into an Agent with On-the-fly Tool-use**|Yi Ding et.al.|[@2608.14047](http://arxiv.org/abs/2608.14047)|null|
+|**2026-08-14**|**AdvDex: Learning Dexterous Manipulation from Human Demonstrations via Joint-Aligned Actions and Adversarial Learning**|Zhiyue Zhao et.al.|[@2608.14028](http://arxiv.org/abs/2608.14028)|null|
+|**2026-08-13**|**Architecture and Affordances of PLAUD: Performative Latents and Unsupervised DDSP**|Błażej Kotowski et.al.|[@2608.13724](http://arxiv.org/abs/2608.13724)|null|
+|**2026-08-13**|**Coverage Aware Active Evaluation for Failure Discovery with Paired Systems**|Anjali Parashar et.al.|[@2608.13719](http://arxiv.org/abs/2608.13719)|null|
 
-<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260817>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -1233,7 +1270,7 @@
 |**2026-08-10**|**MusicLayout: Explicit Structural Planning for Controllable Text-to-Music Generation**|Shuyu Li et.al.|[@2608.09035](http://arxiv.org/abs/2608.09035)|null|
 |**2026-08-12**|**MiDashengLM-Gen: Unified Audio Scene Generation via LLM-Driven Autoregressive Flow Matching**|Xingwei Sun et.al.|[@2608.11804](http://arxiv.org/abs/2608.11804)|null|
 
-<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260817>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -1270,8 +1307,9 @@
 |**2026-08-11**|**CasDeblurGS: Cascaded 2D-to-3D Multi-View Consistency for 3D Gaussian Splatting from Two Blurry Images**|Haeyun Choi et.al.|[@2608.10345](http://arxiv.org/abs/2608.10345)|null|
 |**2026-08-11**|**COGENT: Counterfactual Gaussian Explanations for Volumetric Medical Images**|Dorian Rząsa et.al.|[@2608.11422](http://arxiv.org/abs/2608.11422)|null|
 |**2026-08-12**|**MV2: Multi-View Multi-Vehicle Driving Dataset for Novel View Synthesis**|Sanjay Bhargav Dharavath et.al.|[@2608.12442](http://arxiv.org/abs/2608.12442)|null|
+|**2026-08-14**|**RGBX-Next: Towards Realistic Generative Rendering from G-Buffers**|Zheng Zeng et.al.|[@2608.13929](http://arxiv.org/abs/2608.13929)|null|
 
-<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260817>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -1281,7 +1319,7 @@
 |**2026-08-06**|**PoseForge: Editable Pose Analytics for AI-Assisted Sports Coaching**|Shuvam Swapnil Dash et.al.|[@2608.05971](http://arxiv.org/abs/2608.05971)|null|
 |**2026-08-10**|**Smooth Motion Stitching via Laplacian Optimization in Rodrigues Vector Space**|Ryosuke Higasayama et.al.|[@2608.08986](http://arxiv.org/abs/2608.08986)|null|
 
-<p align=right>(<a href=#updated-on-20260816>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260817>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
