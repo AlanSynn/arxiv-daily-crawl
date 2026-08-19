@@ -3,20 +3,20 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.08.18
+## 📚 Updated on 2026.08.19
 
 <details open>
-<summary>📑 Table of Contents — 2026-08-18</summary>
+<summary>📑 Table of Contents — 2026-08-19</summary>
 
 **By category**
 - [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (15)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (3)
 - [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (5)
-- [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (33)
+- [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (35)
 - [World Models & Generative Video](#world-models--generative-video) (37)
-- [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (28)
-- [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (31)
-- [Narrative & Long-form Audio](#narrative--long-form-audio) (9)
+- [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (30)
+- [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (33)
+- [Narrative & Long-form Audio](#narrative--long-form-audio) (8)
 - [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (10)
 
 </details>
@@ -78,8 +78,9 @@
 |**2026-08-17**|**Spatial Temporal Synergy: Balancing Change and Invariance in Text Driven 3D Human Motion Editing**|Shaohui Lin et.al.|[@2608.16008](http://arxiv.org/abs/2608.16008)|null|
 |**2026-08-17**|**A Plug-and-Play 2D Motion Interface for Real-World Motion Language Models**|Kaname Yokoyama et.al.|[@2608.15984](http://arxiv.org/abs/2608.15984)|null|
 |**2026-08-16**|**FlowDance: Music-Driven Dance Video Generation with Parallel Pose and RGB Streams**|Genying Li et.al.|[@2608.15818](http://arxiv.org/abs/2608.15818)|null|
+|**2026-08-18**|**NeuroPath: Brain-Inspired Dual-Pathway Graph Convolutional Networks for Skeleton-Based Action Recognition**|Kanglei Zhou et.al.|[@2608.17487](http://arxiv.org/abs/2608.17487)|null|
 
-<p align=right>(<a href=#updated-on-20260818>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260819>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -94,7 +95,7 @@
 |**2026-08-13**|**Reward Machines for Signal Temporal Logic**|Alper Kamil Bozkurt et.al.|[@2608.13625](http://arxiv.org/abs/2608.13625)|null|
 |**2026-08-16**|**Detachable Wire Drive : Reconfigurable Robot Architecture with Shared Actuators**|Takahiro Hattori et.al.|[@2608.15461](http://arxiv.org/abs/2608.15461)|null|
 
-<p align=right>(<a href=#updated-on-20260818>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260819>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -122,8 +123,9 @@
 |**2026-08-13**|**Print&Fold: Printing and Folding Shape-accurate 3D Models**|Archit Kumar et.al.|[@2608.13279](http://arxiv.org/abs/2608.13279)|null|
 |**2026-08-12**|**InvisIto: Weaving Unobtrusive Infrared Markers for Ubiquitous Textile Interaction**|Hsuanling Lee et.al.|[@2608.12580](http://arxiv.org/abs/2608.12580)|null|
 |**2026-08-15**|**Everything Is a VisionBlock: Conversational Authoring over Git-Versioned Content for Spatial Computing**|Zhaoming Yin et.al.|[@2608.15442](http://arxiv.org/abs/2608.15442)|null|
+|**2026-08-17**|**Appearing Legitimate is Not Enough: Interrogating Synthetic Agents in Representational Processes through a Participatory Design Lens**|Aditya Nayak et.al.|[@2608.17099](http://arxiv.org/abs/2608.17099)|null|
 
-<p align=right>(<a href=#updated-on-20260818>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260819>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -705,8 +707,43 @@
 |**2026-08-16**|**UniFed-VLM: Federated Instruction Tuning for Vision-Language Models with Multiple Heterogeneity**|Pengyu Wang et.al.|[@2608.15516](http://arxiv.org/abs/2608.15516)|null|
 |**2026-08-16**|**EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints**|Ao Zhou et.al.|[@2608.15502](http://arxiv.org/abs/2608.15502)|null|
 |**2026-08-16**|**Bit-Flip Attacks on Vision-Language-Action Models: Action-Decoding Architecture Shapes the Vulnerability**|Yudong Gao et.al.|[@2608.15475](http://arxiv.org/abs/2608.15475)|null|
+|**2026-08-18**|**Plug-and-Play Traffic Element Awareness for End-to-End Autonomous Driving**|Zongzheng Zhang et.al.|[@2608.18035](http://arxiv.org/abs/2608.18035)|null|
+|**2026-08-18**|**Memory Tree Guided Key Frame Querying for Efficient 3D Question Answering**|Hsiang-Wei Huang et.al.|[@2608.18009](http://arxiv.org/abs/2608.18009)|null|
+|**2026-08-18**|**PerFact: Perception-Derived Fact Prompting for 3D Brain MRI Report Generation**|Jianyu Sun et.al.|[@2608.17926](http://arxiv.org/abs/2608.17926)|null|
+|**2026-08-18**|**Vision-Language Models for Analog Gauge Reading: An Empirical Study of Specialization, Transfer and Reliability**|Abdul Mueez et.al.|[@2608.17723](http://arxiv.org/abs/2608.17723)|null|
+|**2026-08-18**|**MemCatalyst: Amplifying Data Auditing on Vision-Language Models via Data Poisoning**|Xukun Luan et.al.|[@2608.17722](http://arxiv.org/abs/2608.17722)|null|
+|**2026-08-18**|**CompCPZ: Preserving Multi-Modal Intent in Language-Guided Robot Manipulation**|Zhen Zhang et.al.|[@2608.17717](http://arxiv.org/abs/2608.17717)|null|
+|**2026-08-18**|**OVIP-SG: Open-Vocabulary Instance-Preserving Scene Graphs for Mapping and Retrieval of Small, Fine-Grained Objects**|Tianjing Hao et.al.|[@2608.17633](http://arxiv.org/abs/2608.17633)|null|
+|**2026-08-18**|**LIBERO-VIFO: Benchmarking the Capability and Safety of Visual Cue Following in Vision-Language-Action Models**|Zhengyan Qian et.al.|[@2608.17600](http://arxiv.org/abs/2608.17600)|null|
+|**2026-08-18**|**HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction**|Wang Warren Chen et.al.|[@2608.17584](http://arxiv.org/abs/2608.17584)|null|
+|**2026-08-18**|**GroupForward: Building Referable 3D Scenes via Instance-Grouped Feed-Forward Gaussian Splatting**|Qijian Tian et.al.|[@2608.17535](http://arxiv.org/abs/2608.17535)|null|
+|**2026-08-18**|**SE-MoLoRA: Shared-Expert LoRA Adapters for Domain-Specific Photographic Assessment**|Bishwash Khanal et.al.|[@2608.17514](http://arxiv.org/abs/2608.17514)|null|
+|**2026-08-18**|**Embodied-Navigator: Point, Think, Memorize, and Align for Efficient Navigation**|Hongyan Feng et.al.|[@2608.17512](http://arxiv.org/abs/2608.17512)|null|
+|**2026-08-18**|**Calibrated Predictive Safety for Heterogeneous Robots: An Action-Conditioned JEPA Framework with Model-Based Safety Shields**|Kaiming Zhong et.al.|[@2608.17496](http://arxiv.org/abs/2608.17496)|null|
+|**2026-08-18**|**Reuse Before You Retrieve: Diagnosing Headroom and Complementarity for Test-Time Augmentation of Embodied Multimodal Policies**|Yuhwan Jeong et.al.|[@2608.17484](http://arxiv.org/abs/2608.17484)|null|
+|**2026-08-18**|**EATR-Stereo: Embodiment-Aware Routing of Paired Stereo Evidence for Humanoid Vision-Language-Action Control**|Songwei Wu et.al.|[@2608.17453](http://arxiv.org/abs/2608.17453)|null|
+|**2026-08-18**|**Counterfactual Anatomy-guided Spatial-Temporal Decoding for Annotation-Free Hallucination Mitigation in Medical VLMs**|Yifan Lu et.al.|[@2608.17427](http://arxiv.org/abs/2608.17427)|null|
+|**2026-08-18**|**SemComp-Bench: Benchmarking Semantic Task Completion in Video Generation**|Keyu Tu et.al.|[@2608.17426](http://arxiv.org/abs/2608.17426)|null|
+|**2026-08-18**|**Prism-GRPO: Faster VLA Policy Optimization via Splitting Same-outcome Groups**|Zeyun Deng et.al.|[@2608.17423](http://arxiv.org/abs/2608.17423)|null|
+|**2026-08-18**|**TEAMS: Text-prompted spatiotEmporal dual-heAd Mamba Snake**|Ruicheng Zhang et.al.|[@2608.17421](http://arxiv.org/abs/2608.17421)|null|
+|**2026-08-18**|**MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding**|Bonan Zhang et.al.|[@2608.17402](http://arxiv.org/abs/2608.17402)|null|
+|**2026-08-18**|**MANIGUARD: A Benchmark and Data Suite for Specification-Grounded Safety Evaluation and Improvement of Robotic Manipulation**|Yiyan Peng et.al.|[@2608.17386](http://arxiv.org/abs/2608.17386)|null|
+|**2026-08-18**|**CORAM: Coherent Orthogonal Rotation for Model Merging**|Xinyi Sui et.al.|[@2608.17366](http://arxiv.org/abs/2608.17366)|null|
+|**2026-08-18**|**ORPA: Online Residual Policy Adaptation for Robot Manipulation Control with Human Feedback**|Muhammad A. Muttaqien et.al.|[@2608.17323](http://arxiv.org/abs/2608.17323)|null|
+|**2026-08-18**|**If, Then, Otherwise: Diagnosing Conditional Branching in Vision-Language Navigation**|Seoyoung Lee et.al.|[@2608.17318](http://arxiv.org/abs/2608.17318)|null|
+|**2026-08-18**|**Learning What Not to Learn: Adversarial Disentangled Prompt Tuning for Robust Vision-Language Models**|Yang Chen et.al.|[@2608.17306](http://arxiv.org/abs/2608.17306)|null|
+|**2026-08-18**|**Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL**|Yunhao Yang et.al.|[@2608.17253](http://arxiv.org/abs/2608.17253)|null|
+|**2026-08-18**|**Structural Plan-to-Model Conversion with Deterministic Geometry and Guarded Agentic Vision-Language Refinement**|Mohammad Talebi-Kalaleh et.al.|[@2608.17237](http://arxiv.org/abs/2608.17237)|null|
+|**2026-08-17**|**Teach and Grow: An Agent-Centered Architecture for General Robot Learning**|Chang Nie et.al.|[@2608.17209](http://arxiv.org/abs/2608.17209)|null|
+|**2026-08-17**|**Which Source Wins? Task-Dependent Reliance in Vision-Language Models**|Rodela Ghosh et.al.|[@2608.17205](http://arxiv.org/abs/2608.17205)|null|
+|**2026-08-17**|**Expressivity In Multimodal Contrastive Learning**|Andrew Stuart et.al.|[@2608.17203](http://arxiv.org/abs/2608.17203)|null|
+|**2026-08-17**|**Q-Learning With World Models**|Perry Dong et.al.|[@2608.17163](http://arxiv.org/abs/2608.17163)|null|
+|**2026-08-17**|**PDDL-ART: Autonomous Symbolic Abstraction From Demonstration For Long-Horizon Robotic Manipulation Using Vision-Language Models**|Disha Kamale et.al.|[@2608.17146](http://arxiv.org/abs/2608.17146)|null|
+|**2026-08-17**|**PROBE: Manipulation-Grounded Visual Question Answering with VLM Agents**|Vineet Bhat et.al.|[@2608.17129](http://arxiv.org/abs/2608.17129)|null|
+|**2026-08-17**|**OV3D-Bench: A Diagnostic Benchmark for Open-Vocabulary Monocular 3D Detection**|Mariia Gladkova et.al.|[@2608.17110](http://arxiv.org/abs/2608.17110)|null|
+|**2026-08-17**|**Inference-Time Attention Steering for Vision-Language-Action Driving Models**|Darshan Nagendra Prasad et.al.|[@2608.17095](http://arxiv.org/abs/2608.17095)|null|
 
-<p align=right>(<a href=#updated-on-20260818>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260819>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -997,8 +1034,18 @@
 |**2026-08-15**|**Low-Rank Dynamics-Effective Latent Carriers for Counterfactual Rollout in Learned World Models**|Yang Liu et.al.|[@2608.15156](http://arxiv.org/abs/2608.15156)|null|
 |**2026-08-15**|**Evidence of Absence: Cross-Modal Abductive Risk Perception to Sustain World Models When Vision Fails**|Cong Xu et.al.|[@2608.14952](http://arxiv.org/abs/2608.14952)|null|
 |**2026-08-14**|**Qwen-Video-Edit: Instruction-Based Video Editing by Repurposing an Image Editing Model**|Yunpeng Bai et.al.|[@2608.14790](http://arxiv.org/abs/2608.14790)|null|
+|**2026-08-18**|**Hydra-0: Action Flow for Generalist World Modeling and Control**|Hongyu Li et.al.|[@2608.18077](http://arxiv.org/abs/2608.18077)|null|
+|**2026-08-18**|**LinCa: Accelerating Diffusion Models via Learnable Decomposed Feature Caching**|Jinshan Liu et.al.|[@2608.17973](http://arxiv.org/abs/2608.17973)|null|
+|**2026-08-18**|**Towards Zero-Shot Task Transfer with Neurosymbolic World Models**|Isidoro Tamassia et.al.|[@2608.17959](http://arxiv.org/abs/2608.17959)|null|
+|**2026-08-18**|**An Omitted Mode Is a Rare Rule: The Sampling-Verification Danger Law in Continuous Code World Models**|Javier Aguilar Martín et.al.|[@2608.17956](http://arxiv.org/abs/2608.17956)|null|
+|**2026-08-18**|**Magnitude-Direction Decoupling for Fast Video Generation with Flow Matching Models**|Haonan Xu et.al.|[@2608.17695](http://arxiv.org/abs/2608.17695)|null|
+|**2026-08-18**|**No Gaussian Required: Contrastive Inverse Dynamics for JEPA World Models**|Jack Boylan et.al.|[@2608.17542](http://arxiv.org/abs/2608.17542)|null|
+|**2026-08-18**|**SemComp-Bench: Benchmarking Semantic Task Completion in Video Generation**|Keyu Tu et.al.|[@2608.17426](http://arxiv.org/abs/2608.17426)|null|
+|**2026-08-18**|**SPVC: Structured and Panoptic Video Fixing for Cross-Dataset Driving Scene Rendering**|Gen Li et.al.|[@2608.17420](http://arxiv.org/abs/2608.17420)|null|
+|**2026-08-17**|**Q-Learning With World Models**|Perry Dong et.al.|[@2608.17163](http://arxiv.org/abs/2608.17163)|null|
+|**2026-08-16**|**WONDER: A Radio World Model-based Negotiation Framework for Multi-Agent UAV Coverage Optimization**|Jiahao Huang et.al.|[@2608.16955](http://arxiv.org/abs/2608.16955)|null|
 
-<p align=right>(<a href=#updated-on-20260818>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260819>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -1183,8 +1230,16 @@
 |**2026-08-15**|**Robust structure from motion for aerial-ground images via detector-free feature matching and multi-view track refinement**|San Jiang et.al.|[@2608.15251](http://arxiv.org/abs/2608.15251)|null|
 |**2026-08-14**|**MegaParts: Scaling Part-Aware 3D Object Generation to 300 Parts via Token-Efficient Autoregressive Modeling**|Manwen Liao et.al.|[@2608.14783](http://arxiv.org/abs/2608.14783)|null|
 |**2026-08-11**|**SpotlessGS: Relightable 3D Gaussian Splatting under Dynamic Illumination for Robotic Perception**|Liang Hong et.al.|[@2608.14713](http://arxiv.org/abs/2608.14713)|null|
+|**2026-08-18**|**Initialization-Free Bundle Adjustment Revisited: A Controlled Experimental Study**|Simon Weber et.al.|[@2608.18028](http://arxiv.org/abs/2608.18028)|null|
+|**2026-08-18**|**GS-Voxel: Fitting-Free Structured Latents for Large-Scale 3DGS Generation**|Ming Qian et.al.|[@2608.17988](http://arxiv.org/abs/2608.17988)|null|
+|**2026-08-18**|**Differentiable Voronoi Ray Tracing Beyond Rasterization Speeds**|Bernardo Taveira et.al.|[@2608.17682](http://arxiv.org/abs/2608.17682)|null|
+|**2026-08-18**|**GroupForward: Building Referable 3D Scenes via Instance-Grouped Feed-Forward Gaussian Splatting**|Qijian Tian et.al.|[@2608.17535](http://arxiv.org/abs/2608.17535)|null|
+|**2026-08-18**|**NGS-Marker: Robust Native Watermarking for 3D Gaussian Splatting**|Hao Qin et.al.|[@2608.17447](http://arxiv.org/abs/2608.17447)|null|
+|**2026-08-18**|**SPVC: Structured and Panoptic Video Fixing for Cross-Dataset Driving Scene Rendering**|Gen Li et.al.|[@2608.17420](http://arxiv.org/abs/2608.17420)|null|
+|**2026-08-18**|**GeoWeaver: Accurate Long-Sequence 3D Reconstruction via Hierarchical Geometric Assembly**|Tinghao Jiang et.al.|[@2608.17389](http://arxiv.org/abs/2608.17389)|null|
+|**2026-08-18**|**3D Gaussian Accelerated Ray Tracing: Fast training through particle-based backward propagation**|Laurent Vit et.al.|[@2608.17298](http://arxiv.org/abs/2608.17298)|null|
 
-<p align=right>(<a href=#updated-on-20260818>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260819>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -1311,8 +1366,13 @@
 |**2026-08-16**|**ReForce: Learning Force-aware Retargeting for Dexterous Manipulation**|Yuhang Wu et.al.|[@2608.15560](http://arxiv.org/abs/2608.15560)|null|
 |**2026-08-16**|**Vision-Based Tactile Intelligence for Robotics: Sensing, Learning, and Embodied Manipulation**|Peng Zhou et.al.|[@2608.15490](http://arxiv.org/abs/2608.15490)|null|
 |**2026-08-15**|**EgoTac: In-the-wild Tactile Prediction from Egocentric Vision**|Wenkang Zhang et.al.|[@2608.15060](http://arxiv.org/abs/2608.15060)|null|
+|**2026-08-18**|**Towards Zero-Shot Task Transfer with Neurosymbolic World Models**|Isidoro Tamassia et.al.|[@2608.17959](http://arxiv.org/abs/2608.17959)|null|
+|**2026-08-18**|**Iterative Grasp Pose Refinement: A Deep Reinforcement Learning Approach for 2D Vision**|Amir Arsalan Nematollahi et.al.|[@2608.17628](http://arxiv.org/abs/2608.17628)|null|
+|**2026-08-18**|**Robust Brachiation on a Life-Sized Dual-Arm Robot Using Waypoint-Guided Reinforcement Learning**|Ayumu Iwata et.al.|[@2608.17320](http://arxiv.org/abs/2608.17320)|null|
+|**2026-08-17**|**PROBE: Manipulation-Grounded Visual Question Answering with VLM Agents**|Vineet Bhat et.al.|[@2608.17129](http://arxiv.org/abs/2608.17129)|null|
+|**2026-08-17**|**FetchMan: Learning Visual Humanoid Loco-Manipulation Policies from Simulated Experiences**|Omar Rayyan et.al.|[@2608.17027](http://arxiv.org/abs/2608.17027)|null|
 
-<p align=right>(<a href=#updated-on-20260818>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260819>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -1341,7 +1401,7 @@
 |**2026-08-12**|**MiDashengLM-Gen: Unified Audio Scene Generation via LLM-Driven Autoregressive Flow Matching**|Xingwei Sun et.al.|[@2608.11804](http://arxiv.org/abs/2608.11804)|null|
 |**2026-08-16**|**CineDub: Scaling End-to-End Video Dubbing to Multi-Speaker Dialogues with Coherent Sound Effects**|Yusheng Dai et.al.|[@2608.15734](http://arxiv.org/abs/2608.15734)|null|
 
-<p align=right>(<a href=#updated-on-20260818>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260819>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -1380,8 +1440,9 @@
 |**2026-08-12**|**MV2: Multi-View Multi-Vehicle Driving Dataset for Novel View Synthesis**|Sanjay Bhargav Dharavath et.al.|[@2608.12442](http://arxiv.org/abs/2608.12442)|null|
 |**2026-08-14**|**RGBX-Next: Towards Realistic Generative Rendering from G-Buffers**|Zheng Zeng et.al.|[@2608.13929](http://arxiv.org/abs/2608.13929)|null|
 |**2026-08-11**|**SpotlessGS: Relightable 3D Gaussian Splatting under Dynamic Illumination for Robotic Perception**|Liang Hong et.al.|[@2608.14713](http://arxiv.org/abs/2608.14713)|null|
+|**2026-08-18**|**MetaSapiens v2: Advancing Real-Time Foveated Neural Rendering via Foveation-Aware Pruning and Stereo Warping**|Weikai Lin et.al.|[@2608.17969](http://arxiv.org/abs/2608.17969)|null|
 
-<p align=right>(<a href=#updated-on-20260818>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260819>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -1391,7 +1452,7 @@
 |**2026-08-06**|**PoseForge: Editable Pose Analytics for AI-Assisted Sports Coaching**|Shuvam Swapnil Dash et.al.|[@2608.05971](http://arxiv.org/abs/2608.05971)|null|
 |**2026-08-10**|**Smooth Motion Stitching via Laplacian Optimization in Rodrigues Vector Space**|Ryosuke Higasayama et.al.|[@2608.08986](http://arxiv.org/abs/2608.08986)|null|
 
-<p align=right>(<a href=#updated-on-20260818>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260819>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
