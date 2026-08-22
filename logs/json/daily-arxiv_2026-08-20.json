@@ -28,8 +28,7 @@
     "2608.17099": "|**2026-08-17**|**Appearing Legitimate is Not Enough: Interrogating Synthetic Agents in Representational Processes through a Participatory Design Lens**|Aditya Nayak et.al.|[@2608.17099](http://arxiv.org/abs/2608.17099)|null|\n",
     "2608.15442": "|**2026-08-15**|**Everything Is a VisionBlock: Conversational Authoring over Git-Versioned Content for Spatial Computing**|Zhaoming Yin et.al.|[@2608.15442](http://arxiv.org/abs/2608.15442)|null|\n",
     "2608.13279": "|**2026-08-13**|**Print&Fold: Printing and Folding Shape-accurate 3D Models**|Archit Kumar et.al.|[@2608.13279](http://arxiv.org/abs/2608.13279)|null|\n",
-    "2608.12580": "|**2026-08-12**|**InvisIto: Weaving Unobtrusive Infrared Markers for Ubiquitous Textile Interaction**|Hsuanling Lee et.al.|[@2608.12580](http://arxiv.org/abs/2608.12580)|null|\n",
-    "2608.06684": "|**2026-08-07**|**Octo's Adventure: At-home Deployment of a Pediatric Education Tool**|Crimson Olaleye et.al.|[@2608.06684](http://arxiv.org/abs/2608.06684)|null|\n"
+    "2608.12580": "|**2026-08-12**|**InvisIto: Weaving Unobtrusive Infrared Markers for Ubiquitous Textile Interaction**|Hsuanling Lee et.al.|[@2608.12580](http://arxiv.org/abs/2608.12580)|null|\n"
   },
   "Vision-Language & Action Models (VLA/VLM)": {
     "2608.20331": "|**2026-08-20**|**G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation**|Shiao Xie et.al.|[@2608.20331](http://arxiv.org/abs/2608.20331)|null|\n",
@@ -176,8 +175,7 @@
     "2608.09593": "|**2026-08-10**|**MADBench: A Benchmark for Modality-Aware Audio Deepfake Detection**|Yanqiu Li et.al.|[@2608.09593](http://arxiv.org/abs/2608.09593)|null|\n",
     "2608.09571": "|**2026-08-10**|**SonicWeave: Chunk-Routed Mixture-of-Experts for Unified Audio Scene Generation**|Yunrui Cai et.al.|[@2608.09571](http://arxiv.org/abs/2608.09571)|null|\n",
     "2608.09331": "|**2026-08-10**|**RAG-Audio: Retrieval-Augmented Generation for Faithful Brain-to-Audio Reconstruction**|Ambuj Mehrish et.al.|[@2608.09331](http://arxiv.org/abs/2608.09331)|null|\n",
-    "2608.09035": "|**2026-08-10**|**MusicLayout: Explicit Structural Planning for Controllable Text-to-Music Generation**|Shuyu Li et.al.|[@2608.09035](http://arxiv.org/abs/2608.09035)|null|\n",
-    "2608.06900": "|**2026-08-07**|**MMAG: A Multi-Control Mixed Audio Generation Benchmark**|Zihao Zheng et.al.|[@2608.06900](http://arxiv.org/abs/2608.06900)|null|\n"
+    "2608.09035": "|**2026-08-10**|**MusicLayout: Explicit Structural Planning for Controllable Text-to-Music Generation**|Shuyu Li et.al.|[@2608.09035](http://arxiv.org/abs/2608.09035)|null|\n"
   },
   "Neural Rendering & Physics Simulation": {
     "2608.17969": "|**2026-08-18**|**MetaSapiens v2: Advancing Real-Time Foveated Neural Rendering via Foveation-Aware Pruning and Stereo Warping**|Weikai Lin et.al.|[@2608.17969](http://arxiv.org/abs/2608.17969)|null|\n",

@@ -3,20 +3,20 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.08.21
+## 📚 Updated on 2026.08.22
 
 <details open>
-<summary>📑 Table of Contents — 2026-08-21</summary>
+<summary>📑 Table of Contents — 2026-08-22</summary>
 
 **By category**
 - [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (17)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (4)
-- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (5)
+- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (4)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (31)
 - [World Models & Generative Video](#world-models--generative-video) (37)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (29)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (33)
-- [Narrative & Long-form Audio](#narrative--long-form-audio) (8)
+- [Narrative & Long-form Audio](#narrative--long-form-audio) (7)
 - [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (8)
 
 </details>
@@ -45,7 +45,7 @@
 |**2026-08-09**|**DoRF++: Spherical Representation Learning over Doppler Radiance Fields for Robust Wi-Fi Sensing**|Navid Hasanzadeh et.al.|[@2608.08381](http://arxiv.org/abs/2608.08381)|null|
 |**2026-08-08**|**MRBench: A Comprehensive Benchmark for Human Motion-Text Retrieval**|Fulong Liu et.al.|[@2608.07993](http://arxiv.org/abs/2608.07993)|null|
 
-<p align=right>(<a href=#updated-on-20260821>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -56,7 +56,7 @@
 |**2026-08-13**|**Print&Fold: Printing and Folding Shape-accurate 3D Models**|Archit Kumar et.al.|[@2608.13279](http://arxiv.org/abs/2608.13279)|null|
 |**2026-08-13**|**Reward Machines for Signal Temporal Logic**|Alper Kamil Bozkurt et.al.|[@2608.13625](http://arxiv.org/abs/2608.13625)|null|
 
-<p align=right>(<a href=#updated-on-20260821>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -66,9 +66,8 @@
 |**2026-08-15**|**Everything Is a VisionBlock: Conversational Authoring over Git-Versioned Content for Spatial Computing**|Zhaoming Yin et.al.|[@2608.15442](http://arxiv.org/abs/2608.15442)|null|
 |**2026-08-13**|**Print&Fold: Printing and Folding Shape-accurate 3D Models**|Archit Kumar et.al.|[@2608.13279](http://arxiv.org/abs/2608.13279)|null|
 |**2026-08-12**|**InvisIto: Weaving Unobtrusive Infrared Markers for Ubiquitous Textile Interaction**|Hsuanling Lee et.al.|[@2608.12580](http://arxiv.org/abs/2608.12580)|null|
-|**2026-08-07**|**Octo's Adventure: At-home Deployment of a Pediatric Education Tool**|Crimson Olaleye et.al.|[@2608.06684](http://arxiv.org/abs/2608.06684)|null|
 
-<p align=right>(<a href=#updated-on-20260821>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -106,7 +105,7 @@
 |**2026-08-19**|**Clustering and Token Denoising for Faster and More Robust VLMs**|Baptiste Rossigneux et.al.|[@2608.19285](http://arxiv.org/abs/2608.19285)|null|
 |**2026-08-19**|**CL4D: Contrastive Language-4D Pretraining for Vision-Language Reasoning in Dynamic Scenes**|Kumal Hewagamage et.al.|[@2608.18734](http://arxiv.org/abs/2608.18734)|null|
 
-<p align=right>(<a href=#updated-on-20260821>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -150,7 +149,7 @@
 |**2026-08-16**|**WONDER: A Radio World Model-based Negotiation Framework for Multi-Agent UAV Coverage Optimization**|Jiahao Huang et.al.|[@2608.16955](http://arxiv.org/abs/2608.16955)|null|
 |**2026-08-16**|**Adding Voice Cloning to Text-to-Audio-Video Models with a Single Zero-Initialised Layer**|Ivan Mikheev et.al.|[@2608.15690](http://arxiv.org/abs/2608.15690)|null|
 
-<p align=right>(<a href=#updated-on-20260821>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -186,7 +185,7 @@
 |**2026-08-14**|**SPARGen: Unifying Spatial Perception and Reasoning through Native Multimodal Generation**|Jinsheng Quan et.al.|[@2608.14138](http://arxiv.org/abs/2608.14138)|null|
 |**2026-08-14**|**HiCo-GS: Hierarchical Context Aggregation and Geometric Consistency for Octree Gaussian Splatting**|Wei Zhang et.al.|[@2608.14136](http://arxiv.org/abs/2608.14136)|null|
 
-<p align=right>(<a href=#updated-on-20260821>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -226,7 +225,7 @@
 |**2026-08-13**|**HumanoidVLN: A Physics-Grounded Simulator and Benchmark for Vision-Language Navigation Across Diverse Humanoid Embodiments**|Quan-Dung Pham et.al.|[@2608.12860](http://arxiv.org/abs/2608.12860)|null|
 |**2026-08-13**|**FUSE: Active Functional Affordance Grounding through Adaptive Semantic-Geometric Evidence Acquisition**|Zhou Chen et.al.|[@2608.12683](http://arxiv.org/abs/2608.12683)|null|
 
-<p align=right>(<a href=#updated-on-20260821>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -239,9 +238,8 @@
 |**2026-08-10**|**SonicWeave: Chunk-Routed Mixture-of-Experts for Unified Audio Scene Generation**|Yunrui Cai et.al.|[@2608.09571](http://arxiv.org/abs/2608.09571)|null|
 |**2026-08-10**|**RAG-Audio: Retrieval-Augmented Generation for Faithful Brain-to-Audio Reconstruction**|Ambuj Mehrish et.al.|[@2608.09331](http://arxiv.org/abs/2608.09331)|null|
 |**2026-08-10**|**MusicLayout: Explicit Structural Planning for Controllable Text-to-Music Generation**|Shuyu Li et.al.|[@2608.09035](http://arxiv.org/abs/2608.09035)|null|
-|**2026-08-07**|**MMAG: A Multi-Control Mixed Audio Generation Benchmark**|Zihao Zheng et.al.|[@2608.06900](http://arxiv.org/abs/2608.06900)|null|
 
-<p align=right>(<a href=#updated-on-20260821>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -256,7 +254,7 @@
 |**2026-08-10**|**HandSplatter: Automated Digital Goniometry from Neural Rendering**|Emmett Chen et.al.|[@2608.09735](http://arxiv.org/abs/2608.09735)|null|
 |**2026-08-10**|**View-Adaptive Renderer for View-Consistent 2D-to-3D Generation**|U-Chae Jun et.al.|[@2608.09110](http://arxiv.org/abs/2608.09110)|null|
 
-<p align=right>(<a href=#updated-on-20260821>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors

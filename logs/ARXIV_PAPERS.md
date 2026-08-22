@@ -3,20 +3,20 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.08.21
+## 📚 Updated on 2026.08.22
 
 <details open>
-<summary>📑 Table of Contents — 2026-08-21</summary>
+<summary>📑 Table of Contents — 2026-08-22</summary>
 
 **By category**
 - [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (17)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (4)
-- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (5)
+- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (4)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (31)
 - [World Models & Generative Video](#world-models--generative-video) (37)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (29)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (33)
-- [Narrative & Long-form Audio](#narrative--long-form-audio) (8)
+- [Narrative & Long-form Audio](#narrative--long-form-audio) (7)
 - [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (8)
 
 </details>
@@ -84,7 +84,7 @@
 |**2026-08-20**|**Inter-X++: A Comprehensive Benchmark for Multimodal Human-Human Interaction Analysis**|Liang Xu et.al.|[@2608.20312](http://arxiv.org/abs/2608.20312)|null|
 |**2026-08-20**|**Learning to Beat: Phenotype-Guided Latent Flow with Regional Motion Priors for Biventricular Motion Synthesis**|Xuan Yang et.al.|[@2608.19738](http://arxiv.org/abs/2608.19738)|null|
 
-<p align=right>(<a href=#updated-on-20260821>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -100,7 +100,7 @@
 |**2026-08-16**|**Detachable Wire Drive : Reconfigurable Robot Architecture with Shared Actuators**|Takahiro Hattori et.al.|[@2608.15461](http://arxiv.org/abs/2608.15461)|null|
 |**2026-08-19**|**When Automata Meet Streams: Temporal Logic Compilation for Stream-Based Robotics Task and Motion Planning**|Sayem Nazmuz Zaman et.al.|[@2608.19453](http://arxiv.org/abs/2608.19453)|null|
 
-<p align=right>(<a href=#updated-on-20260821>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -130,7 +130,7 @@
 |**2026-08-15**|**Everything Is a VisionBlock: Conversational Authoring over Git-Versioned Content for Spatial Computing**|Zhaoming Yin et.al.|[@2608.15442](http://arxiv.org/abs/2608.15442)|null|
 |**2026-08-17**|**Appearing Legitimate is Not Enough: Interrogating Synthetic Agents in Representational Processes through a Participatory Design Lens**|Aditya Nayak et.al.|[@2608.17099](http://arxiv.org/abs/2608.17099)|null|
 
-<p align=right>(<a href=#updated-on-20260821>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -793,7 +793,7 @@
 |**2026-08-19**|**Does Marginal Coverage Guarantee Class-Conditional Safety for Zero-Shot VLMs Under Shift?**|Jai Kumar Sharma et.al.|[@2608.19376](http://arxiv.org/abs/2608.19376)|null|
 |**2026-08-19**|**Clustering and Token Denoising for Faster and More Robust VLMs**|Baptiste Rossigneux et.al.|[@2608.19285](http://arxiv.org/abs/2608.19285)|null|
 
-<p align=right>(<a href=#updated-on-20260821>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -1111,7 +1111,7 @@
 |**2026-08-20**|**VGI-BENCH: Probing Visual Intelligence in Video Generation Models**|Xuan He et.al.|[@2608.19583](http://arxiv.org/abs/2608.19583)|null|
 |**2026-08-20**|**Stream4D: 4D-Consistency for Streaming Autoregressive Diffusion Video Models**|Yuanhao Ban et.al.|[@2608.19556](http://arxiv.org/abs/2608.19556)|null|
 
-<p align=right>(<a href=#updated-on-20260821>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -1314,7 +1314,7 @@
 |**2026-08-20**|**Block3D: Efficient Text-to-3D Generation via Block-Wise Diffusion**|Bowen Cui et.al.|[@2608.19567](http://arxiv.org/abs/2608.19567)|null|
 |**2026-08-20**|**Stream4D: 4D-Consistency for Streaming Autoregressive Diffusion Video Models**|Yuanhao Ban et.al.|[@2608.19556](http://arxiv.org/abs/2608.19556)|null|
 
-<p align=right>(<a href=#updated-on-20260821>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -1456,7 +1456,7 @@
 |**2026-08-19**|**Hybrid Feedback Sampling for Sample-Efficient Model Predictive Control**|Chaoyi Pan et.al.|[@2608.19443](http://arxiv.org/abs/2608.19443)|null|
 |**2026-08-19**|**SCAPE: Scenario-Conditioned Simulation-Augmented Policy Evaluation**|Dijie Zhu et.al.|[@2608.19425](http://arxiv.org/abs/2608.19425)|null|
 
-<p align=right>(<a href=#updated-on-20260821>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -1486,7 +1486,7 @@
 |**2026-08-16**|**CineDub: Scaling End-to-End Video Dubbing to Multi-Speaker Dialogues with Coherent Sound Effects**|Yusheng Dai et.al.|[@2608.15734](http://arxiv.org/abs/2608.15734)|null|
 |**2026-08-19**|**Geometric Iterative Retrieval for Neural Audio Codec Resynthesis**|Leo Schmidt-Traub et.al.|[@2608.19141](http://arxiv.org/abs/2608.19141)|null|
 
-<p align=right>(<a href=#updated-on-20260821>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -1527,7 +1527,7 @@
 |**2026-08-11**|**SpotlessGS: Relightable 3D Gaussian Splatting under Dynamic Illumination for Robotic Perception**|Liang Hong et.al.|[@2608.14713](http://arxiv.org/abs/2608.14713)|null|
 |**2026-08-18**|**MetaSapiens v2: Advancing Real-Time Foveated Neural Rendering via Foveation-Aware Pruning and Stereo Warping**|Weikai Lin et.al.|[@2608.17969](http://arxiv.org/abs/2608.17969)|null|
 
-<p align=right>(<a href=#updated-on-20260821>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -1537,7 +1537,7 @@
 |**2026-08-06**|**PoseForge: Editable Pose Analytics for AI-Assisted Sports Coaching**|Shuvam Swapnil Dash et.al.|[@2608.05971](http://arxiv.org/abs/2608.05971)|null|
 |**2026-08-10**|**Smooth Motion Stitching via Laplacian Optimization in Rodrigues Vector Space**|Ryosuke Higasayama et.al.|[@2608.08986](http://arxiv.org/abs/2608.08986)|null|
 
-<p align=right>(<a href=#updated-on-20260821>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors

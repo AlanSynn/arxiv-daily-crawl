@@ -166,5 +166,3 @@
 | 2026-08-10 | **View-Adaptive Renderer for View-Consistent 2D-to-3D Generation** | Neural Rendering & Physics Simulation | 0.33 | [@2608.09110](http://arxiv.org/abs/2608.09110) | null |
 | 2026-08-09 | **DoRF++: Spherical Representation Learning over Doppler Radiance Fields for Robust Wi-Fi Sensing** | Character Motion Synthesis & Animation | 0.67 | [@2608.08381](http://arxiv.org/abs/2608.08381) | null |
 | 2026-08-08 | **MRBench: A Comprehensive Benchmark for Human Motion-Text Retrieval** | Character Motion Synthesis & Animation | 1.00 | [@2608.07993](http://arxiv.org/abs/2608.07993) | null |
-| 2026-08-07 | **MMAG: A Multi-Control Mixed Audio Generation Benchmark** | Narrative & Long-form Audio | 0.67 | [@2608.06900](http://arxiv.org/abs/2608.06900) | null |
-| 2026-08-07 | **Octo's Adventure: At-home Deployment of a Pediatric Education Tool** | Sketch-based & Creative HCI Tools | 0.33 | [@2608.06684](http://arxiv.org/abs/2608.06684) | null |
