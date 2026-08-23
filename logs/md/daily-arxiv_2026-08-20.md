@@ -3,13 +3,13 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.08.22
+## 📚 Updated on 2026.08.23
 
 <details open>
-<summary>📑 Table of Contents — 2026-08-22</summary>
+<summary>📑 Table of Contents — 2026-08-23</summary>
 
 **By category**
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (17)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (16)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (4)
 - [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (4)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (31)
@@ -43,9 +43,8 @@
 |**2026-08-10**|**A Height-Constrained 2-Point Minimal Solver for Pose Estimation from Active LED Markers with Event Cameras**|Runze Yuan et.al.|[@2608.09520](http://arxiv.org/abs/2608.09520)|null|
 |**2026-08-10**|**UniMoFlow: Grounding Instruction-Driven 3D Human Motion Editing in Generation**|Yilei Hua et.al.|[@2608.09143](http://arxiv.org/abs/2608.09143)|null|
 |**2026-08-09**|**DoRF++: Spherical Representation Learning over Doppler Radiance Fields for Robust Wi-Fi Sensing**|Navid Hasanzadeh et.al.|[@2608.08381](http://arxiv.org/abs/2608.08381)|null|
-|**2026-08-08**|**MRBench: A Comprehensive Benchmark for Human Motion-Text Retrieval**|Fulong Liu et.al.|[@2608.07993](http://arxiv.org/abs/2608.07993)|null|
 
-<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260823>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -56,7 +55,7 @@
 |**2026-08-13**|**Print&Fold: Printing and Folding Shape-accurate 3D Models**|Archit Kumar et.al.|[@2608.13279](http://arxiv.org/abs/2608.13279)|null|
 |**2026-08-13**|**Reward Machines for Signal Temporal Logic**|Alper Kamil Bozkurt et.al.|[@2608.13625](http://arxiv.org/abs/2608.13625)|null|
 
-<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260823>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -67,7 +66,7 @@
 |**2026-08-13**|**Print&Fold: Printing and Folding Shape-accurate 3D Models**|Archit Kumar et.al.|[@2608.13279](http://arxiv.org/abs/2608.13279)|null|
 |**2026-08-12**|**InvisIto: Weaving Unobtrusive Infrared Markers for Ubiquitous Textile Interaction**|Hsuanling Lee et.al.|[@2608.12580](http://arxiv.org/abs/2608.12580)|null|
 
-<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260823>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -105,7 +104,7 @@
 |**2026-08-19**|**Clustering and Token Denoising for Faster and More Robust VLMs**|Baptiste Rossigneux et.al.|[@2608.19285](http://arxiv.org/abs/2608.19285)|null|
 |**2026-08-19**|**CL4D: Contrastive Language-4D Pretraining for Vision-Language Reasoning in Dynamic Scenes**|Kumal Hewagamage et.al.|[@2608.18734](http://arxiv.org/abs/2608.18734)|null|
 
-<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260823>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -149,7 +148,7 @@
 |**2026-08-16**|**WONDER: A Radio World Model-based Negotiation Framework for Multi-Agent UAV Coverage Optimization**|Jiahao Huang et.al.|[@2608.16955](http://arxiv.org/abs/2608.16955)|null|
 |**2026-08-16**|**Adding Voice Cloning to Text-to-Audio-Video Models with a Single Zero-Initialised Layer**|Ivan Mikheev et.al.|[@2608.15690](http://arxiv.org/abs/2608.15690)|null|
 
-<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260823>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -185,7 +184,7 @@
 |**2026-08-14**|**SPARGen: Unifying Spatial Perception and Reasoning through Native Multimodal Generation**|Jinsheng Quan et.al.|[@2608.14138](http://arxiv.org/abs/2608.14138)|null|
 |**2026-08-14**|**HiCo-GS: Hierarchical Context Aggregation and Geometric Consistency for Octree Gaussian Splatting**|Wei Zhang et.al.|[@2608.14136](http://arxiv.org/abs/2608.14136)|null|
 
-<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260823>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -225,7 +224,7 @@
 |**2026-08-13**|**HumanoidVLN: A Physics-Grounded Simulator and Benchmark for Vision-Language Navigation Across Diverse Humanoid Embodiments**|Quan-Dung Pham et.al.|[@2608.12860](http://arxiv.org/abs/2608.12860)|null|
 |**2026-08-13**|**FUSE: Active Functional Affordance Grounding through Adaptive Semantic-Geometric Evidence Acquisition**|Zhou Chen et.al.|[@2608.12683](http://arxiv.org/abs/2608.12683)|null|
 
-<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260823>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -239,7 +238,7 @@
 |**2026-08-10**|**RAG-Audio: Retrieval-Augmented Generation for Faithful Brain-to-Audio Reconstruction**|Ambuj Mehrish et.al.|[@2608.09331](http://arxiv.org/abs/2608.09331)|null|
 |**2026-08-10**|**MusicLayout: Explicit Structural Planning for Controllable Text-to-Music Generation**|Shuyu Li et.al.|[@2608.09035](http://arxiv.org/abs/2608.09035)|null|
 
-<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260823>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -254,7 +253,7 @@
 |**2026-08-10**|**HandSplatter: Automated Digital Goniometry from Neural Rendering**|Emmett Chen et.al.|[@2608.09735](http://arxiv.org/abs/2608.09735)|null|
 |**2026-08-10**|**View-Adaptive Renderer for View-Consistent 2D-to-3D Generation**|U-Chae Jun et.al.|[@2608.09110](http://arxiv.org/abs/2608.09110)|null|
 
-<p align=right>(<a href=#updated-on-20260822>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260823>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
