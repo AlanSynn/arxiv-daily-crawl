@@ -11,10 +11,7 @@
     "2608.24334": "|**2026-08-25**|**SeMoCo: A Semantic-First Motion Codec for Motion Language Modeling**|Tianlv Huang et.al.|[@2608.24334](http://arxiv.org/abs/2608.24334)|null|\n",
     "2608.23279": "|**2026-08-24**|**Spatiotemporally Decoupled Autoregressive Diffusion Model for Human Motion Generation**|Chengqun Yang et.al.|[@2608.23279](http://arxiv.org/abs/2608.23279)|null|\n",
     "2608.23258": "|**2026-08-24**|**Progressively Learning Heterogeneous Skills in a Unified Latent Space**|Yue-Yi Zhang et.al.|[@2608.23258](http://arxiv.org/abs/2608.23258)|null|\n",
-    "2608.22341": "|**2026-08-23**|**TransHands: Repurposing Human Pose Encoders as Hand Pose Encoders**|Milo Piccioli et.al.|[@2608.22341](http://arxiv.org/abs/2608.22341)|null|\n",
-    "2608.21697": "|**2026-08-22**|**Emotion Intensity Matters: Generating Realistic Expressions in Virtual Humans with CVAEs**|Vitor Miguel Xavier Peres et.al.|[@2608.21697](http://arxiv.org/abs/2608.21697)|null|\n",
-    "2608.21093": "|**2026-08-21**|**Gaussian-Mixture Latent Flow for Stochastic 3D Human Motion Prediction**|Yue Ma et.al.|[@2608.21093](http://arxiv.org/abs/2608.21093)|null|\n",
-    "2608.20699": "|**2026-08-21**|**ArtiMo: Agent-Driven Articulated Mesh Animation**|Chunyu Zou et.al.|[@2608.20699](http://arxiv.org/abs/2608.20699)|null|\n"
+    "2608.22341": "|**2026-08-23**|**TransHands: Repurposing Human Pose Encoders as Hand Pose Encoders**|Milo Piccioli et.al.|[@2608.22341](http://arxiv.org/abs/2608.22341)|null|\n"
   },
   "Motion Authoring, Editing & Retargeting": {
     "2609.02134": "|**2026-09-02**|**Unified Motion Retargeting for Humanoids with Learned Point Cloud Correspondence**|Hanyang Cao et.al.|[@2609.02134](http://arxiv.org/abs/2609.02134)|null|\n"
@@ -26,8 +23,7 @@
   },
   "Sketch-based & Creative HCI Tools": {
     "2608.29292": "|**2026-08-29**|**Measuring the \"Interaction Gap\" in Drama Therapy with AI**|Sora Kang et.al.|[@2608.29292](http://arxiv.org/abs/2608.29292)|null|\n",
-    "2608.26614": "|**2026-08-27**|**Processing/p5 Defined through Practice and Learning**|Kit Kuksenok et.al.|[@2608.26614](http://arxiv.org/abs/2608.26614)|null|\n",
-    "2608.20880": "|**2026-08-21**|**Live Artifacts: Authoring Dynamic Media via Live Layers Encapsulating Generative Specifications**|Leixian Shen et.al.|[@2608.20880](http://arxiv.org/abs/2608.20880)|null|\n"
+    "2608.26614": "|**2026-08-27**|**Processing/p5 Defined through Practice and Learning**|Kit Kuksenok et.al.|[@2608.26614](http://arxiv.org/abs/2608.26614)|null|\n"
   },
   "Vision-Language & Action Models (VLA/VLM)": {
     "2609.04200": "|**2026-09-03**|**Principia: Relational Physics Tests for Video Models**|Varun Varma Thozhiyoor et.al.|[@2609.04200](http://arxiv.org/abs/2609.04200)|null|\n",
@@ -186,7 +182,6 @@
     "2608.29106": "|**2026-08-29**|**Elastic Triangle Splatting**|Tian Shi et.al.|[@2608.29106](http://arxiv.org/abs/2608.29106)|null|\n",
     "2608.28913": "|**2026-08-28**|**mmIR: Frequency-Space Inverse Rendering for 3D Millimeter-Wave Radar ADC Synthesis**|Adnan Armouti et.al.|[@2608.28913](http://arxiv.org/abs/2608.28913)|null|\n",
     "2608.24109": "|**2026-08-25**|**ExMesh++: From Multi-View Images to Relightable UV-PBR Mesh Assets via Topology-Adaptive Reconstruction and Decomposition**|Chuanjin Fan et.al.|[@2608.24109](http://arxiv.org/abs/2608.24109)|null|\n",
-    "2608.23943": "|**2026-08-25**|**Luce: Relightable Gaussians for 3D Asset Generation**|Mayank Singh et.al.|[@2608.23943](http://arxiv.org/abs/2608.23943)|null|\n",
-    "2608.22054": "|**2026-08-22**|**Robust Global Structure-from-Motion via View Graph Pruning**|Jiamin Xu et.al.|[@2608.22054](http://arxiv.org/abs/2608.22054)|null|\n"
+    "2608.23943": "|**2026-08-25**|**Luce: Relightable Gaussians for 3D Asset Generation**|Mayank Singh et.al.|[@2608.23943](http://arxiv.org/abs/2608.23943)|null|\n"
   }
 }

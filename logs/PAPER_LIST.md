@@ -156,8 +156,3 @@
 | 2026-08-24 | **WnW: Waxing-and-Waning KV Cache for Long-Form Speech LLMs** | Narrative & Long-form Audio | 0.33 | [@2608.22704](http://arxiv.org/abs/2608.22704) | null |
 | 2026-08-23 | **TransHands: Repurposing Human Pose Encoders as Hand Pose Encoders** | Character Motion Synthesis & Animation | 0.67 | [@2608.22341](http://arxiv.org/abs/2608.22341) | null |
 | 2026-08-23 | **Enhancing Sim2Real Transfer for Torque-Controlled Robots through Real2Sim Dynamics Estimation and Reinforcement Learning** | Embodied AI & Robot Learning | 0.67 | [@2608.22629](http://arxiv.org/abs/2608.22629) | null |
-| 2026-08-22 | **Emotion Intensity Matters: Generating Realistic Expressions in Virtual Humans with CVAEs** | Character Motion Synthesis & Animation | 0.33 | [@2608.21697](http://arxiv.org/abs/2608.21697) | null |
-| 2026-08-22 | **Robust Global Structure-from-Motion via View Graph Pruning** | Neural Rendering & Physics Simulation | 0.33 | [@2608.22054](http://arxiv.org/abs/2608.22054) | null |
-| 2026-08-21 | **Gaussian-Mixture Latent Flow for Stochastic 3D Human Motion Prediction** | Character Motion Synthesis & Animation | 1.00 | [@2608.21093](http://arxiv.org/abs/2608.21093) | null |
-| 2026-08-21 | **ArtiMo: Agent-Driven Articulated Mesh Animation** | Character Motion Synthesis & Animation | 0.67 | [@2608.20699](http://arxiv.org/abs/2608.20699) | null |
-| 2026-08-21 | **Live Artifacts: Authoring Dynamic Media via Live Layers Encapsulating Generative Specifications** | Sketch-based & Creative HCI Tools | 0.67 | [@2608.20880](http://arxiv.org/abs/2608.20880) | null |
