@@ -8,9 +8,7 @@
     "2608.29928": "|**2026-08-30**|**Biomechanical 3D Body: Self-Supervised Distillation of Biomechanical Pose from a 3D Body Foundation Model**|R. James Cotton et.al.|[@2608.29928](http://arxiv.org/abs/2608.29928)|null|\n",
     "2608.28219": "|**2026-08-28**|**RASA: Disentangled Spatial-Motional Priors for Cross-Identity Character Animation**|Zhen Xiao et.al.|[@2608.28219](http://arxiv.org/abs/2608.28219)|null|\n",
     "2608.27039": "|**2026-08-27**|**Multi-Person Human Motion Forecasting in Complex Scenes**|Serdar Ozsoy et.al.|[@2608.27039](http://arxiv.org/abs/2608.27039)|null|\n",
-    "2608.24334": "|**2026-08-25**|**SeMoCo: A Semantic-First Motion Codec for Motion Language Modeling**|Tianlv Huang et.al.|[@2608.24334](http://arxiv.org/abs/2608.24334)|null|\n",
-    "2608.23279": "|**2026-08-24**|**Spatiotemporally Decoupled Autoregressive Diffusion Model for Human Motion Generation**|Chengqun Yang et.al.|[@2608.23279](http://arxiv.org/abs/2608.23279)|null|\n",
-    "2608.23258": "|**2026-08-24**|**Progressively Learning Heterogeneous Skills in a Unified Latent Space**|Yue-Yi Zhang et.al.|[@2608.23258](http://arxiv.org/abs/2608.23258)|null|\n"
+    "2608.24334": "|**2026-08-25**|**SeMoCo: A Semantic-First Motion Codec for Motion Language Modeling**|Tianlv Huang et.al.|[@2608.24334](http://arxiv.org/abs/2608.24334)|null|\n"
   },
   "Motion Authoring, Editing & Retargeting": {
     "2609.05415": "|**2026-09-04**|**UniMate: One Unified Model to Animate Diverse Skeletons**|Linzhan Mou et.al.|[@2609.05415](http://arxiv.org/abs/2609.05415)|null|\n",
@@ -169,9 +167,7 @@
     "2609.04867": "|**2026-09-04**|**PRISM-Bench: An Audio-Centric Diagnostic Benchmark for Text-to-Audio-Video Generation**|Yuchen Sun et.al.|[@2609.04867](http://arxiv.org/abs/2609.04867)|null|\n",
     "2608.29549": "|**2026-08-30**|**PhysWave: Physics-Guided Latent Diffusion Models for Controllable Spatial Audio Generation**|Lingfeng Yao et.al.|[@2608.29549](http://arxiv.org/abs/2608.29549)|null|\n",
     "2608.24168": "|**2026-08-25**|**FireRedAudio: A General-Purpose Audio Language Model with Decoupled Continuous Representations for Understanding and Generation**|Feiyu Shen et.al.|[@2608.24168](http://arxiv.org/abs/2608.24168)|null|\n",
-    "2608.24048": "|**2026-08-25**|**Don't Just Listen, Try Planning: Graph-based Retrieval-Generation Agent for Long-form Audio Meeting Understanding**|Quanwei Tang et.al.|[@2608.24048](http://arxiv.org/abs/2608.24048)|null|\n",
-    "2608.23437": "|**2026-08-24**|**AT-ADD: A Benchmark and Challenge for Robust and All-Type Audio Deepfake Detection**|Yuankun Xie et.al.|[@2608.23437](http://arxiv.org/abs/2608.23437)|null|\n",
-    "2608.22704": "|**2026-08-24**|**WnW: Waxing-and-Waning KV Cache for Long-Form Speech LLMs**|Yiming Yao et.al.|[@2608.22704](http://arxiv.org/abs/2608.22704)|null|\n"
+    "2608.24048": "|**2026-08-25**|**Don't Just Listen, Try Planning: Graph-based Retrieval-Generation Agent for Long-form Audio Meeting Understanding**|Quanwei Tang et.al.|[@2608.24048](http://arxiv.org/abs/2608.24048)|null|\n"
   },
   "Neural Rendering & Physics Simulation": {
     "2609.04942": "|**2026-09-04**|**Learning 3D Editing without Paired Supervision via Generative Prior Distillation**|Hao Wen et.al.|[@2609.04942](http://arxiv.org/abs/2609.04942)|null|\n",

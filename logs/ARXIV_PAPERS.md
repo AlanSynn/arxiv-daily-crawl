@@ -3,13 +3,13 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.09.07
+## 📚 Updated on 2026.09.08
 
 <details open>
-<summary>📑 Table of Contents — 2026-09-07</summary>
+<summary>📑 Table of Contents — 2026-09-08</summary>
 
 **By category**
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (11)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (9)
 - [Motion Authoring, Editing & Retargeting](#motion-authoring-editing--retargeting) (2)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (3)
 - [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (3)
@@ -17,7 +17,7 @@
 - [World Models & Generative Video](#world-models--generative-video) (35)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (30)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (29)
-- [Narrative & Long-form Audio](#narrative--long-form-audio) (6)
+- [Narrative & Long-form Audio](#narrative--long-form-audio) (4)
 - [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (10)
 
 </details>
@@ -100,7 +100,7 @@
 |**2026-09-01**|**Cross-Model Distillation of a Human-Pose Foundation Model from Unannotated Infant Video for Markerless 3D Pose Estimation**|R. James Cotton et.al.|[@2609.01840](http://arxiv.org/abs/2609.01840)|null|
 |**2026-09-01**|**Kirin: Animal Motion Generation from In-the-Wild Video**|Brian Nlong Zhao et.al.|[@2609.01823](http://arxiv.org/abs/2609.01823)|null|
 
-<p align=right>(<a href=#updated-on-20260907>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260908>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -119,7 +119,7 @@
 |**2026-08-28**|**The Web-CLI: Verifiable Privacy for Tools, Models, and Inference Engines in the Browser**|Tejaswi Gowda et.al.|[@2608.28950](http://arxiv.org/abs/2608.28950)|null|
 |**2026-09-02**|**WildFab: Multi-Axis 3D Printing from Models in the Wild**|Jiasheng Qu et.al.|[@2609.02413](http://arxiv.org/abs/2609.02413)|null|
 
-<p align=right>(<a href=#updated-on-20260907>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260908>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -153,7 +153,7 @@
 |**2026-08-27**|**Processing/p5 Defined through Practice and Learning**|Kit Kuksenok et.al.|[@2608.26614](http://arxiv.org/abs/2608.26614)|null|
 |**2026-09-04**|**Beyond Prompt-to-App: Accountable Translation in Teacher-Facing Agentic Authoring**|Nizam Kadir et.al.|[@2609.04679](http://arxiv.org/abs/2609.04679)|null|
 
-<p align=right>(<a href=#updated-on-20260907>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260908>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -996,7 +996,7 @@
 |**2026-09-03**|**VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models**|Chenyu Su et.al.|[@2609.04355](http://arxiv.org/abs/2609.04355)|null|
 |**2026-09-03**|**MedProb: Probing Internal Representations of Vision-Language Models for Medical Question Answering**|Erfan Nourbakhsh et.al.|[@2609.04336](http://arxiv.org/abs/2609.04336)|null|
 
-<p align=right>(<a href=#updated-on-20260907>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260908>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -1396,7 +1396,7 @@
 |**2026-09-03**|**Joint Alignment and Distillation for Video Generation via Sample-Guided Distribution Matching**|Jiuzhou Lin et.al.|[@2609.04283](http://arxiv.org/abs/2609.04283)|null|
 |**2026-09-02**|**Spectral-Target Physical Latent Structuring for JEPA-Style World Models**|Penghao Zhu et.al.|[@2609.04264](http://arxiv.org/abs/2609.04264)|null|
 
-<p align=right>(<a href=#updated-on-20260907>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260908>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -1660,7 +1660,7 @@
 |**2026-09-04**|**HiSfM: Disambiguating Structure-from-Motion via Scaffold-Anchored Hierarchical Reconstruction**|Ziding Zhao et.al.|[@2609.04718](http://arxiv.org/abs/2609.04718)|null|
 |**2026-09-03**|**Where Appearance Fails, Geometry Recognizes: A CAD-Free 3D Shape Prior That Complements Vision Foundation Models**|Chenxi Tao et.al.|[@2609.04381](http://arxiv.org/abs/2609.04381)|null|
 
-<p align=right>(<a href=#updated-on-20260907>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260908>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -1838,7 +1838,7 @@
 |**2026-09-03**|**A Low-Cost, Open Platform for End-to-End Autonomous Driving on a Miniature Ackermann Vehicle**|Gustavo Claudio Karl Couto et.al.|[@2609.04147](http://arxiv.org/abs/2609.04147)|null|
 |**2026-09-03**|**Long-Horizon Consistent and Interaction-Aware World Models for Multi-Style End-to-End Driving**|Yuxuan Han et.al.|[@2609.03225](http://arxiv.org/abs/2609.03225)|null|
 
-<p align=right>(<a href=#updated-on-20260907>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260908>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -1874,7 +1874,7 @@
 |**2026-08-24**|**WnW: Waxing-and-Waning KV Cache for Long-Form Speech LLMs**|Yiming Yao et.al.|[@2608.22704](http://arxiv.org/abs/2608.22704)|null|
 |**2026-09-04**|**PRISM-Bench: An Audio-Centric Diagnostic Benchmark for Text-to-Audio-Video Generation**|Yuchen Sun et.al.|[@2609.04867](http://arxiv.org/abs/2609.04867)|null|
 
-<p align=right>(<a href=#updated-on-20260907>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260908>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -1926,7 +1926,7 @@
 |**2026-09-03**|**P-CORE: Self-Supervised Surface Consistency for Point-Based Neural Editing**|Yanshu Zhang et.al.|[@2609.03349](http://arxiv.org/abs/2609.03349)|null|
 |**2026-09-04**|**Learning 3D Editing without Paired Supervision via Generative Prior Distillation**|Hao Wen et.al.|[@2609.04942](http://arxiv.org/abs/2609.04942)|null|
 
-<p align=right>(<a href=#updated-on-20260907>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260908>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -1938,7 +1938,7 @@
 |**2026-09-02**|**Unified Motion Retargeting for Humanoids with Learned Point Cloud Correspondence**|Hanyang Cao et.al.|[@2609.02134](http://arxiv.org/abs/2609.02134)|null|
 |**2026-09-04**|**UniMate: One Unified Model to Animate Diverse Skeletons**|Linzhan Mou et.al.|[@2609.05415](http://arxiv.org/abs/2609.05415)|null|
 
-<p align=right>(<a href=#updated-on-20260907>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260908>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors

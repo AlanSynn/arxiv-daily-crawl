@@ -156,7 +156,3 @@
 | 2026-08-25 | **WarpSAC: Towards the Pinnacle of Scalable Off-policy RL by Rethinking Exploration and Exploitation** | Embodied AI & Robot Learning | 0.33 | [@2608.24479](http://arxiv.org/abs/2608.24479) | null |
 | 2026-08-25 | **CARO: Contact-Agnostic Residual Observation for Zero-Shot Robust Quadruped Locomotion** | Embodied AI & Robot Learning | 0.33 | [@2608.24217](http://arxiv.org/abs/2608.24217) | null |
 | 2026-08-25 | **FireRedAudio: A General-Purpose Audio Language Model with Decoupled Continuous Representations for Understanding and Generation** | Narrative & Long-form Audio | 0.33 | [@2608.24168](http://arxiv.org/abs/2608.24168) | null |
-| 2026-08-24 | **Spatiotemporally Decoupled Autoregressive Diffusion Model for Human Motion Generation** | Character Motion Synthesis & Animation | 1.00 | [@2608.23279](http://arxiv.org/abs/2608.23279) | null |
-| 2026-08-24 | **Progressively Learning Heterogeneous Skills in a Unified Latent Space** | Character Motion Synthesis & Animation | 0.67 | [@2608.23258](http://arxiv.org/abs/2608.23258) | null |
-| 2026-08-24 | **AT-ADD: A Benchmark and Challenge for Robust and All-Type Audio Deepfake Detection** | Narrative & Long-form Audio | 0.33 | [@2608.23437](http://arxiv.org/abs/2608.23437) | null |
-| 2026-08-24 | **WnW: Waxing-and-Waning KV Cache for Long-Form Speech LLMs** | Narrative & Long-form Audio | 0.33 | [@2608.22704](http://arxiv.org/abs/2608.22704) | null |
