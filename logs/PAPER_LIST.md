@@ -4,29 +4,54 @@
 
 | Date | Title | Category | Score | arXiv | Code |
 |---|---|---|---|---|---|
+| 2026-09-09 | **3rd Place Solution to Human Motion Challenges in Real-World and Clinical Settings (MoCha) @ECCV2026: Language-Aligned Motion Representations for Domain-Generalizable UPDRS-Gait Severity Estimation** | Character Motion Synthesis & Animation | 1.00 | [@2609.10187](http://arxiv.org/abs/2609.10187) | null |
+| 2026-09-09 | **Show-Harness: Just a VLM Agent Can Play Robots** | Vision-Language & Action Models (VLA/VLM) | 1.00 | [@2609.10522](http://arxiv.org/abs/2609.10522) | null |
+| 2026-09-09 | **Frequency-Conditioned Flow Matching for Vision-Language-Action Models** | Vision-Language & Action Models (VLA/VLM) | 1.00 | [@2609.10405](http://arxiv.org/abs/2609.10405) | null |
+| 2026-09-09 | **HaWMPO: Hallucination-Aware World Model-based Policy Optimization for Generalist Robot Policy** | Vision-Language & Action Models (VLA/VLM) | 1.00 | [@2609.09941](http://arxiv.org/abs/2609.09941) | null |
+| 2026-09-09 | **Time-Frequency Geometric Cross-Attention for Chunked Vision-Language-Action Models** | Vision-Language & Action Models (VLA/VLM) | 1.00 | [@2609.09925](http://arxiv.org/abs/2609.09925) | null |
+| 2026-09-09 | **From Pixels to Hierarchical Sequences: Quadtree Mask Encoding for Vision-Language Binary Change Detection** | Vision-Language & Action Models (VLA/VLM) | 1.00 | [@2609.09876](http://arxiv.org/abs/2609.09876) | null |
+| 2026-09-09 | **GTA-2: A Multi-VLM Framework for Synthesizing Robot Manipulation Skills via Grounded Task Axes** | Vision-Language & Action Models (VLA/VLM) | 1.00 | [@2609.09808](http://arxiv.org/abs/2609.09808) | null |
+| 2026-09-09 | **Modality-Decoupled Federated Learning for Privacy-Preserving Embodied Intelligence in 6G** | Vision-Language & Action Models (VLA/VLM) | 1.00 | [@2609.09591](http://arxiv.org/abs/2609.09591) | null |
+| 2026-09-09 | **Programmable World Model** | World Models & Generative Video | 1.00 | [@2609.10540](http://arxiv.org/abs/2609.10540) | null |
+| 2026-09-09 | **DUET-DINO: Simultaneous Cross-View World Modeling for Latent Planning in Robot Manipulation** | World Models & Generative Video | 1.00 | [@2609.10506](http://arxiv.org/abs/2609.10506) | null |
+| 2026-09-09 | **Compact Visuotactile World Models for Lifting: Prediction, Reward Alignment, and Force Constraints** | World Models & Generative Video | 1.00 | [@2609.09597](http://arxiv.org/abs/2609.09597) | null |
+| 2026-09-09 | **Shape-guided Gaussian Splatting for Sparse-View X-ray 3D Reconstruction** | 3D Understanding: Reconstruction & Generation | 1.00 | [@2609.10376](http://arxiv.org/abs/2609.10376) | null |
+| 2026-09-09 | **RouteBridge: Reliability-Routed Bidirectional Distillation Between Neural Radiance Fields and 3D Gaussian Splatting** | 3D Understanding: Reconstruction & Generation | 1.00 | [@2609.09606](http://arxiv.org/abs/2609.09606) | null |
+| 2026-09-09 | **Seeing the Voice, Preserving the Self: A Participatory Design Approach to Deaf-Centric Text-to-Speech** | Sketch-based & Creative HCI Tools | 0.67 | [@2609.10199](http://arxiv.org/abs/2609.10199) | null |
+| 2026-09-09 | **Can Foundation Models Moderate Online Content? Evaluating Instruction- vs. Example-Driven Policy Operationalization** | Vision-Language & Action Models (VLA/VLM) | 0.67 | [@2609.10410](http://arxiv.org/abs/2609.10410) | null |
+| 2026-09-09 | **Learning to Adapt and Calibrate: Score Distribution Alignment for Few-Shot Uncertainty Prediction in Medical VLMs** | Vision-Language & Action Models (VLA/VLM) | 0.67 | [@2609.10333](http://arxiv.org/abs/2609.10333) | null |
+| 2026-09-09 | **On-Policy Distillation for Vision-Language Model Adaptation, an Effective Paradigm on Low-Quality Multimodal Data** | Vision-Language & Action Models (VLA/VLM) | 0.67 | [@2609.10321](http://arxiv.org/abs/2609.10321) | null |
+| 2026-09-09 | **Two-Token Features and Small-Large Ensembles for VLM Hallucination Detection** | Vision-Language & Action Models (VLA/VLM) | 0.67 | [@2609.10244](http://arxiv.org/abs/2609.10244) | null |
+| 2026-09-09 | **FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects** | Vision-Language & Action Models (VLA/VLM) | 0.67 | [@2609.10243](http://arxiv.org/abs/2609.10243) | null |
+| 2026-09-09 | **UOT-Gap: A Variational Principle for the Modality Gap in Vision-Language Models via Unbalanced Optimal Transport** | Vision-Language & Action Models (VLA/VLM) | 0.67 | [@2609.10224](http://arxiv.org/abs/2609.10224) | null |
+| 2026-09-09 | **RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility** | Vision-Language & Action Models (VLA/VLM) | 0.67 | [@2609.10021](http://arxiv.org/abs/2609.10021) | null |
+| 2026-09-09 | **Arti-JEPA: Adapting Video World Model to Real-Time MRI of the Vocal Tract for Speech-Production Analysis** | World Models & Generative Video | 0.67 | [@2609.09757](http://arxiv.org/abs/2609.09757) | null |
+| 2026-09-09 | **Guiding Image-to-3D Generation with Test-Time Partial Observations** | 3D Understanding: Reconstruction & Generation | 0.67 | [@2609.10531](http://arxiv.org/abs/2609.10531) | null |
+| 2026-09-09 | **View-Structured Conformal Prediction for 3D Gaussian Splatting** | 3D Understanding: Reconstruction & Generation | 0.67 | [@2609.10307](http://arxiv.org/abs/2609.10307) | null |
+| 2026-09-09 | **LinearMask-GS: Stable-Mask Importance Pruning for Compact 3D Gaussian Splatting** | 3D Understanding: Reconstruction & Generation | 0.67 | [@2609.10095](http://arxiv.org/abs/2609.10095) | null |
+| 2026-09-09 | **Isotropic Embedding Perturbations for Robust Vision Language Encoders** | Vision-Language & Action Models (VLA/VLM) | 0.33 | [@2609.10292](http://arxiv.org/abs/2609.10292) | null |
+| 2026-09-09 | **JEPA Policy: Diffusion-Free Imitation Learning via Paired Action and Future Representation Prediction** | Vision-Language & Action Models (VLA/VLM) | 0.33 | [@2609.09630](http://arxiv.org/abs/2609.09630) | null |
+| 2026-09-09 | **Decoupled Self-Forcing Distillation for Streaming Talking Head Generation** | World Models & Generative Video | 0.33 | [@2609.10317](http://arxiv.org/abs/2609.10317) | null |
+| 2026-09-09 | **ViBe: Visual Behavior Adaptation for Perceptive Humanoid Whole-Body Control** | Embodied AI & Robot Learning | 0.33 | [@2609.09918](http://arxiv.org/abs/2609.09918) | null |
+| 2026-09-09 | **RealSimLoop: Online Real-to-Sim Adaptation via Differentiable Reduced-Order Simulation with Vision Feedback** | Neural Rendering & Physics Simulation | 0.33 | [@2609.09828](http://arxiv.org/abs/2609.09828) | null |
 | 2026-09-08 | **ReMoMask-2: Latent Retrieval-Augmented Masked Motion Generation** | Character Motion Synthesis & Animation | 1.00 | [@2609.08365](http://arxiv.org/abs/2609.08365) | null |
+| 2026-09-08 | **Vision-language models know more about agriculture than they show and rubric-grounded verifications close the gap** | Vision-Language & Action Models (VLA/VLM) | 1.00 | [@2609.09417](http://arxiv.org/abs/2609.09417) | null |
+| 2026-09-08 | **VANTAGE-Bench: Evaluating the Infrastructure AI Gap in Vision-Language Models** | Vision-Language & Action Models (VLA/VLM) | 1.00 | [@2609.09396](http://arxiv.org/abs/2609.09396) | null |
 | 2026-09-08 | **TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model** | Vision-Language & Action Models (VLA/VLM) | 1.00 | [@2609.09158](http://arxiv.org/abs/2609.09158) | null |
 | 2026-09-08 | **Canonical Color as a Lens into Concept Decodability in Vision Encoders and VLMs** | Vision-Language & Action Models (VLA/VLM) | 1.00 | [@2609.09124](http://arxiv.org/abs/2609.09124) | null |
 | 2026-09-08 | **DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination** | Vision-Language & Action Models (VLA/VLM) | 1.00 | [@2609.09119](http://arxiv.org/abs/2609.09119) | null |
 | 2026-09-08 | **CLAMP: Constrained Decoding for Vision-Language Embodied Planning** | Vision-Language & Action Models (VLA/VLM) | 1.00 | [@2609.08602](http://arxiv.org/abs/2609.08602) | null |
 | 2026-09-08 | **Estimating Semantic Ambiguity via Gaussian Context Distributions for VLM-Driven Traversability Analysis** | Vision-Language & Action Models (VLA/VLM) | 1.00 | [@2609.08583](http://arxiv.org/abs/2609.08583) | null |
-| 2026-09-08 | **3DWay: Generalizing Robot Manipulation via 3D Consistent Waypoints** | Vision-Language & Action Models (VLA/VLM) | 1.00 | [@2609.08224](http://arxiv.org/abs/2609.08224) | null |
-| 2026-09-08 | **WorldAgen: Unified State-Action Prediction with Test-Time World Model Training** | Vision-Language & Action Models (VLA/VLM) | 1.00 | [@2609.08162](http://arxiv.org/abs/2609.08162) | null |
-| 2026-09-08 | **Observe Before You Alert: Adaptive Driver Alerting with Vision-Language Models** | Vision-Language & Action Models (VLA/VLM) | 1.00 | [@2609.08130](http://arxiv.org/abs/2609.08130) | null |
 | 2026-09-08 | **SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators** | World Models & Generative Video | 1.00 | [@2609.09155](http://arxiv.org/abs/2609.09155) | null |
 | 2026-09-08 | **Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout** | World Models & Generative Video | 1.00 | [@2609.09123](http://arxiv.org/abs/2609.09123) | null |
 | 2026-09-08 | **ActionSplice: In-Flight Action Editing for Interactive World Models** | World Models & Generative Video | 1.00 | [@2609.08230](http://arxiv.org/abs/2609.08230) | null |
 | 2026-09-08 | **DriveMotion: A Large-Scale Multi-Source Benchmark for Driver Motion Sequence Modeling and Forecasting** | Character Motion Synthesis & Animation | 0.67 | [@2609.08117](http://arxiv.org/abs/2609.08117) | null |
+| 2026-09-08 | **Integrating Multi-Source Feedback in Computational Design** | Computational Design, Mechanism & Fabrication | 0.67 | [@2609.09483](http://arxiv.org/abs/2609.09483) | null |
+| 2026-09-08 | **Agentic Web Accessibility Auditing: Authoring and Evaluating Per-Criterion Worker Agents for WCAG** | Sketch-based & Creative HCI Tools | 0.67 | [@2609.09379](http://arxiv.org/abs/2609.09379) | null |
 | 2026-09-08 | **"Here Be Sharks!": Enhancing Scientific Communication and Analysis through Authoring Interactivity** | Sketch-based & Creative HCI Tools | 0.67 | [@2609.08386](http://arxiv.org/abs/2609.08386) | null |
+| 2026-09-08 | **No Free Checker: A Survey of Verifiers for Robot Policies** | Vision-Language & Action Models (VLA/VLM) | 0.67 | [@2609.09250](http://arxiv.org/abs/2609.09250) | null |
 | 2026-09-08 | **STSG-VQA: Evidence-Grounded Temporal Question Answering from Surgical Spatio-Temporal Scene Graphs** | Vision-Language & Action Models (VLA/VLM) | 0.67 | [@2609.08543](http://arxiv.org/abs/2609.08543) | null |
 | 2026-09-08 | **Layer Selection in VLMs for Zero-Shot OOD Detection via Multi-Resolution Entropy Estimation** | Vision-Language & Action Models (VLA/VLM) | 0.67 | [@2609.08524](http://arxiv.org/abs/2609.08524) | null |
-| 2026-09-08 | **Safe Task Planning with Long-Term Graph Memory for Embodied Agents** | Vision-Language & Action Models (VLA/VLM) | 0.67 | [@2609.08444](http://arxiv.org/abs/2609.08444) | null |
-| 2026-09-08 | **Towards Embodied Air-Ground Cooperative Object Search: Benchmark, Dataset and Agentic Method** | Vision-Language & Action Models (VLA/VLM) | 0.67 | [@2609.08402](http://arxiv.org/abs/2609.08402) | null |
-| 2026-09-08 | **To Adapt or Not to Adapt? Selective Adaptation for Vision-Language Models** | Vision-Language & Action Models (VLA/VLM) | 0.67 | [@2609.08367](http://arxiv.org/abs/2609.08367) | null |
-| 2026-09-08 | **CoVeR: Coverage-Based Token Pruning for Multi-View 3D Reasoning in VLMs** | Vision-Language & Action Models (VLA/VLM) | 0.67 | [@2609.08345](http://arxiv.org/abs/2609.08345) | null |
-| 2026-09-08 | **CS-CLIP: Compositional Scene Graph-guided CLIP for Robust Compositional Reasoning** | Vision-Language & Action Models (VLA/VLM) | 0.67 | [@2609.08242](http://arxiv.org/abs/2609.08242) | null |
-| 2026-09-08 | **Bridging the Semantic-Utility Gap in Multimodal RAG via Generator-in-the-Loop Alignment** | Vision-Language & Action Models (VLA/VLM) | 0.67 | [@2609.08188](http://arxiv.org/abs/2609.08188) | null |
-| 2026-09-08 | **Dual-Layer Semantic-Spatial Belief Mapping for Aerial Object Goal Navigation** | Vision-Language & Action Models (VLA/VLM) | 0.67 | [@2609.08164](http://arxiv.org/abs/2609.08164) | null |
 | 2026-09-08 | **Earth System World Model for What-If Simulations: A Case Study for Terrestrial Ecosystems** | World Models & Generative Video | 0.67 | [@2609.08855](http://arxiv.org/abs/2609.08855) | null |
 | 2026-09-08 | **Hi-FLoop: Hierarchical State-Feedback Loops for Multi-Timescale World Modeling** | World Models & Generative Video | 0.67 | [@2609.08796](http://arxiv.org/abs/2609.08796) | null |
 | 2026-09-08 | **Temporal State Transport in Video Generation: Diagnosing and Correcting Spectral Imbalance** | World Models & Generative Video | 0.67 | [@2609.08505](http://arxiv.org/abs/2609.08505) | null |
@@ -41,20 +66,16 @@
 | 2026-09-08 | **DSE-VTG: Dual-Side Enhancement for Training-Free Video Temporal Grounding** | Vision-Language & Action Models (VLA/VLM) | 0.33 | [@2609.08850](http://arxiv.org/abs/2609.08850) | null |
 | 2026-09-08 | **Charts Are Beyond Pixels: Probing for Layer-Wise Chart Understanding and Editing** | Vision-Language & Action Models (VLA/VLM) | 0.33 | [@2609.08657](http://arxiv.org/abs/2609.08657) | null |
 | 2026-09-08 | **CASD: Chunk-Aligned Semantic Distillation for Multi-StageRobot Manipulation** | Vision-Language & Action Models (VLA/VLM) | 0.33 | [@2609.08638](http://arxiv.org/abs/2609.08638) | null |
-| 2026-09-08 | **Drive by Hindsight and Foresight: Tool-Grounded Synergistic Reasoning over Hierarchical Memory for Autonomous Driving** | Vision-Language & Action Models (VLA/VLM) | 0.33 | [@2609.08217](http://arxiv.org/abs/2609.08217) | null |
-| 2026-09-08 | **Monkey See, Can Monkey Do? A Benchmark for Evaluating Robot Skill Learning by Observation** | Vision-Language & Action Models (VLA/VLM) | 0.33 | [@2609.08209](http://arxiv.org/abs/2609.08209) | null |
-| 2026-09-08 | **DISEIL: Demonstration Distillation for Sample-Efficient Imitation Learning** | Vision-Language & Action Models (VLA/VLM) | 0.33 | [@2609.08123](http://arxiv.org/abs/2609.08123) | null |
-| 2026-09-08 | **VI-Bench: Benchmarking Prompt Inversion from AIGC Videos** | Vision-Language & Action Models (VLA/VLM) | 0.33 | [@2609.08079](http://arxiv.org/abs/2609.08079) | null |
 | 2026-09-08 | **Kairos: A Dataset for Fine-Grained Video-Language Modeling over Space, Time, and Dynamics** | World Models & Generative Video | 0.33 | [@2609.08755](http://arxiv.org/abs/2609.08755) | null |
+| 2026-09-08 | **VI-Bench: Benchmarking Prompt Inversion from AIGC Videos** | World Models & Generative Video | 0.33 | [@2609.08079](http://arxiv.org/abs/2609.08079) | null |
+| 2026-09-08 | **Learning Global Camera Poses from Noisy View-Graphs for Structure from Motion** | 3D Understanding: Reconstruction & Generation | 0.33 | [@2609.09491](http://arxiv.org/abs/2609.09491) | null |
+| 2026-09-08 | **OmniPoint: Universal Monocular Metric Pointcloud from Any Camera** | 3D Understanding: Reconstruction & Generation | 0.33 | [@2609.09394](http://arxiv.org/abs/2609.09394) | null |
 | 2026-09-08 | **Leveraging Visual and Geometric Priors for Metric-scale and Complete Vehicle Gaussian Reconstruction from Limited Views** | 3D Understanding: Reconstruction & Generation | 0.33 | [@2609.08841](http://arxiv.org/abs/2609.08841) | null |
 | 2026-09-08 | **AURORA: Active Uncertainty-Driven Re-Orientation for In-Hand Reconstruction** | 3D Understanding: Reconstruction & Generation | 0.33 | [@2609.08493](http://arxiv.org/abs/2609.08493) | null |
 | 2026-09-08 | **GSComplete: Gaussian Splat Completion with 2D Diffusion Priors** | 3D Understanding: Reconstruction & Generation | 0.33 | [@2609.08449](http://arxiv.org/abs/2609.08449) | null |
 | 2026-09-08 | **Ostrich: Taking Large Strides Through Stiff Contact in Differentiable Dynamics** | Embodied AI & Robot Learning | 0.33 | [@2609.08800](http://arxiv.org/abs/2609.08800) | null |
 | 2026-09-07 | **Flexible Motion Generation from Language and Style References** | Character Motion Synthesis & Animation | 1.00 | [@2609.08032](http://arxiv.org/abs/2609.08032) | null |
-| 2026-09-07 | **ComVLA: Communication-Aware Split Inference for VLA Models in 6G-Connected Robotics** | Vision-Language & Action Models (VLA/VLM) | 1.00 | [@2609.07838](http://arxiv.org/abs/2609.07838) | null |
 | 2026-09-07 | **Dex-X: Learning Visual-Tactile Dexterous Manipulation From Human Videos with Simulated Interaction** | Embodied AI & Robot Learning | 1.00 | [@2609.07747](http://arxiv.org/abs/2609.07747) | null |
-| 2026-09-07 | **VoT: Vision-of-Thought for Unified Multimodal Representation Alignment** | Vision-Language & Action Models (VLA/VLM) | 0.67 | [@2609.07815](http://arxiv.org/abs/2609.07815) | null |
-| 2026-09-07 | **DroneGround: Open-Vocabulary Drone Payload Characterization Using Synthetic Data and Grounded Vision-Language Models** | Vision-Language & Action Models (VLA/VLM) | 0.67 | [@2609.07780](http://arxiv.org/abs/2609.07780) | null |
 | 2026-09-07 | **InfluenceField: A Differentiable Field with Interventionally Identifiable Causal Structure for Multimodal World Modeling** | World Models & Generative Video | 0.67 | [@2609.07874](http://arxiv.org/abs/2609.07874) | null |
 | 2026-09-07 | **PV-WM: A Heterogeneous Micro-Macro World Model for Articulated Pedestrian-Vehicle Co-Rollout** | World Models & Generative Video | 0.67 | [@2609.07328](http://arxiv.org/abs/2609.07328) | null |
 | 2026-09-07 | **The Price of Consistency: Exploiting Visual Anchors for Multimodal Jailbreaking in Video Generation** | World Models & Generative Video | 0.67 | [@2609.07216](http://arxiv.org/abs/2609.07216) | null |
@@ -65,11 +86,6 @@
 | 2026-09-07 | **Zero-Shot Sim-to-Real Contact-Rich Assembly via Proprioception-Anchored Cross-Modal Pretraining** | Embodied AI & Robot Learning | 0.67 | [@2609.07534](http://arxiv.org/abs/2609.07534) | null |
 | 2026-09-07 | **Distributed Dexterous Manipulation with Spatially Conditioned Multi-Agent Transformers** | Embodied AI & Robot Learning | 0.67 | [@2609.06930](http://arxiv.org/abs/2609.06930) | null |
 | 2026-09-07 | **Designing for Healthy, Affordable, and Sustainable Human-HVAC Interactions for Heating in Smart Homes** | Computational Design, Mechanism & Fabrication | 0.33 | [@2609.07936](http://arxiv.org/abs/2609.07936) | null |
-| 2026-09-07 | **BanglaMemeX: Advancing Cultural Metaphoric Image Interpretation in Bangla with a Multimodal Explainable Dataset** | Vision-Language & Action Models (VLA/VLM) | 0.33 | [@2609.08029](http://arxiv.org/abs/2609.08029) | null |
-| 2026-09-07 | **TDDN: Text-aligned Diffused DINO Network for Puzzle Understanding** | Vision-Language & Action Models (VLA/VLM) | 0.33 | [@2609.07937](http://arxiv.org/abs/2609.07937) | null |
-| 2026-09-07 | **M3-Tele: A Unified Multimodal Teleoperational Framework for Compliant Whole-Body Mobile Manipulation** | Vision-Language & Action Models (VLA/VLM) | 0.33 | [@2609.07859](http://arxiv.org/abs/2609.07859) | null |
-| 2026-09-07 | **Foundation Models for Generalizable Semantic and Goal-Oriented Communication** | Vision-Language & Action Models (VLA/VLM) | 0.33 | [@2609.07853](http://arxiv.org/abs/2609.07853) | null |
-| 2026-09-07 | **SAFIRE: Safety-Critical Benchmark for Fine-grained Fire and Smoke Understanding in Multimodal LLMs** | Vision-Language & Action Models (VLA/VLM) | 0.33 | [@2609.07823](http://arxiv.org/abs/2609.07823) | null |
 | 2026-09-07 | **Better Call CineCrew: Consistent Ultra-Long Narrative-to-Film Generation** | World Models & Generative Video | 0.33 | [@2609.07720](http://arxiv.org/abs/2609.07720) | null |
 | 2026-09-07 | **Zero-Shot 3D Plant Organ Segmentation with SAM3 and Semantic NeRFs** | 3D Understanding: Reconstruction & Generation | 0.33 | [@2609.07724](http://arxiv.org/abs/2609.07724) | null |
 | 2026-09-07 | **Heat Kernel Textures: the Geodesic Gaussians That Do Not Splat** | 3D Understanding: Reconstruction & Generation | 0.33 | [@2609.07557](http://arxiv.org/abs/2609.07557) | null |
@@ -83,6 +99,7 @@
 | 2026-09-07 | **PRG-Fusion: Orchestrating Generative Priors with Reconstruction Evidence for Driving View Synthesis** | Neural Rendering & Physics Simulation | 0.33 | [@2609.06948](http://arxiv.org/abs/2609.06948) | null |
 | 2026-09-06 | **BinauralVAE: Spatial Audio Reconstruction For World Models** | World Models & Generative Video | 1.00 | [@2609.06837](http://arxiv.org/abs/2609.06837) | null |
 | 2026-09-06 | **Diagnosing and Dynamically Filtering Occupancy World Models for Active Mapping** | World Models & Generative Video | 1.00 | [@2609.06820](http://arxiv.org/abs/2609.06820) | null |
+| 2026-09-06 | **Identifying Habit, Physics, and Nuisance in Robot World Models** | World Models & Generative Video | 1.00 | [@2609.09210](http://arxiv.org/abs/2609.09210) | null |
 | 2026-09-06 | **Skinned Motion Retargeting via Artifact-driven Kinematic Prior Refinement** | Motion Authoring, Editing & Retargeting | 0.67 | [@2609.06517](http://arxiv.org/abs/2609.06517) | null |
 | 2026-09-06 | **Multi-Grid Post-Training for Long-Form Multi-Shot Video Generation** | World Models & Generative Video | 0.67 | [@2609.06373](http://arxiv.org/abs/2609.06373) | null |
 | 2026-09-06 | **RoLA: Rotary-Positioned Low-Rank Linear Attention for Efficient Diffusion Transformers** | World Models & Generative Video | 0.33 | [@2609.06712](http://arxiv.org/abs/2609.06712) | null |
@@ -112,23 +129,10 @@
 | 2026-09-04 | **SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution** | 3D Understanding: Reconstruction & Generation | 0.33 | [@2609.05594](http://arxiv.org/abs/2609.05594) | null |
 | 2026-09-04 | **An overview of 3D Vision-Language Models** | 3D Understanding: Reconstruction & Generation | 0.33 | [@2609.05583](http://arxiv.org/abs/2609.05583) | null |
 | 2026-09-04 | **BLASt3R: Bundle Adjustment of Any Image Set with Multi-View Matching and Monocular Priors** | 3D Understanding: Reconstruction & Generation | 0.33 | [@2609.05210](http://arxiv.org/abs/2609.05210) | null |
-| 2026-09-04 | **HiSfM: Disambiguating Structure-from-Motion via Scaffold-Anchored Hierarchical Reconstruction** | 3D Understanding: Reconstruction & Generation | 0.33 | [@2609.04718](http://arxiv.org/abs/2609.04718) | null |
 | 2026-09-04 | **Time-Aware Assistive Navigation** | Embodied AI & Robot Learning | 0.33 | [@2609.05596](http://arxiv.org/abs/2609.05596) | null |
 | 2026-09-04 | **PRISM-Bench: An Audio-Centric Diagnostic Benchmark for Text-to-Audio-Video Generation** | Narrative & Long-form Audio | 0.33 | [@2609.04867](http://arxiv.org/abs/2609.04867) | null |
 | 2026-09-04 | **Learning 3D Editing without Paired Supervision via Generative Prior Distillation** | Neural Rendering & Physics Simulation | 0.33 | [@2609.04942](http://arxiv.org/abs/2609.04942) | null |
-| 2026-09-03 | **DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation** | World Models & Generative Video | 1.00 | [@2609.04031](http://arxiv.org/abs/2609.04031) | null |
-| 2026-09-03 | **WorldReward: Reward Modeling for Camera-Conditioned World Models** | World Models & Generative Video | 1.00 | [@2609.03952](http://arxiv.org/abs/2609.03952) | null |
-| 2026-09-03 | **Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, and World Models** | World Models & Generative Video | 1.00 | [@2609.03927](http://arxiv.org/abs/2609.03927) | null |
-| 2026-09-03 | **OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping** | World Models & Generative Video | 1.00 | [@2609.03919](http://arxiv.org/abs/2609.03919) | null |
-| 2026-09-03 | **Semantic Bayesian World Models** | World Models & Generative Video | 1.00 | [@2609.03834](http://arxiv.org/abs/2609.03834) | null |
-| 2026-09-03 | **Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction** | 3D Understanding: Reconstruction & Generation | 0.67 | [@2609.04201](http://arxiv.org/abs/2609.04201) | null |
-| 2026-09-03 | **Reparametrizing 3D Gaussian Splatting for Real-Time Palette-based Color and Luminance Editing** | 3D Understanding: Reconstruction & Generation | 0.67 | [@2609.03897](http://arxiv.org/abs/2609.03897) | null |
 | 2026-09-03 | **Long-Horizon Consistent and Interaction-Aware World Models for Multi-Style End-to-End Driving** | Embodied AI & Robot Learning | 0.67 | [@2609.03225](http://arxiv.org/abs/2609.03225) | null |
-| 2026-09-03 | **BooM-VVT: Boosting Mask-Free Video Virtual Try-On with Image-Level Pseudo Data** | World Models & Generative Video | 0.33 | [@2609.04120](http://arxiv.org/abs/2609.04120) | null |
-| 2026-09-03 | **Editable Visual Design** | World Models & Generative Video | 0.33 | [@2609.04034](http://arxiv.org/abs/2609.04034) | null |
-| 2026-09-03 | **Where Appearance Fails, Geometry Recognizes: A CAD-Free 3D Shape Prior That Complements Vision Foundation Models** | 3D Understanding: Reconstruction & Generation | 0.33 | [@2609.04381](http://arxiv.org/abs/2609.04381) | null |
-| 2026-09-03 | **Zero-Shot Novel Depth Synthesis Using 3D Foundation Models Scene Representations** | 3D Understanding: Reconstruction & Generation | 0.33 | [@2609.04174](http://arxiv.org/abs/2609.04174) | null |
-| 2026-09-03 | **Sparse auto-regressive modeling for scene generation from multi-view images** | 3D Understanding: Reconstruction & Generation | 0.33 | [@2609.03931](http://arxiv.org/abs/2609.03931) | null |
 | 2026-09-03 | **GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation** | Embodied AI & Robot Learning | 0.33 | [@2609.04193](http://arxiv.org/abs/2609.04193) | null |
 | 2026-09-03 | **A Low-Cost, Open Platform for End-to-End Autonomous Driving on a Miniature Ackermann Vehicle** | Embodied AI & Robot Learning | 0.33 | [@2609.04147](http://arxiv.org/abs/2609.04147) | null |
 | 2026-09-03 | **P-CORE: Self-Supervised Surface Consistency for Point-Based Neural Editing** | Neural Rendering & Physics Simulation | 0.33 | [@2609.03349](http://arxiv.org/abs/2609.03349) | null |
@@ -137,12 +141,12 @@
 | 2026-09-02 | **MS-MEM: Multi-Skill Manipulation-Enhanced Mapping via Uncertainty- and Disturbance-Aware Action Selection** | Embodied AI & Robot Learning | 0.33 | [@2609.02493](http://arxiv.org/abs/2609.02493) | null |
 | 2026-09-02 | **LightBridge: Feed-Forward Generative Relighting for 3D Gaussian Splatting** | Neural Rendering & Physics Simulation | 0.33 | [@2609.02543](http://arxiv.org/abs/2609.02543) | null |
 | 2026-09-01 | **Kirin: Animal Motion Generation from In-the-Wild Video** | Character Motion Synthesis & Animation | 1.00 | [@2609.01823](http://arxiv.org/abs/2609.01823) | null |
-| 2026-09-01 | **Sim2Signal: Sim-to-Real Benchmarks for Traffic Signal Control** | Embodied AI & Robot Learning | 1.00 | [@2609.01676](http://arxiv.org/abs/2609.01676) | null |
 | 2026-09-01 | **Seeing the World and the Self from Egocentric Video** | Character Motion Synthesis & Animation | 0.67 | [@2609.01276](http://arxiv.org/abs/2609.01276) | null |
 | 2026-09-01 | **One Demonstration, Many Objects: Generalizing Manipulation via Local Contact Geometry** | Embodied AI & Robot Learning | 0.67 | [@2609.01938](http://arxiv.org/abs/2609.01938) | null |
 | 2026-09-01 | **NashDreamer: Model-Based Reinforcement Learning for Zero-Sum Imperfect-Information Games** | Embodied AI & Robot Learning | 0.67 | [@2609.01549](http://arxiv.org/abs/2609.01549) | null |
 | 2026-09-01 | **Does Imitation Learning Preserve Temporal Robustness in Dexterous Manipulation? An Expert-Learner Comparison Across Task Execution Speeds** | Embodied AI & Robot Learning | 0.67 | [@2609.01453](http://arxiv.org/abs/2609.01453) | null |
 | 2026-09-01 | **Provably Safe Sim-to-Real Transfer** | Embodied AI & Robot Learning | 0.67 | [@2609.01418](http://arxiv.org/abs/2609.01418) | null |
+| 2026-09-01 | **Sim2Signal: Sim-to-Real Benchmarks for Traffic Signal Control** | Embodied AI & Robot Learning | 0.67 | [@2609.01676](http://arxiv.org/abs/2609.01676) | null |
 | 2026-09-01 | **MeshSplatBench: A Unified Benchmark for Triangle-Based Neural Rendering** | Neural Rendering & Physics Simulation | 0.67 | [@2609.01306](http://arxiv.org/abs/2609.01306) | null |
 | 2026-09-01 | **Inverse Rendering for Modeling with Line Primitives** | Neural Rendering & Physics Simulation | 0.67 | [@2609.00625](http://arxiv.org/abs/2609.00625) | null |
 | 2026-09-01 | **Cross-Model Distillation of a Human-Pose Foundation Model from Unannotated Infant Video for Markerless 3D Pose Estimation** | Character Motion Synthesis & Animation | 0.33 | [@2609.01840](http://arxiv.org/abs/2609.01840) | null |
@@ -156,7 +160,6 @@
 | 2026-08-30 | **Biomechanical 3D Body: Self-Supervised Distillation of Biomechanical Pose from a 3D Body Foundation Model** | Character Motion Synthesis & Animation | 0.33 | [@2608.29928](http://arxiv.org/abs/2608.29928) | null |
 | 2026-08-30 | **System Identification of Admittance Models for Large Real-World Objects** | Computational Design, Mechanism & Fabrication | 0.33 | [@2608.29935](http://arxiv.org/abs/2608.29935) | null |
 | 2026-08-30 | **Wide Learning: Learning to Reach Evidence** | Embodied AI & Robot Learning | 0.33 | [@2608.29608](http://arxiv.org/abs/2608.29608) | null |
-| 2026-08-30 | **Blind Dexterity: Whole-Body Humanoid Manipulation via Pure Proprioception** | Embodied AI & Robot Learning | 0.33 | [@2608.29487](http://arxiv.org/abs/2608.29487) | null |
 | 2026-08-29 | **ECHO: Dyadic 3D Facial Motion Generation with Asymmetric Deterministic Articulation and Stochastic Reaction** | Character Motion Synthesis & Animation | 1.00 | [@2609.05506](http://arxiv.org/abs/2609.05506) | null |
 | 2026-08-29 | **LightFuse: Relightable Interactive Gaussian Scene Reconstruction via Multi-Scan Fusion and 2D Gaussian Ray Tracing** | Neural Rendering & Physics Simulation | 0.67 | [@2608.29269](http://arxiv.org/abs/2608.29269) | null |
 | 2026-08-29 | **Measuring the "Interaction Gap" in Drama Therapy with AI** | Sketch-based & Creative HCI Tools | 0.33 | [@2608.29292](http://arxiv.org/abs/2608.29292) | null |
