@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.09.11
+## 📚 Updated on 2026.09.13
 
 <details>
   <summary>Table of Contents</summary>
@@ -184,7 +184,7 @@
 - 2026-09-10, **ReCHOIR: Contact-guided Human Object Interaction Retargeting to Diverse Characters**, Chaelin Kim et.al., Paper: [@2609.10982](http://arxiv.org/abs/2609.10982)
 > **Abstract:** We present ReCHOIR, a novel contact-guided motion retargeting method for transferring human object interaction (HOI) motions across diverse humanoid characters. Unlike prior motion retargeting methods that primarily focus on transferring human motion alone, our goal is to preserve not only the semantics of the original body movement but also consistent interaction between the character and the manipulated object, while jointly producing aligned target human and object motions. Given source HOI motion, object geometry, and contact cues extracted from the source interaction, ReCHOIR retargets an HOI sequence to target characters with different skeletal configurations while maintaining both motion semantics and contact-consistent interaction patterns. Our method builds on a Part-Aware Motion Embedding (PAME) autoencoder, which encodes full-body motion into a shared body-part-wise latent space. This representation enables generalization across heterogeneous skeletons while preserving local motion semantics beneficial for part-aware adaptation in HOI retargeting. On top of this representation, we introduce a contact-guided retargeting module and an object motion decoder for HOI retargeting. The contact-guided retargeting module treats the source object interaction as a condition for refining target character motion: object- and contact-related signals are encoded into a body-part-aligned latent representation and injected into decoding through a residual control branch, enabling stronger adaptation in interaction-relevant body regions without discarding the underlying motion prior. In parallel, the object motion decoder predicts a target object motion aligned with the refined target character motion, ensuring that the object trajectory remains consistent with how the interaction is realized by the target character.
 
-<p align=right>(<a href=#updated-on-20260911>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260913>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -219,7 +219,7 @@
 - 2026-09-10, **X-Hinges: 3D Printing Self-Sensing Compliant Mechanisms for Continuous and Multi-DOF Motion Sensing**, Xiang Chang et.al., Paper: [@2609.11077](http://arxiv.org/abs/2609.11077)
 > **Abstract:** We present X-Hinges, a design and fabrication method for self-sensing compliant mechanisms based on multi-material FDM 3D printing. By co-printing two conductive filaments of different conductivities within a compliant body, we embed resistive sensing elements directly during fabrication without post-assembly, enabling continuous motion sensing across multiple degrees of freedom in a single print. The structure supports three degrees of freedom, each equipped with a dedicated sensing element configuration for multi-DOF motion estimation. We develop a precision data acquisition system and data-driven regression models that enable continuous, real-time motion sensing. We also introduce an interactive design tool for customizing the geometry, mechanical properties, degrees of freedom, and sensing configurations of X-Hinges. The tool also supports augmenting existing 3D models with self-sensing structures, endowing ordinary objects with continuous multi-DOF sensing capabilities. Finally, we present a set of application examples demonstrating the capability of X-Hinges for fabricating personalized interactive interfaces.
 
-<p align=right>(<a href=#updated-on-20260911>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260913>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -286,7 +286,7 @@
 - 2026-09-10, **X-Hinges: 3D Printing Self-Sensing Compliant Mechanisms for Continuous and Multi-DOF Motion Sensing**, Xiang Chang et.al., Paper: [@2609.11077](http://arxiv.org/abs/2609.11077)
 > **Abstract:** We present X-Hinges, a design and fabrication method for self-sensing compliant mechanisms based on multi-material FDM 3D printing. By co-printing two conductive filaments of different conductivities within a compliant body, we embed resistive sensing elements directly during fabrication without post-assembly, enabling continuous motion sensing across multiple degrees of freedom in a single print. The structure supports three degrees of freedom, each equipped with a dedicated sensing element configuration for multi-DOF motion estimation. We develop a precision data acquisition system and data-driven regression models that enable continuous, real-time motion sensing. We also introduce an interactive design tool for customizing the geometry, mechanical properties, degrees of freedom, and sensing configurations of X-Hinges. The tool also supports augmenting existing 3D models with self-sensing structures, endowing ordinary objects with continuous multi-DOF sensing capabilities. Finally, we present a set of application examples demonstrating the capability of X-Hinges for fabricating personalized interactive interfaces.
 
-<p align=right>(<a href=#updated-on-20260911>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260913>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -2109,7 +2109,7 @@
 - 2026-09-09, **HuRo: Robotizing Human Videos for Scalable VLA Pretraining**, Jinho Jeong et.al., Paper: [@2609.10706](http://arxiv.org/abs/2609.10706)
 > **Abstract:** Human video datasets have emerged as a compelling alternative to expensive real-robot data, offering rich diversity at scale. To bridge the human-to-robot embodiment gap, existing approaches either robotize videos in task-matched settings or address observation and action alignment separately at scale. In this work, we systematically examine whether robotized human videos can provide effective and scalable supervision for pretraining vision-language-action (VLA) policies. To this end, we develop a robotization pipeline that converts heterogeneous human videos into robot-aligned observations and action trajectories while inferring missing intermediate signals across annotation levels. Using this pipeline, we construct the HuRo dataset, comprising about 630K robotized episodes and 142M processed frames from five human-video sources. Across four real-world manipulation tasks, increasing robotized pretraining scale improves overall completion from 51.5% to 80.3% and OOD completion under spatial and visual shifts from 34.9% to 72.2%. Ablations further show that visual robotization improves OOD robustness and that end-to-end pretraining with retargeted actions outperforms visual-only transfer. Code and data are released on our website: https://3587jjh.github.io/HuRo.
 
-<p align=right>(<a href=#updated-on-20260911>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260913>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -2986,7 +2986,7 @@
 - 2026-09-10, **CamPilot: A Multi-Agent Cinematic Assistant for Camera-Controlled Movie Generation**, Yang Wu et.al., Paper: [@2609.10943](http://arxiv.org/abs/2609.10943)
 > **Abstract:** The integration of large language models (LLMs) into video generation has enabled rapid text-to-video creation and improved visual quality. However, it still falls short of professional filmmaking, where cinematographic language is less refined than human-crafted camera work and multi-shot continuity remains challenging. To address these limitations, we introduce CamPilot, a multi-agent framework that integrates cinematographic planning and camera-work control to produce more coherent, logically structured, and human-aesthetic movies. CamPilot adopts a GRPO-based learning paradigm to learn camera work planning from 14K real-world professional movies, internalizing motion patterns and composition principles that support reasoning over shooting techniques (e.g., camera angle, motion, and focal behavior) and cross-shot relationships for controllable camera-viewpoint generation. Multiple agents further collaborate and evolve to improve overall output quality. To support this work and further studies in this domain, we establish CamEval, a benchmark for evaluating camera work quality and cinematic engagement. Empirical results show that CamPilot outperforms state-of-the-art text-to-movie generation methods on cinematographic control and quality, highlighting the impact of professional camera design on movie generation.
 
-<p align=right>(<a href=#updated-on-20260911>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260913>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -3565,7 +3565,7 @@
 - 2026-09-10, **Tri-DehazeGS: Scene--Medium Decoupled Gaussian Splatting with Transmittance-Aware Optimization**, Kui Jiang et.al., Paper: [@2609.11223](http://arxiv.org/abs/2609.11223)
 > **Abstract:** Recovering clean 3D scenes from hazy multi-view images is challenging because haze attenuates scene radiance and introduces atmospheric scattering. Recent scattering-aware Gaussian Splatting methods introduce physical haze models into reconstruction, but they often apply degradation in image space or bind medium-related variables to Gaussian primitives, which can entangle clean scene radiance with atmospheric effects. Moreover, low-transmittance regions provide weakened supervision for Gaussian optimization, causing distant or dense-haze areas to be under-reconstructed. We argue that clean reconstruction under haze requires both scene--medium disentanglement and transmittance-aware optimization rebalancing. To this end, we propose Tri-DehazeGS, a scene--medium decoupled Gaussian Splatting framework. It represents the clean scene with Gaussian primitives, models the participating medium using an independent view-shared tri-plane field, and composes hazy observations through a physical scattering model. We further introduce Medium-Decoupled Transmittance Gradient Compensation (MD-TGC), which compensates haze-suppressed gradients after medium freezing without altering forward rendering. Experiments on real and synthetic haze benchmarks show that Tri-DehazeGS improves clean novel-view reconstruction. Code is available at https://github.com/aptx46/Tri-DehazeGS.
 
-<p align=right>(<a href=#updated-on-20260911>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260913>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -3950,7 +3950,7 @@
 - 2026-09-10, **Distributed Optimization of Modular Production Systems using Model-based Reinforcement Learning with Inverse Models**, Andreas Schwung et.al., Paper: [@2609.11615](http://arxiv.org/abs/2609.11615)
 > **Abstract:** This paper presents a novel approach for data-driven self-learning control of highly flexible, modular manufacturing systems. Specifically, we employ a novel framework for model-based reinforcement learning which introduces approximate inverse process models within the training of reinforcement policies. This approach disentangles the learning of actuation dynamics and the dynamics in state space, resulting in RL-based training solely within the task space. We propose a lightweight feedforward architecture for approximate inverse models and integrate them within the policy network of standard RL algorithms. We apply the approach to a laboratory modular production testbed with heterogeneous production modules. The results underline the efficiency improvements for modular manufacturing units in terms of both performance and training speed, particularly for off-policy algorithms.
 
-<p align=right>(<a href=#updated-on-20260911>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260913>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -4013,7 +4013,7 @@
 - 2026-09-04, **PRISM-Bench: An Audio-Centric Diagnostic Benchmark for Text-to-Audio-Video Generation**, Yuchen Sun et.al., Paper: [@2609.04867](http://arxiv.org/abs/2609.04867)
 > **Abstract:** Text-to-audio-video (T2AV) generation has advanced rapidly, but its evaluation still underestimates the audio modality. Existing benchmarks either treat audio as an auxiliary component of video quality or assess it in isolation from audiovisual grounding, making it difficult to diagnose where current systems truly succeed or fail in audio generation. We present PRISM-Bench, the first audio-centric diagnostic benchmark for T2AV generation. Built from a rigorously curated dataset of 900 human-verified samples, PRISM-Bench factorizes audio evaluation along two orthogonal axes: audio type (Speech, Music, and Sound) and sound-source visibility (On-screen vs. Off-screen). It evaluates generated content across four perceptual dimensions (Audio-Visual Coherence, Audio Quality, Audio Expressiveness, and Prompt Following) with 35 fine-grained criteria. To ensure reliable assessment, we adopt an enhanced MLLM-as-a-Judge protocol based on blind, side-by-side comparison against ground-truth references, demonstrating strong alignment (over 70% mean agreement) with human raters. Our evaluation of recent T2AV systems highlights a significant performance gap between frontier and open-source models. Furthermore, we demonstrate that current generation paradigms overfit to perceptual fidelity while struggling with complex grounding and control tasks, particularly in generating music and synchronized On-screen audio.
 
-<p align=right>(<a href=#updated-on-20260911>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260913>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -4122,7 +4122,7 @@
 - 2026-09-10, **Gaussian Light Transport**, Patrick Attimont et.al., Paper: [@2609.11430](http://arxiv.org/abs/2609.11430)
 > **Abstract:** We present a novel method for computing global illumination by expressing the solution to the light transport equation as a 13D Gaussian mixture model over positions, directions, surface normals, and material properties. We show that including scene properties in the Gaussian representation drastically reduces the number of functions and speeds up evaluation. As opposed to traditional light transport methods based on Neumann series, the parameters of our model are directly estimated by minimizing the residual of the rendering equation. While both optimization and rendering require repeated evaluations of a linear combination of high-dimensional Gaussian functions, we introduce an efficient culling strategy to keep the optimization tractable and produce renderings in real time. Our representation enables to render fast, view-independent solutions to the light transport equation, achieving rendering times on the order of milliseconds, with a fraction of the memory requirements of conventional neural rendering approaches.
 
-<p align=right>(<a href=#updated-on-20260911>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260913>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -4141,7 +4141,7 @@
 - 2026-09-10, **ReCHOIR: Contact-guided Human Object Interaction Retargeting to Diverse Characters**, Chaelin Kim et.al., Paper: [@2609.10982](http://arxiv.org/abs/2609.10982)
 > **Abstract:** We present ReCHOIR, a novel contact-guided motion retargeting method for transferring human object interaction (HOI) motions across diverse humanoid characters. Unlike prior motion retargeting methods that primarily focus on transferring human motion alone, our goal is to preserve not only the semantics of the original body movement but also consistent interaction between the character and the manipulated object, while jointly producing aligned target human and object motions. Given source HOI motion, object geometry, and contact cues extracted from the source interaction, ReCHOIR retargets an HOI sequence to target characters with different skeletal configurations while maintaining both motion semantics and contact-consistent interaction patterns. Our method builds on a Part-Aware Motion Embedding (PAME) autoencoder, which encodes full-body motion into a shared body-part-wise latent space. This representation enables generalization across heterogeneous skeletons while preserving local motion semantics beneficial for part-aware adaptation in HOI retargeting. On top of this representation, we introduce a contact-guided retargeting module and an object motion decoder for HOI retargeting. The contact-guided retargeting module treats the source object interaction as a condition for refining target character motion: object- and contact-related signals are encoded into a body-part-aligned latent representation and injected into decoding through a residual control branch, enabling stronger adaptation in interaction-relevant body regions without discarding the underlying motion prior. In parallel, the object motion decoder predicts a target object motion aligned with the refined target character motion, ensuring that the object trajectory remains consistent with how the interaction is realized by the target character.
 
-<p align=right>(<a href=#updated-on-20260911>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260913>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors

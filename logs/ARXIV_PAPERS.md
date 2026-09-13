@@ -3,22 +3,13 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.09.11
+## 📚 Updated on 2026.09.13
 
 <details open>
-<summary>📑 Table of Contents — 2026-09-11</summary>
+<summary>📑 Table of Contents — 2026-09-13</summary>
 
 **By category**
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (16)
 - [Motion Authoring, Editing & Retargeting](#motion-authoring-editing--retargeting) (3)
-- [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (6)
-- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (5)
-- [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (28)
-- [World Models & Generative Video](#world-models--generative-video) (38)
-- [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (30)
-- [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (32)
-- [Narrative & Long-form Audio](#narrative--long-form-audio) (2)
-- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (15)
 
 </details>
 
@@ -109,7 +100,7 @@
 |**2026-09-10**|**Multi-Modal Controlled Coherent Motion Generation**|Yifei Liu et.al.|[@2609.11439](http://arxiv.org/abs/2609.11439)|null|
 |**2026-09-10**|**ReCHOIR: Contact-guided Human Object Interaction Retargeting to Diverse Characters**|Chaelin Kim et.al.|[@2609.10982](http://arxiv.org/abs/2609.10982)|null|
 
-<p align=right>(<a href=#updated-on-20260911>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260913>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -131,7 +122,7 @@
 |**2026-09-08**|**Integrating Multi-Source Feedback in Computational Design**|Francisco Erivaldo Fernandes Junior et.al.|[@2609.09483](http://arxiv.org/abs/2609.09483)|null|
 |**2026-09-10**|**X-Hinges: 3D Printing Self-Sensing Compliant Mechanisms for Continuous and Multi-DOF Motion Sensing**|Xiang Chang et.al.|[@2609.11077](http://arxiv.org/abs/2609.11077)|null|
 
-<p align=right>(<a href=#updated-on-20260911>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260913>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -169,7 +160,7 @@
 |**2026-09-08**|**Agentic Web Accessibility Auditing: Authoring and Evaluating Per-Criterion Worker Agents for WCAG**|Arjun Mishra et.al.|[@2609.09379](http://arxiv.org/abs/2609.09379)|null|
 |**2026-09-10**|**X-Hinges: 3D Printing Self-Sensing Compliant Mechanisms for Continuous and Multi-DOF Motion Sensing**|Xiang Chang et.al.|[@2609.11077](http://arxiv.org/abs/2609.11077)|null|
 
-<p align=right>(<a href=#updated-on-20260911>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260913>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -1085,7 +1076,7 @@
 |**2026-09-09**|**MHE-Former: Multi-Hypothesis Transformers via Entropy Maximization for 3D Mesh Recovery**|Boshu Jia et.al.|[@2609.10743](http://arxiv.org/abs/2609.10743)|null|
 |**2026-09-09**|**HuRo: Robotizing Human Videos for Scalable VLA Pretraining**|Jinho Jeong et.al.|[@2609.10706](http://arxiv.org/abs/2609.10706)|null|
 
-<p align=right>(<a href=#updated-on-20260911>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260913>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -1528,7 +1519,7 @@
 |**2026-09-10**|**Measuring the Value of World-Model Updates: A Counterfactual Utility Protocol for Continual Adaptation**|Anqi Peter Li et.al.|[@2609.10954](http://arxiv.org/abs/2609.10954)|null|
 |**2026-09-10**|**CamPilot: A Multi-Agent Cinematic Assistant for Camera-Controlled Movie Generation**|Yang Wu et.al.|[@2609.10943](http://arxiv.org/abs/2609.10943)|null|
 
-<p align=right>(<a href=#updated-on-20260911>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260913>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -1822,7 +1813,7 @@
 |**2026-09-10**|**Hologram Representation via Quadratic Phase Gaussian Splatting**|Haolong Wang et.al.|[@2609.11434](http://arxiv.org/abs/2609.11434)|null|
 |**2026-09-10**|**Tri-DehazeGS: Scene--Medium Decoupled Gaussian Splatting with Transmittance-Aware Optimization**|Kui Jiang et.al.|[@2609.11223](http://arxiv.org/abs/2609.11223)|null|
 
-<p align=right>(<a href=#updated-on-20260911>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260913>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -2019,7 +2010,7 @@
 |**2026-09-10**|**Rapid Learning of Dexterous In-Hand Pen Writing through Real-Time Jacobian Estimation**|Kai Stewart et.al.|[@2609.11775](http://arxiv.org/abs/2609.11775)|null|
 |**2026-09-10**|**Distributed Optimization of Modular Production Systems using Model-based Reinforcement Learning with Inverse Models**|Andreas Schwung et.al.|[@2609.11615](http://arxiv.org/abs/2609.11615)|null|
 
-<p align=right>(<a href=#updated-on-20260911>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260913>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -2055,7 +2046,7 @@
 |**2026-08-24**|**WnW: Waxing-and-Waning KV Cache for Long-Form Speech LLMs**|Yiming Yao et.al.|[@2608.22704](http://arxiv.org/abs/2608.22704)|null|
 |**2026-09-04**|**PRISM-Bench: An Audio-Centric Diagnostic Benchmark for Text-to-Audio-Video Generation**|Yuchen Sun et.al.|[@2609.04867](http://arxiv.org/abs/2609.04867)|null|
 
-<p align=right>(<a href=#updated-on-20260911>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260913>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -2114,7 +2105,7 @@
 |**2026-09-09**|**RealSimLoop: Online Real-to-Sim Adaptation via Differentiable Reduced-Order Simulation with Vision Feedback**|Zhihao Cen et.al.|[@2609.09828](http://arxiv.org/abs/2609.09828)|null|
 |**2026-09-10**|**Gaussian Light Transport**|Patrick Attimont et.al.|[@2609.11430](http://arxiv.org/abs/2609.11430)|null|
 
-<p align=right>(<a href=#updated-on-20260911>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260913>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -2128,7 +2119,7 @@
 |**2026-09-06**|**Skinned Motion Retargeting via Artifact-driven Kinematic Prior Refinement**|Seokhyeon Hong et.al.|[@2609.06517](http://arxiv.org/abs/2609.06517)|null|
 |**2026-09-10**|**ReCHOIR: Contact-guided Human Object Interaction Retargeting to Diverse Characters**|Chaelin Kim et.al.|[@2609.10982](http://arxiv.org/abs/2609.10982)|null|
 
-<p align=right>(<a href=#updated-on-20260911>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260913>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
