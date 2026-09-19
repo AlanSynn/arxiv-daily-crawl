@@ -167,8 +167,3 @@
 | 2026-09-07 | **PRG-Fusion: Orchestrating Generative Priors with Reconstruction Evidence for Driving View Synthesis** | Neural Rendering & Physics Simulation | 0.33 | [@2609.06948](http://arxiv.org/abs/2609.06948) | null |
 | 2026-09-06 | **TransNormal-2: Geometry-Grounded Rectified Flow with Edge-Aware Decoding for Precise Normal Estimation** | Neural Rendering & Physics Simulation | 0.33 | [@2609.06665](http://arxiv.org/abs/2609.06665) | null |
 | 2026-09-05 | **PAI-Actor: Cinematic Multi-Character Replacement in Dynamic Scenes** | Character Motion Synthesis & Animation | 0.33 | [@2609.05918](http://arxiv.org/abs/2609.05918) | null |
-| 2026-09-04 | **SeRV: Semantic-Aligned Residual Vector Quantization for American Sign Language Generation** | Character Motion Synthesis & Animation | 0.67 | [@2609.05742](http://arxiv.org/abs/2609.05742) | null |
-| 2026-09-04 | **Beyond Prompt-to-App: Accountable Translation in Teacher-Facing Agentic Authoring** | Sketch-based & Creative HCI Tools | 0.67 | [@2609.04679](http://arxiv.org/abs/2609.04679) | null |
-| 2026-09-04 | **RenderFormer-V2: Neural Rendering with Heterogeneous Scene Primitives** | Neural Rendering & Physics Simulation | 0.67 | [@2609.05738](http://arxiv.org/abs/2609.05738) | null |
-| 2026-09-04 | **PRISM-Bench: An Audio-Centric Diagnostic Benchmark for Text-to-Audio-Video Generation** | Narrative & Long-form Audio | 0.33 | [@2609.04867](http://arxiv.org/abs/2609.04867) | null |
-| 2026-09-04 | **Learning 3D Editing without Paired Supervision via Generative Prior Distillation** | Neural Rendering & Physics Simulation | 0.33 | [@2609.04942](http://arxiv.org/abs/2609.04942) | null |

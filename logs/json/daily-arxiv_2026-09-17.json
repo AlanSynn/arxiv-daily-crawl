@@ -15,8 +15,7 @@
     "2609.08365": "|**2026-09-08**|**ReMoMask-2: Latent Retrieval-Augmented Masked Motion Generation**|Yiran Wang et.al.|[@2609.08365](http://arxiv.org/abs/2609.08365)|null|\n",
     "2609.08117": "|**2026-09-08**|**DriveMotion: A Large-Scale Multi-Source Benchmark for Driver Motion Sequence Modeling and Forecasting**|Yuhang Wang et.al.|[@2609.08117](http://arxiv.org/abs/2609.08117)|null|\n",
     "2609.08032": "|**2026-09-07**|**Flexible Motion Generation from Language and Style References**|Kai Weixian Lan et.al.|[@2609.08032](http://arxiv.org/abs/2609.08032)|null|\n",
-    "2609.05918": "|**2026-09-05**|**PAI-Actor: Cinematic Multi-Character Replacement in Dynamic Scenes**|Bangxun Tang et.al.|[@2609.05918](http://arxiv.org/abs/2609.05918)|null|\n",
-    "2609.05742": "|**2026-09-04**|**SeRV: Semantic-Aligned Residual Vector Quantization for American Sign Language Generation**|Hongyu Wu et.al.|[@2609.05742](http://arxiv.org/abs/2609.05742)|null|\n"
+    "2609.05918": "|**2026-09-05**|**PAI-Actor: Cinematic Multi-Character Replacement in Dynamic Scenes**|Bangxun Tang et.al.|[@2609.05918](http://arxiv.org/abs/2609.05918)|null|\n"
   },
   "Motion Authoring, Editing & Retargeting": {
     "2609.10982": "|**2026-09-10**|**ReCHOIR: Contact-guided Human Object Interaction Retargeting to Diverse Characters**|Chaelin Kim et.al.|[@2609.10982](http://arxiv.org/abs/2609.10982)|null|\n"
@@ -35,8 +34,7 @@
     "2609.15867": "|**2026-09-14**|**On Edge in the Dental Chair: Designing VR Support for Moments of Dental Anxiety**|Zhu Guo et.al.|[@2609.15867](http://arxiv.org/abs/2609.15867)|null|\n",
     "2609.11077": "|**2026-09-10**|**X-Hinges: 3D Printing Self-Sensing Compliant Mechanisms for Continuous and Multi-DOF Motion Sensing**|Xiang Chang et.al.|[@2609.11077](http://arxiv.org/abs/2609.11077)|null|\n",
     "2609.10199": "|**2026-09-09**|**Seeing the Voice, Preserving the Self: A Participatory Design Approach to Deaf-Centric Text-to-Speech**|Shela Atemnkeng et.al.|[@2609.10199](http://arxiv.org/abs/2609.10199)|null|\n",
-    "2609.08386": "|**2026-09-08**|**\"Here Be Sharks!\": Enhancing Scientific Communication and Analysis through Authoring Interactivity**|Caroline Berger et.al.|[@2609.08386](http://arxiv.org/abs/2609.08386)|null|\n",
-    "2609.04679": "|**2026-09-04**|**Beyond Prompt-to-App: Accountable Translation in Teacher-Facing Agentic Authoring**|Nizam Kadir et.al.|[@2609.04679](http://arxiv.org/abs/2609.04679)|null|\n"
+    "2609.08386": "|**2026-09-08**|**\"Here Be Sharks!\": Enhancing Scientific Communication and Analysis through Authoring Interactivity**|Caroline Berger et.al.|[@2609.08386](http://arxiv.org/abs/2609.08386)|null|\n"
   },
   "Vision-Language & Action Models (VLA/VLM)": {
     "2609.20820": "|**2026-09-17**|**Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision**|Nitish Dashora et.al.|[@2609.20820](http://arxiv.org/abs/2609.20820)|null|\n",
@@ -181,8 +179,7 @@
   },
   "Narrative & Long-form Audio": {
     "2609.14116": "|**2026-09-12**|**HARP: Agentic Hybrid Retrieval and Analysis for Long-Form Audio**|Chin-Jou Li et.al.|[@2609.14116](http://arxiv.org/abs/2609.14116)|null|\n",
-    "2609.12945": "|**2026-09-11**|**StepAudio 3 Gen Technical Report**|Bin Lin et.al.|[@2609.12945](http://arxiv.org/abs/2609.12945)|null|\n",
-    "2609.04867": "|**2026-09-04**|**PRISM-Bench: An Audio-Centric Diagnostic Benchmark for Text-to-Audio-Video Generation**|Yuchen Sun et.al.|[@2609.04867](http://arxiv.org/abs/2609.04867)|null|\n"
+    "2609.12945": "|**2026-09-11**|**StepAudio 3 Gen Technical Report**|Bin Lin et.al.|[@2609.12945](http://arxiv.org/abs/2609.12945)|null|\n"
   },
   "Neural Rendering & Physics Simulation": {
     "2609.20818": "|**2026-09-17**|**SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos**|Peiyu Liu et.al.|[@2609.20818](http://arxiv.org/abs/2609.20818)|null|\n",
@@ -195,8 +192,6 @@
     "2609.08730": "|**2026-09-08**|**CVT-GS: Learning to Simplify 3D Gaussian Splatting with Centroidal Voronoi Tessellation**|Bingxian Li et.al.|[@2609.08730](http://arxiv.org/abs/2609.08730)|null|\n",
     "2609.07414": "|**2026-09-07**|**RelightFormer: Feed-forward Generative Transformer for Multiview Object Relighting**|Hejun Wang et.al.|[@2609.07414](http://arxiv.org/abs/2609.07414)|**[link](https://github.com/vLAR-group/RelightFormer)**|\n",
     "2609.06948": "|**2026-09-07**|**PRG-Fusion: Orchestrating Generative Priors with Reconstruction Evidence for Driving View Synthesis**|Sipeng He et.al.|[@2609.06948](http://arxiv.org/abs/2609.06948)|null|\n",
-    "2609.06665": "|**2026-09-06**|**TransNormal-2: Geometry-Grounded Rectified Flow with Edge-Aware Decoding for Precise Normal Estimation**|Mingwei Li et.al.|[@2609.06665](http://arxiv.org/abs/2609.06665)|null|\n",
-    "2609.05738": "|**2026-09-04**|**RenderFormer-V2: Neural Rendering with Heterogeneous Scene Primitives**|Chong Zeng et.al.|[@2609.05738](http://arxiv.org/abs/2609.05738)|null|\n",
-    "2609.04942": "|**2026-09-04**|**Learning 3D Editing without Paired Supervision via Generative Prior Distillation**|Hao Wen et.al.|[@2609.04942](http://arxiv.org/abs/2609.04942)|null|\n"
+    "2609.06665": "|**2026-09-06**|**TransNormal-2: Geometry-Grounded Rectified Flow with Edge-Aware Decoding for Precise Normal Estimation**|Mingwei Li et.al.|[@2609.06665](http://arxiv.org/abs/2609.06665)|null|\n"
   }
 }
