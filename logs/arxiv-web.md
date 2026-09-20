@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.09.19
+## 📚 Updated on 2026.09.20
 
 <details>
   <summary>Table of Contents</summary>
@@ -202,7 +202,7 @@
 - 2026-09-17, **DirtyMoCap: Robust Motion Capture from Unconstrained Markers**, Long Wang et.al., Paper: [@2609.19927](http://arxiv.org/abs/2609.19927)
 > **Abstract:** Optical motion capture delivers high-fidelity human motion, but its reliance on strict marker layouts and clean trajectories severely limits its real-world applicability. In practice, tracking systems frequently output unconstrained markers: sparse, noisy, and unordered point clouds with unknown or varying configurations. To bridge the gap between corrupted raw markers and parametric human models, we introduce DirtyMoCap, a robust, marker-layout-free framework. Our core insight is to map unordered marker observations to a fixed set of "proxy anchors" comprising skeletal joints and body surface points, which serve as a stable intermediate representation. We first initialize and track these anchors over long sequences using a recurrent sliding-window architecture. Then, a custom differentiable Gauss-Newton solver fits the SMPL-H model to the tracked anchors to recover full-body pose, translation, and shape. By explicitly deriving geometric residuals, our solver learns adaptive observation confidence, smoothness, and prior weights end-to-end, adapting dynamically to the reliability of the input data. Extensive experiments on diverse, noisy marker configurations demonstrate that DirtyMoCap successfully generalizes across arbitrary layouts using only a single trained model. It consistently outperforms state-of-the-art configuration-specific baselines in both joint and vertex reconstruction accuracy, while our custom CUDA solver achieves up to a 100x speedup over standard PyTorch implementations. We further apply DirtyMoCap to heterogeneous raw optical MoCap recordings of traditional Chinese martial arts, yielding a Kung Fu motion dataset of temporally coherent SMPL-H reconstructions. Code and data are available at https://wanglongzju.github.io/DirtyMoCap-Project-Page.
 
-<p align=right>(<a href=#updated-on-20260919>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260920>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -243,7 +243,7 @@
 - 2026-09-16, **Toward 3D Printable Non-Planar Electroadhesive Structures for Active Anchoring**, Mostafa A. Atalla et.al., Paper: [@2609.18700](http://arxiv.org/abs/2609.18700)
 > **Abstract:** This paper investigates multi-material 3D printing as a method to fabricate non-planar structures with 3D-printed electrode patterns for electroadhesion. We printed flat electroadhesion pads as a planar benchmark and cylindrical pads as a non-planar demonstration, with conductive interdigitated electrodes 3D printed as part of the structure. Normal-force measurements showed voltage-controlled modulation in both geometries. At 3 kV, the flat pads generated approximately 0.11-0.13 N, while the cylindrical pads reached approximately 0.16 N at 5 N preload. These results demonstrate a step toward printed parts with built-in, electrically controlled adhesion and friction, beyond conventional planar electroadhesion pads.
 
-<p align=right>(<a href=#updated-on-20260919>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260920>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -316,7 +316,7 @@
 - 2026-09-16, **Encypher: Shared Agency and Social Presence in Collaborative Music Generation for Dance Cyphers**, Zhixing Chen et.al., Paper: [@2609.18062](http://arxiv.org/abs/2609.18062)
 > **Abstract:** Music and dance are social practices of expression and connection, yet most HCI work in human-AI co-creation centers the solo performer. As generative music matures, we ask not only what AI can compose but what social encounters it can organize around sound. We present Encypher, a collaborative generative music system that translates collective movement qualities into text prompts conditioning real-time music generation for dance cyphers. Through five weeks of co-design with local dancers, a user study with unacquainted participants, a public museum event, and a live performance, we found that users developed shared agency, perceiving the music as a response to the room's energy. While newcomers felt uncertain, the system fostered social presence by prompting them to look to each other for cues. By treating sociality as a design concern rather than a downstream effect, we offer a framework and design implications for AI systems for collaborative, embodied expression.
 
-<p align=right>(<a href=#updated-on-20260919>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260920>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -2457,7 +2457,7 @@
 - 2026-09-17, **ReShoot: Generative Visual Domain Randomization of Recorded Robot Demonstrations for Visuomotor Policy Learning**, Chiyoung Kim et.al., Paper: [@2609.19661](http://arxiv.org/abs/2609.19661)
 > **Abstract:** Imitation-learned robot policies are frequently overfit to the visual conditions present in their training demonstrations. Consequently, variations in object color or background appearance often induce substantial performance degradation. A common mitigation strategy is to acquire additional demonstrations in each novel visual context; however, this approach is resource-intensive, requiring repeated access to a robot, a controlled environment, and human operation for every appearance condition to be covered. We introduce ReShoot, a framework that synthesizes visual diversity by re-rendering previously recorded demonstrations under altered appearances, thereby shifting the burden from data collection to generation. A vision-language model captions the scene, edits a targeted attribute (e.g., background, object color, or material), and an edge-conditioned video generator re-renders both camera views to match. The instruction is updated accordingly. The action sequence and proprioceptive trajectory are copied verbatim without relabeling, so each generated episode retains the recorded action and proprioceptive labels. On LIBERO, a policy trained on an equal mixture of recorded and re-rendered demonstrations matches the performance of recorded-only training (96.5% vs. 96.9%). Moreover, the mixed training set improves robustness to scene perturbations on LIBERO-Plus (85.5% vs. 82.3%). Across two physical robotic platforms, deploying ReShoot with 43 and 100 pre-collected demonstrations increased the success rate on recolored objects from 0.0% to 42.9% and 47.5%, respectively, while maintaining performance under the original recorded appearance.
 
-<p align=right>(<a href=#updated-on-20260919>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260920>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -3424,7 +3424,7 @@
 - 2026-09-16, **GAVEL: Graph World Models for Verified and Efficient Long-Horizon LLM Task Planning**, Ruiyang Wang et.al., Paper: [@2609.19315](http://arxiv.org/abs/2609.19315)
 > **Abstract:** Large language models (LLMs) provide a flexible interface for long-horizon robot planning, but generated plans often fail to respect embodiment constraints, recover from planning errors, or reason effectively under partial observability. We present GAVEL, a framework for verifying and repairing long-horizon LLM planning built around an explicit graph world model. The graph represents relevant object-relations, action pre-conditions and effects, and probabilistic beliefs over unobserved object locations. This model can predict the consequences of LLM-generated actions before execution, detect violations, and repair those whose corrections follow directly from the world model. This method also reserves LLM replanning solely for errors requiring semantic reasoning. For multi-task instructions, GAVEL reasons over distributions of possible object locations to reorder remaining subtasks and minimize expected search cost. We evaluate GAVEL on BEHAVIOR-1K across 100 single long-horizon tasks and 500 multi-task instructions. With Qwen3-8B, GAVEL improves single-task success from 41.2% to 91.8% and multi-task success from 19.9% to 92.6%. Distributional belief reasoning also reduces travel distance by approximately 5.4% compared with a static variant. These improvements show that an explicit graph world model harness can substantially improve the reliability and efficiency of long-horizon embodied planning across compact and frontier hosted LLM capabilities.
 
-<p align=right>(<a href=#updated-on-20260919>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260920>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -4093,7 +4093,7 @@
 - 2026-09-16, **RGS: Reflection-aware Gaussian Splatting via Learning Geometry Continuity for Reflective Objects**, Xiaobiao Du et.al., Paper: [@2609.19421](http://arxiv.org/abs/2609.19421)
 > **Abstract:** Gaussian Splatting has significantly improved the quality of novel view synthesis with explicit Gaussian representation. However, we observed that existing 3D Gaussian Splatting methods (3DGS) often suffer from surface collapse issues on reflective regions, and thus produce inferior geometry and low-quality specular. In this work, we propose a physically-based deferred rendering framework, named Reflection-aware Gaussian Splatting (RGS), that can accurately model specular regions and improve novel view synthesis performance. Specifically, we found that a powerful 3D foundation model can provide a strong 3D geometric prior to foster correct geometric modeling. Based on this, we propose a cross-view shape consistency regularization to regularize the geometry surface with the large model prior and cross-view constraints. In this manner, our RGS can produce smoother geometric surfaces on reflective regions while reducing geometric hollows. To further improve rendering results on reflective regions, we present a reflection-aware densification strategy that is designed to capture specular variations across various views. With this strategy, our RGS is able to render novel views of objects in higher quality. Extensive experiments demonstrate our method consistently renders high-quality reflective objects, achieving state-of-the-art performance.
 
-<p align=right>(<a href=#updated-on-20260919>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260920>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -4540,7 +4540,7 @@
 - 2026-09-17, **Towards High-DoF Dexterous Manipulation through VLA Post-Training**, Junlei Zhu et.al., Paper: [@2609.19666](http://arxiv.org/abs/2609.19666)
 > **Abstract:** Imitation-learned vision--language--action (VLA) foundation models acquire broad manipulation capabilities by scaling robot data across tasks and embodiments, but reliable deployment on a specific downstream task and hardware platform still requires post-training. Dexterous hands make this adaptation particularly difficult: their broad behavioural repertoire and high degree of freedom create a large and structured action space. Three obstacles are central: open-source VLAs do not natively provide an action interface for high-DoF hands; gesture mismatch during human-gated DAgger takeover creates command discontinuities and contaminates corrective trajectories; and reinforcement learning in the raw joint space is sample-inefficient. We present a unified four-step post-training pipeline comprising a learned temporal hand-action codec, supervised fine-tuning, DAgger, and real-world residual reinforcement learning. The codec adapts a pretrained VLA to absolute dexterous-hand commands. Buffered rollback, pose alignment, and smooth command blending enable continuous, task-relevant DAgger corrections, while latent residual RL confines exploration to coordinated hand motions captured by the codec. We evaluate the pipeline on five diverse real-world tasks spanning bimanual transfer, in-hand reorientation, and tool use. Within the reported post-training budgets, the resulting policies achieve 100\% success on every evaluated task over 20 trials per task. These results provide a practical path for adapting VLA foundation models to reliable real-world dexterous manipulation.
 
-<p align=right>(<a href=#updated-on-20260919>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260920>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -4607,7 +4607,7 @@
 - 2026-09-12, **HARP: Agentic Hybrid Retrieval and Analysis for Long-Form Audio**, Chin-Jou Li et.al., Paper: [@2609.14116](http://arxiv.org/abs/2609.14116)
 > **Abstract:** Long-form audio analysis requires systems to localize and integrate evidence distributed across extended recordings. While existing work primarily retrieves semantic content through structured textual representations, many real-world queries depend on acoustic evidence that is better preserved in continuous representations or raw audio. We introduce HARP (Hybrid Audio Retrieval Pipeline), an agentic framework and benchmark for systematically studying retrieval and evidence representations in long-audio analysis. Hybrid retrieval combining keyword and vector search shows the most robust performance. When paired with both metadata and retrieved audio as evidence, average answer accuracy improves by around 10% and rationale accuracy by around 6% over single-modality retrieval and evidence. Fine-grained evaluation shows that answer accuracy alone overestimates system capability and that HARP mostly follows human performance trends across query types. These results highlight the importance of combining structured retrieval with flexible access to audio evidence and evaluating long-audio systems beyond answer accuracy.
 
-<p align=right>(<a href=#updated-on-20260919>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260920>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -4726,7 +4726,7 @@
 - 2026-09-17, **GS-PI: An Optimization-Decoupled Appearance Decomposition Approach for Generating PBR Gaussian Assets**, Jieting Xu et.al., Paper: [@2609.19907](http://arxiv.org/abs/2609.19907)
 > **Abstract:** Gaussian Splatting (GS) excels at novel-view synthesis but encodes baked-in radiance, tightly entangling illumination with geometry and preventing seamless integration into physically based rendering (PBR) pipelines. Existing inverse-rendering methods attempt to disentangle materials via joint optimization, but often suffer from competing objectives that cause severe ambiguities and residual lighting artifacts. To overcome this, we present GS-PI, a novel optimization-decoupled framework that casts PBR material generation as a geometry-conditioned diffusion process on 3D point clouds. By operating directly in the 3D domain, our method inherently guarantees multi-view consistency, sidestepping the severe pixel correspondence issues that challenge 2D diffusion approaches. We introduce a multi-scale cross-view conditioning mechanism that integrates three complementary components: a global semantic prior, source-anchored photometric cues, and an absolute spatial learned view-direction conditioning signal. This design efficiently compresses complex multi-view evidence, mitigating cross-view projection misalignment and successfully preventing specular highlights from baking into intrinsic colors. By extracting a point cloud from a pre-trained Gaussian model, predicting PBR attributes via conditional diffusion, and distilling them back through differentiable rasterisation, we yield a fully relightable PBR-GS asset. GS-PI outperforms recent inverse-rendering baselines while replacing per-scene joint illumination/BRDF optimization with a learned diffusion pass followed by a short target-driven distillation, without requiring proxy meshes.
 
-<p align=right>(<a href=#updated-on-20260919>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260920>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -4745,7 +4745,7 @@
 - 2026-09-10, **ReCHOIR: Contact-guided Human Object Interaction Retargeting to Diverse Characters**, Chaelin Kim et.al., Paper: [@2609.10982](http://arxiv.org/abs/2609.10982)
 > **Abstract:** We present ReCHOIR, a novel contact-guided motion retargeting method for transferring human object interaction (HOI) motions across diverse humanoid characters. Unlike prior motion retargeting methods that primarily focus on transferring human motion alone, our goal is to preserve not only the semantics of the original body movement but also consistent interaction between the character and the manipulated object, while jointly producing aligned target human and object motions. Given source HOI motion, object geometry, and contact cues extracted from the source interaction, ReCHOIR retargets an HOI sequence to target characters with different skeletal configurations while maintaining both motion semantics and contact-consistent interaction patterns. Our method builds on a Part-Aware Motion Embedding (PAME) autoencoder, which encodes full-body motion into a shared body-part-wise latent space. This representation enables generalization across heterogeneous skeletons while preserving local motion semantics beneficial for part-aware adaptation in HOI retargeting. On top of this representation, we introduce a contact-guided retargeting module and an object motion decoder for HOI retargeting. The contact-guided retargeting module treats the source object interaction as a condition for refining target character motion: object- and contact-related signals are encoded into a body-part-aligned latent representation and injected into decoding through a residual control branch, enabling stronger adaptation in interaction-relevant body regions without discarding the underlying motion prior. In parallel, the object motion decoder predicts a target object motion aligned with the refined target character motion, ensuring that the object trajectory remains consistent with how the interaction is realized by the target character.
 
-<p align=right>(<a href=#updated-on-20260919>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260920>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors

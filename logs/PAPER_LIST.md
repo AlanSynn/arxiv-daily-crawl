@@ -166,4 +166,3 @@
 | 2026-09-07 | **RelightFormer: Feed-forward Generative Transformer for Multiview Object Relighting** | Neural Rendering & Physics Simulation | 0.33 | [@2609.07414](http://arxiv.org/abs/2609.07414) | [link](https://github.com/vLAR-group/RelightFormer) |
 | 2026-09-07 | **PRG-Fusion: Orchestrating Generative Priors with Reconstruction Evidence for Driving View Synthesis** | Neural Rendering & Physics Simulation | 0.33 | [@2609.06948](http://arxiv.org/abs/2609.06948) | null |
 | 2026-09-06 | **TransNormal-2: Geometry-Grounded Rectified Flow with Edge-Aware Decoding for Precise Normal Estimation** | Neural Rendering & Physics Simulation | 0.33 | [@2609.06665](http://arxiv.org/abs/2609.06665) | null |
-| 2026-09-05 | **PAI-Actor: Cinematic Multi-Character Replacement in Dynamic Scenes** | Character Motion Synthesis & Animation | 0.33 | [@2609.05918](http://arxiv.org/abs/2609.05918) | null |

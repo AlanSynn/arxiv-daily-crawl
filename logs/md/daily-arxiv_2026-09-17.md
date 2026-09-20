@@ -3,13 +3,13 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.09.19
+## 📚 Updated on 2026.09.20
 
 <details open>
-<summary>📑 Table of Contents — 2026-09-19</summary>
+<summary>📑 Table of Contents — 2026-09-20</summary>
 
 **By category**
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (16)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (15)
 - [Motion Authoring, Editing & Retargeting](#motion-authoring-editing--retargeting) (1)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (6)
 - [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (6)
@@ -43,9 +43,8 @@
 |**2026-09-08**|**ReMoMask-2: Latent Retrieval-Augmented Masked Motion Generation**|Yiran Wang et.al.|[@2609.08365](http://arxiv.org/abs/2609.08365)|null|
 |**2026-09-08**|**DriveMotion: A Large-Scale Multi-Source Benchmark for Driver Motion Sequence Modeling and Forecasting**|Yuhang Wang et.al.|[@2609.08117](http://arxiv.org/abs/2609.08117)|null|
 |**2026-09-07**|**Flexible Motion Generation from Language and Style References**|Kai Weixian Lan et.al.|[@2609.08032](http://arxiv.org/abs/2609.08032)|null|
-|**2026-09-05**|**PAI-Actor: Cinematic Multi-Character Replacement in Dynamic Scenes**|Bangxun Tang et.al.|[@2609.05918](http://arxiv.org/abs/2609.05918)|null|
 
-<p align=right>(<a href=#updated-on-20260919>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260920>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -53,7 +52,7 @@
 |---|---|---|---|---|
 |**2026-09-10**|**ReCHOIR: Contact-guided Human Object Interaction Retargeting to Diverse Characters**|Chaelin Kim et.al.|[@2609.10982](http://arxiv.org/abs/2609.10982)|null|
 
-<p align=right>(<a href=#updated-on-20260919>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260920>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -66,7 +65,7 @@
 |**2026-09-08**|**Integrating Multi-Source Feedback in Computational Design**|Francisco Erivaldo Fernandes Junior et.al.|[@2609.09483](http://arxiv.org/abs/2609.09483)|null|
 |**2026-09-07**|**Designing for Healthy, Affordable, and Sustainable Human-HVAC Interactions for Heating in Smart Homes**|Delong Korus-Du et.al.|[@2609.07936](http://arxiv.org/abs/2609.07936)|null|
 
-<p align=right>(<a href=#updated-on-20260919>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260920>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -79,7 +78,7 @@
 |**2026-09-09**|**Seeing the Voice, Preserving the Self: A Participatory Design Approach to Deaf-Centric Text-to-Speech**|Shela Atemnkeng et.al.|[@2609.10199](http://arxiv.org/abs/2609.10199)|null|
 |**2026-09-08**|**"Here Be Sharks!": Enhancing Scientific Communication and Analysis through Authoring Interactivity**|Caroline Berger et.al.|[@2609.08386](http://arxiv.org/abs/2609.08386)|null|
 
-<p align=right>(<a href=#updated-on-20260919>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260920>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -117,7 +116,7 @@
 |**2026-09-17**|**Runtime Safety Filtering for Two-Terminal Hazards in Robotic Battery Recycling**|Yuxin Cao et.al.|[@2609.19665](http://arxiv.org/abs/2609.19665)|null|
 |**2026-09-17**|**ReShoot: Generative Visual Domain Randomization of Recorded Robot Demonstrations for Visuomotor Policy Learning**|Chiyoung Kim et.al.|[@2609.19661](http://arxiv.org/abs/2609.19661)|null|
 
-<p align=right>(<a href=#updated-on-20260919>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260920>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -159,7 +158,7 @@
 |**2026-09-13**|**An immune world model for multiscale forecasting and therapeutic hypothesis generation**|Taoyong Cui et.al.|[@2609.14709](http://arxiv.org/abs/2609.14709)|null|
 |**2026-09-13**|**World-Action Models for Robot Learning and Control: A Survey**|Zuxing Lu et.al.|[@2609.16074](http://arxiv.org/abs/2609.16074)|null|
 
-<p align=right>(<a href=#updated-on-20260919>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260920>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -200,7 +199,7 @@
 |**2026-09-14**|**SAM3D-Part: Interactive Part Selection and Generation from 3D Objects**|Jiahao Chang et.al.|[@2609.15639](http://arxiv.org/abs/2609.15639)|null|
 |**2026-09-14**|**Multi-Stage NeRF for Efficient 3D Coronary Artery Reconstruction from Two Narrow-Angle Angiographic Projections**|Deyu Meng et.al.|[@2609.15550](http://arxiv.org/abs/2609.15550)|null|
 
-<p align=right>(<a href=#updated-on-20260919>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260920>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -240,7 +239,7 @@
 |**2026-09-09**|**ViBe: Visual Behavior Adaptation for Perceptive Humanoid Whole-Body Control**|Lokesh Krishna et.al.|[@2609.09918](http://arxiv.org/abs/2609.09918)|null|
 |**2026-09-09**|**Extending the Speed Limit of Quadrupedal Locomotion via Refined Actuator Modeling and Adaptive Command Scheduling**|Yucheng Tao et.al.|[@2609.13289](http://arxiv.org/abs/2609.13289)|null|
 
-<p align=right>(<a href=#updated-on-20260919>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260920>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -249,7 +248,7 @@
 |**2026-09-12**|**HARP: Agentic Hybrid Retrieval and Analysis for Long-Form Audio**|Chin-Jou Li et.al.|[@2609.14116](http://arxiv.org/abs/2609.14116)|null|
 |**2026-09-11**|**StepAudio 3 Gen Technical Report**|Bin Lin et.al.|[@2609.12945](http://arxiv.org/abs/2609.12945)|null|
 
-<p align=right>(<a href=#updated-on-20260919>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260920>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -267,7 +266,7 @@
 |**2026-09-07**|**PRG-Fusion: Orchestrating Generative Priors with Reconstruction Evidence for Driving View Synthesis**|Sipeng He et.al.|[@2609.06948](http://arxiv.org/abs/2609.06948)|null|
 |**2026-09-06**|**TransNormal-2: Geometry-Grounded Rectified Flow with Edge-Aware Decoding for Precise Normal Estimation**|Mingwei Li et.al.|[@2609.06665](http://arxiv.org/abs/2609.06665)|null|
 
-<p align=right>(<a href=#updated-on-20260919>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260920>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
