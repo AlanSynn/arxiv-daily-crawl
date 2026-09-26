@@ -172,6 +172,3 @@
 | 2026-09-12 | **MorphoStyle: Motion Style Transfer with Morphology Control** | Character Motion Synthesis & Animation | 0.67 | [@2609.14189](http://arxiv.org/abs/2609.14189) | null |
 | 2026-09-12 | **HARP: Agentic Hybrid Retrieval and Analysis for Long-Form Audio** | Narrative & Long-form Audio | 0.67 | [@2609.14116](http://arxiv.org/abs/2609.14116) | null |
 | 2026-09-12 | **Learnable Persistent Wrinkle Formation in Cloth Simulation** | Neural Rendering & Physics Simulation | 0.67 | [@2609.13707](http://arxiv.org/abs/2609.13707) | null |
-| 2026-09-11 | **UniMo: Unifying Human and Animal Motion Generation** | Character Motion Synthesis & Animation | 1.00 | [@2609.12342](http://arxiv.org/abs/2609.12342) | null |
-| 2026-09-11 | **SNAP3D: Physically Grounded 3D Parts for Assembly from a Single Image** | Computational Design, Mechanism & Fabrication | 0.33 | [@2609.13146](http://arxiv.org/abs/2609.13146) | null |
-| 2026-09-11 | **StepAudio 3 Gen Technical Report** | Narrative & Long-form Audio | 0.33 | [@2609.12945](http://arxiv.org/abs/2609.12945) | null |
