@@ -14,9 +14,7 @@
     "2609.18667": "|**2026-09-16**|**Video-Based Markerless Motion Capture for Clinical and Rehabilitation Biomechanics: A PRISMA-ScR Scoping Review of Validated Architectures, Clinical Readiness, and Emerging Methods**|Florian Delaplace et.al.|[@2609.18667](http://arxiv.org/abs/2609.18667)|null|\n",
     "2609.16319": "|**2026-09-14**|**ConGraspXL: Controllable Constraint-Conditioned Dexterous Grasping Motion Synthesis**|Hui Zhang et.al.|[@2609.16319](http://arxiv.org/abs/2609.16319)|null|\n",
     "2609.14965": "|**2026-09-14**|**MoVT: Video-Augmented Motion Tokenizer for Text-to-Motion Generation**|Beibei Jing et.al.|[@2609.14965](http://arxiv.org/abs/2609.14965)|null|\n",
-    "2609.14615": "|**2026-09-13**|**Open-UniMo: Towards Unified Motion-Language Understanding and Generation in the Open World**|Guocun Wang et.al.|[@2609.14615](http://arxiv.org/abs/2609.14615)|null|\n",
-    "2609.14189": "|**2026-09-12**|**MorphoStyle: Motion Style Transfer with Morphology Control**|Xin Feng et.al.|[@2609.14189](http://arxiv.org/abs/2609.14189)|null|\n",
-    "2609.14122": "|**2026-09-12**|**SignMimic: Robust High-Quality Sign Language Motion Generation via Human-Shape-Oblivious Pose Transfer Guidance**|Zhewen He et.al.|[@2609.14122](http://arxiv.org/abs/2609.14122)|null|\n"
+    "2609.14615": "|**2026-09-13**|**Open-UniMo: Towards Unified Motion-Language Understanding and Generation in the Open World**|Guocun Wang et.al.|[@2609.14615](http://arxiv.org/abs/2609.14615)|null|\n"
   },
   "Computational Design, Mechanism & Fabrication": {
     "2609.18700": "|**2026-09-16**|**Toward 3D Printable Non-Planar Electroadhesive Structures for Active Anchoring**|Mostafa A. Atalla et.al.|[@2609.18700](http://arxiv.org/abs/2609.18700)|null|\n",
@@ -175,8 +173,7 @@
     "2609.22967": "|**2026-09-19**|**General Collaborative Intelligence: Architecting Cognition for Resilient Multi-Agent Ecosystems**|Lei Zhang et.al.|[@2609.22967](http://arxiv.org/abs/2609.22967)|null|\n"
   },
   "Narrative & Long-form Audio": {
-    "2609.23416": "|**2026-09-20**|**MuLA-Bench: A Multilingual Long-Form Audio Understanding Benchmark via Multi-Tier Auditing**|Zeyu Yang et.al.|[@2609.23416](http://arxiv.org/abs/2609.23416)|null|\n",
-    "2609.14116": "|**2026-09-12**|**HARP: Agentic Hybrid Retrieval and Analysis for Long-Form Audio**|Chin-Jou Li et.al.|[@2609.14116](http://arxiv.org/abs/2609.14116)|null|\n"
+    "2609.23416": "|**2026-09-20**|**MuLA-Bench: A Multilingual Long-Form Audio Understanding Benchmark via Multi-Tier Auditing**|Zeyu Yang et.al.|[@2609.23416](http://arxiv.org/abs/2609.23416)|null|\n"
   },
   "Neural Rendering & Physics Simulation": {
     "2609.28300": "|**2026-09-23**|**RoomLight: A 2.5D Illumination Prior for Indoor Environments**|Andreea Ardelean et.al.|[@2609.28300](http://arxiv.org/abs/2609.28300)|null|\n",
@@ -188,7 +185,6 @@
     "2609.20818": "|**2026-09-17**|**SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos**|Peiyu Liu et.al.|[@2609.20818](http://arxiv.org/abs/2609.20818)|null|\n",
     "2609.19907": "|**2026-09-17**|**GS-PI: An Optimization-Decoupled Appearance Decomposition Approach for Generating PBR Gaussian Assets**|Jieting Xu et.al.|[@2609.19907](http://arxiv.org/abs/2609.19907)|null|\n",
     "2609.17740": "|**2026-09-15**|**Geometry-Driven Shadow Harmonisation for Composited Faces: A Multiplicative, Albedo-Preserving Relighting Pipeline**|Vijesh KP et.al.|[@2609.17740](http://arxiv.org/abs/2609.17740)|null|\n",
-    "2609.17387": "|**2026-09-15**|**PanoGS-SLAM: Panoramic 3D Gaussian Splatting SLAM**|Yongqi Mao et.al.|[@2609.17387](http://arxiv.org/abs/2609.17387)|null|\n",
-    "2609.13707": "|**2026-09-12**|**Learnable Persistent Wrinkle Formation in Cloth Simulation**|Deshan Gong et.al.|[@2609.13707](http://arxiv.org/abs/2609.13707)|null|\n"
+    "2609.17387": "|**2026-09-15**|**PanoGS-SLAM: Panoramic 3D Gaussian Splatting SLAM**|Yongqi Mao et.al.|[@2609.17387](http://arxiv.org/abs/2609.17387)|null|\n"
   }
 }

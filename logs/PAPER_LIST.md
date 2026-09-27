@@ -168,7 +168,3 @@
 | 2026-09-14 | **Low Clearance Hinge Joint Mechanism Based on 3D Printing on Sheet Fabrication Methodology** | Computational Design, Mechanism & Fabrication | 0.67 | [@2609.15276](http://arxiv.org/abs/2609.15276) | null |
 | 2026-09-14 | **On Edge in the Dental Chair: Designing VR Support for Moments of Dental Anxiety** | Sketch-based & Creative HCI Tools | 0.33 | [@2609.15867](http://arxiv.org/abs/2609.15867) | null |
 | 2026-09-13 | **Open-UniMo: Towards Unified Motion-Language Understanding and Generation in the Open World** | Character Motion Synthesis & Animation | 0.67 | [@2609.14615](http://arxiv.org/abs/2609.14615) | null |
-| 2026-09-12 | **SignMimic: Robust High-Quality Sign Language Motion Generation via Human-Shape-Oblivious Pose Transfer Guidance** | Character Motion Synthesis & Animation | 1.00 | [@2609.14122](http://arxiv.org/abs/2609.14122) | null |
-| 2026-09-12 | **MorphoStyle: Motion Style Transfer with Morphology Control** | Character Motion Synthesis & Animation | 0.67 | [@2609.14189](http://arxiv.org/abs/2609.14189) | null |
-| 2026-09-12 | **HARP: Agentic Hybrid Retrieval and Analysis for Long-Form Audio** | Narrative & Long-form Audio | 0.67 | [@2609.14116](http://arxiv.org/abs/2609.14116) | null |
-| 2026-09-12 | **Learnable Persistent Wrinkle Formation in Cloth Simulation** | Neural Rendering & Physics Simulation | 0.67 | [@2609.13707](http://arxiv.org/abs/2609.13707) | null |

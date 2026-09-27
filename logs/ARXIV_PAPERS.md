@@ -3,21 +3,21 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.09.26
+## 📚 Updated on 2026.09.27
 
 <details open>
-<summary>📑 Table of Contents — 2026-09-26</summary>
+<summary>📑 Table of Contents — 2026-09-27</summary>
 
 **By category**
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (17)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (15)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (2)
 - [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (7)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (32)
 - [World Models & Generative Video](#world-models--generative-video) (38)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (30)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (35)
-- [Narrative & Long-form Audio](#narrative--long-form-audio) (2)
-- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (11)
+- [Narrative & Long-form Audio](#narrative--long-form-audio) (1)
+- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (10)
 
 </details>
 
@@ -126,7 +126,7 @@
 |**2026-09-24**|**Ego-Exo4D Human Meshes Dataset: 4D Human Motion Reconstruction for Ego-Exo Captures**|Abhiram Maddukuri et.al.|[@2609.30187](http://arxiv.org/abs/2609.30187)|null|
 |**2026-09-24**|**BeyondRetarget: Learning Executable Humanoid Motions Directly from Monocular Video**|Tianyu Xiong et.al.|[@2609.29850](http://arxiv.org/abs/2609.29850)|null|
 
-<p align=right>(<a href=#updated-on-20260926>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260927>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -151,7 +151,7 @@
 |**2026-09-14**|**Low Clearance Hinge Joint Mechanism Based on 3D Printing on Sheet Fabrication Methodology**|Jaehyung Jang et.al.|[@2609.15276](http://arxiv.org/abs/2609.15276)|null|
 |**2026-09-16**|**Toward 3D Printable Non-Planar Electroadhesive Structures for Active Anchoring**|Mostafa A. Atalla et.al.|[@2609.18700](http://arxiv.org/abs/2609.18700)|null|
 
-<p align=right>(<a href=#updated-on-20260926>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260927>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -196,7 +196,7 @@
 |**2026-09-22**|**Does AI Save Time on Product Design? A Randomized Controlled Experiment of AI Prompt-to-Design Workflows**|Remy Stewart et.al.|[@2609.26725](http://arxiv.org/abs/2609.26725)|null|
 |**2026-09-22**|**Harnessing LLMs Without Surrendering Control: Delegation Boundaries in Visual Data Storytelling Authoring**|Zhuojun Jiang et.al.|[@2609.25700](http://arxiv.org/abs/2609.25700)|null|
 
-<p align=right>(<a href=#updated-on-20260926>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260927>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -1436,7 +1436,7 @@
 |**2026-09-23**|**Small yet Assistive: Spatially-Aware Post-Training for Low Vision**|Rishabh Choudhary et.al.|[@2609.28757](http://arxiv.org/abs/2609.28757)|null|
 |**2026-09-23**|**GeoNLI - A Natural Language Interpreter for Satellite Imagery**|Ashutosh Gandhe et.al.|[@2609.28741](http://arxiv.org/abs/2609.28741)|null|
 
-<p align=right>(<a href=#updated-on-20260926>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260927>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -1989,7 +1989,7 @@
 |**2026-09-23**|**Beyond Static Graph World Models: Learning Stochastic Latent Dynamics over Evolving Topologies**|Alex Schutz et.al.|[@2609.28670](http://arxiv.org/abs/2609.28670)|null|
 |**2026-09-23**|**Training Object Permanence in World Models**|Haotian Zhang et.al.|[@2609.28654](http://arxiv.org/abs/2609.28654)|null|
 
-<p align=right>(<a href=#updated-on-20260926>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260927>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -2369,7 +2369,7 @@
 |**2026-09-24**|**PlenoCI: Plenoptic CharacterIstics for View Dependence Aware Change Classification**|Jason Lai et.al.|[@2609.28930](http://arxiv.org/abs/2609.28930)|null|
 |**2026-09-23**|**PePESeg3D: Perception Prior Enhances Multi-Scale Segmentation for 3D Gaussian Splatting**|Sungjae Choi et.al.|[@2609.28645](http://arxiv.org/abs/2609.28645)|null|
 
-<p align=right>(<a href=#updated-on-20260926>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260927>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -2643,7 +2643,7 @@
 |**2026-09-24**|**Online Sim-to-Real Adaptation via Closed-Loop System Modeling**|Yuhao Huang et.al.|[@2609.28878](http://arxiv.org/abs/2609.28878)|null|
 |**2026-09-23**|**Morphometric Imitation: From Morphology and Contact Aware Hand Retargeting to Sim-to-Real Visuomotor Policy**|Tara Sadjadpour et.al.|[@2609.28660](http://arxiv.org/abs/2609.28660)|null|
 
-<p align=right>(<a href=#updated-on-20260926>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260927>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -2682,7 +2682,7 @@
 |**2026-09-12**|**HARP: Agentic Hybrid Retrieval and Analysis for Long-Form Audio**|Chin-Jou Li et.al.|[@2609.14116](http://arxiv.org/abs/2609.14116)|null|
 |**2026-09-20**|**MuLA-Bench: A Multilingual Long-Form Audio Understanding Benchmark via Multi-Tier Auditing**|Zeyu Yang et.al.|[@2609.23416](http://arxiv.org/abs/2609.23416)|null|
 
-<p align=right>(<a href=#updated-on-20260926>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260927>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -2752,7 +2752,7 @@
 |**2026-09-23**|**ARS-Avatar: Animatable and Relightable Surfel Avatars with Learnable Ambient Occlusion**|Jiateng Liu et.al.|[@2609.27600](http://arxiv.org/abs/2609.27600)|null|
 |**2026-09-22**|**$\unicode{x1F493}$Heartian: Physiology-Aware Relightable Gaussian Head Avatar**|Xiaoyue Fan et.al.|[@2609.28539](http://arxiv.org/abs/2609.28539)|null|
 
-<p align=right>(<a href=#updated-on-20260926>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260927>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -2766,7 +2766,7 @@
 |**2026-09-06**|**Skinned Motion Retargeting via Artifact-driven Kinematic Prior Refinement**|Seokhyeon Hong et.al.|[@2609.06517](http://arxiv.org/abs/2609.06517)|null|
 |**2026-09-10**|**ReCHOIR: Contact-guided Human Object Interaction Retargeting to Diverse Characters**|Chaelin Kim et.al.|[@2609.10982](http://arxiv.org/abs/2609.10982)|null|
 
-<p align=right>(<a href=#updated-on-20260926>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260927>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors
