@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.10.02
+## 📚 Updated on 2026.10.03
 
 <details>
   <summary>Table of Contents</summary>
@@ -268,7 +268,7 @@
 - 2026-09-30, **PACT: End-to-End Learning of Human Pose, Contacts, and Forces from Video**, Rikhat Akizhanov et.al., Paper: [@2610.00451](http://arxiv.org/abs/2610.00451)
 > **Abstract:** Human motion, environmental contacts, and interaction forces are governed by common physical laws, yet existing approaches typically separate visual pose reconstruction from contact and force estimation. This separation limits joint reasoning and can propagate errors between stages. We introduce PACT, an end-to-end model that jointly learns to estimate human pose, contacts and contact forces from monocular video. Our approach augments a human reconstruction foundation model with learnable contact-force tokens and a temporal transformer that integrates visual features with world-space motion. Joint prediction heads refine human poses and estimate contacts and forces, while physics-based supervision encourages consistency between the reconstructed motion and interaction forces. To address the scarcity of force annotations, we develop a data annotation pipeline that combines contact labeling with physics-based motion and force optimization, producing training supervision from synthetic and real-world videos. We also introduce a real-world climbing benchmark ForceWall with climbing videos and corresponding ground-truth contact forces obtained from the force sensors. Experiments demonstrate state-of-the-art contact and force estimation, outperforming staged reconstruction approaches and generalizing to interactions beyond the training distribution. These results support end-to-end joint learning as an effective approach to recovering human motion and physical interactions from video.
 
-<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -311,7 +311,7 @@
 - 2026-10-01, **ShowerFlex: Achieving Pseudo-Static Balancing in a Continuum Shower Hose**, Zhiyu Ren et.al., Paper: [@2610.00936](http://arxiv.org/abs/2610.00936)
 > **Abstract:** With the global population rapidly aging, maintaining independence in Activities of Daily Living (ADLs), particularly bathing or showering, has become a critical challenge. Older adults who sit while showering currently have limited options, often relying on rigid overhead showerheads or flexible hand-held hoses that require continuous gripping and precarious user maneuvers, increasing the risk of falls. To address this need, this paper introduces a highly articulated, pseudo-static balanced continuum mechanism designed specifically for accessible bathing assistance. The proposed mechanism features a modular continuum architecture composed of friction-locked ball-and-socket joints (loc-line), seamlessly integrated with a retractable spring-loaded reel for effective gravity compensation. This hybrid design achieves an intuitive "Push-and-Stay" interaction logic, maintaining an approximate static equilibrium with ergonomically low actuation force, without any external electronic power, while significantly minimizing the force needed for repositioning. Theoretically, we established a recursive forward kinematics framework to construct the geometric model of the structure, coupled with a comprehensive static equilibrium analysis to evaluate the system's holding capacity across its 51-DOF structure. Numerical simulations utilizing Monte Carlo methods validate the system's morphological adaptability and stability at various extreme positions within a standard bath space. Physical experiments further validate the prototype's real-world performance, confirming its intrinsic static stability against gravity and ensuring that the actuation force remains well within the ergonomic capabilities of older adults. Ultimately, this research provides a low-cost, intrinsically safe showerhead design that reduces physical strain, restoring dignity and autonomy in personal hygiene.
 
-<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -402,7 +402,7 @@
 - 2026-10-01, **SPHERE: Adaptive VR Indoor Scene Generation via LLM-Enhanced Spatial Preference Learning and Human-in-the-Loop RL**, Hyeonmin Lee et.al., Paper: [@2610.02023](http://arxiv.org/abs/2610.02023)
 > **Abstract:** While Large Language Models (LLMs) advance 3D indoor scene synthesis, current pipelines fail to retain user-specific preferences across sessions, making immersive authoring a repetitive and physically fatiguing process. We present SPHERE, an adaptive VR generation framework that transforms isolated synthesis into continuous human-AI co-creation. SPHERE extracts persistent spatial preferences from natural multimodal interactions (speech and controller edits). To ensure geometric resilience against spatial distortions, it abstracts these raw edits into hierarchical constraints modeling both local functional and global topological contexts. Furthermore, a human-in-the-loop reinforcement learning mechanism dynamically updates retrieval policies based on the user's final edited scenes. A mixed-design user study ($N=42$) and an offline ablation demonstrate that SPHERE significantly reduces corrective edits and physical demand, preventing bias toward shallow object-level traits to yield geometrically resilient, profile-aligned layouts. Ultimately, SPHERE demonstrates how capturing demonstrated spatial logic enables controlled spatial adaptation, establishing a reliable, governed human-AI collaboration framework for immersive authoring. Project page and source code will be available at: https://github.com/hyeonmin11/SPHERE
 
-<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -3205,7 +3205,7 @@
 - 2026-10-01, **ColoACT: Multi-Cue Action Chunking for Smooth Autonomous Colon Navigation on a Self-Propelled Endoscopic Robot**, Jian Hu et.al., Paper: [@2610.01258](http://arxiv.org/abs/2610.01258)
 > **Abstract:** Autonomous colonoscopic navigation can reduce operator burden and the risk of loop formation or tissue trauma, but remains challenging due to deformable anatomy, weak-texture and specular endoscopic visuals, and contact-rich viscoelastic interactions. Existing methods either rely on geometry-driven pipelines, which are efficient and interpretable yet brittle due to manually engineered features and switching logic, or adopt learning-based policies, whose inferred depth/geometry can become temporally inconsistent or overly smooth under weak texture and specular highlights while simulation-trained variants (e.g., deep reinforcement learning) may further suffer from a sim-to-real gap. We propose ColoACT, an autonomous navigation system that integrates an RGB-D-E based Action Chunking Transformer policy (ColoACT policy) for a compact self-propelled Bevel-Gear-Based Endoscopic Robot (BGER). The ColoACT policy augments RGB with estimated relative depth and a gradient-based pseudo-elevation map to enhance fold-ridge saliency and other high-frequency geometric cues, and enables smooth continuous control of the BGER by predicting overlapping action chunks and fusing them via temporal ensembling. In different \textit{ex-vivo} porcine colons (approximately 60 cm), our system achieves success rates of 85.4\% and 72.5\% in straight and curved segments, respectively, and achieves 70\% success in 90-degree turns and 60\% in double-bend sequences, with feasibility further demonstrated in challenging triple-bend segments. The project page is available at: https://Adamhu1.github.io/ColoACT/.
 
-<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -4608,7 +4608,7 @@
 - 2026-09-30, **Memorizon: Training World Models Beyond Their Context Window**, Tingting Liao et.al., Paper: [@2610.00544](http://arxiv.org/abs/2610.00544)
 > **Abstract:** Streaming world models should render a place consistently across repeated visits. Directly supervising such revisits requires training samples that capture both visits, often spanning minutes. Yet dense attention over the full span incurs quadratic costs, making long-span supervision expensive. Memorizon breaks this coupling: long spans are needed for supervision, but not for attention, since the two visits can share a forward pass without including every intervening frame. A training sample covers a span of any length but is scored only on its last $k$ chunks. Instead of tokenizing the history before them, each scored chunk retrieves its own top-$K$ latents by camera co-visibility, and the union of these requests forms a shared bank. The bank is bounded by $kK$, so the sequence stays bounded however long the span; at the shortest span the recipe is exactly conventional training. Adding the bank raises the cost of a step once; beyond that, a longer span costs little, and going from 100 to 400 s adds 12% to the step time. Against a sliding-window baseline, retrieval raises revisit consistency on every split, and a span long enough to reach the first visit of each return adds a further 24% to 30%, at some cost in image quality; beyond that span, more length no longer helps. Filling the bank from another episode lowers revisit correlation by 83%, so the model uses what it retrieves. Project page: https://tingtingliao.github.io/memorizon
 
-<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -5487,7 +5487,7 @@
 - 2026-09-30, **Frozen Scenes, Shifting Winners: Configuration Fragility in Text-to-3D Evaluation**, Anson Y. Lam et.al., Paper: [@2610.00447](http://arxiv.org/abs/2610.00447)
 > **Abstract:** Can a text-to-3D leaderboard change when every generated scene stays fixed? We audit this question for rendered-image evaluation, where camera settings and caption wording become part of the measurement protocol. Across 300 frozen scenes from six generators, we vary eight render and caption factors for 19 alignment evaluators plus one perceptual-quality control, then test four targeted scene degradations. Peak configuration variance exceeds between-generator variance for 17/19 alignment evaluators, with prompt-bootstrap lower bounds above 1 for 11/19. Rankings are more stable than scores, yet 18/19 evaluators change their point-estimate winner under some configuration. Pairwise protocol margin envelopes show which comparisons keep their direction across the tested settings. Selected pairs have opposite pointwise intervals, but no reversal survives simultaneous inference over the full search. Thus the observed winner changes are descriptive, not confirmed changes in generator superiority. Sensitivity remains separate: no evaluator, even the prompt-free control, exceeds 67% tie-adjusted directional discrimination on layout scrambling, which is diagnostic rather than human-validated ground truth. The audit separates score stability, decision uncertainty, and targeted sensitivity, and recommends reporting (generator, score, card ID) with protocol-dependent comparisons and selection-aware uncertainty.
 
-<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -6120,7 +6120,7 @@
 - 2026-09-30, **DexPolicy: Scheduled Exploration for Trajectory-Guided Dexterous Manipulation**, Haoyu Wang et.al., Paper: [@2610.00360](http://arxiv.org/abs/2610.00360)
 > **Abstract:** Reinforcement learning (RL) for dexterous manipulation must discover finger-object contacts and then control the object precisely; the action noise that serves the first goal can interfere with the second. In trajectory-guided settings such as ViViDex, where RL refine hand-object trajectories from human video, our baseline PPO runs end near their initial action noise after 5M steps, motivating explicit control of exploration scale. DexPolicy makes that scale an explicit function of training steps, annealing from broad to narrow exploration while holding loss, architecture, reward, and optimizer settings fixed. We study three policy-optimization settings: PPO, critic-free GRPO continuation, and a flow-parameterized PPO variant (FPO). Across five YCB objects and three training seeds, mean deterministic Target success rises from 49.4% to 68.1% (FPO), 14.1% to 45.4% (GRPO), and 32.0% to 35.7% (PPO). On a RealMan RM75 arm with an Inspire/RH56 hand, 360 trials over three objects raise mean Target success from 25.0% to 85.0% (FPO), 10.0% to 63.3% (GRPO), and 8.3% to 43.3% (PPO), with one trained model per object-method condition. PPO component screening favors noise control over the tested optimizer contraction; the selected PPO schedule yields higher mean Target success than linear decay with the same endpoints on three tested objects. Training return, deterministic Target success, and tolerance to execution noise dissociate; schedules should therefore be judged by terminal task success under the intended execution conditions, per task and policy-optimization setting. Code: https://github.com/AIGeeksGroup/DexPolicy. Website: https://aigeeksgroup.github.io/DexPolicy.
 
-<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -6195,7 +6195,7 @@
 - 2026-09-30, **PLACE: Positional Latent Adaptation via Conditioned Embeddings for Binaural Audio Generation**, Tiernon Riesenmy et.al., Paper: [@2610.00630](http://arxiv.org/abs/2610.00630)
 > **Abstract:** We present PLACE, a method that extends the pretrained any-to-audio model AudioX for binaural generation from arbitrary combinations of text, video, and optional audio prompts. PLACE augments video conditioning with Perception Encoder Core features, aligns text and video representations to derive spatial cues, and applies a conditioning-dependent low-rank transformation to the generated latent. The adapter is supervised via decoded-audio interaural level and time difference objectives. Trained on MRSAudio, PLACE improves most metrics over ViSAGe on FAIR-Play and achieves an improved SpatialCLAP score over SpatialSonic on the BEWO-1M Single Static test split. Listener evaluations favor PLACE for video-to-audio and out-of-distribution text-to-audio generation, demonstrating flexible multimodal control and improved spatial consistency.
 
-<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -6334,7 +6334,7 @@
 - 2026-09-29, **DRHeC: Differentiable Rendering for Hand-Eye Calibration with RGB-Based Gradients**, Xiaotian Zhang et.al., Paper: [@2609.36779](http://arxiv.org/abs/2609.36779)
 > **Abstract:** Accurate hand-eye calibration is crucial for precision manipulation. Traditional methods rely on markers, with their precision dependent on marker accuracy and observability. In contrast, markerless methods, such as learning-based approaches, use deep neural networks to directly extract keypoints or features from images, enabling the computation of hand-eye transformation with a single image and without the need for physical markers. Recently, differentiable rendering-based methods for hand-eye calibration have leveraged physical models to render binary masks and compare them with observations, enabling hand-eye calibration without fiducial markers in the calibration stage and providing interpretable optimization. While the state-of-the-art differentiable rendering methods achieve remarkable accuracy, the use of binary masks can result in the loss of internal profile details, reducing precision. Additionally, these methods can also suffer from unstable optimization and local minima.   In this study, we propose a novel RGB-based differentiable rendering framework that provides richer geometric and appearance cues by incorporating color and mask geometric features, thereby improving calibration accuracy and optimization stability. Additionally, we propose a mask-guided image-to-image translation method to ensure explicit preservation of color and geometric consistency throughout the translation. Our approach is validated through both simulation and real-world experiments, with results demonstrating strong accuracy and robustness and clear improvements over existing differentiable rendering methods. Our method achieves a grasping success rate of 88.9% and insertion success rate of 57.4% on the UR5e real-world experiment, outperforming the state-of-the-art differentiable rendering hand-eye calibration method EasyHeC by 46.3 and 48.1 percentage points, respectively.
 
-<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -6355,7 +6355,7 @@
 - 2026-09-25, **ReFM: Semantic-Aware Refinement Flow Model for Motion Retargeting**, Jingxiang Qu et.al., Paper: [@2609.32068](http://arxiv.org/abs/2609.32068)
 > **Abstract:** Motion retargeting transfers motion across characters with different skeletal structures while preserving semantic intent and physical plausibility. Despite recent progress, two fundamental questions remain: (i) how can reliable source-motion semantics be learned without high-quality paired retargeting data, and (ii) how should retargeting be formulated when no reliable paired motion can serve as a definitive regression objective? Existing methods commonly preserve semantics by constraining predictions toward copied motions. However, such initializations entangle useful articulation cues with artifacts caused by mismatched skeletal proportions and body geometry. Moreover, directly regressing a final motion in one forward pass is restrictive because retargeting is inherently underdetermined, and the desired solution must balance semantic fidelity with target-specific physical and temporal constraints rather than match a unique paired target. Motivated by these limitations, we propose ReFM, a source-mesh-agnostic, energy-guided model that reformulates motion retargeting as progressive refinement. First, an SO(3) canonicalizer removes redundant global-orientation variations. Second, a cross-character semantic encoder, pretrained through contrastive learning, provides a character-invariant representation for both optimization guidance and semantic evaluation. ReFM then progressively refines an initialized target motion through a learned flow guided by semantic consistency, physical plausibility, temporal coherence, and minimal motion modification. The framework is compatible with different initialization strategies, including both direct motion copying and Autodesk HumanIK, an industry-standard full-body inverse-kinematics retargeting system.
 
-<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors

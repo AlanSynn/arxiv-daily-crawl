@@ -31,8 +31,7 @@
     "2609.23817": "|**2026-09-20**|**VISTA: Video-Injected Stylized Text-to-Animation**|Monseej Purkayastha et.al.|[@2609.23817](http://arxiv.org/abs/2609.23817)|null|\n",
     "2609.23797": "|**2026-09-20**|**MoSAT: Human Motion Generation from Spatial Audio and Textual Description**|Shuyang Xu et.al.|[@2609.23797](http://arxiv.org/abs/2609.23797)|null|\n",
     "2609.23010": "|**2026-09-19**|**MixiMotion: One-Step Text-to-Motion Generation via Asymmetric Set Distillation**|Hung Dinh et.al.|[@2609.23010](http://arxiv.org/abs/2609.23010)|null|\n",
-    "2609.22913": "|**2026-09-19**|**AVTR-1: Open Stack for Real-Time Interactive Avatars**|Artem Kravtsov et.al.|[@2609.22913](http://arxiv.org/abs/2609.22913)|null|\n",
-    "2609.21511": "|**2026-09-18**|**2nd Place Solution to the HANDS 2026 Workshop Challenge-Dexterous Grasp Motion Track: Single-Shot Trajectory Warping for Grasp Motion Generation**|Muneeb A. Khan et.al.|[@2609.21511](http://arxiv.org/abs/2609.21511)|null|\n"
+    "2609.22913": "|**2026-09-19**|**AVTR-1: Open Stack for Real-Time Interactive Avatars**|Artem Kravtsov et.al.|[@2609.22913](http://arxiv.org/abs/2609.22913)|null|\n"
   },
   "Motion Authoring, Editing & Retargeting": {
     "2609.32068": "|**2026-09-25**|**ReFM: Semantic-Aware Refinement Flow Model for Motion Retargeting**|Jingxiang Qu et.al.|[@2609.32068](http://arxiv.org/abs/2609.32068)|null|\n"
@@ -48,8 +47,7 @@
     "2609.33403": "|**2026-09-27**|**DataMagic: Authoring Data Videos through Declarative Multi-Agent Orchestration**|Yupeng Xie et.al.|[@2609.33403](http://arxiv.org/abs/2609.33403)|**[link](https://github.com/HKUSTDial/DataMagic)**|\n",
     "2609.26725": "|**2026-09-22**|**Does AI Save Time on Product Design? A Randomized Controlled Experiment of AI Prompt-to-Design Workflows**|Remy Stewart et.al.|[@2609.26725](http://arxiv.org/abs/2609.26725)|null|\n",
     "2609.25700": "|**2026-09-22**|**Harnessing LLMs Without Surrendering Control: Delegation Boundaries in Visual Data Storytelling Authoring**|Zhuojun Jiang et.al.|[@2609.25700](http://arxiv.org/abs/2609.25700)|null|\n",
-    "2609.24706": "|**2026-09-21**|**\"MeBo Leaves a Piece of You Behind\": Designing a Relational Voice-Based Memory Companion for Older Adults**|Hasibur Rahman et.al.|[@2609.24706](http://arxiv.org/abs/2609.24706)|null|\n",
-    "2609.21285": "|**2026-09-18**|**GUIDE: Designer-in-the-loop Authoring of Conformant Generative User Interfaces**|Hyewon Lee et.al.|[@2609.21285](http://arxiv.org/abs/2609.21285)|null|\n"
+    "2609.24706": "|**2026-09-21**|**\"MeBo Leaves a Piece of You Behind\": Designing a Relational Voice-Based Memory Companion for Older Adults**|Hasibur Rahman et.al.|[@2609.24706](http://arxiv.org/abs/2609.24706)|null|\n"
   },
   "Vision-Language & Action Models (VLA/VLM)": {
     "2610.02205": "|**2026-10-01**|**ROWBench: Do Video Models Render What the Program Specifies?**|Zheng-Hui Huang et.al.|[@2610.02205](http://arxiv.org/abs/2610.02205)|null|\n",

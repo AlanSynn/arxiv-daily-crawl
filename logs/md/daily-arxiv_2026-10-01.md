@@ -3,16 +3,16 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.10.02
+## 📚 Updated on 2026.10.03
 
 <details open>
-<summary>📑 Table of Contents — 2026-10-02</summary>
+<summary>📑 Table of Contents — 2026-10-03</summary>
 
 **By category**
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (33)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (32)
 - [Motion Authoring, Editing & Retargeting](#motion-authoring-editing--retargeting) (1)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (1)
-- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (9)
+- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (8)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (31)
 - [World Models & Generative Video](#world-models--generative-video) (38)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (32)
@@ -60,9 +60,8 @@
 |**2026-09-20**|**MoSAT: Human Motion Generation from Spatial Audio and Textual Description**|Shuyang Xu et.al.|[@2609.23797](http://arxiv.org/abs/2609.23797)|null|
 |**2026-09-19**|**MixiMotion: One-Step Text-to-Motion Generation via Asymmetric Set Distillation**|Hung Dinh et.al.|[@2609.23010](http://arxiv.org/abs/2609.23010)|null|
 |**2026-09-19**|**AVTR-1: Open Stack for Real-Time Interactive Avatars**|Artem Kravtsov et.al.|[@2609.22913](http://arxiv.org/abs/2609.22913)|null|
-|**2026-09-18**|**2nd Place Solution to the HANDS 2026 Workshop Challenge-Dexterous Grasp Motion Track: Single-Shot Trajectory Warping for Grasp Motion Generation**|Muneeb A. Khan et.al.|[@2609.21511](http://arxiv.org/abs/2609.21511)|null|
 
-<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -70,7 +69,7 @@
 |---|---|---|---|---|
 |**2026-09-25**|**ReFM: Semantic-Aware Refinement Flow Model for Motion Retargeting**|Jingxiang Qu et.al.|[@2609.32068](http://arxiv.org/abs/2609.32068)|null|
 
-<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -78,7 +77,7 @@
 |---|---|---|---|---|
 |**2026-10-01**|**ShowerFlex: Achieving Pseudo-Static Balancing in a Continuum Shower Hose**|Zhiyu Ren et.al.|[@2610.00936](http://arxiv.org/abs/2610.00936)|null|
 
-<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -92,9 +91,8 @@
 |**2026-09-22**|**Does AI Save Time on Product Design? A Randomized Controlled Experiment of AI Prompt-to-Design Workflows**|Remy Stewart et.al.|[@2609.26725](http://arxiv.org/abs/2609.26725)|null|
 |**2026-09-22**|**Harnessing LLMs Without Surrendering Control: Delegation Boundaries in Visual Data Storytelling Authoring**|Zhuojun Jiang et.al.|[@2609.25700](http://arxiv.org/abs/2609.25700)|null|
 |**2026-09-21**|**"MeBo Leaves a Piece of You Behind": Designing a Relational Voice-Based Memory Companion for Older Adults**|Hasibur Rahman et.al.|[@2609.24706](http://arxiv.org/abs/2609.24706)|null|
-|**2026-09-18**|**GUIDE: Designer-in-the-loop Authoring of Conformant Generative User Interfaces**|Hyewon Lee et.al.|[@2609.21285](http://arxiv.org/abs/2609.21285)|null|
 
-<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -132,7 +130,7 @@
 |**2026-10-01**|**Dyna3: VLM-Guided Training-Free 4D Reconstruction via Depth Foundation Models**|Xinhao Xiang et.al.|[@2610.01286](http://arxiv.org/abs/2610.01286)|null|
 |**2026-10-01**|**ColoACT: Multi-Cue Action Chunking for Smooth Autonomous Colon Navigation on a Self-Propelled Endoscopic Robot**|Jian Hu et.al.|[@2610.01258](http://arxiv.org/abs/2610.01258)|null|
 
-<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -177,7 +175,7 @@
 |**2026-09-30**|**Beyond Policy Alignment: Closing the Planning-Learning Loop for Robot Control with Learned World Models**|Kowndinya Boyalakuntla et.al.|[@2609.39751](http://arxiv.org/abs/2609.39751)|null|
 |**2026-09-30**|**RoboCoach: World Models as Active Coaches for Compositional Robot Skills**|Jiajun Liu et.al.|[@2609.39685](http://arxiv.org/abs/2609.39685)|null|
 
-<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -216,7 +214,7 @@
 |**2026-09-29**|**NRF-GS: Neural Residual Fields for Expressive and Compact Gaussian Splatting**|Pratik Singh Bisht et.al.|[@2609.37115](http://arxiv.org/abs/2609.37115)|null|
 |**2026-09-29**|**Prior-Driven Enhancements in 3D Gaussian Splatting: Normals and Depths Regularization**|Gyeonggwan Lee et.al.|[@2609.36969](http://arxiv.org/abs/2609.36969)|null|
 
-<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -253,7 +251,7 @@
 |**2026-09-28**|**F4R: Failure-Driven Recognition, Reconstruction, Refinement, and Redeployment for Continual Robot Self-Improvement**|Zhuoyuan Yu et.al.|[@2609.35575](http://arxiv.org/abs/2609.35575)|null|
 |**2026-09-28**|**DexAgent: An Agentic Human2Sim2Robot Framework for Dexterous Manipulation with Self-Evolving Tool Library**|Youhui Wang et.al.|[@2609.35318](http://arxiv.org/abs/2609.35318)|null|
 
-<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -264,7 +262,7 @@
 |**2026-09-28**|**Enabling Immersive Audio-Visual Experience from Any Video**|Zitong Lan et.al.|[@2609.36295](http://arxiv.org/abs/2609.36295)|null|
 |**2026-09-20**|**MuLA-Bench: A Multilingual Long-Form Audio Understanding Benchmark via Multi-Tier Auditing**|Zeyu Yang et.al.|[@2609.23416](http://arxiv.org/abs/2609.23416)|null|
 
-<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -281,7 +279,7 @@
 |**2026-09-21**|**Relightable 3D Avatar Reconstruction with Semantic-Adaptive Motion-Illumination Responses**|Jiankuo Zhao et.al.|[@2609.24158](http://arxiv.org/abs/2609.24158)|null|
 |**2026-09-20**|**Beyond UV Mapping: Mesh Texture Compression via Surface-Aligned Texture Fields**|Jianqiang Wang et.al.|[@2609.23606](http://arxiv.org/abs/2609.23606)|null|
 
-<p align=right>(<a href=#updated-on-20261002>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261003>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/daily-arxiv.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/daily-arxiv/graphs/contributors

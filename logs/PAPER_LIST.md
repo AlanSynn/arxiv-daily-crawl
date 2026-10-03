@@ -187,5 +187,3 @@
 | 2026-09-20 | **Beyond UV Mapping: Mesh Texture Compression via Surface-Aligned Texture Fields** | Neural Rendering & Physics Simulation | 0.33 | [@2609.23606](http://arxiv.org/abs/2609.23606) | null |
 | 2026-09-19 | **MixiMotion: One-Step Text-to-Motion Generation via Asymmetric Set Distillation** | Character Motion Synthesis & Animation | 1.00 | [@2609.23010](http://arxiv.org/abs/2609.23010) | null |
 | 2026-09-19 | **AVTR-1: Open Stack for Real-Time Interactive Avatars** | Character Motion Synthesis & Animation | 0.67 | [@2609.22913](http://arxiv.org/abs/2609.22913) | null |
-| 2026-09-18 | **2nd Place Solution to the HANDS 2026 Workshop Challenge-Dexterous Grasp Motion Track: Single-Shot Trajectory Warping for Grasp Motion Generation** | Character Motion Synthesis & Animation | 1.00 | [@2609.21511](http://arxiv.org/abs/2609.21511) | null |
-| 2026-09-18 | **GUIDE: Designer-in-the-loop Authoring of Conformant Generative User Interfaces** | Sketch-based & Creative HCI Tools | 0.67 | [@2609.21285](http://arxiv.org/abs/2609.21285) | null |
