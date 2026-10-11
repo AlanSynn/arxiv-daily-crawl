@@ -3,7 +3,9 @@ name: Archive Old Papers Monthly
 on:
   workflow_dispatch:  # manual trigger
   schedule:
-    - cron: "0 12 1 * *"  # Run at 8:00 AM EDT (12:00 UTC) on the 1st of each month
+    # 12:41 UTC on the 1st (≈8:41 AM EDT) — off the top-of-hour minute that
+    # GitHub's scheduler jams (see daily-arxiv.yml).
+    - cron: "41 12 1 * *"
 
 # Serialize with the daily workflow: both rewrite the shared results branch
 # tip (see daily-arxiv.yml for the lost-update rationale).

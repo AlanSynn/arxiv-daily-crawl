@@ -1,5 +1,6 @@
 # arxiv-digest
 
+[![Daily Digest][workflow-shield]][workflow-url]
 [![License][license-shield]][license-url]
 [![Python 3.11+][python-shield]][python-url]
 
@@ -30,19 +31,8 @@ everything is archived to browsable markdown.
   flat `PAPER_LIST.md`, and the monthly 1-year archive keep *everything*,
   all committed to the `results` branch
 - 🤖 **Fully automated** — GitHub Actions runs the whole pipeline daily at
-  15:00 UTC (after both arXiv's overnight postings and HF's ~13:00 UTC
-  publish)
-- 🔥 **Trending on HuggingFace** — the day's community-upvoted papers
-  (upvote floor + top-N) as their own section
-- 🔁 **At-most-once delivery** — a persistent notified-store means weekend
-  stalls never re-send Thursday's papers
-- 🔗 **Code discovery** — GitHub repos auto-resolved for each paper via the
-  HF Papers API
-- 📚 **Full archive** — dated snapshots, a flat `PAPER_LIST.md`, and a
-  monthly 1-year archive, all committed to the `results` branch
-- 🤖 **Fully automated** — GitHub Actions runs the whole pipeline daily at
-  15:00 UTC (after both arXiv's overnight postings and HF's ~13:00 UTC
-  publish)
+  14:53 UTC (after both arXiv's overnight postings and HF's ~13:00 UTC
+  publish; off the top-of-hour minute GitHub's scheduler jams)
 
 ## 🚀 Quick Start
 
@@ -120,7 +110,7 @@ PYTHONPATH=. uv run python scripts/generate_email_preview.py
 
 ## 🤖 Running on GitHub Actions (forks)
 
-The repo ships three workflows: a daily run (`daily-arxiv.yml`, 15:00 UTC), a
+The repo ships three workflows: a daily run (`daily-arxiv.yml`, 14:53 UTC), a
 monthly archive (`archive-old-papers.yml`), and state persistence — every run
 commits `logs/` (snapshots + dedup state) to the `results` branch.
 
@@ -137,6 +127,11 @@ To run your own copy:
 
 If a required secret is missing the run **fails loudly** (non-zero exit) —
 it never silently skips your digest.
+
+Ops liveness alarm: with failures going red, **"the daily email stopped
+arriving" is a reliable signal** — enable failure notifications
+(Settings → Notifications → Actions) or watch the
+[Actions tab][workflow-url]; a red run means the digest did not go out.
 
 ## 📋 Command Line Options
 
@@ -180,6 +175,8 @@ more information.
 - [Hugging Face Daily Papers](https://huggingface.co/papers) for community curation
 
 <!-- MARKDOWN LINKS & IMAGES -->
+[workflow-shield]: https://github.com/AlanSynn/arxiv-digest/actions/workflows/daily-arxiv.yml/badge.svg
+[workflow-url]: https://github.com/AlanSynn/arxiv-digest/actions/workflows/daily-arxiv.yml
 [license-shield]: https://img.shields.io/github/license/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [license-url]: https://github.com/AlanSynn/arxiv-digest/blob/main/LICENSE
 [python-shield]: https://img.shields.io/badge/python-3.11+-blue.svg?style=for-the-badge

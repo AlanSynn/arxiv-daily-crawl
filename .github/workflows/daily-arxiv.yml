@@ -7,13 +7,14 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
   schedule:
-    # 15:00 UTC = 11:00 AM EDT (summer) / 10:00 AM EST (winter).
-    # Timed to run AFTER both feeds are fresh: arXiv posts overnight ET and
-    # HuggingFace publishes its Daily Papers ~09:00 ET, so 15:00 UTC gives a
-    # ~2h (summer) / ~1h (winter) buffer past HF's publish. Running earlier
-    # risks an empty/stale HF section for that date, and because hf_papers
-    # uses date_offset_days=0, a missed day is never recovered.
-    - cron: "0 15 * * *"
+    # 14:53 UTC — same-after-both-feeds relationship as 15:00 (arXiv posts
+    # overnight ET; HuggingFace's Daily Papers go live ~09:00 ET = 13:00 UTC
+    # summer / 14:00 UTC winter, so this keeps a ~2h summer / ~53min winter
+    # buffer and a missed HF day is never recovered), but OFF the top-of-hour
+    # minute: GitHub queues every top-of-hour cron in the same instant and
+    # scheduled starts at "0 15" landed 18:12–21:46 UTC for 12 consecutive
+    # days. Off-peak minutes typically start within minutes of nominal.
+    - cron: "53 14 * * *"
 
 # All three state-mutating workflows rewrite the shared results branch tip.
 # Serializing them prevents a lost update: two overlapping runs both commit
