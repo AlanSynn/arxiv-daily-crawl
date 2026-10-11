@@ -14,6 +14,14 @@ on:
     # risks an empty/stale HF section for that date, and because hf_papers
     # uses date_offset_days=0, a missed day is never recovered.
     - cron: "0 15 * * *"
+
+# All three state-mutating workflows rewrite the shared results branch tip.
+# Serializing them prevents a lost update: two overlapping runs both commit
+# locally and the loser's push fails non-fast-forward, silently dropping that
+# run's dedup state (-> duplicate emails the next day).
+concurrency:
+  group: results-state
+  cancel-in-progress: false
   # Triggers the workflow on push or pull request events but only for the main branch
 #   push:
 #     branches:
@@ -79,7 +87,11 @@ jobs:
                 
                 # Retry merge with strategy to prefer incoming changes from main for conflicts
                 # WARNING: The -X theirs strategy will accept incoming changes from main and overwrite any conflicting changes in the results branch, including logs. This may result in loss of logs if there are conflicts in the logs directory.
-                # SAFETY for notified_papers.json: this is only safe because logs/ stays gitignored on main (.gitignore:70), so main never carries a conflicting copy. If logs/ is ever force-added to main, this strategy would clobber the dedup state and cause re-sends.
+                # SAFETY for logs state (notified_papers.json, snapshots): -X theirs is
+                # safe because logs/ is gitignored on main AND no longer tracked there
+                # (stale copies were untracked), so main never carries a conflicting
+                # copy. If logs/ is ever committed to main again, this merge could
+                # clobber the dedup state and cause re-sends.
                 echo "Retrying merge with -X theirs strategy to accept code changes from main (may overwrite logs in case of conflicts)"
                 git merge origin/main -m "Merge main for code updates" --no-edit -X theirs || exit 1
               else
@@ -146,8 +158,15 @@ jobs:
           git commit -m "Update daily-arxiv papers - $(date +'%Y-%m-%d')" || echo "No changes to commit"
 
       - name: Push to results branch
-        uses: ad-m/github-push-action@v0.8.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: results
-          force: false
+        run: |
+          # Retry with backoff: a lost push = a lost dedup-state commit = a
+          # duplicate-email day. Three attempts ride out transient races.
+          for attempt in 1 2 3; do
+            if git push origin results; then
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; backing off"
+            sleep $((attempt * 10))
+          done
+          echo "All push attempts failed"
+          exit 1

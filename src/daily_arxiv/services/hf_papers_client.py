@@ -31,6 +31,7 @@ from typing import Any, Dict, List, Optional, Tuple
 import requests
 
 from ..models.paper import Paper
+from .arxiv_client import _strip_version
 from .code_link_client import _is_github_url
 
 
@@ -128,7 +129,9 @@ class HfPapersClient:
         if not paper_id or not title:
             return None
 
-        paper_id = str(paper_id)
+        paper_id = _strip_version(str(paper_id))
+        # Strip the version suffix so HF papers share the arXiv-path keyspace
+        # exactly (``2610.01234v1`` and ``2610.01234`` must dedup as one key).
         authors_str = _first_author(inner.get("authors"))
         code_url, project_url = _extract_links(inner)
 

@@ -141,13 +141,13 @@ def archive_old_papers(json_file, archive_dir, max_age_days=365):
         if not data[category]:
             del data[category]
 
-    # Save the updated main JSON
-    with open(json_file, 'w') as f:
-        json.dump(data, f)
+    # Save the updated main JSON (atomic: a crash mid-dump must not leave a
+    # truncated file that the next run loads as {} — that silently resets a
+    # year of accumulated history).
+    _atomic_json_dump(json_file, data)
 
     # Save the archive JSON
-    with open(archive_file, 'w') as f:
-        json.dump(archive_data, f)
+    _atomic_json_dump(archive_file, archive_data)
 
     # Create archive markdown file
     archive_md_file = os.path.join(archive_dir, f"archive_{today.strftime('%Y%m')}.md")
@@ -158,6 +158,10 @@ def archive_old_papers(json_file, archive_dir, max_age_days=365):
 
 def generate_archive_markdown(archive_data, output_file):
     """Generate a markdown file from the archived JSON data"""
+    # One throttled client for every abstract fetch: bare ``arxiv.Search``
+    # results() hammers the API un-rate-limited (arXiv asks for >=3s between
+    # calls) and a burst can get the runner temporarily blocked.
+    client = arxiv.Client(page_size=100, delay_seconds=3.0, num_retries=2)
     with open(output_file, 'w') as f:
         f.write("# 📚 Archived Papers\n\n")
         f.write(f"*Last updated: {datetime.date.today().strftime('%Y-%m-%d')}*\n\n")
@@ -213,7 +217,7 @@ def generate_archive_markdown(archive_data, output_file):
                         paper_id_clean = re.search(r'\[(.*?)\]', paper_link).group(1) if re.search(r'\[(.*?)\]', paper_link) else None
                         if paper_id_clean:
                             search = arxiv.Search(id_list=[paper_id_clean])
-                            paper = next(search.results())
+                            paper = next(client.results(search))
                             abstract = paper.summary.replace("\n", " ")
                             f.write(f"\n**📝 Abstract:** {abstract}\n\n")
                     except Exception as e:
@@ -227,23 +231,34 @@ def generate_archive_markdown(archive_data, output_file):
 
             f.write("\n")
 
+def _atomic_json_dump(path, payload):
+    """Dump JSON atomically: temp sibling + os.replace."""
+    tmp = f"{path}.tmp"
+    with open(tmp, 'w') as f:
+        json.dump(payload, f)
+    os.replace(tmp, path)
+
 def update_config_for_archiving(config_file):
-    """Update the config file to include archive settings"""
+    """Load config for the archiver, defaulting archive_settings if absent.
+
+    Historically this rewrote config.yaml (comment-destroying ``yaml.dump``)
+    when archive_settings was missing. It now only warns and defaults
+    in-memory: archive_settings lives in the checked-in config.yaml, and a
+    machine rewriting user config was a latent footgun (such a rewrite was
+    also never committed by the workflows).
+    """
     config = load_config(config_file)
 
-    # Add archive settings if they don't exist
     if 'archive_settings' not in config:
+        logging.warning(
+            "config.yaml has no archive_settings block; using in-memory "
+            "defaults (enabled=True, max_age_days=365, archive_dir='./logs/archive')."
+        )
         config['archive_settings'] = {
             'enabled': True,
             'max_age_days': 365,  # 1 year
-            'archive_dir': './docs/archive'
+            'archive_dir': './logs/archive'
         }
-
-        # Write the updated config back to the file
-        with open(config_file, 'w') as f:
-            yaml.dump(config, f, default_flow_style=False)
-
-        logging.info("Updated config file with archive settings")
 
     return config
 

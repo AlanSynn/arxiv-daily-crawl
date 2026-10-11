@@ -53,8 +53,14 @@ class DailyArxivApp:
         self.file_manager = FileManager()
         self.content_generator = ContentGenerator()
 
-    def run(self):
-        """Run the main application logic."""
+    def run(self) -> bool:
+        """Run the main application logic.
+
+        Returns ``False`` when a requested email send failed, or when a
+        send-enabled run could not fetch anything at all — ``main()`` turns
+        that into a non-zero exit code so CI shows a red X instead of a
+        green run that silently produced no digest.
+        """
         logging.info("Starting daily arXiv paper collection")
         config = self.config
 
@@ -153,34 +159,6 @@ class DailyArxivApp:
                 email_papers_by_cat, notified
             )
 
-        if not main_data:
-            logging.warning(
-                "No papers passed the relevance filter; nothing to write."
-            )
-            return
-
-        # TOC block (readme markdown only, gated on toc.enabled).
-        toc_block = ""
-        if toc_cfg.enabled:
-            cats_with_papers = [
-                (name, papers)
-                for name, papers in category_papers.items()
-                if papers
-            ]
-            toc_block = generate_toc(cats_with_papers, datetime.date.today())
-
-        # Main (non-dated) output files.
-        self._update_main_files(main_data, main_data_web, toc_block)
-
-        # Dated snapshot files (filename keyed on most-recent paper date).
-        self._update_daily_logs(
-            main_data, main_data_web, most_recent_date, toc_block
-        )
-
-        # Flat paper list (always written; independent of inline TOC).
-        paper_list_md = generate_paper_list(all_scored)
-        self.file_manager.write_paper_list(paper_list_md, toc_cfg.paper_list_path)
-
         # HuggingFace Daily Papers — community-signal section. Parallel
         # pipeline: HF curates by its own feature date, so these papers bypass
         # the arXiv publish-day slice and never join seen_best / all_scored
@@ -188,6 +166,8 @@ class DailyArxivApp:
         # They share the arxiv-id keyspace, so the same notified store dedupes
         # them across both sources. HF is best-effort: a fetch failure must
         # never block the arXiv digest.
+        # NOTE: this runs BEFORE the empty-check below so an arXiv-fetch
+        # outage can't skip the HF section either.
         hf_cfg = self.config.get("hf_papers")
         if getattr(hf_cfg, "enabled", False):
             try:
@@ -229,18 +209,61 @@ class DailyArxivApp:
                     "HF daily-papers fetch failed; continuing arXiv-only: %s", e
                 )
 
+        run_ok = True
+        if not main_data and not email_papers_by_cat:
+            # Zero arXiv papers across every category (with a 14-day fetch
+            # window this is effectively impossible on a healthy day) and no
+            # fresh HF papers: almost certainly a fetch outage. A send-enabled
+            # run must fail loudly rather than sit green with no digest.
+            if config.get('send_email', False):
+                logging.warning(
+                    "Nothing fetched from arXiv and no fresh HF papers; "
+                    "digest not sent."
+                )
+                run_ok = False
+            else:
+                logging.warning(
+                    "No papers passed the relevance filter; nothing to write."
+                )
+            return run_ok
+
+        if main_data:
+            # TOC block (readme markdown only, gated on toc.enabled).
+            toc_block = ""
+            if toc_cfg.enabled:
+                cats_with_papers = [
+                    (name, papers)
+                    for name, papers in category_papers.items()
+                    if papers
+                ]
+                toc_block = generate_toc(cats_with_papers, datetime.date.today())
+
+            # Main (non-dated) output files.
+            self._update_main_files(main_data, main_data_web, toc_block)
+
+            # Dated snapshot files (filename keyed on most-recent paper date).
+            self._update_daily_logs(
+                main_data, main_data_web, most_recent_date, toc_block
+            )
+
+            # Flat paper list (always written; independent of inline TOC).
+            paper_list_md = generate_paper_list(all_scored)
+            self.file_manager.write_paper_list(paper_list_md, toc_cfg.paper_list_path)
+
         # Email the most-recent-day slice if requested. After a successful
         # send, record the dispatched keys so they are never re-emailed.
+        send_ok = True
         if config.get('send_email', False) and email_papers_by_cat:
             sent = self._send_email_notification(
                 email_papers_by_cat, most_recent_date
             )
+            send_ok = sent
             if sent and dedup_enabled and delta_keys:
                 combined = load_notified(notified_path) | delta_keys
                 save_notified(
                     notified_path, combined, max_age_days=dedup_max_age
                 )
-            elif not sent and delta_keys:
+            elif not sent:
                 # Send failed — do NOT record keys, so they retry next run.
                 logging.warning(
                     "Email send failed; %d paper(s) will retry next run.",
@@ -252,6 +275,7 @@ class DailyArxivApp:
             )
 
         logging.info("Daily arXiv collection completed")
+        return run_ok and send_ok
 
     @staticmethod
     def _rows_by_category(
@@ -381,8 +405,17 @@ class DailyArxivApp:
             logging.warning("No email recipient configured")
             return False
 
-        # Use the paper date if provided, otherwise fall back to today.
-        if paper_date:
+        # Subject date = the newest paper actually being sent (post-dedup),
+        # so an HF-only weekend send isn't labeled with a stale arXiv date.
+        slice_dates = [
+            p.published
+            for papers in papers_by_category.values()
+            for p in papers
+            if p.published
+        ]
+        if slice_dates:
+            date_str = max(slice_dates).strftime("%Y-%m-%d")
+        elif paper_date:
             date_str = paper_date.strftime("%Y-%m-%d")
         else:
             date_str = datetime.date.today().strftime("%Y-%m-%d")
@@ -481,11 +514,12 @@ def main():
         if args.smtp_password:
             config['email_settings']['smtp_password'] = args.smtp_password
 
-    # Run the application
+    # Run the application; a failed send / total fetch outage exits non-zero
+    # so the Actions run goes red instead of silently skipping the digest.
     app = DailyArxivApp(config)
-    app.run()
+    ok = app.run()
 
-    return 0
+    return 0 if ok else 1
 
 
 if __name__ == "__main__":

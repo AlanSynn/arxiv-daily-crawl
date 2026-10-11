@@ -5,6 +5,12 @@ on:
   schedule:
     - cron: "0 12 1 * *"  # Run at 8:00 AM EDT (12:00 UTC) on the 1st of each month
 
+# Serialize with the daily workflow: both rewrite the shared results branch
+# tip (see daily-arxiv.yml for the lost-update rationale).
+concurrency:
+  group: results-state
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -116,8 +122,13 @@ jobs:
           git commit -m "Archive old papers (monthly) - $(date +'%Y-%m-%d')" || echo "No changes to commit"
 
       - name: Push to results branch
-        uses: ad-m/github-push-action@v0.8.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: results
-          force: false
+        run: |
+          for attempt in 1 2 3; do
+            if git push origin results; then
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; backing off"
+            sleep $((attempt * 10))
+          done
+          echo "All push attempts failed"
+          exit 1

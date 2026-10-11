@@ -38,7 +38,7 @@ class FileManager:
     def _create_new_json_file(self, filename: str, data_dict: List[Dict]) -> Dict:
         """Create a new JSON file with the provided data."""
         json_data = {}
-        
+
         for data in data_dict:
             for keyword, papers in data.items():
                 if keyword in json_data:
@@ -46,10 +46,9 @@ class FileManager:
                 else:
                     json_data[keyword] = papers
 
-        with open(filename, "w", encoding='utf-8') as f:
-            json.dump(json_data, f, ensure_ascii=False, indent=2)
+        self._atomic_json_dump(filename, json_data)
         logging.info(f"Created new JSON file: {filename}")
-        
+
         return json_data
     
     def _update_existing_json_file(self, filename: str, data_dict: List[Dict]) -> Dict:
@@ -70,11 +69,23 @@ class FileManager:
                 else:
                     json_data[keyword] = papers
 
-        with open(filename, "w", encoding='utf-8') as f:
-            json.dump(json_data, f, ensure_ascii=False, indent=2)
+        self._atomic_json_dump(filename, json_data)
         logging.info(f"Updated existing JSON file: {filename}")
-        
+
         return json_data
+
+    @staticmethod
+    def _atomic_json_dump(filename: str, json_data: Dict) -> None:
+        """Dump JSON atomically: temp sibling + ``os.replace``.
+
+        A truncate-in-place dump that dies mid-write leaves a corrupted file
+        which the next run "recovers" as ``{}`` — silently resetting a year
+        of accumulated paper history. Same pattern as the notified store.
+        """
+        tmp = f"{filename}.tmp"
+        with open(tmp, "w", encoding='utf-8') as f:
+            json.dump(json_data, f, ensure_ascii=False, indent=2)
+        os.replace(tmp, filename)
     
     def reset_json_files(self, config: Dict):
         """
