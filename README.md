@@ -13,12 +13,25 @@ everything is archived to browsable markdown.
 
 ## ✨ What you get
 
-- 📧 **Daily arXiv Digest email** — sections per research area, sorted by
-  relevance score, with a "TOP 5 BY RELEVANCE" block and per-paper score
-  badges
+- 📧 **Daily arXiv Digest email** — a capped shortlist (top-4 per section,
+  15 overall by default), sections ordered by your `priority`, each paper
+  sorted by relevance score with a score badge and a `matched:` line showing
+  exactly which keywords put it there
 - 🔍 **Your keywords, your weights** — categories map arXiv category codes to
-  include/exclude keywords (`ti:` prefix for title-only matching); the
-  relevance scorer ranks every match
+  include/exclude keywords (`ti:` prefix for title-only matching), with
+  optional per-keyword weights so a signature phrase outranks a generic one
+- 🔥 **Trending on HuggingFace** — the day's community-upvoted papers
+  (upvote floor + top-N) as their own section
+- 🔁 **At-most-once delivery** — a persistent notified-store means weekend
+  stalls never re-send Thursday's papers
+- 🔗 **Code discovery** — GitHub repos auto-resolved for each paper via the
+  HF Papers API
+- 📚 **Full archive** — the email is a shortlist, but dated snapshots, the
+  flat `PAPER_LIST.md`, and the monthly 1-year archive keep *everything*,
+  all committed to the `results` branch
+- 🤖 **Fully automated** — GitHub Actions runs the whole pipeline daily at
+  15:00 UTC (after both arXiv's overnight postings and HF's ~13:00 UTC
+  publish)
 - 🔥 **Trending on HuggingFace** — the day's community-upvoted papers
   (upvote floor + top-N) as their own section
 - 🔁 **At-most-once delivery** — a persistent notified-store means weekend
@@ -58,6 +71,8 @@ categories:
     include_keywords:                    # abstract matches
       - "motion synthesis"
       - "ti:character motion"            # ti: = title-only (higher precision)
+    weights:                             # optional per-keyword multipliers
+      "ti:character motion": 1.5         # (default 1.0; decides the ranking)
     exclude_keywords:                    # whole-word penalty, e.g. "sport"
       - "motion planning"                # (never fires on "transport")
 
@@ -66,7 +81,14 @@ scoring:
   title_weight: 2.0
   include_boost: 1.0
   exclude_penalty: 1.0
+  email_max_per_category: 4            # digest shortlist caps (0 = uncapped)
+  email_max_total: 15
 ```
+
+How selection works: include keywords are baked into the arXiv query, so
+every fetched paper scores at least one hit — the **caps** (per-category,
+then global, by score) are what make the email a digest instead of a dump.
+Archives and `PAPER_LIST.md` keep the full set either way.
 
 Email settings use environment variables — no secrets in the repo:
 

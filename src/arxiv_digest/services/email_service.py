@@ -745,6 +745,16 @@ class EmailService:
             if paper.is_community_signal
             else _score_badge(paper.score)
         )
+        # "Why this paper" line: the include keywords that actually matched.
+        # Scored papers only — HF community-signal papers have no keyword set.
+        matched_html = ""
+        if not paper.is_community_signal and paper.matched_keywords:
+            matched = _esc(", ".join(paper.matched_keywords))
+            matched_html = (
+                f'<div class="muted" style="font-family:{_MONO}; '
+                f'color:{_MUTED}; font-size:9px; margin-top:3px;">'
+                f'matched: {matched}</div>'
+            )
         return (
             # Nested 1-cell table = the card.
             '<table role="presentation" cellpadding="0" cellspacing="0"'
@@ -767,6 +777,7 @@ class EmailService:
             f'color:{_MUTED}; font-size:10px; margin-top:4px;">'
             f'{_esc(paper.authors_str)} et al. · '
             f'{_esc(paper.paper_key)} · {_esc(pub_str)}</div>'
+            f'{matched_html}'
             '</td>'
             # Badge cell — top-right.
             f'<td valign="top" align="right" style="vertical-align:top; '

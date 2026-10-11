@@ -91,16 +91,19 @@ def generate_paper_list(scored_papers: List[Paper]) -> str:
         "",
         "> Flat list of all tracked papers, newest first. Auto-generated.",
         "",
-        "| Date | Title | Category | Score | arXiv | Code |",
-        "|---|---|---|---|---|---|",
+        "| Date | Title | Category | Score | Matched | arXiv | Code |",
+        "|---|---|---|---|---|---|---|",
     ]
 
     for paper in ordered:
         code_field = f"[link]({paper.code_url})" if paper.code_url else "null"
         category_label = paper.category or ""
+        # Matched include keywords ("why this paper"). Escape pipes so a
+        # keyword containing one can't break the table row.
+        matched_field = ", ".join(paper.matched_keywords or []).replace("|", "\\|")
         lines.append(
             f"| {paper.published.isoformat()} | **{paper.title}** | "
-            f"{category_label} | {paper.score:.2f} | "
+            f"{category_label} | {paper.score:.2f} | {matched_field} | "
             f"[@{paper.paper_key}]({paper.abs_url}) | {code_field} |"
         )
 

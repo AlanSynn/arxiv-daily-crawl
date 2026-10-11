@@ -2,7 +2,7 @@
 
 import tempfile
 import os
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch
 
 from src.arxiv_digest.core.config import load_config, validate_config
 from src.arxiv_digest.services.arxiv_client import ArXivClient

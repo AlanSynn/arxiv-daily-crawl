@@ -1,5 +1,5 @@
 # =============================================================================
-# daily-arxiv configuration
+# arxiv-digest configuration
 # =============================================================================
 # The `categories:` block below is the source of truth for what we fetch.
 # Each category maps a display name to:
@@ -10,9 +10,13 @@
 #                       Prefix a keyword with `ti:` to match the TITLE only,
 #                       e.g. `ti:world model` -> `ti:"world model"` (higher
 #                       precision, lower recall).
+#   weights           - OPTIONAL per-keyword multipliers (default 1.0), keyed
+#                       by the keyword as written (ti: prefix optional). Rank
+#                       signature phrases above generic ones — weights decide
+#                       WHICH capped papers make the digest, not just order.
 #   exclude_keywords  - applied client-side as a relevance penalty; NOT part
 #                       of the arXiv query (arXiv has no robust NOT operator).
-#   priority          - tie-breaker for display ordering (higher = earlier).
+#   priority          - section ordering, higher = earlier (email + markdown).
 # =============================================================================
 
 show_authors: True
@@ -59,7 +63,7 @@ email_dedup:
 
 # HuggingFace Daily Papers — community-signal source. HF curates ~25
 # papers/day by its own feature date (published ~09:00 EDT). These enter the
-# Dispatch as their own section, bypassing the arXiv publish-day slice and
+# digest as their own section, bypassing the arXiv publish-day slice and
 # the readme/snapshots (email-only). They carry an arXiv id, so the same
 # notified store above dedupes them across both sources — a paper already
 # emailed via the keyword crawl is dropped here (and vice versa). The cron
@@ -72,13 +76,18 @@ hf_papers:
   date_offset_days: 0 # 0 = today's HF daily (cron runs 15:00 UTC, after HF's ~13:00 UTC publish)
 
 # -----------------------------------------------------------------------------
-# Relevance scoring (see src/daily_arxiv/processors/relevance.py)
+# Relevance scoring (see src/arxiv_digest/processors/relevance.py)
 # -----------------------------------------------------------------------------
+# threshold is a weak filter by construction: include keywords are baked into
+# the arXiv query, so every fetched paper scores >= one abstract hit. The
+# per-category + global email caps below are what make the digest a digest.
 scoring:
-  threshold: 0.15       # drop papers below this normalized score
-  title_weight: 2.0     # a title keyword hit is worth this many abstract hits
-  include_boost: 1.0    # weight of one abstract keyword hit
-  exclude_penalty: 1.0  # subtracted from the score when any exclude keyword hits
+  threshold: 0.15              # drop papers below this normalized score
+  title_weight: 2.0            # a title keyword hit is worth this many abstract hits
+  include_boost: 1.0           # weight of one abstract keyword hit
+  exclude_penalty: 1.0         # subtracted from the score when any exclude keyword hits
+  email_max_per_category: 4    # digest shortlist: top-4 per section (0 = uncapped)
+  email_max_total: 15          # ...and top-15 overall (0 = uncapped)
 
 # -----------------------------------------------------------------------------
 # Rate limiting & feature flags
@@ -117,6 +126,11 @@ categories:
       - "ti:motion synthesis"
       - "ti:motion generation"
       - "ti:human motion"
+    weights:                    # title hits outrank abstract buzzword matches
+      "ti:character motion": 1.5
+      "ti:motion synthesis": 1.5
+      "ti:motion generation": 1.5
+      "ti:human motion": 1.5
     exclude_keywords: ["motion planning", "optical flow", "sport", "structure from motion", "structure-from-motion", "myocardial", "eye reconstruction"]
 
   - name: "Motion Authoring, Editing & Retargeting"
@@ -132,6 +146,10 @@ categories:
       - "generative motion rig"
       - "match animation"
       - "interactive motion"
+    weights:                    # classic-animation mechanics are the core taste
+      "in-betweening": 2.0
+      "motion retargeting": 1.5
+      "inverse kinematics": 1.5
     exclude_keywords: ["video editing", "image editing", "text editing"]
 
   - name: "Computational Design, Mechanism & Fabrication"
@@ -148,6 +166,12 @@ categories:
       - "cam-follower"
       - "automata"
       - "3D printing"
+    weights:                    # linkage/kinematic synthesis is the signature area
+      "linkage synthesis": 3.0
+      "kinematic synthesis": 3.0
+      "four-bar linkage": 3.0
+      "cam-follower": 2.5
+      "3D printing": 0.75       # generic fabrication term — demote
     exclude_keywords: ["cathode", "anode", "battery", "crystalline", "perovskite", "supply chain", "powder bed fusion", "drug", "protein"]
 
   - name: "Sketch-based & Creative HCI Tools"
@@ -162,6 +186,9 @@ categories:
       - "human-AI co-creation"
       - "interactive design system"
       - "participatory design"
+    weights:
+      "co-creative": 1.5
+      "human-AI co-creation": 1.5
     exclude_keywords: []   # NOTE: low arXiv recall expected (CHI/UIST live in ACM DL)
 
   # ===== T2: must-include new areas =====
@@ -180,6 +207,14 @@ categories:
       - "robot foundation model"
       - "action chunking"
       - "cross-embodiment"
+    weights:                    # VLA-specific phrases outrank the generic VLM terms
+      "vision-language-action": 2.0
+      "vision language action": 2.0
+      "generalist robot policy": 1.5
+      "action chunking": 1.5
+      "cross-embodiment": 1.5
+      "vision-language": 0.75   # generic — every VLM paper matches
+      "VLM": 0.75
     exclude_keywords: []
 
   - name: "World Models & Generative Video"
@@ -194,6 +229,12 @@ categories:
       - "action-conditioned video"
       - "video generation"
       - "human motion generation"
+    weights:                    # title world-models = the real interest
+      "ti:world model": 2.5
+      "ti:world models": 2.5
+      "world simulator": 2.0
+      "action-conditioned video": 2.0
+      "video generation": 0.75  # generic — matches half of cs.CV
     exclude_keywords: ["weather", "climate model", "economic model"]
 
   # ===== T3: supporting =====
@@ -208,6 +249,9 @@ categories:
       - "part segmentation"
       - "single-view 3D"
       - "text-to-3D"
+    weights:
+      "Gaussian Splatting": 1.5
+      "text-to-3D": 1.5
     exclude_keywords: ["medical imaging", "CT reconstruction", "seismic", "remote sensing"]
 
   - name: "Embodied AI & Robot Learning"
@@ -221,6 +265,10 @@ categories:
       - "cross-embodiment learning"
       - "model-based reinforcement learning"
       - "robot skill learning"
+    weights:
+      "sim-to-real": 1.5
+      "sim2real": 1.5
+      "dexterous manipulation": 1.5
     exclude_keywords: ["SLAM", "path planning", "agriculture"]
 
   - name: "Narrative & Long-form Audio"
@@ -231,6 +279,11 @@ categories:
       - "long-form audio"
       - "audio story"
       - "audio generation"
+    weights:                    # narrative/long-form is the point; bare generation is noise
+      "narrative audio": 2.0
+      "audio story": 2.0
+      "long-form audio": 1.5
+      "audio generation": 0.75
     exclude_keywords: ["speech recognition", "speaker verification", "audio classification"]   # narrative/long-form ONLY
 
   - name: "Neural Rendering & Physics Simulation"
@@ -244,4 +297,7 @@ categories:
       - "deformable simulation"
       - "cloth simulation"
       - "relightable"
+    weights:
+      "relightable": 2.0
+      "differentiable rendering": 1.5
     exclude_keywords: ["CFD", "weather simulation", "plasma", "molecular dynamics"]

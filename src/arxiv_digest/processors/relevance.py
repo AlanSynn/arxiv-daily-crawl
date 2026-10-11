@@ -2,7 +2,8 @@
 
 Pure, dependency-light scoring with no network I/O.  A paper is scored against
 a single :class:`~arxiv_digest.core.config.Category`: include keywords add
-weight (title hits weighted higher than abstract hits), exclude keywords apply
+weight (title hits weighted higher than abstract hits; per-keyword weights via
+``Category.keyword_weights`` scale individual phrases), exclude keywords apply
 a penalty.  The score is normalized to ``[0.0, 1.0]`` so a single abstract hit
 is ~0.33 and a single title hit ~0.67 with the default config.
 """
@@ -55,19 +56,23 @@ class RelevanceScorer:
 
         title_hits: List[str] = []
         abs_hits: List[str] = []
+        title_weight = self.scoring.title_weight
+        weights = category.keyword_weights or {}
+        raw = 0.0
         for keyword in category.include_keywords:
             phrase = _strip_prefix(keyword).strip()
             if not phrase:
                 continue
             phrase_lower = phrase.lower()
+            # Per-keyword weight: looked up by the configured form ("ti:x")
+            # or the bare phrase; missing -> 1.0 (legacy configs unchanged).
+            weight = float(weights.get(keyword, weights.get(phrase, 1.0)))
             if phrase_lower in title_lower:
                 title_hits.append(phrase)
+                raw += title_weight * weight
             elif phrase_lower in text_lower:
                 abs_hits.append(phrase)
-
-        title_weight = self.scoring.title_weight
-        # Raw weight: title hits count at title_weight, abstract hits at 1.0.
-        raw = title_weight * len(title_hits) + self.scoring.include_boost * len(abs_hits)
+                raw += self.scoring.include_boost * weight
 
         # Normalize so one abstract hit ~= include_boost/(title_weight+boost).
         denom = title_weight + self.scoring.include_boost
@@ -83,7 +88,11 @@ class RelevanceScorer:
         if exclude_hit:
             score = max(0.0, score - self.scoring.exclude_penalty)
 
-        return min(1.0, score), title_hits + abs_hits
+        # Dedupe the display list while preserving order: a bare keyword and
+        # its ``ti:`` variant (e.g. "motion generation" + "ti:motion
+        # generation") both score, but showing the same phrase twice is noise.
+        matched = list(dict.fromkeys(title_hits + abs_hits))
+        return min(1.0, score), matched
 
     def passes(self, score: float) -> bool:
         """Whether a score clears the configured relevance threshold."""

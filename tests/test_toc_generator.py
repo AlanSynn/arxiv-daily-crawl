@@ -152,8 +152,8 @@ def test_paper_list_has_header_and_separator():
     p = _paper("2506.001", "T", "Cat", 0.5, date(2025, 6, 17))
     out = generate_paper_list([p])
     assert "# 📄 Paper List" in out
-    assert "| Date | Title | Category | Score | arXiv | Code |" in out
-    assert "|---|---|---|---|---|---|" in out
+    assert "| Date | Title | Category | Score | Matched | arXiv | Code |" in out
+    assert "|---|---|---|---|---|---|---|" in out
 
 
 # ---------------------------------------------------------------------------

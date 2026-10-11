@@ -33,6 +33,11 @@ class Category:
     ``include_keywords`` may target the abstract (default) or the title.  A
     keyword prefixed with ``ti:`` is matched against the title only — both in
     the generated arXiv query (emitted as ``ti:"..."``) and by the scorer.
+
+    ``keyword_weights`` (config key ``weights:``) maps a keyword — as written
+    in ``include_keywords`` (``ti:`` prefix included) or as its bare phrase —
+    to a multiplier (default 1.0). High-precision phrases should outweigh
+    generic ones so the digest's ranking reflects taste, not phrase count.
     """
 
     name: str
@@ -40,16 +45,27 @@ class Category:
     include_keywords: List[str] = field(default_factory=list)
     exclude_keywords: List[str] = field(default_factory=list)
     priority: int = 0
+    keyword_weights: Dict[str, float] = field(default_factory=dict)
 
 
 @dataclass
 class ScoringConfig:
-    """Weights/thresholds for :class:`RelevanceScorer`."""
+    """Weights/thresholds for :class:`RelevanceScorer`.
+
+    ``email_max_per_category`` / ``email_max_total`` cap the daily digest (by
+    score, per section then globally). The relevance threshold alone can't
+    reject anything — include keywords are baked into the arXiv query, so
+    every fetched paper scores >= one abstract hit — and without caps the
+    "digest" emails everything the query returned. ``0`` disables a cap.
+    Archives and ``PAPER_LIST.md`` are unaffected (they keep the full set).
+    """
 
     threshold: float = 0.15
     title_weight: float = 2.0
     include_boost: float = 1.0
     exclude_penalty: float = 1.0
+    email_max_per_category: int = 4
+    email_max_total: int = 15
 
 
 @dataclass
@@ -161,6 +177,7 @@ def _parse_categories(raw: List[Dict[str, Any]]) -> List[Category]:
         if not isinstance(item, dict):
             continue
         name = item.get("name") or ""
+        raw_weights = item.get("weights") or {}
         categories.append(
             Category(
                 name=name,
@@ -168,6 +185,9 @@ def _parse_categories(raw: List[Dict[str, Any]]) -> List[Category]:
                 include_keywords=[str(k) for k in (item.get("include_keywords") or [])],
                 exclude_keywords=[str(k) for k in (item.get("exclude_keywords") or [])],
                 priority=int(item.get("priority") or 0),
+                keyword_weights={
+                    str(k): float(v) for k, v in raw_weights.items()
+                } if isinstance(raw_weights, dict) else {},
             )
         )
     return categories
@@ -203,6 +223,8 @@ def _parse_scoring(raw: Dict[str, Any]) -> ScoringConfig:
         title_weight=float(raw.get("title_weight", 2.0)),
         include_boost=float(raw.get("include_boost", 1.0)),
         exclude_penalty=float(raw.get("exclude_penalty", 1.0)),
+        email_max_per_category=int(raw.get("email_max_per_category", 4)),
+        email_max_total=int(raw.get("email_max_total", 15)),
     )
 
 
@@ -305,6 +327,10 @@ def load_config(config_file: str) -> Dict[str, Any]:
         categories = _migrate_legacy_keywords(config["keywords"])
     else:
         categories = []
+
+    # ``priority`` orders sections (email + markdown outputs): higher first.
+    # Stable sort keeps declaration order within equal priority.
+    categories.sort(key=lambda c: c.priority, reverse=True)
 
     config["categories"] = categories
     config["scoring"] = _parse_scoring(config.get("scoring"))

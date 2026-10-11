@@ -140,6 +140,12 @@ class DailyArxivApp:
         for paper in email_papers:
             email_papers_by_cat.setdefault(paper.category or "", []).append(paper)
 
+        # Digest caps: per-category top-N then a global cap, applied to the
+        # email slice only — archives and PAPER_LIST keep the full set.
+        # Runs BEFORE dedup (and before the HF section, which caps itself via
+        # its own top_n).
+        email_papers_by_cat = self._apply_email_caps(email_papers_by_cat, scoring)
+
         # Cross-run dedup: drop papers already dispatched in a prior run so
         # each paper is emailed at most once.  Guards against the newest-day
         # stall on weekends (no new arXiv posts -> same slice 3 days running)
@@ -357,6 +363,66 @@ class DailyArxivApp:
             dated_paths['json_web_path'], dated_paths['md_web_path'],
             task="Generate daily web log", to_web=True,
         )
+
+    @staticmethod
+    def _apply_email_caps(
+        papers_by_category: Dict[str, List[Paper]],
+        scoring: Any,
+    ) -> Dict[str, List[Paper]]:
+        """Cap the email slice: per-category top-N by score, then a global cap.
+
+        The relevance threshold alone can't reject anything (include keywords
+        are baked into the arXiv query, so every fetched paper scores at least
+        one abstract hit) — without caps the "digest" emails everything the
+        query returned. Caps make the email a shortlist; archives and
+        ``PAPER_LIST.md`` are untouched (this runs on the email slice only).
+        ``0`` disables a cap. Section order and within-category order are
+        preserved; ties break by section order. Empty sections collapse.
+        """
+        per_cat = int(getattr(scoring, "email_max_per_category", 0) or 0)
+        total_cap = int(getattr(scoring, "email_max_total", 0) or 0)
+        if per_cat <= 0 and total_cap <= 0:
+            return papers_by_category
+
+        before = sum(len(v) for v in papers_by_category.values())
+
+        capped: Dict[str, List[Paper]] = {}
+        for cat, papers in papers_by_category.items():
+            if per_cat > 0 and len(papers) > per_cat:
+                # Select the top-N by score, then restore the original
+                # (fetch) order for the kept papers.
+                keep = sorted(
+                    range(len(papers)), key=lambda i: -papers[i].score
+                )[:per_cat]
+                papers = [papers[i] for i in sorted(keep)]
+            capped[cat] = papers
+
+        if total_cap > 0:
+            # Global selection across sections; ties break by section order
+            # (cat_idx) then position within it (idx).
+            entries = [
+                (-p.score, cat_idx, idx)
+                for cat_idx, papers in enumerate(capped.values())
+                for idx, p in enumerate(papers)
+            ]
+            entries.sort()
+            keep = set(entries[:total_cap])
+            capped = {
+                cat: [
+                    p for idx, p in enumerate(papers)
+                    if (-p.score, cat_idx, idx) in keep
+                ]
+                for cat_idx, (cat, papers) in enumerate(capped.items())
+            }
+
+        # A global cap can empty later sections; collapse them so the send
+        # step skips them entirely.
+        capped = {cat: papers for cat, papers in capped.items() if papers}
+
+        after = sum(len(v) for v in capped.values())
+        if after < before:
+            logging.info("Digest caps: %d of %d paper(s) kept.", after, before)
+        return capped
 
     @staticmethod
     def _dedupe_email_slice(
