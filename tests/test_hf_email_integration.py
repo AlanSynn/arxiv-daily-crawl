@@ -7,8 +7,8 @@ upvote badge instead of a score badge, (3) the section appears in the index.
 
 from datetime import date
 
-from src.daily_arxiv.models.paper import Paper
-from src.daily_arxiv.services.email_service import EmailService
+from src.arxiv_digest.models.paper import Paper
+from src.arxiv_digest.services.email_service import EmailService
 
 
 def _scored(key, score=0.5, cat="Character Motion"):

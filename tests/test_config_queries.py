@@ -5,7 +5,7 @@ import tempfile
 
 import yaml
 
-from src.daily_arxiv.core.config import (
+from src.arxiv_digest.core.config import (
     Category,
     RateLimitConfig,
     ScoringConfig,
@@ -213,9 +213,11 @@ def test_validate_config_requires_categories():
     assert validate_config(cfg) is False
 
 
-def test_validate_config_missing_base_url():
+def test_validate_config_base_url_no_longer_required():
+    """base_url was a dead key (nothing in src reads it); validation now only
+    requires max_results + categories. A config without base_url is VALID."""
     cfg = {"max_results": 5, "categories": [{"name": "A", "cat_codes": ["cs.GR"]}]}
-    assert validate_config(cfg) is False
+    assert validate_config(cfg) is True
 
 
 def test_load_real_config_yaml():

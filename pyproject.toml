@@ -1,22 +1,22 @@
 [project]
-name = "daily-arxiv"
+name = "arxiv-digest"
 version = "0.1.0"
-description = "Automated daily arXiv paper aggregator for Computer Vision and related research fields"
+description = "Personal curated arXiv digest: daily score-ranked paper recommendations by email"
 readme = "README.md"
 requires-python = ">=3.11"
-license = {text = "MIT"}
+license = {text = "Apache-2.0"}
 authors = [
     {name = "Alan Synn", email = "alan@alansynn.com"}
 ]
 maintainers = [
     {name = "Alan Synn", email = "alan@alansynn.com"}
 ]
-keywords = ["arxiv", "research", "computer-vision", "automation", "academic-papers"]
+keywords = ["arxiv", "research", "newsletter", "recommendation", "academic-papers"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
     "Intended Audience :: Science/Research",
-    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: Apache Software License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.11",
@@ -31,18 +31,21 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/AlanSynn/daily-arxiv"
-Repository = "https://github.com/AlanSynn/daily-arxiv"
-Issues = "https://github.com/AlanSynn/daily-arxiv/issues"
-Documentation = "https://github.com/AlanSynn/daily-arxiv#readme"
+Homepage = "https://github.com/AlanSynn/arxiv-digest"
+Repository = "https://github.com/AlanSynn/arxiv-digest"
+Issues = "https://github.com/AlanSynn/arxiv-digest/issues"
+Documentation = "https://github.com/AlanSynn/arxiv-digest#readme"
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project.scripts]
-daily-arxiv = "src.daily_arxiv.cli.main:main"
-archive-papers = "src.daily_arxiv.archive.archiver:main"
+# Installed src-layout style: the package is importable as top-level
+# ``arxiv_digest`` (NOT ``src.arxiv_digest``), which is why the old
+# ``src.daily_arxiv...`` entry points failed with ModuleNotFoundError.
+arxiv-digest = "arxiv_digest.cli.main:main"
+archive-papers = "arxiv_digest.archive.archiver:main"
 
 [dependency-groups]
 dev = [

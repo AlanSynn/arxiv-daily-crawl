@@ -1,213 +1,186 @@
-# Daily arXiv
+# arxiv-digest
 
-[![MIT License][license-shield]][license-url]
+[![License][license-shield]][license-url]
 [![Python 3.11+][python-shield]][python-url]
 
-> **Automated daily arXiv paper aggregator**
+> **A personal, curated arXiv digest — delivered as a daily email.**
 
-A Python tool that automatically fetches, filters, and formats the latest research papers from arXiv. Features email notifications and comprehensive paper management.
+arxiv-digest watches your research areas on arXiv (plus Hugging Face's
+community-curated Daily Papers), scores every match against your own
+keywords, and emails you a ranked shortlist each day — not a raw dump.
+Papers are deduplicated across runs, so you see each one at most once, and
+everything is archived to browsable markdown.
 
-## ✨ Features
+## ✨ What you get
 
-- 🔄 **Automated Daily Updates**: Runs daily via GitHub Actions
-- 📧 **Email Notifications**: Get daily summaries delivered to your inbox
-- 🔍 **Smart Filtering**: Advanced keyword filtering across multiple research domains
-- 📊 **Multiple Output Formats**: Markdown, JSON, and web-ready formats
-- 📚 **Paper Archiving**: Automatic management of historical papers
-- 🔗 **Code Discovery**: Automatic GitHub repository detection for papers
+- 📧 **Daily arXiv Digest email** — a capped shortlist (top-4 per section,
+  15 overall by default), sections ordered by your `priority`, each paper
+  sorted by relevance score with a score badge and a `matched:` line showing
+  exactly which keywords put it there
+- 🔍 **Your keywords, your weights** — categories map arXiv category codes to
+  include/exclude keywords (`ti:` prefix for title-only matching), with
+  optional per-keyword weights so a signature phrase outranks a generic one
+- 🔥 **Trending on HuggingFace** — the day's community-upvoted papers
+  (upvote floor + top-N) as their own section
+- 🔁 **At-most-once delivery** — a persistent notified-store means weekend
+  stalls never re-send Thursday's papers
+- 🔗 **Code discovery** — GitHub repos auto-resolved for each paper via the
+  HF Papers API
+- 📚 **Full archive** — the email is a shortlist, but dated snapshots, the
+  flat `PAPER_LIST.md`, and the monthly 1-year archive keep *everything*,
+  all committed to the `results` branch
+- 🤖 **Fully automated** — GitHub Actions runs the whole pipeline daily at
+  15:00 UTC (after both arXiv's overnight postings and HF's ~13:00 UTC
+  publish)
+- 🔥 **Trending on HuggingFace** — the day's community-upvoted papers
+  (upvote floor + top-N) as their own section
+- 🔁 **At-most-once delivery** — a persistent notified-store means weekend
+  stalls never re-send Thursday's papers
+- 🔗 **Code discovery** — GitHub repos auto-resolved for each paper via the
+  HF Papers API
+- 📚 **Full archive** — dated snapshots, a flat `PAPER_LIST.md`, and a
+  monthly 1-year archive, all committed to the `results` branch
+- 🤖 **Fully automated** — GitHub Actions runs the whole pipeline daily at
+  15:00 UTC (after both arXiv's overnight postings and HF's ~13:00 UTC
+  publish)
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 
 - Python 3.11+
-- [uv](https://docs.astral.sh/uv/) (recommended) or pip
+- [uv](https://docs.astral.sh/uv/)
 
 ### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/AlanSynn/daily-arxiv.git
-cd daily-arxiv
-
-# Install dependencies
+git clone https://github.com/AlanSynn/arxiv-digest.git
+cd arxiv-digest
 uv sync
-
-# Or with pip
-pip install -e .
 ```
 
 ### Configuration
 
-1. Edit the configuration file:
+Everything you track lives in [`config.yaml`](config.yaml):
 
-```bash
-# Basic settings are already configured in config.yaml
-# You can customize research categories and filters there
+```yaml
+categories:
+  - name: "Character Motion Synthesis & Animation"
+    cat_codes: ["cs.GR", "cs.CV"]        # arXiv categories to search
+    priority: 9                          # section ordering (higher = earlier)
+    include_keywords:                    # abstract matches
+      - "motion synthesis"
+      - "ti:character motion"            # ti: = title-only (higher precision)
+    weights:                             # optional per-keyword multipliers
+      "ti:character motion": 1.5         # (default 1.0; decides the ranking)
+    exclude_keywords:                    # whole-word penalty, e.g. "sport"
+      - "motion planning"                # (never fires on "transport")
+
+scoring:
+  threshold: 0.15
+  title_weight: 2.0
+  include_boost: 1.0
+  exclude_penalty: 1.0
+  email_max_per_category: 4            # digest shortlist caps (0 = uncapped)
+  email_max_total: 15
 ```
 
-2. Set up email credentials (optional):
+How selection works: include keywords are baked into the arXiv query, so
+every fetched paper scores at least one hit — the **caps** (per-category,
+then global, by score) are what make the email a digest instead of a dump.
+Archives and `PAPER_LIST.md` keep the full set either way.
+
+Email settings use environment variables — no secrets in the repo:
 
 ```bash
-export SMTP_USER="your-email@gmail.com"
+export SMTP_USER="your-email@gmail.com"      # Gmail: use an app password
 export SMTP_PASSWORD="your-app-password"
-export EMAIL_RECIPIENT="recipient@email.com"
+export EMAIL_RECIPIENT="you@example.com"
 ```
 
 ### Usage
 
 ```bash
-# Fetch daily papers
-uv run python -m src.daily_arxiv.daily_arxiv
+# Fetch + score + update the local archive (no email)
+uv run python -m src.arxiv_digest
 
-# Send email notifications
-uv run python -m src.daily_arxiv.daily_arxiv --send-email
+# Full run: fetch, score, and send the digest email
+uv run python -m src.arxiv_digest --send-email
 
-# Fresh run (clear existing data)
-uv run python -m src.daily_arxiv.daily_arxiv --fresh-run
+# Reset accumulated JSON state first
+uv run python -m src.arxiv_digest --fresh-run
 
-# Custom configuration
-uv run python -m src.daily_arxiv.daily_arxiv --config_path your_config.yaml
+# Installed console scripts (after `uv sync`)
+uv run arxiv-digest --help
+uv run archive-papers --help
+
+# Preview the email HTML with mock papers (no network, no send)
+PYTHONPATH=. uv run python scripts/generate_email_preview.py
 ```
+
+## 🤖 Running on GitHub Actions (forks)
+
+The repo ships three workflows: a daily run (`daily-arxiv.yml`, 15:00 UTC), a
+monthly archive (`archive-old-papers.yml`), and state persistence — every run
+commits `logs/` (snapshots + dedup state) to the `results` branch.
+
+To run your own copy:
+
+1. **Add repository secrets** (Settings → Secrets and variables → Actions):
+   - `SMTP_USER`, `SMTP_PASSWORD`, `EMAIL_RECIPIENT`
+2. **Allow workflow pushes** — the workflows declare
+   `permissions: contents: write`; if your fork restricts the default
+   `GITHUB_TOKEN`, set Settings → Actions → General → Workflow permissions to
+   "Read and write".
+3. Push to `main` and trigger **Run Daily Arxiv** manually once to create the
+   `results` branch.
+
+If a required secret is missing the run **fails loudly** (non-zero exit) —
+it never silently skips your digest.
 
 ## 📋 Command Line Options
 
-```bash
-Options:
-  -h, --help            Show help message
-  --config_path PATH    Configuration file path
-  --update_paper_links  Update paper links and GitHub repositories
-  --fresh-run          Reset all JSON files before running
-  --send-email         Send email with today's papers
-  --email-recipient    Email recipient (overrides config)
-  --smtp-user          SMTP username (overrides config)
-  --smtp-password      SMTP password (overrides config)
+```
+-h, --help            Show help message
+--config_path PATH    Configuration file path (default: config.yaml)
+--fresh-run           Reset all JSON files before running
+--send-email          Send the digest email
+--email-recipient ADDR  Override recipient
+--smtp-user / --smtp-password  Override SMTP credentials
 ```
 
-## 📁 Output Structure
+## 📁 Outputs (`logs/`)
 
-All outputs are stored in the `logs/` directory:
+| Path | Content |
+|---|---|
+| `ARXIV_PAPERS.md` / `arxiv-web.md` | accumulated collection, grouped by category |
+| `daily-arxiv*.json` / dated `logs/json`, `logs/md` | per-day snapshots |
+| `PAPER_LIST.md` | flat, deduplicated, newest-first list |
+| `notified_papers.json` | dedup state (emailed paper keys) |
+| `archive/archive_YYYYMM.*` | monthly archive of >1-year-old papers |
 
-```
-logs/
-├── ARXIV_PAPERS.md          # Main paper listing (latest results)
-├── daily-arxiv.json         # JSON data
-├── daily-arxiv-web.json     # Web-ready JSON data
-├── arxiv-web.md             # Web-ready markdown
-├── json/                    # Daily JSON logs
-│   └── daily-arxiv_YYYY-MM-DD.json
-├── md/                      # Daily markdown logs
-│   └── daily-arxiv_YYYY-MM-DD.md
-└── archive/                 # Archived papers
-    └── archive_YYYYMM.json
-```
+All of the above live on the `results` branch via the daily workflow.
 
-## ⚙️ Configuration
-
-The `config.yaml` file allows you to customize:
-
-- **Search Keywords**: Define research categories and filter terms
-- **Email Settings**: SMTP configuration for notifications
-- **Output Settings**: File paths and formatting options
-- **API Settings**: arXiv API parameters and rate limiting
-
-Example configuration:
-
-```yaml
-# Basic settings
-max_results: 30
-base_url: "https://arxiv.paperswithcode.com/api/v0/papers/"
-
-# Email configuration
-email_settings:
-  enabled: true
-  smtp_server: "smtp.gmail.com"
-  smtp_port: 587
-  smtp_user: "${SMTP_USER}"
-  smtp_password: "${SMTP_PASSWORD}"
-
-# Research categories
-keywords:
-  "Computational Design":
-    filters:
-      - "Computational Design"
-      - "Generative Design"
-```
-
-## 🔄 Automation
-
-### GitHub Actions
-
-The project includes automated workflows:
-
-- **Daily Updates**: Runs every day at 12:00 UTC
-- **Paper Archiving**: Weekly cleanup of old papers
-- **Email Notifications**: Optional daily email summaries
-
-### Local Automation
-
-Set up a cron job for local automation:
+## 🧪 Development
 
 ```bash
-# Edit crontab
-crontab -e
-
-# Add daily execution at 9 AM
-0 9 * * * cd /path/to/daily-arxiv && uv run python -m src.daily_arxiv.daily_arxiv --send-email
+uv run pytest              # full test suite
+uv run ruff check src      # lint
 ```
-
-## 🧪 Testing
-
-```bash
-# Run all tests
-uv run pytest
-
-# Run specific test categories
-uv run pytest tests/test_basic_functionality.py -v
-
-# Run test script
-./scripts/run_tests.sh
-```
-
-## 📚 Research Categories
-
-The tool currently covers these research domains:
-
-- **Computational Design & Fabrication**: Generative design, computational fabrication
-- **Mechanics, Kinematics & Motion Synthesis**: Mechanism design, physics-based simulation
-- **Robotics**: Robot design, control, learning, and simulation
-- **Human-Computer Interaction**: Interactive design systems, VR/AR for design
-- **Generative AI**: Foundation models, LLMs, and diffusion models in design
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## 👤 Author
-
-**Alan Synn**
-
-- Email: alan@alansynn.com
-- GitHub: [@AlanSynn](https://github.com/AlanSynn)
+Distributed under the Apache License 2.0. See `LICENSE` and `NOTICE` for
+more information.
 
 ## 🙏 Acknowledgments
 
-- [arXiv](https://arxiv.org/) for providing access to research papers
-- [Papers With Code](https://paperswithcode.com/) for enhanced paper metadata
-- The research community for continuously pushing the boundaries of knowledge
+- Started from [Vincentqyw/cv-arxiv-daily](https://github.com/Vincentqyw/cv-arxiv-daily) (Apache-2.0)
+- [arXiv](https://arxiv.org/) for open access to research
+- [Hugging Face Daily Papers](https://huggingface.co/papers) for community curation
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[license-shield]: https://img.shields.io/github/license/AlanSynn/daily-arxiv.svg?style=for-the-badge
-[license-url]: https://github.com/AlanSynn/daily-arxiv/blob/main/LICENSE
+[license-shield]: https://img.shields.io/github/license/AlanSynn/arxiv-digest.svg?style=for-the-badge
+[license-url]: https://github.com/AlanSynn/arxiv-digest/blob/main/LICENSE
 [python-shield]: https://img.shields.io/badge/python-3.11+-blue.svg?style=for-the-badge
 [python-url]: https://www.python.org/downloads/

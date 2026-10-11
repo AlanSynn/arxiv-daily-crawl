@@ -1,11 +1,11 @@
-"""Generate a rich preview of the Daily arXiv Dispatch email.
+"""Generate a rich preview of the Daily arXiv Digest email.
 
 Builds 10 mock Paper objects across 4 categories with a mix of score bands,
 code links, special characters, and one >600-char abstract, then writes the
 rendered HTML to ``logs/email_preview.html`` for visual verification.
 
-Run:
-    python scripts/generate_email_preview.py
+Run (from the repo root; the script needs the repo root on sys.path):
+    PYTHONPATH=. uv run python scripts/generate_email_preview.py
 """
 
 from __future__ import annotations
@@ -14,8 +14,8 @@ import os
 from datetime import date
 from typing import List
 
-from src.daily_arxiv.models.paper import Paper
-from src.daily_arxiv.services.email_service import EmailService
+from src.arxiv_digest.models.paper import Paper
+from src.arxiv_digest.services.email_service import EmailService
 
 
 def _paper(  # noqa: PLR0913 — fixture builder, simple kwargs are fine here.

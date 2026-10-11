@@ -5,7 +5,7 @@ import os
 import tempfile
 from datetime import date, timedelta
 
-from src.daily_arxiv.archive.archiver import archive_old_papers, parse_paper_entry
+from src.arxiv_digest.archive.archiver import archive_old_papers, parse_paper_entry
 
 
 PIPE_ROW = (

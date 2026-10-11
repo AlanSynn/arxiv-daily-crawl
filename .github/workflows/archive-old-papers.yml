@@ -5,9 +5,16 @@ on:
   schedule:
     - cron: "0 12 1 * *"  # Run at 8:00 AM EDT (12:00 UTC) on the 1st of each month
 
+# Serialize with the daily workflow: both rewrite the shared results branch
+# tip (see daily-arxiv.yml for the lost-update rationale).
+concurrency:
+  group: results-state
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
 env:
-  GITHUB_USER_NAME: AlanSynn
-  GITHUB_USER_EMAIL: alan@alansynn.com
   SMTP_USER: ${{ secrets.SMTP_USER }}
   SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
   EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
@@ -15,6 +22,7 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -82,7 +90,6 @@ jobs:
       - name: Set Up Environment
         run: |
           mkdir -p logs/json logs/md logs/archive # Ensure log directories exist
-          if [ -f scripts/setup_logs.sh ]; then bash scripts/setup_logs.sh; fi
 
       - name: Run Archive Script
         env:
@@ -90,7 +97,7 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
         run: |
-          uv run python -m src.daily_arxiv.archive
+          uv run python -m src.arxiv_digest.archive
 
       - name: Ensure on results branch
         run: |
@@ -104,13 +111,23 @@ jobs:
 
       - name: Commit files to results branch
         run: |
-          # Add only the logs directory to results branch
-          git add logs/ || echo "No logs to add"
+          # Force-add logs/: .gitignore excludes logs/ (kept off main), so a
+          # plain `git add logs/` silently skips NEW untracked files — e.g. the
+          # fresh logs/archive/archive_YYYYMM.* this run just created — while
+          # still committing the deletions from logs/daily-arxiv.json. That is
+          # the same failure class that stopped daily snapshots persisting
+          # after 2025-06-18 (the daily workflow uses -f for the same reason).
+          git add -f logs/
           git commit -m "Archive old papers (monthly) - $(date +'%Y-%m-%d')" || echo "No changes to commit"
 
       - name: Push to results branch
-        uses: ad-m/github-push-action@v0.8.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: results
-          force: false
+        run: |
+          for attempt in 1 2 3; do
+            if git push origin results; then
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; backing off"
+            sleep $((attempt * 10))
+          done
+          echo "All push attempts failed"
+          exit 1

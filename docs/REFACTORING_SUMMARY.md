@@ -1,5 +1,11 @@
 # Refactoring Summary
 
+> **Note (2026-10):** this is a historical record of the monolith→package
+> refactor. File paths below (`src/daily_arxiv/...`) reflect the package name
+> at the time; the package has since been renamed to `src/arxiv_digest/`.
+
+## Overview
+
 ## Overview
 
 Successfully refactored the daily-arxiv project from a monolithic 840-line file into a modern, modular Python package with clean separation of concerns.

@@ -1,6 +1,6 @@
-# 🧪 Tests for CV-ArXiv-Daily
+# 🧪 Tests for arxiv-digest
 
-This directory contains comprehensive tests for the cv-arxiv-daily project, including tests for the new daily paper filtering functionality.
+This directory contains comprehensive tests for the arxiv-digest project, including tests for the new daily paper filtering functionality.
 
 ## 📁 Test Structure
 

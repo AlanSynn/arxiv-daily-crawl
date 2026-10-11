@@ -5,8 +5,8 @@ import tempfile
 import os
 from pathlib import Path
 
-from src.daily_arxiv.core.config import load_config
-from src.daily_arxiv.utils.file_utils import ensure_directory_exists
+from src.arxiv_digest.core.config import load_config
+from src.arxiv_digest.utils.file_utils import ensure_directory_exists
 
 
 def test_ensure_directory_creation():
@@ -52,9 +52,9 @@ def test_project_structure():
     # Check that key files exist
     assert (project_root / 'pyproject.toml').exists()
     assert (project_root / 'config.yaml').exists()
-    assert (project_root / 'src' / 'daily_arxiv' / 'cli' / 'main.py').exists()
-    assert (project_root / 'src' / 'daily_arxiv' / 'core' / 'config.py').exists()
-    assert (project_root / 'src' / 'daily_arxiv' / 'services').exists()
+    assert (project_root / 'src' / 'arxiv_digest' / 'cli' / 'main.py').exists()
+    assert (project_root / 'src' / 'arxiv_digest' / 'core' / 'config.py').exists()
+    assert (project_root / 'src' / 'arxiv_digest' / 'services').exists()
     
     # Check that scripts folder exists
     assert (project_root / 'scripts').exists()
@@ -63,10 +63,10 @@ def test_project_structure():
 def test_import_works():
     """Test that the main modules can be imported"""
     try:
-        from src.daily_arxiv.core.config import load_config
-        from src.daily_arxiv.services.arxiv_client import ArXivClient
-        from src.daily_arxiv.services.email_service import EmailService
-        from src.daily_arxiv.cli.main import main
+        from src.arxiv_digest.core.config import load_config
+        from src.arxiv_digest.services.arxiv_client import ArXivClient
+        from src.arxiv_digest.services.email_service import EmailService
+        from src.arxiv_digest.cli.main import main
         
         # Test that main functions are callable
         assert callable(load_config)

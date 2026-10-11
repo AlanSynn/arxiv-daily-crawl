@@ -1,15 +1,18 @@
-# Arxiv Paper Archive System
+# Paper Archive System
 
-This document explains the paper archiving system implemented for the Arxiv Daily project.
+This document explains the paper archiving system of the arxiv-digest project.
 
 ## Overview
 
-The Arxiv Daily project automatically collects and organizes Computer Vision papers from arXiv. To keep the main collection current and relevant, papers older than 1 year are automatically archived.
+arxiv-digest automatically collects and organizes papers from arXiv. To keep the
+main collection current and relevant, papers older than 1 year are automatically
+archived.
 
 ## How the Archive Works
 
-1. Papers are fetched daily from arXiv using the `daily_arxiv.py` script
-2. Once a month, the `archive_old_papers.py` script runs to:
+1. Papers are fetched daily from arXiv by the `src.arxiv_digest` pipeline
+2. The archiver (`src.arxiv_digest.archive`) runs monthly via GitHub Actions and
+   is also invoked by the daily workflow:
    - Identify papers older than 365 days
    - Move these papers from the main collection to monthly archive files
    - Generate markdown files for easier browsing of archived papers
@@ -17,17 +20,19 @@ The Arxiv Daily project automatically collects and organizes Computer Vision pap
 
 ## Browsing Archived Papers
 
-Archived papers are available in the [archive directory](./archive/index.md). They are organized by the month they were archived, with each archive file containing papers moved during that specific month.
+Archived papers live in [`logs/archive/`](../logs/archive/), organized by the
+month they were archived. Each `archive_YYYYMM.{json,md}` pair contains the
+papers moved during that specific month.
 
 ## Archive Configuration
 
-You can configure archive settings in the `config.yaml` file:
+Configure archive settings in `config.yaml`:
 
 ```yaml
 archive_settings:
   enabled: True
   max_age_days: 365  # Papers older than this will be archived (1 year)
-  archive_dir: './docs/archive'
+  archive_dir: './logs/archive'
 ```
 
 - `enabled`: Enable or disable the archiving feature
@@ -40,18 +45,20 @@ If you need to manually run the archiving process, you can:
 
 1. Run it locally:
    ```bash
-   python -m src.daily_arxiv.archive_old_papers.py
+   uv run python -m src.arxiv_digest.archive
    ```
 
-2. Trigger the GitHub Action workflow manually from the Actions tab
+2. Trigger the "Archive Old Papers Monthly" workflow manually from the
+   GitHub Actions tab
 
 ## Implementation Details
 
 The archive system consists of:
 
-1. `archive_old_papers.py`: The main archiving script
-2. `archive-old-papers.yml`: GitHub workflow that runs monthly
+1. `src/arxiv_digest/archive/archiver.py`: the archiver module
+2. `.github/workflows/archive-old-papers.yml`: the monthly GitHub Actions workflow
 3. Archive configuration in `config.yaml`
-4. Archive directory structure in `docs/archive/`
+4. Archive directory structure in `logs/archive/`
 
-The script parses paper dates, identifies old papers, moves them to archive files, and generates markdown for browsing.
+The archiver parses paper dates, identifies old papers, moves them to archive
+files, and generates markdown for browsing.

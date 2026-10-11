@@ -1,1 +1,1 @@
-# Test package for cv-arxiv-daily
+# Test package for arxiv-digest

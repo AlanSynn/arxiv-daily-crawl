@@ -1,1 +1,0 @@
-"""Core functionality and configuration for daily-arxiv."""

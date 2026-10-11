@@ -1,4 +1,4 @@
-"""Test configuration and fixtures for cv-arxiv-daily"""
+"""Test configuration and fixtures for arxiv-digest"""
 
 import pytest
 import tempfile
