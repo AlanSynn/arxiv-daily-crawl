@@ -1,17 +1,16 @@
-"""Test refactored functionality for daily-arxiv."""
+"""Test refactored functionality for arxiv-digest."""
 
 import tempfile
 import os
 from unittest.mock import patch, MagicMock
 
-from src.daily_arxiv.core.config import load_config, validate_config
-from src.daily_arxiv.services.arxiv_client import ArXivClient
-from src.daily_arxiv.services.github_client import GitHubClient
-from src.daily_arxiv.services.email_service import EmailService
-from src.daily_arxiv.processors.file_manager import FileManager
-from src.daily_arxiv.processors.content_generator import ContentGenerator
-from src.daily_arxiv.utils.file_utils import ensure_directory_exists
-from src.daily_arxiv.utils.date_utils import format_authors, get_dated_file_paths
+from src.arxiv_digest.core.config import load_config, validate_config
+from src.arxiv_digest.services.arxiv_client import ArXivClient
+from src.arxiv_digest.services.email_service import EmailService
+from src.arxiv_digest.processors.file_manager import FileManager
+from src.arxiv_digest.processors.content_generator import ContentGenerator
+from src.arxiv_digest.utils.file_utils import ensure_directory_exists
+from src.arxiv_digest.utils.date_utils import format_authors, get_dated_file_paths
 
 
 def test_config_validation():
@@ -44,13 +43,6 @@ def test_arxiv_client_initialization():
     assert client is not None
     assert hasattr(client, 'fetch_category')      # new primary API
     assert hasattr(client, 'get_daily_papers')     # deprecated compat wrapper
-
-
-def test_github_client_initialization():
-    """Test GitHub client can be initialized."""
-    client = GitHubClient()
-    assert client is not None
-    assert hasattr(client, 'get_code_link')
 
 
 def test_email_service_initialization():
@@ -112,49 +104,13 @@ def test_dated_file_paths():
     """Test dated file path generation."""
     config = {'log_dir': './logs'}
     
-    with patch('src.daily_arxiv.utils.date_utils.datetime') as mock_datetime:
+    with patch('src.arxiv_digest.utils.date_utils.datetime') as mock_datetime:
         mock_datetime.date.today().strftime.return_value = '2024-01-15'
         
         paths = get_dated_file_paths(config, '2024-01-15')
         
         assert isinstance(paths, dict)
         assert '2024-01-15' in str(paths)
-
-
-@patch('src.daily_arxiv.services.github_client.requests.get')
-def test_github_client_get_code_link(mock_get):
-    """Test GitHub client code link fetching."""
-    # Mock successful response
-    mock_response = MagicMock()
-    mock_response.json.return_value = {
-        'total_count': 1,
-        'items': [{'html_url': 'https://github.com/test/repo'}]
-    }
-    mock_response.raise_for_status.return_value = None
-    mock_get.return_value = mock_response
-    
-    client = GitHubClient()
-    result = client.get_code_link('test query')
-    
-    assert result == 'https://github.com/test/repo'
-
-
-@patch('src.daily_arxiv.services.github_client.requests.get')
-def test_github_client_no_results(mock_get):
-    """Test GitHub client with no results."""
-    # Mock empty response
-    mock_response = MagicMock()
-    mock_response.json.return_value = {
-        'total_count': 0,
-        'items': []
-    }
-    mock_response.raise_for_status.return_value = None
-    mock_get.return_value = mock_response
-    
-    client = GitHubClient()
-    result = client.get_code_link('nonexistent query')
-    
-    assert result is None
 
 
 def test_file_manager_json_operations():
@@ -198,9 +154,9 @@ def test_file_manager_dated_update_merges_never_replaces():
 
 
 def test_render_email_basic():
-    """render_email produces Dispatch HTML from real Paper objects."""
+    """render_email produces Digest HTML from real Paper objects."""
     from datetime import date
-    from src.daily_arxiv.models.paper import Paper
+    from src.arxiv_digest.models.paper import Paper
 
     config = {'email_settings': {'enabled': True}}
     service = EmailService(config)
@@ -269,7 +225,7 @@ def test_render_email_empty():
 def test_render_email_top5_block_when_many_papers():
     """Top-5 block appears once total papers exceed 5."""
     from datetime import date
-    from src.daily_arxiv.models.paper import Paper
+    from src.arxiv_digest.models.paper import Paper
 
     config = {'email_settings': {'enabled': True}}
     service = EmailService(config)
@@ -296,7 +252,7 @@ def test_render_email_top5_block_when_many_papers():
 
 def test_cli_integration():
     """Test that CLI components can be imported and used together."""
-    from src.daily_arxiv.cli.main import DailyArxivApp
+    from src.arxiv_digest.cli.main import DailyArxivApp
     
     # Mock config
     config = {
@@ -367,7 +323,7 @@ def test_notified_store_roundtrip_and_prune():
     """notified_store round-trips keys and prunes by arXiv YYMM age."""
     import tempfile
     from datetime import date
-    from src.daily_arxiv.processors.notified_store import (
+    from src.arxiv_digest.processors.notified_store import (
         load_notified, save_notified, prune_old, _key_year_month,
     )
 
@@ -400,7 +356,7 @@ def test_notified_store_roundtrip_and_prune():
 def test_notified_store_load_tolerates_missing_and_corrupt():
     """load_notified never raises; missing/empty/corrupt -> empty set."""
     import tempfile
-    from src.daily_arxiv.processors.notified_store import load_notified
+    from src.arxiv_digest.processors.notified_store import load_notified
 
     with tempfile.TemporaryDirectory() as tmpdir:
         # Missing file.
@@ -428,8 +384,8 @@ def test_notified_store_load_tolerates_missing_and_corrupt():
 def test_dedupe_email_slice_drops_already_notified():
     """_dedupe_email_slice keeps only unseen keys and collapses empty cats."""
     from datetime import date
-    from src.daily_arxiv.models.paper import Paper
-    from src.daily_arxiv.cli.main import DailyArxivApp
+    from src.arxiv_digest.models.paper import Paper
+    from src.arxiv_digest.cli.main import DailyArxivApp
 
     def _paper(key, cat):
         return Paper(
@@ -462,8 +418,8 @@ def test_send_email_notification_reads_scoring_dataclass():
     run at the final email step)."""
     from datetime import date
     from unittest.mock import patch
-    from src.daily_arxiv.models.paper import Paper
-    from src.daily_arxiv.cli.main import DailyArxivApp
+    from src.arxiv_digest.models.paper import Paper
+    from src.arxiv_digest.cli.main import DailyArxivApp
 
     # A real config: load_config turns 'scoring' into a ScoringConfig dataclass.
     config = {
@@ -472,7 +428,7 @@ def test_send_email_notification_reads_scoring_dataclass():
         'scoring': {'threshold': 0.42},
         'email_recipient': 'someone@example.com',
     }
-    from src.daily_arxiv.core.config import _parse_scoring
+    from src.arxiv_digest.core.config import _parse_scoring
     config['scoring'] = _parse_scoring(config['scoring'])
 
     app = DailyArxivApp(config)

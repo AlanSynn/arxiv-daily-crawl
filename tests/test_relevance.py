@@ -2,9 +2,9 @@
 
 from datetime import date
 
-from src.daily_arxiv.core.config import Category, ScoringConfig
-from src.daily_arxiv.models.paper import Paper
-from src.daily_arxiv.processors.relevance import RelevanceScorer
+from src.arxiv_digest.core.config import Category, ScoringConfig
+from src.arxiv_digest.models.paper import Paper
+from src.arxiv_digest.processors.relevance import RelevanceScorer
 
 
 def _paper(title: str, abstract: str = "") -> Paper:

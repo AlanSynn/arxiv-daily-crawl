@@ -15,16 +15,10 @@
 #   priority          - tie-breaker for display ordering (higher = earlier).
 # =============================================================================
 
-base_url: "https://huggingface.co/api/papers/"   # code-link lookup (replaces dead PWC API)
-user_name: "AlanSynn"
-repo_name: "daily-arxiv"
 show_authors: True
 show_links: True
 show_badge: True
 max_results: 40
-
-publish_readme: False  # Don't modify root README.md
-publish_gitpage: False  # Don't publish to docs/ (use logs/ instead)
 
 # file paths - all outputs go to logs directory
 json_readme_path: './logs/daily-arxiv.json'

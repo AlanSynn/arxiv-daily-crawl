@@ -1,0 +1,1 @@
+"""Paper archiving functionality for arxiv-digest."""

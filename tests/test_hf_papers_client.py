@@ -7,8 +7,8 @@ filter / sort / mapping behavior.
 
 from unittest.mock import patch, MagicMock
 
-from src.daily_arxiv.services.hf_papers_client import HfPapersClient, _extract_links
-from src.daily_arxiv.models.paper import Paper
+from src.arxiv_digest.services.hf_papers_client import HfPapersClient, _extract_links
+from src.arxiv_digest.models.paper import Paper
 
 
 def _hf_item(paper_id, title, upvotes, summary="An abstract.",
@@ -40,7 +40,7 @@ def _mock_response(items, status=200):
     return mock
 
 
-@patch("src.daily_arxiv.services.hf_papers_client.requests.get")
+@patch("src.arxiv_digest.services.hf_papers_client.requests.get")
 def test_hf_fetch_maps_filters_sorts_caps(mock_get):
     """Survivors are: above min_upvotes, sorted desc, capped at top_n."""
     mock_get.return_value = _mock_response([
@@ -63,7 +63,7 @@ def test_hf_fetch_maps_filters_sorts_caps(mock_get):
     assert all(p.upvotes >= 15 for p in papers)
 
 
-@patch("src.daily_arxiv.services.hf_papers_client.requests.get")
+@patch("src.arxiv_digest.services.hf_papers_client.requests.get")
 def test_hf_paper_marked_community_signal_with_fields(mock_get):
     """Mapped Paper carries community-signal fields + built abs_url + code."""
     mock_get.return_value = _mock_response([
@@ -90,7 +90,7 @@ def test_hf_paper_marked_community_signal_with_fields(mock_get):
     assert p.published.isoformat() == "2026-07-20"   # feature date, not arxiv v1
 
 
-@patch("src.daily_arxiv.services.hf_papers_client.requests.get")
+@patch("src.arxiv_digest.services.hf_papers_client.requests.get")
 def test_hf_code_url_falls_back_to_project_page(mock_get):
     """No githubRepo -> a github projectPage is used; non-github page -> None."""
     mock_get.return_value = _mock_response([
@@ -108,7 +108,7 @@ def test_hf_code_url_falls_back_to_project_page(mock_get):
     assert by_key["2607.011"].code_url is None
 
 
-@patch("src.daily_arxiv.services.hf_papers_client.requests.get")
+@patch("src.arxiv_digest.services.hf_papers_client.requests.get")
 def test_hf_malformed_items_skipped_not_fatal(mock_get):
     """Items missing required id/title or with a bad inner shape are skipped."""
     mock_get.return_value = _mock_response([
@@ -125,7 +125,7 @@ def test_hf_malformed_items_skipped_not_fatal(mock_get):
     assert [p.paper_key for p in papers] == ["2607.021"]
 
 
-@patch("src.daily_arxiv.services.hf_papers_client.requests.get")
+@patch("src.arxiv_digest.services.hf_papers_client.requests.get")
 def test_hf_http_error_returns_empty(mock_get):
     """Non-200 -> [] (never raises)."""
     mock_get.return_value = _mock_response([], status=503)
@@ -135,7 +135,7 @@ def test_hf_http_error_returns_empty(mock_get):
     assert papers == []
 
 
-@patch("src.daily_arxiv.services.hf_papers_client.requests.get")
+@patch("src.arxiv_digest.services.hf_papers_client.requests.get")
 def test_hf_request_exception_returns_empty(mock_get):
     """Network failure -> [] (never raises)."""
     import requests
@@ -146,7 +146,7 @@ def test_hf_request_exception_returns_empty(mock_get):
     assert papers == []
 
 
-@patch("src.daily_arxiv.services.hf_papers_client.requests.get")
+@patch("src.arxiv_digest.services.hf_papers_client.requests.get")
 def test_hf_non_list_payload_returns_empty(mock_get):
     """A non-list JSON body (e.g. an error dict) -> []."""
     mock = MagicMock()
@@ -159,7 +159,7 @@ def test_hf_non_list_payload_returns_empty(mock_get):
     assert papers == []
 
 
-@patch("src.daily_arxiv.services.hf_papers_client.requests.get")
+@patch("src.arxiv_digest.services.hf_papers_client.requests.get")
 def test_hf_empty_day_returns_empty(mock_get):
     """A quiet HF day (empty list) -> [] (no top_n padding)."""
     mock_get.return_value = _mock_response([])
@@ -201,7 +201,7 @@ def test_extract_links_repo_wins_over_github_projectpage():
     assert project is None
 
 
-@patch("src.daily_arxiv.services.hf_papers_client.requests.get")
+@patch("src.arxiv_digest.services.hf_papers_client.requests.get")
 def test_hf_project_url_preserved_on_paper(mock_get):
     """A non-github demo page flows through to Paper.project_url."""
     mock_get.return_value = _mock_response([

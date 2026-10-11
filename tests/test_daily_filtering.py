@@ -13,9 +13,9 @@ from unittest.mock import MagicMock
 import arxiv
 import pytest
 
-from src.daily_arxiv.core.config import Category, RateLimitConfig
-from src.daily_arxiv.models.paper import Paper
-from src.daily_arxiv.services.arxiv_client import (
+from src.arxiv_digest.core.config import Category, RateLimitConfig
+from src.arxiv_digest.models.paper import Paper
+from src.arxiv_digest.services.arxiv_client import (
     ArXivClient,
     filter_recent_day,
     make_client,

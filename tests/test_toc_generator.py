@@ -2,9 +2,9 @@
 
 from datetime import date
 
-from src.daily_arxiv.models.paper import Paper
-from src.daily_arxiv.processors.content_generator import ContentGenerator
-from src.daily_arxiv.processors.toc_generator import (
+from src.arxiv_digest.models.paper import Paper
+from src.arxiv_digest.processors.content_generator import ContentGenerator
+from src.arxiv_digest.processors.toc_generator import (
     generate_paper_list,
     generate_toc,
 )

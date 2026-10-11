@@ -1,1 +1,0 @@
-"""Paper archiving functionality for daily-arxiv."""

@@ -90,7 +90,6 @@ jobs:
       - name: Set Up Environment
         run: |
           mkdir -p logs/json logs/md logs/archive # Ensure log directories exist
-          if [ -f scripts/setup_logs.sh ]; then bash scripts/setup_logs.sh; fi
 
       - name: Run Archive Script
         env:
@@ -98,7 +97,7 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
         run: |
-          uv run python -m src.daily_arxiv.archive
+          uv run python -m src.arxiv_digest.archive
 
       - name: Ensure on results branch
         run: |

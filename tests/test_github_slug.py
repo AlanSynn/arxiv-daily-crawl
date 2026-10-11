@@ -1,6 +1,6 @@
 """Tests for the GitHub-style heading anchor slug (``github_slug``)."""
 
-from src.daily_arxiv.utils.date_utils import github_slug
+from src.arxiv_digest.utils.date_utils import github_slug
 
 
 def test_slug_required_examples():
