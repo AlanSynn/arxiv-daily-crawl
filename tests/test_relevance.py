@@ -91,6 +91,45 @@ def test_exclude_penalty_partially_reduces_score():
     assert set(hits) == {"animation", "rigging"}
 
 
+def test_exclude_word_boundary_does_not_fire_on_superstring():
+    # "sport" must not match inside "transport" / "transportation".
+    scorer = RelevanceScorer(ScoringConfig(exclude_penalty=1.0))
+    p = _paper(
+        "Character animation",
+        "we use a transportation dataset for animation",
+    )
+    score, _ = scorer.score(
+        p,
+        _category(includes=["character animation"], excludes=["sport"]),
+    )
+    assert abs(score - (2.0 / 3.0)) < 1e-9  # no penalty applied
+
+
+def test_exclude_word_boundary_still_fires_on_whole_word():
+    # Exact-word hits are still penalized. Boundary matching is exact-word:
+    # plural/variant forms need their own exclude keyword ("sport" != "sports").
+    scorer = RelevanceScorer(ScoringConfig(exclude_penalty=1.0))
+    p = _paper("Character animation", "we evaluate on sport analytics")
+    score, _ = scorer.score(
+        p,
+        _category(includes=["character animation"], excludes=["sport"]),
+    )
+    assert score == 0.0  # whole-word hit still penalized
+
+
+def test_exclude_word_boundary_matches_phrase_edges():
+    # Plural / hyphenated forms around the boundary behave sanely: the exact
+    # word matches, and a hyphen-joined variant (word char vs '-') matches too.
+    scorer = RelevanceScorer(ScoringConfig(exclude_penalty=1.0))
+    cat = _category(includes=["animation"], excludes=["motion planning"])
+    hit = _paper("Animation", "we study motion planning for characters")
+    miss = _paper("Animation", "we study motion planning-adjacent work")
+    score_hit, _ = scorer.score(hit, cat)
+    score_miss, _ = scorer.score(miss, cat)
+    assert score_hit == 0.0
+    assert score_miss == 0.0  # "planning-adjacent": \b sits at the hyphen
+
+
 def test_score_clamped_to_one():
     scorer = RelevanceScorer(ScoringConfig())
     p = _paper("animation rigging skeletal", "lots of animation here")

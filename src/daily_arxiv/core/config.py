@@ -283,7 +283,9 @@ def load_config(config_file: str) -> Dict[str, Any]:
             email_settings["smtp_password"] = os.environ.get("SMTP_PASSWORD", "")
 
     if "${EMAIL_RECIPIENT}" in config.get("email_recipient", ""):
-        config["email_recipient"] = os.environ.get("EMAIL_RECIPIENT", "alansynn@gatech.edu")
+        # No personal fallback: a missing EMAIL_RECIPIENT must disable sending
+        # (the send step warns and returns False), never mail a hardcoded address.
+        config["email_recipient"] = os.environ.get("EMAIL_RECIPIENT", "")
 
     if "log_dir" not in config:
         config["log_dir"] = "./logs"

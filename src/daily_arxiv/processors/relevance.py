@@ -9,6 +9,7 @@ is ~0.33 and a single title hit ~0.67 with the default config.
 
 from __future__ import annotations
 
+import re
 from typing import List, Tuple
 
 from ..core.config import Category, ScoringConfig
@@ -22,6 +23,18 @@ def _strip_prefix(keyword: str) -> str:
     if keyword.startswith("abs:"):
         return keyword[4:]
     return keyword
+
+
+def _phrase_in_text(phrase: str, text: str) -> bool:
+    """Whole-word containment test (word-boundary anchored).
+
+    Used for exclude matching: a bare substring test makes ``sport`` fire on
+    ``transport``/``transportation`` (common in robotics abstracts) and zero
+    out on-topic papers. ``\\b`` anchors the phrase at word edges.
+    """
+    if not phrase:
+        return False
+    return re.search(rf"\b{re.escape(phrase)}\b", text) is not None
 
 
 class RelevanceScorer:
@@ -61,8 +74,9 @@ class RelevanceScorer:
         score = raw / denom if denom > 0 else 0.0
 
         # Exclude penalty: any exclude hit subtracts exclude_penalty (floor 0).
+        # Word-boundary matched so ``sport`` does not fire on ``transport``.
         exclude_hit = any(
-            _strip_prefix(k).strip().lower() in text_lower
+            _phrase_in_text(_strip_prefix(k).strip().lower(), text_lower)
             for k in category.exclude_keywords
             if k and k.strip()
         )

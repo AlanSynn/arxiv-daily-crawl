@@ -311,21 +311,27 @@ class DailyArxivApp:
         date_str = paper_date.strftime("%Y-%m-%d") if paper_date else None
 
         dated_paths = get_dated_file_paths(self.config, date_str)
+        # Merge, never replace: the dated filename is keyed on the newest
+        # PAPER date, not the run date, so weekend runs (newest day stalls)
+        # re-hit an existing file — and a partial fetch (mid-pagination
+        # error) must never truncate a complete snapshot into a subset.
+        # update_json_file creates the file when missing and merges
+        # (paper_key upsert) when it exists.
         self.file_manager.update_json_file(
-            dated_paths['json_path'], [data], create_new=True
+            dated_paths['json_path'], [data]
         )
         self.content_generator.json_to_md(
             dated_paths['json_path'], dated_paths['md_path'],
-            task="Generate daily log", create_new=True, toc_block=toc_block,
+            task="Generate daily log", toc_block=toc_block,
         )
 
         # Web log files.
         self.file_manager.update_json_file(
-            dated_paths['json_web_path'], [data_web], create_new=True
+            dated_paths['json_web_path'], [data_web]
         )
         self.content_generator.json_to_md(
             dated_paths['json_web_path'], dated_paths['md_web_path'],
-            task="Generate daily web log", create_new=True, to_web=True,
+            task="Generate daily web log", to_web=True,
         )
 
     @staticmethod

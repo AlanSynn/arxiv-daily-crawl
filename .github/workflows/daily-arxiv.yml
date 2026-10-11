@@ -19,9 +19,10 @@ on:
 #     branches:
 #     - main
 
+permissions:
+  contents: write
+
 env:
-  GITHUB_USER_NAME: AlanSynn
-  GITHUB_USER_EMAIL: alan@alansynn.com
   SMTP_USER: ${{ secrets.SMTP_USER }}
   SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
   EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
@@ -33,6 +34,9 @@ jobs:
     name: update
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    # Bounded runtime: a hung SMTP/API connection must not burn the 6h default
+    # (a job killed at the limit dies BEFORE the commit/push steps -> state loss).
+    timeout-minutes: 25
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:

@@ -167,10 +167,34 @@ def test_file_manager_json_operations():
         
         # Test creating new file
         result = manager.update_json_file(json_file, test_data, create_new=True)
-        
+
         assert os.path.exists(json_file)
         assert 'Test Category' in result
         assert result['Test Category']['paper1'] == 'content1'
+
+
+def test_file_manager_dated_update_merges_never_replaces():
+    """Regression: dated snapshots must merge, not be replaced (bug N2).
+
+    The dated snapshot filename is keyed on the newest PAPER date, so a
+    weekend run (no new papers) or a partial fetch re-writes the same file.
+    Replacing it would truncate a complete snapshot into the new subset;
+    merging preserves previously-persisted rows.
+    """
+    with tempfile.TemporaryDirectory() as tmpdir:
+        manager = FileManager()
+        json_file = os.path.join(tmpdir, 'daily_2025-06-13.json')
+
+        full = [{'Cat': {'p1': 'row1', 'p2': 'row2'}}]
+        partial = [{'Cat': {'p2': 'row2-new'}}]
+
+        manager.update_json_file(json_file, full)
+        result = manager.update_json_file(json_file, partial)
+
+        # The partial fetch must not drop the pre-existing p1 row...
+        assert result['Cat']['p1'] == 'row1'
+        # ...and must refresh the row it does carry.
+        assert result['Cat']['p2'] == 'row2-new'
 
 
 def test_render_email_basic():

@@ -1,6 +1,6 @@
 # Daily arXiv
 
-[![MIT License][license-shield]][license-url]
+[![License][license-shield]][license-url]
 [![Python 3.11+][python-shield]][python-url]
 
 > **Automated daily arXiv paper aggregator**
@@ -191,7 +191,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the Apache License 2.0. See `LICENSE` and `NOTICE` for more information.
 
 ## 👤 Author
 
@@ -207,7 +207,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - The research community for continuously pushing the boundaries of knowledge
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[license-shield]: https://img.shields.io/github/license/AlanSynn/daily-arxiv.svg?style=for-the-badge
-[license-url]: https://github.com/AlanSynn/daily-arxiv/blob/main/LICENSE
+[license-shield]: https://img.shields.io/github/license/AlanSynn/arxiv-daily-crawl.svg?style=for-the-badge
+[license-url]: https://github.com/AlanSynn/arxiv-daily-crawl/blob/main/LICENSE
 [python-shield]: https://img.shields.io/badge/python-3.11+-blue.svg?style=for-the-badge
 [python-url]: https://www.python.org/downloads/

@@ -320,8 +320,12 @@ class EmailService:
     def _send_via_smtp(self, msg: MIMEMultipart, email_to: str) -> bool:
         """Send email via SMTP server."""
         try:
+            # timeout=30: a stalled SMTP connection must not hang the run for
+            # the CI job limit (a job killed at the limit dies before the
+            # state-commit steps, losing that day's dedup state).
             with smtplib.SMTP(self.email_settings['smtp_server'],
-                              self.email_settings.get('smtp_port', 587)) as server:
+                              self.email_settings.get('smtp_port', 587),
+                              timeout=30) as server:
                 server.ehlo()
                 server.starttls()
                 server.login(self.email_settings['smtp_user'],

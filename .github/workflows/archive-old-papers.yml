@@ -5,9 +5,10 @@ on:
   schedule:
     - cron: "0 12 1 * *"  # Run at 8:00 AM EDT (12:00 UTC) on the 1st of each month
 
+permissions:
+  contents: write
+
 env:
-  GITHUB_USER_NAME: AlanSynn
-  GITHUB_USER_EMAIL: alan@alansynn.com
   SMTP_USER: ${{ secrets.SMTP_USER }}
   SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
   EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
@@ -15,6 +16,7 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -104,8 +106,13 @@ jobs:
 
       - name: Commit files to results branch
         run: |
-          # Add only the logs directory to results branch
-          git add logs/ || echo "No logs to add"
+          # Force-add logs/: .gitignore excludes logs/ (kept off main), so a
+          # plain `git add logs/` silently skips NEW untracked files — e.g. the
+          # fresh logs/archive/archive_YYYYMM.* this run just created — while
+          # still committing the deletions from logs/daily-arxiv.json. That is
+          # the same failure class that stopped daily snapshots persisting
+          # after 2025-06-18 (the daily workflow uses -f for the same reason).
+          git add -f logs/
           git commit -m "Archive old papers (monthly) - $(date +'%Y-%m-%d')" || echo "No changes to commit"
 
       - name: Push to results branch

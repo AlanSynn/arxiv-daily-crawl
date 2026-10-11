@@ -11,9 +11,10 @@ on:
   # schedule:
   #   - cron: "0 12 * * 1"  # Run every Monday at 8:00 AM EDT (12:00 UTC)
 
+permissions:
+  contents: write
+
 env:
-  GITHUB_USER_NAME: AlanSynn
-  GITHUB_USER_EMAIL: alan@alansynn.com
   SMTP_USER: ${{ secrets.SMTP_USER }}
   SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
   EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
@@ -25,6 +26,7 @@ jobs:
     name: update
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    timeout-minutes: 25
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -115,8 +117,10 @@ jobs:
 
       - name: Commit files to results branch
         run: |
-          # Add only the logs directory to results branch
-          git add logs/ || echo "No logs to add"
+          # Force-add logs/: .gitignore excludes logs/, so a plain add silently
+          # skips new untracked files (same failure class as the 2025-06-18
+          # snapshot-persistence incident).
+          git add -f logs/
           git commit -m "Update paper links weekly - $(date +'%Y-%m-%d')" || echo "No changes to commit"
 
       - name: Push to results branch
