@@ -27,11 +27,8 @@ def parse_date(date_str):
     try:
         return datetime.datetime.strptime(date_str, "%Y-%m-%d").date()
     except ValueError:
-        try:
-            return datetime.datetime.strptime(date_str, "%Y-%m-%d").date()
-        except ValueError:
-            logging.error(f"Failed to parse date: {date_str}")
-            return None
+        logging.error(f"Failed to parse date: {date_str}")
+        return None
 
 def parse_paper_entry(paper_entry):
     """Parse a paper entry from the JSON data.
