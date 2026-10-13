@@ -3,22 +3,22 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.10.12
+## 📚 Updated on 2026.10.13
 
 <details open>
-<summary>📑 Table of Contents — 2026-10-12</summary>
+<summary>📑 Table of Contents — 2026-10-13</summary>
 
 **By category**
 - [Motion Authoring, Editing & Retargeting](#motion-authoring-editing--retargeting) (1)
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (35)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (30)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (30)
 - [World Models & Generative Video](#world-models--generative-video) (38)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (5)
 - [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (11)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (32)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (31)
-- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (11)
-- [Narrative & Long-form Audio](#narrative--long-form-audio) (4)
+- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (10)
+- [Narrative & Long-form Audio](#narrative--long-form-audio) (3)
 
 </details>
 
@@ -172,7 +172,7 @@
 |**2026-10-09**|**QCLR: A Plug-in Robustification Module via Quantization for Contrastive Learning in Self-Supervised Skeleton-Based Human Action Recognition**|Nanzhu Chen et.al.|[@2610.13281](http://arxiv.org/abs/2610.13281)|null|
 |**2026-10-08**|**PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting**|Nicholas Ioannidis et.al.|[@2610.12642](http://arxiv.org/abs/2610.12642)|null|
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -202,7 +202,7 @@
 |**2026-10-07**|**Simulation Methods for Multiphysics Phenomena in Visual Computing**|Fabian Löschner et.al.|[@2610.09822](http://arxiv.org/abs/2610.09822)|null|
 |**2026-10-06**|**Physics-based Sphere Packing for Lagrangian Mesh Morphing**|Jiong Lin et.al.|[@2610.08880](http://arxiv.org/abs/2610.08880)|null|
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -259,7 +259,7 @@
 |**2026-10-09**|**From Instructional Intent to Classroom-Ready Lessons: Investigating Teacher-AI Collaboration in Lesson Authoring for Secondary Computing Education**|Tahreem Yasir et.al.|[@2610.12834](http://arxiv.org/abs/2610.12834)|null|
 |**2026-10-08**|**Generative AI Steering and Human Authoring: Complementary Search-as-Learning Scaffolds in Cross-Session Aggregated Academic Search**|Milad Momeni et.al.|[@2610.12755](http://arxiv.org/abs/2610.12755)|null|
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -1833,7 +1833,7 @@
 |**2026-10-09**|**GeoGR: Spatial-Semantic Token Compression and Group Routing for Efficient 3D VLMs**|Yongxin Zheng et.al.|[@2610.13035](http://arxiv.org/abs/2610.13035)|null|
 |**2026-10-09**|**CeDR-Nav: Cross-Embodiment Mapless Navigation via Offline Demonstration Recasting**|Xianghui Wang et.al.|[@2610.13007](http://arxiv.org/abs/2610.13007)|null|
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -2682,7 +2682,7 @@
 |**2026-10-08**|**DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models**|Zhenglin Wan et.al.|[@2610.12572](http://arxiv.org/abs/2610.12572)|null|
 |**2026-10-08**|**CASTER: Formalizing Zero-Shot Manipulation from Synthetic Videos as Constrained Optimization**|Yinlong Dai et.al.|[@2610.12567](http://arxiv.org/abs/2610.12567)|null|
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -3186,7 +3186,7 @@
 |**2026-10-09**|**Measurable Semantic 3D Gaussian Splatting with Joint Region and Depth Supervision for Interactive Building Inspection**|Yi Zhang et.al.|[@2610.13143](http://arxiv.org/abs/2610.13143)|null|
 |**2026-10-08**|**Domain Adaptation of SAM 2.1 for Building-Component Segmentation in Image-Based 3D Reconstruction**|Ehsan Agha Ebrahimi et.al.|[@2610.12786](http://arxiv.org/abs/2610.12786)|null|
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -3557,7 +3557,7 @@
 |**2026-10-09**|**Human2Dex: Dexterous Robot Learning from Wrist-Centric Human Demonstrations**|Jiachen Zhang et.al.|[@2610.13119](http://arxiv.org/abs/2610.13119)|null|
 |**2026-10-09**|**TAME-Nav: Temporal Asymmetric Mixture-of-Experts Distillation for Agile and Versatile Robot Navigation**|Lingjie Zhang et.al.|[@2610.12877](http://arxiv.org/abs/2610.12877)|null|
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -3600,7 +3600,7 @@
 |**2026-09-30**|**PLACE: Positional Latent Adaptation via Conditioned Embeddings for Binaural Audio Generation**|Tiernon Riesenmy et.al.|[@2610.00630](http://arxiv.org/abs/2610.00630)|null|
 |**2026-10-07**|**AutoSynth: Learning to Generate Editable Synthesizer Programs from Audio and Text**|Tristan Wu et.al.|[@2610.10774](http://arxiv.org/abs/2610.10774)|null|
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -3683,7 +3683,7 @@
 |**2026-10-08**|**IntrinSync: Joint Intrinsic Decomposition and Reciprocal Rendering**|Zheng Gu et.al.|[@2610.11138](http://arxiv.org/abs/2610.11138)|null|
 |**2026-10-07**|**Sensitivity as an Arbitrary Output Variable for Differentiable Rendering**|Linas Beresna et.al.|[@2610.10852](http://arxiv.org/abs/2610.10852)|null|
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -3699,7 +3699,7 @@
 |**2026-09-25**|**ReFM: Semantic-Aware Refinement Flow Model for Motion Retargeting**|Jingxiang Qu et.al.|[@2609.32068](http://arxiv.org/abs/2609.32068)|null|
 |**2026-10-08**|**PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting**|Nicholas Ioannidis et.al.|[@2610.12642](http://arxiv.org/abs/2610.12642)|null|
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors

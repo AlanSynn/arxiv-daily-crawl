@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.10.12
+## 📚 Updated on 2026.10.13
 
 <details>
   <summary>Table of Contents</summary>
@@ -26,7 +26,7 @@
 - 2026-10-08, **PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting**, Nicholas Ioannidis et.al., Paper: [@2610.12642](http://arxiv.org/abs/2610.12642)
 > **Abstract:** Motion retargeting is a critical preprocessing step for transferring human motion data to humanoid robots. While existing methods are effective for single-character motions, interactions involving multiple characters and objects introduce additional contacts and spatial relationships that must be preserved. Retargeting is commonly formulated as a weighted multi-objective optimization problem, where conflicting objectives can require careful tuning of relative weights and can still compromise important motion characteristics. We introduce PriMoRetarget, a prioritized motion-retargeting framework that replaces relative objective weighting with an explicit priority hierarchy. Lower-priority updates are constrained to preserve higher-priority objectives, allowing critical characteristics such as foot placement and interaction contacts to take precedence over lower-priority pose objectives. The method is evaluated on four datasets spanning single-character motion, character-object manipulation, and character-character interactions. The resulting motions better preserve task-relevant interactions and provide reference trajectories that can be tracked more reliably than those produced by widely used retargeting methods.
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Character Motion Synthesis & Animation
 
@@ -101,7 +101,7 @@
 - 2026-09-28, **Triangular Resampling for Long-Horizon Motion Generation**, Kunhang Li et.al., Paper: [@2609.34697](http://arxiv.org/abs/2609.34697)
 > **Abstract:** We introduce Triangular Resampling (TR), a post-training method for mitigating long-horizon error accumulation in motion diffusion models. Built on FloodDiffusion's triangular denoising schedule, TR addresses the mismatch between ground-truth-derived training windows and model-generated inference states. Replacing only completed motion history leaves this mismatch unresolved in partially denoised states within the active window. TR therefore extends rollout-based training to these states, using ground-truth clamping to limit excessive drift. For each replayed sample, TR draws one denoising threshold, shared across latent positions and replay updates, and replays multi-step triangular denoising without gradient tracking. After each update, states below the threshold are replaced with noise-matched ground truth, while those at or above it retain model predictions. The resulting latent window enters the standard training update. This rollout construction supports both supervised training (TR) and distribution matching (TR-DMD). On 120-second motion generation from HumanML3D test prompts, TR and TR-DMD achieve state-of-the-art FID AUC within their respective non-DMD and DMD comparison groups. Supervised TR reduces FID AUC by 40.9% and FID degradation slope by 55.3% relative to matched post-training without replay.
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -166,7 +166,7 @@
 - 2026-10-09, **CeDR-Nav: Cross-Embodiment Mapless Navigation via Offline Demonstration Recasting**, Xianghui Wang et.al., Paper: [@2610.13007](http://arxiv.org/abs/2610.13007)
 > **Abstract:** Learning-based methods have demonstrated strong performance in mapless robot navigation. However, a learned policy remains restricted to the embodiment on which it was trained. Many cross-embodiment navigation methods require time-consuming online training and can still underperform target-specific policies. In fact, demonstrations collected on a source embodiment already contain navigation experience that is potentially reusable for deriving a policy for each target embodiment, but the embodiment mismatch prevents these demonstrations from directly serving as valid supervision for the target. In this article, we present CeDR-Nav, a cross-embodiment demonstration recasting framework that trains a dedicated navigation policy for each target embodiment from existing source demonstrations without online data collection. Geometry-consistent scaling with per-demonstration validity assessment converts the source demonstrations into target training data, and a target-specific Gaussian mixture policy generates feasible avoidance maneuvers for each target embodiment. Extensive quantitative simulations and real-world deployments across multiple robot platforms demonstrate the effectiveness of CeDR-Nav, with an average success-rate gain of 13.8 percentage points over DRL-DCLP in cross-embodiment simulations and target-specific policy training completed within seconds.
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -247,7 +247,7 @@
 - 2026-10-08, **Connected Self Forcing: Beyond Local Learning in Video Autoregression**, Dongbin Zhang et.al., Paper: [@2610.12156](http://arxiv.org/abs/2610.12156)
 > **Abstract:** To stream long videos while maintaining visual quality and temporal consistency, Self Forcing mitigates exposure bias through self-rollout training on self-generated histories with key-value (KV) caching. To keep memory manageable, it detaches historical caches, preserving forward dependencies between chunks but severing the backward gradient paths. We introduce Connected Self Forcing, a training framework that reconnects gradient paths across autoregressive chunks, allowing feedback from later predictions to guide how earlier context is generated. These connections go beyond historical KV-writing: gradients pass through generated latents into the computations that produced them, linking the generation of earlier context to its use in later predictions. To make this connected training memory-efficient, we develop shortcut gradient replay, which recovers cross-chunk gradients without retaining the full rollout computation graph. Integrated with distribution matching distillation, Connected Self Forcing trains historical chunks according to both their direct supervision and their contribution to subsequent generation. Experiments on autoregressive video generation show improvements in long-horizon visual quality and temporal consistency, without changing the inference procedure.
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -262,7 +262,7 @@
 - 2026-10-01, **ShowerFlex: Achieving Pseudo-Static Balancing in a Continuum Shower Hose**, Zhiyu Ren et.al., Paper: [@2610.00936](http://arxiv.org/abs/2610.00936)
 > **Abstract:** With the global population rapidly aging, maintaining independence in Activities of Daily Living (ADLs), particularly bathing or showering, has become a critical challenge. Older adults who sit while showering currently have limited options, often relying on rigid overhead showerheads or flexible hand-held hoses that require continuous gripping and precarious user maneuvers, increasing the risk of falls. To address this need, this paper introduces a highly articulated, pseudo-static balanced continuum mechanism designed specifically for accessible bathing assistance. The proposed mechanism features a modular continuum architecture composed of friction-locked ball-and-socket joints (loc-line), seamlessly integrated with a retractable spring-loaded reel for effective gravity compensation. This hybrid design achieves an intuitive "Push-and-Stay" interaction logic, maintaining an approximate static equilibrium with ergonomically low actuation force, without any external electronic power, while significantly minimizing the force needed for repositioning. Theoretically, we established a recursive forward kinematics framework to construct the geometric model of the structure, coupled with a comprehensive static equilibrium analysis to evaluate the system's holding capacity across its 51-DOF structure. Numerical simulations utilizing Monte Carlo methods validate the system's morphological adaptability and stability at various extreme positions within a standard bath space. Physical experiments further validate the prototype's real-world performance, confirming its intrinsic static stability against gravity and ensuring that the actuation force remains well within the ergonomic capabilities of older adults. Ultimately, this research provides a low-cost, intrinsically safe showerhead design that reduces physical strain, restoring dignity and autonomy in personal hygiene.
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -289,7 +289,7 @@
 - 2026-09-29, **CommSketch: How Speaking while Sketching Steers Human--AI Design Ideation**, Weiyan Shi et.al., Paper: [@2609.37813](http://arxiv.org/abs/2609.37813)
 > **Abstract:** Designers often speak while sketching when explaining ideas, yet AI design tools often rely on sketches or prompts, overlooking context expressed as ideas develop. We developed a sketch-based AI design interface that jointly interprets sketches and concurrent speech. Through a between-subjects study ($N=24$), we examined how speaking while sketching steers human--AI design ideation compared with sketches alone. For creativity support, concurrent speech supported natural expression of design intent and efficient visualisation. For human--AI collaboration, speech helped establish a shared understanding of design intent, supported significantly higher perceived alignment ($p<.05$), and enabled participants to guide AI contributions as ideas co-evolved. We discuss how future human--AI design tools could support dynamic alignment, broader multimodal expression, and human--AI co-creativity.
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -358,7 +358,7 @@
 - 2026-10-07, **DeltaSplat: Iterative Gaussian Refinement for Pose-Free Feed-Forward 3D Gaussian Splatting**, Chanung Park et.al., Paper: [@2610.09853](http://arxiv.org/abs/2610.09853)
 > **Abstract:** Pose-free feed-forward 3D Gaussian Splatting (3DGS) reconstructs a scene from sparse, unposed images in a single network pass, removing the need for camera calibration and per-scene optimization. However, camera estimation errors propagate into the predicted Gaussians and compound the geometric and photometric inaccuracies of single-pass prediction. To correct these errors, we introduce DeltaSplat, a lightweight Gaussian refinement module for pose-free feed-forward 3DGS. It iteratively renders the current Gaussians at the input context views and predicts per-Gaussian updates from the resulting residuals. A 2D residual alone, however, underdetermines the 3D correction. DeltaSplat therefore conditions each update on per-pixel Plücker rays and rendered depth as a soft geometric prior. A dual-branch convolutional mixer efficiently encodes these inputs, and per-attribute heads decode the fused features into position, opacity, and color updates. The module adds only ~2.2% parameters to the backbone and remains fully feed-forward at inference. On DL3DV, DeltaSplat reaches 26.64 dB PSNR in the pose-free setting, improving its state-of-the-art backbone by 1.75 dB and surpassing even baselines supplied with ground-truth cameras; consistent gains hold across 6-24 views and all camera regimes.
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -425,7 +425,7 @@
 - 2026-10-05, **MobileVISTA: Generative Data Augmentation for Pose Generalization in Mobile Manipulation**, Suzannah Wistreich et.al., Paper: [@2610.07511](http://arxiv.org/abs/2610.07511)
 > **Abstract:** Mobile manipulators such as humanoid robots are increasingly deployed in dynamic, unstructured environments to perform dexterous manipulation tasks. However, end-to-end manipulation policies trained to imitate demonstration data collected from a single robot pose are brittle: even centimeter-scale deviations in robot pose at deployment can drive ego-centric observations and end-effector trajectories out of the training distribution, leading to sharp drops in performance. We introduce MobileVISTA, a data generation framework that transforms demonstrations captured at canonical poses into diverse, pose-perturbed training data by jointly (1) augmenting egocentric visual observations and (2) retargeting actions to compensate for base pose changes. Unlike prior methods, which assume a camera rigidly mounted off the actuated chain or non-trivial articulated robot geometry largely out of frame, MobileVISTA targets compatibility with egocentric platforms (e.g., humanoids) where the camera is both influenced by and must observe the robot's kinematic chain as it moves. We study MobileVISTA in simulated tasks spanning humanoid and bimanual embodiments, and on a real Galaxea R1 Pro. We find policies trained on MobileVISTA-augmented data demonstrate improved robustness to previously out-of-distribution poses encountered at test time, without additional demonstration collection or a trained generative model. Additionally, we find MobileVISTA's benefit is largest on tested humanoids, where the camera rides the actuated chain and the robot fills much of the frame. Additional videos and appendix can be found on our website: https://mobilevista.github.io
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -452,7 +452,7 @@
 - 2026-09-28, **SurgGMF: Fully Causal Gaussian Motion Forecasting for Anticipatory Surgical Scene Rendering**, Jingqian Sun et.al., Paper: [@2609.34733](http://arxiv.org/abs/2609.34733)
 > **Abstract:** Dynamic surgical scene modeling is essential for robotic perception, simulation, and decision support. Although existing neural rendering methods enable efficient reconstruction and rendering of deformable surgical scenes, they remain primarily focused on observed-frame reconstruction rather than forecasting future scene states. To this end, we present SurgGMF, a fully causal Gaussian motion forecasting framework for anticipatory surgical scene rendering. Rather than predicting future RGB images directly, SurgGMF forecasts future Gaussian motion states represented by position, scale, and rotation residuals (X/S/R) from historical Gaussian motion fields. To prevent target leakage, we introduce a full-causal-last rendering protocol, where future Gaussian states are rendered without accessing target-frame Gaussian attributes while preserving causal appearance propagation. We evaluate SurgGMF on 12 EndoNeRF and StereoMIS video slices using neural temporal learners and classical dynamics baselines under a unified forecasting protocol. Learned Gaussian motion forecasting consistently outperforms classical dynamics baselines in render space, demonstrating gains beyond hand-crafted state extrapolation. Latency analysis further reveals an accuracy--efficiency trade-off: under the current implementations, TKAN achieves the highest accuracy, whereas GRU and LSTM provide more favorable module-level latency profiles. These results establish SurgGMF as a reproducible framework for causal Gaussian motion forecasting and advance surgical Gaussian representations from retrospective reconstruction toward predictive scene modeling.
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -465,7 +465,7 @@
 - 2026-09-28, **Enabling Immersive Audio-Visual Experience from Any Video**, Zitong Lan et.al., Paper: [@2609.36295](http://arxiv.org/abs/2609.36295)
 > **Abstract:** Most videos capture only a narrow field of view and provide no spatial audio, limiting the sense of immersion they can provide. Recent video generation models can expand perspective videos into panoramic ones, but do not provide the corresponding spatial soundscape. Without spatially consistent audio, these expanded visual worlds remain incomplete. This paper presents OmniDream, a training-free framework that transforms a silent monocular video into an immersive audiovisual experience, where viewers can freely look around while sounds remain spatially aligned with the visual scene. At the core of OmniDream is an object-centric audio representation that disentangles each sound source's intrinsic audio content from its scene-dependent acoustic effects, enabling independent audio generation, physics-based simulation of propagation effects, and flexible spatial audio rendering. Experiments show improved audio-visual alignment, spatial correctness, and perceptual immersiveness over baselines. Examples are available on https://huggingface.co/spaces/CuriousAlien000/spatial-audio-360-demo
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors

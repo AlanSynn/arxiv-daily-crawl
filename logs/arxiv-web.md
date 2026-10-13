@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.10.12
+## 📚 Updated on 2026.10.13
 
 <details>
   <summary>Table of Contents</summary>
@@ -310,7 +310,7 @@
 - 2026-10-08, **PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting**, Nicholas Ioannidis et.al., Paper: [@2610.12642](http://arxiv.org/abs/2610.12642)
 > **Abstract:** Motion retargeting is a critical preprocessing step for transferring human motion data to humanoid robots. While existing methods are effective for single-character motions, interactions involving multiple characters and objects introduce additional contacts and spatial relationships that must be preserved. Retargeting is commonly formulated as a weighted multi-objective optimization problem, where conflicting objectives can require careful tuning of relative weights and can still compromise important motion characteristics. We introduce PriMoRetarget, a prioritized motion-retargeting framework that replaces relative objective weighting with an explicit priority hierarchy. Lower-priority updates are constrained to preserve higher-priority objectives, allowing critical characteristics such as foot placement and interaction contacts to take precedence over lower-priority pose objectives. The method is evaluated on four datasets spanning single-character motion, character-object manipulation, and character-character interactions. The resulting motions better preserve task-relevant interactions and provide reference trajectories that can be tracked more reliably than those produced by widely used retargeting methods.
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -361,7 +361,7 @@
 - 2026-10-06, **Physics-based Sphere Packing for Lagrangian Mesh Morphing**, Jiong Lin et.al., Paper: [@2610.08880](http://arxiv.org/abs/2610.08880)
 > **Abstract:** This paper studies tetrahedral meshes as the body representation for differentiable simulation and computational design. Fixed-connectivity meshes degrade under large morphs, while remeshing from scratch discards node correspondence. We present JamTet, a physics-based sphere-packing framework for volumetric meshing and morphing. We contribute (i) a GPU-parallel mesher combining octree-hierarchical packing with constrained Delaunay tetrahedralization, producing more uniform element volumes than TetGen and fTetWild; (ii) Lagrangian mesh morphing that preserves interior-node identities by re-equilibrating the same spheres within changing shapes and rebuilding the boundary and connectivity, remaining inversion-free where fixed-connectivity and TetSphere meshes invert; and (iii) a differentiable GPU simulator in JAX, with mass-spring edges and a volumetric Neo-Hookean term, integrated with mesh morphing in a design pipeline. In soft-robot morphology design experiments, interior-node gradients improve swimming fitness by 0.73-1.07 over a matched surface-only variant, while voxelized versions of the same designs yield 32-63% lower fitness. These results establish sphere packing as a practical volumetric mesh representation for gradient-based shape optimization. Code and media: under review.
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -466,7 +466,7 @@
 - 2026-10-08, **Generative AI Steering and Human Authoring: Complementary Search-as-Learning Scaffolds in Cross-Session Aggregated Academic Search**, Milad Momeni et.al., Paper: [@2610.12755](http://arxiv.org/abs/2610.12755)
 > **Abstract:** Aggregated academic search interfaces combine resources from heterogeneous sources, such as scholarly libraries and reference encyclopedias, into a single workspace. Such tasks frequently span multiple sessions, requiring learners to return to and resume work after hours or days. End-of-session consolidation, the activity of organizing and synthesizing gathered information so it can be resumed later, is important in this setting but underexplored in search-as-learning. Generative AI (GenAI) has the potential to make consolidation more efficient, but it may also shift cognitive work away from the learner. This study compares two consolidation scaffolds embedded in the workspace framework of an existing academic search interface that aggregates and clusters saved search results from two different sources (our university library and Wikipedia), which was developed in earlier work. STAIS (Steerable AI Summaries) provides a workspace enhancement that produces GenAI summaries that users can correct, reorganize, and fact-check, automating parts of the consolidation activity. NT (Note-Taking) provides a workspace enhancement that includes rich-text note editors that learners can use to author their own consolidations of what they have found. In a controlled between-subjects study (n=36), participants completed two sessions one week apart while searching an unfamiliar topic using either STAIS or NT. The two conditions produced contrasting post-resumption outcome profiles: STAIS supported faster task resumption and was associated with broader conceptual coverage and higher self-reported domain knowledge, whereas NT was associated with richer inter-concept connections and higher self-reported certainty.
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -3605,7 +3605,7 @@
 - 2026-10-09, **CeDR-Nav: Cross-Embodiment Mapless Navigation via Offline Demonstration Recasting**, Xianghui Wang et.al., Paper: [@2610.13007](http://arxiv.org/abs/2610.13007)
 > **Abstract:** Learning-based methods have demonstrated strong performance in mapless robot navigation. However, a learned policy remains restricted to the embodiment on which it was trained. Many cross-embodiment navigation methods require time-consuming online training and can still underperform target-specific policies. In fact, demonstrations collected on a source embodiment already contain navigation experience that is potentially reusable for deriving a policy for each target embodiment, but the embodiment mismatch prevents these demonstrations from directly serving as valid supervision for the target. In this article, we present CeDR-Nav, a cross-embodiment demonstration recasting framework that trains a dedicated navigation policy for each target embodiment from existing source demonstrations without online data collection. Geometry-consistent scaling with per-demonstration validity assessment converts the source demonstrations into target training data, and a target-specific Gaussian mixture policy generates feasible avoidance maneuvers for each target embodiment. Extensive quantitative simulations and real-world deployments across multiple robot platforms demonstrate the effectiveness of CeDR-Nav, with an average success-rate gain of 13.8 percentage points over DRL-DCLP in cross-embodiment simulations and target-specific policy training completed within seconds.
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -5294,7 +5294,7 @@
 - 2026-10-08, **CASTER: Formalizing Zero-Shot Manipulation from Synthetic Videos as Constrained Optimization**, Yinlong Dai et.al., Paper: [@2610.12567](http://arxiv.org/abs/2610.12567)
 > **Abstract:** Prior research on learning from humans often requires real human demonstrations. But advances in video generation models offer a new paradigm: we can now prompt these generators to make synthetic videos of the task. On the plus side, these synthetic videos take place in the robot's current environment, and do not require actual human teaching. However, while the generated videos appear to show plausible motions, they lack both physical consistency and robot grounding, and thus the robot cannot directly roll out the trajectory shown by the video. In this paper we seek to formalize the process of going from synthetic video generation to real-world robot trajectories for zero-shot manipulation tasks. We recognize that this problem is an instance of constrained optimization. The object trajectories extracted from the synthetic video provide an initial guess at the correct motion, and the robot must refine these trajectories (for instance, within a digital twin) while enforcing physical feasibility and semantic consistency. Our optimization-based formalism provides insights into the video generation properties necessary for success. Specifically, we show that the video generation must probabilistically seed the search within a semantic basin of attraction where the trajectory can be locally modified without losing its task alignment. Our analysis further reveals that state-of-the-art approaches can be viewed as instances of our unified formalism with key simplifications. In our experiments we remove these simplifications to more closely match the underlying optimization, leading to more robust zero-shot trajectories from synthetic videos and improving average task success by 34.1% compared to the best-performing baseline. See videos at our project website: https://collab.me.vt.edu/CASTER
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -6293,7 +6293,7 @@
 - 2026-10-08, **Domain Adaptation of SAM 2.1 for Building-Component Segmentation in Image-Based 3D Reconstruction**, Ehsan Agha Ebrahimi et.al., Paper: [@2610.12786](http://arxiv.org/abs/2610.12786)
 > **Abstract:** 3D reconstruction of building components using image-based scanning requires appropriate segmentation of the objects in the 2D building images. In order to benefit from consistent grouping of the 2D masks in 3D environments, vision foundation models such as the Segment Anything Model have been utilized by Group Anything with Radiance Fields (GARField) to perform 3D segmentation. This study fine-tuned SAM 2.1 on the HBD dataset, consisting of 2,679 annotated images from 42 buildings, to enhance multi-class segmentation of 2D building images, covering 11 classes (Wall, Window, Ceiling, Door, Column, Beam, Floor, Opening, Curtain Wall, Roof, and Lift). The model was evaluated using per-class IoU, Dice, and mIoU metrics, and the results show an improvement in mIoU from 49.9% to 69.6%, indicating a meaningful improvement in class segmentation and providing a more accurate model for distilling the masks in 3D. SegFormer was then used as a baseline, generating per-class masks for comparison with SAM 2.1, which indicates improvement in some object classes with larger surface area. The masks in the building images were grouped in the neural radiance field, and the pretrained SAM 2.1 was compared with the fine-tuned SAM 2.1 in the newly rendered images. This comparison shows that fine-tuning improves the grouping of building components at a user-selected grouping scale. This advances the application of Group Anything with Radiance Fields (GARField) in 3D, enabling better segmentation of building structures for 3D auto-reconstruction.
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -7026,7 +7026,7 @@
 - 2026-10-09, **TAME-Nav: Temporal Asymmetric Mixture-of-Experts Distillation for Agile and Versatile Robot Navigation**, Lingjie Zhang et.al., Paper: [@2610.12877](http://arxiv.org/abs/2610.12877)
 > **Abstract:** Agile and reliable navigation is a core capability for embodied robots navigating complex spatial constraints and dynamic interactions. However, a single policy often struggles to accommodate the distinct decision-making demands of diverse scenarios. We present TAME-Nav, an asymmetric Teacher-Student navigation framework built around a temporal soft mixture of experts (Soft-MoE). The Teacher combines clean observations with causally maintained dynamic-obstacle tracks to construct privileged representations, while the Student learns complementary navigation features from corrupted observation histories through temporal encoding, soft expert routing, and latent distillation. Procedural scenario generation and parallel task-level simulation broaden training coverage, while deployment-informed asymmetric domain randomization supports sim-to-real transfer. Across in-distribution and unseen compositional scenarios, TAME-Nav achieves higher success rates, lower collision rates, and higher navigation scores than representative baselines. On a real quadruped robot, it completes all twenty trials across local-trap escape and narrow-passage navigation with sudden dynamic obstacles, with only one minor contact.
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -7103,7 +7103,7 @@
 - 2026-10-07, **AutoSynth: Learning to Generate Editable Synthesizer Programs from Audio and Text**, Tristan Wu et.al., Paper: [@2610.10774](http://arxiv.org/abs/2610.10774)
 > **Abstract:** Audio generation models can translate natural-language descriptions into sound, but their outputs are typically waveforms. Their audio quality is constrained by audio compression, and their outputs do not readily support direct edits to notes, timbral parameters, or modulation relationships. We present AutoSynth, which represents MIDI performance events, fixed synthesizer parameters, and variable-length modulation routes as a unified sequence for a synthesizer, and learns their dependencies with an audio-conditioned autoregressive model. A single model supports both tasks. Given reference audio, the model directly predicts a synthesizer program; given text, it uses a pretrained audio generation model and converts the generated audio into a program. Training consists of two stages: supervised learning on large-scale audio-program pairs automatically constructed from a small set of native presets, followed by group-relative policy optimization with a mixed reward combining semantic similarity, pitch-related features, acoustic similarity, and sound usefulness. The pipeline requires neither paired text-target-program annotations nor a differentiable synthesizer. Experiments show that AutoSynth produces complete, editable synthesizer programs and achieves competitive results in both synthesizer inversion and text-driven generation. Audio demos and source code are available at https://auto-synth.github.io/.
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -7260,7 +7260,7 @@
 - 2026-10-07, **Sensitivity as an Arbitrary Output Variable for Differentiable Rendering**, Linas Beresna et.al., Paper: [@2610.10852](http://arxiv.org/abs/2610.10852)
 > **Abstract:** Differentiable renderers expose the derivative of any scalar objective with respect to every scene parameter, yet unlike the primal image, which decades of arbitrary output variables (AOVs) have taught us to decompose, inspect, and composite, these derivatives have no established representation for human inspection. We introduce the sensitivity AOV, a render output carrying the sensitivity of an objective to the scene parameters that influence it. A single reverse-mode pass populates a sensitivity buffer over the scene's parameter hierarchy, from which many views are read rather than re-differentiated, in direct analogy to deferred shading: image-space sensitivity at object and parameter-type granularity, projections onto a freely navigable scene from any inspection viewpoint, and, for spatially varying parameters, per-texel fields carried to the surface through texture coordinates. We separate the fixed camera that defines the objective from the free camera used to inspect the result, and position reverse-mode attribution against its forward-mode dual. Our aim is not a single algorithm but a scaffolding that establishes derivative outputs as first-class render products alongside the primal image.
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -7283,7 +7283,7 @@
 - 2026-10-08, **PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting**, Nicholas Ioannidis et.al., Paper: [@2610.12642](http://arxiv.org/abs/2610.12642)
 > **Abstract:** Motion retargeting is a critical preprocessing step for transferring human motion data to humanoid robots. While existing methods are effective for single-character motions, interactions involving multiple characters and objects introduce additional contacts and spatial relationships that must be preserved. Retargeting is commonly formulated as a weighted multi-objective optimization problem, where conflicting objectives can require careful tuning of relative weights and can still compromise important motion characteristics. We introduce PriMoRetarget, a prioritized motion-retargeting framework that replaces relative objective weighting with an explicit priority hierarchy. Lower-priority updates are constrained to preserve higher-priority objectives, allowing critical characteristics such as foot placement and interaction contacts to take precedence over lower-priority pose objectives. The method is evaluated on four datasets spanning single-character motion, character-object manipulation, and character-character interactions. The resulting motions better preserve task-relevant interactions and provide reference trajectories that can be tracked more reliably than those produced by widely used retargeting methods.
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors

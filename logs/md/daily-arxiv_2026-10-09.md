@@ -3,22 +3,22 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.10.12
+## 📚 Updated on 2026.10.13
 
 <details open>
-<summary>📑 Table of Contents — 2026-10-12</summary>
+<summary>📑 Table of Contents — 2026-10-13</summary>
 
 **By category**
 - [Motion Authoring, Editing & Retargeting](#motion-authoring-editing--retargeting) (1)
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (35)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (30)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (30)
 - [World Models & Generative Video](#world-models--generative-video) (38)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (5)
 - [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (11)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (32)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (31)
-- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (11)
-- [Narrative & Long-form Audio](#narrative--long-form-audio) (4)
+- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (10)
+- [Narrative & Long-form Audio](#narrative--long-form-audio) (3)
 
 </details>
 
@@ -30,7 +30,7 @@
 |---|---|---|---|---|
 |**2026-10-08**|**PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting**|Nicholas Ioannidis et.al.|[@2610.12642](http://arxiv.org/abs/2610.12642)|null|
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Character Motion Synthesis & Animation
 
@@ -72,7 +72,7 @@
 |**2026-09-28**|**ESTHER: Egocentric Stereo Hand Estimation and Reconstruction in the Wild**|Hongyu Ma et.al.|[@2609.34817](http://arxiv.org/abs/2609.34817)|null|
 |**2026-09-28**|**Triangular Resampling for Long-Horizon Motion Generation**|Kunhang Li et.al.|[@2609.34697](http://arxiv.org/abs/2609.34697)|null|
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -109,7 +109,7 @@
 |**2026-10-09**|**GeoGR: Spatial-Semantic Token Compression and Group Routing for Efficient 3D VLMs**|Yongxin Zheng et.al.|[@2610.13035](http://arxiv.org/abs/2610.13035)|null|
 |**2026-10-09**|**CeDR-Nav: Cross-Embodiment Mapless Navigation via Offline Demonstration Recasting**|Xianghui Wang et.al.|[@2610.13007](http://arxiv.org/abs/2610.13007)|null|
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -154,7 +154,7 @@
 |**2026-10-08**|**PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies**|Yu Liu et.al.|[@2610.12285](http://arxiv.org/abs/2610.12285)|null|
 |**2026-10-08**|**Connected Self Forcing: Beyond Local Learning in Video Autoregression**|Dongbin Zhang et.al.|[@2610.12156](http://arxiv.org/abs/2610.12156)|null|
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -166,7 +166,7 @@
 |**2026-10-05**|**Computational Design of Free-Form Lampshades**|Hiro Nakasuji et.al.|[@2610.05770](http://arxiv.org/abs/2610.05770)|null|
 |**2026-10-01**|**ShowerFlex: Achieving Pseudo-Static Balancing in a Continuum Shower Hose**|Zhiyu Ren et.al.|[@2610.00936](http://arxiv.org/abs/2610.00936)|null|
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -184,7 +184,7 @@
 |**2026-09-30**|**NarrativeSteward: Coordinating Delegation, Guidance, and Verification in Agent-Assisted Interactive Narrative Authoring**|Wenjin Wang et.al.|[@2609.39333](http://arxiv.org/abs/2609.39333)|null|
 |**2026-09-29**|**CommSketch: How Speaking while Sketching Steers Human--AI Design Ideation**|Weiyan Shi et.al.|[@2609.37813](http://arxiv.org/abs/2609.37813)|null|
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -223,7 +223,7 @@
 |**2026-10-07**|**Argos: Adapt Rich Geometric Priors for Generalizable Online Scene-Change-Detection**|Ruihan Xu et.al.|[@2610.10181](http://arxiv.org/abs/2610.10181)|null|
 |**2026-10-07**|**DeltaSplat: Iterative Gaussian Refinement for Pose-Free Feed-Forward 3D Gaussian Splatting**|Chanung Park et.al.|[@2610.09853](http://arxiv.org/abs/2610.09853)|null|
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -261,7 +261,7 @@
 |**2026-10-05**|**ReDex: Repairing Sim-to-Real Dexterous Policies by Finger-Level Compliant Interaction**|Jinzhou Li et.al.|[@2610.07525](http://arxiv.org/abs/2610.07525)|null|
 |**2026-10-05**|**MobileVISTA: Generative Data Augmentation for Pose Generalization in Mobile Manipulation**|Suzannah Wistreich et.al.|[@2610.07511](http://arxiv.org/abs/2610.07511)|null|
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -279,7 +279,7 @@
 |**2026-09-29**|**DRHeC: Differentiable Rendering for Hand-Eye Calibration with RGB-Based Gradients**|Xiaotian Zhang et.al.|[@2609.36779](http://arxiv.org/abs/2609.36779)|null|
 |**2026-09-28**|**SurgGMF: Fully Causal Gaussian Motion Forecasting for Anticipatory Surgical Scene Rendering**|Jingqian Sun et.al.|[@2609.34733](http://arxiv.org/abs/2609.34733)|null|
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -290,7 +290,7 @@
 |**2026-09-29**|**AS$^2$D: Accelerating On-Demand Audio Understanding on Mobile Devices**|Yunzhe Li et.al.|[@2609.37617](http://arxiv.org/abs/2609.37617)|null|
 |**2026-09-28**|**Enabling Immersive Audio-Visual Experience from Any Video**|Zitong Lan et.al.|[@2609.36295](http://arxiv.org/abs/2609.36295)|null|
 
-<p align=right>(<a href=#updated-on-20261012>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261013>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors
